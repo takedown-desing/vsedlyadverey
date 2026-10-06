@@ -27,8 +27,10 @@ const pickIn = (cat: string, n: number) => products.filter((p) => p.category.sta
 // hero: фото без логотипов дистрибьюторов
 const clean = (p: Product) => p.variants.some((v) => v.image && v.imageSrc && !/made-italy|fratelli-cattini\.com/.test(v.imageSrc));
 const heroImg = (cat: string) => firstImage(products.find((p) => p.category.startsWith(cat) && clean(p)) || products[0]);
+const srBrands = COMPANY.showroomBrands.map(brandName).join(' и ');
 const slides = [
-  { kicker: 'Италия · Португалия · Россия', h: 'Дверная фурнитура 22 брендов', p: 'Ручки, замки, петли, доводчики и раздвижные системы: подберём комплект под вашу дверь в одном покрытии.', cta: '/catalog/', ctaText: 'Перейти в каталог', img: heroImg('/catalog/dvernye-ruchki/na-rozetke/') },
+  { kicker: 'Colombo Design · TUPAI · ещё 20 брендов', h: 'Европейская дверная фурнитура', p: 'Ручки, замки, петли, доводчики и раздвижные системы: подберём комплект под вашу дверь в одном покрытии.', cta: '/catalog/', ctaText: 'Перейти в каталог', img: heroImg('/catalog/dvernye-ruchki/na-rozetke/') },
+  { kicker: 'Шоурум в Москве', h: `Ручки ${srBrands} вживую`, p: 'Итальянская и португальская фурнитура в шоуруме на Флотской: сравните покрытия и подержите модели в руках до покупки.', cta: '/showroom/', ctaText: 'О шоуруме', img: firstImage(products.find((p) => COMPANY.showroomBrands.includes(p.brand) && p.category.startsWith('/catalog/dvernye-ruchki/') && clean(p)) || products[0]) },
   { kicker: 'Krona Koblenz · AGB · Otlav', h: 'Скрытые петли для дверей-невидимок', p: 'Регулировка 3D, нагрузка до 100 кг на комплект, покрытия под цвет ручек.', cta: '/catalog/dvernye-petli/skrytye/', ctaText: 'Скрытые петли', img: heroImg('/catalog/dvernye-petli/skrytye/') },
   { kicker: 'Магнитные и бесшумные', h: 'Замки для межкомнатных дверей', p: 'Магнитные защёлки AGB Polaris и Koblenz Spinoff: дверь закрывается мягко и без щелчка.', cta: '/catalog/mezhkomnatnye-zamki/magnitnye/', ctaText: 'Магнитные замки', img: heroImg('/catalog/mezhkomnatnye-zamki/') },
 ];
@@ -73,22 +75,18 @@ const kitParts = [
   return p ? { label, p, img: colorImage(p, kitColor) } : null;
 }).filter(Boolean) as { label: string; p: Product; img: string }[];
 
+const D = COMPANY.delivery; const fmt = (n: number) => new Intl.NumberFormat('ru-RU').format(n);
 const services = [
-  { icon: 'store', t: 'Шоурум с образцами', d: 'Покрытия и популярные модели можно посмотреть вживую' },
-  { icon: 'kit', t: 'Подбор по фото', d: 'Пришлите фото двери или старой фурнитуры, подберём замену' },
-  { icon: 'truck', t: 'Доставка по России', d: 'СДЭК, Boxberry, ПВЗ, курьер по Москве' },
-  { icon: 'box', t: 'Самовывоз в день заказа', d: 'Если товар есть на складе и заказ оформлен до 14:00' },
+  { icon: 'store', t: 'Шоурум в Москве', d: `Образцы ${srBrands} можно посмотреть вживую на Флотской, 5 к2` },
+  { icon: 'kit', t: 'Подбор комплекта', d: 'Соберём ручку, замок, петли и упор под вашу дверь в одном покрытии' },
+  { icon: 'truck', t: 'Доставка по Москве и России', d: `В пределах МКАД ${D.mkad} ₽, в регионы транспортными компаниями` },
+  { icon: 'box', t: 'Бесплатная доставка', d: `По Москве при заказе от ${fmt(D.freeMoscowFrom)} ₽, до транспортной компании от ${fmt(D.freeCarrierFrom)} ₽` },
   { icon: 'shield', t: 'Гарантия производителя', d: 'Только оригинальная продукция, страна производства в карточке' },
-  { icon: 'check', t: 'Обмен и возврат', d: 'По закону о защите прав потребителей, без лишних вопросов' },
-];
-const b2b = [
-  { url: '/optovikam/', t: 'Оптовикам и дилерам', d: 'Прайс-лист, оптовые цены, отгрузка со склада в Москве', icon: 'box' },
-  { url: '/dizajneram/', t: 'Дизайнерам и архитекторам', d: 'Образцы покрытий, спецификации для проектов, персональный менеджер', icon: 'kit' },
-  { url: '/proizvoditelyam-dverej/', t: 'Производителям дверей', d: 'Комплектация серий дверей фурнитурой, поставки партиями', icon: 'hinge' },
+  { icon: 'check', t: 'Обмен и возврат', d: 'По закону о защите прав потребителей' },
 ];
 const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/'), potentialAction: { '@type': 'SearchAction', target: abs(Astro.site, '/search/') + '?q={q}', 'query-input': 'required name=q' } }];
 ---
-<Base title={t.title || `${SITE_NAME}: интернет-магазин дверной фурнитуры`} description={t.description || 'Интернет-магазин дверной фурнитуры: ручки, замки, петли, доводчики 22 брендов. Подбор комплекта, доставка по России.'} path="/" schema={schema}>
+<Base title={t.title || `${SITE_NAME}: интернет-магазин дверной фурнитуры`} description={t.description || 'Интернет-магазин дверной фурнитуры: ручки, замки, петли, доводчики европейских брендов. Шоурум в Москве, доставка по России.'} path="/" schema={schema}>
   <section class="hero" aria-label="Предложения">
     {slides.map((s, i) => (
       <div class={'hero-slide' + (i === 0 ? ' on' : '')} data-slide>
@@ -106,7 +104,7 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
 
   <div class="promo">
     <a href={u('/sale/')}><Icon name="percent" /><span><span class="big">Распродажа</span><br /><span class="sm">модели с выбором покрытий</span></span></a>
-    <a href={u('/dostavka/')}><Icon name="truck" /><span><span class="big">Доставка по России</span><br /><span class="sm">СДЭК, Boxberry, курьер по Москве</span></span></a>
+    <a href={u('/dostavka/')}><Icon name="truck" /><span><span class="big">Доставка по России</span><br /><span class="sm">по Москве от {D.mkad} ₽, бесплатно от {fmt(D.freeMoscowFrom)} ₽</span></span></a>
     <a href={u('/catalog/komplekty-furnitury/')}><Icon name="kit" /><span><span class="big">Комплект на дверь</span><br /><span class="sm">ручка, замок, петли в одном цвете</span></span></a>
   </div>
 
@@ -183,20 +181,16 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
     <section class="section">
       <div class="showroom">
         <div class="sr-copy">
-          <div class="kicker">Шоурум и самовывоз</div>
-          <h2>Приезжайте посмотреть образцы</h2>
+          <div class="kicker">Шоурум в Москве</div>
+          <h2>Приезжайте посмотреть образцы {srBrands}</h2>
           <p>{COMPANY.address}. {COMPANY.metro}.</p>
-          <div class="hours" style="margin:12px 0 18px">{COMPANY.hours.map((h) => <><span>{h.d}</span><span>{h.t}</span></>)}</div>
+          {COMPANY.hours.length > 0
+            ? <div class="hours" style="margin:12px 0 18px">{COMPANY.hours.map((h) => <><span>{h.d}</span><span>{h.t}</span></>)}</div>
+            : <p style="margin:12px 0 18px;color:var(--c-text-2)">Время визита согласуйте по телефону: менеджер подготовит нужные модели.</p>}
           <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href={u('/kontakty/')}>Как добраться</a><a class="btn btn-ghost" href={tel(COMPANY.phoneMain)}>{COMPANY.phoneMain}</a></div>
         </div>
         <iframe class="map" src={mapSrc(15)} title="Шоурум на карте" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-    </section>
-
-    <!-- 8. Для бизнеса -->
-    <section class="section">
-      <div class="section-title"><h2>Для бизнеса</h2></div>
-      <div class="b2b-grid">{b2b.map((b) => <a class="b2b-card" href={u(b.url)}><Icon name={b.icon} size={36} /><b>{b.t}</b><span>{b.d}</span><span class="more">Подробнее →</span></a>)}</div>
     </section>
 
     <section class="section">
@@ -208,8 +202,8 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
     <!-- 9. Каталог/прайс в мессенджер (как у morelli.ru) -->
     <section class="section">
       <div class="lead-banner">
-        <div><h2>Получите прайс-лист и каталог покрытий</h2><p>Отправим PDF-каталог с ценами и образцами покрытий в удобный мессенджер или на почту.</p></div>
-        <form class="lead-form" data-demo-form><label class="sr-only" for="lf">Телефон или e-mail</label><input id="lf" name="contact" placeholder="Телефон или e-mail" required /><button class="btn btn-accent" type="submit">Получить каталог</button></form>
+        <div><h2>Поможем подобрать фурнитуру</h2><p>Оставьте телефон: менеджер перезвонит, уточнит размеры двери и соберёт комплект в нужном покрытии.</p></div>
+        <form class="lead-form" data-demo-form><label class="sr-only" for="lf">Телефон</label><input id="lf" name="contact" type="tel" placeholder="Телефон" required /><button class="btn btn-accent" type="submit">Перезвоните мне</button></form>
       </div>
     </section>
 
@@ -223,9 +217,9 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
     <section class="section two-col">
       <div>{t.blocks?.length ? <Blocks blocks={t.blocks} /> : <Prose md={t.text} />}<Faq items={t.faq} /></div>
       <aside class="aside-box">
-        <h3>Оптовым клиентам</h3>
-        <p style="font-size:14.5px;color:var(--c-text-2)">Дилерам, дизайнерам и производителям дверей: индивидуальные цены, образцы покрытий, комплектация под серию.</p>
-        <a class="btn btn-sm" href={u('/optovikam/')}>Условия для опта</a>
+        <h3>Цены и наличие</h3>
+        <p style="font-size:14.5px;color:var(--c-text-2)">Цены на сайте: рекомендованные розничные цены производителей, они зависят от курса евро. Работаем со склада поставщика, под заказ от производителя предоплата {COMPANY.prepayOnOrder}%.</p>
+        <a class="btn btn-sm" href={u('/oplata/')}>Условия оплаты</a>
       </aside>
     </section>
   </div>
@@ -240,6 +234,6 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
         root.querySelectorAll<HTMLElement>('[data-panel]').forEach((p) => { p.hidden = p.dataset.panel !== b.dataset.tab; });
       }));
     });
-    document.querySelectorAll<HTMLFormElement>('[data-demo-form]').forEach((f) => f.addEventListener('submit', (e) => { e.preventDefault(); f.innerHTML = '<p>Спасибо! В рабочей версии каталог придёт на указанный контакт.</p>'; }));
+    document.querySelectorAll<HTMLFormElement>('[data-demo-form]').forEach((f) => f.addEventListener('submit', (e) => { e.preventDefault(); f.innerHTML = '<p>Спасибо! Сайт в тестовом режиме: заявка пока не отправляется, позвоните нам по телефону.</p>'; }));
   </script>
 </Base>

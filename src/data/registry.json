@@ -137,7 +137,7 @@
   "primaryKw": "петли старого образца",
   "ws": 991,
   "parent": "/",
-  "note": "если у клиента есть шоурум; фильтр «есть образец в шоуруме» — фишка todoor"
+  "note": "шоурум подтверждён: Москва, ул. Флотская, 5 к2; в нём только Colombo Design и TUPAI (ответ 06.10.2026)"
  },
  {
   "url": "/dostavka/",
@@ -173,31 +173,31 @@
   "url": "/optovikam/",
   "h1": "Оптовикам и дилерам",
   "type": "b2b",
-  "priority": "P1",
+  "priority": "OFF",
   "primaryKw": "замок опт",
   "ws": 1733,
   "parent": "/",
-  "note": ""
+  "note": "отключено по ответу клиента 06.10.2026 (раздел «Оптовые клиенты»: «пока отключить»); страница не публикуется"
  },
  {
   "url": "/dizajneram/",
   "h1": "Дизайнерам и архитекторам",
   "type": "b2b",
-  "priority": "P2",
+  "priority": "OFF",
   "primaryKw": "",
   "ws": 0,
   "parent": "/",
-  "note": "программа лояльности, образцы, 3D-модели"
+  "note": "отключено по ответу клиента 06.10.2026 (раздел «Оптовые клиенты»: «пока отключить»); страница не публикуется"
  },
  {
   "url": "/proizvoditelyam-dverej/",
   "h1": "Производителям дверей",
   "type": "b2b",
-  "priority": "P2",
+  "priority": "OFF",
   "primaryKw": "",
   "ws": 0,
   "parent": "/",
-  "note": "комплектация под серию, отгрузка партиями"
+  "note": "отключено по ответу клиента 06.10.2026 (раздел «Оптовые клиенты»: «пока отключить»); страница не публикуется"
  },
  {
   "url": "/otzyvy/",
@@ -1457,7 +1457,7 @@
   "primaryKw": "фурнитура для окон",
   "ws": 255310,
   "parent": "/catalog/",
-  "note": "pillar S14: AGB, Colombo, Tupai, Extreza, Cattini"
+  "note": "pillar S14: только оконные и балконные ручки (Colombo, Tupai, Extreza, Cattini); системную фурнитуру клиент не продаёт (ответ 06.10.2026)"
  },
  {
   "url": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
@@ -1493,11 +1493,11 @@
   "url": "/catalog/okonnaya-furnitura/komplektuyushchie/",
   "h1": "Оконные комплектующие",
   "type": "subcategory",
-  "priority": "P3",
+  "priority": "OFF",
   "primaryKw": "петли для окон",
   "ws": 29229,
   "parent": "/catalog/okonnaya-furnitura/",
-  "note": ""
+  "note": "отключено по ответу клиента 06.10.2026 (п. 2.4): оконную фурнитуру кроме ручек не продаём"
  },
  {
   "url": "/catalog/mebelnaya-furnitura/",
@@ -1835,7 +1835,7 @@
   "type": "brand",
   "priority": "P1",
   "primaryKw": "agb купить",
-  "ws": 6207,
+  "ws": 6211,
   "parent": "/brands/",
   "note": "tier A: магнитные замки, скрытые петли Eclipse, замки Mediana, раздвижные Scivola, оконная"
  },
@@ -1900,16 +1900,6 @@
   "note": ""
  },
  {
-  "url": "/brands/agb/okonnaya-furnitura/",
-  "h1": "Оконная фурнитура AGB",
-  "type": "brand-category",
-  "priority": "P1",
-  "primaryKw": "оконная фурнитура agb",
-  "ws": 4,
-  "parent": "/brands/agb/",
-  "note": ""
- },
- {
   "url": "/brands/krona-koblenz/",
   "h1": "Дверная фурнитура Krona Koblenz",
   "type": "brand",
@@ -1957,7 +1947,7 @@
   "primaryKw": "colombo",
   "ws": 13116,
   "parent": "/brands/",
-  "note": "tier A: премиум ручки (Robot и др.), оконные ручки, WC, аксессуары"
+  "note": "tier A: премиум ручки (Robot и др.), оконные ручки, WC, аксессуары; стартовый бренд, есть в шоуруме"
  },
  {
   "url": "/brands/colombo-design/dvernye-ruchki/",
@@ -2157,13 +2147,13 @@
   "primaryKw": "tupai",
   "ws": 1407,
   "parent": "/brands/",
-  "note": "tier B: португальские ручки 5S/5S Q, петли, замки"
+  "note": "tier A: португальские ручки 5S/5S Q, петли, замки; стартовый бренд, есть в шоуруме"
  },
  {
   "url": "/brands/tupai/dvernye-ruchki/",
   "h1": "Дверные ручки TUPAI",
   "type": "brand-category",
-  "priority": "P2",
+  "priority": "P1",
   "primaryKw": "ручка tupai",
   "ws": 1703,
   "parent": "/brands/tupai/",

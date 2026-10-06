@@ -7,6 +7,7 @@ export type Product = {
   slug: string; name: string; brand: string; series: string | null; category: string; article?: string;
   variants: Variant[]; material?: string | null; style?: string | null; doorTypes?: string[];
   specs?: Record<string, string>; description?: string; sourceUrl?: string;
+  hidden?: string; // причина, по которой товар снят с публикации
 };
 export type Block = { type: string; title?: string; [k: string]: any };
 export type PageText = { url: string; title?: string; description?: string; h1?: string; lead?: string; text?: string; blocks?: Block[]; faq?: { q: string; a: string }[] };
@@ -20,11 +21,12 @@ export type Service = { url: string; title: string; description: string; h1: str
 export type Series = { slug: string; name: string; brand: string; title?: string; description?: string; text?: string };
 
 import { COMPANY } from './company';
-export const SITE_NAME = 'MANIGLIA';
+export const SITE_NAME = COMPANY.brand;
 export const PHONE = COMPANY.phoneMain;
 export const EMAIL = COMPANY.email;
 
-export const registry = (registryRaw as RegPage[]).map((p) => ({ ...p, h1: p.h1.replace(/\s+—\s+/g, ': ') }));
+// OFF: страницы, отключённые клиентом (сейчас это B2B-раздел), на сайт не попадают вовсе
+export const registry = (registryRaw as RegPage[]).filter((p) => p.priority !== 'OFF').map((p) => ({ ...p, h1: p.h1.replace(/\s+—\s+/g, ': ') }));
 export const regByUrl = new Map(registry.map((p) => [p.url, p]));
 
 // ---------- загрузка JSON-файлов (любой из них может ещё отсутствовать)
@@ -45,8 +47,12 @@ const serviceMods = import.meta.glob('../data/content/service.json', { eager: tr
 const sectionMods = import.meta.glob('../data/content/sections/g*.json', { eager: true });
 const productTextMods = import.meta.glob('../data/content/products/*.json', { eager: true });
 
+// Стартовые бренды (ответ клиента: «Стартуем с фабриками Colombo, TUPAI»). Сборка с LAUNCH_ONLY=1 оставляет в каталоге только их.
+export const LAUNCH_BRANDS = ['colombo-design', 'tupai'];
+export const LAUNCH_ONLY = typeof process !== 'undefined' && process.env.LAUNCH_ONLY === '1';
 function cleanProduct(p: Product): Product | null {
-  if (!p || !p.slug || !p.name || !p.category) return null;
+  if (!p || !p.slug || !p.name || !p.category || p.hidden) return null;
+  if (LAUNCH_ONLY && !LAUNCH_BRANDS.includes(p.brand)) return null;
   // Фото показываем только с подтверждённым источником и не с сайтов конкурентов (водяные знаки).
   const BLOCKED = /todoor\.ru/i;
   const variants = (p.variants || []).filter(Boolean).map((v) => ({ ...v, image: v.image && v.imageSrc && !BLOCKED.test(v.imageSrc) ? v.image : null }));
@@ -76,12 +82,14 @@ export const services = new Map(loadArray<Service>(serviceMods).map((s) => [s.ur
 
 // ---------- бренды
 export const BRANDS: { slug: string; name: string; tier: string }[] = [
+  ['colombo-design', 'Colombo Design', 'A'], ['tupai', 'TUPAI', 'A'],
   ['morelli', 'Morelli', 'A'], ['fuaro', 'FUARO', 'A'], ['punto', 'PUNTO', 'A'], ['armadillo', 'Armadillo', 'A'], ['agb', 'AGB', 'A'],
-  ['krona-koblenz', 'Krona Koblenz', 'A'], ['colombo-design', 'Colombo Design', 'A'], ['fratelli-cattini', 'Fratelli Cattini', 'A'],
-  ['fantom', 'FANTOM', 'B'], ['verum', 'Verum', 'B'], ['ajax', 'AJAX', 'B'], ['class', 'CLASS', 'B'], ['tupai', 'TUPAI', 'B'],
+  ['krona-koblenz', 'Krona Koblenz', 'A'], ['fratelli-cattini', 'Fratelli Cattini', 'A'],
+  ['fantom', 'FANTOM', 'B'], ['verum', 'Verum', 'B'], ['ajax', 'AJAX', 'B'], ['class', 'CLASS', 'B'],
   ['extreza', 'Extreza', 'B'], ['otlav', 'Otlav', 'B'], ['lockstyle', 'LockStyle', 'B'], ['venezia', 'VENEZIA', 'B'], ['forme', 'FORME', 'B'],
   ['pamar', 'Pamar', 'C'], ['melodia', 'MELODIA', 'C'], ['comaglio', 'Comaglio', 'C'], ['porta-di-parma', 'Porta di Parma', 'C'],
 ].map(([slug, name, tier]) => ({ slug, name, tier }));
+export const inShowroom = (brand: string) => COMPANY.showroomBrands.includes(brand);
 export const brandName = (slug: string) => BRANDS.find((b) => b.slug === slug)?.name ?? slug;
 
 // ---------- навигация: 16 разделов каталога + иконки
@@ -266,7 +274,7 @@ export function facetsFor(items: Product[]): Facet[] {
   for (const key of ['brand', 'color', 'style', 'material', 'country', 'series', 'stock']) {
     const m = count.get(key); if (!m || m.size < 2) continue;
     if (key === 'series' && m.size > 20) continue;
-    const opts = [...m.entries()].map(([v, n]) => ({ v, n, label: key === 'brand' ? brandName(v) : key === 'color' ? (COLOR_NAMES[v] || v) : key === 'style' ? (STYLE_NAMES[v] || v) : key === 'stock' ? (v === 'yes' ? 'В наличии' : 'Под заказ') : v }));
+    const opts = [...m.entries()].map(([v, n]) => ({ v, n, label: key === 'brand' ? brandName(v) : key === 'color' ? (COLOR_NAMES[v] || v) : key === 'style' ? (STYLE_NAMES[v] || v) : key === 'stock' ? (v === 'yes' ? STOCK_LABEL.yes : STOCK_LABEL.no) : v }));
     opts.sort((a, b) => key === 'brand' ? a.label.localeCompare(b.label) : b.n - a.n);
     out.push({ key, label: LABEL[key], options: opts });
   }
@@ -280,6 +288,8 @@ export function facetsFor(items: Product[]): Facet[] {
   }
   return out;
 }
+// клиент работает со склада поставщика; чего нет на складе, везёт под заказ от производителя
+export const STOCK_LABEL = { yes: 'На складе поставщика', no: 'Под заказ' };
 export const PER_PAGE = 24;
 export const pagesCount = (n: number) => Math.max(1, Math.ceil(n / PER_PAGE));
 export function colorImage(p: Product, color?: string) {
@@ -348,8 +358,11 @@ export const KITS = buildKits();
 
 // ---------- страницы без товаров не публикуются (не генерируются, исчезают из навигации и ссылок)
 const EMPTY_TYPES = new Set(['category', 'subcategory', 'tag', 'brand', 'brand-category', 'series', 'door-type']);
+// служебные страницы без содержимого: сертификаты клиент не давал
+const NO_CONTENT = new Set(['/sertifikaty/']);
 export const isEmptyPage = (url: string): boolean => {
   const r = regByUrl.get(url);
+  if (NO_CONTENT.has(url)) return true;
   if (!r || url === '/catalog/') return false;
   if (r.type === 'kit') return KITS.length === 0;
   if (!EMPTY_TYPES.has(r.type)) return false;

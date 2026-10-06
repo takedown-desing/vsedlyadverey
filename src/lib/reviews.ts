@@ -1,4 +1,4 @@
-// Вымышленные отзывы демо-версии. НЕ размечаются schema.org (Review/AggregateRating), помечены на сайте.
+// Вымышленные отзывы (клиент на вопрос об отзывах не ответил, ждём реальные). НЕ размечаются schema.org (Review/AggregateRating), помечены на сайте.
 import data from '../data/content/reviews.json';
 export type Review = { name: string; city: string; date: string; rating: number; product: string; productName: string; text: string };
 export const REVIEWS = (data as { reviews: Review[] }).reviews;

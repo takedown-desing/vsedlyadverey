@@ -6,7 +6,7 @@ import { REVIEWS, REVIEWS_NOTE, RATING, ratingStr } from '../lib/reviews';
 import { SITE_NAME } from '../lib/data';
 const dist = [5, 4, 3, 2, 1].map((s) => ({ s, n: REVIEWS.filter((r) => r.rating === s).length }));
 ---
-<Base title={`Отзывы покупателей о магазине ${SITE_NAME}`} description={`Отзывы покупателей о магазине дверной фурнитуры ${SITE_NAME}: подбор, доставка, качество ручек, замков и петель. Демо-версия.`} path="/otzyvy/" crumbs={[{ url: '/', name: 'Главная' }, { url: '/otzyvy/', name: 'Отзывы' }]}>
+<Base title={`Отзывы покупателей о магазине «${SITE_NAME}»`} description={`Отзывы покупателей о магазине дверной фурнитуры «${SITE_NAME}»: подбор, доставка, качество ручек, замков и петель.`} path="/otzyvy/" crumbs={[{ url: '/', name: 'Главная' }, { url: '/otzyvy/', name: 'Отзывы' }]}>
   <div class="wrap">
     <div class="page-head"><h1>Отзывы покупателей</h1></div>
     <p class="demo-note">{REVIEWS_NOTE}</p>

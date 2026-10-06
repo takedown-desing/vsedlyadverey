@@ -2,10 +2,10 @@
 import Base from '../../layouts/Base.astro';
 import BrandTiles from '../../components/BrandTiles.astro';
 import Prose from '../../components/Prose.astro';
-import { pageTexts, BRANDS, brandTexts, products, SITE_NAME, isEmptyPage } from '../../lib/data';
+import { pageTexts, BRANDS, brandTexts, products, SITE_NAME, isEmptyPage, inShowroom } from '../../lib/data';
 import { u } from '../../lib/url';
 const t = pageTexts.get('/brands/') || {};
-const tiers = [['A', 'Ключевые бренды'], ['B', 'Бренды ассортимента'], ['C', 'Под заказ и нишевые']];
+const tiers = [['A', 'Ключевые бренды'], ['B', 'Бренды ассортимента'], ['C', 'Нишевые бренды']];
 ---
 <Base title={t.title || `Бренды дверной фурнитуры | ${SITE_NAME}`} description={t.description || 'Все бренды дверной фурнитуры в каталоге: Италия, Португалия, Россия.'} path="/brands/" crumbs={[{ url: '/', name: 'Главная' }, { url: '/brands/', name: 'Бренды' }]}>
   <div class="wrap">
@@ -18,7 +18,7 @@ const tiers = [['A', 'Ключевые бренды'], ['B', 'Бренды ас�
             const bt = brandTexts.get(b.slug); const n = products.filter((p) => p.brand === b.slug).length;
             return <a class="brand-tile" style="height:auto;padding:18px;display:block;text-align:left" href={u(`/brands/${b.slug}/`)}>
               <span style="font-size:18px">{b.name}</span>
-              <small>{[bt?.country, bt?.segment].filter(Boolean).join(' · ')}{n ? ` · ${n} моделей` : ''}</small>
+              <small>{[bt?.country, bt?.segment].filter(Boolean).join(' · ')}{n ? ` · ${n} моделей` : ''}{inShowroom(b.slug) ? ' · есть в шоуруме' : ''}</small>
             </a>;
           })}
         </div>

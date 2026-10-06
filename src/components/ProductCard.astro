@@ -1,6 +1,6 @@
 ---
 import type { Product } from '../lib/data';
-import { brandName, minPrice, rub, firstImage, COLOR_HEX, COLOR_NAMES, pluralRu } from '../lib/data';
+import { brandName, minPrice, rub, firstImage, COLOR_HEX, COLOR_NAMES, pluralRu, STOCK_LABEL } from '../lib/data';
 import { u } from '../lib/url';
 const { p, eager = false } = Astro.props as { p: Product; eager?: boolean };
 const price = minPrice(p);
@@ -27,5 +27,5 @@ const href = u(`/product/${p.slug}/`);
     {colors.slice(0, 7).map((c) => <span class="sw" style={`background:${COLOR_HEX[c] || '#ccc'}`} title={COLOR_NAMES[c] || c}></span>)}
   </div>
   <div class="card-price">{price ? <><small>{p.variants.length > 1 ? 'от ' : ''}</small>{rub(price)}</> : <small>Цена по запросу</small>}</div>
-  <div class={'card-stock' + (inStock ? '' : ' no')}>{inStock ? 'В наличии' : 'Под заказ'}</div>
+  <div class={'card-stock' + (inStock ? '' : ' no')}>{inStock ? STOCK_LABEL.yes : STOCK_LABEL.no}</div>
 </article>

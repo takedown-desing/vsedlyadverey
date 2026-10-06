@@ -2,30 +2,32 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { COMPANY, tel, mapSrc } from '../lib/company';
-import { SITE_NAME } from '../lib/data';
+import { SITE_NAME, brandName } from '../lib/data';
+const srBrands = COMPANY.showroomBrands.map(brandName).join(' и ');
 import { u, abs } from '../lib/url';
 const schema = [{
-  '@type': 'Store', name: SITE_NAME, legalName: COMPANY.legalName, url: abs(Astro.site, '/'), telephone: COMPANY.phoneMain, email: COMPANY.email,
-  address: { '@type': 'PostalAddress', streetAddress: COMPANY.address.replace(/^Москва, /, ''), addressLocality: 'Москва', addressCountry: 'RU' },
-  geo: { '@type': 'GeoCoordinates', latitude: COMPANY.geo.lat, longitude: COMPANY.geo.lon }, openingHours: COMPANY.hoursSchema,
-}, { '@type': 'ContactPage', name: `Контакты ${SITE_NAME}`, url: abs(Astro.site, '/kontakty/') }];
+  '@type': 'Store', name: SITE_NAME, legalName: COMPANY.legalName, url: abs(Astro.site, '/'), telephone: COMPANY.phoneMain, ...(COMPANY.email ? { email: COMPANY.email } : {}),
+  address: { '@type': 'PostalAddress', streetAddress: COMPANY.street, addressLocality: COMPANY.city, postalCode: COMPANY.postalCode, addressCountry: 'RU' },
+  geo: { '@type': 'GeoCoordinates', latitude: COMPANY.geo.lat, longitude: COMPANY.geo.lon }, ...(COMPANY.hoursSchema.length ? { openingHours: COMPANY.hoursSchema } : {}),
+}, { '@type': 'ContactPage', name: `Контакты магазина «${SITE_NAME}»`, url: abs(Astro.site, '/kontakty/') }];
 ---
-<Base title={`Контакты магазина дверной фурнитуры ${SITE_NAME}: адрес, телефон, шоурум`} description={`Адрес шоурума ${SITE_NAME} в Москве, телефоны, e-mail, режим работы, схема проезда и реквизиты компании.`} path="/kontakty/" schema={schema} crumbs={[{ url: '/', name: 'Главная' }, { url: '/kontakty/', name: 'Контакты' }]}>
+<Base title={`Контакты магазина «${SITE_NAME}»: адрес шоурума, телефон`} description={`Шоурум «${SITE_NAME}» в Москве: ул. Флотская, д. 5, к. 2. Телефон, схема проезда на карте и реквизиты ${COMPANY.legalName}.`} path="/kontakty/" schema={schema} crumbs={[{ url: '/', name: 'Главная' }, { url: '/kontakty/', name: 'Контакты' }]}>
   <div class="wrap">
-    <div class="page-head"><h1>Контакты</h1><p class="lead">Шоурум и склад в Москве, доставка по всей России. Позвоните, напишите в мессенджер или приезжайте посмотреть образцы покрытий вживую.</p></div>
+    <div class="page-head"><h1>Контакты</h1><p class="lead">Шоурум в Москве на Флотской улице, доставка по Москве и всей России. Позвоните или приезжайте посмотреть образцы {srBrands} вживую.</p></div>
     <div class="contact-grid">
       <div>
         <dl class="kv">
           <dt>Телефон</dt><dd><a href={tel(COMPANY.phoneMain)} style="font-size:20px">{COMPANY.phoneMain}</a><br /><small style="color:var(--c-muted)">{COMPANY.phoneMainNote}</small></dd>
-          <dt>Мессенджеры</dt><dd><a href={tel(COMPANY.phoneMobile)}>{COMPANY.phoneMobile}</a><br /><small style="color:var(--c-muted)">{COMPANY.phoneMobileNote}</small></dd>
-          <dt>E-mail</dt><dd><a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a> · заказы<br /><a href={`mailto:${COMPANY.emailOpt}`}>{COMPANY.emailOpt}</a> · опт и дилеры</dd>
-          <dt>Адрес</dt><dd>{COMPANY.address}<br /><small style="color:var(--c-muted)">{COMPANY.showroom}</small></dd>
-          <dt>Как добраться</dt><dd>{COMPANY.metro}. Бесплатная парковка для клиентов у входа.</dd>
-          <dt>Режим работы</dt><dd>{COMPANY.hours.map((h) => <div>{h.d}: {h.t}</div>)}</dd>
+          <dt>Мессенджеры</dt><dd>{COMPANY.messengers.map((m, i) => <>{i > 0 && ', '}{m.url ? <a href={m.url} rel="noopener">{m.name}</a> : m.name}</>)}{COMPANY.messengers.some((m) => !m.url) && <><br /><small style="color:var(--c-muted)">аккаунты подключаются, пока звоните по телефону</small></>}</dd>
+          {COMPANY.email && <><dt>E-mail</dt><dd><a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a></dd></>}
+          <dt>Адрес шоурума</dt><dd>{COMPANY.legalAddress}<br /><small style="color:var(--c-muted)">В шоуруме представлены {srBrands}</small></dd>
+          <dt>Как добраться</dt><dd>{COMPANY.metro}</dd>
+          <dt>Режим работы</dt><dd>{COMPANY.hours.length ? COMPANY.hours.map((h) => <div>{h.d}: {h.t}</div>) : 'Время визита в шоурум согласуйте по телефону'}</dd>
         </dl>
         <div class="aside-box" style="margin-top:26px">
-          <h3>Самовывоз</h3>
-          <p style="font-size:14.5px;color:var(--c-text-2)">Заказ, оформленный до 14:00, обычно готов к выдаче в тот же день, если товар есть на складе. Дождитесь сообщения о готовности и возьмите с собой номер заказа.</p>
+          <h3>Что есть в шоуруме</h3>
+          <p style="font-size:14.5px;color:var(--c-text-2)">В шоуруме выставлены ручки и фурнитура {srBrands}: можно сравнить покрытия и подержать модели в руках. Остальные бренды каталога привозим со склада поставщика, образцов в шоуруме по ним нет. Перед визитом позвоните, чтобы менеджер подготовил нужные модели.</p>
+          <p style="font-size:14.5px;margin:10px 0 0"><a href={u('/showroom/')}>Подробнее о шоуруме</a> · <a href={u('/dostavka/')}>Условия доставки</a></p>
         </div>
       </div>
       <div>
@@ -37,13 +39,16 @@ const schema = [{
     <section class="section">
       <h2>Реквизиты</h2>
       <div class="btable"><table><tbody>
-        <tr><th scope="row">Полное наименование</th><td>{COMPANY.legalName}</td></tr>
+        <tr><th scope="row">Наименование</th><td>{COMPANY.legalName}</td></tr>
         <tr><th scope="row">ИНН / КПП</th><td>{COMPANY.inn} / {COMPANY.kpp}</td></tr>
         <tr><th scope="row">ОГРН</th><td>{COMPANY.ogrn}</td></tr>
-        <tr><th scope="row">Юридический и фактический адрес</th><td>{COMPANY.address}</td></tr>
-        <tr><th scope="row">Банк</th><td>{COMPANY.bank}</td></tr>
+        <tr><th scope="row">ОКПО</th><td>{COMPANY.okpo}</td></tr>
+        <tr><th scope="row">Адрес</th><td>{COMPANY.legalAddress}</td></tr>
+        <tr><th scope="row">Банк</th><td>{COMPANY.bank.name}</td></tr>
+        <tr><th scope="row">Расчётный счёт</th><td>{COMPANY.bank.account}</td></tr>
+        <tr><th scope="row">Корр. счёт</th><td>{COMPANY.bank.corr}</td></tr>
+        <tr><th scope="row">БИК</th><td>{COMPANY.bank.bik}</td></tr>
       </tbody></table></div>
-      <p class="bnote">Демо-реквизиты: компания вымышленная, данные приведены для примера оформления страницы.</p>
     </section>
 
     <section class="section">
@@ -53,7 +58,7 @@ const schema = [{
         <label class="sr-only" for="ph">Телефон</label><input id="ph" name="phone" placeholder="Телефон" type="tel" required />
         <label class="sr-only" for="m">Сообщение</label><textarea id="m" name="msg" placeholder="Что нужно подобрать? Можно приложить размеры двери"></textarea>
         <button class="btn btn-accent" type="submit">Отправить</button>
-        <p style="font-size:13px;color:var(--c-muted)">Демо: форма не отправляет данные.</p>
+        <p style="font-size:13px;color:var(--c-muted)">Тестовый режим: форма пока не отправляет данные, звоните по телефону.</p>
       </form>
     </section>
   </div>

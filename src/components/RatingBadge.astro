@@ -7,5 +7,5 @@ const { dark = false } = Astro.props as { dark?: boolean };
 <a class={'rating-badge' + (dark ? ' dark' : '')} href={u('/otzyvy/')}>
   <span class="rb-top"><span class="rb-val">{ratingStr}</span><Stars value={RATING} /></span>
   <span class="rb-sub">Рейтинг магазина · {REVIEWS.length} отзывов</span>
-  <span class="rb-note">демо: отзывы вымышленные</span>
+  <span class="rb-note">тестовый режим: отзывы вымышленные</span>
 </a>

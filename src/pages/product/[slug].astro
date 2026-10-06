@@ -8,8 +8,9 @@ import { REVIEWS, REVIEWS_NOTE } from '../../lib/reviews';
 import Icon from '../../components/Icon.astro';
 import {
   products, regByUrl, breadcrumbs, brandName, rub, COLOR_HEX, COLOR_NAMES, CATEGORY_NAV, articles, SERIES_RULES, registry, SITE_NAME, minPrice,
-  productTexts, colorSlug,
+  productTexts, colorSlug, STOCK_LABEL, inShowroom,
 } from '../../lib/data';
+import { COMPANY } from '../../lib/company';
 import type { Product } from '../../lib/data';
 import { u, abs } from '../../lib/url';
 export function getStaticPaths() {
@@ -24,7 +25,7 @@ const bname = brandName(p.brand);
 const price = minPrice(p);
 const withFinish = `${p.name}${v0.finish ? ', ' + v0.finish : ''}`;
 const title = withFinish.length <= 55 ? `${withFinish}: купить, цена` : p.name.length <= 60 ? `${p.name}: купить` : p.name;
-const description = `${p.name} (${bname}${p.article ? ', арт. ' + p.article : ''}). ${p.variants.length > 1 ? p.variants.length + ' покрытий. ' : ''}${price ? 'Цена от ' + new Intl.NumberFormat('ru-RU').format(price) + ' ₽. ' : ''}Доставка по России.`;
+const description = `${p.name} (${bname}${p.article ? ', арт. ' + p.article : ''}). ${p.variants.length > 1 ? p.variants.length + ' покрытий. ' : ''}${price ? 'Цена от ' + new Intl.NumberFormat('ru-RU').format(price) + ' ₽. ' : ''}Доставка по Москве и России.`;
 const topCat = CATEGORY_NAV.find((c) => p.category.startsWith(c.url))?.url || '';
 const similar = products.filter((x) => x.slug !== p.slug && x.category === p.category).slice(0, 4);
 const sameSeries = p.series ? products.filter((x) => x.slug !== p.slug && x.brand === p.brand && x.series === p.series).slice(0, 4) : [];
@@ -66,9 +67,9 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
       <div>
         <div class="p-brand"><a href={u(`/brands/${p.brand}/`)}>{bname}</a>{p.series && seriesUrl && <> · <a href={u(seriesUrl)}>серия {p.series}</a></>}</div>
         <h1 class="p-title">{p.name}</h1>
-        <div class="p-meta">{p.article && <span>Артикул: <b id="p-art">{v0.article || p.article}</b></span>}<span id="p-stock" style={`color:${v0.inStock === false ? 'var(--c-muted)' : 'var(--c-ok)'}`}>{v0.inStock === false ? 'Под заказ' : 'В наличии'}</span></div>
+        <div class="p-meta">{p.article && <span>Артикул: <b id="p-art">{v0.article || p.article}</b></span>}<span id="p-stock" data-yes={STOCK_LABEL.yes} data-no={STOCK_LABEL.no} style={`color:${v0.inStock === false ? 'var(--c-muted)' : 'var(--c-ok)'}`}>{v0.inStock === false ? STOCK_LABEL.no : STOCK_LABEL.yes}</span></div>
         <div class="p-price" id="p-price">{rub(v0.price)}</div>
-        <div class="p-note">Цена ориентировочная (демо), уточняйте у менеджера</div>
+        <div class="p-note">Цена ориентировочная и зависит от курса евро, наличие и срок подтверждает менеджер. Под заказ от производителя: предоплата {COMPANY.prepayOnOrder}%.</div>
         {p.variants.length > 0 && (
           <>
             <div style="font-size:14.5px">Покрытие: <b id="p-finish">{v0.finish}</b></div>
@@ -88,9 +89,9 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
           <a class="btn btn-ghost" href={u('/catalog/komplekty-furnitury/')}>Собрать комплект</a>
         </div>
         <div class="p-perks">
-          <div><Icon name="truck" />Доставка по России: СДЭК, Boxberry, курьер</div>
+          <div><Icon name="truck" />Доставка по Москве {COMPANY.delivery.mkad} ₽, бесплатно от {new Intl.NumberFormat('ru-RU').format(COMPANY.delivery.freeMoscowFrom)} ₽; в регионы транспортной компанией</div>
           <div><Icon name="shield" />Гарантия производителя, оригинальная продукция</div>
-          <div><Icon name="store" />Образцы покрытий в шоуруме (уточняйте наличие)</div>
+          {inShowroom(p.brand) && <div><Icon name="store" /><span>Образцы {bname} есть в <a href={u('/showroom/')}>шоуруме</a> на Флотской, наличие модели уточняйте</span></div>}
         </div>
         {(pt?.intro || p.description) && <p style="margin-top:22px;font-size:15.5px">{pt?.intro || p.description}</p>}
       </div>
@@ -130,7 +131,7 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
     document.getElementById('p-price')!.textContent = fmt(d.price || '');
     document.getElementById('p-finish')!.textContent = d.finish || '';
     const art = document.getElementById('p-art'); if (art) art.textContent = d.art || '';
-    const st = document.getElementById('p-stock')!; st.textContent = d.stock === '1' ? 'В наличии' : 'Под заказ'; st.style.color = d.stock === '1' ? 'var(--c-ok)' : 'var(--c-muted)';
+    const st = document.getElementById('p-stock')!; st.textContent = d.stock === '1' ? (st.dataset.yes || '') : (st.dataset.no || ''); st.style.color = d.stock === '1' ? 'var(--c-ok)' : 'var(--c-muted)';
     setMain(d.img || '', d.finish || '');
     if (add) { add.dataset.finish = d.finish; add.dataset.price = d.price; if (d.rawimg) add.dataset.img = d.rawimg; }
     if (!(b as any)._silent) { const url = new URL(location.href); url.searchParams.set('color', d.cslug || ''); history.replaceState(null, '', url); }

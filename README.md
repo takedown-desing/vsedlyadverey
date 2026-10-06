@@ -1,6 +1,6 @@
-# MANIGLIA — интернет-магазин дверной фурнитуры (демо)
+# «Всё для дверей»: интернет-магазин дверной фурнитуры (тестовая версия)
 
-Демо-версия интернет-магазина дверной фурнитуры на 22 бренда (Colombo Design, Krona Koblenz, AGB, Tupai, Venezia, Fratelli Cattini, Morelli, FUARO, Armadillo, PUNTO и др.). Название **MANIGLIA**, контакты и домен — заглушки. Визуальный референс — todoor.ru.
+Тестовая версия интернет-магазина дверной фурнитуры на 22 бренда (Colombo Design, Krona Koblenz, AGB, Tupai, Venezia, Fratelli Cattini, Morelli, FUARO, Armadillo, PUNTO и др.). Домен магазина: вседлядверей.рф. Данные компании лежат в `src/lib/company.ts`. Цены ориентировочные до загрузки прайса поставщиков. Сборка `LAUNCH_ONLY=1 npm run build` оставляет в каталоге только стартовые бренды (Colombo Design, TUPAI).
 
 Структура сайта (разделы, URL, теги, бренды, перелинковка, sitemap) построена по SEO-проектированию: семантика Wordstat, SERP-кластеризация Яндекса, анализ конкурентов.
 
