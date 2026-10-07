@@ -1,0 +1,180 @@
+{
+  "slug": "venezia-crs010",
+  "name": "Универсальная латунная петля Venezia CRS010 102x76x3",
+  "brand": "venezia",
+  "series": null,
+  "order": 313,
+  "category": "/catalog/dvernye-petli/universalnye/",
+  "article": "CRS010",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "CRS010 102x76x3",
+      "price": 4404,
+      "inStock": true,
+      "image": "/images/products/venezia-crs010-polirovannyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-petlja-universalnaja-latunnaja-s-kruglym-kolpachkom-venezia-crs010-102x76x3-polirovannyj-hrom.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "CRS010 102x76x3",
+      "price": 5417,
+      "inStock": true,
+      "image": "/images/products/venezia-crs010-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-petlja-universalnaja-latunnaja-s-kruglym-kolpachkom-venezia-crs010-102x76x3-chernyj.1-scaled.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "CRS010 102x76x3",
+      "price": 3927,
+      "inStock": true,
+      "image": "/images/products/venezia-crs010-polirovannaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-petlja-universalnaja-latunnaja-s-kruglym-kolpachkom-venezia-crs010-102x76x3-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "французское золото",
+      "color": "gold",
+      "article": "CRS010 102x76x3",
+      "price": 4394,
+      "inStock": true,
+      "image": "/images/products/venezia-crs010-francuzskoe-zoloto.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-petlja-universalnaja-latunnaja-s-kruglym-kolpachkom-venezia-crs010-102x76x3-francuzskoe-zoloto-scaled.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "CRS010 102x76x3",
+      "price": 3992,
+      "inStock": true,
+      "image": "/images/products/venezia-crs010-antichnaya-bronza.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-petlja-universalnaja-latunnaja-s-kruglym-kolpachkom-venezia-crs010-102x76x3-antichnaja-bronza-scaled.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "CRS010 102x76x3",
+      "price": 3992,
+      "inStock": true,
+      "image": "/images/products/venezia-crs010-matovaya-bronza.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-petlja-universalnaja-latunnaja-s-kruglym-kolpachkom-venezia-crs010-102x76x3-matovaja-bronza-scaled.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "CRS010 102x76x3",
+      "price": 4968,
+      "inStock": true,
+      "image": "/images/products/venezia-crs010-antichnoe-serebro.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-petlja-universalnaja-latunnaja-s-kruglym-kolpachkom-venezia-crs010-102x76x3-antichnoe-serebro-scaled.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "карточная универсальная"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "102 x 76 x 3"
+    },
+    {
+      "k": "Декор",
+      "v": "круглые колпачки"
+    },
+    {
+      "k": "Подшипники",
+      "v": "2"
+    },
+    {
+      "k": "Нагрузка на 3 петли, кг",
+      "v": "78"
+    },
+    {
+      "k": "Толщина полотна, мм",
+      "v": "от 35"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    }
+  ],
+  "description": "Итальянская латунная петля с округлыми колпачками, которая хорошо смотрится в классических интерьерах рядом с ручками Venezia. Три петли выдерживают полотно до 78 кг. Универсальна для правых и левых дверей и открывается на 180 градусов.",
+  "intro": "Venezia CRS010 латунная универсальная петля 102x76x3 с круглыми колпачками. Её делают на итальянской фабрике Comit, которая выпускает и классические ручки Venezia, поэтому петля хорошо смотрится рядом с ними. Три петли держат полотно до 78 кг, покрытий семь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Классический декор",
+          "text": "Круглые колпачки на оси подходят к латунным ручкам в классических интерьерах.",
+          "icon": "kit"
+        },
+        {
+          "title": "До 78 кг на трёх петлях",
+          "text": "Латунная карта 3 мм позволяет вешать тяжёлые филёнчатые полотна.",
+          "icon": "shield"
+        },
+        {
+          "title": "Два подшипника",
+          "text": "Подшипники снижают износ оси и делают ход ровным.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Семь отделок",
+          "text": "Полированная латунь, французское золото, полированный хром, матовая и античная бронза, античное серебро и чёрный.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Размер | 102 x 76 x 3 мм",
+        "Подшипники | 2",
+        "Нагрузка | 78 кг на 3 петли",
+        "Толщина полотна | от 35 мм",
+        "Декор | круглые колпачки",
+        "Материал | латунь",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "На массивную классическую дверь берите три петли, их паспортный предел 78 кг.",
+        "Подбирайте отделку петли под ручку Venezia: французское золото или античную бронзу проще сочетать внутри одной марки.",
+        "Толщина полотна от 35 мм.",
+        "Под карту 102 x 76 мм нужна выборка в торце полотна и в коробке."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подходит ли CRS010 для левых и правых дверей?",
+      "a": "Да, петля универсальная."
+    },
+    {
+      "q": "На сколько открывается дверь?",
+      "a": "Петля даёт открывание на 180 градусов, если этому не мешают наличник и стена."
+    },
+    {
+      "q": "Будет ли античная бронза совпадать с ручками Venezia?",
+      "a": "Петли и ручки выпускает одна фабрика, поэтому покрытия одной отделки согласуются лучше, чем фурнитура разных марок."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-petlya-universalnaya-latunnaya-s-kruglym-kolpachkom-venezia-crs010-102x76x3-polirovannyj-hrom/"
+}

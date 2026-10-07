@@ -1,0 +1,154 @@
+{
+  "slug": "punto-ds-pw-80",
+  "name": "Настенный упор Punto DS PW-80",
+  "brand": "punto",
+  "series": null,
+  "order": 353,
+  "category": "/catalog/upory-i-ogranichiteli/nastennye/",
+  "article": "DS PW-80",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "DS PW-80 CP-8",
+      "price": 208,
+      "inStock": true,
+      "image": "/images/products/punto-ds-pw-80-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/34753.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "DS PW-80 SN-3",
+      "price": 208,
+      "inStock": true,
+      "image": "/images/products/punto-ds-pw-80-matovyy-nikel.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/1/34759.jpg"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "DS PW-80 GP-5",
+      "price": 208,
+      "inStock": true,
+      "image": "/images/products/punto-ds-pw-80-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/34755.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "DS PW-80 SG-4",
+      "price": 208,
+      "inStock": true,
+      "image": "/images/products/punto-ds-pw-80-matovoe-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/1/34757.jpg"
+    },
+    {
+      "finish": "кофе",
+      "color": "other",
+      "article": "DS PW-80 CF-17",
+      "price": 208,
+      "inStock": true,
+      "image": "/images/products/punto-ds-pw-80-kofe.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/1/34749.jpg"
+    },
+    {
+      "finish": "зелёная бронза",
+      "color": "bronze",
+      "article": "DS PW-80 ABG-6",
+      "price": 208,
+      "inStock": true,
+      "image": "/images/products/punto-ds-pw-80-zelenaya-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/0/34747.jpg"
+    }
+  ],
+  "material": "цинковый сплав ZAMAK",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "настенный"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "80 x 37"
+    },
+    {
+      "k": "Рекомендуемая высота установки, мм",
+      "v": "70 ± 15 от пола"
+    }
+  ],
+  "description": "Удлинённый настенный упор Punto длиной 80 мм для входных и межкомнатных дверей. Ставится на стену на высоте около 70 мм от пола. Доступен в шести популярных покрытиях, включая кофе и зелёную бронзу.",
+  "intro": "Punto DS PW-80 - удлинённый настенный упор размером 80 на 37 мм для входных и межкомнатных дверей. Производитель рекомендует ставить его низко, на высоте около 70 мм от пола, поэтому упор незаметен и принимает удар нижней частью полотна. Шесть покрытий, включая кофе и зелёную бронзу.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Длина 80 мм",
+          "text": "Удлинённый корпус выступает от стены достаточно, чтобы остановить дверь раньше плинтуса и ручки.",
+          "icon": "stop"
+        },
+        {
+          "title": "Низкий монтаж",
+          "text": "Рекомендуемая высота 70 ± 15 мм от пола: упор не попадает в поле зрения и не мешает мебели.",
+          "icon": "check"
+        },
+        {
+          "title": "Корпус из ZAMAK",
+          "text": "Цинковый сплав прочен и подходит для частых ударов входной двери.",
+          "icon": "shield"
+        },
+        {
+          "title": "Шесть покрытий",
+          "text": "Хром, матовый никель, золото, матовое золото, кофе и зелёная бронза.",
+          "icon": "handle"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | настенный",
+        "Размер | 80 x 37 мм",
+        "Рекомендуемая высота установки | 70 ± 15 мм от пола",
+        "Материал | цинковый сплав ZAMAK",
+        "Покрытия | хром, матовый никель, золото, матовое золото, кофе, зелёная бронза"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте плинтус: рекомендуемая высота 55-85 мм часто совпадает с его зоной. Упор ставят над плинтусом или делают в нём вырез.",
+        "Убедитесь, что низ полотна проходит над плинтусом и встречается с упором, а не с плинтусом.",
+        "Для входной двери выбирайте прочную стену и дюбель под её материал.",
+        "Кофе и зелёная бронза сочетаются с ручками в тёплых классических тонах, хром и никель с современными."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему упор ставят так низко?",
+      "a": "Так он принимает удар нижней части полотна, остаётся незаметным и не мешает мебели у стены. Точную высоту подбирают в пределах 70 ± 15 мм."
+    },
+    {
+      "q": "Хватит ли длины 80 мм при толстом плинтусе?",
+      "a": "Обычно да, упор заметно длиннее стандартных настенных. Но если плинтус массивный, проверьте, чтобы дверь касалась упора раньше."
+    },
+    {
+      "q": "Можно ли поставить PW-80 выше?",
+      "a": "Можно, но рекомендация производителя дана для нижней зоны. При установке на высоте ручки лучше взять упор другой формы."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/upor-dvernoj-punto--punto-ds-pw-80-cp-8-khrom.html"
+}

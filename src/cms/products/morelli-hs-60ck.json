@@ -1,0 +1,153 @@
+{
+  "slug": "morelli-hs-60ck",
+  "name": "Цилиндровый механизм Morelli HS 60CK ключ/вертушка",
+  "brand": "morelli",
+  "series": "HS",
+  "order": 449,
+  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "article": "HS 60CK",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "HS 60CK PG",
+      "price": 1059,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60ck-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JB2BF0PBS5ZH3EXMH33R876E.webp"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "HS 60CK PC",
+      "price": 1114,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60ck-polirovannyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JB2BC607ZJEQ11WEJKMK334D.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "HS 60CK AB",
+      "price": 1160,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60ck-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JP4RPSX90RXDZ4Y4F911BT55.png"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "HS 60CK W",
+      "price": 1160,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60ck-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JFD8XSKCMYAZ6FJ3E3D3P3M9.png"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "HS 60CK SN",
+      "price": 1160,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60ck-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JB2BNAD7WJ7TWV15JZ6PACK7.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "HS 60CK BL",
+      "price": 1160,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60ck-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JB23YP6MR7Z6207416J8JK73.webp"
+    }
+  ],
+  "material": "латунь",
+  "style": null,
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ключ/вертушка"
+    },
+    {
+      "k": "Длина, мм",
+      "v": "60"
+    },
+    {
+      "k": "Серия",
+      "v": "HS (повышенной секретности)"
+    }
+  ],
+  "description": "Цилиндр Morelli HS с вертушкой для межкомнатных дверей: снаружи дверь открывается ключом, изнутри поворотом вертушки. Шесть отделок в тон ручкам Morelli, включая белый и чёрный.",
+  "intro": "Morelli HS 60CK - цилиндр серии HS с вертушкой для межкомнатных дверей: снаружи дверь открывается ключом, изнутри поворотом вертушки. Длина 60 мм, латунный корпус. Шесть отделок в тон ручкам Morelli, включая белый и чёрный, которые редко встречаются у цилиндров.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Белый и чёрный",
+          "text": "Цилиндр можно подобрать под белую или чёрную фурнитуру, а не только под металл.",
+          "icon": "check"
+        },
+        {
+          "title": "Вертушка",
+          "text": "Детская, спальня, санузел с замком под цилиндр: изнутри закрываются без ключа.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Серия HS",
+          "text": "Серия HS заявлена производителем как цилиндры повышенной секретности.",
+          "icon": "lock"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ключ/вертушка",
+        "Длина | 60 мм",
+        "Серия | HS (повышенной секретности)",
+        "Материал | латунь",
+        "Двери | межкомнатные"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте, что 60 мм подходит по толщине двери",
+        "Вертушку ставят со стороны комнаты",
+        "Накладки подберите той же отделки",
+        "Подходит к замкам Morelli IM L и другим под евроцилиндр"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Цилиндр вставляют вертушкой внутрь помещения и фиксируют винтом через торец замка. Затем надевают накладки. Белое и чёрное покрытие вертушки со временем может потереться в месте захвата пальцами, поэтому чистят его мягкой тканью без абразивов."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подходит ли HS 60CK для детской?",
+      "a": "Да, ребёнок закроется вертушкой, а взрослые смогут открыть дверь ключом снаружи."
+    },
+    {
+      "q": "Чем отличается от HS 60C?",
+      "a": "У HS 60C ключ с обеих сторон, у HS 60CK изнутри вертушка. У 60CK шесть отделок против четырёх."
+    },
+    {
+      "q": "Можно ли поставить цилиндр в замок другой марки?",
+      "a": "Подойдёт в любой замок под стандартный профильный евроцилиндр."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2215"
+}

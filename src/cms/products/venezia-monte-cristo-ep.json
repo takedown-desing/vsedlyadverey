@@ -1,0 +1,141 @@
+{
+  "slug": "venezia-monte-cristo-ep",
+  "name": "Ручка для профильных дверей Venezia MONTE CRISTO EP",
+  "brand": "venezia",
+  "series": "MONTE CRISTO",
+  "order": 287,
+  "category": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/",
+  "article": "MONTE CRISTO EP",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "MONTE CRISTO EP EP",
+      "price": 10437,
+      "inStock": true,
+      "image": "/images/products/venezia-monte-cristo-ep-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-monte-cristo-ep-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "MONTE CRISTO EP EP",
+      "price": 11026,
+      "inStock": true,
+      "image": "/images/products/venezia-monte-cristo-ep-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-monte-cristo-ep-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "MONTE CRISTO EP EP",
+      "price": 12458,
+      "inStock": false,
+      "image": "/images/products/venezia-monte-cristo-ep-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-monte-cristo-ep-antichnoe-serebro.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "aluminium",
+    "pvc",
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для профильной двери"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "овальная"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "MONTE CRISTO на узкой овальной розетке EP создана для алюминиевых и профильных дверей, где стойка рамы не вмещает круглую розетку. Выразительный латунный рычаг придает остекленной двери классический характер.",
+  "intro": "MONTE CRISTO на узкой овальной розетке EP создана для алюминиевых и профильных дверей, где стойка рамы не вмещает круглое основание. Выразительный латунный рычаг придаёт остеклённой двери классический характер. Покрытия полированная латунь, матовая бронза и античное серебро.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Выразительный рычаг",
+          "text": "Крупная классическая форма заметна даже на лёгкой стеклянной двери.",
+          "icon": "handle"
+        },
+        {
+          "title": "Узкая розетка EP",
+          "text": "Вытянутый овал укладывается в стойку профиля.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь",
+          "text": "Литой корпус итальянского производства.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | алюминиевые, ПВХ, остеклённые межкомнатные",
+        "Розетка | овальная EP",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, античное серебро",
+        "Гарантия | 5 лет",
+        "Цена указана за | 1 комплект (2 шт.)"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Замерьте ширину стойки профиля: розетка не должна заходить на стекло или штапик.",
+        "Сверьте квадрат ручки с замком профильной двери.",
+        "Если в двери есть цилиндр, накладку под него подбирают отдельно в том же покрытии.",
+        "Для глухих деревянных дверей квартиры можно выбрать классические модели Venezia на круглой розетке."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Ручку на остеклённой двери удобно протирать вместе со стеклом, но средство для стёкол наносите на салфетку, а не на металл. Полированную латунь вытирают фланелью, матовую бронзу сухой тканью. Античное серебро не полируют."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли MONTE CRISTO для алюминиевой перегородки?",
+      "a": "Да, узкая розетка EP рассчитана на алюминиевые и профильные двери."
+    },
+    {
+      "q": "В каких покрытиях выпускается?",
+      "a": "Полированная латунь, матовая бронза и античное серебро."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "5 лет."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-monte-cristo-ep-polirovannaja-latun/"
+}

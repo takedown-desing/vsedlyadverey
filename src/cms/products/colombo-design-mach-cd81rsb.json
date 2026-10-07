@@ -1,0 +1,152 @@
+{
+  "slug": "colombo-design-mach-cd81rsb",
+  "name": "Дверная ручка Colombo Design Mach CD81RSB на круглой розетке",
+  "brand": "colombo-design",
+  "series": "Mach",
+  "order": 200,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "CD81RSB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "CD81RSB-CM",
+      "price": 6823,
+      "inStock": false,
+      "image": "/images/products/colombo-design-mach-cd81rsb-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-mach-cd81rsb-cm-matovyj-hrom.8.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "CD81RSB-OA",
+      "price": 6823,
+      "inStock": false,
+      "image": "/images/products/colombo-design-mach-cd81rsb-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-mach-cd81rsb-oa-matovaja-bronza.4.jpg"
+    },
+    {
+      "finish": "матовое золото PVD",
+      "color": "gold",
+      "article": "CD81RSB-OM",
+      "price": 7809,
+      "inStock": true,
+      "image": "/images/products/colombo-design-mach-cd81rsb-matovoe-zoloto-pvd.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-mach-cd81rsb-om-matovoe-zoloto.2.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "CD81RSB-OL",
+      "price": 7141,
+      "inStock": false,
+      "image": "/images/products/colombo-design-mach-cd81rsb-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-mach-cd81rsb-ol-polirovannaja-latun.5.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "754"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "10 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Mach сочетает округлую шейку и слегка сужающийся к концу рычаг, за счет чего ручка выглядит легкой и динамичной. Модель подходит для межкомнатных дверей в современных и неоклассических интерьерах, особенно эффектно смотрится в матовой бронзе и золоте.",
+  "intro": "Mach CD81RSB от Colombo Design отличается округлой шейкой и рычагом, который постепенно сужается к концу. Ручка выглядит лёгкой и динамичной и одинаково уместна в современных и неоклассических интерьерах, особенно в тёплых покрытиях. Комплект рассчитан на одну дверь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Сужающийся рычаг",
+          "text": "Форма рычага утончается к краю, поэтому ручка кажется легче, чем есть на самом деле.",
+          "icon": "handle"
+        },
+        {
+          "title": "Выразительные покрытия",
+          "text": "Матовая бронза и матовое золото PVD раскрывают пластику модели лучше холодного хрома.",
+          "icon": "rosette"
+        },
+        {
+          "title": "754 г веса",
+          "text": "Одна из самых тяжёлых моделей Colombo из ЦАМ: массивный литой корпус даёт уверенный ход.",
+          "icon": "shield"
+        },
+        {
+          "title": "Итальянское производство",
+          "text": "Ручка выпускается в Италии, на покрытие действует гарантия 10 лет.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные распашные",
+        "Стиль | современный, неоклассика",
+        "Розетка | круглая",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый хром, матовая бронза, матовое золото PVD, полированная латунь",
+        "Комплект | 2 ручки на одну дверь"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Бронзу и золото сочетайте с петлями и упорами в том же тоне, иначе разница оттенков будет заметна.",
+        "Для спальни или санузла понадобится завёртка на круглой розетке, для кабинета накладка под цилиндр.",
+        "Межкомнатную защёлку подбирайте отдельно, ручка передаёт усилие через квадрат.",
+        "На дверях с филёнками проверьте, чтобы розетка не заходила на рельеф полотна."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "В каком интерьере Mach смотрится лучше всего?",
+      "a": "Модель универсальна, но особенно хорошо выглядит в неоклассике и тёплых современных интерьерах в бронзе или золоте. В матовом хроме она спокойнее и подходит к светлым дверям."
+    },
+    {
+      "q": "Насколько ручка массивная?",
+      "a": "Комплект весит 754 г, при этом за счёт сужающегося рычага визуально она не выглядит громоздкой."
+    },
+    {
+      "q": "Входят ли в комплект розетки?",
+      "a": "Да, комплект рассчитан на одну дверь: две ручки на круглых розетках и крепёж. Защёлка и накладки приобретаются отдельно."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-colombo-mach-cd-81-rsb-matovyj-hrom/"
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "morelli-lvb-ph",
+  "name": "Ручка-скоба Morelli LVB PH",
+  "brand": "morelli",
+  "series": "LVB",
+  "order": 253,
+  "category": "/catalog/dvernye-ruchki/skoby/",
+  "article": "LVB PH",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "летняя гроза (черный матовый)",
+      "color": "black",
+      "article": "LVB PH SST",
+      "price": 27000,
+      "inStock": false,
+      "image": "/images/products/morelli-lvb-ph-letnyaya-groza.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KJAK5JSKEJ781K0T6WX6J1ZC.webp"
+    },
+    {
+      "finish": "зимняя стужа (темный никель)",
+      "color": "nickel",
+      "article": "LVB PH WF",
+      "price": 27000,
+      "inStock": false,
+      "image": "/images/products/morelli-lvb-ph-zimnyaya-stuzha.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KJYTMT5RNSASV5NG2Y7NFCVQ.png"
+    },
+    {
+      "finish": "весенняя дымка (серый металлик)",
+      "color": "graphite",
+      "article": "LVB PH SMI",
+      "price": 27000,
+      "inStock": false,
+      "image": "/images/products/morelli-lvb-ph-vesennyaya-dymka.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KJYZ8R6GCF32PDRWNZ758FQE.webp"
+    },
+    {
+      "finish": "стокгольмский снегопад (светлое серебро)",
+      "color": "silver",
+      "article": "LVB PH SSW",
+      "price": 27000,
+      "inStock": false,
+      "image": "/images/products/morelli-lvb-ph-stokgolmskiy-snegopad.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KM0M4BN8TCA4XFXZ4Y8HQ97M.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-скоба"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "LOGINOFF"
+    }
+  ],
+  "description": "Скоба LVB PH из той же дизайнерской серии LOGINOFF, что и нажимные ручки LVB, поэтому их можно сочетать на распашных и раздвижных дверях. Подходит для дверей гардеробных, раздвижных полотен и входов в общественные пространства.",
+  "intro": "Скоба LVB PH относится к той же дизайнерской серии LOGINOFF, что и нажимные ручки LVB, поэтому их удобно сочетать на распашных и раздвижных дверях. Скобу ставят на двери гардеробных, раздвижные полотна и входы в общественные пространства. Ручка отлита из цинкового сплава.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Пара к ручкам LVB",
+          "text": "Одинаковая пластика и покрытия у скобы и нажимных ручек.",
+          "icon": "kit"
+        },
+        {
+          "title": "Без механизма",
+          "text": "Скоба тянет полотно и не требует защёлки.",
+          "icon": "handle"
+        },
+        {
+          "title": "Авторские цвета",
+          "text": "Четыре покрытия коллекции LOGINOFF.",
+          "icon": "rosette"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | гардеробные, раздвижные, общественные пространства",
+        "Коллекция | LOGINOFF",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | летняя гроза, зимняя стужа, весенняя дымка, стокгольмский снегопад"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Межосевое расстояние скобы уточните до сверления полотна.",
+        "На раздвижной двери, заходящей в пенал, выступающая скоба помешает полотну.",
+        "Решите, нужна ли скоба с двух сторон, и уточните количество в упаковке.",
+        "Для фиксации полотна понадобится магнит, доводчик или роликовая защёлка."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "С чем сочетается скоба LVB PH?",
+      "a": "С нажимными ручками LVB на планке из коллекции LOGINOFF в том же покрытии."
+    },
+    {
+      "q": "Можно ли поставить скобу на раздвижную дверь?",
+      "a": "Да, при условии что полотно скользит вдоль стены. В пенал дверь со скобой не зайдёт."
+    },
+    {
+      "q": "Что такое летняя гроза?",
+      "a": "Авторское название чёрного матового покрытия."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/4875"
+}

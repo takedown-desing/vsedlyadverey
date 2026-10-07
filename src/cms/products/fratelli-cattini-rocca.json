@@ -1,0 +1,159 @@
+{
+  "slug": "fratelli-cattini-rocca",
+  "name": "Дверная стучалка Fratelli Cattini Rocca 110 мм",
+  "brand": "fratelli-cattini",
+  "series": "Rocca",
+  "order": 61,
+  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "article": "ROCCA 110",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "FCT1860",
+      "price": 9708,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-rocca-matovaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-stuchalka-fratelli-cattini-rocca-110-mm-bs-matovaja-latun.jpg"
+    },
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "FCT1862",
+      "price": 9303,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-rocca-matovyy-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-stuchalka-fratelli-cattini-rocca-110-mm-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "FCT1861",
+      "price": 9303,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-rocca-matovaya-bronza.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-stuchalka-fratelli-cattini-rocca-110-mm-by-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "FCT1859",
+      "price": 9303,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-rocca-matovyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-stuchalka-fratelli-cattini-rocca-110-mm-cs-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "FCT1857",
+      "price": 8049,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-rocca-polirovannaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-stuchalka-fratelli-cattini-rocca-110-mm-olv-polirovannaja-latun.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "дверная стучалка (гонг)"
+    },
+    {
+      "k": "Форма",
+      "v": "кольцо на круглой розетке"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "110"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    }
+  ],
+  "description": "Лаконичная стучалка-кольцо на круглом основании без декора, которая подходит и к современным, и к сдержанным классическим фасадам. Корпус из латуни, пять покрытий от полированной латуни до матового чёрного. Диаметр кольца 110 мм.",
+  "intro": "Fratelli Cattini Rocca: лаконичная стучалка-кольцо диаметром 110 мм на круглой розетке без декора. Она подходит и к современным входным дверям, и к сдержанным классическим фасадам, где фигурная стучалка со львом была бы лишней. Корпус из латуни, пять покрытий.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Кольцо без декора",
+          "text": "Чистая геометрия кольца и розетки вписывается в минимализм и неоклассику.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Диаметр 110 мм",
+          "text": "Компактнее фигурных стучалок и не перегружает узкую или гладкую дверь.",
+          "icon": "check"
+        },
+        {
+          "title": "Пять покрытий",
+          "text": "Матовая латунь, матовый чёрный, матовая бронза, матовый хром и полированная латунь.",
+          "icon": "kit"
+        },
+        {
+          "title": "Латунь, Италия",
+          "text": "Корпус из латуни итальянского производства, гарантия 24 месяца.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | дверная стучалка (гонг)",
+        "Форма | кольцо на круглой розетке",
+        "Размер | 110 мм",
+        "Материал | латунь",
+        "Покрытия | матовая латунь, матовый чёрный, матовая бронза, матовый хром, полированная латунь",
+        "Страна производства | Италия",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "На светлой двери контрастнее смотрятся матовый чёрный и бронза, на тёмном шпоне и эмали латунь и хром.",
+        "Розетку ставят по оси полотна выше ручки, так чтобы кольцо свободно падало и не задевало фурнитуру.",
+        "На гладкой двери стучалка становится главным акцентом, остальную фурнитуру берите в том же покрытии.",
+        "Длину крепежа уточните под толщину полотна до покупки."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход",
+      "md": "Латунь под покрытием не требует полировки. Кольцо и розетку протирают мягкой тканью, смоченной мыльной водой, и сразу вытирают насухо. Спиртовые и абразивные средства снимают защитный слой, особенно на матовых отделках. Если кольцо начало болтаться или розетка сместилась, подтяните её крепёж, пока на полотне не появились следы от ударов."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли Rocca к современной двери?",
+      "a": "Да, круглая розетка и кольцо без декора спокойно смотрятся на гладких полотнах в стиле минимализм."
+    },
+    {
+      "q": "Какого размера стучалка?",
+      "a": "Диаметр кольца 110 мм, это заметно меньше львиных моделей 190×110 мм."
+    },
+    {
+      "q": "Какие покрытия есть?",
+      "a": "Матовая латунь (FCT1860), матовый чёрный (FCT1862), матовая бронза (FCT1861), матовый хром (FCT1859) и полированная латунь (FCT1857)."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-stuchalka-fratelli-cattini-rocca-110-mm-olv-polirovannaya-latun/"
+}

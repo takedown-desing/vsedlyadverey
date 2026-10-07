@@ -1,0 +1,153 @@
+{
+  "slug": "venezia-wc-2-d1",
+  "name": "Фиксатор поворотный Venezia WC-2 D1",
+  "brand": "venezia",
+  "series": null,
+  "order": 431,
+  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "article": "WC-2 D1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "WC-2 D1",
+      "price": 4788,
+      "inStock": true,
+      "image": "/images/products/venezia-wc-2-d1-polirovannaya-latun.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/75c/75c7cd968da2948e195dc57f6b448599.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "WC-2 D1",
+      "price": 4788,
+      "inStock": true,
+      "image": "/images/products/venezia-wc-2-d1-antichnaya-bronza.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/c25/c25eddfd9d80b211f034c451508fd9d6.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "WC-2 D1",
+      "price": 5061,
+      "inStock": true,
+      "image": "/images/products/venezia-wc-2-d1-polirovannyy-hrom.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/1db/1db8da69ced4213d675393f71169d1e2.png"
+    },
+    {
+      "finish": "французское золото",
+      "color": "gold",
+      "article": "WC-2 D1",
+      "price": 5376,
+      "inStock": true,
+      "image": "/images/products/venezia-wc-2-d1-francuzskoe-zoloto.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/ef1/ef13cd55532cf4f3ce173077db98bf3b.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "WC-2 D1",
+      "price": 4788,
+      "inStock": false,
+      "image": "/images/products/venezia-wc-2-d1-matovaya-bronza.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/637/6376ed7c67d21e51dcdd81460b23c6dc.png"
+    },
+    {
+      "finish": "тёмная бронза",
+      "color": "bronze",
+      "article": "WC-2 D1",
+      "price": 5191,
+      "inStock": false,
+      "image": "/images/products/venezia-wc-2-d1-temnaya-bronza.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/d89/d8948311f5e1ed9f568311960df57d42.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "поворотный фиксатор WC"
+    },
+    {
+      "k": "Розетка",
+      "v": "D1 (классическая)"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Классический итальянский фиксатор Venezia на фигурной розетке D1 для санузла. Сочетается с ручками Venezia в классическом стиле. Доступен в латуни, бронзе, хроме, французском золоте и античном серебре.",
+  "intro": "Venezia WC-2 D1 - классический итальянский поворотный фиксатор на фигурной розетке D1 для санузла. Он сочетается с ручками Venezia в классическом стиле и выпускается в шести покрытиях: полированная латунь, полированный хром, французское золото, античная, матовая и тёмная бронза.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Розетка D1",
+          "text": "Фигурная классическая розетка, совпадающая с ручками и накладками Venezia D1.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь",
+          "text": "Литой латунный корпус, типичный для классической фурнитуры Venezia.",
+          "icon": "shield"
+        },
+        {
+          "title": "Три бронзы",
+          "text": "Античная, матовая и тёмная бронза позволяют попасть точно в тон ручке.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | поворотный фиксатор WC",
+        "Розетка | D1 (классическая)",
+        "Материал | латунь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "К фиксатору подойдут накладки Venezia CYL-1 D1 на такой же розетке",
+        "Квадрат фиксатора сверьте с сантехническим замком",
+        "Бронзовые оттенки разных партий сравнивайте на одном свету",
+        "Проверьте длину штока под толщину полотна"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Фигурную розетку D1 выставляют симметрично ручке, иначе на классической двери сдвиг будет бросаться в глаза. Латунь с состаренными покрытиями чистят только сухой мягкой тканью. Полироли и средства для металла снимают патину."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли WC-2 D1 к ручке на планке?",
+      "a": "Стилистически лучше к ручкам на розетке D1. Для ручек на планке завертка обычно встроена в саму планку."
+    },
+    {
+      "q": "Что такое французское золото?",
+      "a": "Мягкий приглушённый золотой тон, который выглядит спокойнее полированной латуни."
+    },
+    {
+      "q": "С каким замком ставить?",
+      "a": "С сантехническим замком под завертку, квадрат которого совпадает с фиксатором."
+    }
+  ],
+  "sourceUrl": "https://zamkitut.com/catalog/product/fiksator-santekhnicheskiy-venezia-wc-2-d1-polirovannaya-latun/"
+}

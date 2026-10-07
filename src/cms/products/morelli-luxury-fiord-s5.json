@@ -1,0 +1,149 @@
+{
+  "slug": "morelli-luxury-fiord-s5",
+  "name": "Дверная ручка Morelli Luxury FIORD S5 на квадратной розетке",
+  "brand": "morelli",
+  "series": "Luxury",
+  "order": 147,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "FIORD S5",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "кофе",
+      "color": "bronze",
+      "article": "FIORD S5 CAFFE",
+      "price": 6370,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-fiord-s5-kofe.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/January2020/3FtwSl4p4nbC9Wj1NAqG.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "FIORD S5 CRO",
+      "price": 6960,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-fiord-s5-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/January2020/DtVIqLkbv54aiJcOoV5w.webp"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "FIORD S5 CSA",
+      "price": 6370,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-fiord-s5-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/January2020/2zEA0dBROLATHFDg4oNE.webp"
+    },
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "FIORD S5 NERO",
+      "price": 6370,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-fiord-s5-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2020/tYQjPhw8PpZ0G4LQ2Hms.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Линейка",
+      "v": "Luxury New Era"
+    },
+    {
+      "k": "Срок службы",
+      "v": "не менее 7 лет"
+    },
+    {
+      "k": "Гарантия",
+      "v": "1 год"
+    }
+  ],
+  "description": "FIORD сочетает тонкий прямой рычаг с массивным основанием, которое ступенькой выходит из квадратной розетки S5. Такая графичная форма хорошо смотрится на гладких современных дверях. Ручка раздельная, выполнена из цинкового сплава и выпускается в кофейном, чёрном, хромированном и матово-хромовом цветах.",
+  "intro": "FIORD из коллекции Morelli Luxury New Era сочетает тонкий прямой рычаг с массивным основанием, которое ступенькой выходит из квадратной розетки S5. Графичная форма хорошо смотрится на гладких современных дверях без филёнок. Ручка раздельная, корпус из цинкового сплава, итальянский дизайн, четыре цвета.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Ступенчатое основание",
+          "text": "Массивная ножка переходит в тонкий рычаг, это главный акцент модели.",
+          "icon": "handle"
+        },
+        {
+          "title": "Квадратная розетка S5",
+          "text": "Прямые грани поддерживают геометрию рычага и гладкого полотна.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Четыре цвета",
+          "text": "Кофе, хром, матовый хром и чёрный под разные оттенки дверей.",
+          "icon": "kit"
+        },
+        {
+          "title": "Цинковый сплав",
+          "text": "Прочный корпус, срок службы не менее 7 лет.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ручка на розетке",
+        "Форма розетки | квадратная",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Линейка | Luxury New Era",
+        "Цвета | кофе, хром, матовый хром, чёрный",
+        "Срок службы | не менее 7 лет",
+        "Гарантия | 1 год"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Отдельно понадобится защёлка или магнитный замок под межкомнатную дверь.",
+        "Накладки и WC-завёртку выбирайте с квадратной розеткой, чтобы форма совпадала.",
+        "Кофейный цвет удачно смотрится с тёплым деревом, хром и чёрный с эмалью и шпоном холодных тонов.",
+        "На двери с молдингами и филёнками строгая геометрия FIORD может выглядеть чужеродно."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем FIORD отличается от SPUTNIK?",
+      "a": "У FIORD тонкий прямой рычаг на массивном ступенчатом основании, у SPUTNIK широкая плоская рукоять со скруглёнными гранями. Обе модели на квадратной розетке S5."
+    },
+    {
+      "q": "Есть ли FIORD в белом цвете?",
+      "a": "В каталоге модель представлена в кофейном, хромированном, матово-хромовом и чёрном цветах."
+    },
+    {
+      "q": "Можно ли поставить FIORD на дверь в классическом стиле?",
+      "a": "Технически да, но графичная форма лучше раскрывается на гладких современных полотнах."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/95"
+}

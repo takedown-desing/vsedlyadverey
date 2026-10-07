@@ -1,0 +1,139 @@
+{
+  "slug": "fratelli-cattini-luccia-pl01",
+  "name": "Дверная ручка Fratelli Cattini LUCCIA на планке PL01",
+  "brand": "fratelli-cattini",
+  "series": "LUCCIA",
+  "order": 218,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "LUCCIA PL01",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "PL01-OLV",
+      "price": 10201,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-luccia-pl01-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-luccia-pl01-olv-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "PL01-BY",
+      "price": 10099,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-luccia-pl01-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-luccia-pl01-by-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "PL01-NM",
+      "price": 9428,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-luccia-pl01-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-luccia-pl01-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "PL01-CR",
+      "price": 10277,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-luccia-pl01-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-luccia-pl01-cr-polirovannyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "LUCCIA на планке PL01 создана для классических межкомнатных дверей: мягкий изгиб рычага сочетается с фигурной латунной планкой. Модель выпускается в покрытиях от полированной латуни до матового черного, что позволяет вписать ее и в неоклассику.",
+  "intro": "LUCCIA на планке PL01 создана для классических межкомнатных дверей: мягкий изгиб рычага сочетается с фигурной латунной планкой. Палитра от полированной латуни до матового чёрного позволяет вписать модель и в неоклассику. Ручка латунная, выпускается в Италии и продаётся комплектом на одну дверь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Мягкий изгиб",
+          "text": "Рычаг без резкого декора спокойнее барочных моделей и подходит к сдержанной классике.",
+          "icon": "handle"
+        },
+        {
+          "title": "Фигурная планка PL01",
+          "text": "Латунная накладка с плавным контуром оформляет дверь и закрывает крепёж.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Чёрный для неоклассики",
+          "text": "Матовый чёрный переводит классическую форму в современный контекст.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | классические межкомнатные",
+        "Стиль | классика, неоклассика",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, матовый чёрный, полированный хром",
+        "Гарантия | 5 лет",
+        "Страна производства | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Перед заказом уточните, есть ли на планке отверстие под ключ или цилиндр, и сверьте это с механизмом в двери.",
+        "Планка PL01 должна поместиться на стойку полотна между краем и филёнкой.",
+        "Замок или защёлку приобретайте отдельно.",
+        "Чёрная ручка на белой классической двери выглядит графично, латунь теплее и традиционнее."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "LUCCIA подойдёт для неоклассики?",
+      "a": "Да, особенно в матовом чёрном или полированном хроме. Плавная форма без лишнего декора хорошо работает в неоклассических интерьерах."
+    },
+    {
+      "q": "Сколько ручек в комплекте?",
+      "a": "Две ручки на планках, то есть на обе стороны одной двери."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "Гарантия на модель 5 лет."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-planke-fratelli-cattini-luccia-pl01-olv-polirovannaja-latun/"
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "agb-minimal-b02402-05",
+  "name": "Ответная магнитная планка AGB Minimal B02402.05 для Mediana Polaris",
+  "brand": "agb",
+  "series": "Mediana Polaris",
+  "order": 420,
+  "category": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/",
+  "article": "B02402.05",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "B02402.05.93",
+      "price": 467,
+      "inStock": true,
+      "image": "/images/products/agb-minimal-b02402-05-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/05/37455_01.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "B02402.05.23",
+      "price": 432,
+      "inStock": true,
+      "image": "/images/products/agb-minimal-b02402-05-matovaya-latun.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/05/30457_01.jpg"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "B02402.05.FM",
+      "price": 475,
+      "inStock": true,
+      "image": "/images/products/agb-minimal-b02402-05-belyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/05/38845_01.jpg"
+    },
+    {
+      "finish": "латунь",
+      "color": "brass",
+      "article": "B02402.05.03",
+      "price": 446,
+      "inStock": true,
+      "image": "/images/products/agb-minimal-b02402-05-latun.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/05/26901_01.jpg"
+    },
+    {
+      "finish": "никель",
+      "color": "nickel",
+      "article": "B02402.05.06",
+      "price": 412,
+      "inStock": true,
+      "image": "/images/products/agb-minimal-b02402-05-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/05/27305_01.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "B02402.05.12",
+      "price": 556,
+      "inStock": true,
+      "image": "/images/products/agb-minimal-b02402-05-antichnaya-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/05/26899_01.jpg"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ответная планка с магнитом"
+    },
+    {
+      "k": "Совместимость",
+      "v": "AGB Mediana Polaris"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Фирменная ответная планка AGB для магнитных замков Mediana Polaris. Нужна при покупке замка в технической упаковке или при замене изношенной планки. Цвет подбирается под лицевую планку замка.",
+  "intro": "AGB Minimal B02402.05 - фирменная магнитная ответная планка для замков Mediana Polaris. Она нужна, если замок куплен в технической упаковке без планки, или когда старую планку пора заменить. Шесть отделок: чёрный, белый, латунь, матовая латунь, никель и античная бронза.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Магнит внутри",
+          "text": "Именно магнит планки выдвигает язычок Polaris при закрывании двери. Без него замок не защёлкнется.",
+          "icon": "lock"
+        },
+        {
+          "title": "Родная для Polaris",
+          "text": "Планка создана AGB под эту серию, совместимость не нужно проверять по размерам.",
+          "icon": "check"
+        },
+        {
+          "title": "Цвет под замок",
+          "text": "Шесть отделок, чтобы планка в коробке совпала с лицевой планкой замка.",
+          "icon": "seal"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ответная планка с магнитом",
+        "Совместимость | AGB Mediana Polaris",
+        "Материал | сталь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте, что ваш замок из серии Mediana Polaris",
+        "Выберите цвет под лицевую планку замка",
+        "С обычными механическими защёлками магнитная планка не нужна",
+        "При замене старой планки паз в коробке обычно подходит без доработки"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Планку врезают в коробку напротив язычка после навески двери. Сначала закрепляют одним шурупом и проверяют, как язычок входит в отверстие, затем фиксируют окончательно. Металлическую стружку после фрезеровки нужно убрать полностью: магнит притягивает её, и язычок начинает заедать."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли планка к магнитному замку другого бренда?",
+      "a": "Она рассчитана на Mediana Polaris. Замки с посадкой Polaris, например Fuaro M96WC-50 и M85C-50, лучше проверять по паспорту."
+    },
+    {
+      "q": "Почему язычок Polaris перестал выдвигаться?",
+      "a": "Частая причина: стружка или грязь в планке, либо планка сместилась. Очистите её и проверьте положение."
+    },
+    {
+      "q": "Нужна ли планка, если замок уже с ней?",
+      "a": "Нет. Отдельно планку берут для замков в технической упаковке или на замену."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/b02402-05-93-b01402-otvet-magnitnaya-planka-minimal-chernyj-dlya-mediana-polaris/"
+}

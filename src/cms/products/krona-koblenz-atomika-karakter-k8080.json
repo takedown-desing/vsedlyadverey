@@ -1,0 +1,169 @@
+{
+  "slug": "krona-koblenz-atomika-karakter-k8080",
+  "name": "Скрытая петля Krona Koblenz Atomika Karakter K8080",
+  "brand": "krona-koblenz",
+  "series": "Atomika",
+  "order": 64,
+  "category": "/catalog/dvernye-petli/skrytye/",
+  "article": "K8080",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "K8080 CS",
+      "price": 4538,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-atomika-karakter-k8080-matovyy-hrom.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/124/atomika-k8080cs_s9qx-8v_s5ci-v6.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "K8080 NO",
+      "price": 5082,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-atomika-karakter-k8080-chernyy.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/125/atomika-k8080no_xnzi-xv_j8q1-3h.webp"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "K8080 OS",
+      "price": 5572,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-atomika-karakter-k8080-matovoe-zoloto.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/126/atomika-k8080os.webp"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "K8080 BR",
+      "price": 4862,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-atomika-karakter-k8080-bronza.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/123/atomika-k8080br_iffa-wq_79ii-18.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "K8080 BI",
+      "price": 4594,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-atomika-karakter-k8080-belyy.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/112/atomika-k8080bi.webp"
+    }
+  ],
+  "material": "штампованная сталь",
+  "style": "minimal",
+  "doorTypes": [
+    "interior",
+    "fire"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "скрытая 3D-регулируемая"
+    },
+    {
+      "k": "Нагрузка, кг",
+      "v": "80 на 2 петли, 100 на 3 петли"
+    },
+    {
+      "k": "Толщина двери, мм",
+      "v": "от 36"
+    },
+    {
+      "k": "Угол открывания",
+      "v": "180°"
+    },
+    {
+      "k": "Регулировки, мм",
+      "v": "±3 по высоте, +3/−2 по горизонтали, ±1 по прижиму"
+    },
+    {
+      "k": "Огнестойкость",
+      "v": "до 120 минут"
+    },
+    {
+      "k": "Ресурс",
+      "v": "200 000 циклов"
+    },
+    {
+      "k": "Сторона",
+      "v": "универсальная"
+    }
+  ],
+  "description": "Усиленная скрытая петля серии Atomika для дверей заподлицо со стеной массой до 80 кг на двух петлях или до 100 кг на трёх. Семиосевой шарнир из штампованной стали, регулировка в трёх плоскостях и угол открывания 180°. Петля прошла противопожарные испытания и подходит для коробок из дерева, стали и алюминия.",
+  "intro": "Krona Koblenz Atomika Karakter K8080: усиленная скрытая петля для дверей заподлицо со стеной. Две петли держат полотно до 80 кг, три до 100 кг. Семиосевой шарнир из штампованной стали открывает дверь на 180°, регулировка идёт в трёх плоскостях, а противопожарные испытания позволяют ставить петлю на огнестойкие двери.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Семиосевой шарнир",
+          "text": "Штампованная сталь рассчитана на тяжёлые полотна и ресурс 200 000 циклов.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Огнестойкость до 120 минут",
+          "text": "Петля прошла противопожарные испытания и подходит для противопожарных дверей.",
+          "icon": "shield"
+        },
+        {
+          "title": "Точная 3D-регулировка",
+          "text": "±3 мм по высоте, +3/-2 мм по горизонтали и ±1 мм по прижиму без снятия полотна.",
+          "icon": "check"
+        },
+        {
+          "title": "Пять покрытий",
+          "text": "Матовый хром, чёрный, матовое золото, бронза и белый.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Нагрузка | 80 кг на 2 петли, 100 кг на 3 петли",
+        "Толщина двери | от 36 мм",
+        "Угол открывания | 180°",
+        "Регулировки | ±3 мм по высоте, +3/-2 мм по горизонтали, ±1 мм по прижиму",
+        "Огнестойкость | до 120 минут",
+        "Ресурс | 200 000 циклов",
+        "Коробка | дерево, сталь, алюминий",
+        "Материал | штампованная сталь"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для полотна до 80 кг хватит двух петель, для 80-100 кг ставят три.",
+        "Толщина двери должна быть от 36 мм.",
+        "Для противопожарной двери смотрите класс всего дверного блока: петля испытана до 120 минут, но итог задаёт конструкция целиком.",
+        "Белое исполнение удобно для крашеных дверей invisible, где петля не должна выделяться на торце.",
+        "Гнёзда под корпус выбирают по шаблону в полотне и коробке."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем K8080 отличается от K8120?",
+      "a": "K8080 держит 80 кг на двух петлях и 100 кг на трёх, выпускается в пяти покрытиях и имеет огнестойкость до 120 минут. K8120 рассчитана на полотна до 120 кг, но её сертификат на 45 минут, а цветов два."
+    },
+    {
+      "q": "Подойдёт ли K8080 для алюминиевой коробки?",
+      "a": "Да, петля ставится в коробки из дерева, стали и алюминия."
+    },
+    {
+      "q": "Нужна ли отдельная левая или правая петля?",
+      "a": "Нет, сторона универсальная."
+    }
+  ],
+  "sourceUrl": "https://krona-koblenz.ru/skrytaya-petlya-krona-koblenz-atomika-karakter-k8080-cover-cs-matovyy-hrom-nagruzka-do-100-kg-2-petli-80-kg/"
+}

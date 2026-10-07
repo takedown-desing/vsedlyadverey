@@ -1,0 +1,164 @@
+{
+  "slug": "venezia-leone",
+  "name": "Дверная стучалка Venezia Leone 190×110",
+  "brand": "venezia",
+  "series": "Leone",
+  "order": 63,
+  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "article": "LEONE 190x110",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "тёмная бронза",
+      "color": "bronze",
+      "article": "VNZ1357",
+      "price": 10663,
+      "inStock": true,
+      "image": "/images/products/venezia-leone-temnaya-bronza.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-venezia-leone-190x110-temnaja-bronza-scaled.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "VNZ1236",
+      "price": 9836,
+      "inStock": true,
+      "image": "/images/products/venezia-leone-polirovannyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-venezia-leone-190x110-polirovannyj-hrom-scaled.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "VNZ1235",
+      "price": 8526,
+      "inStock": true,
+      "image": "/images/products/venezia-leone-polirovannaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-venezia-leone-190x110-polirovannaja-latun-scaled.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "VNZ1234",
+      "price": 9198,
+      "inStock": true,
+      "image": "/images/products/venezia-leone-matovaya-bronza.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-venezia-leone-190x110-matovaja-bronza-scaled.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "VNZ1233",
+      "price": 12119,
+      "inStock": true,
+      "image": "/images/products/venezia-leone-antichnoe-serebro.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-stuchalka-venezia-leone-190x110-antichnoe-serebro-scaled.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "дверная стучалка (гонг)"
+    },
+    {
+      "k": "Форма",
+      "v": "голова льва с кольцом"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "190×110"
+    },
+    {
+      "k": "Вес, г",
+      "v": "785"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    }
+  ],
+  "description": "Классическая львиная стучалка Venezia из латуни весом около 785 г для парадных и загородных входных дверей. Детальная отливка гривы особенно выразительна в покрытиях тёмная бронза и античное серебро. Размер 190 на 110 мм.",
+  "intro": "Venezia Leone: классическая львиная стучалка из латуни весом около 785 г для парадных и загородных входных дверей. Детальная отливка гривы особенно выразительна в покрытиях тёмная бронза и античное серебро, где рельеф подчёркнут тенями. Размер 190×110 мм.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Детальная отливка",
+          "text": "Прорисованная грива и морда льва читаются с расстояния, особенно на тёмных покрытиях.",
+          "icon": "handle"
+        },
+        {
+          "title": "Вес около 785 г",
+          "text": "Массивная латунь даёт весомый удар кольца.",
+          "icon": "shield"
+        },
+        {
+          "title": "Пять отделок",
+          "text": "Тёмная бронза, полированный хром, полированная латунь, матовая бронза и античное серебро.",
+          "icon": "kit"
+        },
+        {
+          "title": "Для парадного входа",
+          "text": "Размер соразмерен высоким филёнчатым и массивным деревянным дверям.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | дверная стучалка (гонг)",
+        "Форма | голова льва с кольцом",
+        "Размер | 190×110 мм",
+        "Вес | 785 г",
+        "Материал | латунь",
+        "Покрытия | тёмная бронза, полированный хром, полированная латунь, матовая бронза, античное серебро",
+        "Страна производства | Италия",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Стучалка весит около 785 г, крепите её в массив или сквозь полотно, а не в тонкую облицовку.",
+        "Тёмная бронза и античное серебро подчёркивают рельеф, полированные покрытия дают больше блеска и меньше тени.",
+        "Если нужен лев в матовом чёрном или матовой латуни, сравните с Fratelli Cattini Releone того же размера.",
+        "Проверьте, что кольцо в нижнем положении не задевает ручку или накладку замка."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход",
+      "md": "Покрытия под бронзу и серебро с эффектом старения нельзя чистить полиролями для металла: они снимают патину и оставляют светлые пятна на выпуклостях. Достаточно смахнуть пыль с рельефа мягкой кистью и протереть корпус сухой тканью. На улице стучалку раз в сезон осматривают и подтягивают крепёж, чтобы тяжёлое кольцо не расшатывало основание."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем Leone отличается от Releone?",
+      "a": "Размер одинаковый, 190×110 мм. Leone выпускается в тёмной и матовой бронзе, античном серебре, полированных хроме и латуни, Releone в хроме, двух вариантах латуни и матовом чёрном."
+    },
+    {
+      "q": "Подойдёт ли Leone к современной двери?",
+      "a": "Лев с кольцом это классический сюжет. На современной двери спокойнее смотрится кольцо без декора, например Fratelli Cattini Rocca."
+    },
+    {
+      "q": "Сколько весит стучалка?",
+      "a": "Около 785 г по данным производителя, это цельная латунная отливка."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-stuchalka-venezia-leone-190x110-matovaya-bronza/"
+}

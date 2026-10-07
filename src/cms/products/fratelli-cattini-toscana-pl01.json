@@ -1,0 +1,143 @@
+{
+  "slug": "fratelli-cattini-toscana-pl01",
+  "name": "Дверная ручка Fratelli Cattini TOSCANA на планке PL01",
+  "brand": "fratelli-cattini",
+  "series": "TOSCANA",
+  "order": 285,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "TOSCANA PL01",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "PL01-OLV",
+      "price": 10687,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-toscana-pl01-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-toscana-pl01-olv-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "PL01-BA",
+      "price": 10715,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-toscana-pl01-antichnaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-toscana-pl01-ba-antichnaja-bronza.jpg"
+    },
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "PL01-NM",
+      "price": 10679,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-toscana-pl01-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-toscana-pl01-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "PL01-IA",
+      "price": 11746,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-toscana-pl01-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-toscana-pl01-ia-antichnoe-serebro.jpg"
+    }
+  ],
+  "material": "латунь, zamak (цам)",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь, zamak (цам)"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "TOSCANA на фигурной планке PL01 передает атмосферу тосканских вилл: мягкий изгиб рычага, рельефная планка и благородные состаренные покрытия. Вариант без отверстия под ключ подходит для межкомнатных дверей с обычной защелкой.",
+  "intro": "TOSCANA на фигурной планке PL01 передаёт атмосферу тосканских вилл: мягкий изгиб рычага, рельефная планка и благородные состаренные покрытия. Вариант без отверстия под ключ подходит для межкомнатных дверей с обычной защёлкой. Латунь и ЦАМ, производство Италия.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рельефная планка",
+          "text": "Фигурная PL01 оформляет дверь и закрывает крепёж.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Мягкий изгиб",
+          "text": "Рычаг удобно ложится в руку.",
+          "icon": "handle"
+        },
+        {
+          "title": "Состаренные тона",
+          "text": "Античная бронза и античное серебро с эффектом патины.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | классические межкомнатные",
+        "Планка | PL01",
+        "Материал | латунь, zamak (ЦАМ)",
+        "Покрытия | полированная латунь, античная бронза, матовый чёрный, античное серебро",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Версия без отверстия рассчитана только на защёлку.",
+        "Проверьте ширину стойки полотна под планку.",
+        "Защёлку придётся докупить.",
+        "Для тосканского стиля удачны античная бронза и античное серебро."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Рельеф планки очищают мягкой кисточкой, затем протирают сухой тканью. Состаренные покрытия не полируют. Полированную латунь можно протереть слегка влажной салфеткой и вытереть насухо."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли поставить TOSCANA на дверь с замком?",
+      "a": "Для замка нужна планка с отверстием под ключ или цилиндр. Вариант без отверстия рассчитан на защёлку."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "24 месяца."
+    },
+    {
+      "q": "Комплект рассчитан на одну дверь?",
+      "a": "Да, в нём две ручки, по одной на сторону."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-planke-fratelli-cattini-toscana-pl01-olv-polirovannaja-latun/"
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "fratelli-cattini-mag-mini-w",
+  "name": "Магнитная защёлка Fratelli Cattini MAG MINI W для деревянных дверей",
+  "brand": "fratelli-cattini",
+  "series": "MAG MINI",
+  "order": 388,
+  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "article": "MAG MINI W",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "MAG MINI W",
+      "price": 2441,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-mag-mini-w-matovyy-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/zaschelka-magnitnaja-fratelli-cattini-mag-mini-w-dlja-derevjannyh-dverej-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "серый",
+      "color": "graphite",
+      "article": "MAG MINI W",
+      "price": null,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-mag-mini-w-seryy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/zaschelka-magnitnaja-fratelli-cattini-mag-mini-w-dlja-derevjannyh-dverej-matovyj-seryj.jpg"
+    },
+    {
+      "finish": "матовый белый",
+      "color": "white",
+      "article": "MAG MINI W",
+      "price": null,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-mag-mini-w-matovyy-belyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/zaschelka-magnitnaja-fratelli-cattini-mag-mini-w-dlja-derevjannyh-dverej-matovyj-belyj.jpg"
+    }
+  ],
+  "material": "пластик",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "магнитная защёлка без ручки"
+    },
+    {
+      "k": "Язычок",
+      "v": "магнитный + пластиковый"
+    },
+    {
+      "k": "Для дверей",
+      "v": "деревянные"
+    },
+    {
+      "k": "Цена за",
+      "v": "1 комплект"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Компактная магнитная защёлка для деревянных межкомнатных дверей, которые открываются без классической ручки. Удерживает полотно в закрытом положении и не требует большой врезки. Корпус выпускается в матовом чёрном, сером и белом цвете.",
+  "intro": "Fratelli Cattini MAG MINI W - компактная магнитная защёлка для деревянных межкомнатных дверей, которые открываются без классической ручки. Она удерживает полотно закрытым и не требует большой врезки. Язычок магнитный с пластиковым элементом, цена указана за один комплект.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Малая врезка",
+          "text": "Корпус компактный, поэтому паз под него неглубокий и не ослабляет кромку полотна.",
+          "icon": "lock"
+        },
+        {
+          "title": "Дверь без ручки",
+          "text": "Защёлка держит дверь магнитом, ручка на полотне не нужна: хорошо для шкафов-купе в нишах и лаконичных дверей.",
+          "icon": "check"
+        },
+        {
+          "title": "Для дерева",
+          "text": "Версия W рассчитана на деревянные двери. Для алюминиевого профиля есть MAG MINI A.",
+          "icon": "furniture"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | магнитная защёлка без ручки",
+        "Язычок | магнитный + пластиковый",
+        "Двери | деревянные межкомнатные",
+        "Материал | пластик",
+        "Цена за | 1 комплект"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте материал двери: для алюминия нужна другая версия, MAG MINI A",
+        "Запирания нет: защёлка только удерживает полотно",
+        "Цвет выбирайте под кромку двери: матовый чёрный, серый или матовый белый",
+        "Продумайте, за что открывать дверь со стороны на себя",
+        "Уточните размеры паза у поставщика до фрезеровки"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Выдержит ли пластиковый корпус ежедневное открывание?",
+      "a": "Нагрузки на защёлку небольшие: она только удерживает дверь магнитом. Пластиковый корпус при этом не ржавеет и легче металлического."
+    },
+    {
+      "q": "Можно ли поставить MAG MINI W на дверь с ручкой?",
+      "a": "Технически да, но смысла мало: модель задумана для полотен без ручки. К обычной ручке нужен замок под квадрат."
+    },
+    {
+      "q": "Что входит в комплект?",
+      "a": "Цена указана за один комплект защёлки. Состав комплекта уточните в карточке поставщика при заказе."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/zashhelka-magnitnaya-fratelli-cattini-mag-mini-w-dlya-derevyannyh-dverej-matovyj-chernyj/"
+}

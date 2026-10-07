@@ -1,0 +1,140 @@
+{
+  "slug": "morelli-mh-wc-s6",
+  "name": "Сантехническая завертка Morelli MH-WC-S6 квадратная",
+  "brand": "morelli",
+  "series": null,
+  "order": 424,
+  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "article": "MH-WC-S6",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "суперматовый хром",
+      "color": "chrome",
+      "article": "MH-WC-S6 SSC",
+      "price": 1035,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-s6-supermatovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JBKETZMJW1YDE4917ZK70ME3.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "MH-WC-S6 W",
+      "price": 1035,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-s6-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/CmrFhEBroZ4SYrrAG5cR.webp"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "MH-WC-S6 SC",
+      "price": 1035,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-s6-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KRZSZB9JJYX01AQD4193P0E9.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "MH-WC-S6 BL",
+      "price": 1035,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-s6-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/July2020/u7KAvjfG9rx8oDEKZhE8.webp"
+    },
+    {
+      "finish": "сатинированное золото",
+      "color": "gold",
+      "article": "MH-WC-S6 MSG",
+      "price": 1064,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-s6-satinirovannoe-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/November2023/TfEwu2R9Rqjlc5anTQ4P.webp"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "minimal",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "поворотная завертка"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная тонкая"
+    }
+  ],
+  "description": "Завертка Morelli на тонкой квадратной розетке для санузла. Строгая геометрия подходит к современным ручкам с квадратным основанием. Выпускается в чёрном, белом, матовом хроме и матовом золоте.",
+  "intro": "Morelli MH-WC-S6 - поворотная завертка на тонкой квадратной розетке для дверей санузла. Строгая геометрия подходит к современным ручкам с квадратным основанием. Корпус из цинкового сплава выпускается в пяти отделках: суперматовый хром, матовый хром, белый, чёрный и сатинированное золото.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Тонкая розетка",
+          "text": "Плоская квадратная розетка почти не выступает над полотном.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Под квадратные ручки",
+          "text": "Пара для современных ручек Morelli и других марок на квадратном основании.",
+          "icon": "handle"
+        },
+        {
+          "title": "Белый и чёрный",
+          "text": "Кроме металлических оттенков есть белая и чёрная отделка для контрастных интерьеров.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | поворотная завертка",
+        "Форма розетки | квадратная тонкая",
+        "Материал | цинковый сплав",
+        "Двери | межкомнатные, санузел"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Совместите размер розетки завертки и ручки, чтобы они были одного масштаба",
+        "Сверьте квадрат завертки с фиксатором сантехнического замка",
+        "Проверьте, подходит ли длина штока к толщине полотна",
+        "Суперматовый и матовый хром отличаются по блеску, берите в тон ручке"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Розетку завертки ставят строго по оси фиксатора замка, иначе поворот будет тугим. Квадратную розетку выравнивают по горизонтали уровнем, перекос на тонкой розетке хорошо заметен. Белую и чёрную отделку протирают мягкой влажной тканью, абразивы оставляют следы."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли MH-WC-S6 к ручке на круглой розетке?",
+      "a": "Технически да, но визуально лучше круглая MH-WC. Квадратная завертка смотрится парой с квадратной ручкой."
+    },
+    {
+      "q": "Есть ли индикатор занятости?",
+      "a": "В карточке указана поворотная завертка без упоминания индикатора. Уточните комплектацию наружной части при заказе."
+    },
+    {
+      "q": "С какими замками работает?",
+      "a": "С сантехническими замками и защёлками под завертку, у которых квадрат фиксатора совпадает с заверткой."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/2088"
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "extreza-petra-304-r01",
+  "name": "Дверная ручка Extreza PETRA 304 на круглой розетке R01",
+  "brand": "extreza",
+  "series": "PETRA",
+  "order": 279,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "304 R01",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "бронза матовая",
+      "color": "bronze",
+      "article": "304 R01",
+      "price": 7662,
+      "inStock": true,
+      "image": "/images/products/extreza-petra-304-r01-bronza-matovaya.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/e70/e70e549bb6629849f40273e8640f8c54.jpg"
+    },
+    {
+      "finish": "бронза античная",
+      "color": "bronze",
+      "article": "304 R01",
+      "price": 7662,
+      "inStock": true,
+      "image": "/images/products/extreza-petra-304-r01-bronza-antichnaya.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/c32/c32e7ed46fab6b0ace353f43b7604a8d.jpg"
+    },
+    {
+      "finish": "серебро античное",
+      "color": "silver",
+      "article": "304 R01",
+      "price": 9205,
+      "inStock": true,
+      "image": "/images/products/extreza-petra-304-r01-serebro-antichnoe.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/ba9/ba911919cc5aa663d409a3dc5371b872.jpg"
+    },
+    {
+      "finish": "латунь полированная",
+      "color": "brass",
+      "article": "304 R01",
+      "price": 7662,
+      "inStock": true,
+      "image": "/images/products/extreza-petra-304-r01-latun-polirovannaya.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/e2a/e2a634baa1c0297df9ecfc4d1538df9e.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    }
+  ],
+  "description": "PETRA относится к классической линейке Extreza: изогнутый рычаг с выразительным окончанием и круглая розетка R01. Латунная ручка итальянского производства хорошо сочетается с филенчатыми дверями из массива и шпона.",
+  "intro": "PETRA 304 относится к классической линейке Extreza: изогнутый рычаг с выразительным окончанием стоит на круглой розетке R01. Латунная ручка хорошо сочетается с филёнчатыми дверями из массива и шпона и выпускается в бронзе, античном серебре и полированной латуни.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Выразительное окончание",
+          "text": "Утолщённый край рычага подчёркивает классику.",
+          "icon": "handle"
+        },
+        {
+          "title": "Розетка R01",
+          "text": "Круглое основание не спорит с рычагом.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Две бронзы",
+          "text": "Матовая и античная бронза для тёплых интерьеров.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | филёнчатые из массива и шпона",
+        "Стиль | классика",
+        "Розетка | круглая R01",
+        "Материал | латунь",
+        "Покрытия | бронза матовая, бронза античная, серебро античное, латунь полированная"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "К дверям из тёмного массива подходят бронзы, к светлым серебро и латунь.",
+        "Петли и упоры берите в том же покрытии.",
+        "Защёлку и завёртку выбирают отдельно.",
+        "Если полотно с филёнками, розетка должна стоять на ровной стойке."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Античные покрытия не полируют и не трут абразивами, их протирают сухой тканью. Полированную латунь очищают мягкой фланелью. Двери из массива при влажной уборке протирают аккуратно, чтобы вода не затекала под розетку."
+    }
+  ],
+  "faq": [
+    {
+      "q": "К каким дверям подходит PETRA?",
+      "a": "К классическим филёнчатым полотнам из массива и шпона."
+    },
+    {
+      "q": "Какие покрытия есть?",
+      "a": "Матовая бронза, античная бронза, античное серебро и полированная латунь."
+    },
+    {
+      "q": "Какая розетка?",
+      "a": "Круглая R01."
+    }
+  ],
+  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya-ruchka-extreza-petra-petra-304-na-rozetke-r01-matovaya-bronza-f03/"
+}

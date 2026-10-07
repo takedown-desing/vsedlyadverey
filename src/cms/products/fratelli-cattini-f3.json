@@ -1,0 +1,131 @@
+{
+  "slug": "fratelli-cattini-f3",
+  "name": "Напольный упор Fratelli Cattini F3",
+  "brand": "fratelli-cattini",
+  "series": null,
+  "order": 350,
+  "category": "/catalog/upory-i-ogranichiteli/napolnye/",
+  "article": "F3",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "F3 CS",
+      "price": 1156,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-f3-matovyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/upor-dvernoj-napolnyj-fratelli-cattini-f3-cs-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "F3 NM",
+      "price": 1191,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-f3-matovyy-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/upor-dvernoj-napolnyj-fratelli-cattini-f3-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "F3 OLV",
+      "price": 1156,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-f3-polirovannaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/upor-dvernoj-napolnyj-fratelli-cattini-f3-olv-polirovannaja-latun.1.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "F3 BY",
+      "price": 1387,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-f3-matovaya-bronza.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/upor-dvernoj-napolnyj-fratelli-cattini-f3-by-matovaja-bronza.2.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "напольный"
+    }
+  ],
+  "description": "Небольшой напольный упор Fratelli Cattini, который удерживает дверь от удара о стену или мебель. Выпускается в латуни, бронзе, хроме и матовом чёрном, поэтому подходит как к классическим, так и к современным ручкам.",
+  "intro": "Fratelli Cattini F3 - небольшой напольный упор из латуни, который не даёт межкомнатной двери удариться о стену или мебель. Четыре покрытия, от полированной латуни и матовой бронзы до матового хрома и матового чёрного, позволяют вписать его как в классический, так и в современный интерьер.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Латунный корпус",
+          "text": "Латунь тяжёлая и плотная, небольшой упор получается устойчивым и приятно выглядит вблизи.",
+          "icon": "shield"
+        },
+        {
+          "title": "Компактный размер",
+          "text": "Упор занимает мало места на полу и не спорит с дизайном ручек.",
+          "icon": "stop"
+        },
+        {
+          "title": "Классические оттенки",
+          "text": "Полированная латунь и матовая бронза подходят к ручкам в классическом стиле.",
+          "icon": "handle"
+        },
+        {
+          "title": "Современные оттенки",
+          "text": "Матовый хром и матовый чёрный сочетаются с минималистичной фурнитурой.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | напольный",
+        "Материал | латунь",
+        "Тип дверей | межкомнатные",
+        "Покрытия | матовый хром, матовый чёрный, полированная латунь, матовая бронза"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Подбирайте покрытие к ручкам и петлям: полированная латунь и бронза хорошо смотрятся на дверях с классическими филёнками.",
+        "Паспортная высота упора не указана, поэтому перед покупкой сравните его с зазором под дверью по фото или в магазине.",
+        "Поставьте упор под свободной частью полотна: так удар не передаётся на петли.",
+        "Если пол с подогревом или дорогое покрытие, в котором не хочется сверлить, рассмотрите настенный вариант."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Монтаж и уход",
+      "md": "Перед монтажом откройте дверь до нужного угла и отметьте точку на полу под полотном. На плитке сверлят специальным сверлом по керамике без режима удара, затем меняют сверло на бетонное. После установки проверьте, что полотно останавливается ровно и не задевает плинтус."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Потемнеет ли полированная латунь?",
+      "a": "Латунь со временем может менять оттенок. Протирайте упор мягкой сухой тканью и не используйте абразивные пасты, чтобы не повредить покрытие."
+    },
+    {
+      "q": "С какими ручками сочетается F3?",
+      "a": "В латуни и бронзе с классическими ручками на розетке, в матовом хроме и чёрном с современными моделями."
+    },
+    {
+      "q": "Как крепится упор?",
+      "a": "Как большинство напольных упоров, на саморез с дюбелем. На плитке отверстие сверлят без удара, на ламинате крепёж доводят до стяжки."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/upor-dvernoj-napolnyj-fratelli-cattini-f3-cs-matovyj-hrom/"
+}

@@ -1,5 +1,9 @@
 // Единый слой данных сайта: реестр страниц (SEO-проектирование), товары, тексты.
+// Контент лежит в src/cms/ (один файл = одна сущность) и редактируется через админку /admin/ (Sveltia CMS).
 import registryRaw from '../data/registry.json';
+import catalogSettings from '../cms/settings/catalog.json';
+import siteSettings from '../cms/settings/site.json';
+import homeSettings from '../cms/settings/home.json';
 
 export type RegPage = { url: string; h1: string; type: string; priority: string; primaryKw: string; ws: number; parent: string; note: string };
 export type Variant = { finish: string; color: string; article?: string; price: number | null; inStock?: boolean; image: string | null; imageSrc?: string };
@@ -7,16 +11,19 @@ export type Product = {
   slug: string; name: string; brand: string; series: string | null; category: string; article?: string;
   variants: Variant[]; material?: string | null; style?: string | null; doorTypes?: string[];
   specs?: Record<string, string>; description?: string; sourceUrl?: string;
-  hidden?: string; // причина, по которой товар снят с публикации
+  order?: number; // порядок в листингах (меньше = выше), задаётся в админке
+  hidden?: boolean | string; hiddenNote?: string; // товар снят с публикации (галочка в админке)
+  intro?: string; blocks?: Block[]; faq?: { q: string; a: string }[];
 };
 export type Block = { type: string; title?: string; [k: string]: any };
 export type PageText = { url: string; title?: string; description?: string; h1?: string; lead?: string; text?: string; blocks?: Block[]; faq?: { q: string; a: string }[] };
 export type ProductText = { slug: string; intro?: string; blocks?: Block[]; faq?: { q: string; a: string }[] };
+export type BrandCat = { title?: string; description?: string; lead?: string; text?: string };
 export type BrandText = {
   slug: string; name: string; country?: string; founded?: string; segment?: string; tagline?: string; title?: string; description?: string; text?: string;
-  series?: string[]; categories?: Record<string, { title?: string; description?: string; lead?: string; text?: string }>;
+  series?: string[]; categories?: Record<string, BrandCat>;
 };
-export type Article = { slug: string; hub: string; title: string; description: string; h1: string; date: string; author: string; readingMinutes?: number; body: string; faq?: { q: string; a: string }[]; related?: string[] };
+export type Article = { slug: string; order?: number; hub: string; title: string; description: string; h1: string; date: string; author: string; readingMinutes?: number; body: string; faq?: { q: string; a: string }[]; related?: string[] };
 export type Service = { url: string; title: string; description: string; h1: string; body: string };
 export type Series = { slug: string; name: string; brand: string; title?: string; description?: string; text?: string };
 
@@ -24,31 +31,48 @@ import { COMPANY } from './company';
 export const SITE_NAME = COMPANY.brand;
 export const PHONE = COMPANY.phoneMain;
 export const EMAIL = COMPANY.email;
+export const SITE = siteSettings as Record<string, any>;
+export const HOME = homeSettings as Record<string, any>;
 
 // OFF: страницы, отключённые клиентом (сейчас это B2B-раздел), на сайт не попадают вовсе
 export const registry = (registryRaw as RegPage[]).filter((p) => p.priority !== 'OFF').map((p) => ({ ...p, h1: p.h1.replace(/\s+—\s+/g, ': ') }));
 export const regByUrl = new Map(registry.map((p) => [p.url, p]));
 
-// ---------- загрузка JSON-файлов (любой из них может ещё отсутствовать)
+// ---------- загрузка JSON-файлов: каждый файл в папке = одна запись (так их правит админка)
 function loadArray<T>(mods: Record<string, unknown>): T[] {
   const out: T[] = [];
-  for (const m of Object.values(mods)) {
-    const d = (m as { default?: unknown }).default ?? m;
+  for (const k of Object.keys(mods).sort()) {
+    const d = (mods[k] as { default?: unknown }).default ?? mods[k];
     if (Array.isArray(d)) out.push(...(d as T[]));
+    else if (d && typeof d === 'object') out.push(d as T);
   }
   return out;
 }
-const productMods = import.meta.glob('../data/products/*.json', { eager: true });
-const pagesMods = import.meta.glob('../data/content/pages.json', { eager: true });
-const brandsMods = import.meta.glob('../data/content/brands.json', { eager: true });
-const seriesMods = import.meta.glob('../data/content/series.json', { eager: true });
-const articlesMods = import.meta.glob('../data/content/articles.json', { eager: true });
-const serviceMods = import.meta.glob('../data/content/service.json', { eager: true });
-const sectionMods = import.meta.glob('../data/content/sections/g*.json', { eager: true });
-const productTextMods = import.meta.glob('../data/content/products/*.json', { eager: true });
+const productMods = import.meta.glob('../cms/products/*.json', { eager: true });
+const pagesMods = import.meta.glob('../cms/pages/*.json', { eager: true });
+const brandsMods = import.meta.glob('../cms/brands/*.json', { eager: true });
+const seriesMods = import.meta.glob('../cms/series/*.json', { eager: true });
+const articlesMods = import.meta.glob('../cms/articles/*.json', { eager: true });
+const serviceMods = import.meta.glob('../cms/service/*.json', { eager: true });
+
+// Таблицы в админке хранятся строками «ячейка | ячейка»; характеристики товара списком {k, v}.
+const splitRow = (r: unknown): string[] => (Array.isArray(r) ? r.map(String) : String(r ?? '').split(/\s*\|\s*/));
+export function normBlocks(blocks: unknown): Block[] {
+  if (!Array.isArray(blocks)) return [];
+  return blocks.filter((b) => b && typeof b === 'object' && (b as Block).type).map((b) => {
+    const x = { ...(b as Block) };
+    if (x.type === 'table') { x.head = splitRow(x.head); x.rows = (x.rows || []).map(splitRow); }
+    if (x.type === 'checklist') x.items = (x.items || []).map((i: any) => (typeof i === 'string' ? i : i?.text || i?.title || ''));
+    return x;
+  });
+}
+const specsRecord = (s: unknown): Record<string, string> => {
+  if (Array.isArray(s)) return Object.fromEntries(s.filter((x) => x && x.k).map((x) => [String(x.k).trim(), String(x.v ?? '').trim()]));
+  return (s && typeof s === 'object' ? s : {}) as Record<string, string>;
+};
 
 // Стартовые бренды (ответ клиента: «Стартуем с фабриками Colombo, TUPAI»). Сборка с LAUNCH_ONLY=1 оставляет в каталоге только их.
-export const LAUNCH_BRANDS = ['colombo-design', 'tupai'];
+export const LAUNCH_BRANDS: string[] = (catalogSettings as any).launchBrands || ['colombo-design', 'tupai'];
 export const LAUNCH_ONLY = typeof process !== 'undefined' && process.env.LAUNCH_ONLY === '1';
 function cleanProduct(p: Product): Product | null {
   if (!p || !p.slug || !p.name || !p.category || p.hidden) return null;
@@ -60,57 +84,40 @@ function cleanProduct(p: Product): Product | null {
   // товар без единого фото на сайт не выводится (все карточки должны быть с картинкой)
   if (!variants.some((v) => v.image)) return null;
   const cat = p.category.endsWith('/') ? p.category : p.category + '/';
-  return { ...p, category: cat, variants, doorTypes: p.doorTypes || [] };
+  return { ...p, category: cat, variants, doorTypes: p.doorTypes || [], specs: specsRecord(p.specs), blocks: normBlocks(p.blocks), faq: (p.faq || []).filter((f) => f && f.q) };
 }
 const seen = new Set<string>();
 export const products: Product[] = loadArray<Product>(productMods)
   .map(cleanProduct)
   .filter((p): p is Product => !!p && !seen.has(p.slug) && (seen.add(p.slug), true))
-  .map((p, i) => ({ p, i, img: p.variants.some((v) => v.image) ? 0 : 1 }))
-  .sort((a, b) => a.img - b.img || a.i - b.i)
+  .map((p, i) => ({ p, i, o: typeof p.order === 'number' ? p.order : 1e9, img: p.variants.some((v) => v.image) ? 0 : 1 }))
+  .sort((a, b) => a.img - b.img || a.o - b.o || a.i - b.i)
   .map((x) => x.p);
 export const productBySlug = new Map(products.map((p) => [p.slug, p]));
 
-// тексты разделов: блочные (sections/g*.json) поверх базовых (pages.json)
-export const pageTexts = new Map<string, PageText>(loadArray<PageText>(pagesMods).map((t) => [t.url, t]));
-for (const t of loadArray<PageText>(sectionMods)) { if (t?.url) pageTexts.set(t.url, { ...(pageTexts.get(t.url) || {}), ...t }); }
-export const productTexts = new Map(loadArray<ProductText>(productTextMods).map((t) => [t.slug, t]));
-export const brandTexts = new Map(loadArray<BrandText>(brandsMods).map((b) => [b.slug, b]));
+// тексты разделов (src/cms/pages/*.json): пустые поля не затирают реестр
+const clean = <T extends Record<string, any>>(t: T): T => Object.fromEntries(Object.entries(t).filter(([, v]) => v !== '' && v !== null && v !== undefined)) as T;
+export const pageTexts = new Map<string, PageText>(loadArray<PageText>(pagesMods).filter((t) => t?.url).map((t) => [t.url, { ...clean(t), blocks: normBlocks(t.blocks), faq: (t.faq || []).filter((f) => f && f.q) }]));
+export const productTexts = new Map<string, ProductText>();
+for (const p of products) if (p.intro || p.blocks?.length || p.faq?.length) productTexts.set(p.slug, { slug: p.slug, intro: p.intro, blocks: p.blocks, faq: p.faq });
+// бренды: подразделы «бренд × категория» в админке лежат списком, в коде — объектом по slug категории
+export const brandTexts = new Map(loadArray<BrandText & { categories?: any }>(brandsMods).filter((b) => b?.slug).map((b) => {
+  const cats = Array.isArray(b.categories) ? Object.fromEntries(b.categories.filter((c: any) => c?.slug).map((c: any) => [c.slug, c])) : (b.categories || {});
+  return [b.slug, { ...clean(b), categories: cats } as BrandText];
+}));
 export const seriesTexts = new Map(loadArray<Series>(seriesMods).map((s) => [s.slug, s]));
-export const articles = loadArray<Article>(articlesMods);
-export const services = new Map(loadArray<Service>(serviceMods).map((s) => [s.url, s]));
+export const articles = loadArray<Article>(articlesMods).filter((a) => a?.slug && a.body).sort((a, b) => (a.order ?? 1e9) - (b.order ?? 1e9) || (b.date || '').localeCompare(a.date || ''));
+export const services = new Map(loadArray<Service>(serviceMods).filter((s) => s?.url).map((s) => [s.url.endsWith('/') ? s.url : s.url + '/', s]));
 
 // ---------- бренды
-export const BRANDS: { slug: string; name: string; tier: string }[] = [
-  ['colombo-design', 'Colombo Design', 'A'], ['tupai', 'TUPAI', 'A'],
-  ['morelli', 'Morelli', 'A'], ['fuaro', 'FUARO', 'A'], ['punto', 'PUNTO', 'A'], ['armadillo', 'Armadillo', 'A'], ['agb', 'AGB', 'A'],
-  ['krona-koblenz', 'Krona Koblenz', 'A'], ['fratelli-cattini', 'Fratelli Cattini', 'A'],
-  ['fantom', 'FANTOM', 'B'], ['verum', 'Verum', 'B'], ['ajax', 'AJAX', 'B'], ['class', 'CLASS', 'B'],
-  ['extreza', 'Extreza', 'B'], ['otlav', 'Otlav', 'B'], ['lockstyle', 'LockStyle', 'B'], ['venezia', 'VENEZIA', 'B'], ['forme', 'FORME', 'B'],
-  ['pamar', 'Pamar', 'C'], ['melodia', 'MELODIA', 'C'], ['comaglio', 'Comaglio', 'C'], ['porta-di-parma', 'Porta di Parma', 'C'],
-].map(([slug, name, tier]) => ({ slug, name, tier }));
+// список брендов и порядок: админка → «Настройки → Каталог и бренды»
+export const BRANDS: { slug: string; name: string; tier: string }[] = ((catalogSettings as any).brands || []).filter((b: any) => b?.slug && b.name).map((b: any) => ({ slug: b.slug, name: b.name, tier: b.tier || 'B' }));
 export const inShowroom = (brand: string) => COMPANY.showroomBrands.includes(brand);
 export const brandName = (slug: string) => BRANDS.find((b) => b.slug === slug)?.name ?? slug;
 
 // ---------- навигация: 16 разделов каталога + иконки
-export let CATEGORY_NAV: { url: string; name: string; icon: string }[] = [
-  { url: '/catalog/dvernye-ruchki/', name: 'Дверные ручки', icon: 'handle' },
-  { url: '/catalog/zavertki-i-nakladki/', name: 'WC-завертки и накладки', icon: 'rosette' },
-  { url: '/catalog/mezhkomnatnye-zamki/', name: 'Межкомнатные замки', icon: 'lock' },
-  { url: '/catalog/zamki-dlya-vhodnyh-dverej/', name: 'Замки для входных дверей', icon: 'padlock' },
-  { url: '/catalog/cilindry/', name: 'Цилиндры', icon: 'cylinder' },
-  { url: '/catalog/dvernye-petli/', name: 'Дверные петли', icon: 'hinge' },
-  { url: '/catalog/dovodchiki/', name: 'Доводчики', icon: 'closer' },
-  { url: '/catalog/razdvizhnye-sistemy/', name: 'Раздвижные системы', icon: 'slide' },
-  { url: '/catalog/upory-i-ogranichiteli/', name: 'Упоры и ограничители', icon: 'stop' },
-  { url: '/catalog/zadvizhki-i-shpingalety/', name: 'Задвижки и шпингалеты', icon: 'bolt' },
-  { url: '/catalog/glazki-i-aksessuary/', name: 'Глазки и аксессуары', icon: 'eye' },
-  { url: '/catalog/avtoporogi-i-uplotniteli/', name: 'Автопороги', icon: 'seal' },
-  { url: '/catalog/furnitura-dlya-steklyannyh-dverej/', name: 'Для стеклянных дверей', icon: 'glass' },
-  { url: '/catalog/okonnaya-furnitura/', name: 'Оконная фурнитура', icon: 'window' },
-  { url: '/catalog/mebelnaya-furnitura/', name: 'Мебельная фурнитура', icon: 'furniture' },
-  { url: '/catalog/komplekty-furnitury/', name: 'Комплекты на дверь', icon: 'kit' },
-];
+// порядок и названия разделов в левой панели: админка → «Настройки → Каталог и бренды»
+export let CATEGORY_NAV: { url: string; name: string; icon: string }[] = ((catalogSettings as any).categories || []).filter((c: any) => c?.url && c.name).map((c: any) => ({ url: c.url, name: c.name, icon: c.icon || 'kit' }));
 export let DOOR_TYPES = registry.filter((p) => p.type === 'door-type');
 
 // ---------- теги (фасетные посадочные): правило выборки
@@ -289,7 +296,7 @@ export function facetsFor(items: Product[]): Facet[] {
   return out;
 }
 // клиент работает со склада поставщика; чего нет на складе, везёт под заказ от производителя
-export const STOCK_LABEL = { yes: 'На складе поставщика', no: 'Под заказ' };
+export const STOCK_LABEL = { yes: SITE.stockYes || 'На складе поставщика', no: SITE.stockNo || 'Под заказ' };
 export const PER_PAGE = 24;
 export const pagesCount = (n: number) => Math.max(1, Math.ceil(n / PER_PAGE));
 export function colorImage(p: Product, color?: string) {

@@ -1,0 +1,152 @@
+{
+  "slug": "fratelli-cattini-nevada-7fs",
+  "name": "Дверная ручка Fratelli Cattini NEVADA 7FS на круглой розетке",
+  "brand": "fratelli-cattini",
+  "series": "NEVADA",
+  "order": 209,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "NEVADA 7FS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "7FS-NM",
+      "price": 4964,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-nevada-7fs-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-nevada-7fs-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "7FS-BY",
+      "price": 6750,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-nevada-7fs-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-nevada-7fs-by-matovaja-bronza.4.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "7FS-CS",
+      "price": 4964,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-nevada-7fs-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-nevada-7fs-cs-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "7FS-BS",
+      "price": 5417,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-nevada-7fs-matovaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-nevada-7fs-bs-matovaja-latun.3.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "704"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "NEVADA с чуть расширяющимся к концу рычагом отличается удобным хватом и спокойным дизайном, который не спорит с интерьером. Ручка на тонкой круглой розетке 7FS подходит для межкомнатных дверей в квартирах и загородных домах.",
+  "intro": "NEVADA 7FS привлекает спокойным дизайном: рычаг слегка расширяется к концу, поэтому его удобно захватывать, а тонкая круглая розетка почти не заметна. Ручка не спорит с интерьером и подходит для дверей в квартирах и загородных домах. Корпус из цинкового сплава.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Удобный хват",
+          "text": "Расширение на конце рычага даёт опору ладони и помогает не соскальзывать.",
+          "icon": "handle"
+        },
+        {
+          "title": "Нейтральный дизайн",
+          "text": "Спокойная форма легко сочетается с разными стилями дверей.",
+          "icon": "rosette"
+        },
+        {
+          "title": "704 г",
+          "text": "Вес комплекта обеспечивает мягкий, но ощутимый ход.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Объекты | квартиры, загородные дома",
+        "Тип двери | межкомнатные распашные",
+        "Розетка | круглая 7FS",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый чёрный, матовая бронза, матовый хром, матовая латунь",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Посчитайте количество дверей: цена указана за комплект на одну дверь.",
+        "Для загородного дома с тёплыми деревянными дверями удачны бронза и латунь.",
+        "Защёлку, завёртку и накладки под цилиндр докупают отдельно.",
+        "Если в доме есть раздвижные двери, подберите к ним купе-ручки в тон."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Ручку достаточно протирать сухой или слегка влажной мягкой тканью. В загородном доме с перепадами влажности стоит периодически подтягивать стяжные винты, если появился люфт. Абразивные средства и спирт для матовых покрытий не подходят."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли NEVADA для загородного дома?",
+      "a": "Да, модель подходит для межкомнатных дверей в квартирах и частных домах. Для входной уличной двери лучше выбрать специализированную ручку."
+    },
+    {
+      "q": "Чем удобен рычаг NEVADA?",
+      "a": "Он чуть шире на конце, поэтому ладонь естественно упирается в край и нажимать удобно."
+    },
+    {
+      "q": "Какой вес у ручки?",
+      "a": "Комплект весит 704 г."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-nevada-7fs-nm-matovyj-chernyj/"
+}

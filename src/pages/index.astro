@@ -13,7 +13,7 @@ import { REVIEWS, REVIEWS_NOTE } from '../lib/reviews';
 import { COMPANY, tel, mapSrc } from '../lib/company';
 import {
   CATEGORY_NAV, products, pageTexts, articles, productsFor, firstImage, colorImage, DOOR_TYPES, shortName, SITE_NAME, BRANDS,
-  registry, seriesTexts, brandName, COLOR_HEX,
+  registry, seriesTexts, brandName, COLOR_HEX, HOME,
 } from '../lib/data';
 import type { Product } from '../lib/data';
 import { u, abs } from '../lib/url';
@@ -28,12 +28,12 @@ const pickIn = (cat: string, n: number) => products.filter((p) => p.category.sta
 const clean = (p: Product) => p.variants.some((v) => v.image && v.imageSrc && !/made-italy|fratelli-cattini\.com/.test(v.imageSrc));
 const heroImg = (cat: string) => firstImage(products.find((p) => p.category.startsWith(cat) && clean(p)) || products[0]);
 const srBrands = COMPANY.showroomBrands.map(brandName).join(' и ');
-const slides = [
-  { kicker: 'Colombo Design · TUPAI · ещё 20 брендов', h: 'Европейская дверная фурнитура', p: 'Ручки, замки, петли, доводчики и раздвижные системы: подберём комплект под вашу дверь в одном покрытии.', cta: '/catalog/', ctaText: 'Перейти в каталог', img: heroImg('/catalog/dvernye-ruchki/na-rozetke/') },
-  { kicker: 'Шоурум в Москве', h: `Ручки ${srBrands} вживую`, p: 'Итальянская и португальская фурнитура в шоуруме на Флотской: сравните покрытия и подержите модели в руках до покупки.', cta: '/showroom/', ctaText: 'О шоуруме', img: firstImage(products.find((p) => COMPANY.showroomBrands.includes(p.brand) && p.category.startsWith('/catalog/dvernye-ruchki/') && clean(p)) || products[0]) },
-  { kicker: 'Krona Koblenz · AGB · Otlav', h: 'Скрытые петли для дверей-невидимок', p: 'Регулировка 3D, нагрузка до 100 кг на комплект, покрытия под цвет ручек.', cta: '/catalog/dvernye-petli/skrytye/', ctaText: 'Скрытые петли', img: heroImg('/catalog/dvernye-petli/skrytye/') },
-  { kicker: 'Магнитные и бесшумные', h: 'Замки для межкомнатных дверей', p: 'Магнитные защёлки AGB Polaris и Koblenz Spinoff: дверь закрывается мягко и без щелчка.', cta: '/catalog/mezhkomnatnye-zamki/magnitnye/', ctaText: 'Магнитные замки', img: heroImg('/catalog/mezhkomnatnye-zamki/') },
-];
+// слайды редактируются в админке («Главная страница»); картинка либо загружена, либо берётся из раздела imageFrom
+const showroomImg = () => firstImage(products.find((p) => COMPANY.showroomBrands.includes(p.brand) && p.category.startsWith('/catalog/dvernye-ruchki/') && clean(p)) || products[0]);
+const slides = ((HOME.slides || []) as any[]).filter((s) => s && s.title).map((s) => ({
+  kicker: s.kicker || '', h: s.title, p: s.text || '', cta: s.cta || '/catalog/', ctaText: s.ctaText || 'Подробнее',
+  img: s.image || (s.imageFrom === 'showroom' ? showroomImg() : heroImg(s.imageFrom || '/catalog/dvernye-ruchki/')),
+}));
 
 // витрина с вкладками по категориям (как «полки» у morelli.ru)
 const shelves = [
@@ -76,14 +76,9 @@ const kitParts = [
 }).filter(Boolean) as { label: string; p: Product; img: string }[];
 
 const D = COMPANY.delivery; const fmt = (n: number) => new Intl.NumberFormat('ru-RU').format(n);
-const services = [
-  { icon: 'store', t: 'Шоурум в Москве', d: `Образцы ${srBrands} можно посмотреть вживую на Флотской, 5 к2` },
-  { icon: 'kit', t: 'Подбор комплекта', d: 'Соберём ручку, замок, петли и упор под вашу дверь в одном покрытии' },
-  { icon: 'truck', t: 'Доставка по Москве и России', d: `В пределах МКАД ${D.mkad} ₽, в регионы транспортными компаниями` },
-  { icon: 'box', t: 'Бесплатная доставка', d: `По Москве при заказе от ${fmt(D.freeMoscowFrom)} ₽, до транспортной компании от ${fmt(D.freeCarrierFrom)} ₽` },
-  { icon: 'shield', t: 'Гарантия производителя', d: 'Только оригинальная продукция, страна производства в карточке' },
-  { icon: 'check', t: 'Обмен и возврат', d: 'По закону о защите прав потребителей' },
-];
+const services = ((HOME.services || []) as any[]).filter((s) => s && s.title).map((s) => ({ icon: s.icon || 'check', t: s.title, d: s.text || '' }));
+const promo = ((HOME.promo || []) as any[]).filter((s) => s && s.title);
+const lead = HOME.lead || {}; const aside = HOME.aside || {}; const sr = HOME.showroom || {};
 const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/'), potentialAction: { '@type': 'SearchAction', target: abs(Astro.site, '/search/') + '?q={q}', 'query-input': 'required name=q' } }];
 ---
 <Base title={t.title || `${SITE_NAME}: интернет-магазин дверной фурнитуры`} description={t.description || 'Интернет-магазин дверной фурнитуры: ручки, замки, петли, доводчики европейских брендов. Шоурум в Москве, доставка по России.'} path="/" schema={schema}>
@@ -102,11 +97,9 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
     <div class="hero-dots">{slides.map((_, i) => <button type="button" class={i === 0 ? 'on' : ''} aria-label={`Слайд ${i + 1}`} data-dot={i}></button>)}</div>
   </section>
 
-  <div class="promo">
-    <a href={u('/sale/')}><Icon name="percent" /><span><span class="big">Распродажа</span><br /><span class="sm">модели с выбором покрытий</span></span></a>
-    <a href={u('/dostavka/')}><Icon name="truck" /><span><span class="big">Доставка по России</span><br /><span class="sm">по Москве от {D.mkad} ₽, бесплатно от {fmt(D.freeMoscowFrom)} ₽</span></span></a>
-    <a href={u('/catalog/komplekty-furnitury/')}><Icon name="kit" /><span><span class="big">Комплект на дверь</span><br /><span class="sm">ручка, замок, петли в одном цвете</span></span></a>
-  </div>
+  {promo.length > 0 && <div class="promo">
+    {promo.map((p) => <a href={u(p.url || '/catalog/')}><Icon name={p.icon || 'kit'} /><span><span class="big">{p.title}</span><br /><span class="sm">{p.text}</span></span></a>)}
+  </div>}
 
   <h2 class="center-title">Дверная фурнитура</h2>
   <div class="wrap">
@@ -181,12 +174,12 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
     <section class="section">
       <div class="showroom">
         <div class="sr-copy">
-          <div class="kicker">Шоурум в Москве</div>
-          <h2>Приезжайте посмотреть образцы {srBrands}</h2>
+          <div class="kicker">{sr.kicker || 'Шоурум в Москве'}</div>
+          <h2>{sr.title || `Приезжайте посмотреть образцы ${srBrands}`}</h2>
           <p>{COMPANY.address}. {COMPANY.metro}.</p>
           {COMPANY.hours.length > 0
             ? <div class="hours" style="margin:12px 0 18px">{COMPANY.hours.map((h) => <><span>{h.d}</span><span>{h.t}</span></>)}</div>
-            : <p style="margin:12px 0 18px;color:var(--c-text-2)">Время визита согласуйте по телефону: менеджер подготовит нужные модели.</p>}
+            : <p style="margin:12px 0 18px;color:var(--c-text-2)">{sr.noHoursText || 'Время визита согласуйте по телефону.'}</p>}
           <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href={u('/kontakty/')}>Как добраться</a><a class="btn btn-ghost" href={tel(COMPANY.phoneMain)}>{COMPANY.phoneMain}</a></div>
         </div>
         <iframe class="map" src={mapSrc(15)} title="Шоурум на карте" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -202,8 +195,8 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
     <!-- 9. Каталог/прайс в мессенджер (как у morelli.ru) -->
     <section class="section">
       <div class="lead-banner">
-        <div><h2>Поможем подобрать фурнитуру</h2><p>Оставьте телефон: менеджер перезвонит, уточнит размеры двери и соберёт комплект в нужном покрытии.</p></div>
-        <form class="lead-form" data-demo-form><label class="sr-only" for="lf">Телефон</label><input id="lf" name="contact" type="tel" placeholder="Телефон" required /><button class="btn btn-accent" type="submit">Перезвоните мне</button></form>
+        <div><h2>{lead.title || 'Поможем подобрать фурнитуру'}</h2><p>{lead.text}</p></div>
+        <form class="lead-form" data-demo-form><label class="sr-only" for="lf">Телефон</label><input id="lf" name="contact" type="tel" placeholder="Телефон" required /><button class="btn btn-accent" type="submit">{lead.button || 'Перезвоните мне'}</button></form>
       </div>
     </section>
 
@@ -217,9 +210,9 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
     <section class="section two-col">
       <div>{t.blocks?.length ? <Blocks blocks={t.blocks} /> : <Prose md={t.text} />}<Faq items={t.faq} /></div>
       <aside class="aside-box">
-        <h3>Цены и наличие</h3>
-        <p style="font-size:14.5px;color:var(--c-text-2)">Цены на сайте: рекомендованные розничные цены производителей, они зависят от курса евро. Работаем со склада поставщика, под заказ от производителя предоплата {COMPANY.prepayOnOrder}%.</p>
-        <a class="btn btn-sm" href={u('/oplata/')}>Условия оплаты</a>
+        <h3>{aside.title || 'Цены и наличие'}</h3>
+        <p style="font-size:14.5px;color:var(--c-text-2)">{aside.text}</p>
+        {aside.button && <a class="btn btn-sm" href={u(aside.url || '/oplata/')}>{aside.button}</a>}
       </aside>
     </section>
   </div>

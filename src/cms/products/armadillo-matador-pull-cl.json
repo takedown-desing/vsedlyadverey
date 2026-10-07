@@ -1,0 +1,148 @@
+{
+  "slug": "armadillo-matador-pull-cl",
+  "name": "Ручка-скоба Armadillo Matador PULL CL250",
+  "brand": "armadillo",
+  "series": "Matador",
+  "order": 231,
+  "category": "/catalog/dvernye-ruchki/skoby/",
+  "article": "PULL.CL250.MATADOR",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "PULL.CL250.MATADOR AS-9",
+      "price": 4563,
+      "inStock": true,
+      "image": "/images/products/armadillo-matador-pull-cl-antichnoe-serebro.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/07/36537_01.jpg"
+    },
+    {
+      "finish": "коричневая бронза",
+      "color": "bronze",
+      "article": "PULL.CL250.MATADOR BB-17",
+      "price": 4563,
+      "inStock": true,
+      "image": "/images/products/armadillo-matador-pull-cl-korichnevaya-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/07/36535_01.jpg"
+    },
+    {
+      "finish": "золото 24к",
+      "color": "gold",
+      "article": "PULL.CL250.MATADOR GOLD-24",
+      "price": 5660,
+      "inStock": true,
+      "image": "/images/products/armadillo-matador-pull-cl-zoloto-24k.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/07/36539_01.jpg"
+    },
+    {
+      "finish": "серебро 925",
+      "color": "silver",
+      "article": "PULL.CL250.MATADOR",
+      "price": 3235,
+      "inStock": true,
+      "image": "/images/products/armadillo-matador-pull-cl-serebro-925.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/07/36541_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-скоба"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Classic"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "1350"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    }
+  ],
+  "description": "Скоба Matador из коллекции Armadillo Classic с фактурными опорами и глубокими благородными покрытиями, включая золото 24К и серебро 925. Подходит для распашных и раздвижных дверей в классических интерьерах.",
+  "intro": "Скоба Matador PULL CL250 из коллекции Armadillo Classic выделяется фактурными опорами и глубокими благородными покрытиями, среди которых золото 24К и серебро 925. Массивная ручка весом 1350 г подходит для распашных и раздвижных дверей в классических интерьерах.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Фактурные опоры",
+          "text": "Рельефные основания создают дворцовый характер скобы.",
+          "icon": "handle"
+        },
+        {
+          "title": "Золото 24К и серебро 925",
+          "text": "Декоративные покрытия с драгоценными металлами для парадных дверей.",
+          "icon": "rosette"
+        },
+        {
+          "title": "1350 г",
+          "text": "Тяжёлая литая скоба ощущается солидно в руке.",
+          "icon": "shield"
+        },
+        {
+          "title": "Гарантия 5 лет",
+          "text": "Производитель даёт на изделие пятилетнюю гарантию.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | распашные и раздвижные",
+        "Стиль | классика, дворцовый",
+        "Коллекция | Armadillo Classic",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | античное серебро, коричневая бронза, золото 24к, серебро 925",
+        "Вес | 1350 г"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Тяжёлой скобе нужно прочное полотно: на лёгкой сотовой двери крепёж может продавить наполнитель.",
+        "Уточните межосевое расстояние и длину крепежа до сверления.",
+        "Покрытия 24К и 925 требуют бережного ухода, без абразивов.",
+        "На раздвижной двери учтите вылет скобы от полотна."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Действительно ли покрытие из золота?",
+      "a": "В названии покрытия указаны золото 24к и серебро 925, это декоративный слой поверх корпуса из цинкового сплава, а не цельный металл."
+    },
+    {
+      "q": "Подойдёт ли скоба для раздвижной двери?",
+      "a": "Да, если полотно движется вдоль стены. В пенал дверь со скобой полностью не зайдёт."
+    },
+    {
+      "q": "Сколько весит скоба?",
+      "a": "1350 г."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-skoba-pull-cl250-matador-matador-pull-cl-as-9-antichnoe-serebro/"
+}

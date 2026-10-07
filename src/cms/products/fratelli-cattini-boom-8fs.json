@@ -1,0 +1,151 @@
+{
+  "slug": "fratelli-cattini-boom-8fs",
+  "name": "Дверная ручка Fratelli Cattini BOOM 8FS на квадратной розетке",
+  "brand": "fratelli-cattini",
+  "series": "BOOM",
+  "order": 208,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "BOOM 8FS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "8FS-NM",
+      "price": 6039,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-boom-8fs-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-boom-8fs-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "8FS-KD",
+      "price": 6250,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-boom-8fs-matovaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-boom-8fs-kd-zoloto-krajola.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "8FS-CS",
+      "price": 6039,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-boom-8fs-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-boom-8fs-cs-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "8FS-BY",
+      "price": 7706,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-boom-8fs-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-boom-8fs-by-matovaja-bronza.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "775"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "BOOM представляет собой прямой цилиндрический рычаг на плоской квадратной розетке, типичный образец итальянского минимализма. Ручка подходит к дверям с квадратными накладками и скрытыми петлями и хорошо смотрится в черном и латунном исполнении.",
+  "intro": "BOOM 8FS представляет собой прямой цилиндрический рычаг на плоской квадратной розетке, типичный пример итальянского минимализма. Ручка хорошо работает с дверями на скрытых петлях и с квадратными накладками, особенно в чёрном и латунном цвете. Сделано в Италии.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Цилиндрический рычаг",
+          "text": "Круглое сечение удобно обхватывать, а прямая линия сохраняет строгость.",
+          "icon": "handle"
+        },
+        {
+          "title": "Плоская розетка",
+          "text": "Квадратное основание без фасок продолжает плоскость двери.",
+          "icon": "rosette"
+        },
+        {
+          "title": "775 г веса",
+          "text": "Плотный литой корпус из ЦАМ придаёт ручке солидность.",
+          "icon": "shield"
+        },
+        {
+          "title": "Под скрытые петли",
+          "text": "Минималистичная форма поддерживает образ двери без видимой фурнитуры.",
+          "icon": "hinge"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные, на скрытых петлях",
+        "Розетка | квадратная",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый чёрный, матовая латунь, матовый хром, матовая бронза",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Скрытые петли и магнитная защёлка подбираются отдельно, но их цвет стоит согласовать с ручкой.",
+        "На двери скрытого монтажа уточните, откуда открывается полотно: ручка ставится с обеих сторон.",
+        "Чёрный матовый лучше всего смотрится на белых и серых полотнах.",
+        "Для санузла понадобится квадратная завёртка того же покрытия."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему BOOM советуют к скрытым петлям?",
+      "a": "Прямой рычаг и плоская квадратная розетка не выделяются на гладком полотне, поэтому дверь остаётся цельной плоскостью."
+    },
+    {
+      "q": "Сколько весит комплект?",
+      "a": "Комплект на одну дверь весит 775 г."
+    },
+    {
+      "q": "Какое покрытие самое практичное?",
+      "a": "Матовые варианты не показывают отпечатков. Из тёплых оттенков практична бронза, из нейтральных матовый хром."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-boom-8fs-nm-matovyj-chernyj/"
+}

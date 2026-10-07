@@ -1,0 +1,150 @@
+{
+  "slug": "fratelli-cattini-143q",
+  "name": "Петля без врезки Fratelli Cattini 143Q",
+  "brand": "fratelli-cattini",
+  "series": null,
+  "order": 319,
+  "category": "/catalog/dvernye-petli/babochki/",
+  "article": "143Q 38-35",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "143Q 38-35 CS",
+      "price": 1002,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-143q-matovyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/143cs032_q-petlja-nakladnaja-bez-vrezki-universalnaja-razbornaja-aldeghi-32x35-serebristyj-scaled.jpg"
+    },
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "143Q 38-35 NM",
+      "price": 1002,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-143q-matovyy-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/143no032_q-petlja-nakladnaja-bez-vrezki-universalnaja-razbornaja-aldeghi-32x35-matovyj-chernyj-scaled.jpg"
+    },
+    {
+      "finish": "матовый белый",
+      "color": "white",
+      "article": "143Q 38-35 BI",
+      "price": 1002,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-143q-matovyy-belyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/143bo032_q-petlja-nakladnaja-bez-vrezki-universalnaja-razbornaja-aldeghi-32x35-matovyj-belyj-scaled.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "143Q 38-35 BS",
+      "price": 1002,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-143q-matovaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/143sg032_q-petlja-nakladnaja-bez-vrezki-universalnaja-razbornaja-aldeghi-32x35-zoloto-krajola-scaled.jpg"
+    }
+  ],
+  "material": "цинковый сплав ZAMAK",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладная без врезки, разборная"
+    },
+    {
+      "k": "Форма",
+      "v": "квадратная"
+    },
+    {
+      "k": "Зазор между полотном и коробкой, мм",
+      "v": "3,7"
+    },
+    {
+      "k": "Нагрузка на 2 петли, кг",
+      "v": "36"
+    },
+    {
+      "k": "Нагрузка на 3 петли, кг",
+      "v": "45"
+    },
+    {
+      "k": "Толщина полотна, мм",
+      "v": "от 35"
+    }
+  ],
+  "description": "Версия петли без врезки 143 с квадратной формой крыльев. Монтируется без выборки паза, выдерживает до 45 кг на трёх петлях. Белый и матовый чёрный варианты удобно сочетать с дверями в тон.",
+  "intro": "Fratelli Cattini 143Q повторяет механику петли без врезки 143, но крылья у неё квадратные, с чёткой геометрией. Петлю прикручивают к торцу межкомнатного полотна и коробке без выборки паза, а зазор в притворе остаётся 3,7 мм. Четыре цвета позволяют подобрать её в тон двери, а не только к ручке.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Квадратные крылья",
+          "text": "Прямые углы перекликаются с гладкими полотнами и строгими наличниками.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Монтаж без паза",
+          "text": "Крылья складываются одно в другое, поэтому гнездо в торце и коробке не выбирают.",
+          "icon": "check"
+        },
+        {
+          "title": "Четыре покрытия",
+          "text": "Матовый хром, матовый чёрный, матовый белый и матовая латунь.",
+          "icon": "kit"
+        },
+        {
+          "title": "До 45 кг на три петли",
+          "text": "Две петли держат 36 кг, третья добавляет запас для тяжёлых полотен.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладная без врезки, разборная",
+        "Форма | квадратная",
+        "Зазор между полотном и коробкой | 3,7 мм",
+        "Нагрузка | 36 кг на 2 петли, 45 кг на 3 петли",
+        "Толщина полотна | от 35 мм",
+        "Материал | цинковый сплав ZAMAK",
+        "Покрытия | матовый хром, матовый чёрный, матовый белый, матовая латунь"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Взвесьте полотно: до 36 кг хватит пары петель, до 45 кг ставьте три.",
+        "Белую петлю берут под белые эмалевые двери, чтобы на торце она не выделялась.",
+        "Матовую латунь сочетают с ручками и накладками того же оттенка, иначе разница тонов заметна.",
+        "Если дверь раньше висела на врезных петлях, старые гнёзда нужно заделать: эта петля ложится на ровную поверхность.",
+        "Толщина полотна от 35 мм, тонкие дверцы шкафов и антресолей сюда не подходят."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "В чём разница между 143Q и 143T?",
+      "a": "У 143Q квадратные крылья и четыре цвета, у 143T узкое крыло 32 мм с плавными краями и два цвета. Зазор 3,7 мм и нагрузка 36 и 45 кг совпадают."
+    },
+    {
+      "q": "Можно ли покрасить петлю вместе с дверью?",
+      "a": "Лучше не стоит: краска забивает шарнир и трескается на сгибе. Проще выбрать белое или чёрное покрытие в тон полотна."
+    },
+    {
+      "q": "Нужен ли шаблон для установки?",
+      "a": "Нет, паз не выбирают. Достаточно разметить положение петли, просверлить отверстия под шурупы и прикрутить крылья."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/petlya-nakladnaya-bez-vrezki-universalnaya-razbornaya-fratelli-cattini-143q-38-35-cs-matovyj-hrom/"
+}

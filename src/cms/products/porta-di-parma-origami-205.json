@@ -1,0 +1,166 @@
+{
+  "slug": "porta-di-parma-origami-205",
+  "name": "Дверная ручка Porta di Parma Origami 205 на квадратной розетке",
+  "brand": "porta-di-parma",
+  "series": "Origami",
+  "order": 45,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "205",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "205.01",
+      "price": 2800,
+      "inStock": true,
+      "image": "/images/products/porta-di-parma-origami-205-polirovannyy-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/105/205.01-ORIGAMI--scaled.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "205.02",
+      "price": 2800,
+      "inStock": true,
+      "image": "/images/products/porta-di-parma-origami-205-matovyy-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/105/205.02-ORIGAMI--scaled.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "205.03",
+      "price": 2600,
+      "inStock": true,
+      "image": "/images/products/porta-di-parma-origami-205-chernyy.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/105/205.03-ORIGAMI-6-scaled.jpg"
+    },
+    {
+      "finish": "матовый графит",
+      "color": "graphite",
+      "article": "205.05",
+      "price": 2800,
+      "inStock": true,
+      "image": "/images/products/porta-di-parma-origami-205-matovyy-grafit.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/105/205.05-ORIGAMI-6-scaled.jpg"
+    },
+    {
+      "finish": "полированное золото PVD",
+      "color": "gold",
+      "article": "205.06",
+      "price": 3100,
+      "inStock": true,
+      "image": "/images/products/porta-di-parma-origami-205-polirovannoe-zoloto-pvd.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/105/205.06-ORIGAMI.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "205.07",
+      "price": 2900,
+      "inStock": true,
+      "image": "/images/products/porta-di-parma-origami-205-matovoe-zoloto.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/105/205.07-ORIGAMI.jpg"
+    }
+  ],
+  "material": "цинковый сплав Zamak",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Материал основания и ручки",
+      "v": "Zamak"
+    },
+    {
+      "k": "Комплектация",
+      "v": "комплект на одну дверь (2 ручки)"
+    },
+    {
+      "k": "Открывание",
+      "v": "левое и правое"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    }
+  ],
+  "description": "Ручка из коллекции Модерн с граненым рычагом, который будто сложен из листа бумаги, отсюда и название Origami. Квадратная розетка и острые грани хорошо смотрятся на гладких полотнах в современных интерьерах. Корпус отлит из сплава Zamak, в комплекте две ручки на одну дверь, а шесть покрытий позволяют попасть в цвет остальной фурнитуры.",
+  "intro": "Porta di Parma Origami 205 это ручка из коллекции Модерн с гранёным рычагом, который будто сложен из листа бумаги. Квадратная розетка и острые грани хорошо смотрятся на гладких полотнах в современных интерьерах. Корпус из сплава Zamak, в комплекте две ручки на одну дверь, шесть покрытий, включая золото PVD.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Бумажные грани",
+          "text": "Рычаг составлен из плоскостей под разными углами, как фигурка оригами.",
+          "icon": "handle"
+        },
+        {
+          "title": "Золото PVD",
+          "text": "Вакуумное PVD-покрытие плотнее обычной гальваники и дольше сохраняет цвет.",
+          "icon": "check"
+        },
+        {
+          "title": "Шесть покрытий",
+          "text": "Полированный и матовый хром, чёрный, матовый графит, полированное и матовое золото.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Гарантия 5 лет",
+          "text": "Производитель даёт пятилетнюю гарантию, ручка универсальна по стороне открывания.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные, гладкие полотна",
+        "Розетка | квадратная",
+        "Материал | Zamak",
+        "Комплект | 2 ручки на дверь",
+        "Открывание | левое и правое",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Защёлка покупается отдельно, уточните размер квадрата",
+        "Острые грани эффектны, но в детской удобнее обтекаемые формы",
+        "WC-завертку и накладки выбирайте в том же покрытии",
+        "Золото PVD сочетайте с латунными или золотыми петлями"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Что такое покрытие PVD?",
+      "a": "Это напыление в вакуумной камере. Слой получается плотным и стойким к истиранию, цвет держится дольше, чем у обычного гальванического золота."
+    },
+    {
+      "q": "Подходит ли Origami к филёнчатой двери?",
+      "a": "Модель задумана под гладкие современные полотна. На классической филёнке гранёная форма будет выглядеть чужеродно."
+    },
+    {
+      "q": "Нужно ли выбирать правую или левую ручку?",
+      "a": "Нет, ручка подходит для обоих вариантов открывания."
+    }
+  ],
+  "sourceUrl": "https://kromus.ru/dvernaya-ruchka-na-rozetke-porta-di-parma-modern-origami-205-01-polirovannyy-hrom/"
+}

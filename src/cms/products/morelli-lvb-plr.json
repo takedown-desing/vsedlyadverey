@@ -1,0 +1,129 @@
+{
+  "slug": "morelli-lvb-plr",
+  "name": "Дверная ручка Morelli LVB PLR на планке",
+  "brand": "morelli",
+  "series": "LVB",
+  "order": 251,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "LVB PLR",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "весенняя дымка (серый металлик)",
+      "color": "graphite",
+      "article": "LVB PLR SMI",
+      "price": 12500,
+      "inStock": false,
+      "image": "/images/products/morelli-lvb-plr-vesennyaya-dymka.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KP3E6N38Z8K1Z002XGXXQDPZ.webp"
+    },
+    {
+      "finish": "летняя гроза (черный матовый)",
+      "color": "black",
+      "article": "LVB PLR SST",
+      "price": 12500,
+      "inStock": false,
+      "image": "/images/products/morelli-lvb-plr-letnyaya-groza.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KP3E1N8CK4B3JTVGBJ380Z4Y.webp"
+    },
+    {
+      "finish": "стокгольмский снегопад (светлое серебро)",
+      "color": "silver",
+      "article": "LVB PLR SSW",
+      "price": 12500,
+      "inStock": false,
+      "image": "/images/products/morelli-lvb-plr-stokgolmskiy-snegopad.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KP3DY9TMAKM5JGNYDVC5NZED.webp"
+    },
+    {
+      "finish": "осенний мёд (матовое золото)",
+      "color": "gold",
+      "article": "LVB PLR AH",
+      "price": 12500,
+      "inStock": false,
+      "image": "/images/products/morelli-lvb-plr-osenniy-med.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KP3DMB36539AT5S0M1531TT0.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "LOGINOFF"
+    }
+  ],
+  "description": "Ручка LVB на узкой планке из дизайнерской коллекции LOGINOFF, созданной Morelli совместно с российским дизайнером. Необычные авторские покрытия с поэтичными названиями делают ее акцентом интерьера. Предусмотрен вариант под покраску в цвет двери.",
+  "intro": "Ручка LVB на узкой планке входит в дизайнерскую коллекцию LOGINOFF, которую Morelli создала вместе с российским дизайнером. Авторские покрытия с поэтичными названиями, от весенней дымки до осеннего мёда, превращают ручку в акцент интерьера. По данным производителя, есть и вариант под покраску в цвет двери.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Авторская коллекция",
+          "text": "LOGINOFF отличается нестандартной пластикой и собственной палитрой.",
+          "icon": "handle"
+        },
+        {
+          "title": "Узкая планка",
+          "text": "Вертикальная накладка подходит для узких стоек и остеклённых дверей.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Поэтичные цвета",
+          "text": "Серый металлик, чёрный матовый, светлое серебро и матовое золото под авторскими именами.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные, в том числе с узкой стойкой",
+        "Коллекция | LOGINOFF",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | весенняя дымка, летняя гроза, стокгольмский снегопад, осенний мёд"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Названия цветов авторские: сверяйтесь с расшифровкой (серый металлик, чёрный матовый, светлое серебро, матовое золото).",
+        "Проверьте, подходит ли планка к механизму двери: без отверстия, под ключ или под цилиндр.",
+        "В коллекции есть скоба LVB PH для раздвижных полотен.",
+        "Защёлка или замок покупаются отдельно."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Что означает весенняя дымка?",
+      "a": "Это авторское название покрытия серый металлик в коллекции LOGINOFF."
+    },
+    {
+      "q": "Есть ли в серии скоба?",
+      "a": "Да, скоба LVB PH выполнена в той же стилистике и тех же покрытиях."
+    },
+    {
+      "q": "Подходит ли ручка для узкой двери?",
+      "a": "Да, узкая планка удобна для полотен с узкой стойкой."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/4874"
+}

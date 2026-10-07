@@ -1,0 +1,151 @@
+{
+  "slug": "venezia-knob-p20",
+  "name": "Ручка-кноб Venezia P20 Ø65",
+  "brand": "venezia",
+  "series": null,
+  "order": 223,
+  "category": "/catalog/dvernye-ruchki/knoby/",
+  "article": "P20",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "P20",
+      "price": 3814,
+      "inStock": true,
+      "image": "/images/products/venezia-knob-p20-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-venezia-p20-65-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "P20",
+      "price": 4566,
+      "inStock": true,
+      "image": "/images/products/venezia-knob-p20-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-venezia-p20-65-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "P20",
+      "price": 4707,
+      "inStock": true,
+      "image": "/images/products/venezia-knob-p20-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-venezia-p20-65-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "P20",
+      "price": 4707,
+      "inStock": true,
+      "image": "/images/products/venezia-knob-p20-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-venezia-p20-65-polirovannyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-кноб"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "345"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 шт."
+    },
+    {
+      "k": "Диаметр кноба, мм",
+      "v": "65"
+    }
+  ],
+  "description": "Латунный кноб Venezia P20 диаметром 65 мм с классическим профилем. Используется как поворотная ручка на межкомнатных дверях с защелкой, а также как неподвижная ручка на распашных шкафах и кладовых.",
+  "intro": "Латунный кноб Venezia P20 диаметром 65 мм с классическим профилем используют двумя способами: как поворотную ручку на межкомнатной двери с защёлкой или как неподвижную ручку на распашных шкафах и кладовых. Производство Италия, продаётся поштучно. Вес 345 г.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Цельная латунь",
+          "text": "Корпус из латуни весит 345 г и долго сохраняет форму и резьбу.",
+          "icon": "shield"
+        },
+        {
+          "title": "Два сценария",
+          "text": "Поворотная ручка с защёлкой или неподвижная ручка на шкафу.",
+          "icon": "handle"
+        },
+        {
+          "title": "Классический профиль",
+          "text": "Кноб сочетается с классическими ручками Venezia в той же квартире.",
+          "icon": "rosette"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Применение | межкомнатные двери, шкафы, кладовые",
+        "Диаметр | 65 мм",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, матовый хром, полированный хром",
+        "Цена указана за | 1 шт."
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для двери с двух сторон нужны два кноба.",
+        "Если кноб будет поворотным, понадобится защёлка под квадрат.",
+        "На шкафу проверьте, что створка удерживается магнитом или защёлкой, иначе ручка будет только тянуть.",
+        "Покрытие подбирайте в тон нажимным ручкам Venezia в соседних комнатах."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Латунь с покрытием протирают сухой мягкой тканью, жирные отпечатки снимают влажной салфеткой с мылом. Хром вытирают насухо, чтобы не остались разводы. Полироли и абразивные пасты повреждают верхний слой."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли использовать P20 как мебельную ручку?",
+      "a": "Да, на распашных шкафах и кладовых кноб часто ставят как неподвижную ручку."
+    },
+    {
+      "q": "Сколько стоит комплект на дверь?",
+      "a": "Стоимость указана за одно изделие. Для межкомнатной двери нужно два, стоимость умножайте на два."
+    },
+    {
+      "q": "Из чего сделан кноб?",
+      "a": "Из латуни, вес одного изделия 345 г."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-dvernaja-knob-venezia-p20-65-polirovannaja-latun/"
+}

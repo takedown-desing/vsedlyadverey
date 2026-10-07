@@ -1,0 +1,167 @@
+{
+  "slug": "armadillo-in4500uc",
+  "name": "Универсальная петля Armadillo IN4500UC из нержавеющей стали",
+  "brand": "armadillo",
+  "series": "Urban",
+  "order": 315,
+  "category": "/catalog/dvernye-petli/universalnye/",
+  "article": "IN4500UC-BL",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "IN4500UC-BL CP",
+      "price": 499,
+      "inStock": true,
+      "image": "/images/products/armadillo-in4500uc-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/product/31393_01_2.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "IN4500UC-BL SN",
+      "price": 449,
+      "inStock": true,
+      "image": "/images/products/armadillo-in4500uc-matovyy-nikel.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/product/32497_01_2.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "IN4500UC-BL BL",
+      "price": 449,
+      "inStock": true,
+      "image": "/images/products/armadillo-in4500uc-chernyy.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/product/46733_01_1.jpg"
+    },
+    {
+      "finish": "флорентийское золото",
+      "color": "gold",
+      "article": "IN4500UC-BL FSG",
+      "price": 479,
+      "inStock": true,
+      "image": "/images/products/armadillo-in4500uc-florentiyskoe-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/product/46731_01_1.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "IN4500UC-BL AB",
+      "price": 449,
+      "inStock": true,
+      "image": "/images/products/armadillo-in4500uc-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/product/13817_01_2.jpg"
+    },
+    {
+      "finish": "итальянский тиснёный",
+      "color": "other",
+      "article": "IN4500UC-BL MWSC",
+      "price": 479,
+      "inStock": true,
+      "image": "/images/products/armadillo-in4500uc-italyanskiy-tisnenyy.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/product/29705_01_2.jpg"
+    }
+  ],
+  "material": "нержавеющая сталь AISI 304",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "карточная универсальная"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "100 x 75 x 3"
+    },
+    {
+      "k": "Подшипники",
+      "v": "4 упорных шариковых"
+    },
+    {
+      "k": "Толщина полотна, мм",
+      "v": "от 38"
+    },
+    {
+      "k": "Материал",
+      "v": "нержавеющая сталь 304"
+    },
+    {
+      "k": "Упаковка",
+      "v": "блистер"
+    }
+  ],
+  "description": "Карточная петля коллекции Urban из нержавеющей стали 304, поэтому её можно ставить не только на межкомнатные, но и на уличные двери. Четыре упорных шариковых подшипника уменьшают износ и дают плавный ход. Колпачков нет, форма карт лаконичная.",
+  "intro": "Armadillo IN4500UC карточная петля коллекции Urban из нержавеющей стали AISI 304. Благодаря материалу её можно ставить не только на межкомнатные, но и на входные и уличные двери. Четыре упорных шариковых подшипника уменьшают износ, а лаконичные карты без колпачков подходят к современным ручкам.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Нержавеющая сталь 304",
+          "text": "Не боится влаги и перепадов температур, подходит для улицы и влажных помещений.",
+          "icon": "shield"
+        },
+        {
+          "title": "Упорные шариковые подшипники",
+          "text": "Четыре подшипника воспринимают вертикальную нагрузку и продлевают срок службы.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Карта 3 мм",
+          "text": "Размер 100 x 75 x 3 мм, толстая карта держит форму.",
+          "icon": "check"
+        },
+        {
+          "title": "Шесть отделок",
+          "text": "Хром, матовый никель, чёрный, бронза, флорентийское золото и итальянский тиснёный.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Размер | 100 x 75 x 3 мм",
+        "Подшипники | 4 упорных шариковых",
+        "Толщина полотна | от 38 мм",
+        "Материал | нержавеющая сталь AISI 304",
+        "Двери | межкомнатные и входные",
+        "Упаковка | блистер"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Нагрузка на комплект в характеристиках не указана: на тяжёлую или уличную дверь ставьте не меньше трёх петель.",
+        "Толщина полотна от 38 мм.",
+        "Для уличной двери берите нержавеющий крепёж, иначе ржаветь начнут саморезы.",
+        "Петля врезная: понадобится выборка под карту в полотне и коробке."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли поставить IN4500UC на дверь в баню или на террасу?",
+      "a": "Да, нержавеющая сталь 304 рассчитана на влажность и улицу. Главное подобрать крепёж из того же материала."
+    },
+    {
+      "q": "Почему у петли нет колпачков?",
+      "a": "Это дизайн коллекции Urban: лаконичные карты без декоративных наверший."
+    },
+    {
+      "q": "Петля универсальная?",
+      "a": "Да, она ставится на левые и правые двери."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/petlya-armadillo-armadillo-universalnaya-in4500uc-bl-cp-100x75x3-inox304-hrom-blister.html"
+}

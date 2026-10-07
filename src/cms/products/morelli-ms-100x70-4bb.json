@@ -1,0 +1,175 @@
+{
+  "slug": "morelli-ms-100x70-4bb",
+  "name": "Универсальная петля Morelli MS 100x70x2,5 4BB",
+  "brand": "morelli",
+  "series": "Simple",
+  "order": 311,
+  "category": "/catalog/dvernye-petli/universalnye/",
+  "article": "MS 100X70X2.5-4BB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "MS 100X70X2.5-4BB SN",
+      "price": 310,
+      "inStock": false,
+      "image": "/images/products/morelli-ms-100x70-4bb-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/F9dFgGQHnExFrUXXyaGe.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "MS 100X70X2.5-4BB PC",
+      "price": 310,
+      "inStock": false,
+      "image": "/images/products/morelli-ms-100x70-4bb-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/0r6JOjf8JjaCNIng0f2J.webp"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "MS 100X70X2.5-4BB SC",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-ms-100x70-4bb-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/OODuMlmhslhXqCA6nLWz.webp"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "MS 100X70X2.5-4BB SG",
+      "price": 310,
+      "inStock": false,
+      "image": "/images/products/morelli-ms-100x70-4bb-matovoe-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/xy7S1rVGSMVkBFdvyl5o.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "MS 100X70X2.5-4BB AB",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-ms-100x70-4bb-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/9mnCylW0C2mOBy44xMJy.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "MS 100X70X2.5-4BB BL",
+      "price": 350,
+      "inStock": true,
+      "image": "/images/products/morelli-ms-100x70-4bb-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/KFRqjeJmovFQroxEpu4v.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "MS 100X70X2.5-4BB W",
+      "price": 350,
+      "inStock": false,
+      "image": "/images/products/morelli-ms-100x70-4bb-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/July2020/BAEHreeR5DGRVtGpBYTs.webp"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "карточная универсальная"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "100 x 70 x 2,5"
+    },
+    {
+      "k": "Подшипники",
+      "v": "4"
+    },
+    {
+      "k": "Нагрузка на 2 петли, кг",
+      "v": "40"
+    },
+    {
+      "k": "Нагрузка на 3 петли, кг",
+      "v": "60"
+    },
+    {
+      "k": "Декор",
+      "v": "плоская пешка"
+    }
+  ],
+  "description": "Стальная карточная петля на четырёх подшипниках, которую можно ставить на левые и правые двери. Комплект из трёх петель держит межкомнатное полотно до 60 кг. Бюджетный и надёжный вариант для врезки вручную, есть шесть покрытий.",
+  "intro": "Morelli MS 100x70x2,5 4BB стальная карточная петля на четырёх подшипниках для межкомнатных дверей. Она универсальна, то есть ставится на левые и правые полотна без выбора исполнения. Две петли держат 40 кг, три до 60 кг, декоративная плоская пешка закрывает торцы оси.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Четыре подшипника",
+          "text": "Подшипники между кнуклями снижают трение, дверь открывается легко и без скрипа.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Универсальная сторона",
+          "text": "Одна и та же петля подходит к левой и правой двери.",
+          "icon": "check"
+        },
+        {
+          "title": "Плоская пешка",
+          "text": "Сдержанный декор торцов оси подходит к современным ручкам.",
+          "icon": "kit"
+        },
+        {
+          "title": "Семь покрытий",
+          "text": "Белый, чёрный, хром, матовый хром, матовый никель, матовое золото и античная бронза.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Размер | 100 x 70 x 2,5 мм",
+        "Подшипники | 4",
+        "Нагрузка | 40 кг на 2 петли, 60 кг на 3 петли",
+        "Декор | плоская пешка",
+        "Материал | сталь",
+        "Тип | карточная универсальная"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Лёгкое полотно до 40 кг вешают на две петли, более тяжёлое до 60 кг на три.",
+        "Карты врезают в торец полотна и в коробку на глубину толщины карты, 2,5 мм.",
+        "Универсальную петлю нельзя снять вместе с дверью, как разъёмную: для демонтажа полотна придётся откручивать винты.",
+        "Возьмите петли в той же отделке, что ручки и упор."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем универсальная петля отличается от разъёмной?",
+      "a": "Универсальная не делится на левую и правую, но и не снимается с оси. Разъёмную выбирают по стороне открывания, зато дверь можно снять, приподняв полотно."
+    },
+    {
+      "q": "Сколько петель нужно на стандартную межкомнатную дверь?",
+      "a": "Для полотна до 40 кг хватает двух. Если дверь тяжелее или выше 2 м, ставят три."
+    },
+    {
+      "q": "Можно ли поставить эти петли без врезки?",
+      "a": "Нет, карточные петли врезают. Для установки без выборки паза есть петли-бабочки."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/petli/all/404"
+}

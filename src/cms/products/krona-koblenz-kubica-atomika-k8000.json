@@ -1,0 +1,178 @@
+{
+  "slug": "krona-koblenz-kubica-atomika-k8000",
+  "name": "Скрытая петля Krona Koblenz Kubica Atomika K8000",
+  "brand": "krona-koblenz",
+  "series": "Kubica Atomika",
+  "order": 301,
+  "category": "/catalog/dvernye-petli/skrytye/",
+  "article": "K8000 DXSX",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "K8000 DXSX CR.SAT",
+      "price": 2701,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-k8000-matovyy-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/117/atomika-k8000cs_2g49-zu_wel3-02.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "K8000 DXSX NO",
+      "price": 3049,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-k8000-chernyy.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/117/atomika-k8000no_sw3h-di.webp"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "K8000 BR",
+      "price": 3290,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-k8000-bronza.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/117/atomika-k8000br_4col-am_lcjz-l6.webp"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "K8000 DXSX NS",
+      "price": 2701,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-k8000-matovyy-nikel.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/117/atomika-k8000ns_erf4-lv_j0j9-lc.webp"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "K8000 DXSX OL",
+      "price": 3547,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-k8000-zoloto.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/117/atomika-k8000ol_6hmh-6u_oth3-8n.webp"
+    }
+  ],
+  "material": "цинковый сплав ZAMAK, сталь",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "скрытая петля"
+    },
+    {
+      "k": "Высота петли, мм",
+      "v": "120"
+    },
+    {
+      "k": "Нагрузка на 2 петли, кг",
+      "v": "60"
+    },
+    {
+      "k": "Нагрузка на 3 петли, кг",
+      "v": "68"
+    },
+    {
+      "k": "Толщина полотна, мм",
+      "v": "от 38"
+    },
+    {
+      "k": "Регулировка",
+      "v": "3D (в трёх плоскостях)"
+    },
+    {
+      "k": "Угол открывания",
+      "v": "180°"
+    },
+    {
+      "k": "Вылет, мм",
+      "v": "17,6"
+    },
+    {
+      "k": "Применение",
+      "v": "без фальца заподлицо / с внутренним фальцем"
+    },
+    {
+      "k": "Сторона открывания",
+      "v": "универсальная"
+    },
+    {
+      "k": "Материал",
+      "v": "штампованная сталь"
+    }
+  ],
+  "description": "Запатентованная петля Atomika со штампованным стальным корпусом и семиосевым шарниром. Держит до 60 кг на двух петлях, отличается хорошей износостойкостью и устойчивостью к высоким температурам. Центральная врезка рассчитана на полотна от 38 мм, в комплекте декоративные накладки.",
+  "intro": "Kubica Atomika K8000 запатентованная скрытая петля Krona Koblenz со штампованным стальным корпусом и семиосевым шарниром. Две петли держат полотно до 60 кг, три до 68 кг. Модель ценят за износостойкость и устойчивость к высоким температурам, а декоративные накладки идут в комплекте.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Штампованная сталь",
+          "text": "В отличие от литых моделей, корпус выполнен из штампованной стали, что повышает прочность и износостойкость.",
+          "icon": "shield"
+        },
+        {
+          "title": "Семиосевой шарнир",
+          "text": "Несколько осей делят нагрузку, дверь идёт ровно и не проседает со временем.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Накладки в комплекте",
+          "text": "Декоративные накладки закрывают крепёж и регулировочные винты.",
+          "icon": "kit"
+        },
+        {
+          "title": "Пять отделок",
+          "text": "Матовый хром, матовый никель, золото, бронза и чёрный.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Высота петли | 120 мм",
+        "Нагрузка | 60 кг на 2 петли, 68 кг на 3 петли",
+        "Толщина полотна | от 38 мм",
+        "Вылет | 17,6 мм",
+        "Регулировка | 3D",
+        "Угол открывания | 180°",
+        "Материал | штампованная сталь"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Большинству межкомнатных дверей до 60 кг хватает двух петель, третью ставят на высокие полотна.",
+        "Минимальная толщина двери 38 мм.",
+        "Шаблон для фрезеровки нужен именно под Atomika, размеры гнезда отличаются от классических Kubica.",
+        "Если важна стойкость к нагреву, например рядом с кухней или сауной, эта серия подходит лучше литых петель."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем Atomika отличается от обычных петель Kubica?",
+      "a": "Корпус из штампованной стали вместо литья и семиосевой шарнир. Это даёт больший ресурс и нагрузку до 60 кг уже на паре петель."
+    },
+    {
+      "q": "Подойдёт ли K8000 для двери толщиной 40 мм?",
+      "a": "Да, модель рассчитана на полотна от 38 мм."
+    },
+    {
+      "q": "Нужно ли смазывать шарнир?",
+      "a": "Нет, достаточно периодически проверять затяжку крепёжных и регулировочных винтов."
+    }
+  ],
+  "sourceUrl": "https://kromus.ru/skrytaya-petlya-krona-koblenz-atomika-k8000-cover-cs-hd-matovyy-hrom-nagruzka-do-60-kg/"
+}

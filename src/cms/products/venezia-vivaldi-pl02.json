@@ -1,0 +1,148 @@
+{
+  "slug": "venezia-vivaldi-pl02",
+  "name": "Дверная ручка Venezia VIVALDI на планке PL02",
+  "brand": "venezia",
+  "series": "VIVALDI",
+  "order": 215,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "VIVALDI PL02",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "VIVALDI PL02",
+      "price": 12165,
+      "inStock": true,
+      "image": "/images/products/venezia-vivaldi-pl02-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-vivaldi-na-planke-pl02-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "VIVALDI PL02",
+      "price": 12319,
+      "inStock": true,
+      "image": "/images/products/venezia-vivaldi-pl02-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-vivaldi-na-planke-pl02-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "VIVALDI PL02",
+      "price": 12319,
+      "inStock": false,
+      "image": "/images/products/venezia-vivaldi-pl02-antichnaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-vivaldi-na-planke-pl02-antichnaja-bronza.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "VIVALDI PL02",
+      "price": 13659,
+      "inStock": false,
+      "image": "/images/products/venezia-vivaldi-pl02-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-vivaldi-na-planke-pl02-antichnoe-serebro.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    },
+    {
+      "k": "Исполнение планки",
+      "v": "без отверстия (под защелку)"
+    }
+  ],
+  "description": "VIVALDI получила название в честь композитора и отличается выразительным резным рычагом. Фигурная латунная планка PL02 делает ручку заметным декоративным элементом двери. Лучше всего она смотрится в интерьерах в стиле барокко и итальянской классики.",
+  "intro": "VIVALDI, названная в честь композитора, отличается выразительным резным рычагом. В паре с фигурной латунной планкой PL02 ручка становится заметным декоративным элементом двери. Лучше всего модель раскрывается в интерьерах барокко и итальянской классики.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Резной рычаг",
+          "text": "Рельеф на рычаге передаёт характер барочной фурнитуры.",
+          "icon": "handle"
+        },
+        {
+          "title": "Фигурная планка",
+          "text": "PL02 обрамляет ручку и визуально удлиняет её на полотне.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Античное серебро",
+          "text": "Помимо латуни и бронзы есть холодный состаренный оттенок под серебро.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Стиль | барокко, итальянская классика",
+        "Двери | межкомнатные с защёлкой",
+        "Планка | PL02, без отверстия",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, античная бронза, античное серебро",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Под цилиндр или ключ эта планка не подойдёт, она рассчитана только на защёлку.",
+        "Для остеклённых алюминиевых дверей в серии есть VIVALDI EP на овальной розетке.",
+        "Покрытие стоит согласовать с петлями и наличниками с позолотой или патиной.",
+        "Защёлку выбирайте отдельно."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Рельеф рычага собирает пыль, поэтому его удобно чистить мягкой кисточкой, а затем протирать сухой тканью. Античные покрытия нельзя полировать и тереть абразивом: патина сотрётся на выступающих деталях и появятся светлые пятна."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли VIVALDI к белой двери?",
+      "a": "Да, белое классическое полотно с полированной латунью или античным серебром выглядит нарядно и уместно в барочном интерьере."
+    },
+    {
+      "q": "Есть ли версия на розетке?",
+      "a": "В коллекции есть профильная версия VIVALDI EP на узкой овальной розетке для алюминиевых дверей."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "Гарантия на ручку 24 месяца."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-Venezia-VIVALDI-na-planke-PL02-polirovannaja-latun/"
+}

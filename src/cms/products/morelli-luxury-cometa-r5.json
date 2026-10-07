@@ -1,0 +1,168 @@
+{
+  "slug": "morelli-luxury-cometa-r5",
+  "name": "Дверная ручка Morelli Luxury COMETA R5 на круглой розетке",
+  "brand": "morelli",
+  "series": "Luxury",
+  "order": 146,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "COMETA R5",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "COMETA R5 NERO",
+      "price": 7500,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-cometa-r5-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/July2019/L9gmp15BYfrQtFMIzG52.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "COMETA R5 BIA",
+      "price": 7500,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-cometa-r5-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/July2019/Kb4mXb88FTPEcARWBAyG.webp"
+    },
+    {
+      "finish": "кофе",
+      "color": "bronze",
+      "article": "COMETA R5 CAFFE",
+      "price": 7500,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-cometa-r5-kofe.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/July2019/FxWHWWBDPhVJYHGISrBa.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "COMETA R5 CRO",
+      "price": 8150,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-cometa-r5-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/July2019/xcUVdIBPpe5Q8VribOQq.webp"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "COMETA R5 CSA",
+      "price": 7500,
+      "inStock": true,
+      "image": "/images/products/morelli-luxury-cometa-r5-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/July2019/MoX1HEwecEeQCddVaqG6.webp"
+    },
+    {
+      "finish": "антрацит",
+      "color": "graphite",
+      "article": "COMETA R5 ANT",
+      "price": 9090,
+      "inStock": false,
+      "image": "/images/products/morelli-luxury-cometa-r5-antratsit.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/November2021/OnuHjxVZboyNU9lbzkPg.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Линейка",
+      "v": "Luxury New Era"
+    },
+    {
+      "k": "Срок службы",
+      "v": "не менее 7 лет"
+    },
+    {
+      "k": "Гарантия",
+      "v": "1 год"
+    }
+  ],
+  "description": "COMETA из линейки Morelli Luxury New Era отличается плавным изогнутым рычагом, который расширяется к концу и напоминает хвост кометы. Ручка раздельная, на круглой розетке R5, корпус из цинкового сплава. Шесть цветов, от белого до антрацита, позволяют подобрать её к светлым и тёмным полотнам.",
+  "intro": "COMETA из линейки Morelli Luxury New Era: раздельная дверная ручка на круглой розетке R5 с плавным изогнутым рычагом, который расширяется к концу. Корпус из цинкового сплава, шесть цветов от белого до антрацита позволяют подобрать модель и к светлому, и к тёмному межкомнатному полотну. Итальянский дизайн, мягкая форма без острых граней.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рычаг-комета",
+          "text": "Изогнутая ручка расширяется к концу, форма узнаваема и хорошо ложится в руку.",
+          "icon": "handle"
+        },
+        {
+          "title": "Круглая розетка R5",
+          "text": "Мягкий силуэт розетки поддерживает плавную линию рычага.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Шесть цветов",
+          "text": "Чёрный, белый, кофе, хром, матовый хром и антрацит.",
+          "icon": "kit"
+        },
+        {
+          "title": "Корпус из ЦАМ",
+          "text": "Цинковый сплав даёт вес и прочность, срок службы не менее 7 лет.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ручка на розетке",
+        "Форма розетки | круглая",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Линейка | Luxury New Era",
+        "Цвета | чёрный, белый, кофе, хром, матовый хром, антрацит",
+        "Срок службы | не менее 7 лет",
+        "Гарантия | 1 год"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Ручка раздельная, защёлку или межкомнатный замок нужно купить отдельно.",
+        "Для санузла добавьте WC-завёртку на круглой розетке в том же цвете.",
+        "Если в двери будет замок с цилиндром, подберите круглую накладку под цилиндр.",
+        "Белый и антрацит заметно различаются по восприятию: сравните цвет с образцом полотна.",
+        "Петли и упор лучше взять в том же покрытии, что и ручку."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем COMETA отличается от FIORD и SPUTNIK?",
+      "a": "COMETA стоит на круглой розетке R5 и имеет изогнутый рычаг. FIORD и SPUTNIK из той же линейки выполнены на квадратной розетке S5 с прямыми формами."
+    },
+    {
+      "q": "Входит ли защёлка в комплект?",
+      "a": "Нет, ручка раздельная, механизм защёлки или замка выбирают отдельно."
+    },
+    {
+      "q": "Подойдёт ли белая COMETA к белой двери?",
+      "a": "Да, белый вариант делает фурнитуру почти незаметной на светлом полотне, а чёрный и антрацит, наоборот, дают контраст."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/790"
+}

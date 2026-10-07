@@ -1,0 +1,147 @@
+{
+  "slug": "fratelli-cattini-izumi-4fs",
+  "name": "Дверная ручка Fratelli Cattini IZUMI 4FS на мини-розетке",
+  "brand": "fratelli-cattini",
+  "series": "IZUMI",
+  "order": 207,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "IZUMI 4FS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "4FS-NM",
+      "price": 4917,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-izumi-4fs-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-mini-kvadratnom-osnovanii-fratelli-cattini-izumi-4fs-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовая медь",
+      "color": "copper",
+      "article": "4FS-CU",
+      "price": 5626,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-izumi-4fs-matovaya-med.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-mini-kvadratnom-osnovanii-fratelli-cattini-izumi-4fs-cu-matovaja-med.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "4FS-NI",
+      "price": 5334,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-izumi-4fs-matovyy-nikel.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-mini-kvadratnom-osnovanii-fratelli-cattini-izumi-4fs-ni-matovyj-nikel.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "4FS-BS",
+      "price": 5210,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-izumi-4fs-matovaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-mini-kvadratnom-osnovanii-fratelli-cattini-izumi-4fs-bs-matovaja-latun.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная (mini)"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "655"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "IZUMI стоит на миниатюрной квадратной розетке Slim, поэтому на двери почти не видно основания. Изогнутый рычаг в японском духе выглядит легко и подходит для интерьеров в стиле japandi и современной классики.",
+  "intro": "IZUMI 4FS стоит на миниатюрной квадратной розетке Slim, поэтому основание на двери почти не видно. Изогнутый рычаг в японском духе выглядит легко и подходит для интерьеров japandi и современной классики. Корпус из цинкового сплава, производство Италия, четыре матовых оттенка на выбор.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Мини-розетка",
+          "text": "Квадратное основание уменьшенного размера оставляет полотно максимально чистым.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Изогнутый рычаг",
+          "text": "Плавная дуга напоминает японские формы и смягчает строгую геометрию дверей.",
+          "icon": "handle"
+        },
+        {
+          "title": "Природные оттенки",
+          "text": "Матовые медь, латунь, никель и чёрный хорошо сочетаются с деревом, льном и камнем.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Стиль | japandi, современная классика",
+        "Розетка | квадратная mini",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Вес комплекта | 655 г",
+        "Покрытия | матовый чёрный, матовая медь, матовый никель, матовая латунь",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Маленькая розетка требует аккуратного сверления: следы старой фурнитуры она не закроет.",
+        "При замене ручки на старой двери проверьте размер прежних отверстий.",
+        "Завёртку и накладки берите тоже на мини-розетке, иначе фурнитура будет разного масштаба.",
+        "Защёлка в комплект не входит."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли IZUMI для замены старой ручки?",
+      "a": "Только если прежние отверстия небольшие. Мини-розетка не перекроет широкие следы от старой фурнитуры."
+    },
+    {
+      "q": "В каком интерьере модель смотрится органично?",
+      "a": "В japandi, минимализме с натуральными материалами и в современной классике. Лучше всего с дверями из светлого дерева или эмалью в природных тонах."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "На ручку действует гарантия 24 месяца."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-izumi-4fs-nm-matovyj-chernyj/"
+}

@@ -1,0 +1,163 @@
+{
+  "slug": "morelli-msd-100x70",
+  "name": "Разъёмная петля Morelli MSD 100x70x2,5",
+  "brand": "morelli",
+  "series": "Simple",
+  "order": 327,
+  "category": "/catalog/dvernye-petli/razemnye/",
+  "article": "MSD 100X70X2.5",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "чёрный, левая",
+      "color": "black",
+      "article": "MSD 100X70X2.5 BL L",
+      "price": 350,
+      "inStock": true,
+      "image": "/images/products/morelli-msd-100x70-chernyy-levaya.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2019/blVDZntiSir3FgGKKH4H.webp"
+    },
+    {
+      "finish": "чёрный, правая",
+      "color": "black",
+      "article": "MSD 100X70X2.5 BL R",
+      "price": 350,
+      "inStock": true,
+      "image": "/images/products/morelli-msd-100x70-chernyy-pravaya.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2019/Ug8pwZU3lSZOOCn0VEMr.webp"
+    },
+    {
+      "finish": "белый, левая",
+      "color": "white",
+      "article": "MSD 100X70X2.5 W L",
+      "price": 350,
+      "inStock": false,
+      "image": "/images/products/morelli-msd-100x70-belyy-levaya.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2021/apFDR1L7d9hM9yJXYJeo.webp"
+    },
+    {
+      "finish": "белый, правая",
+      "color": "white",
+      "article": "MSD 100X70X2.5 W R",
+      "price": 350,
+      "inStock": true,
+      "image": "/images/products/morelli-msd-100x70-belyy-pravaya.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2021/qzHAIo9AoBJ06SV0yz1K.webp"
+    },
+    {
+      "finish": "хром, левая",
+      "color": "chrome",
+      "article": "MSD 100X70X2.5 PC L",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-msd-100x70-hrom-levaya.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/HSgKRTJeRJ9rGhDTSgpf.webp"
+    },
+    {
+      "finish": "хром, правая",
+      "color": "chrome",
+      "article": "MSD 100X70X2.5 PC R",
+      "price": 310,
+      "inStock": false,
+      "image": "/images/products/morelli-msd-100x70-hrom-pravaya.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/0P25nLuVkgq5lUcuXOIY.webp"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "карточная разъёмная"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "100 x 70 x 2,5"
+    },
+    {
+      "k": "Сторона",
+      "v": "левая или правая"
+    },
+    {
+      "k": "Вес полотна, кг",
+      "v": "до 40"
+    }
+  ],
+  "description": "Стальная разъёмная петля для межкомнатных дверей до 40 кг. Дверь можно снять с петель без инструмента, что удобно при ремонте и покраске. Нужно выбирать левое или правое исполнение по стороне открывания.",
+  "intro": "Morelli MSD 100x70x2,5: стальная разъёмная петля для межкомнатных дверей весом до 40 кг. Полотно снимается с неё без инструмента, что выручает при ремонте, покраске или замене напольного покрытия. Три цвета: чёрный, белый и хром, каждый в левом и правом исполнении.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Снимается без инструмента",
+          "text": "Дверь приподнимают и снимают с оси, крепёж и регулировка остаются нетронутыми.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Сталь 2,5 мм",
+          "text": "Карта 100 x 70 мм держит межкомнатное полотно до 40 кг.",
+          "icon": "shield"
+        },
+        {
+          "title": "Три цвета",
+          "text": "Чёрный, белый и хром закрывают почти любые сочетания с ручками.",
+          "icon": "kit"
+        },
+        {
+          "title": "Левая и правая",
+          "text": "Каждый цвет выпускается в двух исполнениях по стороне открывания.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | карточная разъёмная",
+        "Размер | 100 x 70 x 2,5 мм",
+        "Сторона | левая или правая",
+        "Вес полотна | до 40 кг",
+        "Материал | сталь",
+        "Покрытия | чёрный, белый, хром"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Разъёмную петлю заказывают под сторону открывания: смотрите на дверь, которая открывается на вас.",
+        "Паз под карту 100 x 70 мм фрезеруют или выбирают стамеской в полотне и коробке.",
+        "Предел 40 кг указан для полотна; на высокие двери и двери со стеклом добавляют третью петлю, чтобы не проседал верх.",
+        "Белый вариант подходит к эмалевым полотнам, хром к светлым ручкам, чёрный к лофт-фурнитуре."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Монтаж и уход",
+      "md": "Перед снятием полотна его приоткрывают примерно на 90° и поднимают строго вверх, без перекоса, иначе ось может погнуться. Если дверь начала тереться о коробку, проверьте затяжку шурупов на коробке. Белое и чёрное покрытие моют мыльным раствором, хром протирают сухой тканью."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем MSD отличается от латунной MB?",
+      "a": "MSD стальная, меньше по размеру, рассчитана на двери до 40 кг и выпускается в современных цветах. MB латунная, крупнее, держит до 60 кг и украшена коронами под классику."
+    },
+    {
+      "q": "Зачем снимать дверь с петель?",
+      "a": "При покраске полотна, укладке пола или проносе мебели дверь проще снять целиком, чем откручивать петли и потом заново выставлять зазоры."
+    },
+    {
+      "q": "Можно ли перевесить дверь на другую сторону?",
+      "a": "Только с заменой петель: левое и правое исполнение разъёмной петли различаются, и одна на место другой не встанет."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/petli/all/870"
+}

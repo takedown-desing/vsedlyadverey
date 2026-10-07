@@ -1,0 +1,153 @@
+{
+  "slug": "armadillo-excalibur-urb4",
+  "name": "Дверная ручка Armadillo EXCALIBUR URB4 для входных и межкомнатных дверей",
+  "brand": "armadillo",
+  "series": "EXCALIBUR",
+  "order": 289,
+  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "article": "EXCALIBUR URB4",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "вороненый никель",
+      "color": "nickel",
+      "article": "EXCALIBUR URB4 BPVD-77",
+      "price": 3654,
+      "inStock": true,
+      "image": "/images/products/armadillo-excalibur-urb4-voronenyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34275_01.jpg"
+    },
+    {
+      "finish": "золото 24к",
+      "color": "gold",
+      "article": "EXCALIBUR URB4 GOLD-24",
+      "price": 3777,
+      "inStock": true,
+      "image": "/images/products/armadillo-excalibur-urb4-zoloto-24k.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34277_01.jpg"
+    },
+    {
+      "finish": "итальянский тисненый",
+      "color": "other",
+      "article": "EXCALIBUR URB4 MWSC-33",
+      "price": 3654,
+      "inStock": true,
+      "image": "/images/products/armadillo-excalibur-urb4-italyanskiy-tisnenyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/42375_01.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "EXCALIBUR URB4 OB-13",
+      "price": 3654,
+      "inStock": true,
+      "image": "/images/products/armadillo-excalibur-urb4-antichnaya-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34527_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "entrance",
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для входной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Urban"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "1124"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    }
+  ],
+  "description": "EXCALIBUR из коллекции Armadillo Urban с мощным клинообразным рычагом рассчитана на двери толщиной от 32 до 62 мм, поэтому подходит и для входных металлических, и для межкомнатных полотен. Покрытия от вороненого никеля до золота 24К.",
+  "intro": "EXCALIBUR URB4 из коллекции Armadillo Urban отличается мощным клинообразным рычагом. По данным производителя, ручка рассчитана на двери толщиной от 32 до 62 мм, поэтому подходит и для входных металлических, и для межкомнатных полотен. Покрытия от воронёного никеля до золота 24К.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Клинообразный рычаг",
+          "text": "Форма клинка делает ручку заметной и удобной для сильного нажатия.",
+          "icon": "handle"
+        },
+        {
+          "title": "Двери 32-62 мм",
+          "text": "Один комплект для межкомнатных и входных полотен.",
+          "icon": "check"
+        },
+        {
+          "title": "1124 г",
+          "text": "Массивный литой корпус из цинкового сплава.",
+          "icon": "shield"
+        },
+        {
+          "title": "Гарантия 5 лет",
+          "text": "Пятилетняя гарантия производителя.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | входные металлические, межкомнатные",
+        "Толщина двери | 32-62 мм",
+        "Розетка | круглая",
+        "Коллекция | Urban",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | воронёный никель, золото 24к, итальянский тиснёный, античная бронза"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Замерьте толщину полотна: она должна укладываться в диапазон 32-62 мм.",
+        "Для входной двери подберите броненакладку или накладку на цилиндр в том же цвете.",
+        "Замок или защёлка приобретаются отдельно.",
+        "Золото 24к лучше ставить на межкомнатные двери, на уличной двери покрытие изнашивается быстрее."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "На какую толщину двери рассчитана ручка?",
+      "a": "По данным производителя, от 32 до 62 мм."
+    },
+    {
+      "q": "Подойдёт ли EXCALIBUR для металлической входной двери?",
+      "a": "Да. Клинообразный рычаг и диапазон толщин 32-62 мм позволяют ставить её на металлические входные полотна с отделкой."
+    },
+    {
+      "q": "Тяжёлая ли модель?",
+      "a": "Да, комплект весит 1124 г, это массивная ручка."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-armadillo-armadillo-razdelnaya-excalibur-urb4-bpvd-77-vor/"
+}

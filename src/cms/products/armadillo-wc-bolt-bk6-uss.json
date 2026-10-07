@@ -1,0 +1,172 @@
+{
+  "slug": "armadillo-wc-bolt-bk6-uss",
+  "name": "Поворотная завертка Armadillo WC-BOLT BK6 USS",
+  "brand": "armadillo",
+  "series": "Urban",
+  "order": 425,
+  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "article": "BK6 USS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "BK6 USS AB-7",
+      "price": 865,
+      "inStock": true,
+      "image": "/images/products/armadillo-wc-bolt-bk6-uss-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39273_01.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "BK6 USS BL-7",
+      "price": 906,
+      "inStock": true,
+      "image": "/images/products/armadillo-wc-bolt-bk6-uss-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39271_01.jpg"
+    },
+    {
+      "finish": "воронёный никель",
+      "color": "nickel",
+      "article": "BK6 USS BPVD-77",
+      "price": 865,
+      "inStock": true,
+      "image": "/images/products/armadillo-wc-bolt-bk6-uss-voronenyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39269_01.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "BK6 USS CP-8",
+      "price": 835,
+      "inStock": true,
+      "image": "/images/products/armadillo-wc-bolt-bk6-uss-hrom.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39263_01.jpg"
+    },
+    {
+      "finish": "флорентийское золото",
+      "color": "gold",
+      "article": "BK6 USS FSG-39",
+      "price": 878,
+      "inStock": true,
+      "image": "/images/products/armadillo-wc-bolt-bk6-uss-florentiyskoe-zoloto.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/42885_01.jpg"
+    },
+    {
+      "finish": "итальянский тиснёный",
+      "color": "other",
+      "article": "BK6 USS MWSC-33",
+      "price": 865,
+      "inStock": true,
+      "image": "/images/products/armadillo-wc-bolt-bk6-uss-italyanskiy-tisnenyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39267_01.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "BK6 USS SN-3",
+      "price": 869,
+      "inStock": true,
+      "image": "/images/products/armadillo-wc-bolt-bk6-uss-matovyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39261_01.jpg"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "BK6 USS WH-19",
+      "price": 840,
+      "inStock": true,
+      "image": "/images/products/armadillo-wc-bolt-bk6-uss-belyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/42883_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "поворотная завертка"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Квадрат, мм",
+      "v": "6"
+    }
+  ],
+  "description": "Поворотная ручка-завертка Armadillo на квадратной розетке для дверей санузла. Работает с сантехническими замками под квадрат 6 мм. Восемь отделок, в том числе белый, чёрный и флорентийское золото.",
+  "intro": "Armadillo WC-BOLT BK6 USS - поворотная ручка-завертка на квадратной розетке для дверей санузла из серии Urban. Она работает с сантехническими замками под квадрат 6 мм. Восемь отделок, от белого и чёрного до флорентийского золота, позволяют собрать дверь в одном цвете с ручкой и замком.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Квадрат 6 мм",
+          "text": "Шток завертки рассчитан на фиксатор сантехнического замка под квадрат 6 мм.",
+          "icon": "bolt"
+        },
+        {
+          "title": "Квадратная розетка",
+          "text": "Пара к ручкам Armadillo Urban на квадратном основании.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Восемь покрытий",
+          "text": "Бронза, чёрный, воронёный никель, хром, флорентийское золото, итальянский тиснёный, матовый никель, белый.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | поворотная завертка",
+        "Квадрат | 6 мм",
+        "Форма розетки | квадратная",
+        "Материал | цинковый сплав",
+        "Серия | Urban"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Убедитесь, что фиксатор вашего замка рассчитан на квадрат 6 мм",
+        "Защёлки Armadillo Gravity WC и Gravity.Pro WC выпускаются в тех же отделках",
+        "Сверьте, на какую толщину полотна рассчитан шток",
+        "Для ручки на круглой розетке лучше выбрать круглую завертку"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Завертку ставят на отверстие фиксатора под ручкой. Сначала вставляют шток в замок, затем совмещают внутреннюю и наружную розетки и стягивают их винтами. Квадратную розетку выставляют по уровню. Покрытие протирают сухой мягкой тканью, средства для сантехники на неё не наносят."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли завертка к замку не Armadillo?",
+      "a": "Да, если фиксатор замка под квадрат 6 мм. Это распространённый размер у сантехнических замков."
+    },
+    {
+      "q": "Есть ли аварийное открывание снаружи?",
+      "a": "Наружную часть уточните по комплектации: у большинства заверток она с прорезью под монету."
+    },
+    {
+      "q": "Какую отделку взять к белой двери?",
+      "a": "Белую, если нужна незаметная фурнитура, или чёрную для контраста. Главное, чтобы ручка была в том же цвете."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-wc-bolt-bk6-uss-ab-7/"
+}

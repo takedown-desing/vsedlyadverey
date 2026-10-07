@@ -1,0 +1,185 @@
+{
+  "slug": "krona-koblenz-spinoff-wc96",
+  "name": "Магнитный замок Krona Koblenz Spinoff WC96 с доводчиком",
+  "brand": "krona-koblenz",
+  "series": "Spinoff",
+  "order": 381,
+  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "article": "KM.003.CM.A.4.COV",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "KM.003.CM.A.4.COV.OS",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-wc96-matovoe-zoloto.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/KS-WC-OS.png"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "KM.003.CM.A.4.COV.OL",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-wc96-zoloto.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/KS-WC-OL.png"
+    },
+    {
+      "finish": "состаренная бронза",
+      "color": "bronze",
+      "article": "KM.003.CM.A.4.COV.BS",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-wc96-sostarennaya-bronza.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/KS-WC-BS.png"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "KM.003.CM.A.4.COV.CL",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-wc96-hrom.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/KS-WC-CL.png"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "KM.003.CM.A.4.COV.NS",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-wc96-matovyy-nikel.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/KS-WC-NS.png"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "KM.003.CM.A.4.COV.BR",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-wc96-bronza.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/KS-WC-BR.png"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "KM.003.CM.A.4.COV.BI",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-wc96-belyy.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/343445_bij5-a1.png"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "KM.003.CM.A.4.COV.NO",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-wc96-chernyy.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/KS-WC-NO-1.png"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "магнитный замок под сантехническую завертку"
+    },
+    {
+      "k": "Язычок",
+      "v": "магнитный"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "96"
+    },
+    {
+      "k": "Особенность",
+      "v": "встроенный доводчик язычка"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Сантехнический магнитный замок итальянской марки Krona Koblenz с мягким износостойким язычком и встроенным доводчиком. Торцевая планка стальная и без видимых отверстий под шурупы: крепёж спрятан в корпусе. Большая палитра отделок позволяет подобрать замок точно в тон ручке.",
+  "intro": "Krona Koblenz Spinoff WC96 - сантехнический магнитный замок итальянской марки, известной скрытыми петлями. Главное отличие модели: встроенный доводчик язычка и стальная торцевая планка без видимых шурупов. Замок работает с поворотной заверткой и ставится на двери ванной и туалета.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Доводчик язычка",
+          "text": "Встроенный механизм мягко доводит язычок в ответную планку, поэтому дверь закрывается без удара даже при лёгком толчке.",
+          "icon": "closer"
+        },
+        {
+          "title": "Скрытый крепёж",
+          "text": "На торцевой планке нет отверстий под шурупы: крепление спрятано в корпусе, торец двери выглядит чисто.",
+          "icon": "seal"
+        },
+        {
+          "title": "Износостойкий язычок",
+          "text": "Производитель делает язычок мягким и стойким к истиранию, это снижает шум и продлевает срок работы пары с планкой.",
+          "icon": "lock"
+        },
+        {
+          "title": "Восемь отделок",
+          "text": "Матовое золото, золото, состаренная бронза, бронза, хром, матовый никель, белый и чёрный: легко попасть в тон ручке.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | магнитный замок под сантехническую завертку",
+        "Межосевое расстояние | 96 мм",
+        "Язычок | магнитный, с доводчиком",
+        "Двери | межкомнатные, санузел",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Бэксет в карточке не указан: сверьте его с паспортом, если подбираете ручку на широкой розетке",
+        "Ручки на планке должны иметь межосевое 96 мм",
+        "Завертку WC подбирайте под квадрат фиксатора этого замка",
+        "Уточните, есть ли в поставке ответная планка нужного цвета"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Паз под корпус фрезеруют по шаблону, торцевую планку утапливают заподлицо с кромкой полотна. Ответную планку ставят по месту после навески двери, чтобы язычок входил в неё без трения. Смазка магнитному механизму не нужна: достаточно раз в год протереть торец и планку от пыли и проверить, не ослаб ли крепёж ручек."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Зачем магнитному замку доводчик?",
+      "a": "Он добирает последние миллиметры хода, когда дверь прикрывают без усилия. Язычок встаёт в планку полностью, и полотно не остаётся приоткрытым."
+    },
+    {
+      "q": "Подойдёт ли Spinoff WC96 к ручкам другого бренда?",
+      "a": "Да, если ручка рассчитана на стандартный квадрат 8 мм, а при установке на планке совпадает межосевое 96 мм."
+    },
+    {
+      "q": "Есть ли такой же замок под ключ?",
+      "a": "Да, в серии есть Spinoff Y85 под евроцилиндр с межосевым 85 мм и тем же доводчиком."
+    }
+  ],
+  "sourceUrl": "https://krona-koblenz.ru/magnitnye-zamki-spinoff-s-dovodchikom/"
+}

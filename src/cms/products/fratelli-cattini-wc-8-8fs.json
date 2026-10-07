@@ -1,0 +1,153 @@
+{
+  "slug": "fratelli-cattini-wc-8-8fs",
+  "name": "Фиксатор поворотный Fratelli Cattini WC-8 8FS на квадратном основании",
+  "brand": "fratelli-cattini",
+  "series": null,
+  "order": 429,
+  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "article": "WC-8 8FS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "WC-8 8FS-BS",
+      "price": 3502,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-8-8fs-matovaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/fiksator-povorotnyj-na-kvadratnom-osnovanii-fratelli-cattini-wc-8fs-bs-matovaja-latun.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "WC-8 8FS-OLV",
+      "price": 3502,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-8-8fs-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/fiksator-povorotnyj-na-kvadratnom-osnovanii-fratelli-cattini-wc-8-8fs-olv-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "WC-8 8FS-BY",
+      "price": 3502,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-8-8fs-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/fiksator-povorotnyj-na-kvadratnom-osnovanii-fratelli-cattini-wc-8-8fs-by-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "WC-8 8FS-SB",
+      "price": 3656,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-8-8fs-matovoe-zoloto.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/fiksator-povorotnyj-na-kvadratnom-osnovanii-fratelli-cattini-wc-8-8fs-sb-matovoe-zoloto.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "WC-8 8FS-NI",
+      "price": 3656,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-8-8fs-matovyy-nikel.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/fiksator-povorotnyj-na-kvadratnom-osnovanii-fratelli-cattini-wc-8-8fs-ni-matovyj-nikel.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "WC-8 8FS-CS",
+      "price": 3859,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-8-8fs-matovyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/fiksator-povorotnyj-na-kvadratnom-osnovanii-fratelli-cattini-wc-8fs-cs-matovyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "minimal",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "поворотный фиксатор WC"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная тонкая"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Фиксатор Fratelli Cattini на тонком квадратном основании для дверей санузла. Подходит к современным ручкам с квадратной розеткой. Доступен в матовой меди, латуни, бронзе, никеле, хроме и чёрном цвете.",
+  "intro": "Fratelli Cattini WC-8 8FS - поворотный фиксатор на тонком квадратном основании для дверей санузла. Он подходит к современным ручкам с квадратной розеткой. Корпус латунный, отделок шесть: матовая и полированная латунь, матовая бронза, матовое золото, матовый никель и матовый хром.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Тонкий квадрат",
+          "text": "Плоское квадратное основание не утяжеляет дверь и смотрится графично.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунный корпус",
+          "text": "Латунь прочнее цинкового сплава и лучше держит покрытие.",
+          "icon": "shield"
+        },
+        {
+          "title": "Тёплые тона",
+          "text": "Латунь, бронза и матовое золото сочетаются с ореховыми и дубовыми дверями.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | поворотный фиксатор WC",
+        "Форма розетки | квадратная тонкая",
+        "Материал | латунь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Ручку берите тоже на квадратном тонком основании",
+        "Квадрат фиксатора сверьте с замком под завертку",
+        "Проверьте длину штока по толщине двери",
+        "Полированная латунь со временем темнеет, матовая меняется меньше"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Квадратное основание выставляют строго по горизонтали, затем стягивают винтами. Латунь без лака естественно темнеет: если это нежелательно, выбирайте матовые отделки. Чистят фиксатор мягкой тканью, без полиролей для серебра и абразивных паст."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли WC-8 к круглой ручке?",
+      "a": "Механически да, но визуально лучше взять круглый фиксатор WC-2 7.7."
+    },
+    {
+      "q": "Будет ли латунь темнеть?",
+      "a": "Полированная латунь со временем приобретает более тёмный тон. Матовые покрытия меняются меньше."
+    },
+    {
+      "q": "С каким замком ставить?",
+      "a": "С любым сантехническим замком или защёлкой под завертку, у которых квадрат совпадает с фиксатором."
+    }
+  ],
+  "sourceUrl": "https://made-italy.ru/shop/fiksator-povorotnyj-na-kvadratnom-osnovanii-fratelli-cattini-wc-8-8fs-sb-matovoe-zoloto/"
+}

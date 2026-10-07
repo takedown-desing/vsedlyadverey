@@ -1,0 +1,143 @@
+{
+  "slug": "colombo-design-cd211-kupe",
+  "name": "Ручка для раздвижной двери Colombo Design CD211",
+  "brand": "colombo-design",
+  "series": "Robot",
+  "order": 233,
+  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "article": "CD211",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "CD211-CM",
+      "price": 3608,
+      "inStock": true,
+      "image": "/images/products/colombo-design-cd211-kupe-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-colombo-cd211-cm-matovyj-hrom-1sht.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "CD211-BR",
+      "price": 2690,
+      "inStock": true,
+      "image": "/images/products/colombo-design-cd211-kupe-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-colombo-cd211-br-bronza-1sht.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "CD211-OM",
+      "price": 4152,
+      "inStock": true,
+      "image": "/images/products/colombo-design-cd211-kupe-matovoe-zoloto.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-colombo-cd211-om-matovoe-zoloto-1sht-.2.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "CD211-OL",
+      "price": 2960,
+      "inStock": true,
+      "image": "/images/products/colombo-design-cd211-kupe-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-colombo-cd211-ol-polirovannaja-latun-1sht-.1.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "sliding"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для раздвижной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "183"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "12 месяцев"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 шт."
+    }
+  ],
+  "description": "Круглая врезная ручка-купе Colombo CD211 для раздвижных дверей и дверей-пеналов. Утопленная чаша не выступает за плоскость полотна, поэтому дверь свободно уходит в стену. Цена указана за одну ручку.",
+  "intro": "Круглая врезная ручка Colombo Design CD211 создана для раздвижных дверей и дверей-пеналов. Утопленная чаша не выступает за плоскость полотна, поэтому дверь свободно уходит в стену. Корпус латунный, производство Италия, цена указана за одну ручку. Вес 183 г.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Утопленная чаша",
+          "text": "Ручка врезается в полотно и не мешает двери заезжать в пенал.",
+          "icon": "slide"
+        },
+        {
+          "title": "Круглая форма",
+          "text": "Ручка перекликается с круглыми розетками серии Robot.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь",
+          "text": "Прочный металл весом 183 г не деформируется при частом использовании.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | раздвижные, пеналы",
+        "Серия | Robot",
+        "Материал | латунь",
+        "Покрытия | матовый хром, бронза, матовое золото, полированная латунь",
+        "Цена указана за | 1 шт.",
+        "Гарантия | 12 месяцев"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "На дверь с двух сторон нужны две ручки, цена указана за одну.",
+        "Под ручку фрезеруют круглое гнездо, глубину подбирают так, чтобы две чаши не мешали друг другу в тонком полотне.",
+        "Для запирания раздвижной двери нужен отдельный замок-крючок.",
+        "Покрытие стоит согласовать с распашными ручками Robot в соседних комнатах."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли CD211 для двери-пенала?",
+      "a": "Да, ручка утоплена в полотно и не выступает, поэтому дверь полностью заходит в стену."
+    },
+    {
+      "q": "Сколько ручек нужно на дверь?",
+      "a": "Две, по одной с каждой стороны. Нет, цена за одну штуку."
+    },
+    {
+      "q": "Как запереть раздвижную дверь?",
+      "a": "Ручка не имеет механизма. Для запирания устанавливают отдельный замок для раздвижных дверей."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-dlja-razdvizhnoj-dveri-colombo-cd211-cm-matovyj-hrom-1sht/"
+}

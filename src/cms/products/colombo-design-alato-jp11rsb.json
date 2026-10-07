@@ -1,0 +1,151 @@
+{
+  "slug": "colombo-design-alato-jp11rsb",
+  "name": "Дверная ручка Colombo Design Alatò JP11RSB на круглой розетке",
+  "brand": "colombo-design",
+  "series": "Alatò",
+  "order": 202,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "JP11RSB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "JP11RSB-CM",
+      "price": 12421,
+      "inStock": true,
+      "image": "/images/products/colombo-design-alato-jp11rsb-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-alato-jp11rsb-cm-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "JP11RSB-CR",
+      "price": 10829,
+      "inStock": true,
+      "image": "/images/products/colombo-design-alato-jp11rsb-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-alato-jp11rsb-cr-polirovannyj-hrom.jpg"
+    },
+    {
+      "finish": "матовый графит PVD",
+      "color": "graphite",
+      "article": "JP11RSB-GM",
+      "price": 15683,
+      "inStock": true,
+      "image": "/images/products/colombo-design-alato-jp11rsb-matovyy-grafit-pvd.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-alato-jp11rsb-gm-matovyj-grafit.jpg"
+    },
+    {
+      "finish": "графит PVD",
+      "color": "graphite",
+      "article": "JP11RSB-GL",
+      "price": 15683,
+      "inStock": false,
+      "image": "/images/products/colombo-design-alato-jp11rsb-grafit-pvd.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-alato-jp11rsb-gl-grafit.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "928"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "10 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Alatò выделяется крылообразным рычагом, который плавно расширяется от шейки к краю. Ручка из латуни приятно тяжелая в руке и уверенно работает на межкомнатных дверях с интенсивным использованием. Модель доступна в хроме и в графитовых PVD-покрытиях.",
+  "intro": "Alatò JP11RSB узнают по крылообразному рычагу, который расширяется от шейки к краю. Латунная ручка приятно тяжёлая в руке и рассчитана на межкомнатные двери, которыми пользуются часто. Доступна в хроме и двух графитовых PVD-покрытиях. Производство Италия.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рычаг-крыло",
+          "text": "Плавное расширение к краю создаёт узнаваемый силуэт и увеличивает площадь под ладонь.",
+          "icon": "handle"
+        },
+        {
+          "title": "928 г латуни",
+          "text": "Самая весомая из ручек Colombo в каталоге: литая латунь держит нагрузку при интенсивном использовании.",
+          "icon": "shield"
+        },
+        {
+          "title": "Графит PVD",
+          "text": "Матовый и глянцевый графит нанесены вакуумным напылением и хорошо переносят частые касания.",
+          "icon": "rosette"
+        },
+        {
+          "title": "10 лет гарантии",
+          "text": "Производитель гарантирует сохранность покрытия в течение десяти лет.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные с частым использованием",
+        "Розетка | круглая",
+        "Материал | латунь",
+        "Вес комплекта | 928 г",
+        "Покрытия | матовый хром, полированный хром, матовый графит PVD, графит PVD"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Тяжёлой ручке нужна защёлка с надёжной возвратной пружиной, иначе рычаг может провисать.",
+        "Графит выбирают к тёмным полотнам и чёрной фурнитуре, хром к светлым и серым дверям.",
+        "Завёртку WC и накладки подбирайте на круглой розетке того же диаметра.",
+        "Проверьте, хватает ли длины квадрата и стяжек под вашу толщину двери."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему Alatò такая тяжёлая?",
+      "a": "Корпус выполнен из латуни, а не из цинкового сплава. Вес комплекта 928 г, это придаёт ручке солидность и долговечность."
+    },
+    {
+      "q": "Чем отличаются два графитовых покрытия?",
+      "a": "Матовый графит PVD имеет бархатистую поверхность без блеска, графит PVD более глянцевый. Оба покрытия стойкие к истиранию."
+    },
+    {
+      "q": "Подходит ли ручка для офиса?",
+      "a": "Да, латунный корпус и PVD-покрытия рассчитаны на частое использование, поэтому модель уместна в переговорных и кабинетах."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-colombo-alato-jp11rsb-cm-matovyj-hrom/"
+}

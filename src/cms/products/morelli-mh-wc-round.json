@@ -1,0 +1,149 @@
+{
+  "slug": "morelli-mh-wc-round",
+  "name": "Сантехническая завертка Morelli MH-WC круглая",
+  "brand": "morelli",
+  "series": null,
+  "order": 423,
+  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "article": "MH-WC",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовое золото / золото",
+      "color": "gold",
+      "article": "MH-WC SG/GP",
+      "price": 680,
+      "inStock": true,
+      "image": "/images/products/morelli-mh-wc-round-matovoe-zoloto-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/Jp6iitVF2KiBnKjrreCP.webp"
+    },
+    {
+      "finish": "белый никель / хром",
+      "color": "nickel",
+      "article": "MH-WC SN/CP",
+      "price": 1012,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-round-belyy-nikel-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/82e2uJ4RQAe44VSk0Qn3.webp"
+    },
+    {
+      "finish": "матовый хром / хром",
+      "color": "chrome",
+      "article": "MH-WC SC/CP",
+      "price": 1012,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-round-matovyy-hrom-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/ZXyeBG6bQhFGcklq3Luq.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "MH-WC AB",
+      "price": 1012,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-round-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/9RhHFEGebhT8Grafc5YB.webp"
+    },
+    {
+      "finish": "матовая античная бронза",
+      "color": "bronze",
+      "article": "MH-WC MAB/AB",
+      "price": 1035,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-round-matovaya-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/eJNqSMkAfIB8gNTWwRB0.webp"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "MH-WC GP",
+      "price": 1035,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-wc-round-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/sfpPsMlg0voDUetFcjNy.webp"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "поворотная завертка с индикатором"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    }
+  ],
+  "description": "Поворотная завертка Morelli на круглой розетке для дверей ванной и туалета. Снаружи ставится ответная часть с прорезью для аварийного открывания. Подходит к ручкам Morelli на круглой розетке.",
+  "intro": "Morelli MH-WC - поворотная завертка на круглой розетке для дверей ванной и туалета. Изнутри дверь запирают поворотом, а снаружи ставится ответная часть с индикатором и прорезью для аварийного открывания. Завертка подходит к ручкам Morelli на круглой розетке и выпускается в шести вариантах отделки.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Индикатор",
+          "text": "Снаружи видно, занято помещение или свободно.",
+          "icon": "eye"
+        },
+        {
+          "title": "Аварийное открывание",
+          "text": "Прорезь на наружной части позволяет открыть дверь монетой или отвёрткой.",
+          "icon": "shield"
+        },
+        {
+          "title": "Круглая розетка",
+          "text": "Форма совпадает с ручками Morelli на круглом основании.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Двухтонные варианты",
+          "text": "Часть отделок сочетает матовый и глянцевый слой, например матовое золото / золото.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | поворотная завертка с индикатором",
+        "Форма розетки | круглая",
+        "Материал | цинковый сплав",
+        "Двери | межкомнатные, санузел"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Нужен сантехнический замок или защёлка под завертку",
+        "Квадрат завертки должен совпадать с фиксатором замка",
+        "Проверьте длину штока под толщину двери",
+        "Диаметр розетки сравните с розеткой ручки, чтобы они смотрелись парой"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли завертка к замку другой марки?",
+      "a": "Да, если квадрат фиксатора совпадает. Размер указан в паспорте замка."
+    },
+    {
+      "q": "Что значат двойные названия отделок?",
+      "a": "Это двухтонное исполнение: основная часть в одном покрытии, детали в другом, например матовый хром / хром."
+    },
+    {
+      "q": "Есть ли квадратная версия?",
+      "a": "Да, Morelli MH-WC-S6 на тонкой квадратной розетке."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/544"
+}

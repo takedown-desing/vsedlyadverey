@@ -1,0 +1,140 @@
+{
+  "slug": "venezia-vivaldi-ep",
+  "name": "Ручка для профильных дверей Venezia VIVALDI EP",
+  "brand": "venezia",
+  "series": "VIVALDI",
+  "order": 288,
+  "category": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/",
+  "article": "VIVALDI EP",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "VIVALDI EP EP",
+      "price": 11217,
+      "inStock": true,
+      "image": "/images/products/venezia-vivaldi-ep-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vivaldi-ep-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "VIVALDI EP EP",
+      "price": 11252,
+      "inStock": true,
+      "image": "/images/products/venezia-vivaldi-ep-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vivaldi-ep-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "VIVALDI EP EP",
+      "price": 13677,
+      "inStock": false,
+      "image": "/images/products/venezia-vivaldi-ep-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vivaldi-ep-antichnoe-serebro.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "aluminium",
+    "pvc",
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для профильной двери"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "овальная"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Профильная версия популярной модели VIVALDI на овальной розетке EP. Позволяет оформить в едином стиле обычные межкомнатные двери и алюминиевые перегородки со стеклом.",
+  "intro": "VIVALDI EP переносит известную классическую модель Venezia на узкую овальную розетку для профильных дверей. Благодаря ей обычные межкомнатные двери и алюминиевые перегородки со стеклом можно оформить в едином стиле, с одним и тем же резным рычагом. Корпус латунный.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Резной рычаг VIVALDI",
+          "text": "Та же барочная форма, что у версии на планке PL02.",
+          "icon": "handle"
+        },
+        {
+          "title": "Розетка EP",
+          "text": "Узкий овал под стойку профильной двери.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Единый стиль",
+          "text": "Глухие и остеклённые двери получают одинаковую ручку.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | профильные алюминиевые и ПВХ, межкомнатные",
+        "Розетка | овальная EP",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, античное серебро",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для глухих дверей выберите VIVALDI на планке PL02 в том же покрытии.",
+        "Проверьте замок профильной двери и совместимость квадрата.",
+        "Розетка должна полностью лечь на стойку профиля.",
+        "Комплект закрывает обе стороны одного полотна."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Резьбу рычага очищают мягкой кисточкой, затем протирают сухой тканью. Состаренное серебро и бронзу не полируют, иначе на выступах появятся светлые пятна. Полированную латунь протирают фланелью без паст."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем VIVALDI EP отличается от VIVALDI PL02?",
+      "a": "Рычаг одинаковый, различается основание: EP представляет собой узкую овальную розетку для профильных дверей, PL02 высокую фигурную планку."
+    },
+    {
+      "q": "Можно ли поставить на ПВХ-дверь?",
+      "a": "Да, розетка EP рассчитана на профильные двери."
+    },
+    {
+      "q": "Какие отделки предлагаются?",
+      "a": "Три варианта: полированная латунь, матовая бронза и античное серебро, как у классических ручек Venezia."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vivaldi-ep-polirovannaja-latun/"
+}

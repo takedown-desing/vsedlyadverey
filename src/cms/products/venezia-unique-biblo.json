@@ -1,0 +1,187 @@
+{
+  "slug": "venezia-unique-biblo",
+  "name": "Дверная ручка Venezia Unique Biblo на квадратной розетке",
+  "brand": "venezia",
+  "series": "Unique Biblo",
+  "order": 38,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "VNZ2001",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "VNZ2001",
+      "price": 5955,
+      "inStock": true,
+      "image": "/images/products/venezia-unique-biblo-polirovannyy-hrom.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/605/6050a3a25e16f2047dc9bc51af858279.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "VNZ2000",
+      "price": 5531,
+      "inStock": true,
+      "image": "/images/products/venezia-unique-biblo-matovyy-hrom.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/c55/c55335cd0812851826e4abd4d9ea22dd.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "VNZ2801",
+      "price": 6585,
+      "inStock": true,
+      "image": "/images/products/venezia-unique-biblo-matovaya-bronza.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/7d2/7d2af4d273cdb4be1c528b182f41c5f0.jpg"
+    },
+    {
+      "finish": "матовый хром / чёрный",
+      "color": "black",
+      "article": "VNZ3739",
+      "price": 6659,
+      "inStock": true,
+      "image": "/images/products/venezia-unique-biblo-matovyy-hrom-chernyy.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/dd5/dd50fd117bd0d49c19629b5ec705b3a7.jpg"
+    },
+    {
+      "finish": "матовый хром / чёрный soft-touch",
+      "color": "black",
+      "article": "VNZ3184",
+      "price": 7530,
+      "inStock": true,
+      "image": "/images/products/venezia-unique-biblo-matovyy-hrom-chernyy-soft.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/b3d/b3dfc359fd92adafa492f09a577a24b4.jpg"
+    },
+    {
+      "finish": "полированный хром / чёрный soft-touch",
+      "color": "black",
+      "article": "VNZ3185",
+      "price": 7530,
+      "inStock": true,
+      "image": "/images/products/venezia-unique-biblo-polirovannyy-hrom-chernyy.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/446/4464acb67824995e1262e2542c4a9319.jpg"
+    },
+    {
+      "finish": "полированный хром / белый",
+      "color": "white",
+      "article": "VNZ3188",
+      "price": 8109,
+      "inStock": true,
+      "image": "/images/products/venezia-unique-biblo-polirovannyy-hrom-belyy.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/65f/65f94b74049cd9f44bc48e23f6676e02.jpg"
+    }
+  ],
+  "material": "ЦАМ",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Размер розетки, мм",
+      "v": "45×45×9,5"
+    },
+    {
+      "k": "Материал",
+      "v": "ЦАМ (Zamak)"
+    },
+    {
+      "k": "Квадрат, мм",
+      "v": "8"
+    },
+    {
+      "k": "Ресурс",
+      "v": "200 000 циклов нажатия"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Biblo в коллекции Venezia Unique имеет прямоугольный рычаг-брусок с мягко скруглёнными гранями, который визуально продолжает квадратную розетку. Модель выпускается в хроме и матовой бронзе, а также в двухцветных исполнениях с чёрным или белым рычагом на хромированном основании. Такая ручка подойдёт к дверям в стиле минимализм и лофт.",
+  "intro": "Venezia Unique Biblo это ручка с прямоугольным рычагом-бруском и мягко скруглёнными гранями, который визуально продолжает квадратную розетку. В линейке семь исполнений: хром, матовая бронза и двухцветные варианты с чёрным или белым рычагом на хромированном основании. Подходит к дверям в стиле минимализм и лофт.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рычаг-брусок",
+          "text": "Прямоугольный профиль со скруглёнными гранями выглядит строго, но не режет ладонь.",
+          "icon": "handle"
+        },
+        {
+          "title": "Семь исполнений",
+          "text": "Больше всего исполнений среди моделей Unique в каталоге, включая белый и чёрный рычаг на хроме.",
+          "icon": "check"
+        },
+        {
+          "title": "Матовая бронза",
+          "text": "Тёплый вариант для дверей с древесной фактурой.",
+          "icon": "rosette"
+        },
+        {
+          "title": "200 000 циклов",
+          "text": "Ресурс по паспорту, производство Италия.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Розетка | квадратная, 45 x 45 x 9,5 мм",
+        "Квадрат | 8 мм",
+        "Материал | ЦАМ (Zamak)",
+        "Исполнения | 7, включая двухцветные",
+        "Гарантия | 24 месяца",
+        "Комплект | 2 ручки на дверь"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Двухцветный вариант выбирайте по цвету полотна: белый рычаг для светлых дверей, чёрный для контраста",
+        "Защёлку подбирайте под квадрат 8 мм",
+        "WC-завертку и накладки берите в той же отделке розетки",
+        "Матовую бронзу не сочетайте с хромированными петлями"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Какой вариант выбрать для белой двери?",
+      "a": "Хром с белым рычагом почти сливается с полотном, хром с чёрным даёт графичный акцент."
+    },
+    {
+      "q": "Подходит ли Biblo для лофта?",
+      "a": "Да, прямоугольная форма и чёрный рычаг хорошо поддерживают индустриальную эстетику."
+    },
+    {
+      "q": "Отличается ли розетка у разных моделей Unique?",
+      "a": "Нет, у Miami, Sydney, Philip и Biblo одинаковая квадратная розетка 45x45x9,5 мм, модели различаются рычагом."
+    }
+  ],
+  "sourceUrl": "https://nasp.ru/product/vnz2001-100718/"
+}

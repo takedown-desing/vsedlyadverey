@@ -1,0 +1,152 @@
+{
+  "slug": "fratelli-cattini-una-x-7fs",
+  "name": "Дверная ручка Fratelli Cattini UNA X 7FS на круглой розетке",
+  "brand": "fratelli-cattini",
+  "series": "UNA X",
+  "order": 204,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "UNA X 7FS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "7FS-NM",
+      "price": 10717,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-x-7fs-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-una-x-7fs-nm-matovyj-chernyj.1.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "7FS-SB",
+      "price": 12487,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-x-7fs-matovoe-zoloto.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-una-x-7fs-sb-matovoe-zoloto.1.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "7FS-BY",
+      "price": 11107,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-x-7fs-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-una-x-7fs-by-matovaja-bronza.1.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "7FS-NI",
+      "price": 12268,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-x-7fs-matovyy-nikel.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-una-x-7fs-ni-matovyj-nikel.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "820"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "UNA X продолжает популярную линию UNA: прямой рычаг квадратного сечения стоит на тонкой круглой розетке высотой всего несколько миллиметров. Ручка из латуни подходит для современных межкомнатных дверей, а матовые покрытия не оставляют отпечатков пальцев.",
+  "intro": "UNA X 7FS продолжает линию UNA: прямой рычаг квадратного сечения установлен на круглую розетку высотой всего несколько миллиметров. Латунная ручка в матовых покрытиях рассчитана на современные межкомнатные двери и почти не собирает отпечатков. В упаковке ручки на обе стороны одного полотна.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Квадратное сечение",
+          "text": "Строгий прямой рычаг держит геометрию двери и не выглядит грубым благодаря тонкой розетке.",
+          "icon": "handle"
+        },
+        {
+          "title": "Розетка 7FS",
+          "text": "Очень низкая круглая розетка почти сливается с плоскостью полотна.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь 820 г",
+          "text": "Массивный латунный корпус даёт вес и долговечность.",
+          "icon": "shield"
+        },
+        {
+          "title": "Только матовые цвета",
+          "text": "Чёрный, золото, бронза и никель в матовом исполнении не показывают следы пальцев.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | современные межкомнатные",
+        "Розетка | круглая, тонкая 7FS",
+        "Материал | латунь",
+        "Покрытия | матовый чёрный, матовое золото, матовая бронза, матовый никель",
+        "Гарантия | 5 лет",
+        "Цена указана за | 1 комплект (2 шт.)"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для узких остеклённых дверей есть версия UNA X на планке PL08.",
+        "Под тонкую розетку нужна аккуратная врезка: отверстие под квадрат не должно выходить за край основания.",
+        "Защёлку, завёртку WC и накладку под ключ выбирайте отдельно в том же покрытии.",
+        "Матовое золото и матовая бронза заметно отличаются по теплоте оттенка, сравните их с петлями."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем UNA X отличается от обычной UNA?",
+      "a": "UNA X сохраняет лаконичность линии, но имеет рычаг квадратного сечения, из-за чего выглядит строже и графичнее."
+    },
+    {
+      "q": "Какая высота у розетки 7FS?",
+      "a": "Это тонкая розетка высотой несколько миллиметров. Точный размер уточняйте у менеджера, если он важен для проекта."
+    },
+    {
+      "q": "Есть ли у модели пара для раздвижной двери?",
+      "a": "В серии есть исполнение на узкой планке PL08. Для раздвижных дверей подбирают отдельную врезную ручку-купе в том же цвете."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-una-x-7fs-nm-matovyj-chernyj/"
+}

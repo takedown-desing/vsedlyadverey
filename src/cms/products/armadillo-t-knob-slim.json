@@ -1,0 +1,132 @@
+{
+  "slug": "armadillo-t-knob-slim",
+  "name": "Поворотник Armadillo T.Knob-Slim на шток цилиндра",
+  "brand": "armadillo",
+  "series": "CB-Slim",
+  "order": 122,
+  "category": "/catalog/cilindry/povorotniki/",
+  "article": "CB-Slim",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "чёрный BL-26",
+      "color": "black",
+      "article": "CB-Slim BL-26",
+      "price": 248,
+      "inStock": true,
+      "image": "/images/products/armadillo-t-knob-slim-bl.jpg",
+      "imageSrc": "https://www.tlock.ru/photo_bank/44465_01.jpg"
+    },
+    {
+      "finish": "хром CP-8",
+      "color": "chrome",
+      "article": "CB-Slim CP-8",
+      "price": 248,
+      "inStock": true,
+      "image": "/images/products/armadillo-t-knob-slim-cp.jpg",
+      "imageSrc": "https://www.tlock.ru/photo_bank/44467_01.jpg"
+    },
+    {
+      "finish": "итальянский тиснёный MWSC-33",
+      "color": "other",
+      "article": "CB-Slim MWSC-33",
+      "price": 248,
+      "inStock": true,
+      "image": "/images/products/armadillo-t-knob-slim-mwsc.jpg",
+      "imageSrc": "https://www.tlock.ru/photo_bank/44463_01.jpg"
+    }
+  ],
+  "material": "ZAMAK",
+  "style": "modern",
+  "doorTypes": [
+    "entrance",
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "вертушка на шток цилиндра"
+    },
+    {
+      "k": "Диаметр штока, мм",
+      "v": "8"
+    },
+    {
+      "k": "Совместимость",
+      "v": "цилиндры со штоком разных производителей"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    }
+  ],
+  "description": "Тонкая вертушка Armadillo для цилиндров со штоком диаметром 8 мм. Форма подобрана под ручки Armadillo Urban на тонком основании Slim, поэтому поворотник не выбивается из общего стиля двери. Подходит к цилиндрам разных марок.",
+  "intro": "Armadillo T.Knob-Slim это тонкая вертушка для цилиндров со штоком диаметром 8 мм. Её форма подобрана под ручки Armadillo Urban на тонком основании Slim, поэтому поворотник не выбивается из общего стиля двери. Подходит к цилиндрам разных марок, корпус из ZAMAK, гарантия 5 лет.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Тонкий профиль",
+          "text": "Вертушка почти не выступает над накладкой и повторяет пропорции ручек Slim.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Шток 8 мм",
+          "text": "Посадка под стандартный шток цилиндра диаметром 8 мм.",
+          "icon": "bolt"
+        },
+        {
+          "title": "Итальянское тиснение",
+          "text": "Кроме чёрного и хрома есть покрытие MWSC-33 с тиснёной фактурой.",
+          "icon": "rosette"
+        },
+        {
+          "title": "5 лет гарантии",
+          "text": "Производитель даёт пятилетнюю гарантию.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | вертушка на шток цилиндра",
+        "Шток | Ø8 мм",
+        "Совместимость | цилиндры со штоком разных производителей",
+        "Материал | ZAMAK",
+        "Покрытия | чёрный BL-26, хром CP-8, тиснёный MWSC-33",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Нужен цилиндр со штоком, а не ключ-вертушка",
+        "Длина штока должна позволять надеть вертушку после установки накладки",
+        "Под вертушку нужна накладка с отверстием под шток",
+        "Цвет подбирайте к ручкам Urban Slim или другой фурнитуре двери"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли вертушка к цилиндру другой марки?",
+      "a": "Да, если шток цилиндра диаметром 8 мм."
+    },
+    {
+      "q": "Чем Slim отличается от T.Knob-S?",
+      "a": "Slim тоньше и подобрана под ручки Urban на тонком основании, T.Knob-S имеет классическую форму."
+    },
+    {
+      "q": "Что такое покрытие MWSC-33?",
+      "a": "Итальянское тиснёное покрытие с рельефной фактурой, оно отличается от гладкого хрома и чёрного."
+    }
+  ],
+  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/povorotniki/sv_slim/cb_slim_/vertushka_na_tsilindr_cb_slim_bl_26_chernyy/"
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "armadillo-gravity-pro-g01-196-wc",
+  "name": "Магнитная защёлка Armadillo Gravity.Pro WC G01.196.50.96 с ответной планкой",
+  "brand": "armadillo",
+  "series": "Gravity.Pro",
+  "order": 383,
+  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "article": "G01.196.50.96",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "G01.196.50.96 AB",
+      "price": 1267,
+      "inStock": true,
+      "image": "/images/products/armadillo-gravity-pro-g01-196-wc-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/03/57301_01.jpg"
+    },
+    {
+      "finish": "медь",
+      "color": "copper",
+      "article": "G01.196.50.96 AC",
+      "price": 1267,
+      "inStock": true,
+      "image": "/images/products/armadillo-gravity-pro-g01-196-wc-med.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/11/60703_01.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "G01.196.50.96 BL",
+      "price": 1267,
+      "inStock": true,
+      "image": "/images/products/armadillo-gravity-pro-g01-196-wc-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/03/57291_01.jpg"
+    },
+    {
+      "finish": "воронёный никель",
+      "color": "nickel",
+      "article": "G01.196.50.96 BPVD",
+      "price": 1267,
+      "inStock": true,
+      "image": "/images/products/armadillo-gravity-pro-g01-196-wc-voronenyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/03/57299_01.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "G01.196.50.96 CP",
+      "price": 1267,
+      "inStock": true,
+      "image": "/images/products/armadillo-gravity-pro-g01-196-wc-hrom.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/03/57289_01.jpg"
+    },
+    {
+      "finish": "флорентийское золото",
+      "color": "gold",
+      "article": "G01.196.50.96 FSG",
+      "price": 1267,
+      "inStock": true,
+      "image": "/images/products/armadillo-gravity-pro-g01-196-wc-florentiyskoe-zoloto.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/03/57297_01.jpg"
+    },
+    {
+      "finish": "итальянский тиснёный",
+      "color": "other",
+      "article": "G01.196.50.96 MWSC",
+      "price": 1267,
+      "inStock": true,
+      "image": "/images/products/armadillo-gravity-pro-g01-196-wc-italyanskiy-tisnenyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/57295_01.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "G01.196.50.96 SN",
+      "price": 1267,
+      "inStock": true,
+      "image": "/images/products/armadillo-gravity-pro-g01-196-wc-matovyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/03/57293_01.jpg"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "магнитная защёлка под сантехническую завертку"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "96"
+    },
+    {
+      "k": "Бэксет, мм",
+      "v": "50"
+    },
+    {
+      "k": "Способ установки",
+      "v": "врезной"
+    }
+  ],
+  "description": "Обновлённая версия магнитной защёлки Armadillo для ванной и туалета. Корпус и ответная планка выпускаются в восьми отделках, от белого и чёрного до меди и флорентийского золота. Хороший выбор, когда важно, чтобы торец двери совпадал по цвету с ручкой.",
+  "intro": "Gravity.Pro WC G01.196.50.96 - обновлённая магнитная защёлка Armadillo для ванной и туалета. Размеры классические, межосевое 96 мм и бэксет 50 мм, а корпус с ответной планкой выпускаются в восьми покрытиях, включая медь, воронёный никель и флорентийское золото. Модель выбирают, когда торец двери должен совпасть по цвету с ручкой.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Восемь отделок",
+          "text": "Бронза, медь, чёрный, воронёный никель, хром, флорентийское золото, итальянский тиснёный и матовый никель.",
+          "icon": "check"
+        },
+        {
+          "title": "Цвет по всей двери",
+          "text": "Корпус и ответная планка окрашены одинаково, поэтому торец полотна и коробка не спорят по цвету с ручкой.",
+          "icon": "handle"
+        },
+        {
+          "title": "Врезной корпус",
+          "text": "Стандартная врезка с бэксетом 50 мм: паз делается тем же инструментом, что и под большинство межкомнатных замков.",
+          "icon": "lock"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | магнитная защёлка под завертку WC",
+        "Межосевое расстояние | 96 мм",
+        "Бэксет | 50 мм",
+        "Установка | врезная",
+        "Двери | межкомнатные, санузел"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Подберите завертку Armadillo WC-BOLT BK6 в том же покрытии, у неё тоже восемь отделок",
+        "Ручка на розетке подойдёт под квадрат 8 мм, на планке нужна разметка 96 мм",
+        "Сравните оттенок: матовый никель и итальянский тиснёный заметно отличаются на свету",
+        "Если меняете старый замок, сверьте длину торцевой планки"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Защёлку врезают в торец на высоте ручки, ответную планку ставят после навески двери, когда видно, куда приходит язычок. Покрытие протирают мягкой сухой тканью; абразивы и средства с хлором для ванной комнаты оставляют следы на меди и золоте."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Встанет ли Gravity.Pro в паз от обычной Gravity?",
+      "a": "По ключевым размерам модели совпадают: межосевое 96 мм и бэксет 50 мм. Длину торцевой планки лучше сверить по месту."
+    },
+    {
+      "q": "Какая завертка подойдёт?",
+      "a": "Проще всего взять Armadillo WC-BOLT BK6 USS: она работает с квадратом 6 мм и выпускается в тех же восьми отделках."
+    },
+    {
+      "q": "Подойдёт ли защёлка для детской или спальни?",
+      "a": "Модель задумана для санузла с заверткой. Если нужна комната на ключ, смотрите Gravity.Pro G02.196 под цилиндр."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/magnitnaya-armadillo-armadillo-zashhelka-wc-s-otvetnoj-plankoj-gravity-pro-g01-196-50-96-ab-bronza/"
+}

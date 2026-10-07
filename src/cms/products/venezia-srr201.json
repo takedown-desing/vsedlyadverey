@@ -1,0 +1,135 @@
+{
+  "slug": "venezia-srr201",
+  "name": "Замок Venezia SRR201 для раздвижной двери с ответной планкой",
+  "brand": "venezia",
+  "series": null,
+  "order": 418,
+  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "article": "SRR201",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "SRR201",
+      "price": 907,
+      "inStock": true,
+      "image": "/images/products/venezia-srr201-matovaya-bronza.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/865/865872ecbf008382ab0ee687d8ba4553.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "SRR201",
+      "price": 907,
+      "inStock": false,
+      "image": "/images/products/venezia-srr201-polirovannaya-latun.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/4a3/4a321d0557a8a0efecb671fde93f04d4.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "SRR201",
+      "price": 1052,
+      "inStock": false,
+      "image": "/images/products/venezia-srr201-matovyy-hrom.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/c02/c02af25edf0175d09642b11f99d82377.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "SRR201",
+      "price": 1061,
+      "inStock": false,
+      "image": "/images/products/venezia-srr201-polirovannyy-hrom.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/34e/34e4f2a5eef8778794931b3de3520e8d.jpg"
+    }
+  ],
+  "material": "сталь",
+  "style": "classic",
+  "doorTypes": [
+    "sliding",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "замок для раздвижной двери"
+    },
+    {
+      "k": "Язычок",
+      "v": "металлический"
+    },
+    {
+      "k": "Тип доп. запирания",
+      "v": "сантехническая завертка"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Итальянский замок Venezia для раздвижных дверей, запирается поворотной заверткой. Поставляется вместе с ответной планкой. Отделки подобраны под классические ручки-купе Venezia: бронза, латунь и хром.",
+  "intro": "Venezia SRR201 - итальянский замок для раздвижной двери с металлическим язычком, который запирается поворотной заверткой. Поставляется вместе с ответной планкой. Отделки подобраны под классические ручки-купе Venezia: матовая бронза, полированная латунь, матовый и полированный хром.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Классика для купе",
+          "text": "Замок в тон ручкам-купе Venezia, поэтому раздвижная дверь выглядит так же, как распашные.",
+          "icon": "slide"
+        },
+        {
+          "title": "Завертка изнутри",
+          "text": "Сантехническое запирание подходит для санузла и спальни с дверью-купе.",
+          "icon": "lock"
+        },
+        {
+          "title": "Металлический язычок",
+          "text": "Язычок из металла держит полотно и выдерживает регулярные рывки.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | замок для раздвижной двери",
+        "Язычок | металлический",
+        "Доп. запирание | сантехническая завертка",
+        "Комплектация | замок, ответная планка",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Ручки-купе Venezia выпускаются в тех же покрытиях, подберите их вместе",
+        "Проверьте толщину полотна по паспорту замка",
+        "Полированная латунь и матовая бронза смотрятся по-разному, сравните с остальной фурнитурой",
+        "Место под ответную планку подготовьте до монтажа двери"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли SRR201 для двери ванной?",
+      "a": "Да, он запирается сантехнической заверткой изнутри, как обычная дверь санузла."
+    },
+    {
+      "q": "Можно ли сочетать его с ручками-купе другого бренда?",
+      "a": "Можно, но цвет полированной латуни и бронзы у разных марок отличается. Надёжнее взять ручки Venezia."
+    },
+    {
+      "q": "Что входит в поставку?",
+      "a": "Замок и ответная планка. Ручки-купе приобретаются отдельно."
+    }
+  ],
+  "sourceUrl": "https://zamkitut.com/catalog/product/zamok_dlya_razdvizhnoy_dveri_srr201_otvetnaya_planka_polirovannyy_khrom/"
+}

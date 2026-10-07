@@ -1,0 +1,147 @@
+{
+  "slug": "venezia-colosseo-d1",
+  "name": "Дверная ручка Venezia COLOSSEO D1 с белой керамикой на круглой розетке",
+  "brand": "venezia",
+  "series": "COLOSSEO",
+  "order": 213,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "COLOSSEO D1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "COLOSSEO D1",
+      "price": 12066,
+      "inStock": true,
+      "image": "/images/products/venezia-colosseo-d1-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-colosseo-belaja-keramika-pautinka-d1-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "COLOSSEO D1",
+      "price": 12898,
+      "inStock": false,
+      "image": "/images/products/venezia-colosseo-d1-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-colosseo-belaja-keramika-pautinka-d1-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "COLOSSEO D1",
+      "price": 13969,
+      "inStock": false,
+      "image": "/images/products/venezia-colosseo-d1-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-colosseo-belaja-keramika-pautinka-d1-antichnoe-serebro.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "COLOSSEO D1",
+      "price": 12411,
+      "inStock": true,
+      "image": "/images/products/venezia-colosseo-d1-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-colosseo-belaja-keramika-pautinka-d1-polirovannyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "474"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "COLOSSEO сочетает латунный корпус со вставкой из белой керамики с тонким рисунком-паутинкой. Такая ручка становится декоративным элементом двери и подходит для классических, прованских и дворцовых интерьеров.",
+  "intro": "COLOSSEO D1 от Venezia соединяет латунный корпус и вставку из белой керамики с тонким рисунком-паутинкой. Ручка работает как декоративный элемент двери и подходит для классических, прованских и дворцовых интерьеров, где фурнитура должна поддерживать общий стиль.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Керамическая вставка",
+          "text": "Белая керамика с кракелюрным узором делает ручку похожей на предмет декора.",
+          "icon": "handle"
+        },
+        {
+          "title": "Латунь и керамика",
+          "text": "Металл обрамляет вставку и задаёт цвет: латунь, бронза, серебро или хром.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Лёгкая ручка",
+          "text": "Комплект весит 474 г, заметно легче цельнометаллических классических моделей.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Интерьер | классика, прованс, дворцовый стиль",
+        "Двери | межкомнатные распашные",
+        "Розетка | круглая D1",
+        "Материал | латунь, вставка из белой керамики",
+        "Покрытия | полированная латунь, матовая бронза, античное серебро, полированный хром",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Белая керамика лучше всего смотрится на светлых дверях и рядом с белой мебелью.",
+        "Прованс поддержат античное серебро и матовая бронза, дворцовую классику полированная латунь.",
+        "Завёртку и накладки подбирайте в том же металле, керамика на них обычно не повторяется.",
+        "Керамика не любит ударов: ставьте дверной упор, чтобы ручка не касалась стены."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Не треснет ли керамика?",
+      "a": "В обычной эксплуатации нет. Риск возникает при ударах о стену, поэтому рядом с дверью стоит установить упор."
+    },
+    {
+      "q": "Как ухаживать за керамической вставкой?",
+      "a": "Керамику протирают влажной мягкой тканью. Металлическую часть очищают так же, без абразивов и полиролей."
+    },
+    {
+      "q": "Какой цвет металла выбрать?",
+      "a": "Для прованса подходят античное серебро и матовая бронза, для классики с позолотой полированная латунь, для светлого нейтрального интерьера хром."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-Venezia-COLOSSEO-belaja-keramika-pautinka-D1-polirovannaja-latun/"
+}

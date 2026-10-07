@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
-import { CATEGORY_NAV, SITE_NAME, PHONE, EMAIL, BRANDS, DOOR_TYPES, shortName, brandName } from '../lib/data';
+import { CATEGORY_NAV, SITE_NAME, PHONE, EMAIL, BRANDS, DOOR_TYPES, shortName, brandName, SITE } from '../lib/data';
 import { u, abs } from '../lib/url';
 import { COMPANY, tel } from '../lib/company';
 import RatingBadge from '../components/RatingBadge.astro';
@@ -74,7 +74,7 @@ const topBrands = BRANDS.filter((b) => b.tier === 'A');
   </nav>
 
   <div class="page">
-    <div class="demo-bar">Сайт работает в тестовом режиме: цены ориентировочные, заказы через сайт пока не принимаются. Наличие и точную цену подскажет менеджер: <a href={tel(PHONE)}>{PHONE}</a></div>
+    {SITE.announcement && <div class="demo-bar">{SITE.announcement}{SITE.announcementShowPhone && <> <a href={tel(PHONE)}>{PHONE}</a></>}</div>}
     <header class="top">
       <div class="wrap">
         <button class="icon-btn burger" id="burger" aria-label="Открыть каталог" aria-controls="rail" aria-expanded="false"><Icon name="menu" /></button>
@@ -113,13 +113,13 @@ const topBrands = BRANDS.filter((b) => b.tier === 'A');
         <div class="foot-grid">
           <div>
             <a href={u('/')} class="logo" style="color:#fff">ВСЁ ДЛЯ <b>ДВЕРЕЙ</b></a>
-            <p style="margin:14px 0 0">Интернет-магазин дверной фурнитуры: ручки, замки, петли, доводчики и раздвижные системы европейских и российских брендов. Шоурум в Москве, доставка по России.</p>
-            <div class="pay" aria-label="Способы оплаты">
+            <p style="margin:14px 0 0">{SITE.footerAbout}</p>
+            {SITE.showPayIcons !== false && <div class="pay" aria-label="Способы оплаты">
               <img src={u('/images/pay/mir.svg')} alt="МИР" width="72" height="20" loading="lazy" />
               <img src={u('/images/pay/mastercard.svg')} alt="Mastercard" width="44" height="44" loading="lazy" />
               <img src={u('/images/pay/visa.svg')} alt="Visa" width="52" height="44" loading="lazy" />
               <img src={u('/images/pay/sbp.svg')} alt="СБП" width="64" height="32" loading="lazy" />
-            </div>
+            </div>}
             <div style="margin-top:16px"><RatingBadge dark /></div>
           </div>
           <div>
@@ -159,7 +159,7 @@ const topBrands = BRANDS.filter((b) => b.tier === 'A');
           </div>
         </div>
         <div class="foot-bottom">
-          <span>© {new Date().getFullYear()} {COMPANY.legalName}, ИНН {COMPANY.inn}, ОГРН {COMPANY.ogrn}. Сайт в тестовом режиме, цены не являются публичной офертой.</span>
+          <span>© {new Date().getFullYear()} {COMPANY.legalName}, ИНН {COMPANY.inn}, ОГРН {COMPANY.ogrn}. {SITE.footerLegalNote}</span>
           <span><a href={u('/politika-konfidencialnosti/')}>Политика конфиденциальности</a> · <a href={u('/publichnaya-oferta/')}>Оферта</a></span>
         </div>
       </div>

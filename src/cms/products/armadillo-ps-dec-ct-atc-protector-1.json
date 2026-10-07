@@ -1,0 +1,179 @@
+{
+  "slug": "armadillo-ps-dec-ct-atc-protector-1",
+  "name": "Декоративная накладка на сувальдный замок Armadillo PS-DEC CT (ATC Protector 1) со шторкой",
+  "brand": "armadillo",
+  "series": "ATC Protector",
+  "order": 8,
+  "category": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+  "article": "PS-DEC CT",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "PS-DEC CT CP-8",
+      "price": 449,
+      "inStock": true,
+      "image": "/images/products/armadillo-ps-dec-ct-atc-protector-1-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/35587.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "PS-DEC CT SC-14",
+      "price": 453,
+      "inStock": true,
+      "image": "/images/products/armadillo-ps-dec-ct-atc-protector-1-matovyy-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/35591.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "PS-DEC CT SN-3",
+      "price": 449,
+      "inStock": true,
+      "image": "/images/products/armadillo-ps-dec-ct-atc-protector-1-matovyy-nikel.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/35593.jpg"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "PS-DEC CT GP-2",
+      "price": 437,
+      "inStock": true,
+      "image": "/images/products/armadillo-ps-dec-ct-atc-protector-1-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/35589.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "PS-DEC CT SG-1",
+      "price": 449,
+      "inStock": true,
+      "image": "/images/products/armadillo-ps-dec-ct-atc-protector-1-matovoe-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/3/35595.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "PS-DEC CT AB-77",
+      "price": 466,
+      "inStock": true,
+      "image": "/images/products/armadillo-ps-dec-ct-atc-protector-1-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/1/35579.jpg"
+    }
+  ],
+  "material": "Латунь",
+  "style": "modern",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "декоративная накладка на сувальдный замок"
+    },
+    {
+      "k": "Назначение",
+      "v": "Под сувальдный механизм"
+    },
+    {
+      "k": "Форма",
+      "v": "Овальные"
+    },
+    {
+      "k": "Материал",
+      "v": "Латунь"
+    },
+    {
+      "k": "Наличие шторки",
+      "v": "Да"
+    },
+    {
+      "k": "Вес, г",
+      "v": "51"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    },
+    {
+      "k": "Комплектация",
+      "v": "1 накладка и нейлоновое основание для скрытого крепления"
+    }
+  ],
+  "description": "Накладка оформляет замочную скважину сувального замка на входной металлической двери. Поворотная шторка закрывает отверстие, когда ключа нет, и защищает механизм от пыли и сквозняка. Выпускается в шести покрытиях под любую фурнитуру линейки ATC Protector.",
+  "intro": "Латунная накладка Armadillo PS-DEC CT оформляет замочную скважину сувальдного замка на металлической входной двери. Поворотная шторка прикрывает отверстие, когда ключ вынут, и не пускает в механизм пыль и сквозняк. Шесть покрытий, в том числе золото и матовое золото, совпадают с фурнитурой линейки ATC Protector.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Шторка на скважине",
+          "text": "Поворотная шторка закрывает отверстие под сувальдный ключ и убирает сквозняк через замок.",
+          "icon": "seal"
+        },
+        {
+          "title": "Латунный корпус",
+          "text": "В отличие от моделей из ZAMAK эта накладка сделана из латуни, вес 51 г.",
+          "icon": "check"
+        },
+        {
+          "title": "Шесть покрытий",
+          "text": "Хром, матовый хром, матовый никель, золото, матовое золото и бронза.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Скрытое крепление",
+          "text": "Нейлоновое основание с крепежом прячется под корпусом накладки.",
+          "icon": "box"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Назначение | под сувальдный механизм",
+        "Двери | металлические входные",
+        "Форма | овальная",
+        "Материал | латунь",
+        "Шторка | есть",
+        "Вес | 51 г",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Накладка подходит только под сувальдный ключ, для цилиндра нужна другая модель",
+        "Проверьте, с какой стороны ставится накладка: у двухсистемных замков бывает два отверстия",
+        "Цвет выбирайте вместе с ручкой, золото и бронза заметно различаются",
+        "Для наружной стороны сувальдного замка используют броненакладку"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Зачем нужна шторка?",
+      "a": "Она закрывает скважину, когда ключа нет: в замок меньше попадает пыли, через отверстие не тянет холодом и не видно, что внутри."
+    },
+    {
+      "q": "Подойдёт ли к замку другой марки?",
+      "a": "Подойдёт, если форма и размер скважины стандартные для сувальдного ключа. Перед покупкой сравните положение отверстия с разметкой двери."
+    },
+    {
+      "q": "Сколько накладок нужно на дверь?",
+      "a": "В комплекте одна. Если нужно оформить скважину с двух сторон, берут две или сочетают с броненакладкой снаружи."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-nakladka-armadillo--armadillo-na-suvaldnyj-zamok-so-shtorkoj-ps-dec-ct-atc-protector-1-cp-8-khrom.html"
+}

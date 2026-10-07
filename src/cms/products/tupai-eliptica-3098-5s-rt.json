@@ -1,0 +1,143 @@
+{
+  "slug": "tupai-eliptica-3098-5s-rt",
+  "name": "Дверная ручка Tupai Eliptica 3098 5S RT на круглой розетке",
+  "brand": "tupai",
+  "series": "Eliptica",
+  "order": 255,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "3098 5S RT",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром матовый",
+      "color": "chrome",
+      "article": "3098 5S RT 96",
+      "price": 7723,
+      "inStock": true,
+      "image": "/images/products/tupai-eliptica-3098-5s-rt-hrom-matovyy.jpg",
+      "imageSrc": "https://tupai-store.ru/assets/images/products/21/ruchka-tupai-eliptica-3098-5s-96-xrom-matovyij.jpg"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "3098 5S RT 152",
+      "price": 7906,
+      "inStock": true,
+      "image": "/images/products/tupai-eliptica-3098-5s-rt-belyy.jpg",
+      "imageSrc": "https://tupai-store.ru/assets/images/products/87/ruchka-tupai-eliptica-3098-5s-152-belyij.jpg"
+    },
+    {
+      "finish": "черный матовый",
+      "color": "black",
+      "article": "3098 5S RT 153",
+      "price": 7426,
+      "inStock": true,
+      "image": "/images/products/tupai-eliptica-3098-5s-rt-chernyy-matovyy.jpg",
+      "imageSrc": "https://tupai-store.ru/assets/images/products/88/ruchka-tupai-eliptica-3098-5s-153-chernyij.jpg"
+    },
+    {
+      "finish": "бронза corten",
+      "color": "bronze",
+      "article": "3098 5S RT 186",
+      "price": 8218,
+      "inStock": true,
+      "image": "/images/products/tupai-eliptica-3098-5s-rt-bronza-corten.jpg",
+      "imageSrc": "https://tupai-store.ru/assets/images/products/2016/3098-186.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Высота розетки, мм",
+      "v": "5"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Португалия"
+    }
+  ],
+  "description": "Eliptica отличается рычагом эллиптического сечения, который удобно ложится в ладонь. Тонкая круглая розетка 5S почти не выступает над полотном. Ручку выпускают в белом, черном, матовом хроме и бронзе Corten, поэтому ее легко подобрать и к светлым, и к темным дверям.",
+  "intro": "Eliptica 3098 от Tupai отличается рычагом эллиптического сечения, который удобно ложится в ладонь. Тонкая круглая розетка 5S высотой 5 мм почти не выступает над полотном. Белый, чёрный матовый, матовый хром и бронза Corten позволяют подобрать ручку и к светлым, и к тёмным дверям.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Эллиптическое сечение",
+          "text": "Сплюснутый овал удобнее круглого для нажатия ладонью.",
+          "icon": "handle"
+        },
+        {
+          "title": "Розетка 5 мм",
+          "text": "Круглое основание RT почти сливается с дверью.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Белый и чёрный",
+          "text": "Цветные варианты для подбора ручки в тон полотну.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные, светлые и тёмные",
+        "Розетка | круглая, высота 5 мм",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | хром матовый, белый, чёрный матовый, бронза corten",
+        "Страна производства | Португалия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Под тонкую розетку отверстия должны быть аккуратными, старые следы она не скроет.",
+        "К ручке подбирают завёртку на тонкой круглой розетке системы 5S.",
+        "Белая ручка на белой двери будет почти незаметна.",
+        "Механизм защёлки в комплект не входит."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Белое и чёрное покрытие моют мягкой губкой с нейтральным средством. Матовый хром достаточно протирать сухой микрофиброй. Бронзу Corten не полируют и не трут абразивами, чтобы сохранить эффект патины."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем удобна эллиптическая форма рычага?",
+      "a": "Сплюснутое сечение даёт большую площадь под пальцы и не выкручивается в руке."
+    },
+    {
+      "q": "Какая высота у розетки?",
+      "a": "5 мм."
+    },
+    {
+      "q": "Где производится ручка?",
+      "a": "В Португалии."
+    }
+  ],
+  "sourceUrl": "https://tupai-store.ru/katalog/eliptica-5s/ruchka-tupai-eliptica-3098-5s-rt-96/"
+}

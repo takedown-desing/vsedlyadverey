@@ -1,0 +1,158 @@
+{
+  "slug": "morelli-mbu-100x70x3-4bb",
+  "name": "Универсальная латунная петля Morelli MBU 100x70x3 4BB",
+  "brand": "morelli",
+  "series": "Simple",
+  "order": 312,
+  "category": "/catalog/dvernye-petli/universalnye/",
+  "article": "MBU 100X70X3-4BB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "MBU 100X70X3-4BB SC",
+      "price": 1350,
+      "inStock": true,
+      "image": "/images/products/morelli-mbu-100x70x3-4bb-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/scejCr3BET6yRYpmtddY.webp"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "MBU 100X70X3-4BB SN",
+      "price": 1350,
+      "inStock": true,
+      "image": "/images/products/morelli-mbu-100x70x3-4bb-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/ehVeTvlhhW7pUCOvrfpd.webp"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "MBU 100X70X3-4BB SG",
+      "price": 1300,
+      "inStock": true,
+      "image": "/images/products/morelli-mbu-100x70x3-4bb-matovoe-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/1K6L2x6kMwKx565NjKar.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "MBU 100X70X3-4BB AB",
+      "price": 1350,
+      "inStock": true,
+      "image": "/images/products/morelli-mbu-100x70x3-4bb-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/CahbU7l2CX00l6nUttLc.webp"
+    },
+    {
+      "finish": "кофе",
+      "color": "other",
+      "article": "MBU 100X70X3-4BB COF",
+      "price": 1350,
+      "inStock": true,
+      "image": "/images/products/morelli-mbu-100x70x3-4bb-kofe.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/TuwRKvSO3STcE3keeiuw.webp"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "карточная универсальная"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "100 x 70 x 3"
+    },
+    {
+      "k": "Подшипники",
+      "v": "4"
+    },
+    {
+      "k": "Нагрузка на 3 петли, кг",
+      "v": "60"
+    },
+    {
+      "k": "Толщина полотна, мм",
+      "v": "от 30"
+    }
+  ],
+  "description": "Латунная универсальная петля толщиной 3 мм для межкомнатных дверей. Латунь не ржавеет и дольше сохраняет покрытие, чем сталь, а четыре подшипника обеспечивают мягкий ход. Подходит для полотен от 30 мм и весом до 60 кг на трёх петлях.",
+  "intro": "Morelli MBU 100x70x3 4BB латунная универсальная петля с картой толщиной 3 мм и четырьмя подшипниками. Латунь не ржавеет и дольше сохраняет покрытие, чем сталь, а подшипники дают мягкий ход. Подходит для межкомнатных полотен от 30 мм, три петли держат до 60 кг.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Латунный корпус",
+          "text": "Латунь не подвержена ржавчине, поэтому петлю можно ставить и во влажные помещения квартиры.",
+          "icon": "shield"
+        },
+        {
+          "title": "Карта 3 мм",
+          "text": "Более толстая карта жёстче держит полотно, чем стандартная 2,5 мм.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Четыре подшипника",
+          "text": "Ход мягкий, шарнир не стирается со временем.",
+          "icon": "check"
+        },
+        {
+          "title": "Тёплые отделки",
+          "text": "Кофе, античная бронза и матовое золото, а также матовый хром и никель.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Размер | 100 x 70 x 3 мм",
+        "Подшипники | 4",
+        "Нагрузка | 60 кг на 3 петли",
+        "Толщина полотна | от 30 мм",
+        "Материал | латунь",
+        "Тип | карточная универсальная"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Паспортная нагрузка дана для трёх петель, 60 кг: на тяжёлую дверь берите комплект из трёх.",
+        "Глубина врезки равна толщине карты, 3 мм, разметку лучше делать по самой петле.",
+        "Минимальная толщина полотна 30 мм.",
+        "Для ванной и санузла латунь предпочтительнее стали."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Монтаж и уход",
+      "md": "Карточные петли ставят на расстоянии примерно 200-250 мм от верхнего и нижнего края полотна, третью петлю располагают посередине или ближе к верхней. Гнездо выбирают стамеской или фрезером так, чтобы карта легла заподлицо. Покрытие протирают мягкой влажной тканью, без абразивов и растворителей."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем латунная MBU лучше стальной MS?",
+      "a": "Латунь не ржавеет, а карта толще: 3 мм против 2,5 мм. По нагрузке на три петли модели одинаковы, 60 кг."
+    },
+    {
+      "q": "Подойдёт ли петля для двери толщиной 35 мм?",
+      "a": "Да, минимальная толщина полотна 30 мм."
+    },
+    {
+      "q": "Можно ли повесить дверь на две такие петли?",
+      "a": "Для лёгкого полотна можно, но паспортная нагрузка указана для трёх петель, поэтому на тяжёлую дверь берите три."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/petli/all/379"
+}

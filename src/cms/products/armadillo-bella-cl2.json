@@ -1,0 +1,152 @@
+{
+  "slug": "armadillo-bella-cl2",
+  "name": "Дверная ручка Armadillo BELLA CL2 на круглой розетке",
+  "brand": "armadillo",
+  "series": "BELLA",
+  "order": 263,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "R.CL55.BELLA CL2",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "R.CL55.BELLA CL2 AS-9",
+      "price": 3480,
+      "inStock": true,
+      "image": "/images/products/armadillo-bella-cl2-antichnoe-serebro.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/27799_01.jpg"
+    },
+    {
+      "finish": "французское золото",
+      "color": "gold",
+      "article": "R.CL55.BELLA CL2 FG-10",
+      "price": 3040,
+      "inStock": false,
+      "image": "/images/products/armadillo-bella-cl2-frantsuzskoe-zoloto.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2022/11/1-12.jpg"
+    },
+    {
+      "finish": "золото 24к",
+      "color": "gold",
+      "article": "R.CL55.BELLA CL2 GOLD-24",
+      "price": 3871,
+      "inStock": true,
+      "image": "/images/products/armadillo-bella-cl2-zoloto-24k.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/28713_01.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "R.CL55.BELLA CL2 OB-13",
+      "price": 3480,
+      "inStock": true,
+      "image": "/images/products/armadillo-bella-cl2-antichnaya-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/28711_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Classic"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "1277"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    }
+  ],
+  "description": "BELLA из коллекции Armadillo Classic с изящным фигурным рычагом и рельефной розеткой. Состаренные покрытия и золото 24К делают ее подходящей для классических и дворцовых интерьеров при умеренном бюджете.",
+  "intro": "BELLA CL2 из коллекции Armadillo Classic получила изящный фигурный рычаг и рельефную круглую розетку. Состаренные покрытия и золото 24К делают её подходящей для классических и дворцовых интерьеров, когда бюджет на фурнитуру умеренный. Вес комплекта 1277 г.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Фигурный рычаг",
+          "text": "Изящная линия и декор в классической манере.",
+          "icon": "handle"
+        },
+        {
+          "title": "Рельефная розетка",
+          "text": "Декоративное основание продолжает орнамент рычага.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Золото 24К",
+          "text": "Декоративный слой для дворцовых интерьеров.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Стиль | классика, дворцовый",
+        "Коллекция | Armadillo Classic",
+        "Розетка | круглая",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | античное серебро, французское золото, золото 24к, античная бронза",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для парадных дверей с позолотой подойдёт золото 24к, для прованса античное серебро.",
+        "Петли и упоры стоит взять в том же покрытии.",
+        "Защёлка и завёртка WC покупаются отдельно.",
+        "В коллекции Classic есть скоба Matador для раздвижных дверей."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Декоративные покрытия протирают только сухой мягкой тканью. Рельеф очищают кисточкой. Полироли, пасты и абразивы стирают золото и патину на выступающих деталях."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли BELLA к белой классической двери?",
+      "a": "Да, на белом полотне хорошо смотрятся золото 24к и французское золото."
+    },
+    {
+      "q": "С какой скобой её сочетать?",
+      "a": "С классической скобой Armadillo Matador из той же коллекции."
+    },
+    {
+      "q": "Сколько весит ручка в сборе?",
+      "a": "1277 г."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-r-cl55-bella-bella-cl2-2/"
+}

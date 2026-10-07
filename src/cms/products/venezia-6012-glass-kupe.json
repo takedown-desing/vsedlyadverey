@@ -1,0 +1,149 @@
+{
+  "slug": "venezia-6012-glass-kupe",
+  "name": "Ручка для стеклянной раздвижной двери Venezia 6012 Ø60",
+  "brand": "venezia",
+  "series": null,
+  "order": 241,
+  "category": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/",
+  "article": "6012",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "6012",
+      "price": 1359,
+      "inStock": true,
+      "image": "/images/products/venezia-6012-glass-kupe-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-stekljannoj-razdvizhnoj-dveri-6012-60-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "6012",
+      "price": 1359,
+      "inStock": false,
+      "image": "/images/products/venezia-6012-glass-kupe-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-stekljannoj-razdvizhnoj-dveri-6012-60-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "6012",
+      "price": 1359,
+      "inStock": true,
+      "image": "/images/products/venezia-6012-glass-kupe-matovyy-nikel.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-stekljannoj-razdvizhnoj-dveri-6012-60-matovyj-nikel.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "6012",
+      "price": 1359,
+      "inStock": false,
+      "image": "/images/products/venezia-6012-glass-kupe-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-stekljannoj-razdvizhnoj-dveri-6012-60-polirovannyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "glass",
+    "sliding"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для стеклянной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "208"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Круглая ручка Venezia 6012 диаметром 60 мм для раздвижных дверей из стекла. Крепится через отверстие в полотне, не выступает за плоскость и не мешает двери скользить. Корпус выполнен из латуни.",
+  "intro": "Круглая ручка Venezia 6012 диаметром 60 мм сделана для раздвижных дверей из стекла. Она крепится через отверстие в полотне, не выступает за плоскость и не мешает двери скользить. Корпус выполнен из латуни, в комплекте две ручки на обе стороны, гарантия 5 лет.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Для стекла",
+          "text": "Ручка рассчитана на монтаж в отверстие стеклянного полотна.",
+          "icon": "glass"
+        },
+        {
+          "title": "Диаметр 60 мм",
+          "text": "Размер удобен для пальцев и не перегружает прозрачную дверь.",
+          "icon": "check"
+        },
+        {
+          "title": "Плоский профиль",
+          "text": "Не мешает скольжению полотна вдоль стены.",
+          "icon": "slide"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | стеклянные раздвижные",
+        "Диаметр | 60 мм",
+        "Материал | латунь",
+        "Вес | 208 г",
+        "Покрытия | матовый хром, полированная латунь, матовый никель, полированный хром",
+        "Цена указана за | 1 комплект (2 шт.)"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Отверстие в закалённом стекле делают на производстве до закалки, после закалки сверлить нельзя.",
+        "Уточните диаметр отверстия и допустимую толщину стекла до заказа полотна.",
+        "Для матового стекла подходит матовый хром или никель, для прозрачного полированные покрытия.",
+        "Гарантия на ручку 5 лет."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Ручку на стекле удобно протирать вместе с полотном, но стеклоочиститель лучше наносить на салфетку, а не распылять на металл. Полированный хром и латунь вытирают насухо, чтобы не было разводов. Если ручка начала проворачиваться, подтяните крепёж без чрезмерного усилия, чтобы не повредить стекло."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли установить ручку на готовую стеклянную дверь?",
+      "a": "Только если в стекле уже есть отверстие подходящего диаметра. Закалённое стекло после закалки не сверлят."
+    },
+    {
+      "q": "На сколько сторон рассчитан комплект?",
+      "a": "На обе: в комплекте две ручки, по одной с каждой стороны полотна."
+    },
+    {
+      "q": "Какой размер у ручки?",
+      "a": "Диаметр 60 мм, вес комплекта 208 г."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-stekljannoj-razdvizhnoj-dveri-6012-60-matovyj-hrom/"
+}

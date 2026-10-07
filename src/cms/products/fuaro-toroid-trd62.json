@@ -1,0 +1,138 @@
+{
+  "slug": "fuaro-toroid-trd62",
+  "name": "Ручка для входной двери Fuaro TOROID K.TRD62",
+  "brand": "fuaro",
+  "series": "TOROID",
+  "order": 266,
+  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "article": "K.TRD62.TOROID",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "K.TRD62.TOROID CP-8",
+      "price": 970,
+      "inStock": false,
+      "image": "/images/products/fuaro-toroid-trd62-hrom.jpg",
+      "imageSrc": "https://xn---23-eddjhv7d.xn--p1ai/image/cache/catalog/dveri-garant/furnitura/Trade-Lock/Ручки/Для%20межкомнатных/FUARO/TOROID/49423_01-800x800.jpg"
+    },
+    {
+      "finish": "сатинированный хром",
+      "color": "chrome",
+      "article": "K.TRD62.TOROID SSC-16",
+      "price": 970,
+      "inStock": false,
+      "image": "/images/products/fuaro-toroid-trd62-satinirovannyy-hrom.jpg",
+      "imageSrc": "https://xn---23-eddjhv7d.xn--p1ai/image/cache/catalog/dveri-garant/furnitura/Trade-Lock/Ручки/Для%20межкомнатных/FUARO/TOROID/58355_01-800x800.jpg"
+    },
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "K.TRD62.TOROID LITE BL-24",
+      "price": 970,
+      "inStock": false,
+      "image": "/images/products/fuaro-toroid-trd62-chernyy.jpg",
+      "imageSrc": "https://xn---23-eddjhv7d.xn--p1ai/image/cache/catalog/dveri-garant/furnitura/Trade-Lock/Ручки/Для%20межкомнатных/FUARO/TOROID/46117_02-800x800.jpg"
+    }
+  ],
+  "material": "алюминий",
+  "style": "modern",
+  "doorTypes": [
+    "entrance",
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для входной двери"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Размер розетки, мм",
+      "v": "62"
+    },
+    {
+      "k": "Квадрат, мм",
+      "v": "8x140"
+    },
+    {
+      "k": "Материал",
+      "v": "алюминий"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    }
+  ],
+  "description": "Раздельная ручка Fuaro TOROID на квадратной розетке 62 мм разработана для металлических входных дверей. Корпус и основание из алюминия с гальваническим покрытием, стойким к коррозии, а стяжные винты в комплекте надежно фиксируют ручку на полотне. Версия LITE в черном цвете дешевле при той же форме.",
+  "intro": "Раздельная ручка Fuaro TOROID K.TRD62 на квадратной розетке 62 мм разработана для металлических входных дверей. Корпус и основание из алюминия с гальваническим покрытием, стойким к коррозии, а стяжные винты надёжно фиксируют ручку на полотне. Удлинённый квадрат 8x140 мм входит в характеристики модели.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Розетка 62 мм",
+          "text": "Крупное квадратное основание хорошо держится на металлическом полотне.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Квадрат 8x140 мм",
+          "text": "Длинный квадрат нужен для толстых входных дверей.",
+          "icon": "check"
+        },
+        {
+          "title": "Алюминий",
+          "text": "Лёгкий металл с покрытием, стойким к коррозии.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | входные металлические, межкомнатные",
+        "Розетка | квадратная, 62 мм",
+        "Квадрат | 8x140 мм",
+        "Материал | алюминий",
+        "Покрытия | хром, сатинированный хром, чёрный"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Сверьте длину квадрата 140 мм с толщиной полотна и замком.",
+        "Накладки на цилиндр или броненакладку подбирают отдельно.",
+        "Для межкомнатной двери длинный квадрат укорачивают или используют другой.",
+        "Чёрный подходит к дверям с тёмной отделкой МДФ."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли TOROID для межкомнатной двери?",
+      "a": "Да, производитель указывает оба назначения. На тонком межкомнатном полотне понадобится квадрат подходящей длины."
+    },
+    {
+      "q": "Какой квадрат в комплекте?",
+      "a": "В характеристиках указан квадрат 8x140 мм."
+    },
+    {
+      "q": "Из чего отлит корпус?",
+      "a": "Из алюминия с гальваническим покрытием."
+    },
+    {
+      "q": "Какие есть расцветки?",
+      "a": "Хром, сатинированный хром и чёрный."
+    }
+  ],
+  "sourceUrl": "https://xn---23-eddjhv7d.xn--p1ai/furnitura/furnitura-dlya-megkomnatnyh-dverej/ruchki/ruchka-razdelnaia-ktrd62toroid-cp-8-khrom/"
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "venezia-u122-kupe",
+  "name": "Ручка для раздвижной двери Venezia U122",
+  "brand": "venezia",
+  "series": null,
+  "order": 239,
+  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "article": "U122",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "U122",
+      "price": 1813,
+      "inStock": true,
+      "image": "/images/products/venezia-u122-kupe-antichnaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-venezia-u122-antichnaja-bronza-1sht.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "U122",
+      "price": 4616,
+      "inStock": true,
+      "image": "/images/products/venezia-u122-kupe-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-venezia-u122-polirovannaja-latun-1sht.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "U122",
+      "price": 4800,
+      "inStock": true,
+      "image": "/images/products/venezia-u122-kupe-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-venezia-u122-antichnoe-serebro-1sht.jpg"
+    },
+    {
+      "finish": "французское золото + коричневый",
+      "color": "gold",
+      "article": "U122",
+      "price": 2493,
+      "inStock": true,
+      "image": "/images/products/venezia-u122-kupe-frantsuzskoe-zoloto-korichnevy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-venezia-u122-francuzskoe-zoloto--korichnevyj-1sht.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "sliding"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для раздвижной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "129"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 шт."
+    }
+  ],
+  "description": "Латунная врезная ручка Venezia U122 для раздвижных дверей в классическом интерьере. Сочетается по покрытиям с распашными ручками Venezia, поэтому все двери в квартире можно оформить в едином стиле.",
+  "intro": "Латунная врезная ручка Venezia U122 рассчитана на раздвижные двери в классическом интерьере. Покрытия совпадают с распашными ручками Venezia, поэтому все двери в квартире можно оформить в одном стиле. Среди вариантов есть французское золото с коричневым. Цена за одну ручку.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Классический дизайн",
+          "text": "Ручка продолжает линию классической фурнитуры Venezia на раздвижных полотнах.",
+          "icon": "slide"
+        },
+        {
+          "title": "Латунь",
+          "text": "Корпус из латуни весит 129 г.",
+          "icon": "shield"
+        },
+        {
+          "title": "Двухцветный вариант",
+          "text": "Французское золото с коричневым подходит к тёмному дереву.",
+          "icon": "rosette"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | раздвижные в классическом интерьере",
+        "Материал | латунь",
+        "Покрытия | античная бронза, полированная латунь, античное серебро, французское золото + коричневый",
+        "Гарантия | 24 месяца",
+        "Цена указана за | 1 шт."
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для двух сторон двери нужны две ручки.",
+        "Подберите покрытие по распашным ручкам Venezia в соседних комнатах.",
+        "Габариты паза уточните до фрезеровки полотна.",
+        "Античные покрытия не полируют, иначе сотрётся патина."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Античную бронзу и серебро чистят только сухой мягкой тканью или кисточкой, не пытаясь отполировать: патина является частью покрытия. Полированную латунь можно протереть слегка влажной салфеткой и сразу вытереть насухо."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Сочетается ли U122 с ручками Venezia?",
+      "a": "Да, покрытия совпадают с классическими распашными моделями Venezia."
+    },
+    {
+      "q": "Стоимость указана за две скобы?",
+      "a": "Нет, за одну ручку."
+    },
+    {
+      "q": "Какой материал у корпуса?",
+      "a": "Корпус латунный, сделан в Италии."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-dlja-razdvizhnoj-dveri-Venezia-U122-antichnaja-bronza/"
+}

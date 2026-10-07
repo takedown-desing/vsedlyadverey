@@ -1,0 +1,134 @@
+{
+  "slug": "agb-b01000-13",
+  "name": "Ответная планка AGB B01000.13",
+  "brand": "agb",
+  "series": null,
+  "order": 422,
+  "category": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/",
+  "article": "B01000.13",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "латунь",
+      "color": "brass",
+      "article": "B01000.13.03",
+      "price": 101,
+      "inStock": true,
+      "image": "/images/products/agb-b01000-13-latun.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/06/1534_01.jpg"
+    },
+    {
+      "finish": "никель",
+      "color": "nickel",
+      "article": "B01000.13.06",
+      "price": 102,
+      "inStock": true,
+      "image": "/images/products/agb-b01000-13-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/06/1535_01.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "B01000.13.12",
+      "price": 336,
+      "inStock": true,
+      "image": "/images/products/agb-b01000-13-antichnaya-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/05/17805_01.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "B01000.13.22",
+      "price": 79,
+      "inStock": true,
+      "image": "/images/products/agb-b01000-13-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/06/1533_01.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "B01000.13.34",
+      "price": 179,
+      "inStock": true,
+      "image": "/images/products/agb-b01000-13-matovyy-hrom.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/06/13082_01.jpg"
+    }
+  ],
+  "material": "сталь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ответная планка"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Стандартная ответная планка AGB для межкомнатных замков с обычной защёлкой. Пригодится, если замок куплен в технической упаковке без планки. Пять отделок под цвет фурнитуры.",
+  "intro": "AGB B01000.13 - стандартная ответная планка для межкомнатных замков AGB с обычной защёлкой. Она пригодится, если замок куплен в технической упаковке без планки или старую пора заменить. Пять отделок под цвет фурнитуры: латунь, никель, бронза, античная бронза и матовый хром.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Для механических защёлок",
+          "text": "Планка рассчитана на язычок обычной защёлки, без магнита.",
+          "icon": "lock"
+        },
+        {
+          "title": "Пять отделок",
+          "text": "Латунь, никель, бронза, античная бронза и матовый хром.",
+          "icon": "seal"
+        },
+        {
+          "title": "Итальянская сталь",
+          "text": "Стальная планка AGB выдерживает постоянный удар язычка.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ответная планка",
+        "Под замки | AGB с обычной защёлкой",
+        "Материал | сталь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для Mediana Polaris нужна магнитная планка, например AGB Minimal B02402.05",
+        "Уточните у менеджера совместимость с вашей моделью AGB",
+        "Подберите отделку под лицевую планку замка",
+        "Для замка с ригелем проверьте, есть ли в планке окно под ригель"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли планка к замку Mediana Evolution?",
+      "a": "Модели Evolution идут в технической упаковке без планки. Подходящую планку лучше уточнить по артикулу замка при заказе."
+    },
+    {
+      "q": "Можно ли поставить её на магнитный замок?",
+      "a": "Нет, в ней нет магнита, и язычок Polaris не выдвинется."
+    },
+    {
+      "q": "Зачем менять старую планку?",
+      "a": "Со временем края отверстия стираются, появляется люфт и дверь дребезжит. Новая планка возвращает плотное закрывание."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/b01000-13-03-576-otvetnaya-planka-latun/"
+}

@@ -1,0 +1,161 @@
+{
+  "slug": "armadillo-et-dec-cl-atc-protector-1",
+  "name": "Декоративная накладка на цилиндр Armadillo ET-DEC CL (ATC Protector 1) в классическом стиле",
+  "brand": "armadillo",
+  "series": "ATC Protector Classic",
+  "order": 9,
+  "category": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+  "article": "ET-DEC CL",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "тёмная медь",
+      "color": "copper",
+      "article": "ET-DEC CL ABL-18",
+      "price": 384,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-dec-cl-atc-protector-1-temnaya-med.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/34917.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "ET-DEC CL AS-9",
+      "price": 384,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-dec-cl-atc-protector-1-antichnoe-serebro.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/1/34915.jpg"
+    },
+    {
+      "finish": "коричневая бронза",
+      "color": "bronze",
+      "article": "ET-DEC CL BB-17",
+      "price": 321,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-dec-cl-atc-protector-1-korichnevaya-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/34921.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "ET-DEC CL OB-13",
+      "price": 362,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-dec-cl-atc-protector-1-antichnaya-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/34919.jpg"
+    }
+  ],
+  "material": "ZAMAK",
+  "style": "classic",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "декоративная накладка на цилиндр"
+    },
+    {
+      "k": "Назначение",
+      "v": "Под цилиндр"
+    },
+    {
+      "k": "Форма",
+      "v": "Овальные"
+    },
+    {
+      "k": "Материал",
+      "v": "ZAMAK"
+    },
+    {
+      "k": "Наличие шторки",
+      "v": "Нет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "95"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Страна",
+      "v": "Китай"
+    },
+    {
+      "k": "Комплектация",
+      "v": "накладка, нейлоновое основание, саморезы, шестигранный ключ"
+    }
+  ],
+  "description": "Классическая накладка под цилиндр с рельефным орнаментом и бортиком по краю для входных металлических дверей. Она сочетается с броненакладками ET/ATC Protector Classic и ручками серии Classic. В комплекте основание для скрытого крепления, саморезы и шестигранный ключ.",
+  "intro": "Armadillo ET-DEC CL сделана для классических входных дверей: овальная накладка под цилиндр с рельефным орнаментом и бортиком по краю. Она подобрана к броненакладкам ET/ATC Protector Classic и ручкам серии Classic. Покрытия выдержаны в состаренной гамме, от тёмной меди до античного серебра.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рельефный орнамент",
+          "text": "Декор по полю и выраженный бортик делают накладку заметным элементом классической двери.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Состаренные тона",
+          "text": "Тёмная медь, античное серебро, коричневая и античная бронза подходят к кованым и патинированным деталям.",
+          "icon": "check"
+        },
+        {
+          "title": "Массивный корпус",
+          "text": "Вес 95 г, почти вдвое больше гладких накладок линейки, отливка из ZAMAK.",
+          "icon": "shield"
+        },
+        {
+          "title": "Полный комплект",
+          "text": "Основание для скрытого крепления, саморезы и шестигранный ключ уже в коробке.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Назначение | под цилиндр",
+        "Двери | металлические входные, классический дизайн",
+        "Форма | овальная",
+        "Материал | ZAMAK",
+        "Вес | 95 г",
+        "Страна | Китай",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Накладка оформляет внутреннюю сторону, снаружи нужна броненакладка серии Classic",
+        "Состаренные покрытия у разных партий могут немного различаться по тону, берите всю фурнитуру вместе",
+        "Шестигранный ключ из комплекта понадобится для фиксации накладки на основании",
+        "Шторки нет, скважина цилиндра остаётся открытой"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли накладка к современной двери?",
+      "a": "Орнамент и состаренные покрытия рассчитаны на классический интерьер. Для гладких дверей в линейке есть ET-DEC и ET-DEC SQ."
+    },
+    {
+      "q": "Чем отличается античная бронза от коричневой?",
+      "a": "Античная бронза светлее, с тёплым золотистым оттенком на выступах. Коричневая бронза темнее и ровнее по цвету."
+    },
+    {
+      "q": "Какой инструмент нужен для установки?",
+      "a": "Отвёртка или шуруповёрт для саморезов и шестигранный ключ, который идёт в комплекте."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-nakladka-armadillo--armadillo-na-czilindr-et-dec-cl-atc-protector-1-abl-18-temnaya-med.html"
+}

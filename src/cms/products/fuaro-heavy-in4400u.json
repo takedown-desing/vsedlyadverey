@@ -1,0 +1,184 @@
+{
+  "slug": "fuaro-heavy-in4400u",
+  "name": "Универсальная петля Fuaro Heavy IN4400U 100x75x3",
+  "brand": "fuaro",
+  "series": "Heavy",
+  "order": 316,
+  "category": "/catalog/dvernye-petli/universalnye/",
+  "article": "IN4400U",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "IN4400U CP",
+      "price": 279,
+      "inStock": true,
+      "image": "/images/products/fuaro-heavy-in4400u-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/petli/46505_01.jpg"
+    },
+    {
+      "finish": "сатинированный хром",
+      "color": "chrome",
+      "article": "IN4400U SSC",
+      "price": 279,
+      "inStock": true,
+      "image": "/images/products/fuaro-heavy-in4400u-satinirovannyy-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/petli/46513_01.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "IN4400U SN",
+      "price": 279,
+      "inStock": true,
+      "image": "/images/products/fuaro-heavy-in4400u-matovyy-nikel.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/petli/46503_01.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "IN4400U BL",
+      "price": 279,
+      "inStock": true,
+      "image": "/images/products/fuaro-heavy-in4400u-chernyy.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/petli/46507_01.jpg"
+    },
+    {
+      "finish": "графит",
+      "color": "graphite",
+      "article": "IN4400U GR",
+      "price": 279,
+      "inStock": true,
+      "image": "/images/products/fuaro-heavy-in4400u-grafit.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/petli/46509_01.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "IN4400U AB",
+      "price": 279,
+      "inStock": true,
+      "image": "/images/products/fuaro-heavy-in4400u-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/petli/46511_01.jpg"
+    },
+    {
+      "finish": "сатинированное золото",
+      "color": "gold",
+      "article": "IN4400U SSG",
+      "price": 279,
+      "inStock": true,
+      "image": "/images/products/fuaro-heavy-in4400u-satinirovannoe-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/petli/46515_01.jpg"
+    },
+    {
+      "finish": "золото 24K",
+      "color": "gold",
+      "article": "IN4400U GOLD-24",
+      "price": 263,
+      "inStock": true,
+      "image": "/images/products/fuaro-heavy-in4400u-zoloto-24k.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tlock/5/49575.jpg"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "карточная универсальная"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "100 x 75 x 3"
+    },
+    {
+      "k": "Подшипники",
+      "v": "4"
+    },
+    {
+      "k": "Нагрузка на 2 петли, кг",
+      "v": "60"
+    },
+    {
+      "k": "Нагрузка на 3 петли, кг",
+      "v": "75"
+    },
+    {
+      "k": "Угол открывания",
+      "v": "180°"
+    }
+  ],
+  "description": "Усиленная версия стальной петли Fuaro с картой толщиной 3 мм. Три петли выдерживают до 75 кг, так что её можно ставить на тяжёлые межкомнатные полотна. Восемь покрытий, включая графит и золото 24K.",
+  "intro": "Fuaro Heavy IN4400U усиленная стальная универсальная петля с картой толщиной 3 мм и четырьмя подшипниками. Две петли держат 60 кг, три до 75 кг, так что её ставят на тяжёлые межкомнатные полотна из массива и шпона. Восемь покрытий, среди них графит и золото 24K, открывание на 180 градусов.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Серия Heavy",
+          "text": "Усиленная версия стальной петли для тяжёлых дверей: 60 кг уже на паре.",
+          "icon": "shield"
+        },
+        {
+          "title": "Четыре подшипника",
+          "text": "Равномерно распределяют нагрузку в шарнире, ход лёгкий.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Открывание 180°",
+          "text": "Полотно раскрывается полностью.",
+          "icon": "check"
+        },
+        {
+          "title": "Восемь отделок",
+          "text": "Хром, сатинированный хром, матовый никель, графит, чёрный, бронза, сатинированное золото и золото 24K.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Размер | 100 x 75 x 3 мм",
+        "Подшипники | 4",
+        "Нагрузка | 60 кг на 2 петли, 75 кг на 3 петли",
+        "Угол открывания | 180°",
+        "Материал | сталь",
+        "Тип | карточная универсальная"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для полотна до 60 кг хватает двух петель, до 75 кг берите три.",
+        "Сверьте отделку с ручками Fuaro: графит и золото 24K встречаются не у всех марок.",
+        "Карта 3 мм врезается в полотно и коробку, гнездо делают по размеру карты.",
+        "Для тяжёлой двери добавьте упор, чтобы ручка не повредила стену."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Хватит ли двух петель на дверь 55 кг?",
+      "a": "Да, две петли IN4400U рассчитаны на 60 кг. Для высоких полотен всё же удобнее поставить три."
+    },
+    {
+      "q": "Чем Heavy отличается от обычной стальной петли?",
+      "a": "Картой толщиной 3 мм вместо 2,5 мм и большей нагрузкой: 60 кг на двух петлях."
+    },
+    {
+      "q": "Петля левая или правая?",
+      "a": "Универсальная, подходит для обеих сторон открывания."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/petlya-fuaro-fuaro-universalnaya-heavy-in4400u-cp-hrom-100h75h3-mm.html"
+}

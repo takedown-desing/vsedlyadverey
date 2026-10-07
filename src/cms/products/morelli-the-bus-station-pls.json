@@ -1,0 +1,135 @@
+{
+  "slug": "morelli-the-bus-station-pls",
+  "name": "Дверная ручка Morelli THE BUS STATION PLS на планке",
+  "brand": "morelli",
+  "series": "THE BUS STATION",
+  "order": 252,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "THE BUS STATION PLS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "осенний мёд (матовое золото)",
+      "color": "gold",
+      "article": "THE BUS STATION PLS AH",
+      "price": 12500,
+      "inStock": false,
+      "image": "/images/products/morelli-the-bus-station-pls-osenniy-med.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KP3S0PJFZF8V21TXRT0R8KGX.webp"
+    },
+    {
+      "finish": "летняя гроза (черный матовый)",
+      "color": "black",
+      "article": "THE BUS STATION PLS SST",
+      "price": 12500,
+      "inStock": false,
+      "image": "/images/products/morelli-the-bus-station-pls-letnyaya-groza.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KP3SBPTTA0RMAF36FS273XJM.webp"
+    },
+    {
+      "finish": "зимняя стужа (темный никель)",
+      "color": "nickel",
+      "article": "THE BUS STATION PLS WF",
+      "price": 12500,
+      "inStock": false,
+      "image": "/images/products/morelli-the-bus-station-pls-zimnyaya-stuzha.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KP3SENEXXTGESRGMGWH5GBJW.webp"
+    },
+    {
+      "finish": "стокгольмский снегопад (светлое серебро)",
+      "color": "silver",
+      "article": "THE BUS STATION PLS SSW",
+      "price": 12500,
+      "inStock": false,
+      "image": "/images/products/morelli-the-bus-station-pls-stokgolmskiy-snegopad.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KP3S99JEB9BZTKQD8WD062SG.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "loft",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "LOGINOFF"
+    }
+  ],
+  "description": "THE BUS STATION из коллекции LOGINOFF вдохновлена архитектурой модернистских автовокзалов: массивный рычаг и прямоугольная планка создают графичный силуэт. Модель подходит для интерьеров в стиле лофт и современного минимализма.",
+  "intro": "THE BUS STATION из коллекции Morelli LOGINOFF вдохновлена архитектурой модернистских автовокзалов. Массивный рычаг и прямоугольная планка создают графичный силуэт, который подходит интерьерам в стиле лофт и современного минимализма. Материал корпуса цинковый сплав.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Архитектурная форма",
+          "text": "Рычаг и планка напоминают бетонные объёмы модернизма.",
+          "icon": "handle"
+        },
+        {
+          "title": "Прямоугольная планка",
+          "text": "Планка задаёт вертикальную ось и уравновешивает массивный рычаг.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Зимняя стужа",
+          "text": "Тёмный никель подходит к индустриальным интерьерам и металлу.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Стиль | лофт, современный минимализм",
+        "Двери | межкомнатные",
+        "Коллекция | LOGINOFF",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | осенний мёд, летняя гроза, зимняя стужа, стокгольмский снегопад"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Массивный рычаг лучше ставить на плотные полотна, лёгкая дверь будет выглядеть непропорционально.",
+        "Уточните исполнение планки под ваш механизм.",
+        "Расшифровка цветов: матовое золото, чёрный матовый, тёмный никель, светлое серебро.",
+        "Защёлку и накладки подбирают отдельно."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Покрытия коллекции LOGINOFF протирают мягкой сухой или слегка влажной тканью. Не используйте абразивы и полироли: на матовых поверхностях они оставляют блестящие следы. Если появился люфт, подтяните стяжные винты планки."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему модель так называется?",
+      "a": "Дизайн вдохновлён архитектурой модернистских автовокзалов, отсюда и название THE BUS STATION."
+    },
+    {
+      "q": "Где такая скоба смотрится органично?",
+      "a": "В лофте и современном минимализме, рядом с бетоном, металлом и тёмным деревом."
+    },
+    {
+      "q": "Какое покрытие выбрать к чёрной двери?",
+      "a": "Контраст дадут осенний мёд (матовое золото) и стокгольмский снегопад (светлое серебро)."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/4925"
+}

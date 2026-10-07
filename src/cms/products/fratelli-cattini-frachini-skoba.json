@@ -1,0 +1,139 @@
+{
+  "slug": "fratelli-cattini-frachini-skoba",
+  "name": "Ручка-скоба Fratelli Cattini FRACHINI 260 мм 3V",
+  "brand": "fratelli-cattini",
+  "series": "FRACHINI",
+  "order": 229,
+  "category": "/catalog/dvernye-ruchki/skoby/",
+  "article": "FRACHINI 3V",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "3V-BA",
+      "price": 5332,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-frachini-skoba-antichnaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-skoba-fratelli-cattini-frachini-260-mm-215-mm-3v-ba-antichnaja-bronza.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "3V-OLV",
+      "price": 5713,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-frachini-skoba-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-skoba-fratelli-cattini-frachini-260-mm-215-mm-7-olv-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "3V-NM",
+      "price": 5713,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-frachini-skoba-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-skoba-fratelli-cattini-frachini-260-mm-215-mm-3v-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "3V-CS",
+      "price": 5713,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-frachini-skoba-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-skoba-fratelli-cattini-frachini-260-mm-215-mm-3v-cs-matovyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-скоба"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 шт."
+    }
+  ],
+  "description": "Декоративная скоба FRACHINI длиной 260 мм с фигурными опорами в классическом стиле. Подходит для деревянных распашных и раздвижных дверей, а также для дверей шкафов-купе в классическом интерьере.",
+  "intro": "FRACHINI представляет собой декоративную латунную скобу длиной 260 мм с фигурными опорами в классическом стиле. Её ставят на деревянные распашные и раздвижные двери, а также на двери шкафов-купе в классическом интерьере, где скоба работает как самостоятельный элемент декора.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Фигурные опоры",
+          "text": "Декоративные основания задают классический характер скобы.",
+          "icon": "handle"
+        },
+        {
+          "title": "Длина 260 мм",
+          "text": "Размер подходит для межкомнатных полотен и крупных шкафных дверей.",
+          "icon": "check"
+        },
+        {
+          "title": "Античная бронза",
+          "text": "Состаренное покрытие хорошо смотрится на тёмном дереве.",
+          "icon": "rosette"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | деревянные распашные и раздвижные, шкафы-купе",
+        "Длина | 260 мм",
+        "Материал | латунь",
+        "Покрытия | античная бронза, полированная латунь, матовый чёрный, матовый хром",
+        "Гарантия | 24 месяца",
+        "Цена указана за | 1 шт."
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Межосевое расстояние опор уточните до сверления.",
+        "На шкафе-купе с перекрывающимися створками проверьте, что скоба не мешает створкам проходить друг мимо друга.",
+        "Для двусторонней установки нужны две скобы.",
+        "Покрытие сочетайте с нажимными ручками на распашных дверях квартиры."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли использовать FRACHINI на шкафу-купе?",
+      "a": "Да, если конструкция шкафа оставляет место для выступающей скобы. На полотнах, которые заходят друг за друга, лучше врезные ручки."
+    },
+    {
+      "q": "Какой длины скоба?",
+      "a": "260 мм."
+    },
+    {
+      "q": "В каком интерьере она уместна?",
+      "a": "В классическом: на деревянных дверях, рядом с филёнками и резными элементами."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-skoba-fratelli-cattini-franchini-260-mm-200-mm-ba-antichnaja-bronza/"
+}

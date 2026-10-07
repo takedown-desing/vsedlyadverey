@@ -1,0 +1,139 @@
+{
+  "slug": "morelli-im-wc",
+  "name": "Магнитная защёлка Morelli IM WC с ответной планкой",
+  "brand": "morelli",
+  "series": "Innovation",
+  "order": 386,
+  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "article": "IM WC",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "IM WC W",
+      "price": 2850,
+      "inStock": true,
+      "image": "/images/products/morelli-im-wc-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JQC1KJ84X09EH6APR8Y2EX64.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "IM WC B",
+      "price": 2850,
+      "inStock": true,
+      "image": "/images/products/morelli-im-wc-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JQBDYKX1ERDNCMN5VKBN0RK6.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "IM WC MAB",
+      "price": 2820,
+      "inStock": true,
+      "image": "/images/products/morelli-im-wc-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JQBGFMCQSGWTPA3NGEGMAKMY.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "IM WC PC",
+      "price": 2510,
+      "inStock": true,
+      "image": "/images/products/morelli-im-wc-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JQBHG7R7WXG4YY4XC4EDM2AW.webp"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "сантехническая защёлка"
+    },
+    {
+      "k": "Язычок",
+      "v": "магнитный"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "95"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Innovation"
+    },
+    {
+      "k": "Комплектация",
+      "v": "защёлка, ответная планка"
+    }
+  ],
+  "description": "Защёлка из коллекции Innovation для дверей ванной и туалета. Магнитный язычок притягивается к ответной планке только при закрытии, поэтому механизм работает тихо и меньше изнашивается. Доступны белый, чёрный, хром и античная бронза.",
+  "intro": "Morelli IM WC из коллекции Innovation - магнитная защёлка для ванной и туалета с межосевым расстоянием 95 мм. Язычок притягивается к ответной планке только при закрытии, поэтому механизм тихий и меньше изнашивается. В коробке защёлка и ответная планка, цвета: белый, чёрный, хром и античная бронза.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Межосевое 95 мм",
+          "text": "Размер отличается от распространённых 96 мм на миллиметр: это важно при выборе ручки на планке.",
+          "icon": "bolt"
+        },
+        {
+          "title": "Меньше износа",
+          "text": "Язычок не трётся о планку при каждом закрывании, магнит выдвигает его только в конце хода двери.",
+          "icon": "lock"
+        },
+        {
+          "title": "Белый и чёрный",
+          "text": "Кроме хрома и античной бронзы есть белый и чёрный корпус для дверей в современном интерьере.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | сантехническая защёлка",
+        "Язычок | магнитный",
+        "Межосевое расстояние | 95 мм",
+        "Коллекция | Innovation",
+        "Комплектация | защёлка, ответная планка"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "С ручками на розетке межосевое не важно, достаточно квадрата 8 мм",
+        "Ручку на планке берите с межосевым 95 мм или с универсальной разметкой",
+        "Завертку WC подбирайте в том же цвете, что и защёлку",
+        "Бэксет сверьте по паспорту, если дверь узкая или со стеклом"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Встанет ли ручка на планке с межосевым 96 мм?",
+      "a": "Разница в 1 мм может дать перекос фиксатора. Надёжнее выбрать планку с межосевым 95 мм или ручки на розетке."
+    },
+    {
+      "q": "Подходит ли IM WC для спальни?",
+      "a": "Защёлка рассчитана на завертку, её можно поставить в любую комнату, которую нужно запирать изнутри без ключа."
+    },
+    {
+      "q": "Нужно ли смазывать магнитную защёлку?",
+      "a": "Нет, магнитный механизм работает без смазки. Достаточно протирать торцевую и ответную планки от пыли."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2458"
+}

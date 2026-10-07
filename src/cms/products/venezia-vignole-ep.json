@@ -1,0 +1,145 @@
+{
+  "slug": "venezia-vignole-ep",
+  "name": "Ручка для профильных дверей Venezia VIGNOLE EP",
+  "brand": "venezia",
+  "series": "VIGNOLE",
+  "order": 242,
+  "category": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/",
+  "article": "VIGNOLE EP",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "VIGNOLE EP EP",
+      "price": 10003,
+      "inStock": true,
+      "image": "/images/products/venezia-vignole-ep-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vignole-ep-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "VIGNOLE EP EP",
+      "price": 11632,
+      "inStock": false,
+      "image": null,
+      "imageSrc": null
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "VIGNOLE EP EP",
+      "price": 9778,
+      "inStock": true,
+      "image": null,
+      "imageSrc": null
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "VIGNOLE EP EP",
+      "price": 12272,
+      "inStock": true,
+      "image": "/images/products/venezia-vignole-ep-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vignole-ep-polirovannyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "aluminium",
+    "pvc",
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для профильной двери"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "овальная"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Ручка VIGNOLE на узкой розетке EP для алюминиевых профильных дверей и полотен со стеклом. Классический изогнутый рычаг из латуни сочетается со скобами и кнобами серии VIGNOLE.",
+  "intro": "Нажимная ручка VIGNOLE на узкой розетке EP сделана для алюминиевых профильных дверей и полотен со стеклом, где стойка рамы слишком узкая для круглой розетки. Классический изогнутый рычаг из латуни продолжает серию VIGNOLE, в которой есть и скобы, так что двери разных типов можно оформить одинаково.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Овальная розетка EP",
+          "text": "Вытянутое основание укладывается в узкий профиль алюминиевой или ПВХ-двери.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Классический рычаг",
+          "text": "Изогнутая латунная ручка придаёт остеклённой двери тёплый, несовременный характер.",
+          "icon": "handle"
+        },
+        {
+          "title": "Единая серия",
+          "text": "К ручке подбирается скоба VIGNOLE 260 мм для распашных и раздвижных полотен.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | алюминиевые, ПВХ, межкомнатные с узкой стойкой",
+        "Розетка | овальная EP",
+        "Материал | латунь",
+        "Покрытия | матовая бронза, античное серебро, полированная латунь, полированный хром",
+        "Гарантия | 5 лет",
+        "Цена указана за | 1 комплект (2 шт.)"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "В профильных дверях стоят узкие замки с малым расстоянием от края полотна, сверьте их квадрат и крепёж с ручкой.",
+        "Замерьте ширину стойки профиля: розетка должна лечь целиком на металл, не заходя на штапик.",
+        "Если в профиле есть цилиндр, накладку под него подбирают отдельно.",
+        "Покрытие согласуйте с цветом профиля: бронза и латунь хорошо смотрятся на тёмном алюминии."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли поставить VIGNOLE EP на обычную деревянную дверь?",
+      "a": "Можно, если нужна узкая розетка. Но на глухих деревянных полотнах чаще выбирают ручки на круглой розетке, а EP оставляют для профильных дверей."
+    },
+    {
+      "q": "Что такое розетка EP?",
+      "a": "Узкая овальная розетка для профильных систем, где ширина стойки не позволяет поставить круглое основание."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "5 лет."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vignole-ep-matovaja-bronza/"
+}

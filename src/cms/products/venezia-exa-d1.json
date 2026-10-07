@@ -1,0 +1,143 @@
+{
+  "slug": "venezia-exa-d1",
+  "name": "Дверная ручка Venezia EXA D1 на круглой розетке",
+  "brand": "venezia",
+  "series": "EXA",
+  "order": 211,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "EXA D1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "EXA D1",
+      "price": 16463,
+      "inStock": true,
+      "image": "/images/products/venezia-exa-d1-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-d1-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "EXA D1",
+      "price": 19484,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-d1-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-d1-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "EXA D1",
+      "price": 14399,
+      "inStock": true,
+      "image": "/images/products/venezia-exa-d1-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-d1-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "EXA D1",
+      "price": 22222,
+      "inStock": true,
+      "image": "/images/products/venezia-exa-d1-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-d1-antichnoe-serebro.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "EXA из коллекции Venezia имеет шестигранный рычаг, который выглядит современно, но при этом хорошо сочетается с классическими дверями. Ручка из латуни на круглой розетке D1 выпускается в широкой палитре покрытий, включая античное серебро.",
+  "intro": "EXA D1 из коллекции Venezia построена на шестигранном рычаге. Форма выглядит современно, но латунный корпус и профилированная круглая розетка D1 позволяют ставить ручку и на классические двери. Среди покрытий есть античное серебро. Производство Италия, комплект на одну дверь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Шестигранник",
+          "text": "Граненый рычаг подходит и к современным, и к классическим полотнам.",
+          "icon": "handle"
+        },
+        {
+          "title": "Розетка D1",
+          "text": "Круглое основание с профилем уравновешивает строгую форму рычага.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Античное серебро",
+          "text": "Состаренное покрытие с мягким тёмным оттенком выделяет модель среди привычного хрома.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные",
+        "Стиль | современный, классика",
+        "Розетка | круглая D1",
+        "Материал | латунь",
+        "Покрытия | матовый хром, матовая бронза, полированная латунь, античное серебро",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "В серии EXA есть исполнение на планке под цилиндр и скобы: удобно, если нужна единая линия на всех дверях.",
+        "Античное серебро не стоит полировать, иначе потеряется эффект патины.",
+        "Защёлка и завёртка приобретаются отдельно.",
+        "Уточните длину квадрата, если полотно толще стандартного."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли EXA для классического интерьера?",
+      "a": "Да. Шестигранный рычаг выглядит современно, но в бронзе или античном серебре хорошо сочетается с классическими дверями."
+    },
+    {
+      "q": "Есть ли EXA на планке?",
+      "a": "Да, в коллекции есть EXA CYL на узкой планке PL65 с отверстием под цилиндр, для запираемых дверей."
+    },
+    {
+      "q": "Сколько длится гарантия?",
+      "a": "Гарантия 24 месяца."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-venezia-exa-d1-matovyj-hrom/"
+}

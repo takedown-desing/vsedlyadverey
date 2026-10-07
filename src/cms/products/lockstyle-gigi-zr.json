@@ -1,0 +1,135 @@
+{
+  "slug": "lockstyle-gigi-zr",
+  "name": "Дверная ручка LockStyle GIGI ZR на круглой розетке",
+  "brand": "lockstyle",
+  "series": "GIGI",
+  "order": 294,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "GIGI ZR",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "GIGI ZR AL6",
+      "price": 4000,
+      "inStock": true,
+      "image": "/images/products/lockstyle-gigi-zr-chernyy.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/GIGI_LOCK_AL6-1000x1000.png"
+    },
+    {
+      "finish": "глянцевое золото PVD",
+      "color": "gold",
+      "article": "GIGI ZR GL",
+      "price": 4500,
+      "inStock": true,
+      "image": "/images/products/lockstyle-gigi-zr-glyantsevoe-zoloto-pvd.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/lockstyle-gigi-zr-cvet-gl-glyancevoe-zoloto-pvd-1000x1000.png"
+    },
+    {
+      "finish": "французская бронза",
+      "color": "bronze",
+      "article": "GIGI ZR MAB",
+      "price": 5100,
+      "inStock": true,
+      "image": "/images/products/lockstyle-gigi-zr-frantsuzskaya-bronza.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/lockstyle-gigi-zr-cvet-mab-francuzskaya-bronza-1000x1000.png"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    },
+    {
+      "k": "Гарантия",
+      "v": "1 год"
+    }
+  ],
+  "description": "GIGI от LockStyle сочетает плавный округлый рычаг с круглой розеткой, за счет чего выглядит мягко и современно. Корпус из цинкового сплава, покрытия от матового черного до глянцевого золота PVD. Подходит для межкомнатных дверей в квартирах и загородных домах.",
+  "intro": "GIGI от LockStyle сочетает плавный округлый рычаг с круглой розеткой и выглядит мягко и современно. Корпус из цинкового сплава, покрытия от чёрного до глянцевого золота PVD и французской бронзы. Ручка подходит для межкомнатных дверей в квартирах и загородных домах.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Округлый рычаг",
+          "text": "Мягкие линии без острых кромок.",
+          "icon": "handle"
+        },
+        {
+          "title": "Золото PVD",
+          "text": "Глянцевое вакуумное покрытие стойче к истиранию обычной гальваники.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Французская бронза",
+          "text": "Тёплый тёмный оттенок для дерева.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные",
+        "Объекты | квартиры, загородные дома",
+        "Розетка | круглая",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | чёрный, глянцевое золото PVD, французская бронза",
+        "Гарантия | 1 год"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Глянцевое золото показывает отпечатки больше матовых покрытий.",
+        "Защёлку и завёртку выбирайте отдельно.",
+        "Французская бронза хорошо сочетается с тёмным шпоном.",
+        "Сверьте состав упаковки с числом дверей."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "PVD-золото протирают мягкой микрофиброй, при необходимости с мыльной водой. Абразивы и порошки оставляют царапины даже на стойком покрытии. Чёрную ручку очищают влажной тканью без растворителей."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем хорошо покрытие PVD?",
+      "a": "Вакуумное напыление устойчивее к истиранию, чем обычная гальваника, поэтому золотой цвет дольше сохраняется."
+    },
+    {
+      "q": "Где выпускают модель?",
+      "a": "Поставщик позиционирует марку как польскую, фактическая страна производства: Китай."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "1 год."
+    }
+  ],
+  "sourceUrl": "https://furnitura96.ru/dvernaya-ruchka-lockstyle-gigi-zr-al6-chernyj/"
+}

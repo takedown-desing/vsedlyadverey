@@ -1,0 +1,134 @@
+{
+  "slug": "morelli-im-l-cyl",
+  "name": "Магнитная защёлка Morelli IM L под цилиндр с ответной планкой",
+  "brand": "morelli",
+  "series": "Innovation",
+  "order": 396,
+  "category": "/catalog/mezhkomnatnye-zamki/pod-cilindr/",
+  "article": "IM L",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "IM L B",
+      "price": 2850,
+      "inStock": true,
+      "image": "/images/products/morelli-im-l-cyl-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JQ90X7R8M7RZDYZDJVSDAY3Q.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "IM L PC",
+      "price": 2510,
+      "inStock": true,
+      "image": "/images/products/morelli-im-l-cyl-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01K2PF2ZFTJ713GPGSX5W6WK68.webp"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "IM L PG",
+      "price": 2510,
+      "inStock": true,
+      "image": "/images/products/morelli-im-l-cyl-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JQBD3EB8AYHGSFV66TN00RCX.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "IM L MAB",
+      "price": 2820,
+      "inStock": false,
+      "image": "/images/products/morelli-im-l-cyl-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JQ96BJMFJVR7P8FPBFMVPMYE.png"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "защёлка под евроцилиндр"
+    },
+    {
+      "k": "Язычок",
+      "v": "магнитный"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "85"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Innovation"
+    }
+  ],
+  "description": "Магнитная защёлка Morelli под цилиндровый механизм для межкомнатных дверей, которые должны запираться. Работает бесшумно благодаря магнитному язычку. Выпускается в чёрном, хромированном, золотом и античном бронзовом исполнении.",
+  "intro": "Morelli IM L из коллекции Innovation - магнитная защёлка под цилиндровый механизм для межкомнатных дверей, которые должны запираться. Межосевое 85 мм, ответная планка в комплекте. Магнитный язычок работает бесшумно, корпус выпускается в чёрном, хромированном, золотом и античном бронзовом исполнении.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Под евроцилиндр",
+          "text": "В корпус встаёт стандартный профильный цилиндр, по которому дверь запирается на ключ.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Без щелчка",
+          "text": "Магнитный язычок не трётся о планку и не щёлкает, это важно для спальни и детской.",
+          "icon": "lock"
+        },
+        {
+          "title": "Пара к IM WC",
+          "text": "В той же коллекции есть сантехническая IM WC, поэтому двери в квартире можно оснастить одной серией.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | защёлка под евроцилиндр",
+        "Язычок | магнитный",
+        "Межосевое расстояние | 85 мм",
+        "Коллекция | Innovation",
+        "Двери | межкомнатные"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Цилиндр подбирается отдельно, у Morelli есть серия HS в тех же цветах",
+        "Нужны накладки под цилиндр, например Morelli MH-KH на круглой розетке",
+        "Бэксет сверьте по паспорту, если выбираете ручку на планке",
+        "Для санузла в этой коллекции лучше взять IM WC под завертку"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Какой цилиндр подойдёт к IM L?",
+      "a": "Стандартный евроцилиндр нужной длины. В тон корпусу удобно подобрать Morelli HS 60C или HS 60CK с вертушкой."
+    },
+    {
+      "q": "Межосевое 85 мм, как у IM WC?",
+      "a": "Нет, у IM WC межосевое 95 мм. Это разные посадки, и для ручек на планке они требуют разных планок."
+    },
+    {
+      "q": "Можно ли закрывать дверь без ключа?",
+      "a": "Да, магнитная защёлка удерживает дверь, ключ нужен только чтобы выдвинуть ригель."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2449"
+}

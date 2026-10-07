@@ -1,0 +1,139 @@
+{
+  "slug": "fuaro-et-sl",
+  "name": "Накладка под цилиндр FUARO ET SL на квадратной розетке",
+  "brand": "fuaro",
+  "series": null,
+  "order": 435,
+  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "article": "ET SL",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "сатинированное золото",
+      "color": "gold",
+      "article": "ET SL SSG-39",
+      "price": 462,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-sl-satinirovannoe-zoloto.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/45843_01.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "ET SL CP-8",
+      "price": 462,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-sl-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/84/44317_01.jpg"
+    },
+    {
+      "finish": "сатинированный хром",
+      "color": "chrome",
+      "article": "ET SL SSC-16",
+      "price": 462,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-sl-satinirovannyy-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/84/44313_01.jpg"
+    },
+    {
+      "finish": "графит",
+      "color": "graphite",
+      "article": "ET SL GR-23",
+      "price": 462,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-sl-grafit.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/84/44319_01.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "ET SL BL-24",
+      "price": 462,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-sl-chernyy.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/84/44315_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладка под евроцилиндр"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    }
+  ],
+  "description": "Квадратная накладка Fuaro под цилиндр для дверей с современными ручками на квадратной розетке. Скрывает торец цилиндра и отверстие в полотне. Пять отделок, включая графит и чёрный.",
+  "intro": "Fuaro ET SL - квадратная накладка под цилиндр для дверей с современными ручками на квадратной розетке. Она скрывает торец цилиндра и отверстие в полотне. Корпус из цинкового сплава, отделки: сатинированное золото, хром, сатинированный хром, графит и чёрный.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Квадратная форма",
+          "text": "Повторяет геометрию современных ручек на квадратном основании.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Скрывает отверстие",
+          "text": "Край отверстия под цилиндр закрыт, дверь выглядит аккуратно.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Пять отделок",
+          "text": "От сатинированного золота до графита и чёрного.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладка под евроцилиндр",
+        "Форма розетки | квадратная",
+        "Материал | цинковый сплав",
+        "Двери | межкомнатные"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Размер квадрата сравните с розеткой ручки",
+        "Уточните, продаётся штука или пара",
+        "Замок нужен под евроцилиндр",
+        "Выставляйте накладку по уровню: перекос квадрата заметен"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Накладку ставят после цилиндра: сначала крепят цилиндр винтом через торец замка, затем надевают накладки с двух сторон и стягивают их. Квадрат выравнивают параллельно кромке двери. Сатинированные покрытия протирают мягкой тканью, без абразивов."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли накладка к круглой ручке?",
+      "a": "Лучше взять круглую Fuaro ET.R.SLR52. Квадратная накладка смотрится парой к квадратной розетке."
+    },
+    {
+      "q": "С каким замком ставить?",
+      "a": "С межкомнатным замком под евроцилиндр, например Fuaro M85C-50 или P85C-50."
+    },
+    {
+      "q": "Нужна ли накладка, если на двери ручка на планке?",
+      "a": "Нет, отверстие под цилиндр уже предусмотрено в планке ручки."
+    }
+  ],
+  "sourceUrl": "https://kromus.ru/nakladka-pod-cilindr-et-k-sl52-et-sl-ssg-39-satinirovannoe-zoloto/"
+}

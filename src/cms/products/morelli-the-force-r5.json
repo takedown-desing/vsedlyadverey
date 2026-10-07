@@ -1,0 +1,143 @@
+{
+  "slug": "morelli-the-force-r5",
+  "name": "Дверная ручка Morelli Luxury THE FORCE R5 на круглой розетке",
+  "brand": "morelli",
+  "series": "THE FORCE",
+  "order": 249,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "THE FORCE R5",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "THE FORCE R5 NERO",
+      "price": 6630,
+      "inStock": true,
+      "image": "/images/products/morelli-the-force-r5-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/November2021/aIjeu3N7nLSAttfJRVzx.webp"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "THE FORCE R5 CSA",
+      "price": 6630,
+      "inStock": true,
+      "image": "/images/products/morelli-the-force-r5-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/November2021/e0caBqIhNV4IAJIINVJT.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "THE FORCE R5 BIA",
+      "price": 6630,
+      "inStock": true,
+      "image": "/images/products/morelli-the-force-r5-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/November2021/zZzwrOshOFpyLTxf9jwT.webp"
+    },
+    {
+      "finish": "антрацит",
+      "color": "graphite",
+      "article": "THE FORCE R5 ANT",
+      "price": 8230,
+      "inStock": true,
+      "image": "/images/products/morelli-the-force-r5-antratsit.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/November2021/emHxLRUl0cRoDhoaeP2T.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "ECO"
+    }
+  ],
+  "description": "THE FORCE с мощным округлым рычагом на круглой розетке R5 хорошо лежит в руке и выглядит современно. Корпус выполнен из цинкового сплава, модель доступна в черном, белом, антраците и хроме, поэтому легко подбирается к цвету дверного полотна.",
+  "intro": "THE FORCE R5 из линейки Morelli Luxury получила мощный округлый рычаг на круглой розетке. Ручка хорошо лежит в руке и выглядит современно, а цвета чёрный, белый, антрацит и матовый хром позволяют подобрать её к цвету полотна, а не только к остальной фурнитуре.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Объёмный рычаг",
+          "text": "Округлая массивная форма даёт уверенный хват.",
+          "icon": "handle"
+        },
+        {
+          "title": "Розетка R5",
+          "text": "Круглое основание закрывает отверстие и крепёж.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Антрацит",
+          "text": "Тёмно-серый цвет подходит к дверям под бетон и графитовым полотнам.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные",
+        "Розетка | круглая R5",
+        "Коллекция | ECO",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | чёрный, матовый хром, белый, антрацит"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Выбирайте цвет под полотно: белая ручка на белой двери, антрацит на серой.",
+        "Защёлка, фиксатор WC и накладки приобретаются отдельно на круглой розетке.",
+        "Массивный рычаг лучше работает с защёлкой, у которой надёжная возвратная пружина.",
+        "Сверьте количество ручек в упаковке с числом дверей."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Окрашенные покрытия, белое, чёрное и антрацит, очищают мягкой губкой с мыльной водой. Матовый хром протирают сухой тканью. Растворители, ацетон и абразивные порошки повреждают краску, поэтому для удаления пятен от маркера или клея используйте только мягкие средства."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли THE FORCE для серой двери?",
+      "a": "Да, для серых полотен есть антрацит и матовый хром."
+    },
+    {
+      "q": "Какая форма у розетки?",
+      "a": "Круглая, серия R5."
+    },
+    {
+      "q": "Чем выполнен корпус?",
+      "a": "Из цинкового сплава ЦАМ."
+    },
+    {
+      "q": "Подойдёт ли ручка для детской?",
+      "a": "Округлый рычаг без острых кромок удобен и безопасен. Для детской часто выбирают белый цвет в тон двери."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/1744"
+}

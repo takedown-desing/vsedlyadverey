@@ -1,0 +1,178 @@
+{
+  "slug": "armadillo-bk-dec-atc-protector-1",
+  "name": "Декоративная накладка на цилиндр со штоком Armadillo BK-DEC (ATC Protector 1)",
+  "brand": "armadillo",
+  "series": "ATC Protector",
+  "order": 10,
+  "category": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+  "article": "BK-DEC",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "BK-DEC CP-8",
+      "price": 399,
+      "inStock": true,
+      "image": "/images/products/armadillo-bk-dec-atc-protector-1-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/7/32793.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "BK-DEC SC-14",
+      "price": 399,
+      "inStock": true,
+      "image": "/images/products/armadillo-bk-dec-atc-protector-1-matovyy-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/6/32791.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "BK-DEC SN-3",
+      "price": 399,
+      "inStock": true,
+      "image": "/images/products/armadillo-bk-dec-atc-protector-1-matovyy-nikel.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/7/33423.jpg"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "BK-DEC GP-2",
+      "price": 349,
+      "inStock": true,
+      "image": "/images/products/armadillo-bk-dec-atc-protector-1-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/3/32785.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "BK-DEC SG-1",
+      "price": 399,
+      "inStock": true,
+      "image": "/images/products/armadillo-bk-dec-atc-protector-1-matovoe-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/3/35635.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "BK-DEC AB-77",
+      "price": 399,
+      "inStock": true,
+      "image": "/images/products/armadillo-bk-dec-atc-protector-1-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/9/32787.jpg"
+    }
+  ],
+  "material": "ZAMAK",
+  "style": "modern",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "декоративная накладка под шток"
+    },
+    {
+      "k": "Назначение",
+      "v": "Под цилиндр"
+    },
+    {
+      "k": "Форма",
+      "v": "Овальные"
+    },
+    {
+      "k": "Материал",
+      "v": "ZAMAK"
+    },
+    {
+      "k": "Наличие шторки",
+      "v": "Нет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "49"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    },
+    {
+      "k": "Комплектация",
+      "v": "1 накладка и нейлоновое основание для скрытого крепления"
+    }
+  ],
+  "description": "Накладка с небольшим круглым отверстием под шток ставится с внутренней стороны входной двери там, где цилиндр открывается поворотником. Овальная форма и покрытия совпадают с броненакладками ATC Protector. Крепление скрытое, на нейлоновом основании.",
+  "intro": "Armadillo BK-DEC ставится с внутренней стороны входной двери, где цилиндр открывается поворотником. В накладке небольшое круглое отверстие под шток, через которое проходит вертушка, а сам цилиндр остаётся закрыт. Форма овальная, покрытия совпадают с броненакладками ATC Protector.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Отверстие под шток",
+          "text": "Вместо выреза под профиль цилиндра только круглое отверстие для штока: механизм спрятан полностью.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Под поворотник",
+          "text": "Накладка рассчитана на схему, где изнутри дверь запирается вертушкой на шток.",
+          "icon": "check"
+        },
+        {
+          "title": "Шесть покрытий",
+          "text": "Хром, матовый хром, матовый никель, золото, матовое золото, бронза.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Крепление без винтов на виду",
+          "text": "Нейлоновое основание крепится к полотну, накладка садится поверх.",
+          "icon": "seal"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Назначение | под цилиндр со штоком",
+        "Двери | металлические входные, внутренняя сторона",
+        "Форма | овальная",
+        "Материал | ZAMAK",
+        "Вес | 49 г",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Нужен цилиндр со штоком, а не ключ-вертушка или ключ-ключ",
+        "Поворотник на шток покупается отдельно, подберите его в цвет накладки",
+        "Проверьте, что вылет штока достаточен после установки накладки",
+        "Снаружи ставится броненакладка той же линейки"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Какой цилиндр нужен под эту накладку?",
+      "a": "Цилиндр с длинным или коротким штоком с внутренней стороны. На шток надевается вертушка, которая проходит через отверстие накладки."
+    },
+    {
+      "q": "Можно ли использовать BK-DEC с цилиндром ключ-вертушка?",
+      "a": "Нет, у такого цилиндра вертушка встроена в корпус и требует выреза под профиль. Для него подходит ET-DEC."
+    },
+    {
+      "q": "Какую вертушку подобрать?",
+      "a": "Подойдёт поворотник под шток 8 мм, например из серий Armadillo T.Knob в том же покрытии."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-nakladka-armadillo--armadillo-na-czilindr-so-shtokom-bk-dec-atc-protector-1-cp-8-khrom.html"
+}

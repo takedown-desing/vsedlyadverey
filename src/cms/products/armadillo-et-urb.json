@@ -1,0 +1,157 @@
+{
+  "slug": "armadillo-et-urb",
+  "name": "Накладка под цилиндр Armadillo CYLINDER ET URB",
+  "brand": "armadillo",
+  "series": "Urban",
+  "order": 433,
+  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "article": "ET URB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "ET URB BL-26",
+      "price": 877,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-urb-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/42875_01.jpg"
+    },
+    {
+      "finish": "воронёный никель",
+      "color": "nickel",
+      "article": "ET URB BPVD-77",
+      "price": 871,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-urb-voronenyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34311_01.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "ET URB CP-8",
+      "price": 871,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-urb-hrom.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34249_01.jpg"
+    },
+    {
+      "finish": "золото 24К",
+      "color": "gold",
+      "article": "ET URB GOLD-24",
+      "price": 970,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-urb-zoloto-24k.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34313_01.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "ET URB OB-13",
+      "price": 871,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-urb-antichnaya-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34539_01.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "ET URB SN-3",
+      "price": 871,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-urb-matovyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34315_01.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "ET URB АВ-7",
+      "price": 871,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-urb-bronza.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/34317_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладка под евроцилиндр"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    }
+  ],
+  "description": "Круглая накладка под цилиндр Armadillo из серии Urban. Сочетается с ручками и завертками Armadillo на круглой розетке. Семь отделок, включая золото 24К и античную бронзу.",
+  "intro": "Armadillo CYLINDER ET URB - круглая накладка под цилиндр из серии Urban. Она сочетается с ручками и завертками Armadillo на круглой розетке и выпускается в семи отделках, включая золото 24К, воронёный никель и античную бронзу. Материал: цинковый сплав.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Серия Urban",
+          "text": "Та же форма розетки, что у ручек Armadillo Urban: дверь выглядит собранной.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Семь отделок",
+          "text": "Чёрный, воронёный никель, хром, золото 24К, античная бронза, матовый никель, бронза.",
+          "icon": "check"
+        },
+        {
+          "title": "Аккуратный торец",
+          "text": "Накладка скрывает край отверстия и выравнивает вид цилиндра.",
+          "icon": "cylinder"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладка под евроцилиндр",
+        "Форма розетки | круглая",
+        "Материал | цинковый сплав",
+        "Серия | Urban"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте, продаётся накладка по одной или парой",
+        "Подходит к замкам Armadillo Gravity под цилиндр",
+        "При чёрной отделке замка удобно выбрать чёрную накладку",
+        "Цилиндр берите длиннее с учётом двух накладок"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Накладки надевают после того, как цилиндр вставлен в замок и закреплён винтом через торец. Внутренняя накладка стягивается с наружной винтами сквозь полотно, поэтому снаружи крепёж не виден. Золото 24К и античную бронзу протирают сухой мягкой тканью: бытовая химия для кухни и ванной повреждает покрытие."
+    }
+  ],
+  "faq": [
+    {
+      "q": "К какому замку ставится?",
+      "a": "К любому межкомнатному замку под евроцилиндр, например Armadillo Gravity G02 или Gravity.Pro G02."
+    },
+    {
+      "q": "Подойдёт ли к квадратной ручке?",
+      "a": "Лучше смотрится с круглой розеткой. К квадратной ручке подберите квадратную накладку."
+    },
+    {
+      "q": "Что такое воронёный никель?",
+      "a": "Тёмный никель с серо-синеватым отливом, светлее чёрного."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-cylinder-et-urb-bl-26/"
+}

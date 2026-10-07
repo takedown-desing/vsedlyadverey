@@ -1,0 +1,143 @@
+{
+  "slug": "armadillo-sh-urb153-010-kupe",
+  "name": "Ручка для раздвижной двери Armadillo SH.URB153.010",
+  "brand": "armadillo",
+  "series": "Urban",
+  "order": 238,
+  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "article": "SH.URB153.010",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "SH.URB153.010 BL-26",
+      "price": 1216,
+      "inStock": true,
+      "image": "/images/products/armadillo-sh-urb153-010-kupe-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/07/42391_01.jpg"
+    },
+    {
+      "finish": "итальянский тисненый",
+      "color": "other",
+      "article": "SH.URB153.010 MWSC-33",
+      "price": 1212,
+      "inStock": true,
+      "image": "/images/products/armadillo-sh-urb153-010-kupe-italyanskiy-tisnenyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2023/07/42389_01.jpg"
+    },
+    {
+      "finish": "флорентийское золото",
+      "color": "gold",
+      "article": "SH.URB153.010",
+      "price": 1388,
+      "inStock": true,
+      "image": "/images/products/armadillo-sh-urb153-010-kupe-florentiyskoe-zoloto.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/50141_01.jpg"
+    },
+    {
+      "finish": "матовое золото (латунь)",
+      "color": "gold",
+      "article": "SH.URB153.010",
+      "price": 1272,
+      "inStock": true,
+      "image": "/images/products/armadillo-sh-urb153-010-kupe-matovoe-zoloto-latun.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/50139_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "loft",
+  "doorTypes": [
+    "sliding"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для раздвижной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Urban"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "401"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    }
+  ],
+  "description": "Ручка-купе из коллекции Armadillo Urban с выразительными покрытиями, включая черный, вороненый никель и итальянский тисненый. Хорошо смотрится на раздвижных дверях в стиле лофт и в современных интерьерах.",
+  "intro": "В коллекции Armadillo Urban ручка-купе SH.URB153.010 получила выразительные покрытия: чёрное, флорентийское золото, матовое золото и итальянский тиснёный. Она хорошо смотрится на раздвижных дверях в стиле лофт и в современных интерьерах. Гарантия 5 лет.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Характерные покрытия",
+          "text": "Итальянский тиснёный и флорентийское золото дают фактуру, которой нет у простой гальваники.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Лофт и модерн",
+          "text": "Модель рассчитана на индустриальные и современные интерьеры.",
+          "icon": "slide"
+        },
+        {
+          "title": "401 г",
+          "text": "Массивная врезная ручка из цинкового сплава.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | раздвижные",
+        "Стиль | лофт, современный",
+        "Коллекция | Urban",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | чёрный, итальянский тиснёный, флорентийское золото, матовое золото (латунь)",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "К ручке удобно подобрать распашные модели Armadillo Urban в том же покрытии.",
+        "Тиснёное покрытие имеет фактуру, посмотрите фото вблизи перед выбором.",
+        "Перед фрезеровкой паза сверьте габариты ручки с толщиной полотна.",
+        "Ручка без механизма: для запирания нужен отдельный замок."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Что за покрытие итальянский тиснёный?",
+      "a": "Это фактурное декоративное покрытие с рельефом, оно выглядит как обработанный металл и подходит к интерьерам в стиле лофт."
+    },
+    {
+      "q": "С какими ручками сочетается?",
+      "a": "С моделями коллекции Armadillo Urban, например CUBE или EXCALIBUR в том же цвете."
+    },
+    {
+      "q": "Сколько весит модель?",
+      "a": "401 г."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-dlya-razdvizhnyh-dverej-sh-urb153-010-sh010-urb-bl-26-chernyj/"
+}

@@ -1,0 +1,166 @@
+{
+  "slug": "fratelli-cattini-emma-fw-7",
+  "name": "Оконная ручка Fratelli Cattini Emma FW 7",
+  "brand": "fratelli-cattini",
+  "series": "Emma",
+  "order": 488,
+  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "article": "FW 7",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "FCT2516",
+      "price": 2058,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-fw-7.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-emma-fw-7-cs-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "FCT2515",
+      "price": 2358,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-fw-7-chrome-pol.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-emma-fw-7-cr-polirovannyj-hrom.jpg"
+    },
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "FCT2517",
+      "price": 2058,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-fw-7-black.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-emma-fw-7-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "FCT2513",
+      "price": 2265,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-fw-7-brass.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-emma-fw-7-bs-matovaja-latun.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "FCT2512",
+      "price": 2058,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-fw-7-brass-pol.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-emma-fw-7-olv-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "FCT2514",
+      "price": 2058,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-fw-7-bronze.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-emma-fw-7-by-matovaja-bronza.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "pvc"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "оконная ручка"
+    },
+    {
+      "k": "Квадрат, мм",
+      "v": "7"
+    },
+    {
+      "k": "Цена за",
+      "v": "1 шт."
+    },
+    {
+      "k": "Розетка",
+      "v": "круглая"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    }
+  ],
+  "description": "Латунная ручка на круглой розетке в стиле современной классики, парная к дверным ручкам серии Emma. Подходит для пластиковых и деревянных окон со стандартным квадратом 7 мм. Шесть покрытий позволяют подобрать её под любую дверную фурнитуру в квартире.",
+  "intro": "Оконная ручка Fratelli Cattini Emma FW 7 из латуни на круглой розетке, выполненная в духе современной классики. Её делают парой к дверным ручкам серии Emma, чтобы окна и межкомнатные двери были оформлены одинаково. Ставится на пластиковые и деревянные окна со стандартным квадратом 7 мм.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Латунный корпус",
+          "text": "Рукоять и розетка из латуни: плотный металл спокойно переносит ежедневные повороты и хорошо держит гальваническое покрытие.",
+          "icon": "handle"
+        },
+        {
+          "title": "Круглая розетка",
+          "text": "Аккуратное круглое основание смотрится мягче прямоугольных накладок штатных пластиковых ручек.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Шесть отделок",
+          "text": "Матовый и полированный хром, матовый чёрный, матовая и полированная латунь, матовая бронза.",
+          "icon": "kit"
+        },
+        {
+          "title": "Пара к дверной Emma",
+          "text": "Покрытия совпадают с дверной серией, так что оконную ручку легко подобрать в тон межкомнатной фурнитуре.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | оконная ручка",
+        "Квадрат | 7 мм",
+        "Розетка | круглая",
+        "Материал | латунь",
+        "Покрытия | матовый и полированный хром, матовый чёрный, матовая и полированная латунь, матовая бронза",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте, что оконная фурнитура рассчитана на квадрат 7 мм: так устроено большинство современных ПВХ и деревянных евроокон.",
+        "Снимите штатную ручку и измерьте расстояние между винтами, стандартом для оконной фурнитуры считается 43 мм.",
+        "Считайте ручки по числу открывающихся створок, глухим створкам ручка не нужна.",
+        "Для одинакового вида с дверями берите то же покрытие, что у дверной Emma: матовое к матовому, полированное к полированному."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли Emma FW 7 для деревянного окна?",
+      "a": "Да, если на окне стоит поворотно-откидная фурнитура под квадрат 7 мм. Такая фурнитура используется и в ПВХ, и в деревянных евроокнах."
+    },
+    {
+      "q": "Можно ли поставить ручку самостоятельно?",
+      "a": "Да, понадобится только отвёртка. Штатную ручку снимают, открутив два винта под декоративной крышкой основания, новую вставляют в том же положении и затягивают."
+    },
+    {
+      "q": "Какое покрытие выбрать к белым пластиковым окнам?",
+      "a": "На белом профиле аккуратно смотрятся матовый и полированный хром. Матовый чёрный и латунь дают заметный акцент и хорошо работают, если такая же фурнитура стоит на дверях."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/ruchka-okonnaya-fratelli-cattini-emma-fw-7-cs-matovyj-hrom/"
+}

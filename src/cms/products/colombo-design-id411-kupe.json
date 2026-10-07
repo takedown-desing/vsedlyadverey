@@ -1,0 +1,148 @@
+{
+  "slug": "colombo-design-id411-kupe",
+  "name": "Ручка для раздвижной двери Colombo Design ID411",
+  "brand": "colombo-design",
+  "series": "Roboquattro",
+  "order": 234,
+  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "article": "ID411",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "ID411-NM",
+      "price": 4015,
+      "inStock": false,
+      "image": "/images/products/colombo-design-id411-kupe-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-colombo-id411-nm-matovyj-chernyj-1sht.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "ID411-CM",
+      "price": 5415,
+      "inStock": true,
+      "image": "/images/products/colombo-design-id411-kupe-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-colombo-id411-cm-matovyj-hrom-1sht.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "ID411-OM",
+      "price": 6244,
+      "inStock": true,
+      "image": "/images/products/colombo-design-id411-kupe-matovoe-zoloto.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-colombo-id411-om-matovoe-zoloto-1sht.1.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "ID411-NI",
+      "price": 5269,
+      "inStock": true,
+      "image": "/images/products/colombo-design-id411-kupe-matovyy-nikel.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-colombo-id411-ni-matovyj-nikel-1sht.2.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "minimal",
+  "doorTypes": [
+    "sliding"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для раздвижной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "130"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "12 месяцев"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 шт."
+    }
+  ],
+  "description": "Прямоугольная врезная ручка ID411 из линейки Roboquattro для раздвижных и складных дверей. Строгая форма подходит к современным полотнам, а широкий выбор покрытий позволяет сочетать ее с распашными ручками той же серии.",
+  "intro": "Врезная ручка ID411 переносит граненую геометрию линейки Roboquattro на раздвижные и складные двери. Строгий прямоугольный контур подходит к современным полотнам, а покрытия совпадают с распашными ручками серии, так что фурнитура в квартире может быть выдержана в одном стиле.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Прямоугольный контур",
+          "text": "Форма повторяет граненый рычаг Roboquattro.",
+          "icon": "slide"
+        },
+        {
+          "title": "Латунь 130 г",
+          "text": "Компактная ручка из прочного металла.",
+          "icon": "shield"
+        },
+        {
+          "title": "Матовые покрытия",
+          "text": "Чёрный, хром, золото и никель без блеска и отпечатков.",
+          "icon": "rosette"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | раздвижные, складные",
+        "Серия | Roboquattro",
+        "Материал | латунь",
+        "Покрытия | матовый чёрный, матовый хром, матовое золото, матовый никель",
+        "Цена указана за | 1 шт.",
+        "Гарантия | 12 месяцев"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Одна ручка на одну сторону двери, на две стороны нужна пара.",
+        "Прямоугольный паз фрезеруют по размерам корпуса, уточните их перед обработкой полотна.",
+        "На складной двери проверьте, что ручка не попадает на линию сгиба.",
+        "Замок для раздвижной двери подбирается отдельно."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Врезную ручку чаще всего касаются пальцами изнутри чаши, поэтому там скапливается грязь. Её удаляют влажной ватной палочкой или мягкой тканью, затем вытирают насухо. Матовые покрытия не любят абразивов и полиролей: на них появляются блестящие пятна."
+    }
+  ],
+  "faq": [
+    {
+      "q": "С какими ручками сочетается ID411?",
+      "a": "С распашными Roboquattro ID41RSB: у них общая граненая геометрия и совпадающие покрытия."
+    },
+    {
+      "q": "Можно ли поставить на складную дверь?",
+      "a": "Да, модель рассчитана на раздвижные и складные двери."
+    },
+    {
+      "q": "Насколько массивна модель?",
+      "a": "Ручка весит 130 г, это компактное и лёгкое изделие."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-dlja-razdvizhnoj-dveri-colombo-id411-nm-chernyj-1sht/"
+}

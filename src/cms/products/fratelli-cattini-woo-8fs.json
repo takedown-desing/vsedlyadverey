@@ -1,0 +1,143 @@
+{
+  "slug": "fratelli-cattini-woo-8fs",
+  "name": "Дверная ручка Fratelli Cattini WOO 8FS на квадратной розетке",
+  "brand": "fratelli-cattini",
+  "series": "WOO",
+  "order": 206,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "WOO 8FS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "8FS-NM",
+      "price": 5561,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-woo-8fs-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-woo-8fs-nm-matovyj-chernyj.3.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "8FS-BS",
+      "price": 5753,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-woo-8fs-matovaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-woo-8fs-bs-matovaja-latun.2.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "8FS-CS",
+      "price": 5753,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-woo-8fs-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-woo-8fs-cs-matovyj-hrom.2.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "8FS-BY",
+      "price": 7465,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-woo-8fs-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-woo-8fs-by-matovaja-bronza.1.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Ручка WOO с мягко скругленным рычагом на квадратной розетке сочетает строгую геометрию основания с плавной линией ручки. Модель выполнена из цинкового сплава с качественным гальваническим покрытием и подходит для межкомнатных дверей любого типа.",
+  "intro": "WOO 8FS соединяет строгую квадратную розетку и мягко скруглённый рычаг. Такое сочетание геометрии и пластики позволяет ставить ручку на межкомнатные двери любого типа, от гладких эмалевых до шпонированных с фрезеровкой. Ручка производится в Италии из цинкового сплава и продаётся комплектом на одну дверь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Контраст форм",
+          "text": "Квадратное основание и плавная линия рычага уравновешивают друг друга.",
+          "icon": "handle"
+        },
+        {
+          "title": "Квадратная розетка 8FS",
+          "text": "Основание перекликается с прямоугольными накладками и квадратными петлями.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Гальваника на ЦАМ",
+          "text": "Корпус из цинкового сплава покрыт гальваническим слоем, стойким к повседневным касаниям.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные любого типа",
+        "Розетка | квадратная",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый чёрный, матовая латунь, матовый хром, матовая бронза",
+        "Гарантия | 5 лет",
+        "Страна производства | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Все накладки на двери стоит брать квадратными, чтобы не смешивать формы.",
+        "Если дверь с фрезеровкой, проверьте, что розетка ложится на ровный участок.",
+        "Защёлку выбирают отдельно: для тихих спален лучше магнитная.",
+        "Цена указана за комплект на одну дверь, при заказе на всю квартиру считайте по числу полотен."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Для каких дверей WOO подходит лучше всего?",
+      "a": "Модель универсальна: квадратная розетка поддерживает современные полотна, а скруглённый рычаг не выглядит чужеродно и на более мягких по стилю дверях."
+    },
+    {
+      "q": "Какая гарантия на ручку?",
+      "a": "Гарантия на модель составляет 5 лет."
+    },
+    {
+      "q": "Можно ли подобрать к ней завёртку WC?",
+      "a": "Да, завёртку и накладку под ключ подбирают отдельно на квадратной розетке в том же покрытии."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-woo-8fs-nm-matovyj-chernyj/"
+}

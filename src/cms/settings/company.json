@@ -1,0 +1,51 @@
+{
+  "brand": "Всё для дверей",
+  "domain": "вседлядверей.рф",
+  "legalName": "ООО «САНТЕХСИСТЕМА-МОСКВА»",
+  "inn": "7718968841",
+  "kpp": "774301001",
+  "ogrn": "1147746152498",
+  "okpo": "56657657",
+  "phoneMain": "+7 (499) 264-52-11",
+  "phoneMainNote": "многоканальный",
+  "email": "",
+  "messengers": [
+    {
+      "name": "MAX",
+      "url": ""
+    },
+    {
+      "name": "Telegram",
+      "url": ""
+    }
+  ],
+  "city": "Москва",
+  "postalCode": "125493",
+  "street": "ул. Флотская, д. 5, к. 2",
+  "address": "Москва, ул. Флотская, д. 5, к. 2",
+  "legalAddress": "125493, г. Москва, ул. Флотская, д. 5, к. 2",
+  "metro": "м. «Речной вокзал», около 1,2 км",
+  "geo": {
+    "lat": 55.85259,
+    "lon": 37.49471
+  },
+  "showroomBrands": [
+    "colombo-design",
+    "tupai"
+  ],
+  "hours": [],
+  "bank": {
+    "name": "ООО «Банк Точка», г. Москва",
+    "account": "40702810420000068663",
+    "corr": "30101810745374525104",
+    "bik": "044525104"
+  },
+  "delivery": {
+    "mkad": 500,
+    "perKm": 25,
+    "freeMoscowFrom": 20000,
+    "toCarrier": 600,
+    "freeCarrierFrom": 25000
+  },
+  "prepayOnOrder": 70
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "morelli-ds2",
+  "name": "Настенный упор Morelli DS2",
+  "brand": "morelli",
+  "series": "Simple",
+  "order": 351,
+  "category": "/catalog/upory-i-ogranichiteli/nastennye/",
+  "article": "DS2",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "DS2 SC",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds2-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2023/2Y5UScOfUx0syU0ZdjKZ.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "DS2 CP",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds2-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2019/8NuW86JAzKgkzFtfDGcT.webp"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "DS2 SN",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds2-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2019/ltKZNPaXOLXXTCs3TY3g.webp"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "DS2 SG",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds2-matovoe-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2019/4gpbmbaw4QCmSBYSYaSr.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "DS2 AB",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds2-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/October2019/jWgN1sI01KoVLEoyRB7A.webp"
+    },
+    {
+      "finish": "чёрный никель",
+      "color": "black",
+      "article": "DS2 BN",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds2-chernyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/4DYGSphQWoHH8AzxBPYI.webp"
+    }
+  ],
+  "material": "цинковый сплав ZAMAK",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "настенный"
+    },
+    {
+      "k": "Материал",
+      "v": "ZAMAK"
+    },
+    {
+      "k": "Демпфер",
+      "v": "резиновый"
+    }
+  ],
+  "description": "Настенный упор Morelli крепится к стене напротив ручки и не мешает уборке пола. Хорошее решение для полов с подогревом или дорогих покрытий, в которых не хочется сверлить отверстия. Резиновый наконечник гасит удар.",
+  "intro": "Morelli DS2 из серии Simple - настенный упор с резиновым наконечником. Он крепится к стене напротив ручки и не касается пола, поэтому подходит для полов с подогревом, массивной доски и камня, в которых не хочется сверлить отверстия. Корпус из цинкового сплава ZAMAK выпускается в шести покрытиях.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Монтаж на стену",
+          "text": "Пол остаётся целым, а швабра и пылесос не натыкаются на упор.",
+          "icon": "stop"
+        },
+        {
+          "title": "Резиновый наконечник",
+          "text": "Мягкая часть принимает удар двери и не оставляет следов на полотне.",
+          "icon": "seal"
+        },
+        {
+          "title": "Корпус из ZAMAK",
+          "text": "Цинковый сплав держит форму при частых ударах и хорошо принимает гальванические покрытия.",
+          "icon": "shield"
+        },
+        {
+          "title": "Шесть покрытий",
+          "text": "Матовый хром, хром, матовый никель, матовое золото, античная бронза и чёрный никель.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | настенный",
+        "Материал | цинковый сплав ZAMAK",
+        "Демпфер | резиновый",
+        "Покрытия | матовый хром, хром, матовый никель, матовое золото, античная бронза, чёрный никель"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Определите, из чего стена: для бетона и кирпича подойдёт обычный дюбель, для гипсокартона нужен специальный или закладная в каркасе.",
+        "Место выбирают так, чтобы полотно касалось упора раньше, чем ручка дойдёт до стены.",
+        "Проверьте, не мешает ли высокий плинтус: упор должен выступать дальше него.",
+        "В отличие от напольных DS1 и DS3, DS2 нет в белом, зато есть чёрный никель, сверьте цвет с ручками."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Монтаж и уход",
+      "md": "Перед сверлением убедитесь, что в выбранной точке не проходит проводка: розетки и выключатели рядом с дверью это частый случай. Корпус протирают мягкой влажной тканью. Если резина со временем затвердела или потрескалась, упор лучше заменить, пока дверь не начала бить в металл."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Когда выбирать настенный упор вместо напольного?",
+      "a": "Когда в пол нельзя или жалко сверлить: подогрев, дорогая доска, камень. Ещё настенный упор выручает, если на полу он мешал бы проходу."
+    },
+    {
+      "q": "На какую высоту вешать DS2?",
+      "a": "Обычно так, чтобы упор принимал удар полотна в зоне ручки или ниже неё. Откройте дверь и отметьте точку на стене, где она встречается с полотном."
+    },
+    {
+      "q": "Выдержит ли гипсокартонная стена?",
+      "a": "Выдержит, если использовать дюбель для пустотелых стен или закрепить упор в профиль каркаса."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/1990"
+}

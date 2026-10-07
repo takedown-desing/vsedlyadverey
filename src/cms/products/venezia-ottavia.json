@@ -1,0 +1,154 @@
+{
+  "slug": "venezia-ottavia",
+  "name": "Дверная стучалка Venezia Ottavia 135×80",
+  "brand": "venezia",
+  "series": "Ottavia",
+  "order": 62,
+  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "article": "OTTAVIA 135x80",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "VNZ1619",
+      "price": 23923,
+      "inStock": true,
+      "image": "/images/products/venezia-ottavia-polirovannyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-venezia-ottavia-135x80-polirovannyj-hrom.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "VNZ1618",
+      "price": 18406,
+      "inStock": true,
+      "image": "/images/products/venezia-ottavia-polirovannaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-venezia-ottavia-135x80-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "французское золото",
+      "color": "gold",
+      "article": "VNZ1671",
+      "price": 26380,
+      "inStock": true,
+      "image": "/images/products/venezia-ottavia-francuzskoe-zoloto.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-venezia-ottavia-135x80-francuzskoe-zoloto-korichnevyj.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "VNZ1620",
+      "price": 23923,
+      "inStock": true,
+      "image": "/images/products/venezia-ottavia-matovyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-venezia-ottavia-135x80-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "VNZ1621",
+      "price": 19015,
+      "inStock": true,
+      "image": "/images/products/venezia-ottavia-matovaya-bronza.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/dvernaja-stuchalka-venezia-ottavia-135x80-matovaya-bronza.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "дверная стучалка (гонг)"
+    },
+    {
+      "k": "Форма",
+      "v": "массивное кольцо на круглой розетке"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "135×80"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    }
+  ],
+  "description": "Массивное латунное кольцо Ottavia на круглой розетке для входных дверей в классическом стиле. Утолщённое кольцо с шаровыми вставками даёт глухой, отчётливый стук. Итальянская фурнитура Venezia доступна в хроме, латуни, французском золоте и бронзе.",
+  "intro": "Venezia Ottavia: массивное латунное кольцо на круглой розетке для входных дверей в классическом стиле. Утолщённое кольцо с шаровыми вставками даёт глухой отчётливый стук, который хорошо слышно в доме. Размер 135×80 мм, покрытия в хроме, латуни, французском золоте и бронзе.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Утолщённое кольцо",
+          "text": "Масса кольца даёт плотный глухой звук, а не звонкий щелчок.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Шаровые вставки",
+          "text": "Декоративные шары на кольце добавляют классический акцент без сложного литого сюжета.",
+          "icon": "check"
+        },
+        {
+          "title": "Пять покрытий",
+          "text": "Полированный хром, полированная латунь, французское золото, матовый хром и матовая бронза.",
+          "icon": "kit"
+        },
+        {
+          "title": "Фабрика Comit",
+          "text": "Марку Venezia выпускает итальянская фабрика Comit в Лумеццане.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | дверная стучалка (гонг)",
+        "Форма | массивное кольцо на круглой розетке",
+        "Размер | 135×80 мм",
+        "Материал | латунь",
+        "Покрытия | полированный хром, полированная латунь, французское золото, матовый хром, матовая бронза",
+        "Страна производства | Италия",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Французское золото и полированная латунь поддерживают тёплую классику, хромы подходят к более холодным интерьерам.",
+        "Кольцо тяжёлое, поэтому зона крепления на полотне должна быть из массива или с закладной.",
+        "По размеру Ottavia находится между кольцом Rocca 110 мм и львиными стучалками 190×110 мм.",
+        "Ручки и накладки входной группы Venezia можно подобрать в том же покрытии."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем Ottavia отличается от простой стучалки-кольца?",
+      "a": "Кольцо утолщённое и украшено шаровыми вставками, поэтому стук получается глуше, а сама деталь выглядит массивнее."
+    },
+    {
+      "q": "Что за покрытие французское золото?",
+      "a": "Фирменная золотистая отделка Venezia, артикул VNZ1671. Её стоит сравнить с полированной латунью вживую: оттенки заметно различаются."
+    },
+    {
+      "q": "Где сделана стучалка?",
+      "a": "В Италии, марку Venezia выпускает фабрика Comit в Лумеццане."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-stuchalka-venezia-ottavia-135x80-polirovannyj-hrom/"
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "armadillo-et-dec-sq-atc-protector-1",
+  "name": "Декоративная квадратная накладка на цилиндр Armadillo ET-DEC SQ (ATC Protector 1) для входной двери",
+  "brand": "armadillo",
+  "series": "ATC Protector",
+  "order": 7,
+  "category": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+  "article": "ET-DEC SQ",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "ET-DEC SQ CP-8",
+      "price": 455,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-dec-sq-atc-protector-1-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/4/34359.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "ET-DEC SQ SC-14",
+      "price": 399,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-dec-sq-atc-protector-1-matovyy-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/35605.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "ET-DEC SQ SN-3",
+      "price": 499,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-dec-sq-atc-protector-1-matovyy-nikel.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/34363.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "ET-DEC SQ AB-77",
+      "price": 499,
+      "inStock": true,
+      "image": "/images/products/armadillo-et-dec-sq-atc-protector-1-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/2/35607.jpg"
+    }
+  ],
+  "material": "ZAMAK",
+  "style": "minimal",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "декоративная накладка на цилиндр"
+    },
+    {
+      "k": "Назначение",
+      "v": "Под цилиндр"
+    },
+    {
+      "k": "Форма",
+      "v": "Прямоугольные"
+    },
+    {
+      "k": "Материал",
+      "v": "ZAMAK"
+    },
+    {
+      "k": "Наличие шторки",
+      "v": "Нет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "49"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    },
+    {
+      "k": "Комплектация",
+      "v": "1 накладка и нейлоновое основание для скрытого крепления"
+    }
+  ],
+  "description": "Квадратная версия декоративной накладки под цилиндр для входной металлической двери. Она входит в одну линейку с броненакладками ET/ATC Protector SQ, ручками на квадратной розетке и глазками той же формы, так что дверь можно оформить в едином стиле. Основание нейлоновое, крепеж скрытый.",
+  "intro": "Armadillo ET-DEC SQ отличается от базовой ET-DEC прямоугольной формой: накладка под цилиндр входит в квадратную линейку ATC Protector SQ вместе с броненакладками, ручками на квадратной розетке и глазками той же геометрии. Ставится изнутри на металлическую входную дверь, крепёж скрыт под корпусом из ZAMAK.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Квадратная геометрия",
+          "text": "Прямоугольный контур поддерживает ручки на квадратных розетках, дверь собирается в одном стиле от ручки до глазка.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Скрытый монтаж",
+          "text": "Нейлоновое основание крепится к полотну, накладка садится сверху без видимых винтов.",
+          "icon": "seal"
+        },
+        {
+          "title": "Лёгкий корпус",
+          "text": "Вес 49 г, сплав ZAMAK с гальваническим покрытием.",
+          "icon": "check"
+        },
+        {
+          "title": "Гарантия 5 лет",
+          "text": "Производитель указывает страну Италия и пятилетний гарантийный срок.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Назначение | под цилиндр",
+        "Двери | металлические входные, внутренняя сторона",
+        "Форма | прямоугольная",
+        "Материал | ZAMAK",
+        "Вес | 49 г",
+        "Покрытия | хром, матовый хром, матовый никель, бронза"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Квадратная накладка уместна, если ручка тоже на квадратной розетке",
+        "Выставляйте накладку строго вертикально: перекос у прямоугольной формы заметен сразу",
+        "Снаружи установите броненакладку ET/ATC Protector SQ",
+        "Шторки у модели нет, скважина под цилиндр остаётся открытой"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли поставить квадратную накладку при круглых ручках?",
+      "a": "Технически можно, но визуально формы будут спорить. Для круглых розеток в линейке есть овальная ET-DEC."
+    },
+    {
+      "q": "Защищает ли накладка от взлома?",
+      "a": "Нет, это декоративный элемент для внутренней стороны. Защиту цилиндра обеспечивает броненакладка снаружи."
+    },
+    {
+      "q": "Что входит в комплект?",
+      "a": "Одна накладка и нейлоновое основание для скрытого крепления."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-kvadratnaya-armadillo--armadillo-nakladka-na-czilindr-et-dec-sq-atc-protector-1-cp-8-khrom.html"
+}

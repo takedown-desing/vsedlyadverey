@@ -1,0 +1,165 @@
+{
+  "slug": "krona-koblenz-kubica-atomika-slim-k8060",
+  "name": "Скрытая петля Krona Koblenz Kubica Atomika Slim K8060",
+  "brand": "krona-koblenz",
+  "series": "Kubica Atomika",
+  "order": 302,
+  "category": "/catalog/dvernye-petli/skrytye/",
+  "article": "K8060 DXSX",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "K8060 DXSX CR.SAT",
+      "price": 2697,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-slim-k8060-matovyy-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/119/atomika-k8060cs_enre-qb_31pf-17.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "K8060 DXSX NO",
+      "price": 3049,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-slim-k8060-chernyy.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/119/atomika-k8060no_y7by-x3_0lqg-ao.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "K8060 DXSX BI",
+      "price": 3049,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-slim-k8060-belyy.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/111/atomika-k8060bi.webp"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "K8060 DXSX OS",
+      "price": 3328,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-kubica-atomika-slim-k8060-matovoe-zoloto.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/120/atomika-k8060os_bzvs-jc.webp"
+    }
+  ],
+  "material": "сталь",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "скрытая петля"
+    },
+    {
+      "k": "Высота петли, мм",
+      "v": "110"
+    },
+    {
+      "k": "Нагрузка на 2 петли, кг",
+      "v": "60"
+    },
+    {
+      "k": "Толщина полотна, мм",
+      "v": "от 32"
+    },
+    {
+      "k": "Регулировка",
+      "v": "3D (в трёх плоскостях)"
+    },
+    {
+      "k": "Угол открывания",
+      "v": "180°"
+    },
+    {
+      "k": "Вылет, мм",
+      "v": "13"
+    },
+    {
+      "k": "Применение",
+      "v": "без фальца заподлицо / с внутренним фальцем"
+    },
+    {
+      "k": "Сторона открывания",
+      "v": "универсальная"
+    },
+    {
+      "k": "Материал",
+      "v": "сталь"
+    }
+  ],
+  "description": "Облегчённая версия Atomika для тонких полотен от 32 мм: высота корпуса 110 мм, вылет всего 13 мм. Сохраняет стальную конструкцию и нагрузку до 60 кг на пару петель. Хороший выбор для лёгких межкомнатных дверей со скрытым монтажом.",
+  "intro": "Atomika Slim K8060 облегчённая версия стальной Atomika для тонких полотен от 32 мм. Высота корпуса 110 мм, вылет всего 13 мм, при этом пара петель по-прежнему держит до 60 кг. Хороший вариант для лёгких межкомнатных дверей со скрытым монтажом, где важно не ослабить торец глубокой врезкой.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Стальная конструкция",
+          "text": "Корпус целиком из стали, как у старшей Atomika, но в уменьшенном размере.",
+          "icon": "shield"
+        },
+        {
+          "title": "Вылет 13 мм",
+          "text": "Неглубокая врезка сохраняет прочность торца у тонких полотен.",
+          "icon": "hinge"
+        },
+        {
+          "title": "60 кг на паре",
+          "text": "Нагрузка на две петли такая же, как у K8000, при меньших габаритах.",
+          "icon": "check"
+        },
+        {
+          "title": "Белая и чёрная",
+          "text": "Кроме матового хрома и матового золота есть белый и чёрный цвет под монохромные двери.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Высота петли | 110 мм",
+        "Нагрузка | 60 кг на 2 петли",
+        "Толщина полотна | от 32 мм",
+        "Вылет | 13 мм",
+        "Регулировка | 3D",
+        "Угол открывания | 180°",
+        "Материал | сталь"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Две петли покрывают вес большинства тонких межкомнатных полотен, для высоких дверей добавьте третью.",
+        "Проверьте толщину двери: от 32 мм.",
+        "У лёгких полотен с сотовым заполнением крепёж должен попадать в брус обвязки.",
+        "Шаблон и фреза нужны под размер корпуса Slim, от K8000 он отличается."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "K8060 или K6200 для тонкой двери?",
+      "a": "Обе рассчитаны на полотна от 32 мм. Slim стальная и держит 60 кг на паре петель, K6200 ниже (95 мм) и держит 45 кг на двух или 60 кг на трёх."
+    },
+    {
+      "q": "Будет ли петля видна на закрытой двери?",
+      "a": "Нет, корпус полностью уходит в торец полотна и коробку."
+    },
+    {
+      "q": "Можно ли ставить на дверь с внутренним фальцем?",
+      "a": "Да, применение: без фальца заподлицо или с внутренним фальцем."
+    }
+  ],
+  "sourceUrl": "https://kromus.ru/skrytaya-petlya-krona-koblenz-atomika-slim-k8060-cover-cs-hd-matovyy-hrom-nagruzka-do-60-kg/"
+}

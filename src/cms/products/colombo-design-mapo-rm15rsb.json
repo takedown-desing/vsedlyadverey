@@ -1,0 +1,129 @@
+{
+  "slug": "colombo-design-mapo-rm15rsb",
+  "name": "Ручка-кноб Colombo Design Mapo RM15RSB",
+  "brand": "colombo-design",
+  "series": "Mapo",
+  "order": 224,
+  "category": "/catalog/dvernye-ruchki/knoby/",
+  "article": "RM15RSB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "RM15RSB-CM",
+      "price": 14032,
+      "inStock": false,
+      "image": "/images/products/colombo-design-mapo-rm15rsb-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-knob-povorotnaja-colombo-mapo-rm15rsb-cm-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "RM15RSB-NM",
+      "price": null,
+      "inStock": false,
+      "image": null,
+      "imageSrc": null
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "RM15RSB-CR",
+      "price": 12208,
+      "inStock": false,
+      "image": "/images/products/colombo-design-mapo-rm15rsb-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-knob-povorotnaja-colombo-mapo-drm15rsb-cr-polirovannyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-кноб"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "10 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Поворотный кноб Mapo от Colombo Design с приплюснутой округлой головкой и тонкой розеткой. Современный лаконичный дизайн позволяет использовать его вместе с нажимными ручками Colombo в одном интерьере.",
+  "intro": "Mapo RM15RSB от Colombo Design представляет собой поворотный кноб с приплюснутой округлой головкой на тонкой розетке. Лаконичная форма позволяет использовать его вместе с нажимными ручками Colombo в одном интерьере. Кноб латунный, продаётся комплектом на одну дверь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Приплюснутая головка",
+          "text": "Сплюснутая форма удобна для захвата и не выступает далеко от полотна.",
+          "icon": "handle"
+        },
+        {
+          "title": "Тонкая розетка",
+          "text": "Основание в стиле нажимных ручек Colombo, поэтому фурнитура в квартире выглядит единой.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь и гарантия 10 лет",
+          "text": "Латунный корпус и длительная гарантия производителя.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные, кладовые, гардеробные",
+        "Материал | латунь",
+        "Покрытия | матовый хром, матовый чёрный, полированный хром",
+        "Гарантия | 10 лет",
+        "Цена указана за | 1 комплект (2 шт. на одну дверь)"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "В комплекте два кноба, отдельно докупать вторую сторону не нужно.",
+        "Поворотная защёлка подбирается отдельно.",
+        "Кноб удобно ставить на двери подсобных помещений, а в жилых комнатах использовать нажимные ручки Colombo того же цвета.",
+        "Если нужна запираемая ванная, подберите к кнобу завёртку на круглой розетке."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Сколько кнобов в упаковке?",
+      "a": "Два, то есть комплект рассчитан на одну дверь."
+    },
+    {
+      "q": "С какими ручками Mapo сочетается?",
+      "a": "С нажимными моделями Colombo на тонкой круглой розетке, например Robot или Mach, если выбрать одно покрытие."
+    },
+    {
+      "q": "Какой материал у кноба?",
+      "a": "Из латуни, производство Италия."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-knob-povorotnaja-colombo-mapo-drm15rsb-cm-matovyj-hrom/"
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "colombo-design-pt13",
+  "name": "Накладка под цилиндр Colombo Design PT13 на квадратной розетке",
+  "brand": "colombo-design",
+  "series": null,
+  "order": 30,
+  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "article": "PT13",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "PT13.CR",
+      "price": 1510,
+      "inStock": true,
+      "image": "/images/products/colombo-design-pt13-hrom.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/85/18/1885/images/7045/7045.750x0.png"
+    },
+    {
+      "finish": "черный матовый",
+      "color": "black",
+      "article": "PT13.NM",
+      "price": 1450,
+      "inStock": true,
+      "image": "/images/products/colombo-design-pt13-chernyy-matovyy.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/03/26/2603/images/7737/7737.750x0.png"
+    },
+    {
+      "finish": "белый матовый",
+      "color": "white",
+      "article": "PT13.BI",
+      "price": 1450,
+      "inStock": true,
+      "image": "/images/products/colombo-design-pt13-belyy-matovyy.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/02/26/2602/images/7725/7725.750x0.png"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладка под евроцилиндр"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Комплектация",
+      "v": "1 шт"
+    },
+    {
+      "k": "Совместимые коллекции",
+      "v": "Bold, Roboquattro S, Robotre S, Olly S, Viola S"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Латунная накладка Colombo Design под евроцилиндр на квадратной розетке. Подбирается в пару к ручкам на квадратном основании, например Bold и Roboquattro S. Продается поштучно, для двусторонней установки нужны две накладки.",
+  "intro": "Colombo Design PT13 это латунная накладка под евроцилиндр на квадратной розетке. Её подбирают в пару к ручкам на квадратном основании: Bold, Roboquattro S, Robotre S, Olly S и Viola S. Продаётся поштучно, для оформления цилиндра с двух сторон двери нужно две накладки.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Латунь",
+          "text": "Корпус из латуни, как и у большинства ручек Colombo Design.",
+          "icon": "shield"
+        },
+        {
+          "title": "Под евроцилиндр",
+          "text": "Вырез рассчитан на цилиндр европейского профиля.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Пять коллекций",
+          "text": "Совместима по форме с Bold, Roboquattro S, Robotre S, Olly S и Viola S.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Три отделки",
+          "text": "Хром, чёрный матовый и белый матовый.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладка под евроцилиндр",
+        "Розетка | квадратная",
+        "Материал | латунь",
+        "Комплектация | 1 шт.",
+        "Совместимые коллекции | Bold, Roboquattro S, Robotre S, Olly S, Viola S",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для двусторонней установки заказывайте две накладки",
+        "Цилиндр и замок под цилиндр покупаются отдельно",
+        "Отделку выбирайте такую же, как у ручек, белый и чёрный матовые не смешивают",
+        "Длина цилиндра должна учитывать толщину двери и двух накладок"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему накладка продаётся по одной?",
+      "a": "Иногда цилиндр оформляют только с одной стороны, например если изнутри стоит другая схема. Для обычной двери берут две."
+    },
+    {
+      "q": "Подойдёт ли PT13 к ручкам с круглой розеткой?",
+      "a": "По функции подойдёт, но визуально лучше выбрать круглую накладку, чтобы формы на двери совпадали."
+    },
+    {
+      "q": "Нужна ли накладка, если стоит ключ-вертушка?",
+      "a": "Да, накладка закрывает отверстие вокруг цилиндра с обеих сторон, независимо от типа цилиндра."
+    }
+  ],
+  "sourceUrl": "https://colombo.pro/product/Colombo-Design-Rosetta-PT13.CR/"
+}

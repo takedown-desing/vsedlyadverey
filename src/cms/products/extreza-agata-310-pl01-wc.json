@@ -1,0 +1,153 @@
+{
+  "slug": "extreza-agata-310-pl01-wc",
+  "name": "Дверная ручка Extreza AGATA 310 на планке PL01 WC с фиксатором",
+  "brand": "extreza",
+  "series": "AGATA",
+  "order": 48,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "AGATA 310 PL01 WC",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "AGATA 310 PL01 WC F04",
+      "price": 20826,
+      "inStock": true,
+      "image": "/images/products/extreza-agata-310-pl01-wc-polirovannyy-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/32/AGATA_310_PL_01_wc_F04.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "AGATA 310 PL01 WC F03",
+      "price": 17791,
+      "inStock": true,
+      "image": "/images/products/extreza-agata-310-pl01-wc-matovaya-bronza.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/32/AGATA_310_PL_01_wc_F03.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "AGATA 310 PL01 WC F02",
+      "price": 17791,
+      "inStock": true,
+      "image": "/images/products/extreza-agata-310-pl01-wc-matovaya-latun.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/32/360-KRMS.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "AGATA 310 PL01 WC F01",
+      "price": 17791,
+      "inStock": true,
+      "image": "/images/products/extreza-agata-310-pl01-wc-polirovannaya-latun.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/32/AGATA_310_PL_01_wc_F01.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Исполнение",
+      "v": "WC, сантехническая завертка (фиксатор)"
+    },
+    {
+      "k": "Планка",
+      "v": "PL01"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "96"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Classic"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Латунная ручка AGATA 310 из классической линии Extreza на узкой планке PL01 с фигурным краем. Исполнение WC рассчитано на сантехническую завертку, поэтому комплект подходит для двери ванной или туалета. Плавно изогнутый рычаг и покрытия из латуни, бронзы и хрома хорошо сочетаются с классическими филенчатыми полотнами.",
+  "intro": "Extreza AGATA 310 это латунная ручка из классической линии на узкой планке PL01 с фигурным краем. Исполнение WC рассчитано на сантехническую завертку, поэтому комплект подходит для двери ванной или туалета. Межосевое 96 мм, плавно изогнутый рычаг и четыре покрытия от полированного хрома до матовой бронзы.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Узкая планка PL01",
+          "text": "Фигурный край планки не перегружает обвязку и подходит к филёнчатым полотнам.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь",
+          "text": "Корпус из латуни, производство по данным карточки Италия.",
+          "icon": "shield"
+        },
+        {
+          "title": "Изогнутый рычаг",
+          "text": "Плавная линия рычага классической формы.",
+          "icon": "handle"
+        },
+        {
+          "title": "Четыре покрытия",
+          "text": "Полированный хром, матовая бронза, матовая и полированная латунь.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ручка на планке, WC",
+        "Планка | PL01",
+        "Межосевое | 96 мм",
+        "Материал | латунь",
+        "Коллекция | Classic",
+        "Двери | межкомнатные, санузел"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Сантехнический замок нужен с межосевым 96 мм",
+        "Полированная латунь блестит ярче матовой, выбирайте по остальной фурнитуре",
+        "Для комнат в линии Classic есть AGATA на других планках и розетках",
+        "Проверьте ширину профиля двери под планку"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли AGATA 310 WC к замку с межосью 70 мм?",
+      "a": "Нет, планка рассчитана на 96 мм. При другом межосевом квадрат и фиксатор не совпадут с замком."
+    },
+    {
+      "q": "Чем матовая латунь отличается от полированной?",
+      "a": "Матовая мягче по блеску и меньше показывает отпечатки. Полированная яркая и праздничная."
+    },
+    {
+      "q": "Нужна ли отдельная завертка?",
+      "a": "Фиксатор работает через узел на планке. Уточните комплектацию при заказе."
+    }
+  ],
+  "sourceUrl": "https://kromus.ru/dvernaya-ruchka-extreza-agata-agata-310-na-planke-pl01-polirovannyy-hrom-f04-santehnicheskaya-zavertka-wc/"
+}

@@ -1,0 +1,175 @@
+{
+  "slug": "agb-mediana-evolution-wc-b01102",
+  "name": "Замок AGB Mediana Evolution WC с пластиковым язычком",
+  "brand": "agb",
+  "series": "Mediana Evolution",
+  "order": 398,
+  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "article": "B01102.50",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "B01102.50.34",
+      "price": 1584,
+      "inStock": true,
+      "image": "/images/products/agb-mediana-evolution-wc-b01102-matovyy-hrom.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-WC-мат.-хром.jpg"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "B01102.50.03",
+      "price": 1220,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-wc-b01102-zoloto.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-WC-латунь.jpg"
+    },
+    {
+      "finish": "медь",
+      "color": "copper",
+      "article": "B01102.50.22",
+      "price": 1379,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-wc-b01102-med.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-WC-бронза.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "B01102.50.06",
+      "price": 1715,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-wc-b01102-hrom.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-WC-хром.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "B01102.50.23",
+      "price": 2228,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-wc-b01102-matovoe-zoloto.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-WC-мат.-латунь.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "B01102.50.12",
+      "price": 2338,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-wc-b01102-antichnaya-bronza.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-WC-ст.-бронза.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "B01102.50.42",
+      "price": 1379,
+      "inStock": false,
+      "image": null
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "замок под сантехническую завертку"
+    },
+    {
+      "k": "Язычок",
+      "v": "пластиковый"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "96"
+    },
+    {
+      "k": "Бэксет, мм",
+      "v": "50"
+    },
+    {
+      "k": "Комплектация",
+      "v": "техническая упаковка, без ответной планки"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Один из самых популярных итальянских межкомнатных замков с бесшумным пластиковым язычком. Модель WC работает с поворотной заверткой и подходит для ванной и туалета. Пластиковый язычок заметно тише металлического и не царапает ответную планку.",
+  "intro": "AGB Mediana Evolution WC B01102 - один из самых популярных итальянских межкомнатных замков с пластиковым язычком. Модель работает с поворотной заверткой и ставится на двери ванной и туалета. Поставляется в технической упаковке без ответной планки, отделок семь: от матового хрома до меди и бронзы.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Пластиковый язычок",
+          "text": "Он тише металлического и не царапает ответную планку при каждом закрывании.",
+          "icon": "lock"
+        },
+        {
+          "title": "Посадка 96 / 50",
+          "text": "Межосевое 96 мм и бэксет 50 мм: распространённый стандарт для сантехнических замков.",
+          "icon": "bolt"
+        },
+        {
+          "title": "Семь отделок",
+          "text": "Матовый хром, хром, золото, матовое золото, медь, бронза и античная бронза.",
+          "icon": "check"
+        },
+        {
+          "title": "Техническая упаковка",
+          "text": "Замок идёт без планки, это удобно для замены механизма в уже подготовленной двери.",
+          "icon": "box"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | замок под сантехническую завертку",
+        "Язычок | пластиковый",
+        "Межосевое расстояние | 96 мм",
+        "Бэксет | 50 мм",
+        "Комплектация | без ответной планки",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Ответную планку нужно заказать отдельно, для новой двери без неё не обойтись",
+        "Планку подбирайте под Evolution и в том же цвете, что и корпус",
+        "Завертку WC сверьте с паспортом замка по квадрату фиксатора",
+        "Ручка на планке должна иметь межосевое 96 мм"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему в комплекте нет ответной планки?",
+      "a": "Модель поставляется в технической упаковке: её часто берут на замену, когда планка в коробке уже стоит. Для новой двери планку докупают."
+    },
+    {
+      "q": "Чем Evolution отличается от Polaris?",
+      "a": "У Evolution пластиковый язычок, который всегда выступает из торца. У Polaris магнитный язычок прячется в корпус, пока дверь открыта."
+    },
+    {
+      "q": "Какую завертку поставить?",
+      "a": "Любую сантехническую завертку с подходящим квадратом. Удобно выбрать её в том же покрытии, что и ручки."
+    }
+  ],
+  "sourceUrl": "https://agb.spb.ru/product/mediana-evolution-wc/"
+}

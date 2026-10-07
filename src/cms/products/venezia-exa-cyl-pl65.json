@@ -1,0 +1,148 @@
+{
+  "slug": "venezia-exa-cyl-pl65",
+  "name": "Дверная ручка Venezia EXA CYL на планке PL65",
+  "brand": "venezia",
+  "series": "EXA",
+  "order": 216,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "EXA CYL PL65",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "EXA CYL PL65",
+      "price": 22660,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-cyl-pl65-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-cyl-na-planke-pl65-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "EXA CYL PL65",
+      "price": 22660,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-cyl-pl65-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-cyl-na-planke-pl65-polirovannyj-hrom.jpg"
+    },
+    {
+      "finish": "золото крайола",
+      "color": "gold",
+      "article": "EXA CYL PL65",
+      "price": 22660,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-cyl-pl65-zoloto-krayola.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-cyl-na-planke-pl65-zoloto-krajola.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "EXA CYL PL65",
+      "price": 22660,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-cyl-pl65-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-cyl-na-planke-pl65-matovaja-bronza.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    },
+    {
+      "k": "Исполнение планки",
+      "v": "под цилиндр, межосевое 85 мм"
+    }
+  ],
+  "description": "Современная ручка EXA с граненым рычагом на узкой прямоугольной планке PL65 с отверстием под цилиндр. Такое исполнение удобно для дверей, которые нужно запирать на ключ: кабинетов, гардеробных и квартирных дверей в тамбуре.",
+  "intro": "EXA CYL сочетает граненый рычаг EXA и узкую прямоугольную планку PL65 с отверстием под цилиндр. Такое исполнение нужно дверям, которые запирают на ключ: кабинетам, гардеробным, дверям в тамбур. Межосевое расстояние планки 85 мм, корпус латунный. Страна производства Италия.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Отверстие под цилиндр",
+          "text": "Планка рассчитана на замок с цилиндровым механизмом, ключ вставляется прямо в накладку.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Межосевое 85 мм",
+          "text": "Расстояние между осью квадрата ручки и центром цилиндра. По этому размеру подбирают замок.",
+          "icon": "lock"
+        },
+        {
+          "title": "Граненый рычаг",
+          "text": "Современная форма EXA на узкой планке выглядит аккуратно даже на узких стойках.",
+          "icon": "handle"
+        },
+        {
+          "title": "Золото крайола",
+          "text": "Необычный тёплый оттенок наряду с чёрным, хромом и бронзой.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Исполнение планки | под цилиндр",
+        "Межосевое расстояние | 85 мм",
+        "Материал | латунь",
+        "Покрытия | матовый чёрный, полированный хром, золото крайола, матовая бронза",
+        "Гарантия | 5 лет",
+        "Цена указана за | комплект на одну дверь"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Замок и цилиндр приобретаются отдельно, замок должен иметь межосевое 85 мм.",
+        "Длину цилиндра подбирают по толщине полотна, с учётом выступа за планку.",
+        "Для двери без ключа выберите EXA на розетке D1 или вариант планки без отверстия.",
+        "Цвет цилиндра лучше взять в тон планке."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Входит ли цилиндр в комплект?",
+      "a": "Нет, в комплекте две ручки на планках. Цилиндр и замок под цилиндр подбирают отдельно."
+    },
+    {
+      "q": "С каким замком совместима планка?",
+      "a": "С межкомнатным замком под цилиндр с межосевым расстоянием 85 мм. Перед покупкой сверьте этот параметр у замка."
+    },
+    {
+      "q": "Можно ли использовать на входной двери квартиры?",
+      "a": "Ручка предназначена для межкомнатных дверей, в том числе тамбурных. Для металлической входной двери лучше выбрать специализированную ручку и замок."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-venezia-exa-cyl-na-planke-pl65-matovyj-chernyj/"
+}

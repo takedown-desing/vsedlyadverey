@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import SectionPage from '../../components/SectionPage.astro';
 import Prose from '../../components/Prose.astro';
 import Listing from '../../components/Listing.astro';
-import { registry, services, products, SITE_NAME, PHONE, isEmptyPage } from '../../lib/data';
+import { registry, services, products, SITE_NAME, PHONE, isEmptyPage, SITE } from '../../lib/data';
 import { COMPANY } from '../../lib/company';
 import { u } from '../../lib/url';
 export function getStaticPaths() {
@@ -37,7 +37,7 @@ const fallback = legal
             <label class="sr-only" for="ph">Телефон</label><input id="ph" name="phone" placeholder="Телефон" type="tel" required />
             <label class="sr-only" for="m">Сообщение</label><textarea id="m" name="msg" placeholder="Что нужно подобрать?"></textarea>
             <button class="btn btn-accent" type="submit">Отправить</button>
-            <p style="font-size:13px;color:var(--c-muted)">Тестовый режим: форма пока не отправляет данные.</p>
+            <p style="font-size:13px;color:var(--c-muted)">{SITE.formNote}</p>
           </form>
         </section>
       )}

@@ -1,0 +1,145 @@
+{
+  "slug": "fratelli-cattini-releone",
+  "name": "Дверная стучалка Fratelli Cattini Releone 190×110",
+  "brand": "fratelli-cattini",
+  "series": "Releone",
+  "order": 60,
+  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "article": "RELEONE 190x110",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "FCT2727",
+      "price": 9040,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-releone-polirovannyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-fratelli-cattini-releone-190x110-cr-polirovannyj-hrom-scaled.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "FCT2726",
+      "price": 7787,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-releone-polirovannaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-fratelli-cattini-releone-190x110-olv-polirovannaja-latun-scaled.jpg"
+    },
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "FCT2725",
+      "price": 8453,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-releone-matovyy-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-fratelli-cattini-releone-190x110-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "FCT2724",
+      "price": 7787,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-releone-matovaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/dvernaja-stuchalka-fratelli-cattini-releone-190x110-bs-matovaja-latun.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "дверная стучалка (гонг)"
+    },
+    {
+      "k": "Форма",
+      "v": "голова льва с кольцом"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "190×110"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    }
+  ],
+  "description": "Латунная стучалка в виде львиной головы с кольцом для парадных входных дверей в классическом интерьере. Отлита из латуни, крупный рельеф гривы хорошо читается даже в матовых покрытиях. Размер 190 на 110 мм, крепится на лицевую сторону полотна.",
+  "intro": "Fratelli Cattini Releone: латунная дверная стучалка в виде головы льва с кольцом для парадных входных дверей в классическом интерьере. Крупный рельеф гривы хорошо читается даже в матовых покрытиях. Размер 190×110 мм, стучалка крепится на лицевую сторону полотна.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Лев с кольцом",
+          "text": "Классический сюжет парадной фурнитуры для филёнчатых дверей и фасадов с коваными деталями.",
+          "icon": "handle"
+        },
+        {
+          "title": "Отливка из латуни",
+          "text": "Цельный латунный корпус с глубоким рельефом гривы.",
+          "icon": "shield"
+        },
+        {
+          "title": "Четыре покрытия",
+          "text": "Полированный хром, полированная латунь, матовый чёрный и матовая латунь.",
+          "icon": "kit"
+        },
+        {
+          "title": "Размер 190×110 мм",
+          "text": "Стучалка заметна издалека и соразмерна высокой входной двери.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | дверная стучалка (гонг)",
+        "Форма | голова льва с кольцом",
+        "Размер | 190×110 мм",
+        "Материал | латунь",
+        "Покрытия | полированный хром, полированная латунь, матовый чёрный, матовая латунь",
+        "Страна производства | Италия",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Высоту установки выбирают так, чтобы кольцо было удобно поднять взрослому, обычно около уровня глаз.",
+        "Проверьте материал полотна в зоне удара кольца: на мягкой облицовке со временем остаются следы.",
+        "Покрытие подбирают к ручкам и накладкам входной группы: полированная латунь и матовый чёрный дают совсем разный характер.",
+        "Уточните способ крепления и длину крепежа под толщину вашей двери."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли Releone для металлической двери?",
+      "a": "Да, если на лицевой стороне есть место и корпус можно надёжно закрепить. На тонкой стальной облицовке крепёж продумывают заранее."
+    },
+    {
+      "q": "Чем Releone отличается от Venezia Leone?",
+      "a": "Обе стучалки со львом, латунные, размером 190×110 мм. Releone есть в матовом чёрном и матовой латуни, у Leone другая палитра: тёмная и матовая бронза, античное серебро."
+    },
+    {
+      "q": "Как ухаживать за полированной латунью?",
+      "a": "Протирать мягкой сухой тканью без абразивных паст: покрытие защищает металл, и его легко поцарапать."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-stuchalka-fratelli-cattini-releone-190x110-cr-polirovannyj-hrom/"
+}

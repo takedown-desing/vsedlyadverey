@@ -1,14 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
-import { COMPANY, tel, mapSrc } from '../lib/company';
-import { SITE_NAME, brandName } from '../lib/data';
+import { COMPANY, tel, mapSrc, hoursSchema } from '../lib/company';
+import { SITE_NAME, brandName, SITE } from '../lib/data';
 const srBrands = COMPANY.showroomBrands.map(brandName).join(' и ');
 import { u, abs } from '../lib/url';
 const schema = [{
   '@type': 'Store', name: SITE_NAME, legalName: COMPANY.legalName, url: abs(Astro.site, '/'), telephone: COMPANY.phoneMain, ...(COMPANY.email ? { email: COMPANY.email } : {}),
   address: { '@type': 'PostalAddress', streetAddress: COMPANY.street, addressLocality: COMPANY.city, postalCode: COMPANY.postalCode, addressCountry: 'RU' },
-  geo: { '@type': 'GeoCoordinates', latitude: COMPANY.geo.lat, longitude: COMPANY.geo.lon }, ...(COMPANY.hoursSchema.length ? { openingHours: COMPANY.hoursSchema } : {}),
+  geo: { '@type': 'GeoCoordinates', latitude: COMPANY.geo.lat, longitude: COMPANY.geo.lon }, ...(hoursSchema.length ? { openingHours: hoursSchema } : {}),
 }, { '@type': 'ContactPage', name: `Контакты магазина «${SITE_NAME}»`, url: abs(Astro.site, '/kontakty/') }];
 ---
 <Base title={`Контакты магазина «${SITE_NAME}»: адрес шоурума, телефон`} description={`Шоурум «${SITE_NAME}» в Москве: ул. Флотская, д. 5, к. 2. Телефон, схема проезда на карте и реквизиты ${COMPANY.legalName}.`} path="/kontakty/" schema={schema} crumbs={[{ url: '/', name: 'Главная' }, { url: '/kontakty/', name: 'Контакты' }]}>
@@ -58,7 +58,7 @@ const schema = [{
         <label class="sr-only" for="ph">Телефон</label><input id="ph" name="phone" placeholder="Телефон" type="tel" required />
         <label class="sr-only" for="m">Сообщение</label><textarea id="m" name="msg" placeholder="Что нужно подобрать? Можно приложить размеры двери"></textarea>
         <button class="btn btn-accent" type="submit">Отправить</button>
-        <p style="font-size:13px;color:var(--c-muted)">Тестовый режим: форма пока не отправляет данные, звоните по телефону.</p>
+        <p style="font-size:13px;color:var(--c-muted)">{SITE.formNote}</p>
       </form>
     </section>
   </div>

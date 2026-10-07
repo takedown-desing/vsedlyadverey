@@ -1,0 +1,180 @@
+{
+  "slug": "morelli-ds3",
+  "name": "Напольный упор Morelli DS3",
+  "brand": "morelli",
+  "series": "Simple",
+  "order": 347,
+  "category": "/catalog/upory-i-ogranichiteli/napolnye/",
+  "article": "DS3",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "DS3 SC",
+      "price": 580,
+      "inStock": false,
+      "image": "/images/products/morelli-ds3-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2023/QdqLNlioMS2AKQ7FOang.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "DS3 CP",
+      "price": 580,
+      "inStock": true,
+      "image": "/images/products/morelli-ds3-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2019/ossIA6xmXqLzARF8eFM7.webp"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "DS3 SN",
+      "price": 580,
+      "inStock": true,
+      "image": "/images/products/morelli-ds3-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2019/ZbKNMTa2LRB1bC4FDkTC.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "DS3 BL",
+      "price": 580,
+      "inStock": true,
+      "image": "/images/products/morelli-ds3-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2020/kCqaqyURRCFrHdWn2na4.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "DS3 W",
+      "price": 580,
+      "inStock": true,
+      "image": "/images/products/morelli-ds3-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2022/WhIuWjJXEcuoz4DIHhUg.webp"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "DS3 GP",
+      "price": 580,
+      "inStock": true,
+      "image": "/images/products/morelli-ds3-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2019/yzhvbhoXVk2WV2XJKSil.webp"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "DS3 SG",
+      "price": 580,
+      "inStock": true,
+      "image": "/images/products/morelli-ds3-matovoe-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2019/u25rRIudDor3f2nVLBUw.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "DS3 AB",
+      "price": 580,
+      "inStock": true,
+      "image": "/images/products/morelli-ds3-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2019/iTAzL8V5KBN4nAmgys0Z.webp"
+    }
+  ],
+  "material": "цинковый сплав ZAMAK",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "напольный"
+    },
+    {
+      "k": "Высота, мм",
+      "v": "40"
+    },
+    {
+      "k": "Материал",
+      "v": "ZAMAK"
+    },
+    {
+      "k": "Демпфер",
+      "v": "резиновый"
+    }
+  ],
+  "description": "Невысокий напольный упор Morelli цилиндрической формы, который не даёт ручке ударить в стену. Корпус из цинкового сплава, резиновая вставка гасит удар. Восемь покрытий позволяют подобрать упор в тон ручкам и петлям.",
+  "intro": "Morelli DS3 из серии Simple - напольный упор цилиндрической формы высотой 40 мм. Он останавливает дверь до того, как ручка ударит в стену, шкаф или радиатор. Корпус из цинкового сплава ZAMAK, по окружности резиновый демпфер, а восемь покрытий позволяют подобрать упор в тон ручкам и петлям.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Высота 40 мм",
+          "text": "Упор выше обычной шайбы, поэтому уверенно ловит полотно даже при заметном зазоре под дверью.",
+          "icon": "stop"
+        },
+        {
+          "title": "Резиновый демпфер",
+          "text": "Резина гасит удар и не оставляет вмятин на кромке и лицевой стороне двери.",
+          "icon": "seal"
+        },
+        {
+          "title": "Корпус из ZAMAK",
+          "text": "Цинковый сплав тяжёлый и прочный, упор не гнётся, если на него случайно наступить.",
+          "icon": "shield"
+        },
+        {
+          "title": "Восемь покрытий",
+          "text": "Матовый хром, хром, матовый никель, чёрный, белый, золото, матовое золото и античная бронза.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | напольный",
+        "Высота | 40 мм",
+        "Материал | цинковый сплав ZAMAK",
+        "Демпфер | резиновый",
+        "Покрытия | матовый хром, хром, матовый никель, чёрный, белый, золото, матовое золото, античная бронза"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Измерьте зазор между полом и низом двери: упор должен быть заметно выше, 40 мм хватает для большинства межкомнатных дверей.",
+        "Ставьте упор ближе к свободному краю полотна. Если он стоит у петель, при ударе дверь работает как рычаг и расшатывает петли.",
+        "При тёплом поле перед сверлением уточните по схеме, где проходит кабель или контур, либо выберите настенный упор Morelli DS2.",
+        "Подберите покрытие под ручку: в серии Simple те же цвета есть у ручек и петель Morelli."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Монтаж и уход",
+      "md": "На плитке отверстие сверлят специальным сверлом без удара, на ламинате и паркете крепёж должен дойти до стяжки через дюбель. Корпус протирают влажной тканью без абразива."
+    }
+  ],
+  "faq": [
+    {
+      "q": "На каком расстоянии от стены ставить DS3?",
+      "a": "Откройте дверь до положения, когда ручка почти касается стены, и отметьте точку под полотном на небольшом удалении от его края. Так дверь остановится с запасом."
+    },
+    {
+      "q": "Подойдёт ли DS3 для ковролина?",
+      "a": "На коротком ворсе подойдёт: высота 40 мм позволяет упору выступать над покрытием. Крепёж должен уходить в основание пола, а не только в ковёр."
+    },
+    {
+      "q": "Чем DS3 отличается от DS1?",
+      "a": "DS3 выше и имеет цилиндрическую форму, DS1 выполнен как низкая шайба и почти незаметен на полу."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/1991"
+}

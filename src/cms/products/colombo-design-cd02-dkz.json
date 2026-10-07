@@ -1,0 +1,112 @@
+{
+  "slug": "colombo-design-cd02-dkz",
+  "name": "Блокиратор с кнопкой для оконной ручки Colombo Design CD02 DKZ",
+  "brand": "colombo-design",
+  "series": null,
+  "order": 180,
+  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "article": "CD02 DKZ",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "Cromo, полированный хром",
+      "color": "chrome",
+      "article": "0CD02DKZ-CR",
+      "price": null,
+      "inStock": false,
+      "image": "/images/products/colombo-design-cd02-dkz.jpg",
+      "imageSrc": "https://www.manigliedesign.com/77468-large_default/dispositivo-con-sistema-di-bloccaggio-a-pulsante-cd02-dkz-colombo-design.jpg"
+    }
+  ],
+  "material": null,
+  "style": "modern",
+  "doorTypes": [
+    "pvc"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "основание с кнопочной блокировкой для DK-ручки"
+    },
+    {
+      "k": "Совместимость",
+      "v": "оконные ручки Colombo Design с механизмом DK"
+    },
+    {
+      "k": "В комплекте",
+      "v": "блокиратор, стопорный винт, шестигранный ключ"
+    },
+    {
+      "k": "Покрытия",
+      "v": "Oroplus, Oromat, Zirconium SS HPS, Cromo, Cromat, Nikelmat, Bronzo"
+    }
+  ],
+  "description": "Основание для оконной ручки Colombo Design с кнопкой, которая удерживает ручку в закрытом положении. Кнопочная блокировка защищает ручку от случайного поворота. Выпускается в семи покрытиях в тон ручкам бренда.",
+  "intro": "CD02 DKZ это основание для оконной ручки Colombo Design с кнопочной блокировкой. Кнопка удерживает ручку в закрытом положении и не даёт повернуть её случайно, при этом ключ не нужен. Основание выпускается в семи покрытиях, чтобы совпасть по цвету с оконной ручкой и остальной фурнитурой бренда.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Кнопка вместо ключа",
+          "text": "Ручку поворачивают только при нажатой кнопке, ключ не теряется и не нужен каждому в доме.",
+          "icon": "window"
+        },
+        {
+          "title": "Защита от случайного поворота",
+          "text": "Ручку не сдвинет задетая штора или неловкое движение.",
+          "icon": "check"
+        },
+        {
+          "title": "Семь покрытий",
+          "text": "Oroplus, Oromat, Zirconium SS HPS, Cromo, Cromat, Nikelmat и Bronzo.",
+          "icon": "kit"
+        },
+        {
+          "title": "Для механизма DK",
+          "text": "Основание рассчитано на оконные ручки Colombo Design с поворотно-откидным механизмом.",
+          "icon": "handle"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | основание с кнопочной блокировкой для DK-ручки",
+        "Совместимость | оконные ручки Colombo Design с механизмом DK",
+        "В комплекте | блокиратор, стопорный винт, шестигранный ключ",
+        "Покрытие в наличии | Cromo, полированный хром (0CD02DKZ-CR)",
+        "Покрытия по каталогу | Oroplus, Oromat, Zirconium SS HPS, Cromo, Cromat, Nikelmat, Bronzo"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Ручка продаётся отдельно: подберите модель Colombo Design для поворотно-откидного окна.",
+        "Механизм XDK40D, в отличие от версии DK Lock, в составе комплекта не указан, уточните его наличие у ручки.",
+        "Если окно нужно именно запирать от детей или посторонних, рассмотрите версию с ключом CD02 DK Lock.",
+        "Сверьте покрытие основания с ручкой: семь вариантов дают точное совпадение по цвету."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли открыть окно с DKZ без нажатия кнопки?",
+      "a": "Нет, кнопка удерживает ручку в закрытом положении, пока её не нажмут."
+    },
+    {
+      "q": "Защитит ли кнопка от ребёнка?",
+      "a": "Она мешает случайному повороту, но ребёнок постарше легко разберётся с кнопкой. Для надёжного запирания лучше выбрать CD02 DK Lock с цилиндром под ключ."
+    },
+    {
+      "q": "Какие покрытия бывают у CD02 DKZ?",
+      "a": "По каталогу Oroplus, Oromat, Zirconium SS HPS, Cromo, Cromat, Nikelmat и Bronzo. В наличии полированный хром Cromo."
+    }
+  ],
+  "sourceUrl": "https://www.manigliedesign.com/meccanismi-cremonesi-martelline-finestre/4003-dispositivo-con-sistema-di-bloccaggio-a-pulsante-cd02-dkz-colombo-design.html"
+}

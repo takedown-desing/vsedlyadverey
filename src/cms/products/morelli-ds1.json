@@ -1,0 +1,171 @@
+{
+  "slug": "morelli-ds1",
+  "name": "Напольный упор Morelli DS1",
+  "brand": "morelli",
+  "series": "Simple",
+  "order": 348,
+  "category": "/catalog/upory-i-ogranichiteli/napolnye/",
+  "article": "DS1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "DS1 SC",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds1-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2023/SPXcVeaGIR4LSJvlsTvH.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "DS1 CP",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds1-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/April2020/T7iPplCa9C82Zf2sKu8D.webp"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "DS1 SN",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds1-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/April2020/a4TjAEYNu2Qh56zaTrvY.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "DS1 BL",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds1-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2020/l1LiJGq3CV6whbNSz639.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "DS1 W",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds1-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2022/1YPbpMsKA4hwFSgDbcRG.webp"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "DS1 GP",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds1-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/April2020/EvpehM5oZlXQBUAvtfF5.webp"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "DS1 SG",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds1-matovoe-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/April2020/pDcrpaM5Efv9Mkd4ImNI.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "DS1 AB",
+      "price": 370,
+      "inStock": true,
+      "image": "/images/products/morelli-ds1-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/April2020/XB1rS5cq5MoeyS0GaAv0.webp"
+    }
+  ],
+  "material": "цинковый сплав ZAMAK",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "напольный"
+    },
+    {
+      "k": "Материал",
+      "v": "ZAMAK"
+    },
+    {
+      "k": "Демпфер",
+      "v": "резиновый"
+    }
+  ],
+  "description": "Компактный напольный стопор Morelli в форме низкой шайбы, почти незаметный на полу. Защищает стены и мебель от удара двери. Крепится на саморез, есть белый и чёрный цвет для светлых и тёмных интерьеров.",
+  "intro": "Morelli DS1 - самый незаметный упор серии Simple: низкая шайба из цинкового сплава ZAMAK с резиновым демпфером, которая почти сливается с полом. Он защищает стены, мебель и откосы от удара двери и крепится на один саморез. Восемь покрытий, включая белый и чёрный, подбирают под пол или фурнитуру.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Форма низкой шайбы",
+          "text": "Упор почти не выступает над полом, о него сложно споткнуться, и он не бросается в глаза.",
+          "icon": "stop"
+        },
+        {
+          "title": "Крепление на саморез",
+          "text": "Корпус фиксируется саморезом, монтаж занимает несколько минут.",
+          "icon": "kit"
+        },
+        {
+          "title": "Резиновая вставка",
+          "text": "Демпфер смягчает удар и защищает лицевую сторону полотна.",
+          "icon": "seal"
+        },
+        {
+          "title": "Белый и чёрный цвет",
+          "text": "Светлый упор теряется на светлом полу, чёрный на тёмном паркете или плитке.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | напольный",
+        "Материал | цинковый сплав ZAMAK",
+        "Демпфер | резиновый",
+        "Крепление | на саморез",
+        "Покрытия | матовый хром, хром, матовый никель, чёрный, белый, золото, матовое золото, античная бронза"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Низкий упор подходит дверям с небольшим зазором над полом. Если снизу большая щель, полотно может пройти над шайбой, тогда нужен более высокий DS3.",
+        "Цвет выбирайте по задаче: чтобы упор был незаметен, берите в тон полу, чтобы был частью ансамбля, в тон ручке.",
+        "Для плитки и бетонной стяжки понадобится дюбель, для деревянного пола хватит самореза.",
+        "При подогреве пола сверлить не всегда можно: в таком случае лучше настенный упор."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Не будет ли дверь перескакивать через DS1?",
+      "a": "Если зазор под полотном меньше высоты шайбы, не будет. Проверьте это до покупки: прикройте дверь и оцените щель."
+    },
+    {
+      "q": "Куда ставить низкий упор?",
+      "a": "Под свободной частью полотна, ближе к краю, чтобы ручка не доставала до стены. Упор у самых петель нагружает их при каждом ударе."
+    },
+    {
+      "q": "Мешает ли DS1 уборке?",
+      "a": "Низкий профиль почти не мешает швабре, а пыль с гладкого корпуса легко стереть влажной тканью."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/1989"
+}

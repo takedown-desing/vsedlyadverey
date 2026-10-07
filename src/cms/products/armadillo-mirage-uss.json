@@ -1,0 +1,152 @@
+{
+  "slug": "armadillo-mirage-uss",
+  "name": "Дверная ручка Armadillo MIRAGE USS на квадратной розетке",
+  "brand": "armadillo",
+  "series": "MIRAGE",
+  "order": 261,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "MIRAGE USS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "медь",
+      "color": "copper",
+      "article": "MIRAGE USS AC-9",
+      "price": 1438,
+      "inStock": true,
+      "image": "/images/products/armadillo-mirage-uss-med.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/57629_01.jpg"
+    },
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "MIRAGE USS BL-26",
+      "price": 2355,
+      "inStock": true,
+      "image": "/images/products/armadillo-mirage-uss-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39551_01.jpg"
+    },
+    {
+      "finish": "вороненый никель",
+      "color": "nickel",
+      "article": "MIRAGE USS BPVD-77",
+      "price": 2355,
+      "inStock": true,
+      "image": "/images/products/armadillo-mirage-uss-voronenyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39549_01.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "MIRAGE USS CP-8",
+      "price": 2355,
+      "inStock": true,
+      "image": "/images/products/armadillo-mirage-uss-hrom.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/39547_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Urban SLIM"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "837"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    }
+  ],
+  "description": "MIRAGE из коллекции Armadillo Urban сочетает мягкий изгиб рычага с квадратной розеткой. Модель выпускается в меди, черном, хроме и вороненом никеле, поэтому легко подбирается и к светлым, и к темным полотнам.",
+  "intro": "MIRAGE USS из коллекции Armadillo Urban SLIM сочетает мягкий изгиб рычага и квадратную розетку. Модель выпускается в меди, чёрном, хроме и воронёном никеле, так что её легко подобрать и к светлым, и к тёмным полотнам. Вес комплекта 837 г, гарантия 5 лет.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Изгиб и квадрат",
+          "text": "Плавный рычаг смягчает строгую квадратную розетку.",
+          "icon": "handle"
+        },
+        {
+          "title": "Тонкая розетка SLIM",
+          "text": "Квадратное основание серии SLIM аккуратно лежит на полотне.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Воронёный никель",
+          "text": "Тёмный металлический оттенок с глубиной, заметно отличается от чёрной краски.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные, светлые и тёмные",
+        "Коллекция | Urban SLIM",
+        "Розетка | квадратная",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | медь, чёрный, воронёный никель, хром",
+        "Вес | 837 г"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Накладки под цилиндр и WC выбирайте квадратными.",
+        "Хром и воронёный никель холодные, медь тёплая, подбирайте в тон петлям.",
+        "Механизм защёлки выбирается самостоятельно.",
+        "Проверьте, что розетка ложится на ровный участок полотна."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Ручку протирают мягкой тканью, слегка смоченной водой. Хром после влажной уборки вытирают насухо. Медь и воронёный никель не чистят пастами и полиролями, чтобы не изменить оттенок."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем воронёный никель отличается от чёрного?",
+      "a": "Воронёный никель имеет металлический отлив и глубину, чёрный выглядит ровным и матовым."
+    },
+    {
+      "q": "Какая форма розетки?",
+      "a": "Квадратная."
+    },
+    {
+      "q": "Каков вес изделия?",
+      "a": "Комплект весит 837 г."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-razdelnaya-k-uss52-mirage-ac-9-med/"
+}

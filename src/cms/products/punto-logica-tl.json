@@ -1,0 +1,130 @@
+{
+  "slug": "punto-logica-tl",
+  "name": "Дверная ручка PUNTO LOGICA TL на круглой розетке",
+  "brand": "punto",
+  "series": "LOGICA",
+  "order": 270,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "R.TL54.LOGICA",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый никель/хром",
+      "color": "nickel",
+      "article": "R.TL54.LOGICA SN/CP-3",
+      "price": 580,
+      "inStock": false,
+      "image": "/images/products/punto-logica-tl-matovyy-nikel-hrom.jpg",
+      "imageSrc": "https://xn---23-eddjhv7d.xn--p1ai/image/cache/catalog/dveri-garant/furnitura/Trade-Lock/Ручки/Для%20межкомнатных/Punto/LOGICA/35749_01-800x800.jpg"
+    },
+    {
+      "finish": "зеленая бронза",
+      "color": "bronze",
+      "article": "R.TL54.LOGICA ABG-6",
+      "price": 620,
+      "inStock": false,
+      "image": "/images/products/punto-logica-tl-zelenaya-bronza.jpg",
+      "imageSrc": "https://xn---23-eddjhv7d.xn--p1ai/image/cache/catalog/dveri-garant/furnitura/Trade-Lock/Ручки/Для%20межкомнатных/Punto/LOGICA/37667_01-800x800.jpg"
+    },
+    {
+      "finish": "матовое золото/золото",
+      "color": "gold",
+      "article": "R.TL54.LOGICA SG/GP-4",
+      "price": 620,
+      "inStock": false,
+      "image": "/images/products/punto-logica-tl-matovoe-zoloto-zoloto.jpg",
+      "imageSrc": "https://xn---23-eddjhv7d.xn--p1ai/image/cache/catalog/dveri-garant/furnitura/Trade-Lock/Ручки/Для%20межкомнатных/Punto/LOGICA/36325_01-800x800.jpg"
+    }
+  ],
+  "material": "алюминий",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Размер розетки, мм",
+      "v": "54"
+    }
+  ],
+  "description": "LOGICA из серии PUNTO TL представляет собой недорогую ручку на круглой розетке с плавным рычагом. Выпускается в нескольких длинах рычага и двухцветных покрытиях, поэтому часто используется при массовой отделке квартир и офисов.",
+  "intro": "LOGICA из серии PUNTO TL представляет собой недорогую ручку на круглой розетке 54 мм с плавным рычагом. Она выпускается в нескольких длинах рычага и двухцветных покрытиях, поэтому её часто выбирают при массовой отделке квартир и офисов. Корпус алюминиевый.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Двухцветные покрытия",
+          "text": "Матовый никель с хромом или матовое золото с глянцевым.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Розетка 54 мм",
+          "text": "Круглое основание перекрывает стандартные отверстия.",
+          "icon": "check"
+        },
+        {
+          "title": "Алюминий",
+          "text": "Лёгкий корпус для массовой отделки.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные",
+        "Объекты | квартиры, офисы",
+        "Розетка | круглая, 54 мм",
+        "Материал | алюминий",
+        "Покрытия | матовый никель/хром, зелёная бронза, матовое золото/золото"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Уточните длину рычага, модель выпускается в нескольких вариантах.",
+        "Защёлку и завёртку подбирают отдельно.",
+        "Зелёная бронза подходит к классическим дверям.",
+        "При заказе на объект берите ручки из одной партии."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Алюминиевую ручку с гальваническим покрытием протирают влажной тканью без абразивов. Двухцветные варианты сочетают матовые и глянцевые участки, поэтому полироли не используют: они выравнивают блеск и портят контраст. При появлении люфта подтяните винты розетки."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Для каких объектов подходит LOGICA?",
+      "a": "Для межкомнатных дверей в квартирах и офисах, в том числе при массовой отделке."
+    },
+    {
+      "q": "Каковы размеры розетки?",
+      "a": "54 мм."
+    },
+    {
+      "q": "Какой материал у рычага и основания?",
+      "a": "Из алюминия."
+    },
+    {
+      "q": "Что значит двухцветное покрытие?",
+      "a": "Рычаг сочетает два оттенка или фактуры, например матовый никель с глянцевым хромом. Это подчёркивает форму ручки."
+    }
+  ],
+  "sourceUrl": "https://xn---23-eddjhv7d.xn--p1ai/furnitura/furnitura-dlya-megkomnatnyh-dverej/ruchki/ruchka-razdelnaia-rtl54logica-logica-tl-130mm-sncp-3-matovyi-nykelkhrom/"
+}

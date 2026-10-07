@@ -1,0 +1,175 @@
+{
+  "slug": "colombo-cd63gb",
+  "name": "Накладка под цилиндр Colombo CD63GB на круглом основании (2 шт)",
+  "brand": "colombo-design",
+  "series": null,
+  "order": 436,
+  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "article": "CD63GB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "CD63GB-BA",
+      "price": 2269,
+      "inStock": true,
+      "image": "/images/products/colombo-cd63gb-antichnaya-bronza.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/01/27/2701/images/9113/9113.750x0.png"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "CD63GB-CR",
+      "price": 2472,
+      "inStock": true,
+      "image": "/images/products/colombo-cd63gb-polirovannyy-hrom.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/87/18/1887/images/9100/9100.750x0.png"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "CD63GB-BR",
+      "price": 2472,
+      "inStock": true,
+      "image": "/images/products/colombo-cd63gb-bronza.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/63/21/2163/images/9111/9111.750x0.png"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "CD63GB-OA",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/colombo-cd63gb-matovaya-bronza.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/91/21/2191/images/9115/9115.750x0.png"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "CD63GB-CM",
+      "price": 2895,
+      "inStock": true,
+      "image": "/images/products/colombo-cd63gb-matovyy-hrom.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/00/19/1900/images/9102/9102.750x0.png"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "CD63GB-NI",
+      "price": 2895,
+      "inStock": true,
+      "image": "/images/products/colombo-cd63gb-matovyy-nikel.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/88/18/1888/images/9106/9106.750x0.png"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "CD63GB-OL",
+      "price": 3068,
+      "inStock": true,
+      "image": "/images/products/colombo-cd63gb-polirovannaya-latun.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/89/18/1889/images/9088/9088.750x0.png"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "CD63GB-OM",
+      "price": 3397,
+      "inStock": true,
+      "image": "/images/products/colombo-cd63gb-matovoe-zoloto.jpg",
+      "imageSrc": "https://colombo.pro/wa-data/public/shop/products/98/18/1898/images/9083/9083.750x0.png"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладка под евроцилиндр"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Комплектация",
+      "v": "2 шт"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Пара итальянских накладок Colombo Design под евроцилиндр на круглом основании. Латунь и стойкое гальваническое покрытие. Широкая палитра: от белого и матового чёрного до полированной латуни и античной бронзы.",
+  "intro": "Colombo Design CD63GB - пара итальянских накладок под евроцилиндр на круглом основании. Латунный корпус и гальваническое покрытие фабрики, известной дизайнерскими ручками. Восемь отделок, от полированного и матового хрома до полированной латуни, матового золота и античной бронзы.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Сразу пара",
+          "text": "В комплекте две накладки: на обе стороны двери, докупать ничего не нужно.",
+          "icon": "kit"
+        },
+        {
+          "title": "Латунь",
+          "text": "Корпус из латуни, с гальваническим покрытием итальянского производства.",
+          "icon": "shield"
+        },
+        {
+          "title": "Восемь отделок",
+          "text": "Хромы, никель, латунь, матовое золото, три бронзы: под любую ручку Colombo.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладка под евроцилиндр",
+        "Форма розетки | круглая",
+        "Комплектация | 2 шт",
+        "Материал | латунь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Выберите отделку под ручки Colombo Design",
+        "Накладки ставят на замок под профильный евроцилиндр, Colombo замки не выпускает",
+        "Цилиндр подбирайте с учётом толщины накладок",
+        "Для санузла в пару есть фиксатор CD49BZG6G в хроме"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Накладки ставят на уже закреплённый цилиндр и стягивают друг с другом через полотно. Латунь с гальваникой не требует обслуживания, но не любит абразивы и хлорсодержащие средства. Полированную латунь и хром достаточно протирать сухой микрофиброй, матовые покрытия слегка влажной тканью."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Сколько накладок в упаковке?",
+      "a": "Две, на обе стороны двери."
+    },
+    {
+      "q": "Подойдут ли накладки к замку другого бренда?",
+      "a": "Да, они рассчитаны на стандартный евроцилиндр и подходят к любому межкомнатному замку под него."
+    },
+    {
+      "q": "Чем матовая бронза отличается от античной?",
+      "a": "Матовая ровная и спокойная, античная темнее, с эффектом старения в углублениях."
+    }
+  ],
+  "sourceUrl": "https://colombo.pro/product/Colombo-Design-Rosetta-CD63GB.CM/"
+}

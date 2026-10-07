@@ -1,0 +1,134 @@
+{
+  "slug": "morelli-mh-65-r6-sempione",
+  "name": "Дверная ручка Morelli MH-65-R6 SEMPIONE на круглой розетке",
+  "brand": "morelli",
+  "series": "SEMPIONE",
+  "order": 250,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "MH-65-R6",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "MH-65-R6 R6 SEMPIONE BL",
+      "price": 2480,
+      "inStock": true,
+      "image": "/images/products/morelli-mh-65-r6-sempione-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KNVWNSHBYWATHDPABM6ZS9G9.webp"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "MH-65-R6 SEMPIONE SC",
+      "price": 2480,
+      "inStock": true,
+      "image": "/images/products/morelli-mh-65-r6-sempione-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KNVWNSJTF97VX7E5JQMZ8N3B.webp"
+    },
+    {
+      "finish": "матовое сатинированное золото",
+      "color": "gold",
+      "article": "MH-65-R6 SEMPIONE MSG",
+      "price": 2580,
+      "inStock": true,
+      "image": "/images/products/morelli-mh-65-r6-sempione-matovoe-satinirovannoe-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KNVWNSMJRRD7T5TSV00BV980.webp"
+    },
+    {
+      "finish": "графит",
+      "color": "graphite",
+      "article": "MH-65-R6 R6 SEMPIONE GR",
+      "price": 2670,
+      "inStock": true,
+      "image": "/images/products/morelli-mh-65-r6-sempione-grafit.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KNVWNSR0JXYSTER2RJH7ND7E.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "MODERN ART"
+    }
+  ],
+  "description": "Доступная ручка SEMPIONE из коллекции Morelli Modern Art с плавным рычагом на тонкой круглой розетке. Хороший вариант для ремонта под ключ и новостроек, где нужна аккуратная фурнитура по разумной цене. Доступна в черном, графите, матовом хроме и сатинированном золоте.",
+  "intro": "SEMPIONE MH-65-R6 из коллекции Morelli Modern Art сочетает плавный рычаг и тонкую круглую розетку. Это доступный вариант для ремонта под ключ и новостроек, где на все двери нужна аккуратная однотипная фурнитура. Доступна в чёрном, графите, матовом хроме и сатинированном золоте.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Плавный рычаг",
+          "text": "Спокойная форма подходит к большинству межкомнатных полотен.",
+          "icon": "handle"
+        },
+        {
+          "title": "Тонкая розетка R6",
+          "text": "Основание почти не выступает над дверью.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Сатинированное золото",
+          "text": "Тёплое золото с бархатистой матовой поверхностью.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Объекты | квартиры в новостройках, ремонт под ключ",
+        "Розетка | круглая R6",
+        "Коллекция | MODERN ART",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | чёрный, матовый хром, матовое сатинированное золото, графит"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "При заказе на всю квартиру посчитайте отдельно двери с защёлкой, с фиксатором WC и под ключ.",
+        "Завёртки и накладки в том же цвете подбирают отдельно.",
+        "Графит темнее матового хрома, но светлее чёрного, он хорошо сочетается с серыми полотнами.",
+        "Уточните комплектацию упаковки."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Для каких дверей подходит SEMPIONE?",
+      "a": "Для межкомнатных дверей в современных квартирах. Модель часто используют при массовой отделке."
+    },
+    {
+      "q": "Какие цвета есть?",
+      "a": "Чёрный, графит, матовый хром и матовое сатинированное золото."
+    },
+    {
+      "q": "Входит ли защёлка?",
+      "a": "Нет, защёлку и фиксатор выбирают отдельно."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/4955"
+}

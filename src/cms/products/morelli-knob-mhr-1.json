@@ -1,0 +1,138 @@
+{
+  "slug": "morelli-knob-mhr-1",
+  "name": "Ручка-кноб Morelli MHR-1 поворотная",
+  "brand": "morelli",
+  "series": null,
+  "order": 225,
+  "category": "/catalog/dvernye-ruchki/knoby/",
+  "article": "MHR-1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "MHR-1 SC",
+      "price": 1685,
+      "inStock": false,
+      "image": "/images/products/morelli-knob-mhr-1-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2019/RhKxo3slqggOxbsqDBdU.webp"
+    },
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "MHR-1 BL",
+      "price": 1685,
+      "inStock": false,
+      "image": "/images/products/morelli-knob-mhr-1-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2019/4lyljN05GrGMdfCE1g6V.webp"
+    },
+    {
+      "finish": "белый никель",
+      "color": "nickel",
+      "article": "MHR-1 SN",
+      "price": 1685,
+      "inStock": true,
+      "image": "/images/products/morelli-knob-mhr-1-belyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2019/5yrJ3nenXG6Mblg4rwxv.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "MHR-1 AB",
+      "price": 1685,
+      "inStock": false,
+      "image": "/images/products/morelli-knob-mhr-1-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2019/GE9P2pSr9AEBdPhvYiUe.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-кноб"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    },
+    {
+      "k": "Гарантия",
+      "v": "12 месяцев"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Недорогой поворотный кноб Morelli MHR-1 для межкомнатных дверей с защелкой. Круглая головка удобно поворачивается ладонью, а небольшая розетка аккуратно закрывает отверстие в полотне.",
+  "intro": "Morelli MHR-1 представляет собой недорогой поворотный кноб для межкомнатных дверей с защёлкой. Круглая головка удобно поворачивается ладонью, а небольшая розетка аккуратно закрывает отверстие в полотне. Продаётся комплектом на одну дверь в четырёх цветах.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Круглая головка",
+          "text": "Форма под ладонь, поворачивать удобно без усилия пальцами.",
+          "icon": "handle"
+        },
+        {
+          "title": "Компактная розетка",
+          "text": "Небольшое основание закрывает отверстие и не перегружает полотно.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Четыре цвета",
+          "text": "Матовый хром, чёрный, белый никель и античная бронза.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные с защёлкой",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый хром, чёрный, белый никель, античная бронза",
+        "Цена указана за | 1 комплект (2 шт.)",
+        "Гарантия | 12 месяцев"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Защёлка в комплект не входит, выбирайте её под кноб.",
+        "Для кладовой и гардеробной кноб практичнее рычага, в спальню удобнее нажимная ручка.",
+        "Белый никель светлее хрома, это стоит учитывать при подборе петель.",
+        "Сохраните стяжные винты и декоративные крышки розеток при монтаже."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли MHR-1 для санузла?",
+      "a": "Для запирания понадобится защёлка с фиксатором и завёртка WC, их выбирают отдельно в том же цвете."
+    },
+    {
+      "q": "Сколько кнобов в комплекте?",
+      "a": "Два, на обе стороны одной двери."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "12 месяцев."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/851"
+}

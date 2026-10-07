@@ -1,0 +1,153 @@
+{
+  "slug": "fuaro-bk6-slr52",
+  "name": "Поворотная завертка FUARO BK6.R.SLR52",
+  "brand": "fuaro",
+  "series": null,
+  "order": 426,
+  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "article": "BK6.R.SLR52",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "золото 24К",
+      "color": "gold",
+      "article": "BK6.R.SLR52 GOLD-24",
+      "price": 574,
+      "inStock": false,
+      "image": "/images/products/fuaro-bk6-slr52-zoloto-24k.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/87/47431_01.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "BK6.R.SLR52 CP-8",
+      "price": 574,
+      "inStock": false,
+      "image": "/images/products/fuaro-bk6-slr52-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46869_01.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "BK6.R.SLR52 BL-24",
+      "price": 574,
+      "inStock": false,
+      "image": "/images/products/fuaro-bk6-slr52-chernyy.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46863_01.jpg"
+    },
+    {
+      "finish": "сатинированный хром",
+      "color": "chrome",
+      "article": "BK6.R.SLR52 SSC-16",
+      "price": 574,
+      "inStock": false,
+      "image": "/images/products/fuaro-bk6-slr52-satinirovannyy-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46865_01.jpg"
+    },
+    {
+      "finish": "графит",
+      "color": "graphite",
+      "article": "BK6.R.SLR52 GR-23",
+      "price": 574,
+      "inStock": false,
+      "image": "/images/products/fuaro-bk6-slr52-grafit.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46861_01.jpg"
+    },
+    {
+      "finish": "сатинированное золото",
+      "color": "gold",
+      "article": "BK6.R.SLR52 SSG-39",
+      "price": 574,
+      "inStock": false,
+      "image": "/images/products/fuaro-bk6-slr52-satinirovannoe-zoloto.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46867_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "minimal",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "поворотная завертка"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Диаметр розетки, мм",
+      "v": "52"
+    },
+    {
+      "k": "Квадрат, мм",
+      "v": "6"
+    }
+  ],
+  "description": "Лаконичная завертка Fuaro на круглой тонкой розетке для ванной и туалета. Подходит к ручкам на розетке того же диаметра. Шесть отделок: хром, чёрный, графит, сатинированный хром, сатинированное золото и золото 24К.",
+  "intro": "Fuaro BK6.R.SLR52 - лаконичная поворотная завертка на круглой тонкой розетке диаметром 52 мм для ванной и туалета. Квадрат 6 мм, корпус из цинкового сплава. Она подходит к ручкам на розетке того же диаметра и составляет комплект с накладкой Fuaro ET.R.SLR52 под цилиндр.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Розетка 52 мм",
+          "text": "Диаметр указан в паспорте: по нему легко подобрать ручку и накладки одного масштаба.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Тонкий профиль",
+          "text": "Розетка почти не выступает над полотном и смотрится современно.",
+          "icon": "check"
+        },
+        {
+          "title": "Шесть отделок",
+          "text": "Хром, чёрный, графит, сатинированный хром, сатинированное золото и золото 24К.",
+          "icon": "seal"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | поворотная завертка",
+        "Диаметр розетки | 52 мм",
+        "Квадрат | 6 мм",
+        "Форма розетки | круглая",
+        "Материал | цинковый сплав"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Ручку берите на круглой розетке того же диаметра 52 мм",
+        "Фиксатор замка должен быть под квадрат 6 мм",
+        "Сатинированные отделки меньше показывают отпечатки пальцев",
+        "Сверьте длину штока с толщиной двери"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "С какой накладкой сочетается?",
+      "a": "С накладкой под цилиндр Fuaro ET.R.SLR52: такая же тонкая круглая розетка 52 мм и те же отделки."
+    },
+    {
+      "q": "Подойдёт ли к замку Fuaro M96WC-50?",
+      "a": "Проверьте квадрат фиксатора по паспорту замка. Если он 6 мм, завертка встанет без переходников."
+    },
+    {
+      "q": "Чем золото 24К отличается от сатинированного золота?",
+      "a": "Золото 24К блестящее, с тёплым глянцем. Сатинированное матовое, спокойнее и практичнее."
+    }
+  ],
+  "sourceUrl": "https://kromus.ru/ruchka-povorotnaya-bk6-r-slr52-bk6-slr-gold-24-zoloto-24k/"
+}

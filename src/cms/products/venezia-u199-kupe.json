@@ -1,0 +1,147 @@
+{
+  "slug": "venezia-u199-kupe",
+  "name": "Ручка для раздвижной двери Venezia U199",
+  "brand": "venezia",
+  "series": null,
+  "order": 240,
+  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "article": "U199",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "U199",
+      "price": 3087,
+      "inStock": false,
+      "image": "/images/products/venezia-u199-kupe-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-venezia-u199-matovyj-hrom-2sht.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "U199",
+      "price": 1687,
+      "inStock": true,
+      "image": "/images/products/venezia-u199-kupe-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-venezia-u199-matovaja-bronza-2sht.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "U199",
+      "price": 2883,
+      "inStock": false,
+      "image": "/images/products/venezia-u199-kupe-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-venezia-u199-polirovannaja-latun-2sht.jpg"
+    },
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "U199",
+      "price": 3046,
+      "inStock": true,
+      "image": "/images/products/venezia-u199-kupe-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dlja-razdvizhnoj-dveri-venezia-u199-chernyj-2sht.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "sliding"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для раздвижной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "160"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Прямоугольная врезная ручка Venezia U199 из латуни для раздвижных дверей. Продается комплектом из двух штук, по одной на каждую сторону полотна.",
+  "intro": "Прямоугольная латунная ручка Venezia U199 врезается в полотно раздвижной двери. В отличие от многих купе-ручек, она продаётся комплектом из двух штук, по одной на каждую сторону. Покрытия от матового хрома до чёрного, производство Италия. Вес одной ручки 160 г.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Комплект из двух",
+          "text": "Не нужно отдельно заказывать ручку на вторую сторону.",
+          "icon": "kit"
+        },
+        {
+          "title": "Прямоугольная форма",
+          "text": "Современный контур подходит к гладким полотнам.",
+          "icon": "slide"
+        },
+        {
+          "title": "Латунь",
+          "text": "Каждая ручка весит 160 г.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | раздвижные, пеналы",
+        "Материал | латунь",
+        "Покрытия | матовый хром, матовая бронза, полированная латунь, чёрный",
+        "Цена указана за | 1 комплект (2 шт.)",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Один комплект рассчитан на одну дверь.",
+        "Сверьте суммарную глубину двух чаш с толщиной полотна.",
+        "Для гладких дверей практичен матовый хром или чёрный.",
+        "Замок для раздвижной двери выбирается отдельно."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Латунную ручку с покрытием моют тёплой водой с мягким мылом, после чего вытирают. Глубину чаши удобно очищать ватной палочкой. Абразивные губки оставляют на матовой поверхности царапины, а средства с кислотой меняют оттенок бронзы и латуни."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Что входит в упаковку?",
+      "a": "Две врезные ручки, по одной на каждую сторону полотна."
+    },
+    {
+      "q": "Подойдёт ли U199 для двери-пенала?",
+      "a": "Да, ручка врезная и не выступает за плоскость полотна."
+    },
+    {
+      "q": "Какие варианты отделки есть?",
+      "a": "Матовый хром, матовая бронза, полированная латунь и чёрный."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-dlja-razdvizhnoj-dveri-venezia-u199-matovyj-hrom/"
+}

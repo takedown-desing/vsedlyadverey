@@ -1,0 +1,121 @@
+{
+  "slug": "morelli-msp-1",
+  "name": "Ответная магнитная планка Morelli MSP-1",
+  "brand": "morelli",
+  "series": null,
+  "order": 421,
+  "category": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/",
+  "article": "MSP-1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "MSP-1 AB",
+      "price": 180,
+      "inStock": true,
+      "image": "/images/products/morelli-msp-1-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01K18GFAH5ASJS9YPBNVBN1GW7.png"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "MSP-1 W",
+      "price": 180,
+      "inStock": true,
+      "image": "/images/products/morelli-msp-1-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KYQ6YDMWCSRQTKZH3V9105X9.png"
+    },
+    {
+      "finish": "серый",
+      "color": "graphite",
+      "article": "MSP-1 SN",
+      "price": 180,
+      "inStock": true,
+      "image": "/images/products/morelli-msp-1-seryy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KYQ6YWPDW6NXCZP49XY1DZ27.png"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "MSP-1 BL",
+      "price": 180,
+      "inStock": true,
+      "image": "/images/products/morelli-msp-1-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KYQ6ZJ77WSGSK658226BKG4D.png"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ответная планка с магнитом"
+    }
+  ],
+  "description": "Магнитная ответная планка Morelli для межкомнатных магнитных защёлок. Устанавливается в дверную коробку напротив язычка. Четыре цвета: античная бронза, белый, серый и чёрный.",
+  "intro": "Morelli MSP-1 - магнитная ответная планка для межкомнатных магнитных защёлок. Её устанавливают в дверную коробку напротив язычка: магнит выдвигает язычок в момент закрывания. Четыре цвета, включая белый и серый, позволяют сделать планку незаметной на коробке.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Сердце магнитной защёлки",
+          "text": "Без магнитной планки язычок не выйдет из корпуса и дверь не зафиксируется.",
+          "icon": "lock"
+        },
+        {
+          "title": "Незаметные цвета",
+          "text": "Белый и серый сливаются со светлыми коробками, чёрный подходит к тёмным.",
+          "icon": "seal"
+        },
+        {
+          "title": "Античная бронза",
+          "text": "Для классических дверей с бронзовой фурнитурой.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ответная планка с магнитом",
+        "Материал | сталь",
+        "Двери | межкомнатные",
+        "Цвета | античная бронза, белый, серый, чёрный"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Уточните совместимость с вашей магнитной защёлкой по паспорту",
+        "Цвет подбирайте под коробку или под лицевую планку замка",
+        "Для обычной механической защёлки магнитная планка не нужна",
+        "Сравните размер планки с пазом в коробке, если меняете старую"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "К каким защёлкам подходит MSP-1?",
+      "a": "Это планка Morelli для магнитных межкомнатных защёлок. Совместимость с конкретной моделью сверьте по паспорту защёлки."
+    },
+    {
+      "q": "Какой цвет выбрать?",
+      "a": "Если хотите спрятать планку, берите в цвет коробки. Если важна перекличка с ручкой, в цвет фурнитуры."
+    },
+    {
+      "q": "Может ли магнит со временем ослабнуть?",
+      "a": "Постоянные магниты в фурнитуре теряют силу очень медленно. Чаще проблема в смещении планки или загрязнении."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/3997"
+}

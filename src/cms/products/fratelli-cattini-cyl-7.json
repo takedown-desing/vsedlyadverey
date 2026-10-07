@@ -1,0 +1,157 @@
+{
+  "slug": "fratelli-cattini-cyl-7",
+  "name": "Накладка под цилиндр Fratelli Cattini CYL 7 на круглом основании (2 шт)",
+  "brand": "fratelli-cattini",
+  "series": null,
+  "order": 438,
+  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "article": "CYL 7",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "антрацит",
+      "color": "graphite",
+      "article": "CYL 7-GA",
+      "price": 329,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cyl-7-antracit.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/nakladka-pod-cilindr-na-kruglom-osnovanii-fratelli-cattini-cyl-7-ga-antracit-seryj-2-sht.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "CYL 7-CR",
+      "price": 490,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cyl-7-polirovannyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/nakladka-pod-cilindr-na-kruglom-osnovanii-fratelli-cattini-cyl-7-cr-polirovannyj-hrom-2-sht.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "CYL 7-CS",
+      "price": 774,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cyl-7-matovyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/nakladka-pod-cilindr-na-kruglom-osnovanii-fratelli-cattini-cyl-7-cs-matovyj-hrom-2-sht.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "CYL 7.7-OLV",
+      "price": 1154,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cyl-7-polirovannaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/nakladka-pod-cilindr-na-kruglom-osnovanii-fratelli-cattini-cyl-77-olv-polirovannaja-latun-2-sht.jpg"
+    },
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "CYL 7.7-NM",
+      "price": 1154,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cyl-7-matovyy-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/nakladka-pod-cilindr-na-kruglom-osnovanii-fratelli-cattini-cyl-77-nm-matovyj-chernyj-2-sht.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "CYL 7FS-BS",
+      "price": 1281,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cyl-7-matovaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/nakladka-pod-cilindr-na-kruglom-osnovanii-fratelli-cattini-cyl-7fs-bs-matovaja-latun-2-sht.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладка под евроцилиндр"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Комплектация",
+      "v": "2 шт"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Итальянские накладки Fratelli Cattini под цилиндр на круглом основании, продаются парой. Сочетаются с ручками и фиксаторами бренда серии 7. Матовые современные отделки.",
+  "intro": "Fratelli Cattini CYL 7 - накладки под цилиндр на круглом основании, продаются парой. Латунный корпус и матовые современные отделки: антрацит, матовый чёрный, матовый хром, матовая латунь, а также полированные хром и латунь. Накладки сочетаются с ручками и фиксаторами бренда серии 7.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Серия 7",
+          "text": "Форма основания совпадает с фиксатором WC-2 7.7 и ручками серии.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Пара",
+          "text": "Две накладки в упаковке, по одной на каждую сторону полотна.",
+          "icon": "kit"
+        },
+        {
+          "title": "Латунь",
+          "text": "Латунный корпус тяжелее и прочнее цинкового сплава.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладка под евроцилиндр",
+        "Форма розетки | круглая",
+        "Комплектация | 2 шт",
+        "Материал | латунь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Отделку выбирайте такую же, как у ручки и фиксатора",
+        "Нужен межкомнатный замок под евроцилиндр",
+        "Цилиндр подбирайте по толщине полотна с накладками",
+        "Антрацит и матовый чёрный отличаются, сравните при дневном свете"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Сначала в замок вставляют цилиндр и фиксируют винтом, затем с двух сторон надевают накладки и стягивают их. Круглое основание удобно тем, что его не нужно выравнивать по уровню. Матовые покрытия чистят влажной тканью без абразива, полированные сухой микрофиброй."
+    }
+  ],
+  "faq": [
+    {
+      "q": "С каким фиксатором сочетаются?",
+      "a": "С Fratelli Cattini WC-2 7.7: круглое основание и те же отделки."
+    },
+    {
+      "q": "Подходят ли к цилиндру другого бренда?",
+      "a": "Подойдут, накладки сделаны под стандартный профиль евроцилиндра."
+    },
+    {
+      "q": "Сколько накладок в упаковке?",
+      "a": "Две, этого хватает на одну дверь."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/nakladka-pod-czilindr-na-kruglom-osnovanii-fratelli-cattini-cyl-7-ga-antraczit-seryj-2-sht/"
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "fuaro-et-r-slr52",
+  "name": "Накладка под цилиндр FUARO ET.R.SLR52 на круглой розетке",
+  "brand": "fuaro",
+  "series": null,
+  "order": 434,
+  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "article": "ET.R.SLR52",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "золото 24К",
+      "color": "gold",
+      "article": "ET.R.SLR52 GOLD-24",
+      "price": 365,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-r-slr52-zoloto-24k.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/87/47433_01.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "ET.R.SLR52 CP-8",
+      "price": 365,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-r-slr52-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46877_01.jpg"
+    },
+    {
+      "finish": "сатинированное золото",
+      "color": "gold",
+      "article": "ET.R.SLR52 SSG-39",
+      "price": 365,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-r-slr52-satinirovannoe-zoloto.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/86/46873_01.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "ET.R.SLR52 BL-24",
+      "price": 365,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-r-slr52-chernyy.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46871_01.jpg"
+    },
+    {
+      "finish": "сатинированный хром",
+      "color": "chrome",
+      "article": "ET.R.SLR52 SSC-16",
+      "price": 365,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-r-slr52-satinirovannyy-hrom.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46879_01.jpg"
+    },
+    {
+      "finish": "графит",
+      "color": "graphite",
+      "article": "ET.R.SLR52 GR-23",
+      "price": 414,
+      "inStock": false,
+      "image": "/images/products/fuaro-et-r-slr52-grafit.jpg",
+      "imageSrc": "https://kromus.ru/images/detailed/85/46875_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладка под евроцилиндр"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Диаметр розетки, мм",
+      "v": "52"
+    }
+  ],
+  "description": "Тонкая круглая накладка Fuaro под евроцилиндр. Составляет комплект с заверткой BK6.R.SLR52 и ручками на такой же розетке. Шесть отделок, от чёрного до золота 24К.",
+  "intro": "Fuaro ET.R.SLR52 - тонкая круглая накладка под евроцилиндр с розеткой 52 мм. Она составляет комплект с заверткой BK6.R.SLR52 и ручками на такой же розетке. Корпус из цинкового сплава, шесть отделок: хром, чёрный, графит, сатинированный хром, сатинированное золото и золото 24К.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "52 мм",
+          "text": "Диаметр розетки указан в паспорте, по нему подбирают ручку одного размера.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Комплект SLR52",
+          "text": "Пара к завертке BK6.R.SLR52: на двери кабинета и ванной фурнитура будет одинаковой.",
+          "icon": "kit"
+        },
+        {
+          "title": "Графит и чёрный",
+          "text": "Тёмные современные отделки для дверей в стиле минимализм.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладка под евроцилиндр",
+        "Диаметр розетки | 52 мм",
+        "Форма розетки | круглая",
+        "Материал | цинковый сплав"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Уточните, продаётся штука или пара: на дверь нужны две",
+        "Ручку берите с розеткой того же диаметра 52 мм",
+        "Подходит к межкомнатным замкам под цилиндр, например Fuaro P85C-50",
+        "Цилиндр подберите с учётом толщины накладок"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "С какой заверткой сочетается?",
+      "a": "С Fuaro BK6.R.SLR52: одинаковая тонкая розетка 52 мм и те же шесть отделок."
+    },
+    {
+      "q": "Подойдёт ли к входной двери?",
+      "a": "Это декоративная межкомнатная накладка. Для входной двери цилиндр защищают броненакладкой."
+    },
+    {
+      "q": "Какой цилиндр выбрать?",
+      "a": "Стандартный евроцилиндр длиной по толщине полотна: он не должен выступать больше чем на 1-3 мм."
+    }
+  ],
+  "sourceUrl": "https://kromus.ru/nakladka-na-cilindr-et-r-slr52-gold-24-zoloto-24/"
+}

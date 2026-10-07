@@ -1,0 +1,157 @@
+{
+  "slug": "colombo-design-roboquattro-id41rsb",
+  "name": "Дверная ручка Colombo Design Roboquattro ID41RSB на круглой розетке",
+  "brand": "colombo-design",
+  "series": "Roboquattro",
+  "order": 198,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "ID41RSB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "ID41RSB-CM",
+      "price": 6253,
+      "inStock": true,
+      "image": "/images/products/colombo-design-roboquattro-id41rsb-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-roboquattro-id41rsb-cm-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "ID41RSB-NM",
+      "price": 5183,
+      "inStock": true,
+      "image": "/images/products/colombo-design-roboquattro-id41rsb-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-roboquattro-id41rsb-nm-matovyj-chernyj.1.jpg"
+    },
+    {
+      "finish": "матовое золото PVD",
+      "color": "gold",
+      "article": "ID41RSB-OM",
+      "price": 7180,
+      "inStock": true,
+      "image": "/images/products/colombo-design-roboquattro-id41rsb-matovoe-zoloto-pvd.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-roboquattro-id41rsb-om-matovoe-zoloto.1.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "ID41RSB-OL",
+      "price": 6572,
+      "inStock": true,
+      "image": "/images/products/colombo-design-roboquattro-id41rsb-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-roboquattro-id41rsb-ol-polirovannaja-latun.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "672"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "10 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Roboquattro отличается рычагом прямоугольного сечения с четкими гранями, благодаря чему ручка выглядит строже и архитектурнее классического Robot. Круглая розетка скрывает крепеж, а широкий выбор покрытий, включая PVD-золото, позволяет подобрать ее под любую фурнитуру в интерьере.",
+  "intro": "Roboquattro ID41RSB берёт основу классического Robot, но меняет рычаг на прямоугольный с чёткими гранями. Ручка выглядит строже и архитектурнее, при этом стоит на той же аккуратной круглой розетке. Подходит для межкомнатных дверей в современном интерьере.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Граненый рычаг",
+          "text": "Прямоугольное сечение с острыми рёбрами подчёркивает линии дверного полотна и наличников.",
+          "icon": "handle"
+        },
+        {
+          "title": "Скрытый крепёж",
+          "text": "Круглая розетка закрывает винты, на двери видны только рычаг и тонкое кольцо основания.",
+          "icon": "rosette"
+        },
+        {
+          "title": "PVD-золото",
+          "text": "Матовое золото нанесено методом вакуумного напыления, такое покрытие заметно стойче к истиранию, чем обычная гальваника.",
+          "icon": "shield"
+        },
+        {
+          "title": "672 г на комплект",
+          "text": "Корпус из цинкового сплава даёт ощутимый вес и плотный ход рычага.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Назначение | межкомнатные распашные двери",
+        "Розетка | круглая",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый хром, матовый чёрный, матовое золото PVD, полированная латунь",
+        "Гарантия | 10 лет",
+        "Страна производства | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "В серии есть врезная ручка-купе ID411: если в квартире есть раздвижные двери, их можно оформить в той же геометрии.",
+        "Механизм защёлки выбирается отдельно, ручка ставится на стандартный межкомнатный квадрат.",
+        "Под санузел добавьте поворотную завёртку и ответную накладку того же цвета.",
+        "Золото PVD и полированная латунь отличаются оттенком, сравнивайте их по образцам, если рядом стоит другая фурнитура."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Матовые покрытия протирают мягкой влажной салфеткой, при необходимости с каплей нейтрального мыла. Абразивные губки и чистящие порошки оставят царапины даже на стойком PVD."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем Roboquattro отличается от Robot?",
+      "a": "Формой рычага: у Robot он скруглённый, у Roboquattro прямоугольный с гранями. Розетка, материал и гарантия у моделей одинаковые."
+    },
+    {
+      "q": "Какое покрытие самое износостойкое?",
+      "a": "Из доступных вариантов наиболее стойкое к истиранию матовое золото PVD. Матовый хром и чёрный тоже практичны, на них меньше видны отпечатки."
+    },
+    {
+      "q": "Можно ли поставить ручку на дверь без защёлки?",
+      "a": "Ручка рассчитана на работу с защёлкой: рычаг поворачивает язычок через квадрат. Без механизма она будет просто вращаться, поэтому защёлку нужно купить отдельно."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dveranja-ruchka-na-kruglom-osnovanii-colombo-roboquattro-id41rsbd-matovyj-hrom/"
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "venezia-exa-fw",
+  "name": "Оконная ручка Venezia Exa FW",
+  "brand": "venezia",
+  "series": "Exa",
+  "order": 491,
+  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "article": "EXA FW",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "VNZ4048",
+      "price": 7959,
+      "inStock": true,
+      "image": "/images/products/venezia-exa-fw.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-venezia-exa-fw-chernyj.1.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "VNZ1730",
+      "price": 7822,
+      "inStock": true,
+      "image": "/images/products/venezia-exa-fw-chrome.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-venezia-exa-fw-matovyj-hrom.1.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "VNZ1733",
+      "price": 7550,
+      "inStock": true,
+      "image": "/images/products/venezia-exa-fw-brass.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-venezia-exa-fw-polirovannaja-latun.1.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "VNZ1731",
+      "price": 10054,
+      "inStock": true,
+      "image": "/images/products/venezia-exa-fw-bronze.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-venezia-exa-fw-matovaja-bronza.1.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "VNZ3496",
+      "price": 11330,
+      "inStock": true,
+      "image": "/images/products/venezia-exa-fw-silver.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-venezia-exa-fw-antichnoe-serebro.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "pvc"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "оконная ручка"
+    },
+    {
+      "k": "Квадрат, мм",
+      "v": "7"
+    },
+    {
+      "k": "Цена за",
+      "v": "1 шт."
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    },
+    {
+      "k": "Вес, г",
+      "v": "560"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    }
+  ],
+  "description": "Массивная латунная ручка Venezia с гранёной рукоятью, вес около 560 г. Относится к той же коллекции Exa, что и дверные ручки, поэтому окна и двери можно оформить в одном стиле. Выпускается в тёмных и светлых отделках, включая чёрную и античное серебро.",
+  "intro": "Оконная ручка Venezia Exa FW из латуни с гранёной рукоятью, заметно массивнее штатных: вес около 560 г. Она входит в коллекцию Exa фабрики Comit, где есть и дверные ручки, так что окна и двери можно оформить в одном стиле. Пять отделок, от чёрной до античного серебра.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Гранёная рукоять",
+          "text": "Чёткие грани ловят свет и отличают Exa от гладких оконных ручек, на окне она выглядит как деталь интерьера.",
+          "icon": "handle"
+        },
+        {
+          "title": "Массивная латунь",
+          "text": "Вес около 560 г: рукоять ощущается солидно и уверенно лежит в руке при повороте.",
+          "icon": "shield"
+        },
+        {
+          "title": "Тёмные и светлые отделки",
+          "text": "Чёрный, матовый хром, полированная латунь, матовая бронза и античное серебро.",
+          "icon": "kit"
+        },
+        {
+          "title": "Коллекция Exa",
+          "text": "В коллекции есть дверные ручки, а в линейке Exa Zig ещё и мебельная скоба.",
+          "icon": "furniture"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | оконная ручка",
+        "Квадрат | 7 мм",
+        "Материал | латунь",
+        "Вес | 560 г",
+        "Покрытия | чёрный, матовый хром, полированная латунь, матовая бронза, античное серебро",
+        "Страна | Италия",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте, что окно открывается поворотом ручки с квадратом 7 мм: это стандарт для ПВХ и деревянных евроокон.",
+        "Прикиньте, не будет ли массивная рукоять задевать откос, штору или жалюзи при открытой створке.",
+        "Античное серебро и матовая бронза лучше смотрятся на деревянных рамах, хром и чёрный на белом и антрацитовом ПВХ.",
+        "Для единого стиля сразу подберите дверные ручки Exa в той же отделке."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Не тяжела ли ручка 560 г для оконной фурнитуры?",
+      "a": "Нет, вес держат винты розетки, а на механизм через квадрат передаётся только поворот. Главное затянуть оба винта до упора, чтобы розетка не люфтила."
+    },
+    {
+      "q": "Можно ли заменить обычную пластиковую ручку на Exa FW?",
+      "a": "Да, если фурнитура окна под квадрат 7 мм и крепление стандартное, на два винта. Сверлить профиль заново не придётся."
+    },
+    {
+      "q": "Как ухаживать за античным серебром?",
+      "a": "Протирайте мягкой сухой или слегка влажной тканью. Полироли для серебра и абразивы не подходят: они снимают состаренный слой и оставляют светлые пятна."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/ruchka-okonnaya-venezia-exa-fw-chernyj/"
+}

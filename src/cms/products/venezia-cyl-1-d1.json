@@ -1,0 +1,164 @@
+{
+  "slug": "venezia-cyl-1-d1",
+  "name": "Накладка под цилиндр Venezia CYL-1 D1 (2 шт)",
+  "brand": "venezia",
+  "series": null,
+  "order": 437,
+  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "article": "CYL-1 D1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "CYL-1 D1",
+      "price": 2734,
+      "inStock": true,
+      "image": "/images/products/venezia-cyl-1-d1-polirovannyy-hrom.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/bfc/bfc8aae9d22a920a79748115c8120168.png"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "CYL-1 D1",
+      "price": 2824,
+      "inStock": true,
+      "image": "/images/products/venezia-cyl-1-d1-polirovannaya-latun.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/788/7883fb7bbd3cc5d0e891cd83ce882cfe.png"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "CYL-1 D1",
+      "price": 2962,
+      "inStock": true,
+      "image": null
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "CYL-1 D1",
+      "price": 2962,
+      "inStock": true,
+      "image": "/images/products/venezia-cyl-1-d1-antichnaya-bronza.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/8c7/2pve9bgb5bl1dnsvjgjqu2ekccpn673y.jpg"
+    },
+    {
+      "finish": "французское золото",
+      "color": "gold",
+      "article": "CYL-1 D1",
+      "price": 2995,
+      "inStock": true,
+      "image": "/images/products/venezia-cyl-1-d1-francuzskoe-zoloto.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/5c3/5c39169041ce248cf7cfd27bbc4629b0.png"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "CYL-1 D1",
+      "price": 3508,
+      "inStock": true,
+      "image": "/images/products/venezia-cyl-1-d1-antichnoe-serebro.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/bee/beed4fb5fe29edf91d84db0bb3928927.png"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "CYL-1 D1",
+      "price": 2734,
+      "inStock": true,
+      "image": null
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладка под евроцилиндр"
+    },
+    {
+      "k": "Розетка",
+      "v": "D1 (классическая)"
+    },
+    {
+      "k": "Комплектация",
+      "v": "2 шт"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Пара классических накладок Venezia под цилиндр на фигурной розетке D1. Сочетаются с классическими ручками и фиксаторами Venezia. Выпускаются в латуни, бронзе, хроме, французском золоте и античном серебре.",
+  "intro": "Venezia CYL-1 D1 - пара классических накладок под цилиндр на фигурной розетке D1. Они сочетаются с классическими ручками и фиксаторами Venezia и выпускаются в семи отделках: полированный и матовый хром, полированная латунь, матовая и античная бронза, французское золото и античное серебро.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Розетка D1",
+          "text": "Та же фигурная классическая розетка, что у фиксатора Venezia WC-2 D1.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Пара в комплекте",
+          "text": "Две накладки на обе стороны двери.",
+          "icon": "kit"
+        },
+        {
+          "title": "Античное серебро",
+          "text": "Редкая отделка для классических интерьеров в холодной гамме.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладка под евроцилиндр",
+        "Розетка | D1 (классическая)",
+        "Комплектация | 2 шт",
+        "Материал | латунь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Выберите ту же отделку, что у ручек и фиксатора Venezia",
+        "Замок нужен под евроцилиндр",
+        "Цилиндр Venezia 25/10/25 выпускается в тех же классических покрытиях",
+        "Симметричную розетку D1 ставят строго по оси ручки"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Накладки надевают на установленный цилиндр и стягивают винтами. Фигурную розетку ориентируют так же, как розетку ручки, иначе рисунок будет смотреть в разные стороны. Состаренные покрытия чистят только сухой тканью: полироль снимает патину."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Какой цилиндр взять к накладкам?",
+      "a": "Подойдёт любой евроцилиндр подходящей длины. В тон накладкам удобно выбрать Venezia ключ/ключ или ключ/вертушка 25/10/25."
+    },
+    {
+      "q": "Подходят ли накладки к современным ручкам?",
+      "a": "Фигурная розетка D1 рассчитана на классику. К современным ручкам лучше гладкие круглые или квадратные накладки."
+    },
+    {
+      "q": "Сколько штук в упаковке?",
+      "a": "Две, по одной на каждую сторону двери."
+    }
+  ],
+  "sourceUrl": "https://sdf-handle.ru/katalog/komplektuyuschie/nakladki-pod-cilindr/nakladki-pod-tsilindr-venezia/nakladka-pod-tsilindr-cyl-1-d1-venezia-VNZ1305/"
+}

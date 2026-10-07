@@ -1,0 +1,151 @@
+{
+  "slug": "fratelli-cattini-brescia-p34",
+  "name": "Ручка-кноб Fratelli Cattini BRESCIA P34 Ø62",
+  "brand": "fratelli-cattini",
+  "series": "BRESCIA",
+  "order": 222,
+  "category": "/catalog/dvernye-ruchki/knoby/",
+  "article": "BRESCIA P34",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "BRESCIA P34 OLV",
+      "price": 3974,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-brescia-p34-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-povorotnaja-fratelli-cattini-brescia-p34-62-olv-polirovannaja-latun-1sht.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "BRESCIA P34 CS",
+      "price": 3301,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-brescia-p34-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-povorotnaja-fratelli-cattini-brescia-p34-62-cs-matovyj-hrom-1sht.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "BRESCIA P34 BA",
+      "price": 4095,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-brescia-p34-antichnaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-povorotnaja-fratelli-cattini-brescia-p34-62-ba-antichnaja-bronza-1sht.jpg"
+    },
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "BRESCIA P34 NM",
+      "price": 3301,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-brescia-p34-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-povorotnaja-fratelli-cattini-brescia-p34-62-nm-chernyj-1sht.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-кноб"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "425"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 шт."
+    },
+    {
+      "k": "Диаметр кноба, мм",
+      "v": "62"
+    },
+    {
+      "k": "Комплектация",
+      "v": "1 шт."
+    }
+  ],
+  "description": "Круглый кноб BRESCIA диаметром 62 мм с выпуклой шляпкой в традиционном итальянском стиле. Подходит для межкомнатных и шкафных дверей, где нужна компактная поворотная ручка без рычага.",
+  "intro": "BRESCIA P34 представляет собой круглый кноб диаметром 62 мм с выпуклой шляпкой в традиционном итальянском стиле. Он подходит для межкомнатных и шкафных дверей, где нужна компактная поворотная ручка без рычага. Продаётся поштучно. Материал цинковый сплав, производство Италия.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Выпуклая шляпка",
+          "text": "Классический профиль кноба перекликается с традиционными итальянскими ручками.",
+          "icon": "handle"
+        },
+        {
+          "title": "Компактный размер",
+          "text": "Диаметр 62 мм подходит для узких дверей и шкафов.",
+          "icon": "box"
+        },
+        {
+          "title": "Четыре покрытия",
+          "text": "Полированная латунь, матовый хром, античная бронза и матовый чёрный.",
+          "icon": "rosette"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные, шкафные",
+        "Диаметр кноба | 62 мм",
+        "Вес | 425 г",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Комплектация | 1 шт.",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "На межкомнатную дверь нужно два кноба, цена указана за один.",
+        "Кноб без рычага удобен там, где ручка может цепляться за одежду, например в гардеробной.",
+        "Для детской учтите, что маленький ребёнок не всегда может провернуть кноб.",
+        "Защёлку подбирают под модель отдельно."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем кноб отличается от нажимной ручки?",
+      "a": "Кноб открывает дверь поворотом, а не нажатием. Он компактнее и не цепляется за одежду, но требует свободной руки."
+    },
+    {
+      "q": "Подойдёт ли BRESCIA для шкафа?",
+      "a": "Да, на шкафных дверях кноб используют как неподвижную тянущую ручку или ставят с защёлкой."
+    },
+    {
+      "q": "Какой диаметр у кноба?",
+      "a": "62 мм."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-dvernaja-knob-povorotnaja-fratelli-cattini-brescia-p34-62-olv-polirovannaja-latun-1sht/"
+}

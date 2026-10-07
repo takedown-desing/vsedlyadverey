@@ -1,0 +1,143 @@
+{
+  "slug": "morelli-mh-kh-round",
+  "name": "Накладка под цилиндр Morelli MH-KH круглая",
+  "brand": "morelli",
+  "series": null,
+  "order": 432,
+  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "article": "MH-KH",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "MH-KH AB",
+      "price": 732,
+      "inStock": true,
+      "image": "/images/products/morelli-mh-kh-round-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/December2020/dAAxTm7uJo6BanBobz2V.webp"
+    },
+    {
+      "finish": "матовый никель / хром",
+      "color": "nickel",
+      "article": "MH-KH SN/CP",
+      "price": 732,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-kh-round-matovyy-nikel-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/QOfmuDPkKHZX3Tmhyslm.webp"
+    },
+    {
+      "finish": "матовый хром / хром",
+      "color": "chrome",
+      "article": "MH-KH SC/CP",
+      "price": 732,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-kh-round-matovyy-hrom-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/9JPSPO3MqFWmCJGhs791.webp"
+    },
+    {
+      "finish": "матовое золото / золото",
+      "color": "gold",
+      "article": "MH-KH SG/GP",
+      "price": 764,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-kh-round-matovoe-zoloto-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/Zm1MNa8U8FrFuYnk2WQJ.webp"
+    },
+    {
+      "finish": "матовая античная бронза",
+      "color": "bronze",
+      "article": "MH-KH MAB/AB",
+      "price": 764,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-kh-round-matovaya-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/DjrFOwiI64iYcewVNPEB.webp"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "MH-KH GP",
+      "price": 764,
+      "inStock": false,
+      "image": "/images/products/morelli-mh-kh-round-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/SVs8nnmu7Gmpqb7O0OLW.webp"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладка под евроцилиндр"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    }
+  ],
+  "description": "Декоративная накладка Morelli на круглой розетке, закрывает отверстие под цилиндр. Подбирается в тон ручке и завертке Morelli. Много отделок: от хрома и никеля до кофе и античной бронзы.",
+  "intro": "Morelli MH-KH - декоративная накладка на круглой розетке, которая закрывает отверстие под евроцилиндр. Она подбирается в тон ручке и завертке Morelli и выпускается в шести вариантах, включая двухтонные сочетания матового и глянцевого покрытия. Корпус из цинкового сплава.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Закрывает отверстие",
+          "text": "Накладка скрывает край отверстия в полотне и оставляет видимым только торец цилиндра.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Серия MH",
+          "text": "Пара к ручкам Morelli и завертке MH-WC на круглой розетке.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Двухтонные отделки",
+          "text": "Матовый никель / хром, матовый хром / хром, матовое золото / золото и однотонные бронза и золото.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладка под евроцилиндр",
+        "Форма розетки | круглая",
+        "Материал | цинковый сплав",
+        "Двери | межкомнатные"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "На дверь нужны две накладки, уточните, продаётся штука или пара",
+        "Нужен замок под цилиндр, например Morelli IM L",
+        "Цилиндр берите с учётом толщины накладок",
+        "Цвет цилиндра Morelli HS можно подобрать в тон накладке"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли накладка к цилиндру другого бренда?",
+      "a": "Да, отверстие рассчитано на стандартный профильный евроцилиндр."
+    },
+    {
+      "q": "Нужна ли накладка, если есть ручка на планке?",
+      "a": "Нет, у ручек на планке отверстие под цилиндр уже есть в самой планке."
+    },
+    {
+      "q": "Есть ли к ней завертка в той же серии?",
+      "a": "Да, Morelli MH-WC на круглой розетке в тех же отделках."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/181"
+}

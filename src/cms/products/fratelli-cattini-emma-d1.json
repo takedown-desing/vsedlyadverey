@@ -1,0 +1,152 @@
+{
+  "slug": "fratelli-cattini-emma-d1",
+  "name": "Дверная ручка Fratelli Cattini EMMA D1 на круглой розетке",
+  "brand": "fratelli-cattini",
+  "series": "EMMA",
+  "order": 210,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "EMMA D1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "D1-OLV",
+      "price": 4969,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-d1-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-emma-d1-olv-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "D1-BY",
+      "price": 4969,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-d1-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-emma-d1-by-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "D1-CR",
+      "price": 4969,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-d1-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-emma-d1-cr-polirovannyj-hrom.jpg"
+    },
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "D1-NM",
+      "price": 4758,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-emma-d1-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-emma-d1-nm-matovyj-chernyj.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "618"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "EMMA выполнена в классической манере: изогнутый рычаг с утолщением на конце и профилированная круглая розетка D1. Латунный корпус и покрытия под бронзу и латунь делают ее подходящей для классических и неоклассических интерьеров.",
+  "intro": "EMMA D1 сделана в классической манере: изогнутый рычаг с утолщением на конце и профилированная круглая розетка. Латунный корпус и тёплые покрытия под латунь и бронзу подходят для классических и неоклассических интерьеров. Модель выпускается в Италии, комплект рассчитан на одну дверь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Классический силуэт",
+          "text": "Утолщение на конце рычага и изгиб напоминают традиционные итальянские ручки.",
+          "icon": "handle"
+        },
+        {
+          "title": "Профилированная розетка D1",
+          "text": "Ступенчатый профиль основания добавляет объёма и подчёркивает классику.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь",
+          "text": "Корпус из латуни, комплект весит 618 г.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Стиль | классика, неоклассика",
+        "Двери | межкомнатные, в том числе филёнчатые",
+        "Розетка | круглая D1",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, полированный хром, матовый чёрный",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для классического интерьера фурнитуру всей квартиры лучше держать в одном покрытии.",
+        "Чёрный матовый переводит модель в неоклассику и хорошо смотрится на светлых дверях.",
+        "Защёлку и завёртку выбирайте отдельно, завёртку на такой же профилированной розетке.",
+        "Проверьте, что на филёнчатом полотне под розетку есть ровная зона."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Полированную латунь и хром протирают мягкой фланелью. Средства для чистки меди и латуни с абразивом использовать нельзя: они снимают защитный слой покрытия. Матовую бронзу достаточно очищать влажной тканью и вытирать насухо."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли EMMA к белой классической двери?",
+      "a": "Да, на белой филёнчатой двери хорошо смотрятся полированная латунь и матовая бронза, а для неоклассики удачен матовый чёрный."
+    },
+    {
+      "q": "Из какого материала ручка?",
+      "a": "Корпус и рычаг латунные, вес комплекта 618 г."
+    },
+    {
+      "q": "Что ещё нужно купить к ручке?",
+      "a": "Защёлку или замок, а для ванной и спальни поворотную завёртку. Накладки подбирают на круглой розетке в тон."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-ema-77-olv-polirovannaja-latun/"
+}

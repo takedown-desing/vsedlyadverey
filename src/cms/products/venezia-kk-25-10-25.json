@@ -1,0 +1,147 @@
+{
+  "slug": "venezia-kk-25-10-25",
+  "name": "Цилиндровый механизм Venezia ключ/ключ 25/10/25",
+  "brand": "venezia",
+  "series": null,
+  "order": 444,
+  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "article": "25/10/25",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "французское золото",
+      "color": "gold",
+      "article": "25/10/25",
+      "price": 3673,
+      "inStock": true,
+      "image": "/images/products/venezia-kk-25-10-25-francuzskoe-zoloto.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/da5/da5d2a7abf08e66863b70136770da198.png"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "25/10/25",
+      "price": 3673,
+      "inStock": true,
+      "image": "/images/products/venezia-kk-25-10-25-antichnoe-serebro.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/d05/d05feb5768ea8570c297630e3c4a486a.png"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "25/10/25",
+      "price": 3131,
+      "inStock": true,
+      "image": null
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "25/10/25",
+      "price": 2696,
+      "inStock": false,
+      "image": "/images/products/venezia-kk-25-10-25-polirovannaya-latun.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/2a3/2a35eb16a0211bf3f687b09610acdccb.png"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "25/10/25",
+      "price": 3025,
+      "inStock": false,
+      "image": "/images/products/venezia-kk-25-10-25-matovaya-bronza.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/56d/56d3b545af1e2af641e550b995814420.png"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "25/10/25",
+      "price": 3025,
+      "inStock": false,
+      "image": "/images/products/venezia-kk-25-10-25-antichnaya-bronza.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/59d/59d5a1605ba9dbea8bb7c8b1337457af.png"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ключ/ключ"
+    },
+    {
+      "k": "Длина, мм",
+      "v": "60 (25+10+25)"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Итальянский цилиндр Venezia длиной 60 мм для межкомнатных дверей. Корпус выпускается в тех же покрытиях, что и классическая фурнитура Venezia: латунь, бронза, хром, французское золото, чёрный. Открывается ключом с обеих сторон.",
+  "intro": "Venezia ключ/ключ 25/10/25 - итальянский цилиндр длиной 60 мм для межкомнатных дверей в классическом стиле. Латунный корпус выпускается в покрытиях классической фурнитуры Venezia: французское золото, античное серебро, чёрный, полированная латунь, матовая и античная бронза. Дверь открывается ключом с обеих сторон.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Под классику",
+          "text": "Цвета совпадают с ручками и накладками Venezia, цилиндр не выделяется на двери.",
+          "icon": "handle"
+        },
+        {
+          "title": "25+10+25",
+          "text": "Симметричная схема: по 25 мм в каждую сторону и 10 мм центральная часть.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Латунный корпус",
+          "text": "Латунь стойкая к коррозии и держит декоративное покрытие.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ключ/ключ",
+        "Длина | 60 мм (25+10+25)",
+        "Материал | латунь",
+        "Двери | межкомнатные",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Отделку подберите под накладки Venezia CYL-1 D1",
+        "Проверьте, что 60 мм хватает на толщину вашей двери",
+        "Для спальни удобнее версия ключ/вертушка",
+        "Замок нужен под стандартный евроцилиндр"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли цилиндр к накладкам другого бренда?",
+      "a": "Да, профиль стандартный. Но точное совпадение оттенка бронзы или французского золота гарантирует только фурнитура Venezia."
+    },
+    {
+      "q": "Какая толщина двери подходит?",
+      "a": "Цилиндр 60 мм рассчитан на тонкие межкомнатные полотна с накладками. Точнее проверьте по месту: цилиндр должен выступать на 1-3 мм."
+    },
+    {
+      "q": "Есть ли версия с вертушкой?",
+      "a": "Да, Venezia ключ/вертушка 25/10/25 той же длины и в классических отделках."
+    }
+  ],
+  "sourceUrl": "https://sdf-handle.ru/katalog/cilindry/zamki-i-cilindry-venezia/tsilindr-klyuch-klyuch-25-10-25-venezia-VNZ2032/"
+}

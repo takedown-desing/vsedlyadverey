@@ -1,0 +1,139 @@
+{
+  "slug": "armadillo-def-uss-k25",
+  "name": "Броненакладка Armadillo DEF.USS/K.25 Protector",
+  "brand": "armadillo",
+  "series": "Protector",
+  "order": 451,
+  "category": "/catalog/cilindry/bronenakladki/",
+  "article": "DEF.USS/K.25",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "воронёный никель",
+      "color": "nickel",
+      "article": "DEF.USS/K.25 BPVD",
+      "price": 1420,
+      "inStock": true,
+      "image": "/images/products/armadillo-def-uss-k25-voronenyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/42981_01.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "DEF.USS/K.25 CP",
+      "price": 898,
+      "inStock": true,
+      "image": "/images/products/armadillo-def-uss-k25-hrom.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/41929_01.jpg"
+    },
+    {
+      "finish": "итальянский тиснёный",
+      "color": "other",
+      "article": "DEF.USS/K.25 MWSC",
+      "price": 1420,
+      "inStock": true,
+      "image": "/images/products/armadillo-def-uss-k25-italyanskiy-tisnenyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/41933_01.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "DEF.USS/K.25 SN",
+      "price": 1420,
+      "inStock": true,
+      "image": "/images/products/armadillo-def-uss-k25-matovyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/41931_01.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "DEF.USS/K.25 BL",
+      "price": 1420,
+      "inStock": false,
+      "image": "/images/products/armadillo-def-uss-k25-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/42983_01.jpg"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "entrance"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "накладная броненакладка на цилиндр"
+    },
+    {
+      "k": "Серия",
+      "v": "Protector/USS"
+    }
+  ],
+  "description": "Броненакладка Armadillo защищает цилиндр входной двери от вырывания и высверливания. Квадратная декоративная крышка сочетается с ручками Armadillo серии Urban. Пять отделок, включая чёрный и воронёный никель.",
+  "intro": "Armadillo DEF.USS/K.25 Protector - накладная броненакладка, которая защищает цилиндр входной двери от вырывания и высверливания. Квадратная декоративная крышка сочетается с ручками Armadillo серии Urban. Пять отделок: воронёный никель, хром, итальянский тиснёный, матовый никель и чёрный.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Защита цилиндра",
+          "text": "Броненакладка закрывает выступающую часть цилиндра и мешает захватить его инструментом.",
+          "icon": "shield"
+        },
+        {
+          "title": "Накладной монтаж",
+          "text": "Не требует врезки в полотно, крепится на поверхность двери.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Квадратная крышка",
+          "text": "Декоративная часть в стиле Urban под квадратные ручки входной двери.",
+          "icon": "rosette"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | накладная броненакладка на цилиндр",
+        "Серия | Protector/USS",
+        "Материал | сталь",
+        "Двери | входные"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Цилиндр должен выступать из накладки минимально, выберите длину с учётом её толщины",
+        "Проверьте совместимость с вашим замком по расположению крепежа",
+        "Цвет крышки подберите под ручку входной двери",
+        "Броненакладку ставят снаружи, со стороны возможного вскрытия"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Накладную броненакладку крепят стяжными винтами сквозь полотно к внутренней части. Цилиндр после установки не должен выступать за её плоскость больше чем на 1-2 мм. Декоративную крышку протирают мягкой тканью, уличную грязь смывают тёплой водой без абразива."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем накладная броненакладка отличается от врезной?",
+      "a": "Накладную ставят на поверхность без выборки металла, врезную утапливают в полотно. Врезная менее заметна, накладная проще в монтаже."
+    },
+    {
+      "q": "Подойдёт ли к ручкам другого бренда?",
+      "a": "Функционально да. Квадратная крышка стилистически рассчитана на Armadillo Urban."
+    },
+    {
+      "q": "Защитит ли от всех видов вскрытия?",
+      "a": "Броненакладка защищает цилиндр от вырывания и высверливания, но не заменяет сам цилиндр с хорошей секретностью."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/bronenakladka-armadillo-armadillo-def-uss-k-25-protector-uss-bpvd-voronenyj-nikel/"
+}

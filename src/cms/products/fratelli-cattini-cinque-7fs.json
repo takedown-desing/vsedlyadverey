@@ -1,0 +1,152 @@
+{
+  "slug": "fratelli-cattini-cinque-7fs",
+  "name": "Дверная ручка Fratelli Cattini CINQUE 7FS на круглой розетке",
+  "brand": "fratelli-cattini",
+  "series": "CINQUE",
+  "order": 205,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "CINQUE 7FS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "7FS-NM",
+      "price": 5737,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cinque-7fs-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-cinque-7fs-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовая медь",
+      "color": "copper",
+      "article": "7FS-CU",
+      "price": 6619,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-cinque-7fs-matovaya-med.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-cinque-7fs-cu-matovaja-med.1.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "7FS-BS",
+      "price": 6016,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cinque-7fs-matovaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-cinque-7fs-bs-matovaja-latun.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "7FS-CS",
+      "price": 5737,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-cinque-7fs-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-cinque-7fs-cs-matovyj-hrom.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "655"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "CINQUE имеет пятигранный рычаг, грани которого красиво играют на свету и делают ручку заметной даже в матовом исполнении. Тонкая розетка 7FS почти сливается с полотном. Хороший выбор для современных интерьеров, где фурнитура должна быть акцентом.",
+  "intro": "CINQUE 7FS выделяется пятигранным рычагом: грани ловят свет и делают ручку заметной даже в матовом покрытии. Тонкая розетка 7FS почти незаметна на полотне, поэтому всё внимание достаётся форме рычага. Хороший вариант, когда фурнитура должна стать акцентом.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Пять граней",
+          "text": "Игра света на плоскостях рычага меняет вид ручки в течение дня.",
+          "icon": "handle"
+        },
+        {
+          "title": "Низкая розетка",
+          "text": "Круглое основание 7FS едва выступает над дверью и не спорит с рычагом.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Матовая медь",
+          "text": "Редкое для межкомнатной фурнитуры покрытие, которое хорошо работает с деревом и терракотой.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип двери | межкомнатные распашные",
+        "Стиль интерьера | современный",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Вес | 655 г",
+        "Покрытия | матовый чёрный, матовая медь, матовая латунь, матовый хром",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Медь и латунь лучше поддержать петлями и упорами тёплого оттенка.",
+        "Защёлка в комплект не входит, выбирайте механизм под стандартный квадрат.",
+        "Для ванной нужна завёртка на тонкой круглой розетке.",
+        "Уточните наличие выбранного покрытия, если заказываете ручки на несколько дверей сразу."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Гальванические матовые покрытия моют мягкой тканью с тёплой водой. Грани рычага удобно протирать микрофиброй. Средства с аммиаком, кислотой и абразивом не используйте: на меди и латуни они оставляют пятна и меняют оттенок."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Будут ли видны грани в матовом покрытии?",
+      "a": "Да, пятигранный рычаг по-разному отражает свет на каждой плоскости, поэтому форма читается и в матовом исполнении."
+    },
+    {
+      "q": "Из чего сделана ручка?",
+      "a": "Из цинкового сплава ЦАМ с гальваническим покрытием. Комплект весит 655 г."
+    },
+    {
+      "q": "Что выбрать к тёмной двери?",
+      "a": "На тёмном шпоне и эмали эффектно смотрятся медь и латунь. Матовый чёрный на тёмном полотне будет почти незаметен."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-cinque-7fs-nm-matovyj-chernyj/"
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "armadillo-soho-urs52",
+  "name": "Дверная ручка Armadillo SOHO URS52 на круглой розетке",
+  "brand": "armadillo",
+  "series": "SOHO",
+  "order": 260,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "R.URS52.SOHO",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "медь",
+      "color": "copper",
+      "article": "R.URS52.SOHO AC-9",
+      "price": 2642,
+      "inStock": true,
+      "image": "/images/products/armadillo-soho-urs52-med.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/57623_01.jpg"
+    },
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "R.URS52.SOHO BL-26",
+      "price": 2559,
+      "inStock": true,
+      "image": "/images/products/armadillo-soho-urs52-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/48975_01.jpg"
+    },
+    {
+      "finish": "флорентийское золото",
+      "color": "gold",
+      "article": "R.URS52.SOHO FSG-39",
+      "price": 2709,
+      "inStock": true,
+      "image": "/images/products/armadillo-soho-urs52-florentiyskoe-zoloto.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/48971_01.jpg"
+    },
+    {
+      "finish": "итальянский тисненый",
+      "color": "other",
+      "article": "R.URS52.SOHO MWSC-33",
+      "price": 2576,
+      "inStock": true,
+      "image": "/images/products/armadillo-soho-urs52-italyanskiy-tisnenyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/48973_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Urban SLIM"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "1193"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    }
+  ],
+  "description": "Силуэт SOHO вдохновлен башнями Wanjing SOHO в Пекине по проекту Захи Хадид: рычаг плавно изгибается, как фасад небоскреба. Ручка из серии Urban Slim стоит на тонкой круглой розетке и подходит для современных межкомнатных дверей. Покрытия от черного до меди и флорентийского золота.",
+  "intro": "Силуэт SOHO URS52 вдохновлён башнями Wanjing SOHO в Пекине по проекту Захи Хадид: рычаг плавно изгибается, как фасад небоскрёба. Ручка из серии Armadillo Urban SLIM стоит на тонкой круглой розетке и подходит для современных межкомнатных дверей. Покрытия от чёрного до меди и флорентийского золота.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Архитектурный изгиб",
+          "text": "Пластика рычага отсылает к обтекаемым формам параметрической архитектуры.",
+          "icon": "handle"
+        },
+        {
+          "title": "Urban SLIM",
+          "text": "Тонкая круглая розетка серии SLIM почти не выступает над полотном.",
+          "icon": "rosette"
+        },
+        {
+          "title": "1193 г",
+          "text": "Массивный литой комплект с ощутимым весом.",
+          "icon": "shield"
+        },
+        {
+          "title": "Медь и золото",
+          "text": "Тёплые покрытия подчёркивают плавную форму.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | современные межкомнатные",
+        "Коллекция | Urban SLIM",
+        "Розетка | круглая",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | медь, чёрный, флорентийское золото, итальянский тиснёный",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Тяжёлой ручке нужна защёлка с надёжной пружиной.",
+        "К SOHO подойдут купе-ручки Armadillo Urban в тех же покрытиях.",
+        "Медь со временем может немного менять оттенок, это надо учитывать при сочетании с другой фурнитурой.",
+        "Завёртки и накладки подбирают на тонкой круглой розетке."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Откуда такой дизайн?",
+      "a": "Форма вдохновлена башнями Wanjing SOHO в Пекине по проекту Захи Хадид."
+    },
+    {
+      "q": "Какой вес у комплекта?",
+      "a": "1193 г."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "5 лет."
+    },
+    {
+      "q": "Какие покрытия у SOHO?",
+      "a": "Медь, чёрный, флорентийское золото и итальянский тиснёный."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-razdelnaya-r-urs52-soho-ac-9-med/"
+}

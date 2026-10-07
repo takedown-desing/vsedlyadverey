@@ -1,0 +1,139 @@
+{
+  "slug": "forme-antares-218k",
+  "name": "Дверная ручка Forme Antares 218K на квадратной розетке 50K",
+  "brand": "forme",
+  "series": "Antares",
+  "order": 273,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "218K",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "218K",
+      "price": 6645,
+      "inStock": true,
+      "image": "/images/products/forme-antares-218k-matovyy-hrom.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/733/733580f3f52482dad2923c1c8168fbbe.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "218K",
+      "price": 6645,
+      "inStock": true,
+      "image": "/images/products/forme-antares-218k-polirovannyy-hrom.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/cc9/cc9abe66f8aae7a9086b632a53f2729d.png"
+    },
+    {
+      "finish": "белая",
+      "color": "white",
+      "article": "218K",
+      "price": 6645,
+      "inStock": true,
+      "image": "/images/products/forme-antares-218k-belaya.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/e3b/e3bcecd6f88eafeef9a3767ae2cc86b1.jpg"
+    },
+    {
+      "finish": "графит",
+      "color": "graphite",
+      "article": "218K",
+      "price": 5238,
+      "inStock": true,
+      "image": "/images/products/forme-antares-218k-grafit.jpg",
+      "imageSrc": "https://zamkitut.com/upload/iblock/405/405d38a560932befc0fddbc12d42a067.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    },
+    {
+      "k": "Размер розетки, мм",
+      "v": "50"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    }
+  ],
+  "description": "Antares от Forme отличается прямым рычагом со срезанными гранями на квадратной розетке 50 мм. Лаконичный дизайн хорошо подходит к гладким межкомнатным полотнам, а графит и затемненное серебро позволяют уйти от привычного хрома.",
+  "intro": "Forme Antares 218K получила прямой рычаг со срезанными гранями на квадратной розетке 50 мм. Лаконичный дизайн хорошо подходит к гладким межкомнатным полотнам, а белое и графитовое исполнения позволяют отойти от привычного хрома. Латунная ручка итальянского производства.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Срезанные грани",
+          "text": "Фаски на прямом рычаге делают его чётче и легче.",
+          "icon": "handle"
+        },
+        {
+          "title": "Квадрат 50 мм",
+          "text": "Розетка 50K сочетается с квадратными накладками.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Белая версия",
+          "text": "Ручка почти исчезает на белом эмалевом полотне.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | гладкие межкомнатные",
+        "Розетка | квадратная, 50 мм",
+        "Материал | латунь",
+        "Покрытия | матовый хром, полированный хром, белая, графит",
+        "Страна производства | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Белую ручку сочетайте с белыми петлями, иначе фурнитура будет разнородной.",
+        "Графит хорошо смотрится на серых и тёмных полотнах.",
+        "Механизм защёлки приобретается отдельно.",
+        "Подберите квадратные накладки того же размера."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Белое покрытие моют мягкой губкой с мыльной водой, полированный хром вытирают насухо. Графит и матовый хром протирают микрофиброй. Растворители и абразивные порошки повреждают покрытие латуни и оставляют пятна."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем Antares отличается от Artemida?",
+      "a": "У Antares прямой рычаг со срезанными гранями, у Artemida рычаг с вогнутыми гранями, расширяющийся к краю. Розетка 50 мм у обеих."
+    },
+    {
+      "q": "Подойдёт ли белая версия для детской?",
+      "a": "Да, белая ручка на светлой двери выглядит спокойно и не выделяется."
+    },
+    {
+      "q": "Какой материал корпуса?",
+      "a": "Из латуни."
+    }
+  ],
+  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya-ruchka-forme-mod-antares-218k-matovyy-khrom-na-rozetke-50k/"
+}

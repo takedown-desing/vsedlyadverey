@@ -1,0 +1,179 @@
+{
+  "slug": "krona-koblenz-spinoff-y85",
+  "name": "Магнитный замок Krona Koblenz Spinoff Y85 под цилиндр с доводчиком",
+  "brand": "krona-koblenz",
+  "series": "Spinoff",
+  "order": 393,
+  "category": "/catalog/mezhkomnatnye-zamki/pod-cilindr/",
+  "article": "KM.002.CM.A.4.COV",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "состаренная бронза",
+      "color": "bronze",
+      "article": "KM.002.CM.A.4.COV.BS",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-y85-sostarennaya-bronza.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/343454.png"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "KM.002.CM.A.4.COV.BR",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-y85-bronza.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/32434566.png"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "KM.002.CM.A.4.COV.CL",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-y85-hrom.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/3435345344.png"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "KM.002.CM.A.4.COV.NS",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-y85-matovyy-nikel.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/234234.png"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "KM.002.CM.A.4.COV.OS",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-y85-matovoe-zoloto.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/109/43443-OS.png"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "KM.002.CM.A.4.COV.OL",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-y85-zoloto.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/109/4345-OL.png"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "KM.002.CM.A.4.COV.BI",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-y85-belyy.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/110/sf-bi.png"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "KM.002.CM.A.4.COV.NO",
+      "price": 2716,
+      "inStock": true,
+      "image": "/images/products/krona-koblenz-spinoff-y85-chernyy.jpg",
+      "imageSrc": "https://krona-koblenz.ru/images/detailed/109/353455df.png"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "магнитный замок под цилиндр"
+    },
+    {
+      "k": "Язычок",
+      "v": "магнитный"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "85"
+    },
+    {
+      "k": "Особенность",
+      "v": "встроенный доводчик язычка"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    },
+    {
+      "k": "Отделки к заказу",
+      "v": "бронза, состаренная бронза, золото полированное, золото матовое, латунь полированная, хром полированный, хром матовый, никель матовый, белый, чёрный"
+    }
+  ],
+  "description": "Замок Spinoff под евроцилиндр для кабинетов, гардеробных и детских. Магнитный язычок с доводчиком работает тихо, а стальная торцевая планка крепится без видимых шурупов. Доступен к заказу в десяти отделках: бронза, состаренная бронза, золото полированное, золото матовое, латунь полированная, хром полированный, хром матовый, никель матовый, белый, чёрный. Поставщик расширяет палитру, наличие нужного цвета уточняйте у менеджера.",
+  "intro": "Krona Koblenz Spinoff Y85 - магнитный замок под евроцилиндр для кабинетов, гардеробных и детских. Межосевое 85 мм, язычок с встроенным доводчиком, стальная торцевая планка крепится без видимых шурупов. Итальянская модель доступна к заказу в десяти отделках, от бронзы и золота до белого и чёрного.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Цилиндр и доводчик",
+          "text": "Комната запирается ключом, а магнитный язычок с доводчиком закрывает дверь мягко и до конца.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Чистый торец",
+          "text": "Шурупы спрятаны: на торце двери видна только гладкая стальная планка.",
+          "icon": "seal"
+        },
+        {
+          "title": "Десять отделок",
+          "text": "Десять отделок: бронза, состаренная бронза, золото полированное, золото матовое, латунь полированная, хром полированный, хром матовый, никель матовый, белый, чёрный.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | магнитный замок под цилиндр",
+        "Межосевое расстояние | 85 мм",
+        "Язычок | магнитный, с доводчиком",
+        "Цилиндр | евроцилиндр, приобретается отдельно",
+        "Страна | Италия",
+        "Отделки к заказу | бронза, состаренная бронза, золото полированное, золото матовое, латунь полированная, хром полированный, хром матовый, никель матовый, белый, чёрный"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Докупите цилиндр ключ/ключ или ключ/вертушка нужной длины",
+        "К цилиндру нужны две накладки в тон ручке",
+        "Бэксет не указан в карточке: сверьте его по паспорту перед выбором ручки",
+        "Для ручки на планке нужно отверстие под цилиндр на 85 мм от квадрата"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Какую комнату имеет смысл запирать таким замком?",
+      "a": "Кабинет, гардеробную, детскую или кладовую, где нужно ограничить доступ. Для санузла лучше модель WC96 с заверткой."
+    },
+    {
+      "q": "Можно ли открыть дверь изнутри без ключа?",
+      "a": "Да, если поставить цилиндр ключ/вертушка: изнутри ригель поворачивают вертушкой."
+    },
+    {
+      "q": "Подойдёт ли цилиндр другого бренда?",
+      "a": "Подойдёт любой стандартный евроцилиндр подходящей длины. Цвет лучше подобрать под накладки."
+    }
+  ],
+  "sourceUrl": "https://krona-koblenz.ru/magnitnye-zamki-spinoff-s-dovodchikom/"
+}

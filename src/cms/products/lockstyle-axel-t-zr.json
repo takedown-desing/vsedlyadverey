@@ -1,0 +1,139 @@
+{
+  "slug": "lockstyle-axel-t-zr",
+  "name": "Дверная ручка LockStyle AXEL-T ZR на круглой розетке",
+  "brand": "lockstyle",
+  "series": "AXEL-T",
+  "order": 28,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "AXEL-T ZR",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "AXEL-T ZR AL6",
+      "price": 3200,
+      "inStock": true,
+      "image": "/images/products/lockstyle-axel-t-zr-chernyy.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/AXEL_LOCK_AL6-1000x1000.png"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "AXEL-T ZR BB",
+      "price": 4000,
+      "inStock": true,
+      "image": "/images/products/lockstyle-axel-t-zr-matovoe-zoloto.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/AXEL_LOCK_BB-1000x1000.png"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "AXEL-T ZR NBM",
+      "price": 3350,
+      "inStock": true,
+      "image": "/images/products/lockstyle-axel-t-zr-matovyy-nikel.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/AXEL_LOCK_NBM-1000x1000.png"
+    }
+  ],
+  "material": "ЦАМ",
+  "style": "loft",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Рычаг",
+      "v": "цилиндрический с насечкой"
+    },
+    {
+      "k": "Материал",
+      "v": "ЦАМ"
+    },
+    {
+      "k": "Гарантия",
+      "v": "1 год"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    }
+  ],
+  "description": "Ручка LockStyle AXEL-T с цилиндрическим рычагом и рифлёной насечкой, которая приятно ложится в ладонь и не скользит. Тонкая круглая розетка и сдержанные матовые покрытия хорошо подходят для лофта и современных интерьеров. Доступна в чёрном, матовом золоте и матовом никеле.",
+  "intro": "LockStyle AXEL-T ZR это ручка с цилиндрическим рычагом и рифлёной насечкой на тонкой круглой розетке. Насечка не даёт руке скользить, а сдержанные матовые покрытия, чёрный, матовое золото и матовый никель, хорошо подходят для лофта и современных интерьеров. Корпус из сплава ЦАМ.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рифлёная насечка",
+          "text": "Цилиндрический рычаг с насечкой приятно ложится в ладонь и даёт уверенный хват.",
+          "icon": "handle"
+        },
+        {
+          "title": "Тонкая круглая розетка",
+          "text": "Низкая розетка подчёркивает форму рычага и не перегружает полотно.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Три матовых покрытия",
+          "text": "Чёрный, матовое золото и матовый никель для лофта, сканди и неоклассики.",
+          "icon": "check"
+        },
+        {
+          "title": "Сплав ЦАМ",
+          "text": "Литой цинковый сплав, стандартный материал для ручек межкомнатных дверей.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные",
+        "Тип | ручка на розетке",
+        "Розетка | круглая",
+        "Рычаг | цилиндрический с насечкой",
+        "Материал | ЦАМ",
+        "Гарантия | 1 год"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Защёлку подбирайте под квадрат ручки, уточните его при заказе",
+        "Матовое золото хорошо смотрится с латунными и золотыми петлями",
+        "Для санузла потребуется WC-завертка на круглой розетке",
+        "Проверьте толщину двери под длину крепежа"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Для какого интерьера подходит AXEL-T?",
+      "a": "Цилиндрическая форма и насечка ближе к лофту, индустриальному и современному стилю. Матовое золото подойдёт и к неоклассике."
+    },
+    {
+      "q": "Не собирается ли грязь в насечке?",
+      "a": "Насечка неглубокая, её достаточно протирать влажной тканью. Щётки и абразивы использовать не нужно."
+    },
+    {
+      "q": "Можно ли сочетать с квадратными накладками?",
+      "a": "Лучше выбирать круглые накладки и завертки, чтобы форма розеток на двери совпадала."
+    }
+  ],
+  "sourceUrl": "https://furnitura96.ru/dvernaya-ruchka-lockstyle-axel-t-zr-al6-chernyj/"
+}

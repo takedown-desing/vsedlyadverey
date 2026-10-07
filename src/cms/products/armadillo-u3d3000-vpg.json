@@ -1,0 +1,154 @@
+{
+  "slug": "armadillo-u3d3000-vpg",
+  "name": "Скрытая петля Armadillo U3D3000 VPG",
+  "brand": "armadillo",
+  "series": "TECH",
+  "order": 308,
+  "category": "/catalog/dvernye-petli/skrytye/",
+  "article": "U3D3000.VPG",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "U3D3000.VPG SC",
+      "price": 1099,
+      "inStock": true,
+      "image": "/images/products/armadillo-u3d3000-vpg-matovyy-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/рубен/49117_01.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "U3D3000.VPG BL",
+      "price": 1099,
+      "inStock": true,
+      "image": "/images/products/armadillo-u3d3000-vpg-chernyy.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/рубен/324257.750x0.jpg"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "U3D3000.VPG WH",
+      "price": 1199,
+      "inStock": true,
+      "image": "/images/products/armadillo-u3d3000-vpg-belyy.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/рубен/324269.750x0.jpg"
+    },
+    {
+      "finish": "флорентийское золото",
+      "color": "gold",
+      "article": "U3D3000.VPG FSG",
+      "price": 1249,
+      "inStock": true,
+      "image": "/images/products/armadillo-u3d3000-vpg-florentiyskoe-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/рубен/7183864668.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "U3D3000.VPG AB",
+      "price": 1249,
+      "inStock": true,
+      "image": "/images/products/armadillo-u3d3000-vpg-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/рубен/324261.750x0.jpg"
+    }
+  ],
+  "material": "цинковый сплав ZAMAK",
+  "style": "minimal",
+  "doorTypes": [
+    "interior",
+    "aluminium"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "скрытая петля"
+    },
+    {
+      "k": "Регулировка",
+      "v": "3D"
+    },
+    {
+      "k": "Нагрузка на 2 петли, кг",
+      "v": "40"
+    },
+    {
+      "k": "Толщина полотна, мм",
+      "v": "от 35"
+    },
+    {
+      "k": "Подходит для",
+      "v": "деревянных дверей, дверей с притвором и с алюминиевой кромкой"
+    }
+  ],
+  "description": "Недорогая скрытая петля Armadillo для деревянных межкомнатных дверей, в том числе тонких, с притвором и с алюминиевой кромкой. Подходит для полотен от 35 мм, пара петель держит до 40 кг. Универсальна для левого и правого открывания.",
+  "intro": "Armadillo U3D3000 VPG скрытая петля серии TECH для деревянных межкомнатных дверей, в том числе тонких, с притвором и с алюминиевой кромкой. Она рассчитана на полотна от 35 мм, пара петель держит до 40 кг, регулировка 3D. Подходит для левого и правого открывания.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Двери с алюминиевой кромкой",
+          "text": "Модель допускает полотна с алюминиевой кромкой, что бывает не у всех скрытых петель.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Подходит для притвора",
+          "text": "Можно ставить на двери с притвором, не только на полотна заподлицо.",
+          "icon": "check"
+        },
+        {
+          "title": "Полотна от 35 мм",
+          "text": "Годится для стандартных тонких межкомнатных дверей.",
+          "icon": "shield"
+        },
+        {
+          "title": "Пять отделок",
+          "text": "Белый, чёрный, матовый хром, бронза и флорентийское золото.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | скрытая петля",
+        "Нагрузка | 40 кг на 2 петли",
+        "Толщина полотна | от 35 мм",
+        "Регулировка | 3D",
+        "Подходит для | деревянных дверей, дверей с притвором и алюминиевой кромкой",
+        "Материал | цинковый сплав ZAMAK"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Паспорт даёт 40 кг на две петли; для полотна тяжелее или выше стандарта ставьте три.",
+        "Если у двери алюминиевая кромка, уточните у установщика способ крепления к ней.",
+        "Под петлю нужна фрезеровка гнёзд в полотне и коробке.",
+        "Чтобы дверь не хлопала, подберите к ней магнитный замок и упор."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли U3D3000 для двери 40 кг?",
+      "a": "Да, две петли рассчитаны на 40 кг. Если полотно на пределе по весу или выше 2 м, надёжнее поставить три."
+    },
+    {
+      "q": "Нужно ли выбирать левую или правую петлю?",
+      "a": "Нет, модель универсальна для левого и правого открывания."
+    },
+    {
+      "q": "Можно ли поставить петлю на дверь с притвором?",
+      "a": "Да, производитель прямо указывает двери с притвором среди подходящих."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/petlya-armadillo-armadillo-skrytoj-ustanovki-u3d3000-vpg-sc-mat-hrom-tech.html"
+}

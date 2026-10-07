@@ -1,0 +1,148 @@
+{
+  "slug": "morelli-mhs150-kupe",
+  "name": "Ручка для раздвижной двери Morelli MHS150",
+  "brand": "morelli",
+  "series": null,
+  "order": 235,
+  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "article": "MHS150",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "MHS150 SC",
+      "price": 620,
+      "inStock": true,
+      "image": "/images/products/morelli-mhs150-kupe-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/wtdpXWYsFJXbvNiHpC9t.webp"
+    },
+    {
+      "finish": "белый никель",
+      "color": "nickel",
+      "article": "MHS150 SN",
+      "price": 620,
+      "inStock": true,
+      "image": "/images/products/morelli-mhs150-kupe-belyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/T2OhqKHpfvjh0RHrOG8h.webp"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "MHS150 SG",
+      "price": 620,
+      "inStock": true,
+      "image": "/images/products/morelli-mhs150-kupe-matovoe-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/MYWrVOJKnQbONFGBVjz2.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "MHS150 AB",
+      "price": 620,
+      "inStock": true,
+      "image": "/images/products/morelli-mhs150-kupe-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/JvXfs6uHbFZJtVKxJgPp.webp"
+    },
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "MHS150 BL",
+      "price": 620,
+      "inStock": true,
+      "image": "/images/products/morelli-mhs150-kupe-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/lEBu04yS3k8UjUJwa6Cf.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "MHS150 W",
+      "price": 620,
+      "inStock": true,
+      "image": "/images/products/morelli-mhs150-kupe-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/August2020/GNdTutCkxkUjKyRdEx4L.webp"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "sliding"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для раздвижной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "SIMPLE"
+    }
+  ],
+  "description": "Бюджетная врезная ручка Morelli MHS150 для межкомнатных раздвижных дверей и шкафов-купе. Корпус из цинкового сплава с гальваническим покрытием, продается поштучно. Шесть цветов позволяют подобрать ее к распашной фурнитуре в квартире.",
+  "intro": "Бюджетная врезная ручка Morelli MHS150 из коллекции SIMPLE рассчитана на межкомнатные раздвижные двери и шкафы-купе. Корпус из цинкового сплава с гальваническим покрытием, продаётся поштучно. Шесть цветов позволяют подобрать её к распашной фурнитуре в квартире.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Шесть цветов",
+          "text": "Хром, белый никель, золото, бронза, чёрный и белый.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Для шкафов и дверей",
+          "text": "Подходит и для межкомнатных раздвижных полотен, и для шкафов-купе.",
+          "icon": "slide"
+        },
+        {
+          "title": "Гальваника на ЦАМ",
+          "text": "Покрытие защищает корпус из цинкового сплава.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | раздвижные межкомнатные, шкафы-купе",
+        "Коллекция | SIMPLE",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый хром, белый никель, матовое золото, античная бронза, чёрный, белый",
+        "Продажа | поштучно"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для межкомнатной двери нужны две ручки, для шкафа-купе обычно одна на створку.",
+        "Белая ручка незаметна на белом полотне, чёрная выделит дверь.",
+        "Проверьте толщину створки шкафа: врезная ручка требует паза определённой глубины.",
+        "Замок для раздвижной двери в комплект не входит."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли MHS150 для шкафа-купе?",
+      "a": "Да, ручка рассчитана и на межкомнатные раздвижные двери, и на шкафы-купе."
+    },
+    {
+      "q": "Как продаётся ручка?",
+      "a": "Поштучно, поэтому количество считают по числу сторон и створок."
+    },
+    {
+      "q": "Какой цвет выбрать к белой двери?",
+      "a": "Белый сольётся с полотном, матовый хром и белый никель будут нейтральными, чёрный и золото станут акцентом."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/706"
+}

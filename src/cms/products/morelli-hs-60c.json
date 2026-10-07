@@ -1,0 +1,130 @@
+{
+  "slug": "morelli-hs-60c",
+  "name": "Цилиндровый механизм Morelli HS 60C ключ/ключ",
+  "brand": "morelli",
+  "series": "HS",
+  "order": 443,
+  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "article": "HS 60C",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "HS 60C PG",
+      "price": 804,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60c-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JB1ZR5NXAMD5F380F5KD3E7E.webp"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "HS 60C PC",
+      "price": 826,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60c-polirovannyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01JB2DK51RTBMJ45B79VAWM96Z.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "HS 60C AB",
+      "price": 891,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60c-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01K21P8RX81T5FE4P5EDV7SJ4B.webp"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "HS 60C SN",
+      "price": 891,
+      "inStock": false,
+      "image": "/images/products/morelli-hs-60c-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01K3GT1A1VBMFVZY1XBVFERK2E.png"
+    }
+  ],
+  "material": "латунь",
+  "style": null,
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ключ/ключ"
+    },
+    {
+      "k": "Длина, мм",
+      "v": "60"
+    },
+    {
+      "k": "Серия",
+      "v": "HS (повышенной секретности)"
+    }
+  ],
+  "description": "Цилиндр Morelli серии HS для межкомнатных замков под евроцилиндр. Отделка корпуса совпадает с палитрой ручек Morelli, поэтому торец цилиндра не выбивается по цвету. Открывается ключом с обеих сторон.",
+  "intro": "Morelli HS 60C - цилиндр ключ/ключ серии HS длиной 60 мм для межкомнатных замков под евроцилиндр. Латунный корпус окрашен в те же отделки, что и ручки Morelli: золото, полированный хром, античная бронза и матовый никель. Поэтому торец цилиндра не выбивается по цвету из комплекта фурнитуры.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Цвет в тон ручке",
+          "text": "Цилиндр можно подобрать в той же отделке, что ручки и накладки Morelli.",
+          "icon": "handle"
+        },
+        {
+          "title": "Серия HS",
+          "text": "Производитель относит серию к цилиндрам повышенной секретности.",
+          "icon": "lock"
+        },
+        {
+          "title": "Латунь",
+          "text": "Латунный корпус и длина 60 мм под типовые межкомнатные двери.",
+          "icon": "cylinder"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ключ/ключ",
+        "Длина | 60 мм",
+        "Серия | HS (повышенной секретности)",
+        "Материал | латунь",
+        "Двери | межкомнатные"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте, хватит ли 60 мм для вашей двери с накладками",
+        "Накладки Morelli MH-KH выпускаются в тех же тонах",
+        "Если изнутри нужна вертушка, берите HS 60CK",
+        "Уточните количество ключей при заказе"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли 60 мм для межкомнатной двери?",
+      "a": "Для типовых полотен около 35-40 мм с тонкими накладками чаще всего да. Для толстой двери нужен цилиндр длиннее."
+    },
+    {
+      "q": "С каким замком Morelli работает?",
+      "a": "С любым межкомнатным замком под евроцилиндр, например Morelli IM L."
+    },
+    {
+      "q": "Можно ли поставить HS 60C на входную дверь?",
+      "a": "Цилиндр рассчитан на межкомнатные двери. Для входной выбирают модели с защитой от высверливания и броненакладку."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2211"
+}

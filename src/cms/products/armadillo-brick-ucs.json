@@ -1,0 +1,153 @@
+{
+  "slug": "armadillo-brick-ucs",
+  "name": "Дверная ручка Armadillo BRICK UCS для входных и межкомнатных дверей",
+  "brand": "armadillo",
+  "series": "BRICK",
+  "order": 291,
+  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "article": "BRICK UCS",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "BRICK UCS BL-26",
+      "price": 5247,
+      "inStock": true,
+      "image": "/images/products/armadillo-brick-ucs-chernyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/41131_01.jpg"
+    },
+    {
+      "finish": "итальянский тисненый",
+      "color": "other",
+      "article": "BRICK UCS MWSC-33",
+      "price": 5247,
+      "inStock": true,
+      "image": "/images/products/armadillo-brick-ucs-italyanskiy-tisnenyy.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/41137_01.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "BRICK UCS SN-3",
+      "price": 5247,
+      "inStock": true,
+      "image": "/images/products/armadillo-brick-ucs-matovyy-nikel.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/41135_01.jpg"
+    },
+    {
+      "finish": "флорентийское золото",
+      "color": "gold",
+      "article": "BRICK UCS FSG-39",
+      "price": 5247,
+      "inStock": true,
+      "image": "/images/products/armadillo-brick-ucs-florentiyskoe-zoloto.jpg",
+      "imageSrc": "https://armadillo-msk.ru/wp-content/uploads/2025/04/48183_01.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "entrance",
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для входной двери"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Urban CAVE"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Вес, г",
+      "v": "1430"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "квадратная"
+    }
+  ],
+  "description": "BRICK с рычагом в форме вытянутого бруска относится к серии Armadillo Urban CAVE для дверей толщиной 32 до 62 мм. Строгая геометрия хорошо смотрится на входных металлических дверях с панелями МДФ и на современных межкомнатных полотнах.",
+  "intro": "BRICK с рычагом в форме вытянутого бруска входит в серию Armadillo Urban CAVE и, по данным производителя, рассчитана на двери толщиной от 32 до 62 мм. Строгая геометрия хорошо смотрится на входных металлических дверях с панелями МДФ и на современных межкомнатных полотнах. Вес 1430 г.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рычаг-брусок",
+          "text": "Прямоугольный объём без изгибов.",
+          "icon": "handle"
+        },
+        {
+          "title": "Толщина 32-62 мм",
+          "text": "Подходит для межкомнатных и входных полотен.",
+          "icon": "check"
+        },
+        {
+          "title": "1430 г",
+          "text": "Самая тяжёлая ручка серии Urban CAVE в каталоге.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | входные с панелями МДФ, межкомнатные",
+        "Толщина двери | 32-62 мм",
+        "Розетка | квадратная",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | чёрный, итальянский тиснёный, матовый никель, флорентийское золото",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Толщина полотна должна быть в диапазоне 32-62 мм.",
+        "Для входной двери подберите накладку на цилиндр в том же покрытии.",
+        "Чёрный подходит к тёмным панелям МДФ, флорентийское золото к светлым.",
+        "Механизм приобретается отдельно."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Ручку протирают влажной мягкой тканью и вытирают насухо, особенно с уличной стороны. Фактурное покрытие итальянский тиснёный очищают мягкой щёткой. Абразивные средства и растворители не используют."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Для какой толщины двери подходит BRICK?",
+      "a": "Производитель указывает диапазон от 32 до 62 мм."
+    },
+    {
+      "q": "Подойдёт ли для входной двери?",
+      "a": "Да, модель рассчитана на входные металлические двери с панелями и на межкомнатные."
+    },
+    {
+      "q": "Сколько граммов весит комплект?",
+      "a": "1430 г."
+    }
+  ],
+  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-armadillo-armadillo-razdelnaya-brick-ucs-bl-26-chern/"
+}

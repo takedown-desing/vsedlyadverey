@@ -1,0 +1,161 @@
+{
+  "slug": "agb-mediana-evolution-key-b01101",
+  "name": "Замок AGB Mediana Evolution под ключ",
+  "brand": "agb",
+  "series": "Mediana Evolution",
+  "order": 414,
+  "category": "/catalog/mezhkomnatnye-zamki/pod-klyuch/",
+  "article": "B01101.50",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "B01101.50.03",
+      "price": 1120,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-key-b01101-zoloto.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-ключ-латунь.jpg"
+    },
+    {
+      "finish": "медь",
+      "color": "copper",
+      "article": "B01101.50.22",
+      "price": 1316,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-key-b01101-med.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-ключ-бронза.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "B01101.50.06",
+      "price": 1753,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-key-b01101-hrom.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-ключ-хром.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "B01101.50.34",
+      "price": 1802,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-key-b01101-matovyy-hrom.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-ключ-мат.-хром.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "B01101.50.23",
+      "price": 2128,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-key-b01101-matovoe-zoloto.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-ключ-мат.-латунь.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "B01101.50.12",
+      "price": 2421,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-key-b01101-antichnaya-bronza.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Mediana-Evolution-ключ-ст.-бронза.jpg"
+    }
+  ],
+  "material": "сталь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "замок под ключ-буратино"
+    },
+    {
+      "k": "Язычок",
+      "v": "пластиковый"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "90"
+    },
+    {
+      "k": "Бэксет, мм",
+      "v": "50"
+    },
+    {
+      "k": "Комплектация",
+      "v": "техническая упаковка, без ответной планки"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Межкомнатный замок AGB Mediana Evolution под ключ-буратино с тихим пластиковым язычком. Подходит для спален и кабинетов в классическом стиле. Выпускается в шести отделках, от золота до античной бронзы.",
+  "intro": "AGB Mediana Evolution B01101 - межкомнатный замок под ключ-буратино с тихим пластиковым язычком. Подходит для спален и кабинетов в классическом стиле, где на двери стоят ручки на планке с замочной скважиной. Межосевое 90 мм, бэксет 50 мм, шесть отделок, от золота до античной бронзы.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Классическая скважина",
+          "text": "Запирание простым межкомнатным ключом, как в традиционных интерьерах.",
+          "icon": "lock"
+        },
+        {
+          "title": "Пластиковая защёлка",
+          "text": "Язычок из пластика закрывает дверь тише металлического и не стирает покрытие планки.",
+          "icon": "check"
+        },
+        {
+          "title": "Шесть отделок",
+          "text": "Золото, матовое золото, медь, хром, матовый хром и античная бронза.",
+          "icon": "handle"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | замок под ключ-буратино",
+        "Язычок | пластиковый",
+        "Межосевое расстояние | 90 мм",
+        "Бэксет | 50 мм",
+        "Комплектация | без ответной планки",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Ответная планка не входит в комплект: закажите её отдельно в цвет корпуса",
+        "Для ручек на розетке понадобятся накладки под ключ",
+        "Ручка на планке должна иметь скважину на расстоянии 90 мм от квадрата",
+        "Медь и античная бронза выбираются в пару с классическими ручками тех же тонов"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем этот замок отличается от Polaris под ключ?",
+      "a": "У Evolution пластиковый язычок, который выступает всегда, и нет ответной планки в комплекте. У Polaris язычок магнитный, а планка уже в коробке."
+    },
+    {
+      "q": "Надёжен ли ключ-буратино?",
+      "a": "Для межкомнатной двери этого достаточно: цель не защита от взлома, а ограничение доступа в комнату."
+    },
+    {
+      "q": "Можно ли поменять на этот замок старый под ключ?",
+      "a": "Если у старого замка межосевое 90 мм и бэксет 50 мм, отверстия совпадут. Длину торцевой планки проверьте отдельно."
+    }
+  ],
+  "sourceUrl": "https://agb.spb.ru/product/mediana-evolution-cliuch/"
+}

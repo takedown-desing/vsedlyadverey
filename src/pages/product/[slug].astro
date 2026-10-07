@@ -8,7 +8,7 @@ import { REVIEWS, REVIEWS_NOTE } from '../../lib/reviews';
 import Icon from '../../components/Icon.astro';
 import {
   products, regByUrl, breadcrumbs, brandName, rub, COLOR_HEX, COLOR_NAMES, CATEGORY_NAV, articles, SERIES_RULES, registry, SITE_NAME, minPrice,
-  productTexts, colorSlug, STOCK_LABEL, inShowroom,
+  productTexts, colorSlug, STOCK_LABEL, inShowroom, SITE,
 } from '../../lib/data';
 import { COMPANY } from '../../lib/company';
 import type { Product } from '../../lib/data';
@@ -69,7 +69,7 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
         <h1 class="p-title">{p.name}</h1>
         <div class="p-meta">{p.article && <span>Артикул: <b id="p-art">{v0.article || p.article}</b></span>}<span id="p-stock" data-yes={STOCK_LABEL.yes} data-no={STOCK_LABEL.no} style={`color:${v0.inStock === false ? 'var(--c-muted)' : 'var(--c-ok)'}`}>{v0.inStock === false ? STOCK_LABEL.no : STOCK_LABEL.yes}</span></div>
         <div class="p-price" id="p-price">{rub(v0.price)}</div>
-        <div class="p-note">Цена ориентировочная и зависит от курса евро, наличие и срок подтверждает менеджер. Под заказ от производителя: предоплата {COMPANY.prepayOnOrder}%.</div>
+        {SITE.priceNote && <div class="p-note">{SITE.priceNote}</div>}
         {p.variants.length > 0 && (
           <>
             <div style="font-size:14.5px">Покрытие: <b id="p-finish">{v0.finish}</b></div>

@@ -1,0 +1,152 @@
+{
+  "slug": "colombo-design-robot-cd41rsb",
+  "name": "Дверная ручка Colombo Design Robot CD41RSB на круглой розетке",
+  "brand": "colombo-design",
+  "series": "Robot",
+  "order": 197,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "CD41RSB",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "CD41RSB-NM",
+      "price": 5028,
+      "inStock": true,
+      "image": "/images/products/colombo-design-robot-cd41rsb-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-robot-cd41rsb-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "CD41RSB-CM",
+      "price": 6052,
+      "inStock": true,
+      "image": "/images/products/colombo-design-robot-cd41rsb-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-robot-cd41rsb-cm-matovyj-hrom.3.jpg"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "CD41RSB-BI",
+      "price": 5028,
+      "inStock": false,
+      "image": "/images/products/colombo-design-robot-cd41rsb-belyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-robot-cd41rsb-bi-belyj.1.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "CD41RSB-OL",
+      "price": 6340,
+      "inStock": false,
+      "image": "/images/products/colombo-design-robot-cd41rsb-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-kruglom-osnovanii-colombo-robot-cd41rsb-ol-polirovannaja-latun.2.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "630"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "10 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "Самая узнаваемая модель Colombo: мягко изогнутый рычаг на тонкой круглой розетке, который легко ложится в ладонь. Ручку выпускают на роботизированной линии, поэтому при итальянском качестве она стоит заметно дешевле других серий бренда. Подходит для межкомнатных дверей в современных квартирах и офисах, на покрытие производитель дает гарантию 10 лет.",
+  "intro": "Robot CD41RSB считается визитной карточкой Colombo Design: мягко изогнутый рычаг на тонкой круглой розетке. Ручку делают на роботизированной линии, за счёт этого итальянская модель доступнее других серий бренда. Рассчитана на межкомнатные двери в квартирах и офисах.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Эргономичный рычаг",
+          "text": "Изгиб рычага повторяет положение кисти, поэтому ручку удобно нажимать и ладонью, и локтем, когда руки заняты.",
+          "icon": "handle"
+        },
+        {
+          "title": "Тонкая круглая розетка",
+          "text": "Основание почти не выступает над полотном и закрывает отверстие под квадрат и стяжные винты.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Корпус из ЦАМ",
+          "text": "Цинковый сплав хорошо держит форму при литье. Вес комплекта 630 г, ручка не ощущается пустотелой.",
+          "icon": "shield"
+        },
+        {
+          "title": "Гарантия 10 лет",
+          "text": "Производитель даёт на покрытие десятилетнюю гарантию, что для массовой серии редкость.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип двери | межкомнатная распашная",
+        "Форма розетки | круглая",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый чёрный, матовый хром, белый, полированная латунь",
+        "Вес | 630 г",
+        "Цена указана за | 1 комплект (2 ручки на одну дверь)"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Защёлка или замок в комплект не входят, их выбирают отдельно под нужный сценарий: проходная дверь, санузел, спальня.",
+        "Для ванной понадобится фиксатор WC на круглой розетке в том же покрытии.",
+        "Белое исполнение хорошо смотрится на светлых эмалевых полотнах, латунь уместна рядом с тёплым шпоном.",
+        "Проверьте наличие нужного цвета: часть покрытий бывает под заказ."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему Robot дешевле других ручек Colombo?",
+      "a": "Модель собирают на автоматизированной линии, это снижает себестоимость. Материал и покрытие при этом те же, что у серий бренда, производство в Италии."
+    },
+    {
+      "q": "Сколько ручек в упаковке?",
+      "a": "Цена указана за комплект из двух ручек, то есть на обе стороны одной двери. Розетки и крепёж входят в комплект."
+    },
+    {
+      "q": "Подойдёт ли ручка к двери с магнитной защёлкой?",
+      "a": "Да, ручка на розетке работает с любой межкомнатной защёлкой под квадрат. Важно лишь, чтобы механизм был рассчитан на ручку-рычаг, а не на кноб."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-colombo-robot-cd-41-rsb-chernyj/"
+}

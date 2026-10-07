@@ -1,0 +1,151 @@
+{
+  "slug": "fratelli-cattini-felice-p35",
+  "name": "Ручка-кноб Fratelli Cattini FELICE P35 Ø70",
+  "brand": "fratelli-cattini",
+  "series": "FELICE",
+  "order": 221,
+  "category": "/catalog/dvernye-ruchki/knoby/",
+  "article": "FELICE P35",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "FELICE P35 NM",
+      "price": 2998,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-felice-p35-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-povorotnajafiks-fratelli-cattini-felice-p35-70-nm-matovyj-chernyj-1sht.1.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "FELICE P35 BS",
+      "price": 3075,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-felice-p35-matovaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-povorotnajafiks-fratelli-cattini-felice-p35-70-bs-matovaja-latun-1sht.1.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "FELICE P35 CR",
+      "price": 3485,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-felice-p35-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-povorotnajafiks-fratelli-cattini-felice-p35-70-cr-polirovannyj-hrom-1sht.1.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "FELICE P35 BA",
+      "price": 3075,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-felice-p35-antichnaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-dvernaja-knob-povorotnajafiks-fratelli-cattini-felice-p35-70-ba-antichnaja-bronza-1sht.1.jpg"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-кноб"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Вес, г",
+      "v": "433"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 шт."
+    },
+    {
+      "k": "Диаметр кноба, мм",
+      "v": "70"
+    },
+    {
+      "k": "Комплектация",
+      "v": "1 шт."
+    }
+  ],
+  "description": "Поворотный кноб FELICE диаметром 70 мм с плоским лицом и тонкой розеткой. Его ставят на двери кладовых, гардеробных и шкафов, а также используют в паре с нажимными ручками в классических интерьерах. Цена указана за одну ручку.",
+  "intro": "FELICE P35 представляет собой поворотный кноб диаметром 70 мм с плоским лицом и тонкой розеткой. Его ставят на двери кладовых, гардеробных и шкафов, а в классических интерьерах сочетают с нажимными ручками. Цена указана за одну ручку, на две стороны двери понадобятся две.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Диаметр 70 мм",
+          "text": "Крупная головка удобно захватывается ладонью.",
+          "icon": "handle"
+        },
+        {
+          "title": "Плоское лицо",
+          "text": "Ровная торцевая поверхность выглядит современнее выпуклых классических кнобов.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Продаётся поштучно",
+          "text": "Можно купить одну ручку для шкафа или две для межкомнатной двери.",
+          "icon": "box"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Диаметр кноба | 70 мм",
+        "Вес | 433 г",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | матовый чёрный, матовая латунь, полированный хром, античная бронза",
+        "Комплектация | 1 шт.",
+        "Гарантия | 24 месяца"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для межкомнатной двери закажите два кноба, по одному на каждую сторону.",
+        "Поворотный кноб работает с защёлкой под квадрат, механизм приобретается отдельно.",
+        "Кноб диаметром 70 мм требует достаточного расстояния до коробки, чтобы не задевать пальцы.",
+        "На неподвижной створке шкафа кноб может работать без механизма, как тянущая ручка."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Сколько кнобов нужно на дверь?",
+      "a": "Цена указана за один кноб. Для межкомнатной двери, открываемой с двух сторон, нужно два."
+    },
+    {
+      "q": "Можно ли поставить FELICE на дверь с защёлкой?",
+      "a": "Да, кноб поворачивает язычок защёлки через квадрат. Сам механизм покупается отдельно."
+    },
+    {
+      "q": "Какой размер у кноба?",
+      "a": "Диаметр 70 мм, вес одной ручки 433 г."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-dvernaja-knob-povorotnajafiks-fratelli-cattini-felice-p35-70-nm-matovyj-chernyj-1sht/"
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "fratelli-cattini-napoli-pl01",
+  "name": "Дверная ручка Fratelli Cattini NAPOLI на планке PL01",
+  "brand": "fratelli-cattini",
+  "series": "NAPOLI",
+  "order": 219,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "NAPOLI PL01",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "PL01-BA",
+      "price": 9955,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-napoli-pl01-antichnaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-napoli-pl01-ba-antichnaja-bronza.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "PL01-IA",
+      "price": 10577,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-napoli-pl01-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-napoli-pl01-ia-antichnoe-serebro.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "PL01-CS",
+      "price": 10146,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-napoli-pl01-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-napoli-pl01-cs-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "PL01-BS",
+      "price": 10329,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-napoli-pl01-matovaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-na-planke-fratelli-cattini-napoli-pl01-bs-matovaja-latun.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "NAPOLI отличается рельефным декором и эффектными состаренными покрытиями, античной бронзой и серебром. Ручка на планке PL01 подойдет для дверей в стиле ретро, прованс и для исторических интерьеров.",
+  "intro": "NAPOLI отличается рельефным декором и эффектными состаренными покрытиями: античной бронзой и античным серебром. Ручка на латунной планке PL01 подходит для дверей в стиле ретро и прованс, а также для исторических интерьеров, где новая фурнитура не должна выглядеть новой.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рельефный декор",
+          "text": "Орнамент на рычаге и планке создаёт ощущение старинной фурнитуры.",
+          "icon": "handle"
+        },
+        {
+          "title": "Состаренные покрытия",
+          "text": "Античная бронза и серебро имитируют благородную патину металла.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь",
+          "text": "Корпус и планка латунные, производство Италия.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Стиль | ретро, прованс, исторический",
+        "Двери | межкомнатные, филёнчатые",
+        "Планка | PL01",
+        "Материал | латунь",
+        "Покрытия | античная бронза, античное серебро, матовый хром, матовая латунь",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Состаренные покрытия у разных партий могут немного отличаться, заказывайте ручки на все двери сразу.",
+        "Уточните исполнение планки (без отверстия или с отверстием) и сверьте его с защёлкой или замком в двери.",
+        "Петли в стиле ретро лучше брать в том же античном покрытии.",
+        "Защёлка, замок и цилиндр в комплект не входят."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Патинированные покрытия не полируют: достаточно смахнуть пыль мягкой кистью и протереть сухой тканью. Для жирных следов используйте слегка влажную салфетку. Средства для чистки металла удаляют патину, после них на выступах останутся блестящие участки."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему античное покрытие выглядит неравномерно?",
+      "a": "Эффект состаривания предполагает переходы тона, это часть дизайна. Так ручка выглядит как старинная вещь."
+    },
+    {
+      "q": "Подойдёт ли NAPOLI для современной квартиры?",
+      "a": "В строгом современном интерьере модель будет выделяться. Она уместна там, где есть элементы ретро, прованса или старины."
+    },
+    {
+      "q": "Можно ли чистить ручку пастой для латуни?",
+      "a": "Нет, паста снимет патину. Используйте только сухую или слегка влажную мягкую ткань."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-planke-fratelli-cattini-napoli-pl01-ba-antichnaja-bronza/"
+}

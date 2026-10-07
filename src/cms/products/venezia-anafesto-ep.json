@@ -1,0 +1,149 @@
+{
+  "slug": "venezia-anafesto-ep",
+  "name": "Ручка для профильных дверей Venezia ANAFESTO EP",
+  "brand": "venezia",
+  "series": "ANAFESTO",
+  "order": 243,
+  "category": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/",
+  "article": "ANAFESTO EP",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "ANAFESTO EP EP",
+      "price": 9668,
+      "inStock": false,
+      "image": "/images/products/venezia-anafesto-ep-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-anafesto-ep-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "ANAFESTO EP EP",
+      "price": 10402,
+      "inStock": false,
+      "image": null,
+      "imageSrc": null
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "ANAFESTO EP EP",
+      "price": 14054,
+      "inStock": false,
+      "image": "/images/products/venezia-anafesto-ep-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-anafesto-ep-antichnoe-serebro.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "ANAFESTO EP EP",
+      "price": 12892,
+      "inStock": false,
+      "image": "/images/products/venezia-anafesto-ep-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-anafesto-ep-polirovannyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "aluminium",
+    "pvc",
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка для профильной двери"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "овальная"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    }
+  ],
+  "description": "ANAFESTO на овальной розетке EP создана для профильных дверей с узкой рамкой. Рельефный рычаг из латуни придает алюминиевой или стеклянной двери классический характер.",
+  "intro": "ANAFESTO на овальной розетке EP предназначена для профильных дверей с узкой рамкой. Рельефный латунный рычаг придаёт алюминиевой или остеклённой двери классический характер, что редко встречается у фурнитуры для профильных систем. Ручка сделана в Италии и продаётся парой на одну дверь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Рельефный рычаг",
+          "text": "Декор на ручке переносит классику на алюминиевые и ПВХ-двери.",
+          "icon": "handle"
+        },
+        {
+          "title": "Узкая розетка",
+          "text": "Овальное основание EP для стоек профиля без запаса по ширине.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Латунь",
+          "text": "Литой латунный корпус не деформируется на тяжёлых остеклённых полотнах.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | профильные алюминиевые и ПВХ, остеклённые межкомнатные",
+        "Розетка | овальная EP",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, античное серебро, полированный хром",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте замок профильной двери: ручка передаёт усилие через квадрат, его сечение и длина должны подходить.",
+        "Узкая розетка должна полностью лечь на профиль.",
+        "Античное серебро хорошо смотрится на белом профиле, полированная латунь на тёмном.",
+        "Накладку под цилиндр, если она нужна, заказывают отдельно."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Рельеф ручки собирает пыль, поэтому его периодически очищают мягкой кистью. Для полированной латуни и хрома подходит сухая фланель. Состаренные покрытия не полируют и не трут абразивами."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подходит ли ANAFESTO для ПВХ-двери?",
+      "a": "Да, узкая розетка EP рассчитана на профильные двери, в том числе из ПВХ."
+    },
+    {
+      "q": "Чем ANAFESTO отличается от VIGNOLE EP?",
+      "a": "У ANAFESTO рельефный декоративный рычаг, у VIGNOLE более гладкий изогнутый. Розетка EP у моделей одинаковая."
+    },
+    {
+      "q": "Нужно ли докупать вторую ручку?",
+      "a": "Нет, в комплекте две ручки на обе стороны двери."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-anafesto-ep-polirovannaja-latun/"
+}

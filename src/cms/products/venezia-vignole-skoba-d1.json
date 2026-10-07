@@ -1,0 +1,151 @@
+{
+  "slug": "venezia-vignole-skoba-d1",
+  "name": "Ручка-скоба Venezia VIGNOLE 260 мм D1",
+  "brand": "venezia",
+  "series": "VIGNOLE",
+  "order": 226,
+  "category": "/catalog/dvernye-ruchki/skoby/",
+  "article": "VIGNOLE D1",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "VIGNOLE D1",
+      "price": 6890,
+      "inStock": true,
+      "image": "/images/products/venezia-vignole-skoba-d1-polirovannaya-latun.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-skoba-venezia-vignole-260mm-210mm-d1-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "VIGNOLE D1",
+      "price": 10993,
+      "inStock": true,
+      "image": "/images/products/venezia-vignole-skoba-d1-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-skoba-venezia-vignole-260mm-210mm-d1-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "VIGNOLE D1",
+      "price": 12917,
+      "inStock": false,
+      "image": "/images/products/venezia-vignole-skoba-d1-antichnoe-serebro.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-skoba-venezia-vignole-260mm-210mm-d1-antichnoe-serebro.jpg"
+    },
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "VIGNOLE D1",
+      "price": 12580,
+      "inStock": true,
+      "image": "/images/products/venezia-vignole-skoba-d1-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/ruchka-skoba-venezia-vignole-260mm-210mm-d1-chernyj.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка-скоба"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Вес, г",
+      "v": "551"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 шт."
+    },
+    {
+      "k": "Длина, мм",
+      "v": "260"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "210"
+    }
+  ],
+  "description": "Скоба VIGNOLE длиной 260 мм на круглых опорах D1 из латуни. Ее устанавливают на распашные и раздвижные двери, а также на двери гардеробных, где нужна ручка без механизма. Классический силуэт сочетается с нажимными ручками коллекции Venezia.",
+  "intro": "Скоба VIGNOLE длиной 260 мм стоит на круглых латунных опорах D1. Её устанавливают на распашные и раздвижные двери, а также на двери гардеробных, где нужна ручка без механизма. Классический силуэт перекликается с нажимными ручками коллекции Venezia. Цена за одну скобу.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Длина 260 мм",
+          "text": "Удобный размер для межкомнатных дверей, хватает места для всей ладони.",
+          "icon": "handle"
+        },
+        {
+          "title": "Межосевое 210 мм",
+          "text": "Расстояние между опорами задаёт разметку отверстий на полотне.",
+          "icon": "check"
+        },
+        {
+          "title": "Латунь 551 г",
+          "text": "Массивная скоба не прогибается и уверенно держится на двери.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Длина | 260 мм",
+        "Межосевое расстояние | 210 мм",
+        "Вес | 551 г",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, античное серебро, чёрный",
+        "Цена указана за | 1 шт."
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Цена за одну скобу: для двусторонней установки нужно две.",
+        "Скоба не открывает защёлку, дверь должна удерживаться магнитом, роликовой защёлкой или доводчиком.",
+        "Разметку сверлите по межосевому 210 мм.",
+        "К скобе можно подобрать нажимные ручки VIGNOLE на профильной розетке для остеклённых дверей."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Как скоба крепится к двери?",
+      "a": "Через две опоры, расстояние между их осями 210 мм. Отверстия размечают по этому размеру."
+    },
+    {
+      "q": "Подходит ли скоба для раздвижной двери?",
+      "a": "Да, её ставят на распашные и раздвижные полотна. На раздвижной двери учтите, что скоба выступает и может не дать полотну уйти в пенал."
+    },
+    {
+      "q": "Сколько скоб нужно?",
+      "a": "Цена указана за одну. Если ручка нужна с двух сторон, закажите две."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/ruchka-skoba-Venezia-VIGNOLE-250mm-205mm-D1-polirovannaja-latun/"
+}

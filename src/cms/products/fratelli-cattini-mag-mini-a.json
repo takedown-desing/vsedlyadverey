@@ -1,0 +1,127 @@
+{
+  "slug": "fratelli-cattini-mag-mini-a",
+  "name": "Магнитная защёлка Fratelli Cattini MAG MINI A для алюминиевых дверей",
+  "brand": "fratelli-cattini",
+  "series": "MAG MINI",
+  "order": 389,
+  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "article": "MAG MINI A",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "MAG MINI A",
+      "price": null,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-mag-mini-a-matovyy-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/zaschelka-magnitnaja-fratelli-cattini-mag-mini-a-dlja-aljuminievyh-dverej-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "серый",
+      "color": "graphite",
+      "article": "MAG MINI A",
+      "price": null,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-mag-mini-a-seryy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/zaschelka-magnitnaja-fratelli-cattini-mag-mini-a-dlja-aljuminievyh-dverej-matovyj-seryj.jpg"
+    },
+    {
+      "finish": "матовый белый",
+      "color": "white",
+      "article": "MAG MINI A",
+      "price": null,
+      "inStock": false,
+      "image": "/images/products/fratelli-cattini-mag-mini-a-matovyy-belyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/05/zaschelka-magnitnaja-fratelli-cattini-mag-mini-a-dlja-aljuminievyh-dverej-matovyj-belyj.jpg"
+    }
+  ],
+  "material": "пластик",
+  "style": "minimal",
+  "doorTypes": [
+    "interior",
+    "aluminium"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "магнитная защёлка без ручки"
+    },
+    {
+      "k": "Для дверей",
+      "v": "алюминиевые"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Версия магнитной защёлки MAG MINI для дверей в алюминиевом профиле. Позволяет сделать лаконичное полотно без выступающей ручки. Три матовых цвета: чёрный, серый и белый.",
+  "intro": "MAG MINI A - версия магнитной защёлки Fratelli Cattini для дверей в алюминиевом профиле. Она позволяет сделать лаконичное полотно без выступающей ручки: дверь просто прикрывают, и магнит удерживает её. Корпус выпускается в трёх матовых цветах: чёрный, серый и белый.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Под алюминиевый профиль",
+          "text": "Версия A рассчитана на узкие профильные двери, где обычный межкомнатный замок с бэксетом 50 мм не помещается.",
+          "icon": "glass"
+        },
+        {
+          "title": "Без ручки",
+          "text": "Нет рычага и розетки: стеклянная или профильная дверь остаётся визуально чистой.",
+          "icon": "check"
+        },
+        {
+          "title": "Матовые цвета",
+          "text": "Чёрный, серый и белый подбирают под цвет профиля, а не ручек.",
+          "icon": "seal"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | магнитная защёлка без ручки",
+        "Двери | межкомнатные в алюминиевом профиле",
+        "Материал | пластик",
+        "Цвета | матовый чёрный, серый, матовый белый",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для деревянной двери нужна версия MAG MINI W, эта не подойдёт",
+        "Уточните ширину профиля и способ крепления у поставщика",
+        "Защёлка не запирает дверь, для санузла она не подходит",
+        "Цвет выбирайте в тон профилю: чёрный профиль, чёрная защёлка"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Монтаж в алюминиевый профиль лучше доверить установщику дверной системы: профиль режут по размеру корпуса, и ошибку потом не исправить. После установки проверяют, чтобы магнит встречался с ответной частью без перекоса. Пластиковый корпус чистят влажной салфеткой, растворители не нужны."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем MAG MINI A отличается от MAG MINI W?",
+      "a": "Версии рассчитаны на разные двери: A на алюминиевый профиль, W на деревянное полотно. Цвета у них одинаковые."
+    },
+    {
+      "q": "Подойдёт ли защёлка для стеклянной двери в профиле?",
+      "a": "Да, если стекло установлено в алюминиевую рамку и в ней есть место под корпус. Для цельностеклянной двери без профиля нужна другая фурнитура."
+    },
+    {
+      "q": "Можно ли поставить ручку?",
+      "a": "Модель задумана для дверей без ручки. Если нужна ручка, выбирают замок для профильных дверей под квадрат."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/zashhelka-magnitnaya-fratelli-cattini-mag-mini-a-dlya-alyuminievyh-dverej-matovyj-chernyj/"
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "venezia-classic-pl02",
+  "name": "Дверная ручка Venezia CLASSIC на планке PL02",
+  "brand": "venezia",
+  "series": "CLASSIC",
+  "order": 214,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "CLASSIC PL02",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "CLASSIC PL02",
+      "price": 13968,
+      "inStock": false,
+      "image": null,
+      "imageSrc": null
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "CLASSIC PL02",
+      "price": 14174,
+      "inStock": false,
+      "image": "/images/products/venezia-classic-pl02-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-classic-na-planke-pl02-matovaja-bronza.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "CLASSIC PL02",
+      "price": 14174,
+      "inStock": false,
+      "image": "/images/products/venezia-classic-pl02-antichnaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-classic-na-planke-pl02-antichnaja-bronza.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "CLASSIC PL02",
+      "price": 15696,
+      "inStock": false,
+      "image": "/images/products/venezia-classic-pl02-polirovannyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-classic-na-planke-pl02-polirovannyj-hrom.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "24 месяца"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    },
+    {
+      "k": "Исполнение планки",
+      "v": "без отверстия (под защелку)"
+    }
+  ],
+  "description": "Классическая ручка CLASSIC на высокой фигурной планке PL02 закрывает большую площадь полотна и подчеркивает стиль филенчатой двери. Вариант без отверстия под ключ рассчитан на межкомнатные двери с обычной защелкой. Корпус и планка выполнены из латуни.",
+  "intro": "CLASSIC на высокой фигурной планке PL02 закрывает большую площадь полотна и подчёркивает стиль филёнчатой двери. Исполнение без отверстия под ключ рассчитано на межкомнатные двери с обычной защёлкой. Ручка и планка латунные, производство Италия. Комплект на одну дверь.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Высокая планка PL02",
+          "text": "Фигурная накладка делает ручку заметной и закрывает следы от прежней фурнитуры.",
+          "icon": "handle"
+        },
+        {
+          "title": "Без отверстия под ключ",
+          "text": "Чистая планка для проходных дверей, где запирание не нужно.",
+          "icon": "check"
+        },
+        {
+          "title": "Латунь целиком",
+          "text": "Из латуни выполнены и рычаг, и планка.",
+          "icon": "shield"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | филёнчатые межкомнатные",
+        "Механизм | обычная защёлка без ключа",
+        "Исполнение планки | без отверстия",
+        "Материал | латунь",
+        "Покрытия | полированная латунь, матовая бронза, античная бронза, полированный хром",
+        "Цена указана за | 1 комплект (2 шт.)"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Эта планка не подходит для замка под ключ или цилиндр: выбирайте исполнение по механизму.",
+        "Проверьте ширину стойки двери: высокая планка должна лечь на ровный участок, не заходя на филёнку.",
+        "Механизм защёлки продаётся отдельно.",
+        "Та же модель CLASSIC есть на круглой розетке D1, если планка кажется громоздкой."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли поставить эту ручку на дверь с замком?",
+      "a": "Нет, исполнение без отверстия рассчитано только на защёлку. Для запираемых дверей нужна планка с отверстием под ключ или цилиндр."
+    },
+    {
+      "q": "Зачем ручка на планке, если есть розетка?",
+      "a": "Планка выглядит более классически и закрывает большую площадь, в том числе следы после замены старой фурнитуры."
+    },
+    {
+      "q": "Из чего сделана планка?",
+      "a": "Планка, как и рычаг, выполнена из латуни."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-Venezia-CLASSIC-na-planke-PL02-polirovannaja-latun/"
+}

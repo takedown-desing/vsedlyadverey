@@ -1,0 +1,148 @@
+{
+  "slug": "fratelli-cattini-wc-2-7-7",
+  "name": "Фиксатор поворотный Fratelli Cattini WC-2 7.7 на круглом основании",
+  "brand": "fratelli-cattini",
+  "series": null,
+  "order": 428,
+  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "article": "WC-2 7.7",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "антрацит",
+      "color": "graphite",
+      "article": "WC-2 7.7-AN",
+      "price": 2294,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-2-7-7-antracit.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/fiksator-povorotnyj-na-kruglom-osnovanii-fratelli-cattini-wc-2-77-an-matovyj-antracit.jpg"
+    },
+    {
+      "finish": "матовый платинум",
+      "color": "silver",
+      "article": "WC-2 7.7-PM",
+      "price": 2294,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-2-7-7-matovyy-platinum.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/fiksator-povorotnyj-na-kruglom-osnovanii-fratelli-cattini-wc-2-77-pm-matovyj-platinum.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "WC-2 7.7-OLV",
+      "price": 2307,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-2-7-7-polirovannaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/fiksator-povorotnyj-na-kruglom-osnovanii-fratelli-cattini-wc-77-olv-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "WC-2 7.7-NM",
+      "price": 2307,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-2-7-7-matovyy-chernyy.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/fiksator-povorotnyj-na-kruglom-osnovanii-fratelli-cattini-wc-77-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "WC-2 7.7-CS",
+      "price": 2307,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-2-7-7-matovyy-hrom.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/fiksator-povorotnyj-na-kruglom-osnovanii-fratelli-cattini-wc-77-cs-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "WC-2 7.7-BS",
+      "price": 2643,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-wc-2-7-7-matovaya-latun.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/fiksator-povorotnyj-na-kruglom-osnovanii-fratelli-cattini-wc-2-77-bs-matovaja-latun-2-sht.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior",
+    "bathroom"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "поворотный фиксатор WC"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "круглая"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Итальянский поворотный фиксатор Fratelli Cattini на круглой розетке для ванной и туалета. Подбирается в пару к ручкам бренда на таком же основании. Выпускается в матовом чёрном, матовом хроме, матовом золоте, антраците, платинуме и полированной латуни.",
+  "intro": "Fratelli Cattini WC-2 7.7 - поворотный фиксатор на круглой розетке для ванной и туалета. Латунный корпус, производство Италия по данным поставщика. Фиксатор подбирается в пару к ручкам бренда на таком же основании и выпускается в шести отделках, от антрацита до полированной латуни.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Латунь",
+          "text": "Корпус из латуни, а не из цинкового сплава: он тяжелее и не боится влаги.",
+          "icon": "shield"
+        },
+        {
+          "title": "Серия 7",
+          "text": "Круглая розетка совпадает с ручками и накладками Fratelli Cattini серии 7.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Матовые тона",
+          "text": "Антрацит, матовый платинум, матовый чёрный, матовый хром, матовая латунь и полированная латунь.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | поворотный фиксатор WC",
+        "Форма розетки | круглая",
+        "Материал | латунь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Размер квадрата фиксатора проверьте по паспорту замка",
+        "В пару подойдут накладки Fratelli Cattini CYL 7 на круглом основании",
+        "Длину штока проверьте по толщине двери",
+        "Матовый платинум и матовый хром похожи, сравните с ручкой"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подойдёт ли фиксатор к ручкам другого бренда?",
+      "a": "Да, если розетки сопоставимы по размеру и стилю. Механически важно только совпадение квадрата с замком."
+    },
+    {
+      "q": "Что такое антрацит?",
+      "a": "Тёмно-серое покрытие, светлее чёрного. Хорошо сочетается с графитовыми и серыми дверями."
+    },
+    {
+      "q": "Есть ли квадратная версия?",
+      "a": "Да, Fratelli Cattini WC-8 8FS на тонком квадратном основании."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/fiksator-povorotnyj-na-kruglom-osnovanii-fratelli-cattini-wc-2-7-7-an-matovyj-antraczit/"
+}

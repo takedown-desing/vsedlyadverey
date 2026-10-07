@@ -1,0 +1,171 @@
+{
+  "slug": "morelli-hh-18",
+  "name": "Скрытая петля Morelli HH-18 с 3D-регулировкой",
+  "brand": "morelli",
+  "series": "Innovation",
+  "order": 307,
+  "category": "/catalog/dvernye-petli/skrytye/",
+  "article": "HH-18",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "HH-18 SC",
+      "price": 3910,
+      "inStock": true,
+      "image": "/images/products/morelli-hh-18-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/uj3TNRmFNVwgve3c6IoH.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "HH-18 B",
+      "price": 3910,
+      "inStock": true,
+      "image": "/images/products/morelli-hh-18-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/lUR7CFqSPXybH1LRM9lD.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "HH-18 W",
+      "price": 3910,
+      "inStock": true,
+      "image": "/images/products/morelli-hh-18-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/vnxKJYr3qClbmYrvT1Qm.webp"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "HH-18 SN",
+      "price": 3910,
+      "inStock": true,
+      "image": "/images/products/morelli-hh-18-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/catalog/products/main_images/01KBJCHVHNMP99KW00F9J51PAG.webp"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "HH-18 PC",
+      "price": 4480,
+      "inStock": true,
+      "image": "/images/products/morelli-hh-18-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/mglHBSQTb1FSFb8DdwTg.webp"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "HH-18 PG",
+      "price": 4540,
+      "inStock": true,
+      "image": "/images/products/morelli-hh-18-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/UtbjBa4HY40kI1Vs3L6t.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "HH-18 AB",
+      "price": 4540,
+      "inStock": true,
+      "image": "/images/products/morelli-hh-18-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/March2019/wnYNgS49OBh6QdgxYmhy.webp"
+    }
+  ],
+  "material": "цинковый сплав ZAMAK",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "скрытая петля"
+    },
+    {
+      "k": "Регулировка",
+      "v": "3D"
+    },
+    {
+      "k": "Вес полотна, кг",
+      "v": "до 60"
+    },
+    {
+      "k": "Врезка",
+      "v": "под фрезер / станок"
+    },
+    {
+      "k": "Коллекция",
+      "v": "Innovation"
+    }
+  ],
+  "description": "Скрытая петля Morelli из коллекции Innovation для межкомнатных дверей весом до 60 кг. Врезается фрезером и после установки регулируется в трёх плоскостях. Семь вариантов покрытия, от белого и чёрного до золота и античной бронзы, закрывают почти любой интерьер.",
+  "intro": "Morelli HH-18 скрытая петля из коллекции Innovation для межкомнатных дверей весом до 60 кг. Корпус из цинкового сплава врезается фрезером, после установки дверь выставляется в трёх плоскостях. Семь покрытий, от белого и чёрного до золота и античной бронзы, подходят почти к любой фурнитуре.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Нагрузка до 60 кг",
+          "text": "Паспортный вес полотна для модели 60 кг.",
+          "icon": "shield"
+        },
+        {
+          "title": "Врезка фрезером",
+          "text": "Гнёзда выбирают ручным фрезером по шаблону или на станке.",
+          "icon": "hinge"
+        },
+        {
+          "title": "3D-регулировка",
+          "text": "Зазоры и прижим корректируются без снятия двери.",
+          "icon": "check"
+        },
+        {
+          "title": "Семь отделок",
+          "text": "Белый, чёрный, хром, матовый хром, матовый никель, золото и античная бронза.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | скрытая петля",
+        "Вес полотна | до 60 кг",
+        "Регулировка | 3D",
+        "Врезка | под фрезер или станок",
+        "Материал | цинковый сплав ZAMAK",
+        "Коллекция | Innovation"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Уточните, на сколько петель рассчитан вес 60 кг, и для высоких дверей закладывайте три петли.",
+        "Толщину полотна сверьте с установщиком: минимальная толщина в характеристиках не указана.",
+        "Без фрезера и шаблона ставить скрытую петлю не стоит, от точности гнезда зависит ровный зазор.",
+        "Ручки и магнитный замок Morelli можно взять в том же покрытии."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Можно ли врезать HH-18 без фрезера?",
+      "a": "Технически можно стамеской, но ровное гнездо под скрытую петлю вручную сделать сложно. Производитель рассчитывает на врезку фрезером или на станке."
+    },
+    {
+      "q": "Какую отделку выбрать к чёрным ручкам?",
+      "a": "Есть чёрная версия HH-18. На закрытой двери петля не видна, но при открывании заметна, поэтому цвет лучше согласовать с ручками."
+    },
+    {
+      "q": "Подходит ли петля для входной двери?",
+      "a": "Нет, модель предназначена для межкомнатных дверей."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/petli/all/335"
+}

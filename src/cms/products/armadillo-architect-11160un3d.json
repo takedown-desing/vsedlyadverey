@@ -1,0 +1,170 @@
+{
+  "slug": "armadillo-architect-11160un3d",
+  "name": "Скрытая петля Armadillo Architect 3D-ACH Universal 60",
+  "brand": "armadillo",
+  "series": "Architect",
+  "order": 309,
+  "category": "/catalog/dvernye-petli/skrytye/",
+  "article": "11160UN3D",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "11160UN3D SC",
+      "price": 1999,
+      "inStock": true,
+      "image": "/images/products/armadillo-architect-11160un3d-matovyy-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/8/36331.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "11160UN3D BL",
+      "price": 1949,
+      "inStock": true,
+      "image": "/images/products/armadillo-architect-11160un3d-chernyy.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/8/36335.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "11160UN3D CP",
+      "price": 1949,
+      "inStock": true,
+      "image": "/images/products/armadillo-architect-11160un3d-hrom.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/9/36339.jpg"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "11160UN3D SN",
+      "price": 1849,
+      "inStock": true,
+      "image": "/images/products/armadillo-architect-11160un3d-matovyy-nikel.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/8/36333.jpg"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "11160UN3D SG",
+      "price": 1999,
+      "inStock": true,
+      "image": "/images/products/armadillo-architect-11160un3d-matovoe-zoloto.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/9/36337.jpg"
+    },
+    {
+      "finish": "бронза",
+      "color": "bronze",
+      "article": "11160UN3D AB",
+      "price": 1999,
+      "inStock": true,
+      "image": "/images/products/armadillo-architect-11160un3d-bronza.jpg",
+      "imageSrc": "https://goldenzamok.ru/image/catalog/tl-photo/7/36329.jpg"
+    }
+  ],
+  "material": "цинковый сплав",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "скрытая петля"
+    },
+    {
+      "k": "Регулировка",
+      "v": "3D"
+    },
+    {
+      "k": "Нагрузка на 2 петли, кг",
+      "v": "60"
+    },
+    {
+      "k": "Нагрузка на 3 петли, кг",
+      "v": "90"
+    },
+    {
+      "k": "Угол открывания",
+      "v": "180°"
+    },
+    {
+      "k": "Размер, мм",
+      "v": "111,3 x 28,9 x 34"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    }
+  ],
+  "description": "Универсальная скрытая петля из коллекции Urban, собственная разработка Armadillo. Три петли выдерживают полотно до 90 кг, нейлоновые вставки делают ход тихим и плавным. Невидима на закрытой двери и открывается на 180 градусов.",
+  "intro": "Armadillo Architect 3D-ACH Universal 60 универсальная скрытая петля собственной разработки Armadillo. Две петли держат 60 кг, три до 90 кг, поэтому модель подходит и для массивных межкомнатных полотен. Нейлоновые вставки делают ход тихим, угол открывания 180°, гарантия 5 лет.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "До 90 кг на трёх петлях",
+          "text": "Большой запас по весу для полотен из массива и тяжёлого шпона.",
+          "icon": "shield"
+        },
+        {
+          "title": "Нейлоновые вставки",
+          "text": "Вставки в шарнире убирают металлический скрип и делают ход плавным.",
+          "icon": "hinge"
+        },
+        {
+          "title": "Гарантия 5 лет",
+          "text": "Срок гарантии указан производителем.",
+          "icon": "check"
+        },
+        {
+          "title": "Шесть покрытий",
+          "text": "Хром, матовый хром, матовый никель, матовое золото, бронза и чёрный.",
+          "icon": "kit"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Размер | 111,3 x 28,9 x 34 мм",
+        "Нагрузка | 60 кг на 2 петли, 90 кг на 3 петли",
+        "Регулировка | 3D",
+        "Угол открывания | 180°",
+        "Материал | цинковый сплав",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Для двери до 60 кг достаточно двух петель, до 90 кг берите три.",
+        "Корпус шириной 28,9 мм требует соответствующей толщины полотна, сверьте размер с торцом двери.",
+        "Под фрезеровку гнёзд нужен шаблон под габарит 111,3 x 28,9 мм.",
+        "Массивной двери нужна жёсткая коробка и упор, иначе ручка будет бить в стену."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Почему петля называется Universal?",
+      "a": "Она не делится на левую и правую и ставится на двери любой стороны открывания."
+    },
+    {
+      "q": "Выдержит ли петля дверь из массива 75 кг?",
+      "a": "Да, если поставить три петли: их суммарная нагрузка 90 кг."
+    },
+    {
+      "q": "Нужно ли смазывать нейлоновые вставки?",
+      "a": "Нет, вставки работают без смазки. Масло может собрать пыль и ухудшить ход."
+    }
+  ],
+  "sourceUrl": "https://goldenzamok.ru/petlya-skrytoj-ustanovki-s-3d-regulirovkoj-armadillo-11160un3d-architect-3d-ach-universal-60-sc-matovyj-khrom.html"
+}

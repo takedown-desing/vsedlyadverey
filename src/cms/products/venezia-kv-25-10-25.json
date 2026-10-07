@@ -1,0 +1,146 @@
+{
+  "slug": "venezia-kv-25-10-25",
+  "name": "Цилиндровый механизм Venezia ключ/вертушка 25/10/25",
+  "brand": "venezia",
+  "series": null,
+  "order": 450,
+  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "article": "25/10/25",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "25/10/25",
+      "price": 4068,
+      "inStock": true,
+      "image": "/images/products/venezia-kv-25-10-25-polirovannaya-latun.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/6a3/6a3479778109da0d8e0af2ddb17905a4.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "25/10/25",
+      "price": 4849,
+      "inStock": true,
+      "image": "/images/products/venezia-kv-25-10-25-matovyy-hrom.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/437/4374470b1320417983d6dd479fab4552.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "25/10/25",
+      "price": 4849,
+      "inStock": true,
+      "image": "/images/products/venezia-kv-25-10-25-polirovannyy-hrom.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/861/86192c6068cc6b2d7280f0f780e674c9.jpg"
+    },
+    {
+      "finish": "французское золото",
+      "color": "gold",
+      "article": "25/10/25",
+      "price": 5407,
+      "inStock": true,
+      "image": "/images/products/venezia-kv-25-10-25-francuzskoe-zoloto.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/8cf/8cfe69d68d2be50a0e182dc8766ef324.jpg"
+    },
+    {
+      "finish": "античное серебро",
+      "color": "silver",
+      "article": "25/10/25",
+      "price": 5407,
+      "inStock": true,
+      "image": "/images/products/venezia-kv-25-10-25-antichnoe-serebro.jpg",
+      "imageSrc": "https://sdf-handle.ru/upload/iblock/41e/41e020dd66b5f850da65d2cb545b601e.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "25/10/25",
+      "price": 4617,
+      "inStock": true,
+      "image": null
+    }
+  ],
+  "material": "латунь",
+  "style": "classic",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ключ/вертушка"
+    },
+    {
+      "k": "Длина, мм",
+      "v": "60 (25+10+25)"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Итальянский цилиндр Venezia с классической вертушкой для межкомнатных дверей. Цвет корпуса и вертушки совпадает с классической фурнитурой бренда. Выпускается в латуни, бронзе, хроме, французском золоте и чёрном.",
+  "intro": "Venezia ключ/вертушка 25/10/25 - итальянский цилиндр длиной 60 мм с классической вертушкой для межкомнатных дверей. Цвет корпуса и вертушки совпадает с классической фурнитурой бренда. Отделки: полированная латунь, полированный и матовый хром, французское золото, античное серебро и чёрный.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Классическая вертушка",
+          "text": "Форма вертушки рассчитана на классические интерьеры и не выглядит технической деталью.",
+          "icon": "handle"
+        },
+        {
+          "title": "В цвет фурнитуры",
+          "text": "Корпус и вертушка окрашены так же, как ручки и накладки Venezia.",
+          "icon": "check"
+        },
+        {
+          "title": "60 мм",
+          "text": "Симметричная схема 25+10+25 для тонких межкомнатных дверей.",
+          "icon": "cylinder"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | ключ/вертушка",
+        "Длина | 60 мм (25+10+25)",
+        "Материал | латунь",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Проверьте, подходит ли 60 мм к толщине вашей двери с накладками",
+        "Накладки Venezia CYL-1 D1 выпускаются в тех же покрытиях",
+        "Вертушка должна оказаться внутри помещения, ключевая сторона снаружи",
+        "Французское золото и полированная латунь выглядят по-разному, сравните с ручкой"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Подходит ли цилиндр для санузла?",
+      "a": "Да, если на двери замок под цилиндр: изнутри вертушка заменяет завертку, снаружи дверь открывается ключом."
+    },
+    {
+      "q": "Чем отличается от версии ключ/ключ?",
+      "a": "Размеры те же, 60 мм, но изнутри вертушка вместо скважины. Набор отделок у версий немного различается."
+    },
+    {
+      "q": "Подойдёт ли к современному интерьеру?",
+      "a": "Чёрная и хромированная версии смотрятся нейтрально, но форма вертушки классическая."
+    }
+  ],
+  "sourceUrl": "https://sdf-handle.ru/katalog/cilindry/zamki-i-cilindry-venezia/tsilindr-klyuch-fiksator-25-10-25-venezia-VNZ626/"
+}

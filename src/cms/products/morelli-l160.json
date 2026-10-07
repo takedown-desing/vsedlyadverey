@@ -1,0 +1,163 @@
+{
+  "slug": "morelli-l160",
+  "name": "Торцевой шпингалет Morelli L160",
+  "brand": "morelli",
+  "series": "Simple",
+  "order": 365,
+  "category": "/catalog/zadvizhki-i-shpingalety/torcevye/",
+  "article": "L160",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "L160 SC",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-l160-matovyy-hrom.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/CMJyMAcLmSCLlfl53VIR.webp"
+    },
+    {
+      "finish": "матовый никель",
+      "color": "nickel",
+      "article": "L160 SN",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-l160-matovyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/JStkbocijZUUlIFqwUNQ.webp"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "L160 BL",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-l160-chernyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/January2021/V5k0t648NdjW41XsSQu7.webp"
+    },
+    {
+      "finish": "белый",
+      "color": "white",
+      "article": "L160 W",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-l160-belyy.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/January2021/QTeIN1RdD3PXdOCj9ZGB.webp"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "L160 PG",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-l160-zoloto.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/January2020/J2YPuXtbfy9v7kXH6XiJ.webp"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "L160 AB",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-l160-antichnaya-bronza.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/January2020/NYrxnsIqhTJz2gzlBXmM.webp"
+    },
+    {
+      "finish": "чёрный никель",
+      "color": "black",
+      "article": "L160 BN",
+      "price": 310,
+      "inStock": true,
+      "image": "/images/products/morelli-l160-chernyy-nikel.jpg",
+      "imageSrc": "https://morelli.ru/storage/products/February2019/EacydtOvw9ZGHzKUQZBg.webp"
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "торцевой шпингалет"
+    },
+    {
+      "k": "Длина, мм",
+      "v": "160"
+    },
+    {
+      "k": "Материал",
+      "v": "сталь"
+    }
+  ],
+  "description": "Стальной торцевой шпингалет Morelli длиной 160 мм для фиксации пассивной створки двустворчатой двери. Ставится в кромку полотна и не выступает за его плоскость. Семь покрытий, включая белое и чёрное.",
+  "intro": "Morelli L160 из серии Simple - стальной торцевой шпингалет длиной 160 мм для пассивной створки двустворчатой межкомнатной двери. Он ставится в кромку полотна и не выступает за его плоскость. Главная особенность модели: семь покрытий, включая белое, чёрное и чёрный никель.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Семь покрытий",
+          "text": "Матовый хром и никель, чёрный, белый, золото, античная бронза, чёрный никель: можно попасть и в светлую, и в тёмную дверь.",
+          "icon": "kit"
+        },
+        {
+          "title": "Белый вариант",
+          "text": "Белое покрытие почти растворяется на крашеных белых полотнах, шпингалета на кромке не видно.",
+          "icon": "eye"
+        },
+        {
+          "title": "Стальной корпус",
+          "text": "Сталь держит нагрузку при частом открывании пассивной створки.",
+          "icon": "bolt"
+        },
+        {
+          "title": "Длина 160 мм",
+          "text": "Удобная длина: за флажок легко взяться даже на верхнем торце.",
+          "icon": "hinge"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | торцевой шпингалет",
+        "Серия | Simple",
+        "Длина | 160 мм",
+        "Материал | сталь",
+        "Покрытия | матовый хром, матовый никель, чёрный, белый, золото, античная бронза, чёрный никель",
+        "Тип двери | межкомнатная двустворчатая"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Если врезаете фрезером, сравните с OL160: у той края планки скруглены под фрезу.",
+        "Как правило, на створку ставят два шпингалета, сверху и снизу.",
+        "Под корпус выбирают паз в кромке, под планку неглубокую выборку заподлицо.",
+        "Выбирая покрытие, сверьте его с ручками Morelli: названия оттенков у бренда совпадают."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем L160 отличается от OL160?",
+      "a": "Длина и материал одинаковые. У OL160 скруглённые края планки, удобные для врезки фрезой, а L160 выпускается в семи покрытиях против четырёх."
+    },
+    {
+      "q": "Подойдёт ли шпингалет к белой крашеной двери?",
+      "a": "Да, для таких полотен есть белое покрытие, оно не выделяется на кромке."
+    },
+    {
+      "q": "Можно ли ставить шпингалет только снизу?",
+      "a": "Можно, но при одном нижнем шпингалете верх створки может отходить. Для ровной фиксации ставят пару."
+    }
+  ],
+  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/467"
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "lockstyle-akik-mov",
+  "name": "Дверная ручка LockStyle AKIK MOV на овальной розетке",
+  "brand": "lockstyle",
+  "series": "AKIK",
+  "order": 295,
+  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "article": "AKIK MOV",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "черный",
+      "color": "black",
+      "article": "AKIK MOV AL6",
+      "price": 5300,
+      "inStock": true,
+      "image": "/images/products/lockstyle-akik-mov-chernyy.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/AKIK%20_LOCK_AL6-1000x1000.png"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "AKIK MOV CBM",
+      "price": 5500,
+      "inStock": true,
+      "image": "/images/products/lockstyle-akik-mov-matovyy-hrom.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/AKIK%20_LOCK_CBM-1000x1000.png"
+    },
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "AKIK MOV BB",
+      "price": 5850,
+      "inStock": true,
+      "image": "/images/products/lockstyle-akik-mov-matovoe-zoloto.jpg",
+      "imageSrc": "https://furnitura96.ru/image/cache/catalog/products/furnitura-dlya-mezhkomnatnih-dverej/dvernie-ruchki/lock-style/lockstyle-akik-mov-bb-matovoe-zoloto-1000x1000.png"
+    }
+  ],
+  "material": "цинковый сплав (ЦАМ)",
+  "style": "minimal",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на розетке"
+    },
+    {
+      "k": "Форма розетки",
+      "v": "овальная"
+    },
+    {
+      "k": "Материал",
+      "v": "цинковый сплав (ЦАМ)"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Китай"
+    },
+    {
+      "k": "Гарантия",
+      "v": "1 год"
+    }
+  ],
+  "description": "AKIK из коллекции LockStyle стоит на вытянутой овальной розетке, которая подчеркивает вертикаль двери. Лаконичный рычаг подходит для минималистичных интерьеров, а три покрытия позволяют сочетать ручку с черной, хромированной или золотой фурнитурой.",
+  "intro": "AKIK из коллекции LockStyle стоит на вытянутой овальной розетке, которая подчёркивает вертикаль двери. Лаконичный рычаг подходит для минималистичных интерьеров, а три покрытия позволяют сочетать ручку с чёрной, хромированной или золотой фурнитурой. Основа из цинкового сплава ЦАМ.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Овальная розетка",
+          "text": "Вытянутое основание зрительно удлиняет дверь.",
+          "icon": "rosette"
+        },
+        {
+          "title": "Лаконичный рычаг",
+          "text": "Без декора, для минимализма.",
+          "icon": "handle"
+        },
+        {
+          "title": "Три покрытия",
+          "text": "Чёрный, матовый хром, матовое золото.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Для каких дверей подходит",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Двери | межкомнатные",
+        "Стиль | минимализм",
+        "Розетка | овальная",
+        "Материал | цинковый сплав (ЦАМ)",
+        "Покрытия | чёрный, матовый хром, матовое золото",
+        "Гарантия | 1 год"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Овальная розетка требует ровной вертикальной площадки на полотне.",
+        "Завёртку и накладки ищите в той же форме, чтобы не смешивать круг и овал.",
+        "Защёлка продаётся отдельно от ручки.",
+        "Проверьте, закроет ли овал отверстия от прежней ручки."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Матовые покрытия протирают сухой микрофиброй, при сильных загрязнениях мягкой влажной тканью. Абразивы и спирт оставляют на матовом хроме и золоте блестящие следы. Если розетка сместилась, подтяните стяжные винты."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Зачем овальная розетка?",
+      "a": "Она подчёркивает вертикаль полотна и выглядит необычнее круглой или квадратной."
+    },
+    {
+      "q": "Какие оттенки предлагаются?",
+      "a": "Чёрный, матовый хром и матовое золото."
+    },
+    {
+      "q": "Где производится?",
+      "a": "Поставщик позиционирует марку как польскую, фактическая страна производства: Китай."
+    }
+  ],
+  "sourceUrl": "https://furnitura96.ru/dvernaya-ruchka-lockstyle-akik-mov-al6-chernyj/"
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "fratelli-cattini-una-fw-7",
+  "name": "Оконная ручка Fratelli Cattini Una FW 7",
+  "brand": "fratelli-cattini",
+  "series": "Una",
+  "order": 489,
+  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "article": "FW 7",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовая латунь",
+      "color": "brass",
+      "article": "FCT2733",
+      "price": 6067,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-fw-7.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-una-fw-7-bs-matovaja-latun.jpg"
+    },
+    {
+      "finish": "полированный хром",
+      "color": "chrome",
+      "article": "FCT2734",
+      "price": 5866,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-fw-7-chrome.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-una-fw-7-cr-polirovannyj-hrom.jpg"
+    },
+    {
+      "finish": "матовый чёрный",
+      "color": "black",
+      "article": "FCT2732",
+      "price": 5743,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-fw-7-black.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-una-fw-7-nm-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "полированная латунь",
+      "color": "brass",
+      "article": "FCT2731",
+      "price": 5866,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-fw-7-brass-pol.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-una-fw-7-olv-polirovannaja-latun.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "FCT2730",
+      "price": 5784,
+      "inStock": true,
+      "image": "/images/products/fratelli-cattini-una-fw-7-bronze.jpg",
+      "imageSrc": "https://fratelli-cattini.com/wp-content/uploads/2025/06/ruchka-okonnaja-fratelli-cattini-una-fw-7-by-matovaja-bronza.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "pvc"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "оконная ручка"
+    },
+    {
+      "k": "Квадрат, мм",
+      "v": "7"
+    },
+    {
+      "k": "Цена за",
+      "v": "1 шт."
+    },
+    {
+      "k": "Розетка",
+      "v": "круглая"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    }
+  ],
+  "description": "Дизайнерская оконная ручка из латуни с мягкой скруглённой рукоятью, продолжение дверной серии Una. Ставится на окна с квадратом 7 мм. На латунь даётся гарантия 5 лет.",
+  "intro": "Fratelli Cattini Una FW 7 это оконная ручка из латуни с мягкой скруглённой рукоятью без резких граней. Модель продолжает дверную серию Una и ставится на окна со стандартным квадратом 7 мм. Пять покрытий, от матовой латуни до матового чёрного, и гарантия 5 лет по данным поставщика.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Скруглённая рукоять",
+          "text": "Рукоять без острых рёбер удобно ложится в ладонь и не цепляет тюль или штору.",
+          "icon": "handle"
+        },
+        {
+          "title": "Латунь и 5 лет гарантии",
+          "text": "Корпус из латуни, на эту ручку поставщик даёт гарантию 5 лет.",
+          "icon": "shield"
+        },
+        {
+          "title": "Пять покрытий",
+          "text": "Матовая и полированная латунь, полированный хром, матовый чёрный и матовая бронза.",
+          "icon": "kit"
+        },
+        {
+          "title": "Серия Una целиком",
+          "text": "Той же формы выпускаются дверные ручки, поэтому окна и межкомнатные двери можно оформить одной серией.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Технические параметры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | оконная ручка",
+        "Квадрат | 7 мм",
+        "Розетка | круглая",
+        "Материал | латунь",
+        "Покрытия | матовая и полированная латунь, полированный хром, матовый чёрный, матовая бронза",
+        "Гарантия | 5 лет"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Рукоять гладкая: если нужен более цепкий хват и фактура, посмотрите соседнюю модель Una X с насечкой.",
+        "Уточните, какая фурнитура стоит на окне: ручка работает только с механизмом под квадрат 7 мм.",
+        "Расстояние между винтами крепления у оконных ручек обычно 43 мм, но штатную перед заказом всё равно измерьте.",
+        "Полированные покрытия заметнее показывают отпечатки, на кухне и в детской практичнее матовые."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем Una отличается от Una X?",
+      "a": "У Una гладкая скруглённая рукоять и пять покрытий, включая полированные. Una X той же формы, но с рельефной насечкой и только в матовых цветах."
+    },
+    {
+      "q": "На что даётся гарантия 5 лет?",
+      "a": "Гарантия 5 лет указана поставщиком для этой латунной ручки. Чтобы сохранить покрытие, не чистите его абразивами, растворителями и пастами для металла."
+    },
+    {
+      "q": "Поставлю ли я Una вместо штатной белой ручки?",
+      "a": "Да, если окно с поворотной фурнитурой под квадрат 7 мм и стандартным креплением на два винта. Отверстия в профиле при такой замене обычно не переделывают."
+    }
+  ],
+  "sourceUrl": "https://fratelli-cattini.com/shop/ruchka-okonnaya-fratelli-cattini-una-fw-7-bs-matovaya-latun/"
+}

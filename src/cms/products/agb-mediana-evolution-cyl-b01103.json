@@ -1,0 +1,165 @@
+{
+  "slug": "agb-mediana-evolution-cyl-b01103",
+  "name": "Замок AGB Mediana Evolution под цилиндр с пластиковым язычком",
+  "brand": "agb",
+  "series": "Mediana Evolution",
+  "order": 399,
+  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "article": "B01103.50",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовое золото",
+      "color": "gold",
+      "article": "B01103.50.23",
+      "price": 2102,
+      "inStock": true,
+      "image": "/images/products/agb-mediana-evolution-cyl-b01103-matovoe-zoloto.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Evolution-цилиндр-мат.-латунь.jpg"
+    },
+    {
+      "finish": "золото",
+      "color": "gold",
+      "article": "B01103.50.03",
+      "price": 1288,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-cyl-b01103-zoloto.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Evolution-цилиндр-латунь.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "B01103.50.34",
+      "price": 1652,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-cyl-b01103-matovyy-hrom.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Evolution-цилиндр-мат.-хром.jpg"
+    },
+    {
+      "finish": "хром",
+      "color": "chrome",
+      "article": "B01103.50.06",
+      "price": 1747,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-cyl-b01103-hrom.jpg",
+      "imageSrc": "https://agb.spb.ru/wp-content/uploads/2020/04/Evolution-цилиндр-хром.jpg"
+    },
+    {
+      "finish": "античная бронза",
+      "color": "bronze",
+      "article": "B01103.50.12",
+      "price": 2960,
+      "inStock": false,
+      "image": "/images/products/agb-mediana-evolution-cyl-b01103-antichnaya-bronza.jpg",
+      "imageSrc": "https://www.moyzamok.ru/pages/photos/agb/mediana_evolytion/011035012.jpg"
+    },
+    {
+      "finish": "чёрный",
+      "color": "black",
+      "article": "B01103.50.93",
+      "price": 1728,
+      "inStock": false,
+      "image": null
+    }
+  ],
+  "material": "сталь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "замок под цилиндр"
+    },
+    {
+      "k": "Язычок",
+      "v": "пластиковый"
+    },
+    {
+      "k": "Межосевое расстояние, мм",
+      "v": "85"
+    },
+    {
+      "k": "Бэксет, мм",
+      "v": "50"
+    },
+    {
+      "k": "Комплектация",
+      "v": "техническая упаковка, без ответной планки"
+    },
+    {
+      "k": "Страна",
+      "v": "Италия"
+    }
+  ],
+  "description": "Корпус замка Mediana Evolution под евроцилиндр для межкомнатных дверей, которые запираются ключом. Тихий пластиковый язычок и проверенная итальянская механика. Ответная планка приобретается отдельно.",
+  "intro": "Корпус AGB Mediana Evolution B01103 под евроцилиндр предназначен для межкомнатных дверей, которые запираются ключом. Внутри проверенная итальянская механика и тихий пластиковый язычок, посадка 85/50 мм. Замок идёт в технической упаковке, ответная планка и цилиндр приобретаются отдельно.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Тихая защёлка",
+          "text": "Пластиковый язычок входит в планку мягче металлического и не оставляет на ней царапин.",
+          "icon": "lock"
+        },
+        {
+          "title": "Ригель под ключ",
+          "text": "Дверь запирается цилиндром: снаружи ключом, изнутри ключом или вертушкой, в зависимости от модели цилиндра.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Шесть отделок",
+          "text": "Матовое золото, золото, матовый хром, хром, античная бронза и чёрный.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Тип | замок под цилиндр",
+        "Язычок | пластиковый",
+        "Межосевое расстояние | 85 мм",
+        "Бэксет | 50 мм",
+        "Комплектация | без ответной планки",
+        "Страна | Италия"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Ответная планка не входит в комплект, закажите её в цвет корпуса",
+        "Цилиндр подберите по толщине двери",
+        "Отверстие под цилиндр закрывают парой накладок под цвет ручки",
+        "Если нужно запираться изнутри без ключа, берите цилиндр ключ/вертушка"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Установка и уход",
+      "md": "Корпус врезают в торец, отверстия под квадрат и цилиндр сверлят сквозь полотно по шаблону с межосевым 85 мм. Цилиндр фиксируют винтом через лицевую планку. Пластиковый язычок смазывать не нужно, а цилиндру раз в год достаточно капли сухой смазки на графитовой или тефлоновой основе."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Какой ответной планкой комплектовать замок?",
+      "a": "Фирменной планкой AGB для Mediana Evolution в цвет корпуса. Модель уточните у менеджера при заказе."
+    },
+    {
+      "q": "Подойдёт ли цилиндр другой марки?",
+      "a": "Да, корпус рассчитан на стандартный евроцилиндр. Выбирайте длину по толщине полотна с накладками."
+    },
+    {
+      "q": "Есть ли Evolution под ключ-буратино?",
+      "a": "Да, модель B01101 с межосевым 90 мм работает с простым межкомнатным ключом."
+    }
+  ],
+  "sourceUrl": "https://agb.spb.ru/product/mediana-evolution-cilindr/"
+}

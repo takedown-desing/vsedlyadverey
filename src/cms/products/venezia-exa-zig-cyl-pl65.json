@@ -1,0 +1,147 @@
+{
+  "slug": "venezia-exa-zig-cyl-pl65",
+  "name": "Дверная ручка Venezia EXA ZIG CYL на планке PL65",
+  "brand": "venezia",
+  "series": "EXA ZIG",
+  "order": 286,
+  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "article": "EXA ZIG CYL PL65",
+  "hidden": false,
+  "hiddenNote": "",
+  "variants": [
+    {
+      "finish": "матовый черный",
+      "color": "black",
+      "article": "EXA ZIG CYL PL65",
+      "price": 26780,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-zig-cyl-pl65-matovyy-chernyy.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-zig-cyl-na-planke-pl65-matovyj-chernyj.jpg"
+    },
+    {
+      "finish": "матовый хром",
+      "color": "chrome",
+      "article": "EXA ZIG CYL PL65",
+      "price": 26780,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-zig-cyl-pl65-matovyy-hrom.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-zig-cyl-na-planke-pl65-matovyj-hrom.jpg"
+    },
+    {
+      "finish": "золото крайола",
+      "color": "gold",
+      "article": "EXA ZIG CYL PL65",
+      "price": 26780,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-zig-cyl-pl65-zoloto-krayola.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-zig-cyl-na-planke-pl65-zoloto-krajola.jpg"
+    },
+    {
+      "finish": "матовая бронза",
+      "color": "bronze",
+      "article": "EXA ZIG CYL PL65",
+      "price": 26780,
+      "inStock": false,
+      "image": "/images/products/venezia-exa-zig-cyl-pl65-matovaya-bronza.jpg",
+      "imageSrc": "https://made-italy.ru/shop-photos/dvernaja-ruchka-venezia-exa-zig-cyl-na-planke-pl65-matovaja-bronza.jpg"
+    }
+  ],
+  "material": "латунь",
+  "style": "modern",
+  "doorTypes": [
+    "interior"
+  ],
+  "specs": [
+    {
+      "k": "Тип",
+      "v": "ручка на планке"
+    },
+    {
+      "k": "Материал",
+      "v": "латунь"
+    },
+    {
+      "k": "Страна производства",
+      "v": "Италия"
+    },
+    {
+      "k": "Гарантия",
+      "v": "5 лет"
+    },
+    {
+      "k": "Цена указана за",
+      "v": "1 комплект (2 шт. на одну дверь)"
+    },
+    {
+      "k": "Исполнение планки",
+      "v": "под цилиндр"
+    }
+  ],
+  "description": "EXA ZIG отличается зигзагообразным изломом граненого рычага, который делает ручку заметной даже на простом полотне. Узкая планка PL65 с отверстием под цилиндр подходит для дверей, запирающихся на ключ.",
+  "intro": "EXA ZIG отличается зигзагообразным изломом граненого рычага, благодаря которому ручка заметна даже на простом полотне. Узкая планка PL65 с отверстием под цилиндр рассчитана на двери, которые запираются на ключ. Корпус латунный, производство Италия, гарантия 5 лет.",
+  "blocks": [
+    {
+      "type": "cards",
+      "title": "Особенности модели",
+      "items": [
+        {
+          "title": "Излом рычага",
+          "text": "Зигзаг превращает граненую ручку в арт-объект.",
+          "icon": "handle"
+        },
+        {
+          "title": "Под цилиндр",
+          "text": "Отверстие в планке для замка с цилиндровым механизмом.",
+          "icon": "cylinder"
+        },
+        {
+          "title": "Золото крайола",
+          "text": "Необычный золотистый оттенок среди матовых вариантов.",
+          "icon": "check"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Размеры и совместимость",
+      "head": "Параметр | Значение",
+      "rows": [
+        "Исполнение планки | под цилиндр",
+        "Планка | PL65",
+        "Материал | латунь",
+        "Покрытия | матовый чёрный, матовый хром, золото крайола, матовая бронза",
+        "Цена указана за | 1 комплект (2 шт.)"
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Что учесть при покупке",
+      "items": [
+        "Цилиндр и замок под цилиндр приобретаются отдельно.",
+        "Межосевое расстояние планки сверьте с замком до покупки.",
+        "Длину цилиндра подбирают по толщине полотна.",
+        "Для дверей без ключа в серии EXA есть модели на розетке."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Уход и эксплуатация",
+      "md": "Изломы рычага протирают микрофиброй, собирая пыль из углов. Матовые покрытия и золото крайола не полируют и не обрабатывают абразивом. Цилиндр раз в год можно смазать специальной смазкой для замков, масло для этого не подходит."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Чем EXA ZIG отличается от EXA CYL?",
+      "a": "У EXA ZIG рычаг с зигзагообразным изломом, у EXA CYL прямой граненый. Планка PL65 под цилиндр у обеих."
+    },
+    {
+      "q": "Входит ли цилиндр?",
+      "a": "Нет, цилиндр и замок подбирают отдельно."
+    },
+    {
+      "q": "Какая гарантия?",
+      "a": "5 лет."
+    }
+  ],
+  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-venezia-exa-zig-cyl-na-planke-pl65-matovyj-chernyj/"
+}
