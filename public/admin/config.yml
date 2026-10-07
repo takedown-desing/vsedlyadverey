@@ -39,7 +39,7 @@
         "template": "{{name}}",
         "editable": true
       },
-      "preview_path": "go/products/{{slug}}/",
+      "preview_path": "maniglia-shop/go/products/{{slug}}/",
       "summary": "{{name}}",
       "sortable_fields": [
         "name",
@@ -855,7 +855,7 @@
         "template": "{{title}}",
         "editable": true
       },
-      "preview_path": "go/sections/{{slug}}/",
+      "preview_path": "maniglia-shop/go/sections/{{slug}}/",
       "summary": "{{title}}",
       "sortable_fields": [
         "order",
@@ -1452,7 +1452,7 @@
         "template": "{{title}}",
         "editable": true
       },
-      "preview_path": "go/blog-hubs/{{slug}}/",
+      "preview_path": "maniglia-shop/go/blog-hubs/{{slug}}/",
       "summary": "{{title}}",
       "sortable_fields": [
         "order",
@@ -1549,7 +1549,7 @@
       "extension": "json",
       "identifier_field": "h1",
       "slug": "{{fields.url}}",
-      "preview_path": "go/pages/{{slug}}/",
+      "preview_path": "maniglia-shop/go/pages/{{slug}}/",
       "summary": "{{h1}} · {{url}}",
       "sortable_fields": [
         "url",
@@ -2561,7 +2561,7 @@
         "editable": true,
         "hint": "Адрес страницы бренда /brands/<адрес>/. У существующих брендов не менять: на него ссылаются товары"
       },
-      "preview_path": "go/brands/{{slug}}/",
+      "preview_path": "maniglia-shop/go/brands/{{slug}}/",
       "summary": "{{name}}",
       "description": "Страница бренда: справка, текст, серии, подразделы «бренд × категория». Чтобы новый бренд появился в фильтрах и на главной, добавьте его также в «Настройки → Каталог и бренды».",
       "fields": [
@@ -2784,7 +2784,7 @@
         "template": "{{name}}",
         "editable": true
       },
-      "preview_path": "go/series/{{slug}}/",
+      "preview_path": "maniglia-shop/go/series/{{slug}}/",
       "summary": "{{name}}",
       "description": "Тексты страниц серий (/series/…). Какие товары попадают в серию, определяется правилом по названию модели; для новой серии напишите нам, добавим правило.",
       "fields": [
@@ -2876,7 +2876,7 @@
         "template": "{{title}}",
         "editable": true
       },
-      "preview_path": "go/articles/{{slug}}/",
+      "preview_path": "maniglia-shop/go/articles/{{slug}}/",
       "summary": "{{title}}",
       "sortable_fields": [
         "order",
@@ -3781,7 +3781,7 @@
       "extension": "json",
       "identifier_field": "h1",
       "slug": "{{fields.url}}",
-      "preview_path": "go/service/{{slug}}/",
+      "preview_path": "maniglia-shop/go/service/{{slug}}/",
       "summary": "{{h1}} · {{url}}",
       "description": "Доставка, оплата, гарантия, шоурум, вопросы и ответы. Страницы «Оптовикам», «Дизайнерам», «Производителям дверей» сейчас отключены и не публикуются, тексты сохранены на будущее.",
       "fields": [

@@ -37,7 +37,10 @@ const num = (name, label, extra = {}) => ({ name, label, widget: 'number', value
 const bool = (name, label, def = false, extra = {}) => ({ name, label, widget: 'boolean', default: def, required: false, ...extra });
 const sel = (name, label, options, extra = {}) => ({ name, label, widget: 'select', options, required: false, ...extra });
 const icon = () => sel('icon', 'Иконка', ICONS, { default: 'check' });
-const go = (col) => `go/${col}/{{slug}}/`; // кнопка «Открыть на сайте» → src/pages/go/[col]/[id].astro
+// Кнопка «View on Live Site» → src/pages/go/[col]/[id].astro. Sveltia берёт от site_url только домен (new URL(site_url).origin),
+// поэтому путь GitHub Pages (/maniglia-shop) вписываем в preview_path сами; после переезда на домен BASE_PATH=/ и префикс пропадёт.
+const BASE = (process.env.BASE_PATH ?? '/maniglia-shop').replace(/^\/+|\/+$/g, '');
+const go = (col) => `${BASE ? BASE + '/' : ''}go/${col}/{{slug}}/`;
 const urlField = (hint) => str('slug', 'Адрес страницы (URL)', { pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Только латиница в нижнем регистре, цифры и дефисы'], hint });
 const rel = (name, label, collection, extra = {}) => ({ name, label, widget: 'relation', collection, value_field: '{{slug}}', search_fields: ['title', 'h1', 'slug'], display_fields: ['{{title}}'], required: false, ...extra });
 const seoExtra = [

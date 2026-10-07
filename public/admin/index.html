@@ -7,6 +7,19 @@
   <title>Админка · Всё для дверей</title>
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
   <link rel="cms-config-url" href="./config.yml" />
+  <style>
+    /* Sveltia по умолчанию запрещает выделение текста во всём интерфейсе (как в мобильном приложении).
+       Разрешаем выделять и копировать подписи, списки записей, подсказки и тексты. */
+    body, body *:not(button):not([role="button"]):not([role="tab"]):not([draggable="true"]) {
+      -webkit-user-select: text !important;
+      user-select: text !important;
+    }
+  </style>
+  <script>
+    // Sveltia отменяет правый клик (своё меню вместо браузерного) везде, кроме полей ввода.
+    // Перехватываем событие раньше неё, чтобы работало обычное меню браузера: «Копировать», «Вставить», «Открыть ссылку».
+    window.addEventListener('contextmenu', function (e) { e.stopImmediatePropagation(); }, true);
+  </script>
 </head>
 <body>
   <!-- Sveltia CMS: git-based админка, совместимая с Decap/Netlify CMS. Правки сохраняются коммитами в GitHub,
