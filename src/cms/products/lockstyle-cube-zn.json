@@ -4,7 +4,7 @@
   "brand": "lockstyle",
   "series": "CUBE",
   "order": 27,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "CUBE ZN",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Входит ли защёлка в комплект?",
       "a": "Нет, защёлку подбирают отдельно под квадрат 8 мм."
     }
-  ],
-  "sourceUrl": "https://furnitura96.ru/lock_style_cube_zn_al6_chernyy/"
+  ]
 }

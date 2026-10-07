@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "AURA",
   "order": 49,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "AURA 134 R15",
   "hidden": false,
   "hiddenNote": "",
@@ -151,6 +151,5 @@
       "q": "Что входит в комплект?",
       "a": "Две ручки на одну дверь с розетками и крепежом. Защёлка и накладки покупаются отдельно."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/dvernaya-ruchka-extreza-aura-134-na-rozetke-r15-matovyy-hrom-f05-clone/"
+  ]
 }

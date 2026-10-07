@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "V25",
   "order": 119,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "TERMO MDV25/S-60.00.3R16",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Можно ли ставить в квартиру?",
       "a": "Можно, но выгоды модели раскрываются в толстых утеплённых дверях частных домов."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/vreznye-zamki/zamok-vreznoy-suvaldnyy-termo-mdv25-s-60-00-3r16-4-key-klyuch-udl-120-75-mm/"
+  ]
 }

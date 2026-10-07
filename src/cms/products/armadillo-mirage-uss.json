@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "MIRAGE",
   "order": 261,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "MIRAGE USS",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Каков вес изделия?",
       "a": "Комплект весит 837 г."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-razdelnaya-k-uss52-mirage-ac-9-med/"
+  ]
 }

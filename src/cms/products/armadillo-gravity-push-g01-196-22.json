@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Gravity.Push",
   "order": 384,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "G01.196.22.105",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Какую ответную планку выбрать?",
       "a": "Для деревянной коробки подойдёт одна из двух фирменных планок, для других коробов универсальная. Названия указаны в паспорте: SP01.73.18 и SP02.59.20."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/magnitnaya-armadillo-armadillo-zashhelka-gravity-push-g01-196-22-105-bl/"
+  ]
 }

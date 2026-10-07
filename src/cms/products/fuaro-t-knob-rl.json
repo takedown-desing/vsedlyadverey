@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "CB-RL",
   "order": 125,
-  "category": "/catalog/cilindry/povorotniki/",
+  "category": "catalog--cilindry--povorotniki",
   "article": "CB-RL",
   "hidden": false,
   "hiddenNote": "",
@@ -135,6 +135,5 @@
       "q": "Что в комплекте?",
       "a": "Поворотник и шестигранный ключ для стопорного винта."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/povorotniki/cb/cb_rl/vertushka_pod_tsilindr_cb_rl_cp_8_khrom/"
+  ]
 }

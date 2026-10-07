@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "Leo",
   "order": 371,
-  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "category": "catalog--glazki-i-aksessuary--stuchalki",
   "article": "Leo",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Как ухаживать за полированной латунью?",
       "a": "Протирать сухой мягкой тканью. Для лакированной поверхности не используйте полироли и абразивы, они снимут защитный слой."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/stuchalka-dlya-dveri-dekorativnaya-extreza-leo-polirovannoe-zoloto-f01/"
+  ]
 }

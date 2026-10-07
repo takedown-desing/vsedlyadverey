@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Eclipse",
   "order": 346,
-  "category": "/catalog/dovodchiki/skrytye/",
+  "category": "catalog--dovodchiki--skrytye",
   "article": "E39000.03",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Можно ли регулировать дверь после установки?",
       "a": "Да, 3D-регулировка позволяет выровнять зазоры по высоте, горизонтали и прижиму без снятия полотна."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/e39000-03-34-petlya-skrytoy-ustanovki-agb-eclipse-3-2-hd-self-s-dovodchikom/"
+  ]
 }

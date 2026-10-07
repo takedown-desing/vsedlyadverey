@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Urban",
   "order": 238,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "SH.URB153.010",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Сколько весит модель?",
       "a": "401 г."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-dlya-razdvizhnyh-dverej-sh-urb153-010-sh010-urb-bl-26-chernyj/"
+  ]
 }

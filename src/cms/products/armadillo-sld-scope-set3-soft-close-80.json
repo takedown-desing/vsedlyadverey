@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Scope",
   "order": 476,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-steklyannyh-dverej",
   "article": "SLD.Scope.SET3.soft close+roller/80",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли использовать в офисе?",
       "a": "Да, ресурс 200 000 циклов и нагрузка до 80 кг на створку рассчитаны на интенсивную эксплуатацию."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-armadillo-armadillo-dlya-razdvizhnyh-dverej-sld-scope-set3-soft-close-roller-80/"
+  ]
 }

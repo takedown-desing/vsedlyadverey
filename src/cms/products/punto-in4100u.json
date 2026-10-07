@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 317,
-  "category": "/catalog/dvernye-petli/universalnye/",
+  "category": "catalog--dvernye-petli--universalnye",
   "article": "IN4100U (4B)",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Есть ли другие цвета?",
       "a": "Эта модель представлена в чёрном покрытии."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-punto-punto-universalnaya-in4100u-bl-4b-100h70h25-chernyj.html"
+  ]
 }

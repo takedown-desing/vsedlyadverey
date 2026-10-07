@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 150,
-  "category": "/catalog/mebelnaya-furnitura/kryuchki/",
+  "category": "catalog--mebelnaya-furnitura--kryuchki",
   "article": "PA 059 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Чем он отличается от PA 055 Z?",
       "a": "PA 059 Z одинарный крупный крючок-кольцо, а PA 055 Z компактная трёхрожковая вешалка шириной 108 мм."
     }
-  ],
-  "sourceUrl": "https://www.pamarworld.com/hook/pa-059-z"
+  ]
 }

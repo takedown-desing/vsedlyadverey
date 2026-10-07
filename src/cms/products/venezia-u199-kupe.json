@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 240,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "U199",
   "hidden": false,
   "hiddenNote": "",
@@ -142,6 +142,5 @@
       "q": "Какие варианты отделки есть?",
       "a": "Матовый хром, матовая бронза, полированная латунь и чёрный."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-dlja-razdvizhnoj-dveri-venezia-u199-matovyj-hrom/"
+  ]
 }

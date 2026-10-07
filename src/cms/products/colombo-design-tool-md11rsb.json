@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Tool",
   "order": 201,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "MD11RSB/0",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Подойдёт ли ручка к классической филёнчатой двери?",
       "a": "Tool задумана для гладких полотен и графичных интерьеров. На классической двери она будет выглядеть контрастно, что уместно только в продуманном эклектичном интерьере."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-colombo-tool-md11rsb0-gm-matovyj-grafit-pvd/"
+  ]
 }

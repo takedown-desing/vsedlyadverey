@@ -4,7 +4,7 @@
   "brand": "porta-di-parma",
   "series": "Origami",
   "order": 45,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "205",
   "hidden": false,
   "hiddenNote": "",
@@ -161,6 +161,5 @@
       "q": "Нужно ли выбирать правую или левую ручку?",
       "a": "Нет, ручка подходит для обоих вариантов открывания."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/dvernaya-ruchka-na-rozetke-porta-di-parma-modern-origami-205-01-polirovannyy-hrom/"
+  ]
 }

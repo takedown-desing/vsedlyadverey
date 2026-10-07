@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 185,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--otvetnye-chasti",
   "article": "4019",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Чем 4019 отличается от 4018?",
       "a": "4018 сделана из матовой нержавеющей стали, 4019 предлагается в хромированных, титановых, перламутровых и латунных отделках."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/catalogo/ref-4019/"
+  ]
 }

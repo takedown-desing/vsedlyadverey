@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Robot",
   "order": 233,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "CD211",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Как запереть раздвижную дверь?",
       "a": "Ручка не имеет механизма. Для запирания устанавливают отдельный замок для раздвижных дверей."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-dlja-razdvizhnoj-dveri-colombo-cd211-cm-matovyj-hrom-1sht/"
+  ]
 }

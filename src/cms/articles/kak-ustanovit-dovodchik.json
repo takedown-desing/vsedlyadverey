@@ -28,5 +28,8 @@
     "/catalog/dovodchiki/skrytye/",
     "/catalog/dovodchiki/napolnye/"
   ],
-  "order": 8
+  "order": 8,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

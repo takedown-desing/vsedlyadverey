@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 190,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--zamki",
   "article": "4015",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли поставить замок на стекло 12 мм?",
       "a": "Нет, паспортный диапазон 8-10 мм."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/catalogo/ref-4015/"
+  ]
 }

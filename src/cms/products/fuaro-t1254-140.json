@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 331,
-  "category": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-petli--dlya-vhodnyh-dverej",
   "article": "T1254/140x20x25",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Можно ли красить петлю?",
       "a": "Да, корпус красят вместе с дверью. Следите, чтобы краска не попала в зазор между половинами: там вращается подшипник."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/privarnaya-petlya-fuaro-t1254140kh20x25-mm-s-podshipnikom.html"
+  ]
 }

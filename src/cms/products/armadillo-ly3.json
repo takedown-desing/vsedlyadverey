@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "LY",
   "order": 52,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "LY3000 (LY3)",
   "hidden": false,
   "hiddenNote": "",
@@ -137,6 +137,5 @@
       "q": "Чем LY3 отличается от LY5?",
       "a": "LY3 рассчитан на двери 40-65 кг шириной до 962 мм и выпускается в алюминиевом и белом корпусе. LY5 закрывает тяжёлые полотна 80-120 кг шириной до 1372 мм."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-ly3000-1/"
+  ]
 }

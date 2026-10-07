@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 428,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "WC-2 7.7",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Есть ли квадратная версия?",
       "a": "Да, Fratelli Cattini WC-8 8FS на тонком квадратном основании."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/fiksator-povorotnyj-na-kruglom-osnovanii-fratelli-cattini-wc-2-7-7-an-matovyj-antraczit/"
+  ]
 }

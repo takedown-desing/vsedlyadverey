@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "CB-D-PRO",
   "order": 124,
-  "category": "/catalog/cilindry/povorotniki/",
+  "category": "catalog--cilindry--povorotniki",
   "article": "CB-D-PRO",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Какой цилиндр взять в пару?",
       "a": "Например, перекодируемый Fuaro D-PRO507-8 ключ-шток."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/povorotniki/cb/cb_d_pro/vertushka_pod_tsilindr_d_pro_bl_24_chyernyy/"
+  ]
 }

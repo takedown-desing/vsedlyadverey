@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "NEVADA",
   "order": 209,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "NEVADA 7FS",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Какой вес у ручки?",
       "a": "Комплект весит 704 г."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-nevada-7fs-nm-matovyj-chernyj/"
+  ]
 }

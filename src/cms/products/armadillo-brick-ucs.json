@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "BRICK",
   "order": 291,
-  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-vhodnyh-dverej",
   "article": "BRICK UCS",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Сколько граммов весит комплект?",
       "a": "1430 г."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-armadillo-armadillo-razdelnaya-brick-ucs-bl-26-chern/"
+  ]
 }

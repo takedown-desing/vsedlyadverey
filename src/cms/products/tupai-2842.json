@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 176,
-  "category": "/catalog/okonnaya-furnitura/balkonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--balkonnye-ruchki",
   "article": "2842",
   "hidden": false,
   "hiddenNote": "",
@@ -114,6 +114,5 @@
       "q": "Подойдёт ли ракушка для стеклянной межкомнатной двери?",
       "a": "Да, ручка клеится на гладкое стекло, в том числе на стеклянные полотна. Учитывайте, что она односторонняя."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/wp-content/uploads/2022/03/tupai-catalogo-geral-2022-com-capa-140322.pdf"
+  ]
 }

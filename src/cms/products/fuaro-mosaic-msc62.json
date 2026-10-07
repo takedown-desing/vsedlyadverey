@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "MOSAIC",
   "order": 269,
-  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-vhodnyh-dverej",
   "article": "K.MSC62.MOSAIC",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "В каком покрытии выпускается?",
       "a": "Только в сатинированном хроме."
     }
-  ],
-  "sourceUrl": "https://xn---23-eddjhv7d.xn--p1ai/furnitura/furnitura-dlya-megkomnatnyh-dverej/ruchki/ruchka-razdelnaia-kmsc62mosaic-ssc-16-satynyrovannyi-khrom-kvadrat-170-mm/"
+  ]
 }

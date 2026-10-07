@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 283,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "MN 1032 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Подходит ли для двери-пенала?",
       "a": "Да, ручка утоплена и не мешает полотну заходить в стену."
     }
-  ],
-  "sourceUrl": "https://www.mirar-group.ru/product/ruchka-dlya-razdvizhnykh-dverei-pamar-mn-1032-z/"
+  ]
 }

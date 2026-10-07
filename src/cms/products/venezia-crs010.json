@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 313,
-  "category": "/catalog/dvernye-petli/universalnye/",
+  "category": "catalog--dvernye-petli--universalnye",
   "article": "CRS010",
   "hidden": false,
   "hiddenNote": "",
@@ -175,6 +175,5 @@
       "q": "Будет ли античная бронза совпадать с ручками Venezia?",
       "a": "Петли и ручки выпускает одна фабрика, поэтому покрытия одной отделки согласуются лучше, чем фурнитура разных марок."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-petlya-universalnaya-latunnaya-s-kruglym-kolpachkom-venezia-crs010-102x76x3-polirovannyj-hrom/"
+  ]
 }

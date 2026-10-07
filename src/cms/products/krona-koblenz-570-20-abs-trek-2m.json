@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "570",
   "order": 463,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-mezhkomnatnyh-dverej",
   "article": "570/20/ABS",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Подойдёт ли для стеклянной двери?",
       "a": "Паспорт допускает полотна из дерева или в алюминиевой раме. Для цельного стекла без рамы нужны каретки с зажимами под стекло."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/komplekt-dlja-razdvizhnoj-dveri-do-80kg-plavnoe-zakryvanie-i-zakryvanie-ot-660-mmtrek-2m57020abs/"
+  ]
 }

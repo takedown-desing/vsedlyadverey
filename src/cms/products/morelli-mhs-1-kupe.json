@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": null,
   "order": 236,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "MHS-1",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Какие цвета доступны?",
       "a": "Матовый хром, бронза и матовое золото."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/698"
+  ]
 }

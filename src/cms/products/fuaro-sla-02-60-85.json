@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "SLA",
   "order": 104,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--elektromehanicheskie",
   "article": "SLA-02.60.85 auto",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Чем автомат отличается от полуавтомата?",
       "a": "Как правило, автомат сам запирает замок после закрытия двери, а полуавтомат запирается движением ручки. Для полуавтоматической схемы есть модель SLS-01.60.85."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/elektronnye-zamki/ruchka-avtomat-dlya-zamka-vreznogo-sla-02-60-85-auto-tuya-wifi-chernaya/"
+  ]
 }

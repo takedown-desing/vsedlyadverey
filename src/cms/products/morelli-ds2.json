@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 351,
-  "category": "/catalog/upory-i-ogranichiteli/nastennye/",
+  "category": "catalog--upory-i-ogranichiteli--nastennye",
   "article": "DS2",
   "hidden": false,
   "hiddenNote": "",
@@ -152,6 +152,5 @@
       "q": "Выдержит ли гипсокартонная стена?",
       "a": "Выдержит, если использовать дюбель для пустотелых стен или закрепить упор в профиль каркаса."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/1990"
+  ]
 }

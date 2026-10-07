@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "XC S-Line",
   "order": 167,
-  "category": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+  "category": "catalog--razdvizhnye-sistemy--komplektuyushchie",
   "article": "G04115.00.00",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Сколько кареток в комплекте?",
       "a": "Две уменьшенные каретки."
     }
-  ],
-  "sourceUrl": "https://www.tuttoferramenta.it/prodotto/kit-carrelli-ridotti-xc-s-line-g041150000-agb-per-alzante-scorrevole-legno-registrabile-serie-climatech-portata-250-kg/AGBG041150000"
+  ]
 }

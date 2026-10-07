@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "MAG MINI",
   "order": 389,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "MAG MINI A",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли поставить ручку?",
       "a": "Модель задумана для дверей без ручки. Если нужна ручка, выбирают замок для профильных дверей под квадрат."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/zashhelka-magnitnaya-fratelli-cattini-mag-mini-a-dlya-alyuminievyh-dverej-matovyj-chernyj/"
+  ]
 }

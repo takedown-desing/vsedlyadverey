@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Antologhia",
   "order": 32,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "KBE11RB",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Чем Bellagio отличается от Busiri?",
       "a": "У Bellagio рычаг расширяется к краю и розетка прямоугольная, у Busiri прямой гранёный рычаг со ступенчатым наконечником и квадратная розетка."
     }
-  ],
-  "sourceUrl": "https://alfasantehnika.ru/catalog/accessories6723/31082/"
+  ]
 }

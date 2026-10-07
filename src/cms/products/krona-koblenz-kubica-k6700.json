@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica",
   "order": 299,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K6700 DXSX",
   "hidden": false,
   "hiddenNote": "",
@@ -174,6 +174,5 @@
       "q": "На сколько градусов открывается дверь?",
       "a": "Угол открывания 180°."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/KUBICA-6700-DXSX-CRSAT-petlja-skrytaja-universalnaja-matovyj-hrom-70-kg/"
+  ]
 }

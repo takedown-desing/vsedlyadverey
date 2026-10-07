@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Comfort-PRO",
   "order": 479,
-  "category": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+  "category": "catalog--razdvizhnye-sistemy--komplektuyushchie",
   "article": "43941",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Подойдёт ли он к двери без паза?",
       "a": "Нет. Нужен паз по нижнему торцу, иначе ролику не за что держать полотно."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/nizhnij-napravlyayushhij-rolik-armadillo-armadillo-comfort-comfort-pro/"
+  ]
 }

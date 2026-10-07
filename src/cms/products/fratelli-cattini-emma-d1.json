@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "EMMA",
   "order": 210,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "EMMA D1",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Что ещё нужно купить к ручке?",
       "a": "Защёлку или замок, а для ванной и спальни поворотную завёртку. Накладки подбирают на круглой розетке в тон."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-ema-77-olv-polirovannaja-latun/"
+  ]
 }

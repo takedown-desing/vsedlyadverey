@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "1700",
   "order": 143,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-steklyannyh-dverej",
   "article": "1700 2",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Какое стекло подходит?",
       "a": "Закалённое толщиной 8, 10 или 12 мм, весом полотна до 120 кг."
     }
-  ],
-  "sourceUrl": "https://doorskit.ru/internet-magazin-krona-koblenz/product/razdvizhnaya-sistema-koblenz-1700-steklyannykh-dverey-vesom-do-120-kg"
+  ]
 }

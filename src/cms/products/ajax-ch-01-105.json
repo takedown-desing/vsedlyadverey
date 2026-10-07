@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "RIM",
   "order": 89,
-  "category": "/catalog/glazki-i-aksessuary/",
+  "category": "catalog--glazki-i-aksessuary",
   "article": "CH-01/105",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Как открыть дверь полностью?",
       "a": "Прикройте дверь, откиньте скобу с ответного крючка и откройте полотно как обычно."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zadvizhki/dlya_legkikh_dverey/rim/blokirator_otkryvaniya_dveri_ch_01_105_sn_mat_nikel/"
+  ]
 }

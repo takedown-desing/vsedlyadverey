@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": null,
   "order": 362,
-  "category": "/catalog/upory-i-ogranichiteli/torcevye/",
+  "category": "catalog--upory-i-ogranichiteli--torcevye",
   "article": "D00320.15",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Можно ли сочетать ригель с ручками другого бренда?",
       "a": "Да, механически он ни от чего не зависит. Важно лишь совпадение по цвету, поэтому подбирайте покрытие под остальную фурнитуру."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/d00320-15-06-upor-torcevoy-dvernoy-nikel/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "class",
   "series": "Rubin",
   "order": 23,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "1030",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Будет ли совпадать покрытие с другими ручками Rubin?",
       "a": "Да, в серии есть раздельные ручки в той же затемнённой бронзе, поэтому все двери можно оформить одинаково."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/dvernaya-ruchka-class-na-planke-350mm-mod-rubin-1030-zatemnennaya-bronza-santekhnicheskaya/"
+  ]
 }

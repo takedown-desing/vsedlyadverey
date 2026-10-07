@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "Unique Biblo",
   "order": 38,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "VNZ2001",
   "hidden": false,
   "hiddenNote": "",
@@ -182,6 +182,5 @@
       "q": "Отличается ли розетка у разных моделей Unique?",
       "a": "Нет, у Miami, Sydney, Philip и Biblo одинаковая квадратная розетка 45x45x9,5 мм, модели различаются рычагом."
     }
-  ],
-  "sourceUrl": "https://nasp.ru/product/vnz2001-100718/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 364,
-  "category": "/catalog/upory-i-ogranichiteli/torcevye/",
+  "category": "catalog--upory-i-ogranichiteli--torcevye",
   "article": "RIGEL16-140",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Нужна ли ответная часть в пол?",
       "a": "В деревянный пол ригель можно завести в просверленное отверстие. Для плитки и камня лучше вклеить металлическую гильзу."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/upor-dvernoy-torcevoy-rigel16-140-fb-140-16-sn-3-mat-nikel/"
+  ]
 }

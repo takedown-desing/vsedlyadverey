@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "HS",
   "order": 449,
-  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "category": "catalog--cilindry--klyuch-vertushka",
   "article": "HS 60CK",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Можно ли поставить цилиндр в замок другой марки?",
       "a": "Подойдёт в любой замок под стандартный профильный евроцилиндр."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2215"
+  ]
 }

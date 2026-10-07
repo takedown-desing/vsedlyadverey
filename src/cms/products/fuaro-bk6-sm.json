@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 427,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "BK6 SM",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "С каким замком ставить?",
       "a": "С сантехническим замком или защёлкой, фиксатор которых рассчитан на квадрат 6 мм."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/ruchka-povorotnaya-bk6-r-sm58-bk6-sm-mab-6-temnaya-bronza/"
+  ]
 }

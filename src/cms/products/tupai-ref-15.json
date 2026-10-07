@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 156,
-  "category": "/catalog/mebelnaya-furnitura/kryuchki/",
+  "category": "catalog--mebelnaya-furnitura--kryuchki",
   "article": "15",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Подойдёт ли крючок для общественных помещений?",
       "a": "Да, крепление в четырёх точках и простая классическая форма рассчитаны на частое использование в офисах, кафе и гардеробах."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/en/catalogo/ref-15/"
+  ]
 }

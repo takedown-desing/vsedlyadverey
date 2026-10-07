@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 385,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "M1895",
   "hidden": false,
   "hiddenNote": "",
@@ -135,6 +135,5 @@
       "q": "Есть ли в комплекте завертка?",
       "a": "Нет, только защёлка и ответная планка. Завертку и ручки выбирают отдельно."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/4054"
+  ]
 }

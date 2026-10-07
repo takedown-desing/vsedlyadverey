@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 352,
-  "category": "/catalog/upory-i-ogranichiteli/nastennye/",
+  "category": "catalog--upory-i-ogranichiteli--nastennye",
   "article": "DS-15",
   "hidden": false,
   "hiddenNote": "",
@@ -136,6 +136,5 @@
       "q": "Пахнет ли силиконовая вставка?",
       "a": "Нет, по данным производителя демпфер без запаха, это удобно в спальне и детской."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/upor-dvernoj-nastennyj-ds-15-cp-hrom.html"
+  ]
 }

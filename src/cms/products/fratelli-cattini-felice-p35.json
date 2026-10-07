@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "FELICE",
   "order": 221,
-  "category": "/catalog/dvernye-ruchki/knoby/",
+  "category": "catalog--dvernye-ruchki--knoby",
   "article": "FELICE P35",
   "hidden": false,
   "hiddenNote": "",
@@ -146,6 +146,5 @@
       "q": "Какой размер у кноба?",
       "a": "Диаметр 70 мм, вес одной ручки 433 г."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-dvernaja-knob-povorotnajafiks-fratelli-cattini-felice-p35-70-nm-matovyj-chernyj-1sht/"
+  ]
 }

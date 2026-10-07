@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Architect",
   "order": 309,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "11160UN3D",
   "hidden": false,
   "hiddenNote": "",
@@ -165,6 +165,5 @@
       "q": "Нужно ли смазывать нейлоновые вставки?",
       "a": "Нет, вставки работают без смазки. Масло может собрать пыль и ухудшить ход."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-skrytoj-ustanovki-s-3d-regulirovkoj-armadillo-11160un3d-architect-3d-ach-universal-60-sc-matovyj-khrom.html"
+  ]
 }

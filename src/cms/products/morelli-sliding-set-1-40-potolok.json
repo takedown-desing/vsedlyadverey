@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Sliding",
   "order": 459,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-mezhkomnatnyh-dverej",
   "article": "SLIDING SET 1",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Нужна ли дверная коробка?",
       "a": "Нет, раздвижное полотно ходит вдоль стены или перегородки, проём оформляют наличниками или доборами по вкусу."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/razdvizhnye-sistemy/all/1074"
+  ]
 }

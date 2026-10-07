@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "Code 87",
   "order": 330,
-  "category": "/catalog/dvernye-petli/pruzhinnye/",
+  "category": "catalog--dvernye-petli--pruzhinnye",
   "article": "CODE 87 155-40",
   "hidden": false,
   "hiddenNote": "",
@@ -140,6 +140,5 @@
       "q": "Сколько петель брать на высокую дверь?",
       "a": "Три, даже если вес укладывается в 45 кг: третья петля добавляет жёсткости и не даёт высокому полотну выгибаться при толчке."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-petlya-barnaya-pruzhinnaya-dvustoronnyaya-fratelli-cattini-aldeghi-code-87-155-40-cs-mat-hrom/"
+  ]
 }

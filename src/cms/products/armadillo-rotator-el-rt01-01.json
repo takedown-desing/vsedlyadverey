@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Rotator",
   "order": 98,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--elektromehanicheskie",
   "article": "EL.RT01.01",
   "hidden": false,
   "hiddenNote": "",
@@ -161,6 +161,5 @@
       "q": "Какие покрытия есть?",
       "a": "Чёрный, матовый хром, матовое золото, матовый никель и хром."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/elektronnye_zamki_smart_lock/rotator/nakladnye_zamki_rotator/elektronnyy_zamok_rotator_el_rt01_01_bl_chernyy/"
+  ]
 }

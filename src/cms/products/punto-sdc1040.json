@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "SD",
   "order": 93,
-  "category": "/catalog/dovodchiki/pruzhinnye/",
+  "category": "catalog--dovodchiki--pruzhinnye",
   "article": "SDC1040",
   "hidden": false,
   "hiddenNote": "",
@@ -132,6 +132,5 @@
       "q": "Чем SDC1040 отличается от Fratelli Cattini 114D?",
       "a": "SDC1040 рассчитан на 40 кг, ставится со стороны петель и выдерживает мороз до -35 °C. 114D держит до 60 кг, крепится на наличник и прижимается к полотну роликом."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/dvernye_gidravlicheskie_dovodchiki/pruzhinnye/sd/sdc1040/dovodchik_dvernoy_pruzhinnyy_sdc1040_al_40_kg_alyuminiy/"
+  ]
 }

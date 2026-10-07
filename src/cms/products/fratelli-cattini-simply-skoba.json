@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "SIMPLY",
   "order": 228,
-  "category": "/catalog/dvernye-ruchki/skoby/",
+  "category": "catalog--dvernye-ruchki--skoby",
   "article": "SIMPLY 300",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Какие цвета есть?",
       "a": "Матовый хром, полированный хром и матовый чёрный."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-skoba-fratelli-cattini-simply-300mm-250mm-matovyj-hrom/"
+  ]
 }

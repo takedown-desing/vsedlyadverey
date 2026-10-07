@@ -28,5 +28,8 @@
     "/catalog/cilindry/bronenakladki/",
     "/catalog/zamki-dlya-vhodnyh-dverej/"
   ],
-  "order": 5
+  "order": 5,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

@@ -4,7 +4,7 @@
   "brand": "otlav",
   "series": "Exacta",
   "order": 78,
-  "category": "/catalog/dvernye-petli/vvertnye/",
+  "category": "catalog--dvernye-petli--vvertnye",
   "article": "CG495140H",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли отрегулировать провисшую дверь?",
       "a": "Да, регулировка по трём направлениям позволяет выставить полотно без снятия петель."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item7505"
+  ]
 }

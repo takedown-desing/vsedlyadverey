@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "WOO",
   "order": 206,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "WOO 8FS",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Можно ли подобрать к ней завёртку WC?",
       "a": "Да, завёртку и накладку под ключ подбирают отдельно на квадратной розетке в том же покрытии."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-woo-8fs-nm-matovyj-chernyj/"
+  ]
 }

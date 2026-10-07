@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Разовая миграция контента из массивов src/data/* в формат админки: один файл = одна сущность (src/cms/).
+"""РАЗОВАЯ миграция (выполнена 07.10.2026, повторно не запускать: перезапишет правки из админки).
+Разовая миграция контента из массивов src/data/* в формат админки: один файл = одна сущность (src/cms/).
 Запуск из site/: python3 scripts/migrate-to-cms.py
 После миграции src/data/products и src/data/content больше не читаются сайтом (см. src/lib/data.ts)."""
 import json, os, re, glob, shutil
 
+import sys
+if os.path.isdir(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'src', 'cms', 'products')) and '--force' not in sys.argv:
+    sys.exit('src/cms уже заполнен из админки; миграция не нужна (флаг --force перезапишет правки)')
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, 'src', 'data')
 OUT = os.path.join(ROOT, 'src', 'cms')

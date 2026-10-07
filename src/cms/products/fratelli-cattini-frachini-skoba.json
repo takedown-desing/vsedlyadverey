@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "FRACHINI",
   "order": 229,
-  "category": "/catalog/dvernye-ruchki/skoby/",
+  "category": "catalog--dvernye-ruchki--skoby",
   "article": "FRACHINI 3V",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "В каком интерьере она уместна?",
       "a": "В классическом: на деревянных дверях, рядом с филёнками и резными элементами."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-skoba-fratelli-cattini-franchini-260-mm-200-mm-ba-antichnaja-bronza/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "Una",
   "order": 489,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "FW 7",
   "hidden": false,
   "hiddenNote": "",
@@ -152,6 +152,5 @@
       "q": "Поставлю ли я Una вместо штатной белой ручки?",
       "a": "Да, если окно с поворотной фурнитурой под квадрат 7 мм и стандартным креплением на два винта. Отверстия в профиле при такой замене обычно не переделывают."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/ruchka-okonnaya-fratelli-cattini-una-fw-7-bs-matovaya-latun/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica",
   "order": 510,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-petli/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-petli",
   "article": "K6400",
   "hidden": false,
   "hiddenNote": "",
@@ -140,6 +140,5 @@
       "q": "Нужно ли обслуживать петлю?",
       "a": "Нет, втулки износостойкие и смазки не требуют. Раз в год стоит проверить регулировку: полотно могло немного осесть."
     }
-  ],
-  "sourceUrl": "https://koblenz.spb.ru/product/kubica-kubicenter-k6400/"
+  ]
 }

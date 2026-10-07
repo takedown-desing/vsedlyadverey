@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 336,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "SD-2030",
   "hidden": false,
   "hiddenNote": "",
@@ -150,6 +150,5 @@
       "q": "Будет ли доводчик держать дверь открытой?",
       "a": "Нет, фиксации в этой модели нет. Для проветривания или заноса мебели используйте напольный клин или упор."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dovodchik-dvernoj-punto--punto-sd-2030-al-40-55-kg-alyuminij.html"
+  ]
 }

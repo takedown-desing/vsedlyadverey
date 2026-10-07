@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "AGATA",
   "order": 48,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "AGATA 310 PL01 WC",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Нужна ли отдельная завертка?",
       "a": "Фиксатор работает через узел на планке. Уточните комплектацию при заказе."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/dvernaya-ruchka-extreza-agata-agata-310-na-planke-pl01-polirovannyy-hrom-f04-santehnicheskaya-zavertka-wc/"
+  ]
 }

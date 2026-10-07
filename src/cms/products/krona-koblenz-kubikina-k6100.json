@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubikina",
   "order": 509,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-petli/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-petli",
   "article": "K6100",
   "hidden": false,
   "hiddenNote": "",
@@ -139,6 +139,5 @@
       "q": "Нужно ли смазывать петлю?",
       "a": "Нет, по данным производителя шарнир смазки не требует. Достаточно протирать петлю от пыли и при необходимости подправить регулировку."
     }
-  ],
-  "sourceUrl": "https://koblenz.spb.ru/product/kubikina-k6100/"
+  ]
 }

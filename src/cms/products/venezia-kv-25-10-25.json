@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 450,
-  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "category": "catalog--cilindry--klyuch-vertushka",
   "article": "25/10/25",
   "hidden": false,
   "hiddenNote": "",
@@ -141,6 +141,5 @@
       "q": "Подойдёт ли к современному интерьеру?",
       "a": "Чёрная и хромированная версии смотрятся нейтрально, но форма вертушки классическая."
     }
-  ],
-  "sourceUrl": "https://sdf-handle.ru/katalog/cilindry/zamki-i-cilindry-venezia/tsilindr-klyuch-fiksator-25-10-25-venezia-VNZ626/"
+  ]
 }

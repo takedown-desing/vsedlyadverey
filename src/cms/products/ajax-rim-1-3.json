@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "RIM",
   "order": 95,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--nakladnye",
   "article": "RIM-1-3",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Подходит ли замок для металлической двери?",
       "a": "Он рассчитан на лёгкие деревянные и щитовые полотна."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zamki_nakladnye/dlya_legkikh_dverey/rim/zamok_nakladnoy_rim_1_3_ab_bronza/"
+  ]
 }

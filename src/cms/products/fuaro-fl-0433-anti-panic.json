@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "FL",
   "order": 115,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "AP.C-65.72-0433",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Где ставят FL-0433?",
       "a": "На эвакуационных выходах, лестничных клетках и противопожарных дверях общественных зданий."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/sistemy_antipanika/zamki_s_funktsiey_anti_panik/fl/fl_0433/zamok_dlya_protivopozharnykh_dverey_fl_0433_anti_panic_s_razdelnym_kvadratom/"
+  ]
 }

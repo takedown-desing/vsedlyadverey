@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 397,
-  "category": "/catalog/mezhkomnatnye-zamki/pod-cilindr/",
+  "category": "catalog--mezhkomnatnye-zamki--pod-cilindr",
   "article": "M85C-50",
   "hidden": false,
   "hiddenNote": "",
@@ -111,6 +111,5 @@
       "q": "Какую длину цилиндра брать?",
       "a": "По толщине полотна с накладками: цилиндр должен выступать не больше чем на 1-3 мм с каждой стороны."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy-zamok-fuaro-m85c-50-ab-pod-tsilindr-mekhanizm-bronza-s-magnitnoy-zashchelkoy/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "CUBE",
   "order": 262,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "CUBE URB3",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Насколько тяжёлая ручка?",
       "a": "1256 г."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-cube-urb3-bpvd-black-77/"
+  ]
 }

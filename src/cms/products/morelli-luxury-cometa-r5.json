@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Luxury",
   "order": 146,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "COMETA R5",
   "hidden": false,
   "hiddenNote": "",
@@ -163,6 +163,5 @@
       "q": "Подойдёт ли белая COMETA к белой двери?",
       "a": "Да, белый вариант делает фурнитуру почти незаметной на светлом полотне, а чёрный и антрацит, наоборот, дают контраст."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/790"
+  ]
 }

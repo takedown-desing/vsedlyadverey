@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 192,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--komplekty",
   "article": "4016",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "В каких покрытиях есть 4016?",
       "a": "В наличии блестящий хром, матовый хром, титан и перламутровый никель. Чёрный перламутровый есть в каталоге производителя."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/wp-content/uploads/2022/03/tupai-catalogo-geral-2022-com-capa-140322.pdf"
+  ]
 }

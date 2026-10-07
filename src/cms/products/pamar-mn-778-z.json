@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 503,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-ruchki",
   "article": "MN 778 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -110,6 +110,5 @@
       "q": "Как ухаживать за золотой отделкой?",
       "a": "Протирайте мягкой влажной тканью и вытирайте насухо. Абразивы и растворители повреждают гальваническое покрытие, а на кухне жир лучше смывать сразу."
     }
-  ],
-  "sourceUrl": "https://www.itkt.ru/category/ruchki_skoby_klassika/ruchka_mebelnaya_pamar_mn_778_z/"
+  ]
 }

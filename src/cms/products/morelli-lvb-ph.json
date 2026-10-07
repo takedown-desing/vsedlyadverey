@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "LVB",
   "order": 253,
-  "category": "/catalog/dvernye-ruchki/skoby/",
+  "category": "catalog--dvernye-ruchki--skoby",
   "article": "LVB PH",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Что такое летняя гроза?",
       "a": "Авторское название чёрного матового покрытия."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/4875"
+  ]
 }

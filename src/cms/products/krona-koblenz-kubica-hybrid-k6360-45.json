@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica Hybrid",
   "order": 298,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K6360/45",
   "hidden": false,
   "hiddenNote": "",
@@ -183,6 +183,5 @@
       "q": "Подойдёт ли K6360/45 для стальной коробки?",
       "a": "Да, производитель допускает деревянные, стальные и алюминиевые коробки."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/skrytaya-petlya-krona-koblenz-kubica-hybrid-k6360-45-cover-cs-matovyy-hrom-nagruzka-do-60-kg/"
+  ]
 }

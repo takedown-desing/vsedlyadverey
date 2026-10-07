@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Easy Block",
   "order": 375,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "EASY BLOCK F",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Выдержит ли порог холодный тамбур?",
       "a": "Рабочий диапазон от -30 до +50 °С, так что двери между тамбуром и квартирой для него не проблема."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/avtomaticheskiy-porog-easy-block-f-820/"
+  ]
 }

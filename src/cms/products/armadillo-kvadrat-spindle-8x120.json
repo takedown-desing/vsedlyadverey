@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Spindle",
   "order": 511,
-  "category": "/catalog/remkomplekty-i-zapchasti/",
+  "category": "catalog--remkomplekty-i-zapchasti",
   "article": "8x120",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Почему ручка болтается на новом квадрате?",
       "a": "Скорее всего, не затянут стопорный винт ручки или квадрат зашёл в ручку не на полную глубину."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/kvadrat-dlya-ruchek-spindle-8h120/"
+  ]
 }

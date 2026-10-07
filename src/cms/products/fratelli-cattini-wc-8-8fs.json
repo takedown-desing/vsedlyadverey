@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 429,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "WC-8 8FS",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "С каким замком ставить?",
       "a": "С любым сантехническим замком или защёлкой под завертку, у которых квадрат совпадает с фиксатором."
     }
-  ],
-  "sourceUrl": "https://made-italy.ru/shop/fiksator-povorotnyj-na-kvadratnom-osnovanii-fratelli-cattini-wc-8-8fs-sb-matovoe-zoloto/"
+  ]
 }

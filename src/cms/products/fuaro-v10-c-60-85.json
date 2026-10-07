@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "V10",
   "order": 457,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "V10/C-60.85.3R14",
   "hidden": false,
   "hiddenNote": "",
@@ -110,6 +110,5 @@
       "q": "Есть ли у замка защёлка?",
       "a": "Да, защёлка работает от нажимной ручки, ригели выдвигаются ключом или вертушкой цилиндра."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy_zamok_fuaro_v10_c_60_85_3r14_mezh_85mm_pod_tsilindr_khrom/"
+  ]
 }

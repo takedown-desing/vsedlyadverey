@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 191,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--zamki",
   "article": "4026",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Какие покрытия у 4026?",
       "a": "В наличии матовый хром, по каталогу также блестящий хром, титан, перламутровые никель и чёрный."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/catalogo/ref-4026/"
+  ]
 }

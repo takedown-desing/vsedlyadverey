@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "OPTIMA",
   "order": 292,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "K.JK51.OPTIMA",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Подойдёт ли для офиса?",
       "a": "Да, модель рассчитана на интенсивное использование."
     }
-  ],
-  "sourceUrl": "https://xn---23-eddjhv7d.xn--p1ai/furnitura/furnitura-dlya-megkomnatnyh-dverej/ruchki/ruchka-razdelnaia-kjk51optima-optima-jk-sncp-3-matovyi-nykelkhrom/"
+  ]
 }

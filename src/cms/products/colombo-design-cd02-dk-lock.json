@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": null,
   "order": 179,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "CD02 DK LOCK",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Подойдёт ли основание для ручки другого бренда?",
       "a": "Производитель заявляет совместимость с оконными ручками Colombo Design с поворотно-откидным механизмом. Ручки других марок не гарантируют совпадения посадки."
     }
-  ],
-  "sourceUrl": "https://www.manigliedesign.com/meccanismi-cremonesi-martelline-finestre/4002-dispositivo-con-sistema-di-bloccaggio-a-chiave-cd02-dk-lock-colombo-design.html"
+  ]
 }

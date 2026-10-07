@@ -4,7 +4,7 @@
   "brand": "comaglio",
   "series": null,
   "order": 377,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "2020",
   "hidden": false,
   "hiddenNote": "",
@@ -98,6 +98,5 @@
       "q": "Можно ли поставить порог на стеклянную раздвижную дверь?",
       "a": "Только если у стекла есть нижний профиль, в который можно закрепить корпус. Уточните конструкцию двери перед покупкой."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/avtoporog-comaglio-2020-900-mm-dlya-razdvizhnyh-dverey/"
+  ]
 }

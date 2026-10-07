@@ -4,7 +4,7 @@
   "brand": "otlav",
   "series": "Invisacta",
   "order": 41,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "IN303",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Где находятся регулировочные винты?",
       "a": "Под съёмными накладками на корпусе. Их снимают, регулируют дверь шестигранником и ставят обратно."
     }
-  ],
-  "sourceUrl": "https://www.tbm.ru/product/petlia-skrytaia-universalnaia-3d-120x30-mm-80-kg-camakaliuminii-serebro-matovoe"
+  ]
 }

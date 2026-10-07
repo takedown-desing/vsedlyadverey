@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Innovation",
   "order": 396,
-  "category": "/catalog/mezhkomnatnye-zamki/pod-cilindr/",
+  "category": "catalog--mezhkomnatnye-zamki--pod-cilindr",
   "article": "IM L",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Можно ли закрывать дверь без ключа?",
       "a": "Да, магнитная защёлка удерживает дверь, ключ нужен только чтобы выдвинуть ригель."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2449"
+  ]
 }

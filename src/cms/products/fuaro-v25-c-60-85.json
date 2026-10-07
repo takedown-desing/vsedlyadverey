@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "V25",
   "order": 455,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "V25/C-60.85.3R16",
   "hidden": false,
   "hiddenNote": "",
@@ -115,6 +115,5 @@
       "q": "Нужен ли второй замок?",
       "a": "Часто цилиндровый замок дополняют сувальдным, например V25/S-60.00: два разных механизма сложнее вскрыть."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy_zamok_fuaro_v25_c_60_85_3r16_mezh_85mm_pod_tsilindr_khrom/"
+  ]
 }

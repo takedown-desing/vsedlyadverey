@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "DAS SS",
   "order": 55,
-  "category": "/catalog/dvernye-petli/pruzhinnye/",
+  "category": "catalog--dvernye-petli--pruzhinnye",
   "article": "BH586SS",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Какие покрытия доступны?",
       "a": "Матовый никель (BH586SS SN) и бронза (BH586SS AB)."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-bh586ss-sn/"
+  ]
 }

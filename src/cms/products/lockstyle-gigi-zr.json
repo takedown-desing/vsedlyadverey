@@ -4,7 +4,7 @@
   "brand": "lockstyle",
   "series": "GIGI",
   "order": 294,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "GIGI ZR",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Какая гарантия?",
       "a": "1 год."
     }
-  ],
-  "sourceUrl": "https://furnitura96.ru/dvernaya-ruchka-lockstyle-gigi-zr-al6-chernyj/"
+  ]
 }

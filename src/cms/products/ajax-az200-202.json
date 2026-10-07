@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "AZ200",
   "order": 447,
-  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "category": "catalog--cilindry--klyuch-vertushka",
   "article": "AZ200 202",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Можно ли открыть дверь снаружи, если изнутри повернули вертушку?",
       "a": "Да, ключом снаружи. Функция блокировки ключа при повёрнутой вертушке в описании модели не указана."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/tsilindrovyy_mekhanizm_ajax_az200_70mm_202_klyuch_vertushka_cp_khrom/"
+  ]
 }

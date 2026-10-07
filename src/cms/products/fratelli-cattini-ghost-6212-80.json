@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "Ghost",
   "order": 467,
-  "category": "/catalog/razdvizhnye-sistemy/skrytye/",
+  "category": "catalog--razdvizhnye-sistemy--skrytye",
   "article": "6212/80",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Какой минимальной ширины может быть дверь?",
       "a": "650 мм. Более узкое полотно не оставит места доводчикам."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/razdvizhnaya-sistema-nevidimaya-fratelli-cattini-ghost-6212-80-do-1150-mm-shirinoj-s-dovodchikami/"
+  ]
 }

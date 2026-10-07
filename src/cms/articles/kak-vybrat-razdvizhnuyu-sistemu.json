@@ -28,5 +28,8 @@
     "/catalog/razdvizhnye-sistemy/skrytye/",
     "/catalog/razdvizhnye-sistemy/penaly/"
   ],
-  "order": 9
+  "order": 9,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

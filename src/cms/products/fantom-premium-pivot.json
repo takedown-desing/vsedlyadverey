@@ -4,7 +4,7 @@
   "brand": "fantom",
   "series": "Premium",
   "order": 360,
-  "category": "/catalog/upory-i-ogranichiteli/skrytye/",
+  "category": "catalog--upory-i-ogranichiteli--skrytye",
   "article": "HGT0011",
   "hidden": false,
   "hiddenNote": "",
@@ -105,6 +105,5 @@
       "q": "Кто должен ставить упор?",
       "a": "Лучше тот же мастер, что монтировал pivot-систему: ему проще точно определить траекторию и не повредить пол."
     }
-  ],
-  "sourceUrl": "https://zamok31.ru/catalog/dvernaya_furnitura/upory_dvernye/21670/"
+  ]
 }

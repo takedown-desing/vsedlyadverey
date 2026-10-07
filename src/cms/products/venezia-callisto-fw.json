@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "Callisto",
   "order": 492,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "CALLISTO FW",
   "hidden": false,
   "hiddenNote": "",
@@ -139,6 +139,5 @@
       "q": "Какую отделку выбрать к белым пластиковым окнам?",
       "a": "На белом профиле лаконичнее всего полированный хром. Французское золото и античная бронза уместны, если в комнате уже есть латунная или бронзовая фурнитура."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/ruchka-okonnaya-venezia-callisto-fw-polirovannyj-hrom/"
+  ]
 }

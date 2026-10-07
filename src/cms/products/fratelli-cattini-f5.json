@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 349,
-  "category": "/catalog/upory-i-ogranichiteli/napolnye/",
+  "category": "catalog--upory-i-ogranichiteli--napolnye",
   "article": "F5",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли поставить F5 на входную дверь?",
       "a": "Производитель позиционирует его для межкомнатных дверей. Для тяжёлой входной лучше взять массивный упор, рассчитанный на сильный удар."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/upor-dvernoj-napolnyj-fratelli-cattini-f5-cr-polirovannyj-hrom/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "LUCCIA",
   "order": 218,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "LUCCIA PL01",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Какая гарантия?",
       "a": "Гарантия на модель 5 лет."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-planke-fratelli-cattini-luccia-pl01-olv-polirovannaja-latun/"
+  ]
 }

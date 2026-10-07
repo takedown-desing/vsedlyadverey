@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 12,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "ESC 486-S-auto RL",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Какой цвет выбрать для тёмной двери?",
       "a": "Чёрное покрытие почти растворяется на тёмном полотне. Хром и сатинированный хром дают контраст и перекликаются с металлическими деталями."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-nakladka-s-avt-shtorkami-na-suvaldnyj-zamok-esc-486-s-auto-rl-hrom-sr-8-1-sht.html"
+  ]
 }

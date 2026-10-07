@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": null,
   "order": 432,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "MH-KH",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Есть ли к ней завертка в той же серии?",
       "a": "Да, Morelli MH-WC на круглой розетке в тех же отделках."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/181"
+  ]
 }

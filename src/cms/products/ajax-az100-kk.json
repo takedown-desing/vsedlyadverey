@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "AZ100",
   "order": 440,
-  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "category": "catalog--cilindry--klyuch-klyuch",
   "article": "AZ100",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Подойдёт ли к межкомнатному замку под цилиндр?",
       "a": "Да, это стандартный евроцилиндр. Он встанет в любой межкомнатный замок под цилиндр с подходящей толщиной двери."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/tsilindrovyy_mekhanizm_ajax_az100_70mm_100_klyuch_klyuch_cp_khrom/"
+  ]
 }

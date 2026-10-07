@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import Prose from '../../components/Prose.astro';
 import Faq from '../../components/Faq.astro';
-import { articles, registry, regByUrl, SITE_NAME, shortName, isLive } from '../../lib/data';
+import { articles, registry, regByUrl, pageTexts, SITE_NAME, shortName, isLive } from '../../lib/data';
 import type { Article } from '../../lib/data';
 import { u, abs } from '../../lib/url';
 export function getStaticPaths() {
@@ -12,6 +12,7 @@ export function getStaticPaths() {
 }
 const { hub, a } = Astro.props as { hub: string | null; a: Article | null };
 const hubReg = hub ? regByUrl.get(`/blog/${hub}/`) : null;
+const hubText = (hub ? pageTexts.get(`/blog/${hub}/`) : null) as any;
 const list = hub ? articles.filter((x) => x.hub === hub) : [];
 const url = hub ? `/blog/${hub}/` : `/blog/${a!.slug}/`;
 const crumbs = [{ url: '/', name: 'Главная' }, { url: '/blog/', name: 'Инструкции и советы' }, ...(a && regByUrl.get(`/blog/${a.hub}/`) ? [{ url: `/blog/${a.hub}/`, name: regByUrl.get(`/blog/${a.hub}/`)!.h1.split(':')[0] }] : []), { url, name: hub ? hubReg!.h1.split(':')[0] : a!.h1 }];
@@ -22,18 +23,18 @@ const schema = a ? [
 const other = a ? articles.filter((x) => x.slug !== a.slug && x.hub === a.hub).concat(articles.filter((x) => x.slug !== a.slug && x.hub !== a.hub)).slice(0, 3) : [];
 ---
 {hub ? (
-  <Base title={`${hubReg!.h1} | ${SITE_NAME}`} description={hubReg!.h1} path={url} crumbs={crumbs} noindex={list.length === 0}>
+  <Base title={hubText?.title && hubText.title !== hubReg!.h1 ? hubText.title : `${hubReg!.h1} | ${SITE_NAME}`} description={hubText?.description || hubReg!.h1} path={url} crumbs={crumbs} noindex={list.length === 0 || !!hubText?.noindex} canonicalUrl={hubText?.canonical}>
     <div class="wrap">
-      <div class="page-head"><h1>{hubReg!.h1}</h1></div>
+      <div class="page-head"><h1>{hubReg!.h1}</h1>{hubText?.lead && <p class="lead">{hubText.lead}</p>}</div>
       {list.length ? <div class="post-grid">{list.map((x) => <a class="post-card" href={u(`/blog/${x.slug}/`)}><span class="h">{x.h1}</span><span class="d">{x.description}</span></a>)}</div>
         : <div class="empty">Статьи раздела готовятся. Пока загляните в <a href={u('/blog/')}>все инструкции</a>.</div>}
     </div>
   </Base>
 ) : (
-  <Base title={a!.title} description={a!.description} path={url} crumbs={crumbs} schema={schema}>
+  <Base title={a!.title || a!.h1} description={a!.description} path={url} crumbs={crumbs} schema={schema} noindex={!!(a as any).noindex} canonicalUrl={(a as any).canonical} image={(a as any).ogImage}>
     <div class="wrap two-col" style="padding-top:6px">
       <article>
-        <h1>{a!.h1}</h1>
+        <h1>{a!.h1 || a!.title}</h1>
         <p style="font-size:13.5px;color:var(--c-muted)">{a!.author} · {new Date(a!.date).toLocaleDateString('ru-RU')} · {a!.readingMinutes || 6} мин чтения</p>
         <Prose md={a!.body} />
         <Faq items={a!.faq} />

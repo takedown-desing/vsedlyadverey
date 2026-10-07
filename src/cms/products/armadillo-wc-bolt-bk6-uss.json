@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Urban",
   "order": 425,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "BK6 USS",
   "hidden": false,
   "hiddenNote": "",
@@ -167,6 +167,5 @@
       "q": "Какую отделку взять к белой двери?",
       "a": "Белую, если нужна незаметная фурнитура, или чёрную для контраста. Главное, чтобы ручка была в том же цвете."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-wc-bolt-bk6-uss-ab-7/"
+  ]
 }

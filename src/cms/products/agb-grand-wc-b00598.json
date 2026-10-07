@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Grand",
   "order": 409,
-  "category": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-fiksatorom",
   "article": "B00598.50",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Есть ли Grand под ключ?",
       "a": "Да, AGB Grand B00597 под ключ-буратино с тем же межосевым 90 мм."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/agb-grand-wc/"
+  ]
 }

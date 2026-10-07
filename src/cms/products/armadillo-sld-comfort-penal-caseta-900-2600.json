@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Penal",
   "order": 475,
-  "category": "/catalog/razdvizhnye-sistemy/penaly/",
+  "category": "catalog--razdvizhnye-sistemy--penaly",
   "article": "SLD.Comfort-PENAL caseta 900/2600",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Какой толщины может быть дверь?",
       "a": "От 30 до 60 мм."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/penal-dlya-skrytoj-razdvizhnoj-armadillo-armadillo-sistemy-sld-comfort-penal-caseta-900-2600/"
+  ]
 }

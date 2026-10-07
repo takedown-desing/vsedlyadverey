@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Spinoff Evolution",
   "order": 67,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "KM 003 A",
   "hidden": false,
   "hiddenNote": "",
@@ -140,6 +140,5 @@
       "q": "Будет ли виден крепёж штульпа?",
       "a": "Да, у Evolution планка крепится на видимых саморезах. Скрытый крепёж под магнитной накладкой есть у версии Pro KM 003 CM."
     }
-  ],
-  "sourceUrl": "https://kronakoblenz.ru/produkt/spinoff-evolution-zamok-dlya-vannoy"
+  ]
 }

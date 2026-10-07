@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 329,
-  "category": "/catalog/dvernye-petli/pruzhinnye/",
+  "category": "catalog--dvernye-petli--pruzhinnye",
   "article": "100-30",
   "hidden": false,
   "hiddenNote": "",
@@ -150,6 +150,5 @@
       "q": "Где обычно ставят барные петли?",
       "a": "В проходах между кухней и залом, в подсобках, барах и гардеробных, то есть там, где руки заняты и дверь толкают плечом."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-petlya-barnaya-pruzhinnaya-dvustoronnyaya-fratelli-cattini-aldeghi-100-30-ni-nikel/"
+  ]
 }

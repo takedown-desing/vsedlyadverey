@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "3-D",
   "order": 325,
-  "category": "/catalog/dvernye-petli/vvertnye/",
+  "category": "catalog--dvernye-petli--vvertnye",
   "article": "E01150.16.15",
   "hidden": false,
   "hiddenNote": "",
@@ -110,6 +110,5 @@
       "q": "Какие колпачки подойдут?",
       "a": "Колпачки AGB для ввертных петель 3-D под штифт 16 мм, в том же цвете, что ручки и накладки на двери."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/e01150-16-15-ex-e01150-16-04-petlya-vvertnaya-3-d-seriya-bihrom/"
+  ]
 }

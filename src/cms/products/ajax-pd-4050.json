@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "PD-40",
   "order": 111,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--navesnye",
   "article": "PD-40-50",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Для чего чаще всего используют PD-4050?",
       "a": "Для шкафчиков, ящиков, кладовых и хозяйственных построек."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zamki_navesnye/bytovye/pd_40/pd_40_50/zamok_navesnoy_pd_40_50_fin_3kl_korobka/"
+  ]
 }

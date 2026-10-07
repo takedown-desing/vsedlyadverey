@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Mercury",
   "order": 5,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "MH-53-S6",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Что входит в замок M1895?",
       "a": "Корпус с магнитным язычком и ответная планка. Ручки и завертка идут в этом же наборе."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/2179"
+  ]
 }

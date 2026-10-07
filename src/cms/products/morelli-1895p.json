@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 400,
-  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-plastikovym-yazychkom",
   "article": "1895P",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Можно ли поставить защёлку на дверь спальни?",
       "a": "Да, если спальню нужно запирать изнутри заверткой. Для двери без запирания проще взять защёлку без фиксатора."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/4048"
+  ]
 }

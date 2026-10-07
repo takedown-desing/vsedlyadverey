@@ -4,7 +4,7 @@
   "brand": "comaglio",
   "series": "Comax",
   "order": 88,
-  "category": "/catalog/avtoporogi-i-uplotniteli/shchetki/",
+  "category": "catalog--avtoporogi-i-uplotniteli--shchetki",
   "article": "126 SP",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Можно ли поставить 126 SP на деревянную дверь?",
       "a": "Производитель указывает металлические и алюминиевые двери. Для деревянных полотен подходит накладной 1255 Comax."
     }
-  ],
-  "sourceUrl": "https://www.comaglio.it/en/drop-down-seals/draught-excluder-comax-126-sp/"
+  ]
 }

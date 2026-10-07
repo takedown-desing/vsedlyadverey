@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "ANTI-PANIC",
   "order": 246,
-  "category": "/catalog/dvernye-ruchki/antipanika/",
+  "category": "catalog--dvernye-ruchki--antipanika",
   "article": "1700C",
   "hidden": false,
   "hiddenNote": "",
@@ -112,6 +112,5 @@
       "q": "Что докупить к штанге?",
       "a": "Ответные элементы под тяги в полу и притолоке, если их нет, и систему для активной створки."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/sistemy_antipanika/mekhanizmy_anti_panik/ruchka_shtanga/1700s/41411/"
+  ]
 }

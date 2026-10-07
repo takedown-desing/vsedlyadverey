@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": null,
   "order": 512,
-  "category": "/catalog/remkomplekty-i-zapchasti/",
+  "category": "catalog--remkomplekty-i-zapchasti",
   "article": "B00502.15.01",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "Можно ли переходником уменьшить квадрат 8 мм до 6 мм?",
       "a": "Нет. Втулка работает только в одну сторону: надевается на шток 6 мм и доводит его до 8 мм."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/b00502-15-01-perehodnik-na-kvadrat-s-6-na-8/"
+  ]
 }

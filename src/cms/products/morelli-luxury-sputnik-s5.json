@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Luxury",
   "order": 148,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "SPUTNIK S5",
   "hidden": false,
   "hiddenNote": "",
@@ -135,6 +135,5 @@
       "q": "Чем SPUTNIK отличается от COMETA?",
       "a": "SPUTNIK стоит на квадратной розетке S5 и имеет широкую плоскую рукоять. COMETA на круглой розетке R5 с изогнутым рычагом и выпускается в шести цветах."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/835"
+  ]
 }

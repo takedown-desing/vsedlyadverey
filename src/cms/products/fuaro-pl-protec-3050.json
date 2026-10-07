@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "PL-PROTEC",
   "order": 109,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--navesnye",
   "article": "PL-PROTEC-3050 3key",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Сколько ключей в комплекте?",
       "a": "Три английских ключа."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/navesnye-zamki/zamok-navesnoy-pl-protec-3050-3key-pl-3050-angl-blister/"
+  ]
 }

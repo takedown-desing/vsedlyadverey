@@ -4,7 +4,7 @@
   "brand": "comaglio",
   "series": "Comax",
   "order": 86,
-  "category": "/catalog/avtoporogi-i-uplotniteli/shchetki/",
+  "category": "catalog--avtoporogi-i-uplotniteli--shchetki",
   "article": "1255",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Нужен ли порог на полу?",
       "a": "Нет, щётка работает по чистовому полу без дополнительного порога."
     }
-  ],
-  "sourceUrl": "https://forzacom.ru/catalog/avtomaticheskie_porogi_dlya_dverey/lineynye-shchetki-i-polosovye-uplotniteli/comax/"
+  ]
 }

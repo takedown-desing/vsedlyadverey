@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "K2O",
   "order": 145,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-steklyannyh-dverej",
   "article": "K 2O 1 CL",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Чем K2O отличается от комплекта 1700 2?",
       "a": "K2O открытая настенная система с декоративными каретками и стеклом только 10 мм. 1700 2 принимает стекло 8, 10 и 12 мм и может ставиться в пенал."
     }
-  ],
-  "sourceUrl": "https://doorskit.ru/internet-magazin-krona-koblenz/product/otkrytaya-razdvizhnaya-sistema-k2o-dlya-steklyannykh-dverey-vesom-do-120-kg"
+  ]
 }

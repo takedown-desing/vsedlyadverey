@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 319,
-  "category": "/catalog/dvernye-petli/babochki/",
+  "category": "catalog--dvernye-petli--babochki",
   "article": "143Q 38-35",
   "hidden": false,
   "hiddenNote": "",
@@ -145,6 +145,5 @@
       "q": "Нужен ли шаблон для установки?",
       "a": "Нет, паз не выбирают. Достаточно разметить положение петли, просверлить отверстия под шурупы и прикрутить крылья."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/petlya-nakladnaya-bez-vrezki-universalnaya-razbornaya-fratelli-cattini-143q-38-35-cs-matovyj-hrom/"
+  ]
 }

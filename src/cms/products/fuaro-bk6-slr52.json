@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 426,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "BK6.R.SLR52",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Чем золото 24К отличается от сатинированного золота?",
       "a": "Золото 24К блестящее, с тёплым глянцем. Сатинированное матовое, спокойнее и практичнее."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/ruchka-povorotnaya-bk6-r-slr52-bk6-slr-gold-24-zoloto-24k/"
+  ]
 }

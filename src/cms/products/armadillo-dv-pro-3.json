@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "DVG",
   "order": 370,
-  "category": "/catalog/glazki-i-aksessuary/glazki/",
+  "category": "catalog--glazki-i-aksessuary--glazki",
   "article": "DV-PRO 3/100-60/BR/HD (DVG3/HD)",
   "hidden": false,
   "hiddenNote": "",
@@ -154,6 +154,5 @@
       "q": "Чем этот глазок лучше моделей с пластиковой оптикой?",
       "a": "Стеклянные линзы дают более чёткую и светлую картинку и дольше сохраняют прозрачность. Плюс латунный корпус и увеличенный угол обзора."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/glazok-armadillo-armadillo-dvernoj-optika-steklo-dv-pro-3100-60brhd-dvg3hd-cp-hrom.html"
+  ]
 }

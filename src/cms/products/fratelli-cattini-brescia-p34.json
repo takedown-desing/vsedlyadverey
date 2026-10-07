@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "BRESCIA",
   "order": 222,
-  "category": "/catalog/dvernye-ruchki/knoby/",
+  "category": "catalog--dvernye-ruchki--knoby",
   "article": "BRESCIA P34",
   "hidden": false,
   "hiddenNote": "",
@@ -146,6 +146,5 @@
       "q": "Какой диаметр у кноба?",
       "a": "62 мм."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-dvernaja-knob-povorotnaja-fratelli-cattini-brescia-p34-62-olv-polirovannaja-latun-1sht/"
+  ]
 }

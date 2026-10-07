@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 401,
-  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-plastikovym-yazychkom",
   "article": "P96WC-50",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Подойдёт ли к нему завертка другого бренда?",
       "a": "Подойдёт, если квадрат завертки совпадает с фиксатором замка. Сверьте его по паспорту."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy-zamok-fuaro-p96wc-50-sn-santekhnicheskiy-matovyy-nikel-s-plastikovoy-besshumnoy-zashchelkoy/"
+  ]
 }

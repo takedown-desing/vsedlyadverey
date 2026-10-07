@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Fukoku",
   "order": 3,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "MH-28-S",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Можно ли купить завертку Fukoku отдельно?",
       "a": "В этой позиции завертка идёт в составе комплекта вместе с ручками и замком."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/2173"
+  ]
 }

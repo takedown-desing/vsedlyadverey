@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 239,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "U122",
   "hidden": false,
   "hiddenNote": "",
@@ -142,6 +142,5 @@
       "q": "Какой материал у корпуса?",
       "a": "Корпус латунный, сделан в Италии."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-dlja-razdvizhnoj-dveri-Venezia-U122-antichnaja-bronza/"
+  ]
 }

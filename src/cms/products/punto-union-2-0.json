@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "UNION",
   "order": 22,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "UNION 2.0 ST",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Как регулировать петлю?",
       "a": "Шестигранным ключом через регулировочные винты: по высоте, в стороны и по прижиму. Каждое направление настраивается отдельно."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-punto-punto-skrytoj-ustanovki-union-20-bl-chernyj.html"
+  ]
 }

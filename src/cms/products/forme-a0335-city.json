@@ -4,7 +4,7 @@
   "brand": "forme",
   "series": "City",
   "order": 499,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "A0335",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Подойдёт ли City к белому пластиковому окну?",
       "a": "Технически да, если фурнитура стандартная. Золотистая ручка на белом профиле заметна, и это удачно, когда в комнате есть другие латунные акценты."
     }
-  ],
-  "sourceUrl": "https://www.mirar-group.ru/product/okonnaya-ruchka-forme-a0335-city/"
+  ]
 }

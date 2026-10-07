@@ -70,7 +70,7 @@ const schema: any[] = [{
 }];
 if (isFirst && t.faq?.length) schema.push({ '@type': 'FAQPage', mainEntity: t.faq.map((f: any) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
 ---
-<Base title={title} description={description} path={path} crumbs={crumbs} noindex={noindex} schema={schema} activeCat={topCat} image={items.map(firstImage).find(Boolean)}
+<Base title={title} description={description} path={path} crumbs={crumbs} noindex={noindex || !!t.noindex} canonicalUrl={isFirst ? t.canonical : undefined} schema={schema} activeCat={topCat} image={t.ogImage || items.map(firstImage).find(Boolean)}
   prev={page > 1 ? (page === 2 ? url : `${url}page-${page - 1}/`) : undefined} next={page < pages ? `${url}page-${page + 1}/` : undefined}>
   <div class="wrap">
     <div class="page-head">

@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "One Q",
   "order": 29,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "CC29 BZG",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Подойдёт ли на дверь толщиной 55 мм?",
       "a": "Паспортный предел до 50 мм. Для более толстой двери нужно уточнить у поставщика удлинённый крепёж."
     }
-  ],
-  "sourceUrl": "https://colombo.pro/product/Colombo-Design-Rosetta-OneQ-CC29BZG.C01/"
+  ]
 }

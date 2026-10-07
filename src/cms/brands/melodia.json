@@ -1,5 +1,4 @@
 {
-  "slug": "melodia",
   "name": "MELODIA",
   "country": "Италия",
   "founded": "",
@@ -18,5 +17,8 @@
     "Libra",
     "Ceramic"
   ],
-  "categories": []
+  "categories": [],
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

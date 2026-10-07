@@ -4,7 +4,7 @@
   "brand": "comaglio",
   "series": "Comax",
   "order": 376,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "1450",
   "hidden": false,
   "hiddenNote": "",
@@ -151,6 +151,5 @@
       "q": "Можно ли поставить его на стеклянную дверь?",
       "a": "Только если внизу есть алюминиевая или деревянная рама. Крепить корпус прямо к стеклу нельзя."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/avtoporog-nakladnoy-comaglio-1450-comax-800-mm-serebro-zvukoizolyaciya-i-zaschita/"
+  ]
 }

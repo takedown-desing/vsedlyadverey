@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "RIM",
   "order": 97,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--nakladnye",
   "article": "RIM-200 code",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Можно ли оставить дверь открытой?",
       "a": "Да, изнутри есть фиксатор открытого положения, и дверь не запирается при захлопывании."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zamki_nakladnye/dlya_legkikh_dverey/rim/rim_200_code/zamok_nakladnoy_kodovyy_rim_200_code_bl_chernyy/"
+  ]
 }

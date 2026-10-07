@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "CLASSIC",
   "order": 212,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "CLASSIC D1",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Какова масса ручки?",
       "a": "Комплект на одну дверь весит 738 г."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-Venezia-CLASSIC-D1-polirovannaja-latun/"
+  ]
 }

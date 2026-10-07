@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "P90",
   "order": 18,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "HANDLE90.CRONA.18-85 (P90 8518)",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Можно ли взять другой цилиндр, не PUNTO?",
       "a": "Да, подходит любой цилиндр европрофиля нужной длины."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/ruchka-na-planke-punto-p90-8518-crona-ab.html"
+  ]
 }

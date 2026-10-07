@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 320,
-  "category": "/catalog/dvernye-petli/babochki/",
+  "category": "catalog--dvernye-petli--babochki",
   "article": "IN4300W (300-2BB)",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Можно ли ставить петлю на дверь в ванную?",
       "a": "Покрытие проверено в соляном тумане более 96 часов, влажный воздух ему не страшен. Прямого попадания воды на петлю всё же лучше избегать."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-fuaro-fuaro-universalnaya-bez-vrezki-300-2bb-100x25-cp-hrom.html"
+  ]
 }

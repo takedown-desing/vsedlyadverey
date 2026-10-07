@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "Releone",
   "order": 60,
-  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "category": "catalog--glazki-i-aksessuary--stuchalki",
   "article": "RELEONE 190x110",
   "hidden": false,
   "hiddenNote": "",
@@ -140,6 +140,5 @@
       "q": "Как ухаживать за полированной латунью?",
       "a": "Протирать мягкой сухой тканью без абразивных паст: покрытие защищает металл, и его легко поцарапать."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-stuchalka-fratelli-cattini-releone-190x110-cr-polirovannyj-hrom/"
+  ]
 }

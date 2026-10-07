@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Mediana Evolution",
   "order": 398,
-  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-plastikovym-yazychkom",
   "article": "B01102.50",
   "hidden": false,
   "hiddenNote": "",
@@ -170,6 +170,5 @@
       "q": "Какую завертку поставить?",
       "a": "Любую сантехническую завертку с подходящим квадратом. Удобно выбрать её в том же покрытии, что и ручки."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/mediana-evolution-wc/"
+  ]
 }

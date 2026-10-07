@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": null,
   "order": 436,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "CD63GB",
   "hidden": false,
   "hiddenNote": "",
@@ -170,6 +170,5 @@
       "q": "Чем матовая бронза отличается от античной?",
       "a": "Матовая ровная и спокойная, античная темнее, с эффектом старения в углублениях."
     }
-  ],
-  "sourceUrl": "https://colombo.pro/product/Colombo-Design-Rosetta-CD63GB.CM/"
+  ]
 }

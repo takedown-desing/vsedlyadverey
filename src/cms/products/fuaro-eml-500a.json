@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "EML",
   "order": 102,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--elektromehanicheskie",
   "article": "EML-500A",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Подходит ли для противопожарной двери?",
       "a": "Производитель указывает деревянные, стеклянные и противопожарные двери."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/elektromekhanicheskie-zamki/vreznoy-solenoidnyy-elektromekhanicheskiy-zamok-zashchyelka-eml-500a/"
+  ]
 }

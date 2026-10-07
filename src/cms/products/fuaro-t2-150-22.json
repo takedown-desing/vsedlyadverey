@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 332,
-  "category": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-petli--dlya-vhodnyh-dverej",
   "article": "T2/150-22",
   "hidden": false,
   "hiddenNote": "",
@@ -107,6 +107,5 @@
       "q": "Можно ли поставить петлю на деревянную дверь?",
       "a": "Нет, петля приварная и крепится только сваркой к металлическому каркасу полотна и коробки."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/privarnaya-petlya-fuaro-t2150-22-s-podshipnikom.html"
+  ]
 }

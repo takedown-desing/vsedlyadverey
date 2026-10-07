@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": null,
   "order": 421,
-  "category": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/",
+  "category": "catalog--mezhkomnatnye-zamki--otvetnye-planki",
   "article": "MSP-1",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Может ли магнит со временем ослабнуть?",
       "a": "Постоянные магниты в фурнитуре теряют силу очень медленно. Чаще проблема в смещении планки или загрязнении."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/3997"
+  ]
 }

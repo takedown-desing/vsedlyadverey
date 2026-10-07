@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 434,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "ET.R.SLR52",
   "hidden": false,
   "hiddenNote": "",
@@ -142,6 +142,5 @@
       "q": "Какой цилиндр выбрать?",
       "a": "Стандартный евроцилиндр длиной по толщине полотна: он не должен выступать больше чем на 1-3 мм."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/nakladka-na-cilindr-et-r-slr52-gold-24-zoloto-24/"
+  ]
 }

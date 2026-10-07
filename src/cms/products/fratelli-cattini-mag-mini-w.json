@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "MAG MINI",
   "order": 388,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "MAG MINI W",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Что входит в комплект?",
       "a": "Цена указана за один комплект защёлки. Состав комплекта уточните в карточке поставщика при заказе."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/zashhelka-magnitnaya-fratelli-cattini-mag-mini-w-dlya-derevyannyh-dverej-matovyj-chernyj/"
+  ]
 }

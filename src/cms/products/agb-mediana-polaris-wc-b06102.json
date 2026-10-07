@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Mediana Polaris",
   "order": 380,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "B06102.50",
   "hidden": false,
   "hiddenNote": "",
@@ -163,6 +163,5 @@
       "q": "Встанет ли замок в готовую врезку от Fuaro M96WC-50?",
       "a": "Fuaro M96WC-50 выпускается с посадочными размерами Polaris, поэтому обратная замена обычно проходит без доработки паза. Перед покупкой сравните длину торцевой планки."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zashchelki_/bez_ruchek_v_komplekte_/mediana_polaris/b06102_50_ind_upak_b02402_05/b06102_50_03_567_b04102_b05102_zamok_mezhk_wc_lat_s_otv_pl_b2402_05_03_mediana_polaris/"
+  ]
 }

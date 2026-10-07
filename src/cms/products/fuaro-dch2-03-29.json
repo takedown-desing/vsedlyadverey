@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DCH2",
   "order": 343,
-  "category": "/catalog/dovodchiki/skrytye/",
+  "category": "catalog--dovodchiki--skrytye",
   "article": "DCH2-03.29",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Чем DCH2-03.29 отличается от DCH2-06?",
       "a": "DCH2-03.29 рассчитан на 40-65 кг и выпускается только в алюминиевом цвете. DCH2-06 работает с дверями 25-120 кг и есть также в чёрном."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dovodchik-dvernoj-fuaro-fuaro-skrytoj-ustanovki-dch2-0329-40-65-kg-al-do-65-kg-alyuminij.html"
+  ]
 }

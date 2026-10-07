@@ -4,7 +4,7 @@
   "brand": "comaglio",
   "series": "Basic",
   "order": 44,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "422",
   "hidden": false,
   "hiddenNote": "",
@@ -112,6 +112,5 @@
       "q": "Уберёт ли автопорог запахи из санузла?",
       "a": "Он перекрывает щель под дверью, поэтому воздух и запахи проходят заметно меньше. Для вентиляции санузла при этом нужен отдельный приток."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/avtoporog-dvernoy-comaglio-422-800-mm-regulirovka-1-uroven/"
+  ]
 }

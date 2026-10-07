@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 314,
-  "category": "/catalog/dvernye-petli/universalnye/",
+  "category": "catalog--dvernye-petli--universalnye",
   "article": "CR102",
   "hidden": false,
   "hiddenNote": "",
@@ -184,6 +184,5 @@
       "q": "Подойдёт ли петля для двери толщиной 40 мм?",
       "a": "Да, минимальная толщина полотна 35 мм."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-petlya-universalnaya-s-kruglym-kolpachkom-fratelli-cattini-cr102-102x75x3-cr-polirovannyj-hrom/"
+  ]
 }

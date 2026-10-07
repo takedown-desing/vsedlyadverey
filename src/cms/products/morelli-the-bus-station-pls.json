@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "THE BUS STATION",
   "order": 252,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "THE BUS STATION PLS",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Какое покрытие выбрать к чёрной двери?",
       "a": "Контраст дадут осенний мёд (матовое золото) и стокгольмский снегопад (светлое серебро)."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/4925"
+  ]
 }

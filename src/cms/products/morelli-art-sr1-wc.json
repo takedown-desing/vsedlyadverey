@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "ART",
   "order": 416,
-  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej",
   "article": "ART.SR1",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Можно ли открыть дверь снаружи в аварийной ситуации?",
       "a": "Это зависит от комплектации снаружи. Уточните при заказе, есть ли на наружной стороне прорезь под монету."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2530"
+  ]
 }

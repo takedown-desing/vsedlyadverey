@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "FL",
   "order": 116,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "FP.C-65.72-0434",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Меняется ли сторона открывания?",
       "a": "Да, защёлка переставляется под левую или правую дверь."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/vreznye-zamki/korpus-vreznogo-zamka-c-zashchyelkoy-fp-c-65-72-0434-fl-0434/"
+  ]
 }

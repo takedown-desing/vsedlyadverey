@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Spindle",
   "order": 514,
-  "category": "/catalog/remkomplekty-i-zapchasti/",
+  "category": "catalog--remkomplekty-i-zapchasti",
   "article": "6x80",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Как понять, что квадрат 6 мм пора менять?",
       "a": "Если на гранях видна стёртость и завертка прокручивается с люфтом, стержень лучше заменить вместе с проверкой гнезда."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/kvadrat-dlya-ruchek-spindle-6h80/"
+  ]
 }

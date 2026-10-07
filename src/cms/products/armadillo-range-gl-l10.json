@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Range",
   "order": 486,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--zamki",
   "article": "Range.GL.L10",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Можно ли заменить цилиндр при потере ключа?",
       "a": "Да, профильный цилиндр меняется без снятия замка со стекла. Берите сердцевину того же размера 25×10×25."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/zamok-armadillo-armadillo-dlya-steklyannoj-dveri-range-gl-l10-ss-nerzh-stal/"
+  ]
 }

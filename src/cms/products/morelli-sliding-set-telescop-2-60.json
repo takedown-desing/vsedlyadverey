@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Sliding",
   "order": 461,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-mezhkomnatnyh-dverej",
   "article": "SLIDING SET TELESCOP 2",
   "hidden": false,
   "hiddenNote": "",
@@ -114,6 +114,5 @@
       "q": "Можно ли ставить стеклянные створки?",
       "a": "Система рассчитана на межкомнатные полотна. Для стекла подбирают комплекты с зажимами под толщину стекла."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/razdvizhnye-sistemy/all/1085"
+  ]
 }

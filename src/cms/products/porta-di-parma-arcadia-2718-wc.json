@@ -4,7 +4,7 @@
   "brand": "porta-di-parma",
   "series": "Arcadia",
   "order": 46,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "2718 WC",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Встроен ли фиксатор?",
       "a": "Да, в исполнении WC поворотный фиксатор находится на планке под рычагом."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/dvernaya-ruchka-na-planke-porta-di-parma-klassika-arcadia-2718-01-wc-polirovannyy-hrom/"
+  ]
 }

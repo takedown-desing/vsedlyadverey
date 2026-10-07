@@ -4,7 +4,7 @@
   "brand": "forme",
   "series": "Naxos",
   "order": 25,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "215K",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Что означает маркировка 50K?",
       "a": "Это обозначение формата квадратной розетки в каталоге Forme, по нему подбирают накладки той же формы."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/dvernaya-ruchka-forme-mod-naxos-215k-grafit-na-rozetke-50k/"
+  ]
 }

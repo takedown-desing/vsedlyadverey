@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "D-PRO",
   "order": 128,
-  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "category": "catalog--cilindry--klyuch-vertushka",
   "article": "D-PRO5007-8",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Какие длины доступны?",
       "a": "75, 85, 90, 95 и 100 мм."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/s_individualnym_klyuchom/d_pro/d_pro/tsilindrovyy_mekhanizm_d_pro507_8_75_mm_40_10_25_cp_khrom_5_1_kl_perekodiruemyy_so_shtokom/"
+  ]
 }

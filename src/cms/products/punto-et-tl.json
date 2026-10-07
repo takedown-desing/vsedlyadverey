@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "TL",
   "order": 14,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "ET TL",
   "hidden": false,
   "hiddenNote": "",
@@ -139,6 +139,5 @@
       "q": "Можно ли поставить её на входную дверь?",
       "a": "Модель рассчитана на межкомнатные двери. Для входных используют броненакладки и декоративные накладки со стяжкой."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/nakladka-pod-punto--punto-czilindr-et-tl-sncp-3-matovyj-nikelkhrom.html"
+  ]
 }

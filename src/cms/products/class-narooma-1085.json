@@ -4,7 +4,7 @@
   "brand": "class",
   "series": "Narooma",
   "order": 24,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "1085",
   "hidden": false,
   "hiddenNote": "",
@@ -112,6 +112,5 @@
       "q": "Какая защёлка подойдёт?",
       "a": "Любая межкомнатная защёлка под стандартный квадрат 8 мм с бэксетом, при котором розетка 60 мм не заходит на кромку двери."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/dvernaya-ruchka-class-mod-naroma-1085-na-rozetke-60mm-bronza-retro/"
+  ]
 }

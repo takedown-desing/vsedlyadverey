@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "Ottavia",
   "order": 62,
-  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "category": "catalog--glazki-i-aksessuary--stuchalki",
   "article": "OTTAVIA 135x80",
   "hidden": false,
   "hiddenNote": "",
@@ -149,6 +149,5 @@
       "q": "Где сделана стучалка?",
       "a": "В Италии, марку Venezia выпускает фабрика Comit в Лумеццане."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-stuchalka-venezia-ottavia-135x80-polirovannyj-hrom/"
+  ]
 }

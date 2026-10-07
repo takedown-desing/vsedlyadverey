@@ -4,7 +4,7 @@
   "brand": "forme",
   "series": "Atlas",
   "order": 26,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "159/P RAT",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Для какого интерьера подходит матовая бронза?",
       "a": "Для классики, неоклассики и интерьеров с тёплыми древесными тонами."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/dvernaya-ruchka-forme-na-planke-mod-atlas-159-p-rat-grafit-pod-tsilindr/"
+  ]
 }

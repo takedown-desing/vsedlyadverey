@@ -28,5 +28,8 @@
     "/catalog/dvernye-ruchki/na-planke/",
     "/catalog/zavertki-i-nakladki/"
   ],
-  "order": 2
+  "order": 2,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

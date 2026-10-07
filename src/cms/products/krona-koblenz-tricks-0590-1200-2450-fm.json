@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Tricks",
   "order": 70,
-  "category": "/catalog/razdvizhnye-sistemy/skrytye/",
+  "category": "catalog--razdvizhnye-sistemy--skrytye",
   "article": "0590 1 + 0590 1200 2450 F.M.",
   "hidden": false,
   "hiddenNote": "",
@@ -132,6 +132,5 @@
       "q": "Нужен ли порог или напольная направляющая?",
       "a": "Нет, напольного ролика у системы нет, под полотном остаётся зазор 10 мм, и пол в проёме остаётся ровным."
     }
-  ],
-  "sourceUrl": "https://kronakoblenz.ru/produkt/tricks-dlya-dverey"
+  ]
 }

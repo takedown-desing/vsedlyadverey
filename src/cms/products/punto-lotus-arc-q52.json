@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "ARC",
   "order": 271,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "K.ARC.Q52.LOTUS",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "Из какой серии модель?",
       "a": "Из серии PUNTO ARC, которая объединяет ручки с изогнутым рычагом."
     }
-  ],
-  "sourceUrl": "https://xn---23-eddjhv7d.xn--p1ai/furnitura/furnitura-dlya-megkomnatnyh-dverej/ruchki/ruchka-razdelnaia-karcq52lotus-bl-24-chernyi/"
+  ]
 }

@@ -11,12 +11,16 @@ export type Product = {
   slug: string; name: string; brand: string; series: string | null; category: string; article?: string;
   variants: Variant[]; material?: string | null; style?: string | null; doorTypes?: string[];
   specs?: Record<string, string>; description?: string; sourceUrl?: string;
+  extraCategories?: string[]; // дополнительные разделы, где товар тоже показывается
   order?: number; // порядок в листингах (меньше = выше), задаётся в админке
   hidden?: boolean | string; hiddenNote?: string; // товар снят с публикации (галочка в админке)
   intro?: string; blocks?: Block[]; faq?: { q: string; a: string }[];
 };
 export type Block = { type: string; title?: string; [k: string]: any };
-export type PageText = { url: string; title?: string; description?: string; h1?: string; lead?: string; text?: string; blocks?: Block[]; faq?: { q: string; a: string }[] };
+export type Seo = { noindex?: boolean; canonical?: string; ogImage?: string };
+export type PageText = Seo & { url: string; title?: string; description?: string; h1?: string; lead?: string; text?: string; blocks?: Block[]; faq?: { q: string; a: string }[] };
+// раздел каталога из админки (src/cms/sections): адрес строится из родителя и slug
+export type Section = PageText & { file: string; slug?: string; parent?: string; kind?: 'section' | 'tag'; inMenu?: boolean; menuName?: string; icon?: string; order?: number | null; priority?: string };
 export type ProductText = { slug: string; intro?: string; blocks?: Block[]; faq?: { q: string; a: string }[] };
 export type BrandCat = { title?: string; description?: string; lead?: string; text?: string };
 export type BrandText = {
@@ -35,8 +39,11 @@ export const SITE = siteSettings as Record<string, any>;
 export const HOME = homeSettings as Record<string, any>;
 
 // OFF: страницы, отключённые клиентом (сейчас это B2B-раздел), на сайт не попадают вовсе
-export const registry = (registryRaw as RegPage[]).filter((p) => p.priority !== 'OFF').map((p) => ({ ...p, h1: p.h1.replace(/\s+—\s+/g, ': ') }));
-export const regByUrl = new Map(registry.map((p) => [p.url, p]));
+// Разделы каталога (category/subcategory/tag) и рубрики блога берутся не из реестра проектирования, а из админки:
+// редактор может создать любой раздел. Остальные страницы (бренды, серии, типы дверей, служебные) остаются в реестре.
+const CMS_TYPES = new Set(['category', 'subcategory', 'tag', 'blog-hub']);
+const KEEP_URLS = new Set(['/catalog/', '/catalog/komplekty-furnitury/', '/blog/']);
+const regBase = (registryRaw as RegPage[]).filter((p) => p.priority !== 'OFF' && (!CMS_TYPES.has(p.type) || KEEP_URLS.has(p.url))).map((p) => ({ ...p, h1: p.h1.replace(/\s+—\s+/g, ': ') }));
 
 // ---------- загрузка JSON-файлов: каждый файл в папке = одна запись (так их правит админка)
 function loadArray<T>(mods: Record<string, unknown>): T[] {
@@ -50,6 +57,17 @@ function loadArray<T>(mods: Record<string, unknown>): T[] {
 }
 const productMods = import.meta.glob('../cms/products/*.json', { eager: true });
 const pagesMods = import.meta.glob('../cms/pages/*.json', { eager: true });
+const sectionMods = import.meta.glob('../cms/sections/*.json', { eager: true });
+const hubMods = import.meta.glob('../cms/blog-hubs/*.json', { eager: true });
+// имя файла записи (slug в админке): запасной адрес, если поле «Адрес» не заполнено
+const fileSlug = (path: string) => path.split('/').pop()!.replace(/\.json$/, '');
+// транслитерация для адресов: новые записи админки могут называться кириллицей («дверные-ручки.json»)
+const TR: Record<string, string> = { а:'a',б:'b',в:'v',г:'g',д:'d',е:'e',ё:'e',ж:'zh',з:'z',и:'i',й:'j',к:'k',л:'l',м:'m',н:'n',о:'o',п:'p',р:'r',с:'s',т:'t',у:'u',ф:'f',х:'h',ц:'c',ч:'ch',ш:'sh',щ:'shch',ъ:'',ы:'y',ь:'',э:'e',ю:'yu',я:'ya' };
+export const translit = (s: string) => String(s || '').toLowerCase().replace(/[а-яё]/g, (c) => TR[c] ?? c).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+const urlPart = (custom: unknown, file: string) => translit(String(custom || '').trim().replace(/^\/+|\/+$/g, '').split('/').pop() || '') || translit(file);
+function loadWithFile<T>(mods: Record<string, unknown>): (T & { file: string })[] {
+  return Object.keys(mods).sort().map((k) => { const d = ((mods[k] as { default?: unknown }).default ?? mods[k]) as T; return d && typeof d === 'object' ? { ...(d as T), file: fileSlug(k) } : null; }).filter((x): x is T & { file: string } => !!x);
+}
 const brandsMods = import.meta.glob('../cms/brands/*.json', { eager: true });
 const seriesMods = import.meta.glob('../cms/series/*.json', { eager: true });
 const articlesMods = import.meta.glob('../cms/articles/*.json', { eager: true });
@@ -74,12 +92,54 @@ const specsRecord = (s: unknown): Record<string, string> => {
 // Стартовые бренды (ответ клиента: «Стартуем с фабриками Colombo, TUPAI»). Сборка с LAUNCH_ONLY=1 оставляет в каталоге только их.
 export const LAUNCH_BRANDS: string[] = (catalogSettings as any).launchBrands || ['colombo-design', 'tupai'];
 export const LAUNCH_ONLY = typeof process !== 'undefined' && process.env.LAUNCH_ONLY === '1';
+export const COLOR_NAMES: Record<string, string> = { black: 'чёрный', chrome: 'хром', gold: 'золото', bronze: 'бронза', nickel: 'никель', brass: 'латунь', white: 'белый', graphite: 'графит', copper: 'медь', silver: 'серебро', other: 'другое' };
+
+// ---------- разделы каталога и рубрики блога из админки → строки реестра
+const SECTIONS = loadWithFile<Section>(sectionMods).filter((s) => s.title || s.h1).sort((a, b) => (a.order ?? 1e9) - (b.order ?? 1e9));
+const sectionByFile = new Map(SECTIONS.map((s) => [s.file, s]));
+const sectionUrlCache = new Map<string, string>();
+export function sectionUrl(file: string, seen = new Set<string>()): string {
+  if (sectionUrlCache.has(file)) return sectionUrlCache.get(file)!;
+  const s = sectionByFile.get(file);
+  if (!s || seen.has(file)) return '/catalog/';
+  seen.add(file);
+  const part = urlPart(s.slug, s.file);
+  const parent = s.parent && sectionByFile.has(s.parent) ? sectionUrl(s.parent, seen) : '/catalog/';
+  const url = parent + part + '/';
+  sectionUrlCache.set(file, url);
+  return url;
+}
+const sectionRows: RegPage[] = SECTIONS.map((s) => {
+  const url = sectionUrl(s.file); const parent = s.parent && sectionByFile.has(s.parent) ? sectionUrl(s.parent) : '/catalog/';
+  const depth = url.split('/').filter(Boolean).length; // catalog/x = 2
+  return { url, h1: (s.h1 || s.title || '').trim(), type: s.kind === 'tag' ? 'tag' : depth <= 2 ? 'category' : 'subcategory', priority: s.priority || 'P2', primaryKw: '', ws: 0, parent, note: '' };
+});
+const HUBS = loadWithFile<PageText & { order?: number | null }>(hubMods).filter((h) => h.title || h.h1).sort((a, b) => (a.order ?? 1e9) - (b.order ?? 1e9));
+export const hubSlug = new Map(HUBS.map((h) => [h.file, urlPart((h as any).slug, h.file)]));
+const hubRows: RegPage[] = HUBS.map((h) => ({ url: `/blog/${hubSlug.get(h.file)}/`, h1: (h.h1 || h.title || '').trim(), type: 'blog-hub', priority: 'P2', parent: '/blog/', primaryKw: '', ws: 0, note: '' }));
+function cmsBrandRows(): RegPage[] {
+  return loadWithFile<{ name?: string; title?: string }>(brandsMods).filter((b) => b.name).map((b) => ({ url: `/brands/${urlPart('', b.file)}/`, h1: `Дверная фурнитура ${b.name}`, type: 'brand', priority: 'P2', parent: '/brands/', primaryKw: '', ws: 0, note: '' }));
+}
+const seenUrl = new Set<string>();
+export const registry: RegPage[] = [...regBase, ...sectionRows, ...hubRows, ...cmsBrandRows()].filter((p) => p.url && !seenUrl.has(p.url) && (seenUrl.add(p.url), true));
+export const regByUrl = new Map(registry.map((p) => [p.url, p]));
+// товар ссылается на раздел по имени файла (так работает выпадающий список в админке); старые данные могли хранить URL
+const resolveCategory = (c: unknown): string => {
+  const v = String(c || '').trim();
+  if (!v) return '/catalog/';
+  if (v.startsWith('/')) return v.endsWith('/') ? v : v + '/';
+  return sectionByFile.has(v) ? sectionUrl(v) : '/catalog/';
+};
+
 function cleanProduct(p: Product): Product | null {
-  if (!p || !p.slug || !p.name || !p.category || p.hidden) return null;
+  if (!p || !p.name || p.hidden) return null;
+  p = { ...p, slug: urlPart(p.slug, (p as any).file || ''), category: resolveCategory(p.category), brand: p.brand ? urlPart('', p.brand) : '',
+    extraCategories: ((p as any).extraCategories || []).map(resolveCategory).filter((c: string) => c !== '/catalog/') } as Product;
+  if (!p.slug) return null;
   if (LAUNCH_ONLY && !LAUNCH_BRANDS.includes(p.brand)) return null;
   // Фото показываем только с подтверждённым источником и не с сайтов конкурентов (водяные знаки).
   const BLOCKED = /todoor\.ru/i;
-  const variants = (p.variants || []).filter(Boolean).map((v) => ({ ...v, image: v.image && v.imageSrc && !BLOCKED.test(v.imageSrc) ? v.image : null }));
+  const variants = (p.variants || []).filter(Boolean).map((v) => ({ ...v, finish: v.finish || COLOR_NAMES[v.color] || 'стандарт', color: v.color || 'other', image: v.image && !BLOCKED.test(v.imageSrc || '') ? v.image : null }));
   if (!variants.length) return null;
   // товар без единого фото на сайт не выводится (все карточки должны быть с картинкой)
   if (!variants.some((v) => v.image)) return null;
@@ -87,7 +147,7 @@ function cleanProduct(p: Product): Product | null {
   return { ...p, category: cat, variants, doorTypes: p.doorTypes || [], specs: specsRecord(p.specs), blocks: normBlocks(p.blocks), faq: (p.faq || []).filter((f) => f && f.q) };
 }
 const seen = new Set<string>();
-export const products: Product[] = loadArray<Product>(productMods)
+export const products: Product[] = loadWithFile<Product>(productMods)
   .map(cleanProduct)
   .filter((p): p is Product => !!p && !seen.has(p.slug) && (seen.add(p.slug), true))
   .map((p, i) => ({ p, i, o: typeof p.order === 'number' ? p.order : 1e9, img: p.variants.some((v) => v.image) ? 0 : 1 }))
@@ -98,32 +158,39 @@ export const productBySlug = new Map(products.map((p) => [p.slug, p]));
 // тексты разделов (src/cms/pages/*.json): пустые поля не затирают реестр
 const clean = <T extends Record<string, any>>(t: T): T => Object.fromEntries(Object.entries(t).filter(([, v]) => v !== '' && v !== null && v !== undefined)) as T;
 export const pageTexts = new Map<string, PageText>(loadArray<PageText>(pagesMods).filter((t) => t?.url).map((t) => [t.url, { ...clean(t), blocks: normBlocks(t.blocks), faq: (t.faq || []).filter((f) => f && f.q) }]));
+for (const s of SECTIONS) pageTexts.set(sectionUrl(s.file), { ...clean(s as any), url: sectionUrl(s.file), blocks: normBlocks(s.blocks), faq: (s.faq || []).filter((f) => f && f.q) });
+for (const h of HUBS) pageTexts.set(`/blog/${hubSlug.get(h.file)}/`, { ...clean(h as any), url: `/blog/${hubSlug.get(h.file)}/`, blocks: normBlocks(h.blocks), faq: (h.faq || []).filter((f) => f && f.q) });
 export const productTexts = new Map<string, ProductText>();
 for (const p of products) if (p.intro || p.blocks?.length || p.faq?.length) productTexts.set(p.slug, { slug: p.slug, intro: p.intro, blocks: p.blocks, faq: p.faq });
 // бренды: подразделы «бренд × категория» в админке лежат списком, в коде — объектом по slug категории
-export const brandTexts = new Map(loadArray<BrandText & { categories?: any }>(brandsMods).filter((b) => b?.slug).map((b) => {
+export const brandTexts = new Map(loadWithFile<BrandText & { categories?: any }>(brandsMods).map((b) => ({ ...b, slug: urlPart('', b.file) })).filter((b) => b.slug && b.name).map((b) => {
   const cats = Array.isArray(b.categories) ? Object.fromEntries(b.categories.filter((c: any) => c?.slug).map((c: any) => [c.slug, c])) : (b.categories || {});
   return [b.slug, { ...clean(b), categories: cats } as BrandText];
 }));
 export const seriesTexts = new Map(loadArray<Series>(seriesMods).map((s) => [s.slug, s]));
-export const articles = loadArray<Article>(articlesMods).filter((a) => a?.slug && a.body).sort((a, b) => (a.order ?? 1e9) - (b.order ?? 1e9) || (b.date || '').localeCompare(a.date || ''));
+export const articles = loadWithFile<Article>(articlesMods).map((a) => ({ ...a, slug: urlPart(a.slug, a.file), hub: a.hub ? (hubSlug.get(a.hub) || translit(a.hub)) : '', h1: a.h1 || a.title, title: a.title || a.h1, body: a.body || '' })).filter((a) => a.slug && (a.title || a.h1)).sort((a, b) => (a.order ?? 1e9) - (b.order ?? 1e9) || (b.date || '').localeCompare(a.date || ''));
 export const services = new Map(loadArray<Service>(serviceMods).filter((s) => s?.url).map((s) => [s.url.endsWith('/') ? s.url : s.url + '/', s]));
 
 // ---------- бренды
 // список брендов и порядок: админка → «Настройки → Каталог и бренды»
-export const BRANDS: { slug: string; name: string; tier: string }[] = ((catalogSettings as any).brands || []).filter((b: any) => b?.slug && b.name).map((b: any) => ({ slug: b.slug, name: b.name, tier: b.tier || 'B' }));
+const BRANDS_SET: { slug: string; name: string; tier: string }[] = ((catalogSettings as any).brands || []).filter((b: any) => b?.slug && b.name).map((b: any) => ({ slug: b.slug, name: b.name, tier: b.tier || 'B' }));
+// бренд, заведённый в админке, но не добавленный в настройки, тоже попадает в список (уровень B)
+export const BRANDS = [...BRANDS_SET, ...[...brandTexts.values()].filter((b) => !BRANDS_SET.some((x) => x.slug === b.slug)).map((b) => ({ slug: b.slug, name: b.name || b.slug, tier: 'B' }))];
 export const inShowroom = (brand: string) => COMPANY.showroomBrands.includes(brand);
 export const brandName = (slug: string) => BRANDS.find((b) => b.slug === slug)?.name ?? slug;
 
 // ---------- навигация: 16 разделов каталога + иконки
 // порядок и названия разделов в левой панели: админка → «Настройки → Каталог и бренды»
-export let CATEGORY_NAV: { url: string; name: string; icon: string }[] = ((catalogSettings as any).categories || []).filter((c: any) => c?.url && c.name).map((c: any) => ({ url: c.url, name: c.name, icon: c.icon || 'kit' }));
+// левое меню: разделы с галочкой «Показывать в меню» (порядок по полю order), затем комплекты
+export let CATEGORY_NAV: { url: string; name: string; icon: string }[] = [
+  ...SECTIONS.filter((s) => s.inMenu).sort((a, b) => (a.order ?? 1e9) - (b.order ?? 1e9)).map((s) => ({ url: sectionUrl(s.file), name: (s.menuName || s.h1 || s.title || '').trim(), icon: s.icon || 'kit' })),
+  ...(regByUrl.has('/catalog/komplekty-furnitury/') ? [{ url: '/catalog/komplekty-furnitury/', name: 'Комплекты на дверь', icon: 'kit' }] : []),
+];
 export let DOOR_TYPES = registry.filter((p) => p.type === 'door-type');
 
 // ---------- теги (фасетные посадочные): правило выборки
 const COLOR_TAGS: Record<string, string> = { chernye: 'black', belye: 'white', zoloto: 'gold', hrom: 'chrome', bronza: 'bronze', nikel: 'nickel', latun: 'brass', grafit: 'graphite', med: 'copper' };
 const STYLE_TAGS: Record<string, string[]> = { klassika: ['classic'], sovremennye: ['modern', 'minimal'], loft: ['loft'] };
-export const COLOR_NAMES: Record<string, string> = { black: 'чёрный', chrome: 'хром', gold: 'золото', bronze: 'бронза', nickel: 'никель', brass: 'латунь', white: 'белый', graphite: 'графит', copper: 'медь', silver: 'серебро', other: 'другое' };
 export const COLOR_HEX: Record<string, string> = { black: '#1d1d1f', chrome: '#c9ccd1', gold: '#c9a54a', bronze: '#8a6a45', nickel: '#a9a7a0', brass: '#b89b53', white: '#f4f4f2', graphite: '#4a4c50', copper: '#b06f4a', silver: '#d8d8d8', other: '#bbb' };
 
 const has = (p: Product, re: RegExp) => re.test([p.name, p.description, JSON.stringify(p.specs || {}), p.material].join(' ').toLowerCase());
@@ -164,10 +231,11 @@ export function tagRule(url: string): ((p: Product) => boolean) | null {
 }
 
 // ---------- выборки товаров для страницы реестра
+const inSection = (p: Product, url: string) => p.category.startsWith(url) || (p.extraCategories || []).some((c) => c.startsWith(url));
 export function productsFor(url: string): Product[] {
   const reg = regByUrl.get(url);
   if (!reg) return [];
-  if (reg.type === 'tag') { const r = tagRule(url); return r ? products.filter(r) : []; }
+  if (reg.type === 'tag') { const r = tagRule(url); return r ? products.filter((p) => r(p) || inSection(p, url)) : products.filter((p) => inSection(p, url)); }
   if (reg.type === 'brand') { const b = url.split('/')[2]; return products.filter((p) => p.brand === b); }
   if (reg.type === 'brand-category') {
     const [, , b, c] = url.split('/');
@@ -185,7 +253,7 @@ export function productsFor(url: string): Product[] {
   }
   if (url === '/catalog/komplekty-furnitury/') return [...new Map(KITS.flatMap((k) => k.items.map((i) => [i.p.slug, i.p] as const))).values()];
   if (url === '/catalog/') return products;
-  return products.filter((p) => p.category.startsWith(url));
+  return products.filter((p) => inSection(p, url));
 }
 export const BRAND_CAT_MAP: Record<string, string> = {
   'skrytye-petli': '/catalog/dvernye-petli/skrytye/',
@@ -377,3 +445,16 @@ export const isEmptyPage = (url: string): boolean => {
 };
 DOOR_TYPES = DOOR_TYPES.filter((d) => !isEmptyPage(d.url));
 CATEGORY_NAV = CATEGORY_NAV.filter((c) => !isEmptyPage(c.url));
+
+// ---------- цели для кнопки «Открыть на сайте» в админке (/go/<коллекция>/<файл>/)
+export const sectionFiles = [...sectionByFile.keys()];
+const fileOf = (mods: Record<string, unknown>) => Object.keys(mods).map(fileSlug);
+const pageUrlOf = (mods: Record<string, unknown>) => Object.entries(mods).map(([k, m]) => ({ file: fileSlug(k), url: String(((m as any).default ?? m)?.url || '/') }));
+export const cmsTargets: { col: string; file: string; url: string }[] = [
+  ...loadWithFile<Product>(productMods).map((p) => ({ col: 'products', file: p.file, url: `/product/${urlPart(p.slug, p.file)}/` })),
+  ...articles.map((a) => ({ col: 'articles', file: (a as any).file, url: `/blog/${a.slug}/` })),
+  ...fileOf(brandsMods).map((f) => ({ col: 'brands', file: f, url: `/brands/${urlPart('', f)}/` })),
+  ...loadWithFile<{ slug?: string }>(seriesMods).map((s) => ({ col: 'series', file: s.file, url: `/series/${urlPart(s.slug, s.file)}/` })),
+  ...pageUrlOf(pagesMods).map((p) => ({ col: 'pages', ...p })),
+  ...pageUrlOf(serviceMods).map((p) => ({ col: 'service', ...p })),
+].filter((t) => t.file);

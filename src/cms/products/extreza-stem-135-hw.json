@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "Stem",
   "order": 494,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "STEM 135 HW",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Сохранит ли полированная латунь блеск?",
       "a": "Металл защищён гальваническим покрытием. Чтобы блеск не потускнел, не используйте абразивы и средства для чистки меди и латуни."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/okonnaya-ruchka-extreza-stem-hw-f01-stem-135-polirovannaya-latun/"
+  ]
 }

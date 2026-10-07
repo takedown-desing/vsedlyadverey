@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Mediana Polaris",
   "order": 413,
-  "category": "/catalog/mezhkomnatnye-zamki/pod-klyuch/",
+  "category": "catalog--mezhkomnatnye-zamki--pod-klyuch",
   "article": "B06101.50",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Подойдут ли накладки другого бренда?",
       "a": "Да, если они под ключ-буратино и совпадают по форме скважины. Удобнее брать накладки в той же серии, что и ручки."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zashchelki_/bez_ruchek_v_komplekte_/mediana_polaris/b06101_50/b06101_50_06_640_korpus_vreznogo_zamka_pod_kl_nikel_mediana_polaris_s_otv_plankoy_skin/"
+  ]
 }

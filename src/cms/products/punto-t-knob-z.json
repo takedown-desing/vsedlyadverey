@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "CB-Z",
   "order": 126,
-  "category": "/catalog/cilindry/povorotniki/",
+  "category": "catalog--cilindry--povorotniki",
   "article": "CB-Z",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Зачем знать глубину посадки?",
       "a": "Если шток короче, вертушка сядет неглубоко и может проворачиваться или соскакивать."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/povorotniki/cb/cb_z/vertushka_pod_tsilindr_cb_z_bl_chernyy/"
+  ]
 }

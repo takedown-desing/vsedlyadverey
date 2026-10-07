@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "Leone",
   "order": 63,
-  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "category": "catalog--glazki-i-aksessuary--stuchalki",
   "article": "LEONE 190x110",
   "hidden": false,
   "hiddenNote": "",
@@ -159,6 +159,5 @@
       "q": "Сколько весит стучалка?",
       "a": "Около 785 г по данным производителя, это цельная латунная отливка."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-stuchalka-venezia-leone-190x110-matovaya-bronza/"
+  ]
 }

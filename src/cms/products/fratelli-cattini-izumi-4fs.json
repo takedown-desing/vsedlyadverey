@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "IZUMI",
   "order": 207,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "IZUMI 4FS",
   "hidden": false,
   "hiddenNote": "",
@@ -142,6 +142,5 @@
       "q": "Какая гарантия?",
       "a": "На ручку действует гарантия 24 месяца."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-izumi-4fs-nm-matovyj-chernyj/"
+  ]
 }

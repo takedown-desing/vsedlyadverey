@@ -4,7 +4,7 @@
   "brand": "comaglio",
   "series": "Comax",
   "order": 43,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "1760GD",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Сколько регулировок у порога?",
       "a": "Одна, по высоте опускания уплотнителя."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/avtoporog-antiporog-dvernoy-nakladnoy-dlya-stekla-comaglio-1760gd-1000-mm-1-uroven-sebrebro/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "Exa",
   "order": 491,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "EXA FW",
   "hidden": false,
   "hiddenNote": "",
@@ -153,6 +153,5 @@
       "q": "Как ухаживать за античным серебром?",
       "a": "Протирайте мягкой сухой или слегка влажной тканью. Полироли для серебра и абразивы не подходят: они снимают состаренный слой и оставляют светлые пятна."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/ruchka-okonnaya-venezia-exa-fw-chernyj/"
+  ]
 }

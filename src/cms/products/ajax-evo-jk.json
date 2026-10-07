@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "JK",
   "order": 130,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "K.JK51.EVO",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Какой минимальной толщины дверь?",
       "a": "От 35 мм."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/ruchki_dvernye/na_razdelnom_osnovanii/jk/evo/41347/"
+  ]
 }

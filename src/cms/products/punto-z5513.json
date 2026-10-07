@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 15,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "Z5513",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Какие винты нужны для толстой двери?",
       "a": "В базовой версии M5x90. Для толщины ближе к верхней границе производитель предлагает версию DEF.SH-EXT с винтами M5x120."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/nakladka-punto-punto-defsh-zr-ext5513-z5513-teh-upakovka-vint-m5x120-cp-hrom.html"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "UNA X",
   "order": 217,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "UNA X PL08",
   "hidden": false,
   "hiddenNote": "",
@@ -115,6 +115,5 @@
       "q": "Что нужно докупить?",
       "a": "Защёлку или замок под цилиндр, а для второй версии ещё и сам цилиндр."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-planke-fratelli-cattini-una-x-cyl-pl08-ni-matovyj-nikel/"
+  ]
 }

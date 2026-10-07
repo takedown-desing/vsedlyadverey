@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "CompactTwin",
   "order": 137,
-  "category": "/catalog/razdvizhnye-sistemy/knizhka/",
+  "category": "catalog--razdvizhnye-sistemy--knizhka",
   "article": "800F70DX",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Чем она отличается от 800A80DX?",
       "a": "Шириной створок: 356,5 мм против 406,5 мм. Остальные параметры, включая угол 180° и стопор, совпадают."
     }
-  ],
-  "sourceUrl": "https://www.lock-door.ru/goods/sistema-compacttwin-800f70dx-novyiy-pravaya-180-reguliruemyiy-stopor"
+  ]
 }

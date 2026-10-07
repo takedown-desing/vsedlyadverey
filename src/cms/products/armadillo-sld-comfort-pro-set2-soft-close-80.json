@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Comfort-PRO",
   "order": 462,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-mezhkomnatnyh-dverej",
   "article": "SLD.Comfort-PRO.SET2.soft close/80",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Какой гарантийный срок?",
       "a": "Производитель указывает гарантию 5 лет при ресурсе 200 000 циклов."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-dlya-razdvizhnyh-dverej-armadillo-armadillo-sld-comfort-pro-set2-soft-close-80/"
+  ]
 }

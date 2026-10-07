@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 391,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "ML96WC-50",
   "hidden": false,
   "hiddenNote": "",
@@ -99,6 +99,5 @@
       "q": "Будет ли защёлка работать без завертки?",
       "a": "Да, дверь будет просто закрываться на магнит. Запирание изнутри появится после установки завертки."
     }
-  ],
-  "sourceUrl": "https://www.dveri-tut.com/furnitura/zamki-zaschelki/zaschelka-punto-vreznaya-magnitnaya-ml96wc-50bl-bl/"
+  ]
 }

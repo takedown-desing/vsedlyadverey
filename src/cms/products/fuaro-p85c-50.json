@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 402,
-  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-plastikovym-yazychkom",
   "article": "P85C-50",
   "hidden": false,
   "hiddenNote": "",
@@ -107,6 +107,5 @@
       "q": "Подходит ли замок для входной двери?",
       "a": "Нет, это межкомнатная модель. Для входных дверей нужны врезные замки с ригелями, например серии Fuaro V10 или V25."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy-zamok-fuaro-p85c-50-cp-pod-tsilindr-mekhanizm-khrom-s-plastikovoy-besshumnoy-zashchelkoy/"
+  ]
 }

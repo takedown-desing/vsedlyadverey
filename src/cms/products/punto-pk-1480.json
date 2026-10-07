@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "PK-14",
   "order": 112,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--navesnye",
   "article": "PK-1480",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Можно ли использовать на калитке?",
       "a": "Да, производитель указывает калитки, склады и гаражные ворота."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zamki_navesnye/garazhnye/pk_14/pk_1480/zamok_navesnoy_pk_1480_3key_blister_disk_klyuch/"
+  ]
 }

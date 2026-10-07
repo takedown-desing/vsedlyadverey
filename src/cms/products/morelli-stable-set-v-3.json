@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Stable",
   "order": 460,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-mezhkomnatnyh-dverej",
   "article": "STABLE SET V-3",
   "hidden": false,
   "hiddenNote": "",
@@ -109,6 +109,5 @@
       "q": "Какую дверь выдержит комплект?",
       "a": "Паспортный предел 100 кг на полотно, этого хватает для большинства дверей из массива дуба или ясеня стандартных размеров."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/razdvizhnye-sistemy/all/746"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 173,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "3991/2002",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Можно ли пользоваться окном без ключа?",
       "a": "Да, пока замок не заперт, ручка работает как обычная и поворачивается в положения открывания и проветривания."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/catalogo/ref-3991-2002/"
+  ]
 }

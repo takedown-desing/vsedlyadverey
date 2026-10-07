@@ -4,7 +4,7 @@
   "brand": "fantom",
   "series": "Fire",
   "order": 356,
-  "category": "/catalog/upory-i-ogranichiteli/magnitnye/",
+  "category": "catalog--upory-i-ogranichiteli--magnitnye",
   "article": "HGT003",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Чем HGT003 отличается от HGT001?",
       "a": "Это две разные модели. HGT003: накладной ограничитель для противопожарных дверей. HGT001: скрытый магнитный ограничитель, который врезается в пол."
     }
-  ],
-  "sourceUrl": "https://www.fantomstop.ru/"
+  ]
 }

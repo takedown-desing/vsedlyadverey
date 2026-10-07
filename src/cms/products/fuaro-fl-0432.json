@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "FL",
   "order": 114,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "FP.C-65.72-0432",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Нужна ли функция антипаника?",
       "a": "Для эвакуационных выходов часто да. У FL-0432 её нет, для этого есть FL-0433 Anti-Panic."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy_zamok_fuaro_fl_0432_dlya_protivopozharnykh_dverey/"
+  ]
 }

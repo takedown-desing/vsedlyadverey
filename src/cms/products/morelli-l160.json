@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 365,
-  "category": "/catalog/zadvizhki-i-shpingalety/torcevye/",
+  "category": "catalog--zadvizhki-i-shpingalety--torcevye",
   "article": "L160",
   "hidden": false,
   "hiddenNote": "",
@@ -158,6 +158,5 @@
       "q": "Можно ли ставить шпингалет только снизу?",
       "a": "Можно, но при одном нижнем шпингалете верх створки может отходить. Для ровной фиксации ставят пару."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/467"
+  ]
 }

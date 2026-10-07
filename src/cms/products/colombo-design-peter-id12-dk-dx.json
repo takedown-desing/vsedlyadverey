@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Peter",
   "order": 497,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "ID12 DK/SM DX",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Подойдёт ли Peter к пластиковому окну?",
       "a": "Да, если на окне поворотно-откидная фурнитура европейского типа, на неё модель и рассчитана. Подходит и к ПВХ, и к деревянным рамам."
     }
-  ],
-  "sourceUrl": "https://alfasantehnika.ru/catalog/accessories6723/30734/"
+  ]
 }

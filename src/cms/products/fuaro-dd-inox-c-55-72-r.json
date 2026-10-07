@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "INOX",
   "order": 117,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "DD.INOX/C-55.72/R",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли на противопожарную дверь?",
       "a": "Производитель указывает противопожарные двери среди областей применения."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/ruchki-i-furnitura-dlya-protivopozharnykh-dverey-i-sistemy-antipanika/vreznye-zamki/zamok-vreznoy-dd-inox-c-55-72-r-s-rolikovoy-zashchelkoy/"
+  ]
 }

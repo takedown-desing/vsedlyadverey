@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Electra",
   "order": 495,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "MS12 DK/SM",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Как выбрать между хромом и матовым хромом?",
       "a": "Глянцевый хром ярче, но на нём видны отпечатки. Матовый выглядит спокойнее и практичнее на окнах, которые открывают каждый день."
     }
-  ],
-  "sourceUrl": "https://alfasantehnika.ru/catalog/accessories6723/30932/"
+  ]
 }

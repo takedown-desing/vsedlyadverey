@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kart",
   "order": 482,
-  "category": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+  "category": "catalog--razdvizhnye-sistemy--komplektuyushchie",
   "article": "KART/8",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Подойдёт ли уголок к другим раздвижным системам?",
       "a": "Он сделан под серию KART. К другим трекам его можно приспособить только если совпадут отверстия и крепёж."
     }
-  ],
-  "sourceUrl": "https://toomart.ru/dvernaya-furnitura/razdvizhnye-mehanizmy/razdvizhnye-sistemy-krona-koblenz/ugolok-koblenz-krepezhnyy-serii-kart-do-4080-kg-kart8-art-95960"
+  ]
 }

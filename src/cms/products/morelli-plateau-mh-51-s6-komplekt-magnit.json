@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Plateau",
   "order": 2,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "MH-51-S6",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Можно ли поставить набор на дверь без предварительной врезки?",
       "a": "Можно, но потребуется фрезеровка паза под корпус замка и сверление отверстий под ручки и завертку. Эту работу лучше доверить установщику."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/2177"
+  ]
 }

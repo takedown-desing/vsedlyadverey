@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Range",
   "order": 484,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--petli",
   "article": "Range.GL.H10",
   "hidden": false,
   "hiddenNote": "",
@@ -136,6 +136,5 @@
       "q": "Что делать, если дверь перестала фиксироваться на 90°?",
       "a": "Проверьте, не сбита ли настройка и не перекошено ли полотно. Если гидравлика подтекает, узел нужно менять."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/petlya-dovodchik-armadillo-armadillo-dlya-steklyannoj-dveri-range-gl-h10-ss-nerzh-stal/"
+  ]
 }

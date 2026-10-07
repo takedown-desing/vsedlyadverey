@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Atomika",
   "order": 65,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K8120",
   "hidden": false,
   "hiddenNote": "",
@@ -137,6 +137,5 @@
       "q": "Можно ли поставить K8120 на противопожарную дверь?",
       "a": "Да, у петли сертификат на 45 минут. Если требуется больше, выбирают K8080 с огнестойкостью до 120 минут."
     }
-  ],
-  "sourceUrl": "https://krona-koblenz.ru/skrytaya-petlya-krona-koblenz-atomika-karakter-k8120-cover-cs-matovyy-hrom-nagruzka-do-120-kg/"
+  ]
 }

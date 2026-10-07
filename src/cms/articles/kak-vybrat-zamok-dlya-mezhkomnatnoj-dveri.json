@@ -28,5 +28,8 @@
     "/catalog/mezhkomnatnye-zamki/s-fiksatorom/",
     "/catalog/cilindry/"
   ],
-  "order": 3
+  "order": 3,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

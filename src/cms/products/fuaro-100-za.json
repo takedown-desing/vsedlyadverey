@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "100 Z",
   "order": 439,
-  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "category": "catalog--cilindry--klyuch-klyuch",
   "article": "100 ZA",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Можно ли изнутри закрываться без ключа?",
       "a": "Нет, это ключ/ключ. Для запирания изнутри поворотом нужен цилиндр ключ/вертушка, например Fuaro 200 ZM."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/tsilindrovyy_mekhanizm_fuaro_100_z_60mm_a_klyuch_klyuch_bl_chernyy/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 374,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "1450",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Можно ли использовать на двери со стеклом?",
       "a": "Можно, если внизу полотна есть глухая филёнка под шурупы. Крепить корпус к стеклу нельзя."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/avtomaticheskij-porog-nakladnoj-venezia-1450-900-700-mm-regulirovka-1-uroven-serebristyj/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "Emma",
   "order": 488,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "FW 7",
   "hidden": false,
   "hiddenNote": "",
@@ -161,6 +161,5 @@
       "q": "Какое покрытие выбрать к белым пластиковым окнам?",
       "a": "На белом профиле аккуратно смотрятся матовый и полированный хром. Матовый чёрный и латунь дают заметный акцент и хорошо работают, если такая же фурнитура стоит на дверях."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/ruchka-okonnaya-fratelli-cattini-emma-fw-7-cs-matovyj-hrom/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 438,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "CYL 7",
   "hidden": false,
   "hiddenNote": "",
@@ -152,6 +152,5 @@
       "q": "Сколько накладок в упаковке?",
       "a": "Две, этого хватает на одну дверь."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/nakladka-pod-czilindr-na-kruglom-osnovanii-fratelli-cattini-cyl-7-ga-antraczit-seryj-2-sht/"
+  ]
 }

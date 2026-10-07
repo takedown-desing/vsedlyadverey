@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "PALAZZO",
   "order": 232,
-  "category": "/catalog/dvernye-ruchki/skoby/",
+  "category": "catalog--dvernye-ruchki--skoby",
   "article": "PALAZZO PULL SM",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Можно ли поставить PALAZZO на шкаф?",
       "a": "Да, на крупные распашные створки шкафов скоба подходит как тянущая ручка."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/ruchki-i-furnitura-dlya-mezhkomnatnykh-dverey/ruchki/skoby/ruchka-skoba-pull-sm250-palazzo-rb-10-palazzo-pull-sm-frantsuzskoe-zoloto/"
+  ]
 }

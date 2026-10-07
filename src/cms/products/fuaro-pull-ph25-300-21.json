@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "PULL",
   "order": 230,
-  "category": "/catalog/dvernye-ruchki/skoby/",
+  "category": "catalog--dvernye-ruchki--skoby",
   "article": "PH-21-25/300-INOX",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Сколько скоб в комплекте?",
       "a": "Две, по одной на каждую сторону двери."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/ruchki/dvernye-ruchki-skoby/fuaro/ruchka_skoba_fuaro_ph_21_25_300_inox_nerzhaveyka_304/"
+  ]
 }

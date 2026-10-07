@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica",
   "order": 297,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K6200 DXSX",
   "hidden": false,
   "hiddenNote": "",
@@ -160,6 +160,5 @@
       "q": "Можно ли поставить её на правую и левую дверь?",
       "a": "Да, сторона открывания универсальная."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/KUBICA-6200-DXSX-CRSAT-petlja-skrytaja-universalnaja-matovyj-hrom-57-kg/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Innovation",
   "order": 307,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "HH-18",
   "hidden": false,
   "hiddenNote": "",
@@ -166,6 +166,5 @@
       "q": "Подходит ли петля для входной двери?",
       "a": "Нет, модель предназначена для межкомнатных дверей."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/petli/all/335"
+  ]
 }

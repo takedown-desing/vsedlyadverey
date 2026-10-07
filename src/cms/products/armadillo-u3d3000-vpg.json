@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "TECH",
   "order": 308,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "U3D3000.VPG",
   "hidden": false,
   "hiddenNote": "",
@@ -149,6 +149,5 @@
       "q": "Можно ли поставить петлю на дверь с притвором?",
       "a": "Да, производитель прямо указывает двери с притвором среди подходящих."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-armadillo-armadillo-skrytoj-ustanovki-u3d3000-vpg-sc-mat-hrom-tech.html"
+  ]
 }

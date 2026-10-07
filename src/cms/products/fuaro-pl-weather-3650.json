@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "PL-WEATHER",
   "order": 106,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--navesnye",
   "article": "PL-WEATHER-3650 3key",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Сколько ключей в комплекте?",
       "a": "Три английских ключа."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/navesnye-zamki/zamok-navesnoy-pl-weather-3650-3key-pl-3650-angl-blister/"
+  ]
 }

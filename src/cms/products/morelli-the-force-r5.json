@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "THE FORCE",
   "order": 249,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "THE FORCE R5",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Подойдёт ли ручка для детской?",
       "a": "Округлый рычаг без острых кромок удобен и безопасен. Для детской часто выбирают белый цвет в тон двери."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/1744"
+  ]
 }

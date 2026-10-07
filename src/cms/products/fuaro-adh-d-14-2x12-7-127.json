@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "ADH",
   "order": 84,
-  "category": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/",
+  "category": "catalog--avtoporogi-i-uplotniteli--uplotniteli",
   "article": "ADH/D-14,2x12,7mm (127)",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Подойдёт ли для окна?",
       "a": "Да, профиль применяют для утепления и шумоизоляции дверей и окон."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/uplotnitel-samokleyaschiysya-adh-d-14-2x12-7mm-127-black-chernyy-120-m/"
+  ]
 }

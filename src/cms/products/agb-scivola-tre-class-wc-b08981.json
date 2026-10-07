@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Scivola Tre Class",
   "order": 159,
-  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej",
   "article": "B08981.50",
   "hidden": false,
   "hiddenNote": "",
@@ -145,6 +145,5 @@
       "q": "Подойдёт ли защёлка для спальни?",
       "a": "Да, фиксатор изнутри удобен для любой комнаты, где нужна приватность без ключа."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item4947"
+  ]
 }

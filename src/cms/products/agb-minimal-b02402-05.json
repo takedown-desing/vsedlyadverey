@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Mediana Polaris",
   "order": 420,
-  "category": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/",
+  "category": "catalog--mezhkomnatnye-zamki--otvetnye-planki",
   "article": "B02402.05",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Нужна ли планка, если замок уже с ней?",
       "a": "Нет. Отдельно планку берут для замков в технической упаковке или на замену."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/b02402-05-93-b01402-otvet-magnitnaya-planka-minimal-chernyj-dlya-mediana-polaris/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Penal",
   "order": 142,
-  "category": "/catalog/razdvizhnye-sistemy/penaly/",
+  "category": "catalog--razdvizhnye-sistemy--penaly",
   "article": "SLD.Comfort-PENAL caseta 900/2900",
   "hidden": false,
   "hiddenNote": "",
@@ -133,6 +133,5 @@
       "q": "Подойдёт ли пенал для двери высотой 2400 мм?",
       "a": "Нет, этот артикул рассчитан на 2700-2900 мм. Для более низкой двери выбирают пенал другой высоты из той же линейки."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/penal-dlya-skrytoj-razdvizhnoj-armadillo-armadillo-sistemy-sld-comfort-penal-caseta-900-2900/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Luxury",
   "order": 147,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "FIORD S5",
   "hidden": false,
   "hiddenNote": "",
@@ -144,6 +144,5 @@
       "q": "Можно ли поставить FIORD на дверь в классическом стиле?",
       "a": "Технически да, но графичная форма лучше раскрывается на гладких современных полотнах."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/95"
+  ]
 }

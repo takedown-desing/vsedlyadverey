@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Mediana Evolution",
   "order": 399,
-  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-plastikovym-yazychkom",
   "article": "B01103.50",
   "hidden": false,
   "hiddenNote": "",
@@ -160,6 +160,5 @@
       "q": "Есть ли Evolution под ключ-буратино?",
       "a": "Да, модель B01101 с межосевым 90 мм работает с простым межкомнатным ключом."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/mediana-evolution-cilindr/"
+  ]
 }

@@ -28,5 +28,8 @@
     "/catalog/dvernye-petli/universalnye/",
     "/catalog/dvernye-petli/vvertnye/"
   ],
-  "order": 7
+  "order": 7,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

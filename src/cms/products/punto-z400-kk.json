@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "Z400",
   "order": 441,
-  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "category": "catalog--cilindry--klyuch-klyuch",
   "article": "Z400",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Как понять, какая длина нужна?",
       "a": "Снимите старый цилиндр и измерьте его или измерьте толщину двери от оси крепёжного винта до внешней поверхности накладок с двух сторон."
     }
-  ],
-  "sourceUrl": "https://magazin-krepost.ru/cilindri-zamkov/cilindrovyy-mehanizm-punto-z40070-mm-301030-pb-latun"
+  ]
 }

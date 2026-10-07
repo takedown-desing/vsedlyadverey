@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "CompactTwin",
   "order": 135,
-  "category": "/catalog/razdvizhnye-sistemy/knizhka/",
+  "category": "catalog--razdvizhnye-sistemy--knizhka",
   "article": "800A80DX",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Подойдёт ли механизм для проёма под дверь 900 мм?",
       "a": "Створки 406,5 мм рассчитаны на проём около 800 мм. Для метрового проёма есть 800B100DX со створками 506,5 мм."
     }
-  ],
-  "sourceUrl": "https://www.lock-door.ru/goods/sistema-compacttwin-800a80dx-novyiy-pravaya-180-reguliruemyiy-stopor"
+  ]
 }

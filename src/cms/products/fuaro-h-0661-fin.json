@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "FIN",
   "order": 132,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "R.FIN50.H-0661",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Какие замки Fuaro с ней сочетаются?",
       "a": "2014-WC/S с фиксатором и 2018/C под цилиндр, оба для финских дверей."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/ruchki-i-furnitura-dlya-mezhkomnatnykh-dverey/ruchki/na-razdelnom-osnovanii/ruchka-razdelnaya-r-fin50-h-0661-h-0661-sp-khrom/"
+  ]
 }

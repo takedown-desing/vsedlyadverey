@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 327,
-  "category": "/catalog/dvernye-petli/razemnye/",
+  "category": "catalog--dvernye-petli--razemnye",
   "article": "MSD 100X70X2.5",
   "hidden": false,
   "hiddenNote": "",
@@ -158,6 +158,5 @@
       "q": "Можно ли перевесить дверь на другую сторону?",
       "a": "Только с заменой петель: левое и правое исполнение разъёмной петли различаются, и одна на место другой не встанет."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/petli/all/870"
+  ]
 }

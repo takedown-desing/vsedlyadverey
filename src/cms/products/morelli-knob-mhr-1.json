@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": null,
   "order": 225,
-  "category": "/catalog/dvernye-ruchki/knoby/",
+  "category": "catalog--dvernye-ruchki--knoby",
   "article": "MHR-1",
   "hidden": false,
   "hiddenNote": "",
@@ -133,6 +133,5 @@
       "q": "Какая гарантия?",
       "a": "12 месяцев."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/851"
+  ]
 }

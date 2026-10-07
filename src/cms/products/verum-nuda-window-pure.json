@@ -4,7 +4,7 @@
   "brand": "verum",
   "series": "Nuda",
   "order": 501,
-  "category": "/catalog/okonnaya-furnitura/balkonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--balkonnye-ruchki",
   "article": "Nuda window PURE",
   "hidden": false,
   "hiddenNote": "",
@@ -107,6 +107,5 @@
       "q": "Подойдёт ли комплект к деревянной балконной двери?",
       "a": "Если на двери европейская поворотная фурнитура, да. Длину сквозного квадрата подбирают по толщине полотна."
     }
-  ],
-  "sourceUrl": "https://verumhandle.ru/product/nuda-window-pure/"
+  ]
 }

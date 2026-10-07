@@ -1,5 +1,4 @@
 {
-  "slug": "comaglio",
   "name": "Comaglio",
   "country": "Италия",
   "founded": "1976",
@@ -16,5 +15,8 @@
     "Sliding",
     "Universal"
   ],
-  "categories": []
+  "categories": [],
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "Rocca",
   "order": 61,
-  "category": "/catalog/glazki-i-aksessuary/stuchalki/",
+  "category": "catalog--glazki-i-aksessuary--stuchalki",
   "article": "ROCCA 110",
   "hidden": false,
   "hiddenNote": "",
@@ -154,6 +154,5 @@
       "q": "Какие покрытия есть?",
       "a": "Матовая латунь (FCT1860), матовый чёрный (FCT1862), матовая бронза (FCT1861), матовый хром (FCT1859) и полированная латунь (FCT1857)."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/dvernaya-stuchalka-fratelli-cattini-rocca-110-mm-olv-polirovannaya-latun/"
+  ]
 }

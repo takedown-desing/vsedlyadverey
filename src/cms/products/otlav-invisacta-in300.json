@@ -4,7 +4,7 @@
   "brand": "otlav",
   "series": "Invisacta",
   "order": 310,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "IN300",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Подойдёт ли петля для узкой коробки?",
       "a": "Глубина врезки в коробку 21 мм, это немного. Точную совместимость с профилем коробки лучше сверить до покупки."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/petlya-skrytaya-3d-universalnaya-120x30-mm-60-kg-camak-zoloto-matovoe/"
+  ]
 }

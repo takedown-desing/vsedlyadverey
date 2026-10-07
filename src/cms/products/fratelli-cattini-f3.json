@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 350,
-  "category": "/catalog/upory-i-ogranichiteli/napolnye/",
+  "category": "catalog--upory-i-ogranichiteli--napolnye",
   "article": "F3",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Как крепится упор?",
       "a": "Как большинство напольных упоров, на саморез с дюбелем. На плитке отверстие сверлят без удара, на ламинате крепёж доводят до стяжки."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/upor-dvernoj-napolnyj-fratelli-cattini-f3-cs-matovyj-hrom/"
+  ]
 }

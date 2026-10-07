@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Sicurezza",
   "order": 120,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "Sicurezza 18 мм",
   "hidden": false,
   "hiddenNote": "",
@@ -141,6 +141,5 @@
       "q": "Что нужно докупить?",
       "a": "Цилиндр подходящей длины, ответную планку и ручки с межосью 85 мм."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/sicurezza-cilindr-18mm/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 241,
-  "category": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-steklyannyh-dverej",
   "article": "6012",
   "hidden": false,
   "hiddenNote": "",
@@ -144,6 +144,5 @@
       "q": "Какой размер у ручки?",
       "a": "Диаметр 60 мм, вес комплекта 208 г."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-stekljannoj-razdvizhnoj-dveri-6012-60-matovyj-hrom/"
+  ]
 }

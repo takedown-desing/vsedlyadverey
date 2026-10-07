@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 195,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--komplekty",
   "article": "4012",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Есть ли к набору ответная часть на стекло?",
       "a": "Да, по материалу подходит ответная коробка Tupai 4018 из матовой нержавеющей стали."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/wp-content/uploads/2022/03/tupai-catalogo-geral-2022-com-capa-140322.pdf"
+  ]
 }

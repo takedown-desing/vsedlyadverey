@@ -28,5 +28,8 @@
     "/catalog/dvernye-petli/shablony-i-frezy/",
     "/catalog/mezhkomnatnye-zamki/magnitnye/"
   ],
-  "order": 6
+  "order": 6,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

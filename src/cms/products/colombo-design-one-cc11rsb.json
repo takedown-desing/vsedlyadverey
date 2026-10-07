@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "ONE",
   "order": 203,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "CC11RSB",
   "hidden": false,
   "hiddenNote": "",
@@ -142,6 +142,5 @@
       "q": "Подойдёт ли ONE для классического интерьера?",
       "a": "Модель задумана для современных и скандинавских пространств. В классике уместнее латунные ручки с фигурным рычагом."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-colombo-one-cc11rsb-c01-matovyj-kokos-belyj/"
+  ]
 }

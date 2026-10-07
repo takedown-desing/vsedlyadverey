@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Sicurezza",
   "order": 121,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "Sicurezza 22 мм",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Для каких дверей?",
       "a": "Деревянные входные, ПВХ и алюминиевые."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/sicurezza-cilindr-22mm/"
+  ]
 }

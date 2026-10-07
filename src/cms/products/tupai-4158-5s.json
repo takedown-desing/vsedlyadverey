@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 256,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "4158 5S",
   "hidden": false,
   "hiddenNote": "",
@@ -133,6 +133,5 @@
       "q": "Насколько тонкая розетка?",
       "a": "5 мм, система 5S."
     }
-  ],
-  "sourceUrl": "https://tupai-store.ru/katalog/4158-5s/ruchka-tupai-4158-5s-142/"
+  ]
 }

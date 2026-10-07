@@ -4,7 +4,7 @@
   "brand": "forme",
   "series": "Antares",
   "order": 273,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "218K",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Какой материал корпуса?",
       "a": "Из латуни."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya-ruchka-forme-mod-antares-218k-matovyy-khrom-na-rozetke-50k/"
+  ]
 }

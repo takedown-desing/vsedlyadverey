@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 257,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "4213 5S",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Что такое золото сатинированное?",
       "a": "Матовое золотое покрытие с мягким бархатистым блеском, в отличие от зеркального глянца."
     }
-  ],
-  "sourceUrl": "https://tupai-store.ru/katalog/4213-5s/ruchka-tupai-4213-5s-03/"
+  ]
 }

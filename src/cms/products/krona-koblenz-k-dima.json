@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": null,
   "order": 335,
-  "category": "/catalog/dvernye-petli/shablony-i-frezy/",
+  "category": "catalog--dvernye-petli--shablony-i-frezy",
   "article": "K.DIMA",
   "hidden": false,
   "hiddenNote": "",
@@ -102,6 +102,5 @@
       "q": "Входят ли вставки в комплект?",
       "a": "Нет, вставки продаются отдельно, по одной под каждую модель Kubica."
     }
-  ],
-  "sourceUrl": "https://www.tgs-shepherds.co.uk/product/kob-dima"
+  ]
 }

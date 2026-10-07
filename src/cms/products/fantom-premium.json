@@ -4,7 +4,7 @@
   "brand": "fantom",
   "series": "Premium",
   "order": 355,
-  "category": "/catalog/upory-i-ogranichiteli/magnitnye/",
+  "category": "catalog--upory-i-ogranichiteli--magnitnye",
   "article": "Premium",
   "hidden": false,
   "hiddenNote": "",
@@ -140,6 +140,5 @@
       "q": "Чем Premium отличается от Standart?",
       "a": "Premium выпускается с крышками пяти цветов, Standart только с прозрачной крышкой, которая принимает оттенок пола."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/fantom-premium-fnt0007-dvernoj-ogranichitel-magnitnyj-skrytyj-chernyj.html"
+  ]
 }

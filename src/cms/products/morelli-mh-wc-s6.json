@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": null,
   "order": 424,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "MH-WC-S6",
   "hidden": false,
   "hiddenNote": "",
@@ -135,6 +135,5 @@
       "q": "С какими замками работает?",
       "a": "С сантехническими замками и защёлками под завертку, у которых квадрат фиксатора совпадает с заверткой."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/2088"
+  ]
 }

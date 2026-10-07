@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Compact",
   "order": 472,
-  "category": "/catalog/razdvizhnye-sistemy/knizhka/",
+  "category": "catalog--razdvizhnye-sistemy--knizhka",
   "article": "COMPACT 180.50.80",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Подойдёт ли дверь толщиной 40 мм?",
       "a": "Да, паспортный диапазон 36-44 мм, стандартное межкомнатное полотно 40 мм в него укладывается."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/skladnaya-sistema-compact-180-50-80-l-inox-lev/"
+  ]
 }

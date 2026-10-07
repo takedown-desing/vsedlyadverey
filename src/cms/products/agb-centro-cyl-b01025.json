@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Centro",
   "order": 407,
-  "category": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-metallicheskim-yazychkom",
   "article": "B01025.50",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Какой цилиндр поставить?",
       "a": "Стандартный евроцилиндр подходящей длины: ключ/ключ для кладовой, ключ/вертушка для спальни или кабинета."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item317"
+  ]
 }

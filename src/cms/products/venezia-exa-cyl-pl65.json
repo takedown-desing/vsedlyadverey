@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "EXA",
   "order": 216,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "EXA CYL PL65",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Можно ли использовать на входной двери квартиры?",
       "a": "Ручка предназначена для межкомнатных дверей, в том числе тамбурных. Для металлической входной двери лучше выбрать специализированную ручку и замок."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-venezia-exa-cyl-na-planke-pl65-matovyj-chernyj/"
+  ]
 }

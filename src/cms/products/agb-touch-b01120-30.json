@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Touch",
   "order": 390,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "B01120.30",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Какая ответная планка нужна?",
       "a": "Для деревянной коробки одна, для алюминиевой другая. Выбирайте по материалу коробки, в которую она будет врезана."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zashchelki_/bez_ruchek_v_komplekte_/touch/b01120_30/magnitnaya_zashchelka_reguliruemaya_touch_b01120_30_fm_belyy_s_litsevoy_plankoy/"
+  ]
 }

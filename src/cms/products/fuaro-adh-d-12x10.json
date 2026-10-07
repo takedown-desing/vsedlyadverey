@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 378,
-  "category": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/",
+  "category": "catalog--avtoporogi-i-uplotniteli--uplotniteli",
   "article": "ADH/D-12x10",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Продаётся ли уплотнитель на метры?",
       "a": "Эта позиция поставляется целой бухтой 150 м. Для одной двери удобнее взять уплотнитель в небольшой упаковке."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/uplotnitel-samokleyaschiysya-adh-d-12x10mm-white-belyy-150m/"
+  ]
 }

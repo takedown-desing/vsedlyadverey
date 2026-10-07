@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "MAX",
   "order": 50,
-  "category": "/catalog/upory-i-ogranichiteli/skrytye/",
+  "category": "catalog--upory-i-ogranichiteli--skrytye",
   "article": "MAX INOX",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Чем MAX INOX отличается от STELS TR?",
       "a": "MAX INOX прячет магнит в торце двери, на полу остаётся плоская накладка на клею, предел 80 кг. У STELS TR корпус утоплен в пол, его придётся сверлить, а вес двери ограничен 60 кг."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/upor-armadillo-armadillo-dvernoj-skrytyj-max-inox/"
+  ]
 }

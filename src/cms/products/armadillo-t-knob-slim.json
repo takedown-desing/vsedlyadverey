@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "CB-Slim",
   "order": 122,
-  "category": "/catalog/cilindry/povorotniki/",
+  "category": "catalog--cilindry--povorotniki",
   "article": "CB-Slim",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Что такое покрытие MWSC-33?",
       "a": "Итальянское тиснёное покрытие с рельефной фактурой, оно отличается от гладкого хрома и чёрного."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/povorotniki/sv_slim/cb_slim_/vertushka_na_tsilindr_cb_slim_bl_26_chernyy/"
+  ]
 }

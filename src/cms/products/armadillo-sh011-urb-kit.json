@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Urban",
   "order": 419,
-  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej",
   "article": "SH.URB153.KIT011-BK",
   "hidden": false,
   "hiddenNote": "",
@@ -102,6 +102,5 @@
       "q": "Подойдёт ли комплект к двери в пенале?",
       "a": "Врезные ручки-купе не выступают из полотна, поэтому такая дверь заходит в пенал. Толщину полотна сверьте с паспортом."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/zashhelka-s-ruchkami-dlya-razdvizhnyh-dverej-sh-urb153-kit011-bk-sh011-urb-bl-26-chernyj/"
+  ]
 }

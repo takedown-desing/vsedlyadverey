@@ -4,7 +4,7 @@
   "brand": "otlav",
   "series": null,
   "order": 158,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-petli/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-petli",
   "article": "605 Ø9",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Можно ли снять дверцу, не выкручивая петли?",
       "a": "Да, створка снимается подъёмом вверх, половинки петли расходятся по оси."
     }
-  ],
-  "sourceUrl": "https://www.otlav.it/ru/prodotti/CERNIERE/A-DUE-PARTI/605090A?MICROFAMIGLIA=605090AB1"
+  ]
 }

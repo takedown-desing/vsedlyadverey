@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica",
   "order": 303,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K7080 DXSX",
   "hidden": false,
   "hiddenNote": "",
@@ -160,6 +160,5 @@
       "q": "Нужно ли обслуживать петлю?",
       "a": "Смазка не требуется. После первых недель эксплуатации тяжёлой двери стоит проверить затяжку винтов и при необходимости подрегулировать зазоры."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item15717"
+  ]
 }

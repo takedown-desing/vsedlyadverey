@@ -4,7 +4,7 @@
   "brand": "porta-di-parma",
   "series": "Modello2",
   "order": 47,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "P.1712",
   "hidden": false,
   "hiddenNote": "",
@@ -107,6 +107,5 @@
       "q": "Помогает ли автопорог от шума?",
       "a": "Он закрывает щель под дверью, через которую уходит значительная часть звука, поэтому слышимость снижается."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/porog-avtomaticheskiy-modello2-p-1712-900-razmer-900-mm/"
+  ]
 }

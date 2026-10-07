@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica Atomika",
   "order": 302,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K8060 DXSX",
   "hidden": false,
   "hiddenNote": "",
@@ -160,6 +160,5 @@
       "q": "Можно ли ставить на дверь с внутренним фальцем?",
       "a": "Да, применение: без фальца заподлицо или с внутренним фальцем."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/skrytaya-petlya-krona-koblenz-atomika-slim-k8060-cover-cs-hd-matovyy-hrom-nagruzka-do-60-kg/"
+  ]
 }

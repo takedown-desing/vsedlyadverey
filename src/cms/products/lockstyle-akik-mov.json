@@ -4,7 +4,7 @@
   "brand": "lockstyle",
   "series": "AKIK",
   "order": 295,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "AKIK MOV",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Где производится?",
       "a": "Поставщик позиционирует марку как польскую, фактическая страна производства: Китай."
     }
-  ],
-  "sourceUrl": "https://furnitura96.ru/dvernaya-ruchka-lockstyle-akik-mov-al6-chernyj/"
+  ]
 }

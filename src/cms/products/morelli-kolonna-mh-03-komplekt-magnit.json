@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Колонна",
   "order": 4,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "MH-03",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Что делать, если дверь не держится в закрытом положении?",
       "a": "Скорее всего, ответная планка смещена относительно язычка. Её переставляют на 1-2 мм, чтобы магнит притягивал язычок без усилия."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/2175"
+  ]
 }

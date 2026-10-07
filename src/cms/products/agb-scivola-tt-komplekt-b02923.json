@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Scivola TT",
   "order": 164,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "B02923.50",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Подойдёт ли комплект для гардеробной?",
       "a": "Да, набор рассчитан на санузлы и гардеробные с дверью-купе: фиксатор запирает её изнутри, а два крюка не дают сдвинуть полотно."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/komplekt-scivola-tt/"
+  ]
 }

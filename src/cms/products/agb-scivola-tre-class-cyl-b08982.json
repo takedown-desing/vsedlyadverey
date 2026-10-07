@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Scivola Tre Class",
   "order": 160,
-  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej",
   "article": "B08982.50",
   "hidden": false,
   "hiddenNote": "",
@@ -140,6 +140,5 @@
       "q": "Нужен ли отдельный наперсток?",
       "a": "Нет, дверь вытягивают из пенала встроенным рычажком замка."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item4950"
+  ]
 }

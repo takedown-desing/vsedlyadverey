@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 223,
-  "category": "/catalog/dvernye-ruchki/knoby/",
+  "category": "catalog--dvernye-ruchki--knoby",
   "article": "P20",
   "hidden": false,
   "hiddenNote": "",
@@ -146,6 +146,5 @@
       "q": "Из чего сделан кноб?",
       "a": "Из латуни, вес одного изделия 345 г."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-dvernaja-knob-venezia-p20-65-polirovannaja-latun/"
+  ]
 }

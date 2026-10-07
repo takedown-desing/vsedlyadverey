@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 505,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-ruchki",
   "article": "MN 800 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -119,6 +119,5 @@
       "q": "Подойдёт ли ручка для раздвижной двери в комнату?",
       "a": "Для лёгкой раздвижной панели подойдёт. На полноценные межкомнатные раздвижные двери обычно ставят ручки-купе дверного размера."
     }
-  ],
-  "sourceUrl": "https://www.itkt.ru/category/ruchki_vreznye_v_fasad/ruchka_mebelnaya_pamar_mn_800_z/"
+  ]
 }

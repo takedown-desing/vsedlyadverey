@@ -4,7 +4,7 @@
   "brand": "otlav",
   "series": null,
   "order": 157,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-petli/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-petli",
   "article": "530 Ø9",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Как снять дверцу?",
       "a": "Откройте её и поднимите вверх: верхняя половина петли сойдёт со штыря нижней. Инструмент для этого не нужен."
     }
-  ],
-  "sourceUrl": "https://www.otlav.it/ru/prodotti/CERNIERE/A-DUE-PARTI/530090A?MICROFAMIGLIA=530090AH0"
+  ]
 }

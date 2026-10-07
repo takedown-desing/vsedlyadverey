@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "ATC Protector",
   "order": 6,
-  "category": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+  "category": "catalog--zavertki-i-nakladki--dekorativnye-nakladki",
   "article": "ET-DEC",
   "hidden": false,
   "hiddenNote": "",
@@ -156,6 +156,5 @@
       "q": "Подойдёт ли накладка к броненакладке другой марки?",
       "a": "По размеру отверстия обычно подходит, но форма и оттенок покрытия могут не совпасть. Для единого вида её выпускают в паре с ATC Protector."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-nakladka-armadillo--armadillo-na-czilindr-et-dec-atc-protector-1-cp-8-khrom.html"
+  ]
 }

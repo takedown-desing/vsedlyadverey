@@ -4,7 +4,7 @@
   "brand": "melodia",
   "series": "Ranja",
   "order": 506,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-ruchki",
   "article": "890",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "Как чистить античную бронзу?",
       "a": "Сухой или слегка влажной мягкой тканью. Пасты для латуни не подходят: они снимают патину и оставляют светлые пятна."
     }
-  ],
-  "sourceUrl": "https://www.mirar-group.ru/product/mebelnaya-ruchka-skoba-melodia-890-128-mm/"
+  ]
 }

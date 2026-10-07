@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "TL",
   "order": 13,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "BK6 TL",
   "hidden": false,
   "hiddenNote": "",
@@ -144,6 +144,5 @@
       "q": "Совпадёт ли цвет с ручками другой марки?",
       "a": "Двухцветные покрытия у разных производителей различаются по тону. Для точного совпадения лучше брать ручки той же серии TL."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/ruchka-povorotnaya-punto--punto-bk6-tl-sncp-3-matovyj-nikelkhrom.html"
+  ]
 }

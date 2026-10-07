@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "ART",
   "order": 417,
-  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej",
   "article": "ART.SR2",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Сколько ключей в комплекте?",
       "a": "Количество ключей уточните при заказе, в карточке оно не указано."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2533"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "CINQUE",
   "order": 205,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "CINQUE 7FS",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Что выбрать к тёмной двери?",
       "a": "На тёмном шпоне и эмали эффектно смотрятся медь и латунь. Матовый чёрный на тёмном полотне будет почти незаметен."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-cinque-7fs-nm-matovyj-chernyj/"
+  ]
 }

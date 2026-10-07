@@ -4,7 +4,7 @@
   "brand": "class",
   "series": "Shamira",
   "order": 275,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "1065",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Как ухаживать за золотом 24к?",
       "a": "Только сухой мягкой тканью, без полиролей и абразивов."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya-ruchka-class-mod-shamira-1065-na-rozetke-60mm-matovaya-bronza/"
+  ]
 }

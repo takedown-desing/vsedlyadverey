@@ -4,7 +4,7 @@
   "brand": "melodia",
   "series": "Ball",
   "order": 507,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-ruchki",
   "article": "803",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "Какого размера кноб выбрать?",
       "a": "30 мм это средний размер для обычных ящиков и дверец. На крупные фасады шкафов лучше смотрится кноб большего диаметра или скоба."
     }
-  ],
-  "sourceUrl": "https://www.mirar-group.ru/product/mebelnaya-ruchka-knob-melodia-803-ball-30-mm/"
+  ]
 }

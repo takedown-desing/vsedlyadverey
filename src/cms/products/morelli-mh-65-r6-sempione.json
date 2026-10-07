@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "SEMPIONE",
   "order": 250,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "MH-65-R6",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Входит ли защёлка?",
       "a": "Нет, защёлку и фиксатор выбирают отдельно."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/4955"
+  ]
 }

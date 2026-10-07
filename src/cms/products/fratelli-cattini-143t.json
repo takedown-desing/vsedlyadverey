@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 318,
-  "category": "/catalog/dvernye-petli/babochki/",
+  "category": "catalog--dvernye-petli--babochki",
   "article": "143T 38-35",
   "hidden": false,
   "hiddenNote": "",
@@ -132,6 +132,5 @@
       "q": "Чем 143T отличается от 143Q?",
       "a": "Формой: у 143T узкое крыло 32 мм с плавными краями, у 143Q квадратные крылья и четыре цвета. Зазор и нагрузка у моделей одинаковые."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/petlya-nakladnaya-bez-vrezki-universalnaya-razbornaya-fratelli-cattini-143t-38-35-cs-matovyj-hrom/"
+  ]
 }

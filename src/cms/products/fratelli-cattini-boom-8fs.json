@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "BOOM",
   "order": 208,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "BOOM 8FS",
   "hidden": false,
   "hiddenNote": "",
@@ -146,6 +146,5 @@
       "q": "Какое покрытие самое практичное?",
       "a": "Матовые варианты не показывают отпечатков. Из тёплых оттенков практична бронза, из нейтральных матовый хром."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kvadratnom-osnovanii-fratelli-cattini-boom-8fs-nm-matovyj-chernyj/"
+  ]
 }

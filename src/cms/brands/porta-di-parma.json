@@ -1,5 +1,4 @@
 {
-  "slug": "porta-di-parma",
   "name": "Porta di Parma",
   "country": "Россия",
   "founded": "",
@@ -18,5 +17,8 @@
     "Impero",
     "Fedra"
   ],
-  "categories": []
+  "categories": [],
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

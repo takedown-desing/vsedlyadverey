@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Gravity.Pro",
   "order": 394,
-  "category": "/catalog/mezhkomnatnye-zamki/pod-cilindr/",
+  "category": "catalog--mezhkomnatnye-zamki--pod-cilindr",
   "article": "G02.196.50.85",
   "hidden": false,
   "hiddenNote": "",
@@ -120,6 +120,5 @@
       "q": "Подойдёт ли замок для санузла?",
       "a": "Да, если поставить цилиндр с вертушкой. Но проще взять Gravity.Pro WC под завертку с межосевым 96 мм."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/zamok-armadillo-armadillo-mezhkomnatnyj-magn-3/"
+  ]
 }

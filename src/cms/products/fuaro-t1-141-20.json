@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "T1",
   "order": 91,
-  "category": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-petli--dlya-vhodnyh-dverej",
   "article": "T1/141-20 (D20x140S)",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Нужно ли смазывать петлю?",
       "a": "Подшипник облегчает ход, но на улице узел периодически очищают от грязи и обрабатывают смазкой для открытых механизмов."
     }
-  ],
-  "sourceUrl": "https://zamki34.ru/collection/petli-privarnye-garazhnye/product/petlya-privarnaya-t1-141-20-s-podshipnikom-fuaro-32395"
+  ]
 }

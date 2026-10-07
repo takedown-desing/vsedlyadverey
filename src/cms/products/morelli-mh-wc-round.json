@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": null,
   "order": 423,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "MH-WC",
   "hidden": false,
   "hiddenNote": "",
@@ -144,6 +144,5 @@
       "q": "Есть ли квадратная версия?",
       "a": "Да, Morelli MH-WC-S6 на тонкой квадратной розетке."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/544"
+  ]
 }

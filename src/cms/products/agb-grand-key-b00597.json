@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Grand",
   "order": 415,
-  "category": "/catalog/mezhkomnatnye-zamki/pod-klyuch/",
+  "category": "catalog--mezhkomnatnye-zamki--pod-klyuch",
   "article": "B00597.50",
   "hidden": false,
   "hiddenNote": "",
@@ -119,6 +119,5 @@
       "q": "Можно ли закрыть дверь без ключа?",
       "a": "Да, защёлка удерживает дверь от ручки, ключ нужен только для ригеля."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/agb-grand-cliuch/"
+  ]
 }

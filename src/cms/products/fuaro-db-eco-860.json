@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DB",
   "order": 82,
-  "category": "/catalog/zadvizhki-i-shpingalety/",
+  "category": "catalog--zadvizhki-i-shpingalety",
   "article": "DB-ECO.860",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Нужна ли задвижка, если на двери два замка?",
       "a": "Она удобна тем, что закрывается одним поворотом ручки изнутри и не открывается снаружи ключом."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/zadvizhka-vreznaya-db-eco-860-db-860-eco-cp-hrom-60mm/"
+  ]
 }

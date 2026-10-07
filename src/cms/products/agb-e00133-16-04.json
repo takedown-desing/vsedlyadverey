@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": null,
   "order": 333,
-  "category": "/catalog/dvernye-petli/shablony-i-frezy/",
+  "category": "catalog--dvernye-petli--shablony-i-frezy",
   "article": "E00133.16.04",
   "hidden": false,
   "hiddenNote": "",
@@ -99,6 +99,5 @@
       "q": "С какими петлями работает шаблон?",
       "a": "С ввертными петлями AGB. Для скрытых петель Kubica нужен другой инструмент, например фрезерный шаблон Krona Koblenz K.DIMA."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/shablon-vvertnyh-petel-1/"
+  ]
 }

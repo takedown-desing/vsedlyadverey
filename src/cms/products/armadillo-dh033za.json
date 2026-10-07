@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": null,
   "order": 354,
-  "category": "/catalog/upory-i-ogranichiteli/nastennye/",
+  "category": "catalog--upory-i-ogranichiteli--nastennye",
   "article": "DH033ZA",
   "hidden": false,
   "hiddenNote": "",
@@ -150,6 +150,5 @@
       "q": "На какой высоте крепить упор?",
       "a": "Там, где полотно встречается со стеной при открывании: обычно в нижней части двери или на уровне ручки. Место отмечают при открытой двери."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/upor-dvernoj-armadillo--armadillo-nastennyj-dh033za-cp-khrom.html"
+  ]
 }

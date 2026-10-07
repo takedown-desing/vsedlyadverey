@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": null,
   "order": 322,
-  "category": "/catalog/dvernye-petli/babochki/",
+  "category": "catalog--dvernye-petli--babochki",
   "article": "IN4000W (100/P-2B)",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Нужно ли смазывать втулочную петлю?",
       "a": "Раз в год-два капля силиконовой смазки на стержень убирает возможный скрип. Масло для швейных машин тоже подойдёт, но излишки нужно стереть."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-ajax-ayaks-universalnaya-bez-vrezki-in4000w-bl-100p-2b-100x23-chernyj.html"
+  ]
 }

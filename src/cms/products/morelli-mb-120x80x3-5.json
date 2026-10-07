@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 326,
-  "category": "/catalog/dvernye-petli/razemnye/",
+  "category": "catalog--dvernye-petli--razemnye",
   "article": "MB 120X80X3.5",
   "hidden": false,
   "hiddenNote": "",
@@ -145,6 +145,5 @@
       "q": "Можно ли снять дверь, не раскручивая петли?",
       "a": "Да, петля разъёмная: полотно приподнимают и снимают с оси, половинки остаются на коробке и двери."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/petli/all/370"
+  ]
 }

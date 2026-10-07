@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "Unique Sydney",
   "order": 36,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "VNZ2009",
   "hidden": false,
   "hiddenNote": "",
@@ -137,6 +137,5 @@
       "q": "Можно ли установить без шаблона?",
       "a": "Можно, но шаблон упрощает разметку и помогает поставить розетку соосно с квадратом защёлки."
     }
-  ],
-  "sourceUrl": "https://nasp.ru/product/vnz2009-100819/"
+  ]
 }

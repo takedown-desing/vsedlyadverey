@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Comfort-PRO",
   "order": 478,
-  "category": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+  "category": "catalog--razdvizhnye-sistemy--komplektuyushchie",
   "article": "SLD.Comfort-PRO.KIT/2000 track + dec",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Крепить к стене или к потолку?",
       "a": "Зависит от проёма и схемы системы. Главное, чтобы основание было прочным: в гипсокартон трек крепят только через закладной брус."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-armadillo-armadillo-verhnyaya-napravlyayushhaya-dekor-nakladka-sld-comfort-pro-kit-2000-track-dec-2m-al-alyuminij/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 348,
-  "category": "/catalog/upory-i-ogranichiteli/napolnye/",
+  "category": "catalog--upory-i-ogranichiteli--napolnye",
   "article": "DS1",
   "hidden": false,
   "hiddenNote": "",
@@ -166,6 +166,5 @@
       "q": "Мешает ли DS1 уборке?",
       "a": "Низкий профиль почти не мешает швабре, а пыль с гладкого корпуса легко стереть влажной тканью."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/1989"
+  ]
 }

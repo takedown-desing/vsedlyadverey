@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": null,
   "order": 363,
-  "category": "/catalog/upory-i-ogranichiteli/torcevye/",
+  "category": "catalog--upory-i-ogranichiteli--torcevye",
   "article": "FB 5-1/2",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Что покрывает гарантия?",
       "a": "Производитель даёт 5 лет гарантии на ригель. Сохраните чек и не допускайте механических повреждений при монтаже, это главное условие."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/upor-torczevoj-armadillo--armadillo-fb-5-12-cp.html"
+  ]
 }

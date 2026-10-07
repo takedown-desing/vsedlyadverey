@@ -4,7 +4,7 @@
   "brand": "melodia",
   "series": "Denver",
   "order": 277,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "424",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Где производится?",
       "a": "В Италии."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya-ruchka-melodia-mod-denver-424p-na-rozetke-50p-antichnoe-serebro/"
+  ]
 }

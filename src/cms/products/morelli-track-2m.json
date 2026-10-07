@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 480,
-  "category": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+  "category": "catalog--razdvizhnye-sistemy--komplektuyushchie",
   "article": "TRACK 2M",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Подойдёт ли трек к роликам других марок?",
       "a": "Производитель заявляет совместимость с комплектами Morelli SET. Ролики других систем могут не совпасть по профилю колёс."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/razdvizhnye-sistemy/all/451"
+  ]
 }

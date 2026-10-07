@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": null,
   "order": 485,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--petli",
   "article": "E50100.00.01",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Нужен ли шаблон для установки?",
       "a": "Отверстия в стекле делают на производстве по чертежу, поэтому шаблон или схему крепления передают стекольщикам заранее."
     }
-  ],
-  "sourceUrl": "https://www.builddis.com/charniere-drapeau-rectangulaire-pour-agb-vitra-ouv-180-fixation-murale-c2x40433267"
+  ]
 }

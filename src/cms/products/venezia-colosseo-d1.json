@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "COLOSSEO",
   "order": 213,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "COLOSSEO D1",
   "hidden": false,
   "hiddenNote": "",
@@ -142,6 +142,5 @@
       "q": "Какой цвет металла выбрать?",
       "a": "Для прованса подходят античное серебро и матовая бронза, для классики с позолотой полированная латунь, для светлого нейтрального интерьера хром."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-Venezia-COLOSSEO-belaja-keramika-pautinka-D1-polirovannaja-latun/"
+  ]
 }

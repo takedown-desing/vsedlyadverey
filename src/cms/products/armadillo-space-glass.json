@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "SPACE",
   "order": 264,
-  "category": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-steklyannyh-dverej",
   "article": "Space.GL.LPZ",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "В каких цветах выпускается модель?",
       "a": "Алюминий и чёрный."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-zamokruchka-armadillo-dlya-steklyannoj-dveri-space-gl-lpz-al-alyuminij/"
+  ]
 }

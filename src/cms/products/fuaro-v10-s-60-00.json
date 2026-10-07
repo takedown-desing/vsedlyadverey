@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "V10",
   "order": 458,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "V10/S-60.00.3R14",
   "hidden": false,
   "hiddenNote": "",
@@ -111,6 +111,5 @@
       "q": "Можно ли использовать как единственный замок?",
       "a": "Можно, но защёлка в описании не указана. Тогда дверь фиксируется только ригелями после поворота ключа."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy_zamok_fuaro_v10_s_60_00_3r14_suvaldnyy_khrom/"
+  ]
 }

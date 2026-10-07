@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "FIN",
   "order": 134,
-  "category": "/catalog/mezhkomnatnye-zamki/pod-cilindr/",
+  "category": "catalog--mezhkomnatnye-zamki--pod-cilindr",
   "article": "L.FIN2018/C",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли поставить на правую и левую дверь?",
       "a": "Да, ригель реверсивный."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/ruchki-i-furnitura-dlya-mezhkomnatnykh-dverey/vreznye-zamki/korpus-zamka-l-fin2018-c-2018-cp-cp-khrom/"
+  ]
 }

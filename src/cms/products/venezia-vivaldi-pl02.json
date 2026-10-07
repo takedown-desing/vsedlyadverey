@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "VIVALDI",
   "order": 215,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "VIVALDI PL02",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Какая гарантия?",
       "a": "Гарантия на ручку 24 месяца."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-Venezia-VIVALDI-na-planke-PL02-polirovannaja-latun/"
+  ]
 }

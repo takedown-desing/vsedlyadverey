@@ -4,7 +4,7 @@
   "brand": "porta-di-parma",
   "series": null,
   "order": 367,
-  "category": "/catalog/zadvizhki-i-shpingalety/torcevye/",
+  "category": "catalog--zadvizhki-i-shpingalety--torcevye",
   "article": "FB.140",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Подойдёт ли шпингалет для стеклянной створки?",
       "a": "Нет, он врезается в кромку деревянного полотна. Для стекла нужны специальные зажимные шпингалеты."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/shpingalet-torcevoy-dlina-140-mm-porto-di-parma-razmer-dliny-140-mm-fb-140-01-polirovannyy-hrom/"
+  ]
 }

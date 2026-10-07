@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 177,
-  "category": "/catalog/okonnaya-furnitura/balkonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--balkonnye-ruchki",
   "article": "2653",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Удержит ли скотч ручку при постоянном использовании?",
       "a": "Да, если скотч наклеен на обезжиренное стекло и клею дали набрать силу, не нагружая ручку сразу."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/wp-content/uploads/2022/03/tupai-catalogo-geral-2022-com-capa-140322.pdf"
+  ]
 }

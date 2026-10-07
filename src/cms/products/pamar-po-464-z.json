@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 504,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-ruchki",
   "article": "PO 464 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -119,6 +119,5 @@
       "q": "Какая отделка подойдёт к белому комоду?",
       "a": "На белом эффектно смотрятся состаренная медь и бронза, они дают винтажный акцент. Никель сдержаннее и подходит к серым и светлым фасадам."
     }
-  ],
-  "sourceUrl": "https://www.itkt.ru/category/ruchki_knopki/ruchka_mebelnaya_pamar_po_464_z/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 431,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "WC-2 D1",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "С каким замком ставить?",
       "a": "С сантехническим замком под завертку, квадрат которого совпадает с фиксатором."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/fiksator-santekhnicheskiy-venezia-wc-2-d1-polirovannaya-latun/"
+  ]
 }

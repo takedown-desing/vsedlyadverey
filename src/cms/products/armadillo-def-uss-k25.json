@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Protector",
   "order": 451,
-  "category": "/catalog/cilindry/bronenakladki/",
+  "category": "catalog--cilindry--bronenakladki",
   "article": "DEF.USS/K.25",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Защитит ли от всех видов вскрытия?",
       "a": "Броненакладка защищает цилиндр от вырывания и высверливания, но не заменяет сам цилиндр с хорошей секретностью."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/bronenakladka-armadillo-armadillo-def-uss-k-25-protector-uss-bpvd-voronenyj-nikel/"
+  ]
 }

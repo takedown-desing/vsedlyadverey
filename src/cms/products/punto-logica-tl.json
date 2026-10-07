@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "LOGICA",
   "order": 270,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "R.TL54.LOGICA",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Что значит двухцветное покрытие?",
       "a": "Рычаг сочетает два оттенка или фактуры, например матовый никель с глянцевым хромом. Это подчёркивает форму ручки."
     }
-  ],
-  "sourceUrl": "https://xn---23-eddjhv7d.xn--p1ai/furnitura/furnitura-dlya-megkomnatnyh-dverej/ruchki/ruchka-razdelnaia-rtl54logica-logica-tl-130mm-sncp-3-matovyi-nykelkhrom/"
+  ]
 }

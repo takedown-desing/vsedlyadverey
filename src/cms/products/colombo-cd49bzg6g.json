@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": null,
   "order": 430,
-  "category": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+  "category": "catalog--zavertki-i-nakladki--wc-zavertki",
   "article": "CD49BZG6G",
   "hidden": false,
   "hiddenNote": "",
@@ -107,6 +107,5 @@
       "q": "Какие накладки взять к фиксатору?",
       "a": "Например, Colombo CD63GB под цилиндр на круглом основании: у неё тоже есть полированный и матовый хром."
     }
-  ],
-  "sourceUrl": "https://colombo.pro/product/Colombo-Design-Rosetta-CD49BZGG.CR/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 181,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "52",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Как ухаживать за полированной латунью?",
       "a": "Протирать мягкой сухой тканью, без абразивов и агрессивной химии, чтобы не повредить покрытие."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/wp-content/uploads/2022/03/tupai-catalogo-geral-2022-com-capa-140322.pdf"
+  ]
 }

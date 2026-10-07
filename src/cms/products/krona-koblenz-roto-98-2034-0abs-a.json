@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Swinglife",
   "order": 138,
-  "category": "/catalog/razdvizhnye-sistemy/roto/",
+  "category": "catalog--razdvizhnye-sistemy--roto",
   "article": "98/2034/0ABS/A",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Чем 98/2034 отличается от 98/2384?",
       "a": "98/2034 рассчитан на полотно высотой 2000 мм, 98/2384 предназначен для более высоких дверей. Ширина, толщина и нагрузка до 70 кг у них одинаковые."
     }
-  ],
-  "sourceUrl": "https://doorskit.ru/internet-magazin-krona-koblenz/product/roto-mekhanizm-swinglife-wood-dlya-dverey-vysotoy-2000-mm"
+  ]
 }

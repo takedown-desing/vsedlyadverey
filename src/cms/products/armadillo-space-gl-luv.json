@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Space",
   "order": 189,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--zamki",
   "article": "Space.GL.LUV",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Какие есть цвета?",
       "a": "Серебристый алюминий (57919) и чёрный (57921)."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-zamokruchka-armadillo-dlya-steklyannoj-dveri-space-gl-luv-al-alyuminij/"
+  ]
 }

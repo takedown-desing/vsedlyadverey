@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kit Futura",
   "order": 140,
-  "category": "/catalog/razdvizhnye-sistemy/penaly/",
+  "category": "catalog--razdvizhnye-sistemy--penaly",
   "article": "5001 100",
   "hidden": false,
   "hiddenNote": "",
@@ -132,6 +132,5 @@
       "q": "Есть ли доводчик?",
       "a": "В описании комплекта доводчик не указан. Если нужен мягкий довод, посмотрите Mekkit 3D со встроенным доводчиком."
     }
-  ],
-  "sourceUrl": "https://doorskit.ru/internet-magazin-krona-koblenz/product/penal-krona-kit-futura-dlya-razdvizhnykh-dverey-2100-mm-tolshchina-steny-100-mm"
+  ]
 }

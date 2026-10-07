@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Hidden",
   "order": 466,
-  "category": "/catalog/razdvizhnye-sistemy/skrytye/",
+  "category": "catalog--razdvizhnye-sistemy--skrytye",
   "article": "HIDDEN/80",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Подойдёт ли для двери 35 мм?",
       "a": "Нет, минимальная толщина полотна по паспорту 40 мм."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/razdvizhnaya-sistema-armadillo-armadillo-hidden-80-s-profilem/"
+  ]
 }

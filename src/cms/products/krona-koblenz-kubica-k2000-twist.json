@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica",
   "order": 304,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K2000 DXSX TWIST",
   "hidden": false,
   "hiddenNote": "",
@@ -146,6 +146,5 @@
       "q": "Можно ли зафиксировать дверь открытой?",
       "a": "Функция фиксации в характеристиках не указана, поэтому для постоянно открытой двери поставьте магнитный упор."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item9467"
+  ]
 }

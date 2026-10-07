@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Antologhia",
   "order": 31,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "KAC11RBSB",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Подойдёт ли Accademia к современной двери?",
       "a": "Лаконичная коническая форма уместна и в неоклассике, но натуральная латунь лучше всего раскрывается на классических полотнах."
     }
-  ],
-  "sourceUrl": "https://alfasantehnika.ru/catalog/accessories6723/31077/"
+  ]
 }

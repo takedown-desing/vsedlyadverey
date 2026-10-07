@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 149,
-  "category": "/catalog/mebelnaya-furnitura/kryuchki/",
+  "category": "catalog--mebelnaya-furnitura--kryuchki",
   "article": "PA 055 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Чем PA 055 Z отличается от PA 062 Z?",
       "a": "PA 055 Z трёхрожковый с выносом 37 мм, PA 062 Z на круглом основании с петлёй и штифтом и выносом 80 мм под объёмную одежду."
     }
-  ],
-  "sourceUrl": "https://www.pamarworld.com/hook/pa-055-z"
+  ]
 }

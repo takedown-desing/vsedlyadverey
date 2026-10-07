@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "EXA TUBE",
   "order": 227,
-  "category": "/catalog/dvernye-ruchki/skoby/",
+  "category": "catalog--dvernye-ruchki--skoby",
   "article": "EXA TUBE D8",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Подойдёт ли для входа в офис?",
       "a": "Да, латунный корпус рассчитан на интенсивное использование."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-skoba-venezia-exa-tube-310mm-260mm-d8-matovoe-zoloto-1-sht/"
+  ]
 }

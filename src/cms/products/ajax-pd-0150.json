@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "PD-01",
   "order": 110,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--navesnye",
   "article": "PD-01-50",
   "hidden": false,
   "hiddenNote": "",
@@ -120,6 +120,5 @@
       "q": "Можно ли использовать на цепи?",
       "a": "Да, широкий проём 28x28 мм позволяет продеть звенья цепи средней толщины."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zamki_navesnye/bytovye/pd_01/pd_01_50/zamok_navesnoy_pd_01_50_angl_3_kl_korobka/"
+  ]
 }

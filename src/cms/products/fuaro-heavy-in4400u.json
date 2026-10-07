@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "Heavy",
   "order": 316,
-  "category": "/catalog/dvernye-petli/universalnye/",
+  "category": "catalog--dvernye-petli--universalnye",
   "article": "IN4400U",
   "hidden": false,
   "hiddenNote": "",
@@ -179,6 +179,5 @@
       "q": "Петля левая или правая?",
       "a": "Универсальная, подходит для обеих сторон открывания."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-fuaro-fuaro-universalnaya-heavy-in4400u-cp-hrom-100h75h3-mm.html"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 247,
-  "category": "/catalog/dvernye-ruchki/antipanika/",
+  "category": "catalog--dvernye-ruchki--antipanika",
   "article": "DH-0433 NE",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "Сколько штук в упаковке?",
       "a": "Две ручки, для внутренней и наружной стороны двери."
     }
-  ],
-  "sourceUrl": "https://koralspb.ru/ruchka-dvernaya-protivopozharnaya-fuaro-dh-0433-ne"
+  ]
 }

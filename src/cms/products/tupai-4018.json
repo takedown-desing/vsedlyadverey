@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 184,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--otvetnye-chasti",
   "article": "4018",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Для какого стекла подходит 4018?",
       "a": "Для закалённого стекла толщиной от 8 до 10 мм."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/catalogo/ref-4018/"
+  ]
 }

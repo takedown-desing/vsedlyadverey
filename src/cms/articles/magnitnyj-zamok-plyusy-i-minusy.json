@@ -28,5 +28,8 @@
     "/catalog/mezhkomnatnye-zamki/otvetnye-planki/",
     "/catalog/dvernye-ruchki/"
   ],
-  "order": 4
+  "order": 4,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

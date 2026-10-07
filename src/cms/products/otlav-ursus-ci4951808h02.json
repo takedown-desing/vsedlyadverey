@@ -4,7 +4,7 @@
   "brand": "otlav",
   "series": "Ursus",
   "order": 79,
-  "category": "/catalog/dvernye-petli/vvertnye/",
+  "category": "catalog--dvernye-petli--vvertnye",
   "article": "CI4951808H02",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Можно ли поставить меньше пяти петель?",
       "a": "Производитель указывает нагрузку только для пяти петель. Для лёгкого полотна разумнее взять Exacta."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item7503"
+  ]
 }

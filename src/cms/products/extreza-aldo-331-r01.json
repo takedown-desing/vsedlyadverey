@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "ALDO",
   "order": 278,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "331 R01",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Чем матовый хром отличается от хрома?",
       "a": "Матовый хром бархатистый и скрывает отпечатки, обычный хром глянцевый с зеркальным блеском."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya_ruchka_extreza_aldo_331_r01_krugloe_osnovanie_f05_matovyy_khrom/"
+  ]
 }

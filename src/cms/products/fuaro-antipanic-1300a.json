@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "ANTI-PANIC",
   "order": 244,
-  "category": "/catalog/dvernye-ruchki/antipanika/",
+  "category": "catalog--dvernye-ruchki--antipanika",
   "article": "1300A",
   "hidden": false,
   "hiddenNote": "",
@@ -112,6 +112,5 @@
       "q": "Входит ли замок в комплект?",
       "a": "Нет, цена указана за одну штангу."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/sistemy_antipanika/mekhanizmy_anti_panik/ruchka_shtanga/1300a/41405/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 186,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--otvetnye-chasti",
   "article": "2690",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Можно ли соединить стекло 8 и 10 мм?",
       "a": "Оба значения входят в диапазон фиксатора, но для ровного угла лучше использовать панели одинаковой толщины."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/wp-content/uploads/2022/03/tupai-catalogo-geral-2022-com-capa-140322.pdf"
+  ]
 }

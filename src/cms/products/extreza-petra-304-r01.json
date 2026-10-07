@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "PETRA",
   "order": 279,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "304 R01",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Какая розетка?",
       "a": "Круглая R01."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya-ruchka-extreza-petra-petra-304-na-rozetke-r01-matovaya-bronza-f03/"
+  ]
 }

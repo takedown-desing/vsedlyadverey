@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Mapo",
   "order": 224,
-  "category": "/catalog/dvernye-ruchki/knoby/",
+  "category": "catalog--dvernye-ruchki--knoby",
   "article": "RM15RSB",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Какой материал у кноба?",
       "a": "Из латуни, производство Италия."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-knob-povorotnaja-colombo-mapo-drm15rsb-cm-matovyj-hrom/"
+  ]
 }

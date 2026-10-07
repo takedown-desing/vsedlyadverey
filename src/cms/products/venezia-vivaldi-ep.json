@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "VIVALDI",
   "order": 288,
-  "category": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-profilnyh-dverej",
   "article": "VIVALDI EP",
   "hidden": false,
   "hiddenNote": "",
@@ -135,6 +135,5 @@
       "q": "Какие отделки предлагаются?",
       "a": "Три варианта: полированная латунь, матовая бронза и античное серебро, как у классических ручек Venezia."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vivaldi-ep-polirovannaja-latun/"
+  ]
 }

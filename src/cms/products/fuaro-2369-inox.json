@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "2369",
   "order": 99,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--elektromehanicheskie",
   "article": "FUARO-2369 INOX",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Какой нужен блок питания?",
       "a": "12-15 В постоянного тока с током 1,5 А."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/elektromekhanicheskie-zamki/zamok-nakladnoy-elektromekhanicheskiy-fuaro-2369-inox/"
+  ]
 }

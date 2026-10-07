@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Spinoff",
   "order": 381,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "KM.003.CM.A.4.COV",
   "hidden": false,
   "hiddenNote": "",
@@ -180,6 +180,5 @@
       "q": "Есть ли такой же замок под ключ?",
       "a": "Да, в серии есть Spinoff Y85 под евроцилиндр с межосевым 85 мм и тем же доводчиком."
     }
-  ],
-  "sourceUrl": "https://krona-koblenz.ru/magnitnye-zamki-spinoff-s-dovodchikom/"
+  ]
 }

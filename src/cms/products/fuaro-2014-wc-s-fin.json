@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "FIN",
   "order": 133,
-  "category": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-fiksatorom",
   "article": "2014-WC/S",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Какие ручки выбрать?",
       "a": "Ручки под финские замки, например Fuaro H-0661."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/ruchki-i-furnitura-dlya-mezhkomnatnykh-dverey/vreznye-zamki/zamok-vreznoy-l-fin2014-wc-2014-wc-s-cp-khrom/"
+  ]
 }

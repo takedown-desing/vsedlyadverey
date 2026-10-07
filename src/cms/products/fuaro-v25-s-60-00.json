@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "V25",
   "order": 456,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "V25/S-60.00.3R16",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "Можно ли сделать дубликат сувальдного ключа?",
       "a": "Да, в мастерской. Ключи с бородкой копируют на специальном станке."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy_zamok_fuaro_v25_s_60_00_3r16_suvaldnyy/"
+  ]
 }

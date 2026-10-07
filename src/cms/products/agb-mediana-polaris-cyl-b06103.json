@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Mediana Polaris",
   "order": 392,
-  "category": "/catalog/mezhkomnatnye-zamki/pod-cilindr/",
+  "category": "catalog--mezhkomnatnye-zamki--pod-cilindr",
   "article": "B06103.50",
   "hidden": false,
   "hiddenNote": "",
@@ -161,6 +161,5 @@
       "q": "Отличается ли планка от версии WC?",
       "a": "Обе модели идут с магнитной ответной планкой. Отдельно для замены есть AGB Minimal B02402.05."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zamki_vreznye/dlya_legkikh_dverey/mediana_polaris/b06103_50_ind_upak_b02402_05/b06103_50_03_567_b04103_zamok_mezhk_pod_tsil_s_otv_pl_b02402_05_03_lat_mediana_polaris/"
+  ]
 }

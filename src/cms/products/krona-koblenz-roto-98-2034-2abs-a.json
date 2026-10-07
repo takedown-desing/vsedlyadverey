@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Swinglife",
   "order": 468,
-  "category": "/catalog/razdvizhnye-sistemy/roto/",
+  "category": "catalog--razdvizhnye-sistemy--roto",
   "article": "98/2034/2ABS/A",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Можно ли смонтировать самому?",
       "a": "Монтаж требует точной разметки и опыта, обычно его выполняет мастер по установке дверей."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/roto-mehanizm-na-polotno-715-965x2000mm-s-abs-98-2034-2abs-a-aljuminij/"
+  ]
 }

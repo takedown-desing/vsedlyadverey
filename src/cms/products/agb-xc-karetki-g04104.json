@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "XC",
   "order": 166,
-  "category": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+  "category": "catalog--razdvizhnye-sistemy--komplektuyushchie",
   "article": "G04104.00.00",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Нужно ли выбирать левое или правое исполнение?",
       "a": "Нет, каретки универсальные и подходят для створок обоих направлений."
     }
-  ],
-  "sourceUrl": "https://www.toolmarket.it/kit-carrelli-per-alzante-g041040000-agb/15404"
+  ]
 }

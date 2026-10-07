@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 103,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--elektromehanicheskie",
   "article": "FUARO-AT-EL500A-2",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Нужен ли отдельный датчик двери?",
       "a": "Нет, датчик состояния двери встроен."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/elektromekhanicheskie-zamki/zamok-zashchelka-vreznoy-solenoidnyy-elektromekhanicheskiy-at-el500a-2/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "LY",
   "order": 340,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "LY4",
   "hidden": false,
   "hiddenNote": "",
@@ -145,6 +145,5 @@
       "q": "Что делать, если зимой дверь закрывается медленнее?",
       "a": "Масло в любом гидравлическом доводчике на холоде густеет. Немного ослабьте клапан скорости и верните настройку весной."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dovodchik-dvernoj-armadillo--armadillo-morozostojkij-ly4-85-kg-alyuminij.html"
+  ]
 }

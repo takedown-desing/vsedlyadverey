@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "JK",
   "order": 131,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "K.JK51.POLO",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Нужна ли отдельная защёлка?",
       "a": "Да, защёлка в комплект не входит."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/ruchki_dvernye/na_razdelnom_osnovanii/jk/polo/41357/"
+  ]
 }

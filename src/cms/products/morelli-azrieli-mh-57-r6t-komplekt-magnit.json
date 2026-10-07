@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Azrieli",
   "order": 1,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "MH-57-R6T",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Чем магнитный замок лучше обычной защёлки?",
       "a": "Язычок не торчит из торца открытой двери и не бьётся о планку. Закрывание получается тише, а кромка двери не цепляет одежду."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/2201"
+  ]
 }

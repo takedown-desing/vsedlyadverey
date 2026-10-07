@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "EXCALIBUR",
   "order": 289,
-  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-vhodnyh-dverej",
   "article": "EXCALIBUR URB4",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Тяжёлая ли модель?",
       "a": "Да, комплект весит 1124 г, это массивная ручка."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-armadillo-armadillo-razdelnaya-excalibur-urb4-bpvd-77-vor/"
+  ]
 }

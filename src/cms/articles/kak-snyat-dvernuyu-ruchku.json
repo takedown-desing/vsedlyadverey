@@ -28,5 +28,8 @@
     "/catalog/mezhkomnatnye-zamki/",
     "/catalog/zavertki-i-nakladki/"
   ],
-  "order": 1
+  "order": 1,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

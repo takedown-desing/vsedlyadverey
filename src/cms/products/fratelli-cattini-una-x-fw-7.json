@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "Una X",
   "order": 490,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "FW 7",
   "hidden": false,
   "hiddenNote": "",
@@ -139,6 +139,5 @@
       "q": "Удобна ли насечка, если окно открывают часто?",
       "a": "Рельеф как раз помогает уверенному хвату: пальцы меньше соскальзывают при повороте, особенно если фурнитура окна туговата."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/ruchka-okonnaya-fratelli-cattini-una-x-fw-7-cs-matovyj-hrom/"
+  ]
 }

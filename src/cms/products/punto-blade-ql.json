@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "QL",
   "order": 17,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "K.QL52.BLADE",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Входит ли защёлка в комплект?",
       "a": "Нет, в комплекте ручки, квадрат 8x105 мм и крепёж."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dvernaya-ruchka-punto-blade-ql-sncp-3-na-kvadratnoj-rozetke-matovyj-nikelhrom.html"
+  ]
 }

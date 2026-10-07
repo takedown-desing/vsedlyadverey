@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "RED LINE",
   "order": 268,
-  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-vhodnyh-dverej",
   "article": "K.RL52.REDLINE",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "Какой квадрат нужен?",
       "a": "Длину квадрата подбирают по толщине полотна, уточните её перед заказом."
     }
-  ],
-  "sourceUrl": "https://xn---23-eddjhv7d.xn--p1ai/furnitura/furnitura-dlya-megkomnatnyh-dverej/ruchki/ruchka-razdelnaia-krl52redline-red-line-rl-ssg-39-satynyrovannoe-zoloto/"
+  ]
 }

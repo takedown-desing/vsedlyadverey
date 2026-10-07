@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "EXA",
   "order": 211,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "EXA D1",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Сколько длится гарантия?",
       "a": "Гарантия 24 месяца."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-venezia-exa-d1-matovyj-hrom/"
+  ]
 }

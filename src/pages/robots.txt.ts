@@ -3,6 +3,7 @@ import { abs } from '../lib/url';
 export function GET({ site }: APIContext) {
   const body = `User-agent: *
 Disallow: /*/admin/
+Disallow: /*/go/
 Disallow: /*/search/
 Disallow: /*/cart/
 Disallow: /*?q=

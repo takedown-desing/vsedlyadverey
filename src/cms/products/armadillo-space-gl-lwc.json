@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "SPACE",
   "order": 265,
-  "category": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-steklyannyh-dverej",
   "article": "Space.GL.LWC",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Какова масса комплекта?",
       "a": "1255 г."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-zamok-ruchka-armadillo-armadillo-dlya-steklyannoj-dveri-space-gl-lwc-al-alyuminij/"
+  ]
 }

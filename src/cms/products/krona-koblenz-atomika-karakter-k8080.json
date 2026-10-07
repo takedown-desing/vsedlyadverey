@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Atomika",
   "order": 64,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K8080",
   "hidden": false,
   "hiddenNote": "",
@@ -164,6 +164,5 @@
       "q": "Нужна ли отдельная левая или правая петля?",
       "a": "Нет, сторона универсальная."
     }
-  ],
-  "sourceUrl": "https://krona-koblenz.ru/skrytaya-petlya-krona-koblenz-atomika-karakter-k8080-cover-cs-matovyy-hrom-nagruzka-do-100-kg-2-petli-80-kg/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 151,
-  "category": "/catalog/mebelnaya-furnitura/kryuchki/",
+  "category": "catalog--mebelnaya-furnitura--kryuchki",
   "article": "PA 062 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Чем PA 062 Z отличается от PA 059 Z?",
       "a": "Обе модели от Marelli e Molteni, но PA 062 Z глубже (80 мм против 45 мм) и имеет два места для вещей, а PA 059 Z декоративное кольцо высотой 174 мм."
     }
-  ],
-  "sourceUrl": "https://www.pamarworld.com/hook/pa-062-z"
+  ]
 }

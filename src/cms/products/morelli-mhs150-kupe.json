@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": null,
   "order": 235,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "MHS150",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Какой цвет выбрать к белой двери?",
       "a": "Белый сольётся с полотном, матовый хром и белый никель будут нейтральными, чёрный и золото станут акцентом."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/706"
+  ]
 }

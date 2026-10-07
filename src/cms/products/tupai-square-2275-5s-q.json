@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": "Square",
   "order": 254,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "2275 5S Q",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Как выглядит бронза Corten?",
       "a": "Это тёплое коричневато-бронзовое покрытие с эффектом патины, напоминающее кортеновскую сталь."
     }
-  ],
-  "sourceUrl": "https://tupai-store.ru/katalog/square-5s-q/ruchka-tupai-square-2275-5s-q-96/"
+  ]
 }

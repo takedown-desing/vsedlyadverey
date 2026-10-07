@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "HS",
   "order": 443,
-  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "category": "catalog--cilindry--klyuch-klyuch",
   "article": "HS 60C",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Можно ли поставить HS 60C на входную дверь?",
       "a": "Цилиндр рассчитан на межкомнатные двери. Для входной выбирают модели с защитой от высверливания и броненакладку."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/2211"
+  ]
 }

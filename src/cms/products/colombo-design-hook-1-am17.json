@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": null,
   "order": 153,
-  "category": "/catalog/mebelnaya-furnitura/kryuchki/",
+  "category": "catalog--mebelnaya-furnitura--kryuchki",
   "article": "AM17",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Чем AM17 отличается от Nordic EB17?",
       "a": "AM17 двухрожковый с изогнутыми рожками, EB17 однорожковый на круглом основании с рожком прямоугольного сечения."
     }
-  ],
-  "sourceUrl": "https://colombo.pro/product/colombo-design-hook-1-AM17/"
+  ]
 }

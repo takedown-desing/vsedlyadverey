@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Mekkit3D",
   "order": 141,
-  "category": "/catalog/razdvizhnye-sistemy/penaly/",
+  "category": "catalog--razdvizhnye-sistemy--penaly",
   "article": "8000.IT",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Какой вес двери нужен для пенала?",
       "a": "Паспортный диапазон 40-100 кг. Для полотна легче 40 кг лучше подобрать другой пенал, например KIT FUTURA."
     }
-  ],
-  "sourceUrl": "https://doorskit.ru/internet-magazin-krona-koblenz/product/penal-mekkit-3d-dlya-razdvizhnykh-dverey-vysotoy-do-2100-mm-pod-steny-iz-gipsokartona"
+  ]
 }

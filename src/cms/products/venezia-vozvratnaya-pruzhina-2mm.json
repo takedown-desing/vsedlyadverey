@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 513,
-  "category": "/catalog/remkomplekty-i-zapchasti/",
+  "category": "catalog--remkomplekty-i-zapchasti",
   "article": "VNZ2322",
   "hidden": false,
   "hiddenNote": "",
@@ -112,6 +112,5 @@
       "q": "Может ли ручка провисать не из-за пружины?",
       "a": "Да, иногда ослаб винт крепления розетки или износилась возвратная пружина самой защёлки. Сначала проверьте затяжку."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/vozvratnaja-pruzhina-dlja-dvernoj-ruchki-universalnaja-2-mm/"
+  ]
 }

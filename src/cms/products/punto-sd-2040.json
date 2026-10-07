@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 337,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "SD-2040",
   "hidden": false,
   "hiddenNote": "",
@@ -150,6 +150,5 @@
       "q": "Подходит ли доводчик для двери подъезда?",
       "a": "Подходит, если полотно укладывается в 80 кг и зимой на двери не бывает ниже -30 °С."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dovodchik-dvernoj-punto--punto-sd-2040-al-55-80-kg-alyuminij.html"
+  ]
 }

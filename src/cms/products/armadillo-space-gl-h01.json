@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Space",
   "order": 483,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--petli",
   "article": "Space.GL.H01",
   "hidden": false,
   "hiddenNote": "",
@@ -136,6 +136,5 @@
       "q": "Нужно ли покупать две упаковки?",
       "a": "Нет, в упаковке две петли на одну створку. Вторая пара понадобится только для второй двери."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/petlya-armadillo-armadillo-dlya-steklyannoj-dveri-space-gl-h01-2-sht-al-alyuminij/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fantom",
   "series": "Standart",
   "order": 357,
-  "category": "/catalog/upory-i-ogranichiteli/magnitnye/",
+  "category": "catalog--upory-i-ogranichiteli--magnitnye",
   "article": "FNT0020",
   "hidden": false,
   "hiddenNote": "",
@@ -104,6 +104,5 @@
       "q": "Можно ли позже заменить Standart на Premium?",
       "a": "Модели одной марки, но размеры гнезда могут различаться. Сверьте их по инструкциям до замены."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/product/upor_dvernoy_fantom_standart_fnt0020_prozrachnyy/"
+  ]
 }

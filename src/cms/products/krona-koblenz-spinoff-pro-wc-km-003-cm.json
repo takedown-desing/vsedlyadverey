@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Spinoff Pro",
   "order": 68,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "KM 003 CM",
   "hidden": false,
   "hiddenNote": "",
@@ -135,6 +135,5 @@
       "q": "Чем Pro отличается от Basic?",
       "a": "Механизм и размеры одинаковые: межосевое 96 мм, бэксет 50 мм, стандартный ход ручки. Разница в штульпе: у Basic видимые саморезы, у Pro они спрятаны под магнитной накладкой."
     }
-  ],
-  "sourceUrl": "https://kronakoblenz.ru/produkt/spinoff-pro-zamok-dlya-vannoy"
+  ]
 }

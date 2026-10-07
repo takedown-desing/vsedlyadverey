@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica",
   "order": 296,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K2700 DXSX",
   "hidden": false,
   "hiddenNote": "",
@@ -182,6 +182,5 @@
       "q": "Можно ли поставить K2700 на дверь толщиной 50 мм?",
       "a": "Нет, паспортный диапазон модели 35-45 мм. Для более толстого полотна смотрите петли серии Kubica с увеличенной толщиной."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/koblenz-kubica-k2700-cs-petlya-skrytaya-universalnaya-matovyy-hrom/"
+  ]
 }

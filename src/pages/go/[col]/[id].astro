@@ -1,0 +1,29 @@
+---
+// Переадресация для кнопки «Открыть на сайте» в админке: /go/<коллекция>/<имя файла записи>/ → настоящий адрес страницы.
+// Нужна, потому что адрес раздела собирается из цепочки родителей, а адрес товара может задаваться отдельным полем.
+// Страницы закрыты от индексации и в robots.txt.
+import { u } from '../../../lib/url';
+import { sectionFiles, sectionUrl, hubSlug, cmsTargets } from '../../../lib/data';
+export function getStaticPaths() {
+  const out: { params: { col: string; id: string }; props: { to: string } }[] = [];
+  for (const f of sectionFiles) out.push({ params: { col: 'sections', id: f }, props: { to: sectionUrl(f) } });
+  for (const [f, s] of hubSlug) out.push({ params: { col: 'blog-hubs', id: f }, props: { to: `/blog/${s}/` } });
+  for (const t of cmsTargets) out.push({ params: { col: t.col, id: t.file }, props: { to: t.url } });
+  return out;
+}
+const { to } = Astro.props as { to: string };
+const href = u(to);
+---
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta http-equiv="refresh" content={`0; url=${href}`} />
+  <link rel="canonical" href={href} />
+  <title>Переход на страницу</title>
+</head>
+<body>
+  <p>Переходим на страницу: <a href={href}>{href}</a>. Если страница не открылась, значит запись ещё не опубликована или в разделе нет товаров с фото.</p>
+</body>
+</html>

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "ADH",
   "order": 85,
-  "category": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/",
+  "category": "catalog--avtoporogi-i-uplotniteli--uplotniteli",
   "article": "ADH/D-14,5x13,5mm (031)",
   "hidden": false,
   "hiddenNote": "",
@@ -109,6 +109,5 @@
       "q": "Подходит ли уплотнитель для межкомнатной двери?",
       "a": "Да, он заявлен для входных и межкомнатных дверей."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/uplotnitel-samokleyaschiysya-adh-d-14-5x13-5mm-031-black-chernyy-100-m/"
+  ]
 }

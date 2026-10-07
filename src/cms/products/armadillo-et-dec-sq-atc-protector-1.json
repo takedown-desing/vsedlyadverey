@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "ATC Protector",
   "order": 7,
-  "category": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+  "category": "catalog--zavertki-i-nakladki--dekorativnye-nakladki",
   "article": "ET-DEC SQ",
   "hidden": false,
   "hiddenNote": "",
@@ -155,6 +155,5 @@
       "q": "Что входит в комплект?",
       "a": "Одна накладка и нейлоновое основание для скрытого крепления."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-kvadratnaya-armadillo--armadillo-nakladka-na-czilindr-et-dec-sq-atc-protector-1-cp-8-khrom.html"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DEF",
   "order": 452,
-  "category": "/catalog/cilindry/bronenakladki/",
+  "category": "catalog--cilindry--bronenakladki",
   "article": "DEF 4286 RL",
   "hidden": false,
   "hiddenNote": "",
@@ -102,6 +102,5 @@
       "q": "Подойдёт ли к врезным замкам Fuaro?",
       "a": "Да, к цилиндровым замкам серий V10 и V25 с межосевым 85 мм. Разметку сверьте по месту."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/bronenakladka_fuaro_def_4286_rl_bl_24_chyernyy/"
+  ]
 }

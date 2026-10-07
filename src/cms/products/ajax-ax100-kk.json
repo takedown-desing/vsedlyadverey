@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "AX100",
   "order": 129,
-  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "category": "catalog--cilindry--klyuch-klyuch",
   "article": "AX1000Key60",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Что значит 25+10+25?",
       "a": "25 мм с каждой стороны от центра крепёжного винта и 10 мм центральная часть."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/s_individualnym_klyuchom/ax100/ax100/tsilindrovyy_mekhanizm_ax100_60_mm_25_10_25_cp_khrom_5_kl/"
+  ]
 }

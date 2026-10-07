@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Urban",
   "order": 433,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "ET URB",
   "hidden": false,
   "hiddenNote": "",
@@ -152,6 +152,5 @@
       "q": "Что такое воронёный никель?",
       "a": "Тёмный никель с серо-синеватым отливом, светлее чёрного."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-cylinder-et-urb-bl-26/"
+  ]
 }

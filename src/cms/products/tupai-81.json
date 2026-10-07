@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 182,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "81",
   "hidden": false,
   "hiddenNote": "",
@@ -119,6 +119,5 @@
       "q": "С какой ручкой работает Tupai 81?",
       "a": "С кремонной ручкой Tupai 520. Вместе с ними ставят промежуточную направляющую 52."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/wp-content/uploads/2022/03/tupai-catalogo-geral-2022-com-capa-140322.pdf"
+  ]
 }

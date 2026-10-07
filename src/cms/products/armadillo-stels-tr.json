@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "STELS",
   "order": 51,
-  "category": "/catalog/upory-i-ogranichiteli/skrytye/",
+  "category": "catalog--upory-i-ogranichiteli--skrytye",
   "article": "STELS TR",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Выдержит ли упор массивную дверь 70 кг?",
       "a": "Нет, паспортный предел 60 кг. Для более тяжёлого полотна подойдёт MAX INOX, рассчитанный на двери до 80 кг."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/upor-armadillo-armadillo-dvernoj-skrytyj-stels-tr-prozrachnyj/"
+  ]
 }

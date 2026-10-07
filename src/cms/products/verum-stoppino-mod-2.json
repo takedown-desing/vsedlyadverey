@@ -4,7 +4,7 @@
   "brand": "verum",
   "series": "Stoppino",
   "order": 361,
-  "category": "/catalog/upory-i-ogranichiteli/skrytye/",
+  "category": "catalog--upory-i-ogranichiteli--skrytye",
   "article": "Stoppino Mod. 2",
   "hidden": false,
   "hiddenNote": "",
@@ -112,6 +112,5 @@
       "q": "Можно ли поставить упор на тёплый пол?",
       "a": "Можно, если место свободно от кабеля или контура. Найдите его по схеме раскладки до сверления."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/verum-stoppino-mod-2-chernyy-upor-magnitnyy-avtomaticheskiy-skrytyy/"
+  ]
 }

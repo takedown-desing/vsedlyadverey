@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Eclipse",
   "order": 306,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "E30200.02",
   "hidden": false,
   "hiddenNote": "",
@@ -173,6 +173,5 @@
       "q": "Сколько петель брать на дверь 45 кг?",
       "a": "Три: две петли рассчитаны на 40 кг, три на 60 кг."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-e302000234-matovaya-agb--agb-khrom-eclipse-30-4-nakladki-v-komplekte.html"
+  ]
 }

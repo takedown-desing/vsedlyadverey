@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "Cascata",
   "order": 493,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "CASCATA 140 HW",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Как понять, подойдёт ли длина квадрата?",
       "a": "Снимите штатную ручку и измерьте выступающую часть штифта. Если у новой он короче, механизм может не проворачиваться до конца, тогда нужен удлинённый квадрат."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/okonnaya-ruchka-extreza-cascata-hw-f22-cascata-140-chernyy/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 338,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "DC20-4 (DC-204)",
   "hidden": false,
   "hiddenNote": "",
@@ -145,6 +145,5 @@
       "q": "Что регулировать первым?",
       "a": "Сначала усилие под вес двери, затем скорость основного хода и в конце дохлоп. Так настройки не сбивают друг друга."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dovodchik-dvernoj-fuaro--fuaro-dc-204-al-do-85-kg-alyuminij.html"
+  ]
 }

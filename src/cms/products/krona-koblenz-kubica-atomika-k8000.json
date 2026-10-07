@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica Atomika",
   "order": 301,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K8000 DXSX",
   "hidden": false,
   "hiddenNote": "",
@@ -173,6 +173,5 @@
       "q": "Нужно ли смазывать шарнир?",
       "a": "Нет, достаточно периодически проверять затяжку крепёжных и регулировочных винтов."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/skrytaya-petlya-krona-koblenz-atomika-k8000-cover-cs-hd-matovyy-hrom-nagruzka-do-60-kg/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 174,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "3992/4002",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Какие ещё покрытия есть у модели?",
       "a": "По каталогу Tupai ручка выпускается в блестящем и матовом хроме, матовой античной латуни и перламутровом никеле."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/catalogo/ref-3992-4002/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "200 Z",
   "order": 445,
-  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "category": "catalog--cilindry--klyuch-vertushka",
   "article": "200 ZM",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Чем 200 ZM отличается от 100 ZA?",
       "a": "У 200 ZM перфорированный ключ и более 10 000 комбинаций, плюс вертушка. У 100 ZA английский ключ, 5 000 комбинаций и ключ с двух сторон."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/tsilindrovyy_mekhanizm_fuaro_200_z_70mm_m_klyuch_vertushka_sr_khrom/"
+  ]
 }

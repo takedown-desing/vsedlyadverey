@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Roboquattro",
   "order": 198,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "ID41RSB",
   "hidden": false,
   "hiddenNote": "",
@@ -152,6 +152,5 @@
       "q": "Можно ли поставить ручку на дверь без защёлки?",
       "a": "Ручка рассчитана на работу с защёлкой: рычаг поворачивает язычок через квадрат. Без механизма она будет просто вращаться, поэтому защёлку нужно купить отдельно."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dveranja-ruchka-na-kruglom-osnovanii-colombo-roboquattro-id41rsbd-matovyj-hrom/"
+  ]
 }

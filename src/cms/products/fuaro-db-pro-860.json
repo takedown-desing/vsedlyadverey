@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DB",
   "order": 80,
-  "category": "/catalog/zadvizhki-i-shpingalety/",
+  "category": "catalog--zadvizhki-i-shpingalety",
   "article": "DB-PRO.860",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Подойдёт ли поворотная ручка с квадратом 6 мм?",
       "a": "Да, через переходник ACS 8/6."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/zadvizhka-vreznaya-db-pro-860-db-860-cp-hrom-60mm/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "VIGNOLE",
   "order": 226,
-  "category": "/catalog/dvernye-ruchki/skoby/",
+  "category": "catalog--dvernye-ruchki--skoby",
   "article": "VIGNOLE D1",
   "hidden": false,
   "hiddenNote": "",
@@ -146,6 +146,5 @@
       "q": "Сколько скоб нужно?",
       "a": "Цена указана за одну. Если ручка нужна с двух сторон, закажите две."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-skoba-Venezia-VIGNOLE-250mm-205mm-D1-polirovannaja-latun/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "Viewer 4",
   "order": 369,
-  "category": "/catalog/glazki-i-aksessuary/glazki/",
+  "category": "catalog--glazki-i-aksessuary--glazki",
   "article": "DV 4/130-70/Z",
   "hidden": false,
   "hiddenNote": "",
@@ -145,6 +145,5 @@
       "q": "Можно ли ставить на противопожарную дверь?",
       "a": "В паспорте модели такого допуска нет. Для противопожарной двери смотрите глазки с прямым разрешением, например Armadillo DV-PRO 3."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/glazok-dvernoy-optika-plastik-dv-4-130-70-z-viewer-4-dvz-cp-hrom/"
+  ]
 }

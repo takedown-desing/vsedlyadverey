@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 175,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "3992/4009",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Как понять, подойдёт ли ручка к моему окну?",
       "a": "Ручка рассчитана на окна ПВХ. Сравните длину штифта и расстояние между винтами с установленной ручкой."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/catalogo/ref-3992-4009/"
+  ]
 }

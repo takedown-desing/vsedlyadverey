@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Centro",
   "order": 408,
-  "category": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-fiksatorom",
   "article": "B01013.50",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Есть ли похожий замок у AGB?",
       "a": "Да, AGB Grand WC B00598 с тем же межосевым 90 мм и бэксетом 50 мм."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item311"
+  ]
 }

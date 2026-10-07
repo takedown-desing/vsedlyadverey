@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 193,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--komplekty",
   "article": "4017",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Можно ли заказать 4017 в титане?",
       "a": "В наличии блестящий и матовый хром. Титан есть в каталоге производителя, срок поставки уточняйте."
     }
-  ],
-  "sourceUrl": "https://www.tupai.pt/wp-content/uploads/2022/03/tupai-catalogo-geral-2022-com-capa-140322.pdf"
+  ]
 }

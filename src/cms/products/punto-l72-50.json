@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 19,
-  "category": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-metallicheskim-yazychkom",
   "article": "METL72-50 (L72-50)",
   "hidden": false,
   "hiddenNote": "",
@@ -161,6 +161,5 @@
       "q": "Зачем пластиковый короб?",
       "a": "Он закрывает гнездо в дверной коробке, куда заходит язычок, и делает отверстие аккуратным."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/zashhelka-vreznaya-dlya-mezhkomnatnoj-dveri-punto--punto-l72-50-cp-khrom.html"
+  ]
 }

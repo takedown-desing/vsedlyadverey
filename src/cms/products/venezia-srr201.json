@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 418,
-  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej",
   "article": "SRR201",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Что входит в поставку?",
       "a": "Замок и ответная планка. Ручки-купе приобретаются отдельно."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/zamok_dlya_razdvizhnoy_dveri_srr201_otvetnaya_planka_polirovannyy_khrom/"
+  ]
 }

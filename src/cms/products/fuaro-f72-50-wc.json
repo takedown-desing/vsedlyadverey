@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 411,
-  "category": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-fiksatorom",
   "article": "F72-50",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Будет ли золото темнеть?",
       "a": "Гальваническое покрытие не любит абразивы и агрессивную химию. Протирайте его мягкой сухой тканью."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy_zamok_fuaro_f72_50_santekhnicheskiy_gp_zoloto/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "forme",
   "series": "Artemida",
   "order": 272,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "213K",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Из какого сплава ручка?",
       "a": "Латунь, итальянское производство."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya-ruchka-forme-mod-artemida-213k-grafit-na-rozetke-50k/"
+  ]
 }

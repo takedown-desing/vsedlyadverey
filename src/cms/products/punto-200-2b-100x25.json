@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 21,
-  "category": "/catalog/dvernye-petli/babochki/",
+  "category": "catalog--dvernye-petli--babochki",
   "article": "200-2B 100x2,5",
   "hidden": false,
   "hiddenNote": "",
@@ -151,6 +151,5 @@
       "q": "Сколько петель брать на дверь?",
       "a": "Для лёгкого полотна хватает двух. Если масса ближе к 30 кг или дверь высокая, добавьте третью, тогда допустимая нагрузка вырастет до 40 кг."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-universalnaya-punto--punto-bez-vrezki-200-2b-100x25-pn-mat-nikel.html"
+  ]
 }

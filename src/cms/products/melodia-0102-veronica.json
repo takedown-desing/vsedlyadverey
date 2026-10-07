@@ -4,7 +4,7 @@
   "brand": "melodia",
   "series": "Veronica",
   "order": 500,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "0102",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли поставить Veronica на балконную дверь?",
       "a": "Да, изнутри балконная дверь обычно управляется такой же фурнитурой, как окно. Для открывания снаружи понадобится отдельная двусторонняя ручка или балконная защёлка."
     }
-  ],
-  "sourceUrl": "https://www.mirar-group.ru/product/ruchka-dlya-okon-fadex-melodia-102-veronica/"
+  ]
 }

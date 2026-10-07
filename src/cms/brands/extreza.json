@@ -1,5 +1,4 @@
 {
-  "slug": "extreza",
   "name": "Extreza",
   "country": "Россия",
   "founded": "",
@@ -26,5 +25,8 @@
       "lead": "Extreza делит ручки на три линии: современную Hi-Tech, классическую Classic и алюминиевую ALU.",
       "text": "Hi-Tech - строгие современные формы (Adona, Aqua, Azimut, Como, Toledo, Vigo, Wing), Classic - латунные модели для классических интерьеров (Agata, Ariana, Benito, Greta, Petra, Veronika), ALU - лёгкие алюминиевые Enni и Molly. Большие скобы Impero подходят для входных и массивных дверей.\n\nРучки выпускаются на розетках R05-R16 и планках PL01-PL05. Код покрытия (F01 латунь, F05 матовый хром, F22 чёрный матовый и другие) пригодится, чтобы подобрать в тон завертку, накладку и петли."
     }
-  ]
+  ],
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Robot",
   "order": 197,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "CD41RSB",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Подойдёт ли ручка к двери с магнитной защёлкой?",
       "a": "Да, ручка на розетке работает с любой межкомнатной защёлкой под квадрат. Важно лишь, чтобы механизм был рассчитан на ручку-рычаг, а не на кноб."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-colombo-robot-cd-41-rsb-chernyj/"
+  ]
 }

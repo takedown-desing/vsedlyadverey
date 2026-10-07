@@ -21,8 +21,9 @@
   "media_folder": "public/images/uploads",
   "public_folder": "/images/uploads",
   "slug": {
-    "encoding": "ascii",
-    "clean_accents": true
+    "encoding": "unicode",
+    "clean_accents": false,
+    "sanitize_replacement": "-"
   },
   "collections": [
     {
@@ -34,7 +35,11 @@
       "format": "json",
       "extension": "json",
       "identifier_field": "name",
-      "slug": "{{fields.slug}}",
+      "slug": {
+        "template": "{{name}}",
+        "editable": true
+      },
+      "preview_path": "go/products/{{slug}}/",
       "summary": "{{name}}",
       "sortable_fields": [
         "name",
@@ -68,19 +73,8 @@
           "pattern": "^(colombo-design|tupai)$"
         }
       ],
-      "description": "Карточка товара: название, бренд, раздел, варианты покрытий с фото и ценой, характеристики, описание и блоки текста. Товар без фото на сайт не выводится.",
+      "description": "Карточка товара. Обязательно только название; адрес, если не задан, сформируется из названия. Товар появится на сайте, когда у него будет хотя бы одно фото.",
       "fields": [
-        {
-          "name": "slug",
-          "label": "Адрес карточки (slug)",
-          "widget": "string",
-          "required": true,
-          "pattern": [
-            "^[a-z0-9]+(-[a-z0-9]+)*$",
-            "Только латиница, цифры и дефисы: бренд-серия-артикул"
-          ],
-          "hint": "Страница товара будет /product/<slug>/. После публикации не менять"
-        },
         {
           "name": "name",
           "label": "Название",
@@ -89,100 +83,45 @@
           "hint": "Без покрытия: «Дверная ручка Colombo Design Robot CD41RSB на круглой розетке»"
         },
         {
+          "name": "slug",
+          "label": "Адрес страницы (URL)",
+          "widget": "string",
+          "required": false,
+          "hint": "Страница товара: /product/<адрес>/. Если пусто, адрес сформируется из названия транслитом. Смена адреса опубликованного товара ломает старые ссылки на него"
+        },
+        {
+          "name": "h1",
+          "label": "Заголовок H1 (если отличается от названия)",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "title",
+          "label": "Title (заголовок вкладки)",
+          "widget": "string",
+          "required": false,
+          "hint": "Если пусто, собирается автоматически: «Название, покрытие: купить, цена»"
+        },
+        {
+          "name": "metaDescription",
+          "label": "Description (описание для поиска)",
+          "widget": "text",
+          "required": false,
+          "hint": "Если пусто, собирается автоматически из названия, бренда и цены"
+        },
+        {
           "name": "brand",
           "label": "Бренд",
-          "widget": "select",
-          "options": [
-            {
-              "label": "Colombo Design",
-              "value": "colombo-design"
-            },
-            {
-              "label": "TUPAI",
-              "value": "tupai"
-            },
-            {
-              "label": "Morelli",
-              "value": "morelli"
-            },
-            {
-              "label": "FUARO",
-              "value": "fuaro"
-            },
-            {
-              "label": "PUNTO",
-              "value": "punto"
-            },
-            {
-              "label": "Armadillo",
-              "value": "armadillo"
-            },
-            {
-              "label": "AGB",
-              "value": "agb"
-            },
-            {
-              "label": "Krona Koblenz",
-              "value": "krona-koblenz"
-            },
-            {
-              "label": "Fratelli Cattini",
-              "value": "fratelli-cattini"
-            },
-            {
-              "label": "FANTOM",
-              "value": "fantom"
-            },
-            {
-              "label": "Verum",
-              "value": "verum"
-            },
-            {
-              "label": "AJAX",
-              "value": "ajax"
-            },
-            {
-              "label": "CLASS",
-              "value": "class"
-            },
-            {
-              "label": "Extreza",
-              "value": "extreza"
-            },
-            {
-              "label": "Otlav",
-              "value": "otlav"
-            },
-            {
-              "label": "LockStyle",
-              "value": "lockstyle"
-            },
-            {
-              "label": "VENEZIA",
-              "value": "venezia"
-            },
-            {
-              "label": "FORME",
-              "value": "forme"
-            },
-            {
-              "label": "Pamar",
-              "value": "pamar"
-            },
-            {
-              "label": "MELODIA",
-              "value": "melodia"
-            },
-            {
-              "label": "Comaglio",
-              "value": "comaglio"
-            },
-            {
-              "label": "Porta di Parma",
-              "value": "porta-di-parma"
-            }
+          "widget": "relation",
+          "collection": "brands",
+          "value_field": "{{slug}}",
+          "search_fields": [
+            "name"
           ],
-          "required": true
+          "display_fields": [
+            "{{name}}"
+          ],
+          "required": false
         },
         {
           "name": "series",
@@ -193,359 +132,37 @@
         {
           "name": "category",
           "label": "Раздел каталога",
-          "widget": "select",
-          "options": [
-            {
-              "label": "Каталог дверной фурнитуры (/catalog/)",
-              "value": "/catalog/"
-            },
-            {
-              "label": "Дверные ручки (/catalog/dvernye-ruchki/)",
-              "value": "/catalog/dvernye-ruchki/"
-            },
-            {
-              "label": "Дверные ручки на розетке (/catalog/dvernye-ruchki/na-rozetke/)",
-              "value": "/catalog/dvernye-ruchki/na-rozetke/"
-            },
-            {
-              "label": "Дверные ручки на планке (/catalog/dvernye-ruchki/na-planke/)",
-              "value": "/catalog/dvernye-ruchki/na-planke/"
-            },
-            {
-              "label": "Ручки-кнобы (поворотные) (/catalog/dvernye-ruchki/knoby/)",
-              "value": "/catalog/dvernye-ruchki/knoby/"
-            },
-            {
-              "label": "Ручки-скобы для дверей (/catalog/dvernye-ruchki/skoby/)",
-              "value": "/catalog/dvernye-ruchki/skoby/"
-            },
-            {
-              "label": "Ручки для раздвижных дверей и дверей-купе (/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
-            },
-            {
-              "label": "Ручки для входных дверей (/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
-            },
-            {
-              "label": "Ручки для стеклянных дверей (/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/"
-            },
-            {
-              "label": "Ручки для алюминиевых и профильных дверей (/catalog/dvernye-ruchki/dlya-profilnyh-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/"
-            },
-            {
-              "label": "Ручки антипаника и противопожарные (/catalog/dvernye-ruchki/antipanika/)",
-              "value": "/catalog/dvernye-ruchki/antipanika/"
-            },
-            {
-              "label": "WC-завертки и накладки (/catalog/zavertki-i-nakladki/)",
-              "value": "/catalog/zavertki-i-nakladki/"
-            },
-            {
-              "label": "Сантехнические завертки WC (/catalog/zavertki-i-nakladki/wc-zavertki/)",
-              "value": "/catalog/zavertki-i-nakladki/wc-zavertki/"
-            },
-            {
-              "label": "Накладки под цилиндр и ключ (/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/)",
-              "value": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
-            },
-            {
-              "label": "Декоративные накладки и розетки (/catalog/zavertki-i-nakladki/dekorativnye-nakladki/)",
-              "value": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/"
-            },
-            {
-              "label": "Замки и защёлки для межкомнатных дверей (/catalog/mezhkomnatnye-zamki/)",
-              "value": "/catalog/mezhkomnatnye-zamki/"
-            },
-            {
-              "label": "Магнитные замки и защёлки (/catalog/mezhkomnatnye-zamki/magnitnye/)",
-              "value": "/catalog/mezhkomnatnye-zamki/magnitnye/"
-            },
-            {
-              "label": "Замки с пластиковым язычком (/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/)",
-              "value": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
-            },
-            {
-              "label": "Замки с металлическим язычком (/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/)",
-              "value": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/"
-            },
-            {
-              "label": "Межкомнатные замки под цилиндр (/catalog/mezhkomnatnye-zamki/pod-cilindr/)",
-              "value": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
-            },
-            {
-              "label": "Замки с фиксатором (сантехнические) (/catalog/mezhkomnatnye-zamki/s-fiksatorom/)",
-              "value": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/"
-            },
-            {
-              "label": "Межкомнатные замки под ключ (/catalog/mezhkomnatnye-zamki/pod-klyuch/)",
-              "value": "/catalog/mezhkomnatnye-zamki/pod-klyuch/"
-            },
-            {
-              "label": "Замки и защёлки для раздвижных дверей (/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/)",
-              "value": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
-            },
-            {
-              "label": "Ответные планки (/catalog/mezhkomnatnye-zamki/otvetnye-planki/)",
-              "value": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/"
-            },
-            {
-              "label": "Замки для входных дверей (/catalog/zamki-dlya-vhodnyh-dverej/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/"
-            },
-            {
-              "label": "Врезные замки (/catalog/zamki-dlya-vhodnyh-dverej/vreznye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
-            },
-            {
-              "label": "Накладные замки (/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/"
-            },
-            {
-              "label": "Электромеханические и электронные замки (/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
-            },
-            {
-              "label": "Навесные замки (/catalog/zamki-dlya-vhodnyh-dverej/navesnye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
-            },
-            {
-              "label": "Цилиндровые механизмы (личинки) (/catalog/cilindry/)",
-              "value": "/catalog/cilindry/"
-            },
-            {
-              "label": "Цилиндры ключ-ключ (/catalog/cilindry/klyuch-klyuch/)",
-              "value": "/catalog/cilindry/klyuch-klyuch/"
-            },
-            {
-              "label": "Цилиндры ключ-вертушка (/catalog/cilindry/klyuch-vertushka/)",
-              "value": "/catalog/cilindry/klyuch-vertushka/"
-            },
-            {
-              "label": "Броненакладки на цилиндр (/catalog/cilindry/bronenakladki/)",
-              "value": "/catalog/cilindry/bronenakladki/"
-            },
-            {
-              "label": "Поворотники (вертушки) для цилиндров (/catalog/cilindry/povorotniki/)",
-              "value": "/catalog/cilindry/povorotniki/"
-            },
-            {
-              "label": "Дверные петли (/catalog/dvernye-petli/)",
-              "value": "/catalog/dvernye-petli/"
-            },
-            {
-              "label": "Универсальные дверные петли (/catalog/dvernye-petli/universalnye/)",
-              "value": "/catalog/dvernye-petli/universalnye/"
-            },
-            {
-              "label": "Скрытые петли (/catalog/dvernye-petli/skrytye/)",
-              "value": "/catalog/dvernye-petli/skrytye/"
-            },
-            {
-              "label": "Ввертные петли и колпачки (/catalog/dvernye-petli/vvertnye/)",
-              "value": "/catalog/dvernye-petli/vvertnye/"
-            },
-            {
-              "label": "Петли-бабочки (/catalog/dvernye-petli/babochki/)",
-              "value": "/catalog/dvernye-petli/babochki/"
-            },
-            {
-              "label": "Разъёмные петли (левые и правые) (/catalog/dvernye-petli/razemnye/)",
-              "value": "/catalog/dvernye-petli/razemnye/"
-            },
-            {
-              "label": "Пружинные и маятниковые (барные) петли (/catalog/dvernye-petli/pruzhinnye/)",
-              "value": "/catalog/dvernye-petli/pruzhinnye/"
-            },
-            {
-              "label": "Петли для входных и металлических дверей (/catalog/dvernye-petli/dlya-vhodnyh-dverej/)",
-              "value": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/"
-            },
-            {
-              "label": "Шаблоны и фрезы для врезки петель и замков (/catalog/dvernye-petli/shablony-i-frezy/)",
-              "value": "/catalog/dvernye-petli/shablony-i-frezy/"
-            },
-            {
-              "label": "Дверные доводчики (/catalog/dovodchiki/)",
-              "value": "/catalog/dovodchiki/"
-            },
-            {
-              "label": "Накладные (верхние) доводчики (/catalog/dovodchiki/nakladnye/)",
-              "value": "/catalog/dovodchiki/nakladnye/"
-            },
-            {
-              "label": "Скрытые доводчики (/catalog/dovodchiki/skrytye/)",
-              "value": "/catalog/dovodchiki/skrytye/"
-            },
-            {
-              "label": "Напольные доводчики (/catalog/dovodchiki/napolnye/)",
-              "value": "/catalog/dovodchiki/napolnye/"
-            },
-            {
-              "label": "Пружинные доводчики (/catalog/dovodchiki/pruzhinnye/)",
-              "value": "/catalog/dovodchiki/pruzhinnye/"
-            },
-            {
-              "label": "Раздвижные и складные системы для дверей (/catalog/razdvizhnye-sistemy/)",
-              "value": "/catalog/razdvizhnye-sistemy/"
-            },
-            {
-              "label": "Раздвижные системы для межкомнатных дверей (/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/)",
-              "value": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/"
-            },
-            {
-              "label": "Скрытые раздвижные системы (/catalog/razdvizhnye-sistemy/skrytye/)",
-              "value": "/catalog/razdvizhnye-sistemy/skrytye/"
-            },
-            {
-              "label": "Рото-системы (поворотно-сдвижные) (/catalog/razdvizhnye-sistemy/roto/)",
-              "value": "/catalog/razdvizhnye-sistemy/roto/"
-            },
-            {
-              "label": "Складные системы (дверь-книжка) (/catalog/razdvizhnye-sistemy/knizhka/)",
-              "value": "/catalog/razdvizhnye-sistemy/knizhka/"
-            },
-            {
-              "label": "Пеналы (кассеты) для раздвижных дверей (/catalog/razdvizhnye-sistemy/penaly/)",
-              "value": "/catalog/razdvizhnye-sistemy/penaly/"
-            },
-            {
-              "label": "Раздвижные системы для стеклянных дверей (/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/)",
-              "value": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/"
-            },
-            {
-              "label": "Комплектующие: ролики, направляющие, щётки (/catalog/razdvizhnye-sistemy/komplektuyushchie/)",
-              "value": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
-            },
-            {
-              "label": "Дверные упоры и ограничители (/catalog/upory-i-ogranichiteli/)",
-              "value": "/catalog/upory-i-ogranichiteli/"
-            },
-            {
-              "label": "Напольные упоры (/catalog/upory-i-ogranichiteli/napolnye/)",
-              "value": "/catalog/upory-i-ogranichiteli/napolnye/"
-            },
-            {
-              "label": "Настенные упоры (/catalog/upory-i-ogranichiteli/nastennye/)",
-              "value": "/catalog/upory-i-ogranichiteli/nastennye/"
-            },
-            {
-              "label": "Магнитные упоры и стопоры (/catalog/upory-i-ogranichiteli/magnitnye/)",
-              "value": "/catalog/upory-i-ogranichiteli/magnitnye/"
-            },
-            {
-              "label": "Скрытые упоры (/catalog/upory-i-ogranichiteli/skrytye/)",
-              "value": "/catalog/upory-i-ogranichiteli/skrytye/"
-            },
-            {
-              "label": "Торцевые упоры (ригели) (/catalog/upory-i-ogranichiteli/torcevye/)",
-              "value": "/catalog/upory-i-ogranichiteli/torcevye/"
-            },
-            {
-              "label": "Задвижки, шпингалеты и засовы (/catalog/zadvizhki-i-shpingalety/)",
-              "value": "/catalog/zadvizhki-i-shpingalety/"
-            },
-            {
-              "label": "Торцевые задвижки (/catalog/zadvizhki-i-shpingalety/torcevye/)",
-              "value": "/catalog/zadvizhki-i-shpingalety/torcevye/"
-            },
-            {
-              "label": "Накладные задвижки и шпингалеты (/catalog/zadvizhki-i-shpingalety/nakladnye/)",
-              "value": "/catalog/zadvizhki-i-shpingalety/nakladnye/"
-            },
-            {
-              "label": "Дверные глазки, цепочки и аксессуары (/catalog/glazki-i-aksessuary/)",
-              "value": "/catalog/glazki-i-aksessuary/"
-            },
-            {
-              "label": "Дверные глазки (/catalog/glazki-i-aksessuary/glazki/)",
-              "value": "/catalog/glazki-i-aksessuary/glazki/"
-            },
-            {
-              "label": "Дверные цепочки (/catalog/glazki-i-aksessuary/cepochki/)",
-              "value": "/catalog/glazki-i-aksessuary/cepochki/"
-            },
-            {
-              "label": "Дверные стучалки (молотки) (/catalog/glazki-i-aksessuary/stuchalki/)",
-              "value": "/catalog/glazki-i-aksessuary/stuchalki/"
-            },
-            {
-              "label": "Автопороги и уплотнители (/catalog/avtoporogi-i-uplotniteli/)",
-              "value": "/catalog/avtoporogi-i-uplotniteli/"
-            },
-            {
-              "label": "Автопороги (умные пороги) (/catalog/avtoporogi-i-uplotniteli/avtoporogi/)",
-              "value": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
-            },
-            {
-              "label": "Уплотнители для дверей (/catalog/avtoporogi-i-uplotniteli/uplotniteli/)",
-              "value": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/"
-            },
-            {
-              "label": "Шумоизоляционные щётки (/catalog/avtoporogi-i-uplotniteli/shchetki/)",
-              "value": "/catalog/avtoporogi-i-uplotniteli/shchetki/"
-            },
-            {
-              "label": "Фурнитура для стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/"
-            },
-            {
-              "label": "Петли для стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/petli/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/"
-            },
-            {
-              "label": "Замки и защёлки для стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/zamki/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/"
-            },
-            {
-              "label": "Комплекты фурнитуры для распашных стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/"
-            },
-            {
-              "label": "Ответные части и фиксаторы для стекла (/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/"
-            },
-            {
-              "label": "Оконная фурнитура (/catalog/okonnaya-furnitura/)",
-              "value": "/catalog/okonnaya-furnitura/"
-            },
-            {
-              "label": "Оконные ручки (/catalog/okonnaya-furnitura/okonnye-ruchki/)",
-              "value": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
-            },
-            {
-              "label": "Балконные ручки (/catalog/okonnaya-furnitura/balkonnye-ruchki/)",
-              "value": "/catalog/okonnaya-furnitura/balkonnye-ruchki/"
-            },
-            {
-              "label": "Мебельная фурнитура (/catalog/mebelnaya-furnitura/)",
-              "value": "/catalog/mebelnaya-furnitura/"
-            },
-            {
-              "label": "Мебельные ручки (/catalog/mebelnaya-furnitura/mebelnye-ruchki/)",
-              "value": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
-            },
-            {
-              "label": "Мебельные петли (/catalog/mebelnaya-furnitura/mebelnye-petli/)",
-              "value": "/catalog/mebelnaya-furnitura/mebelnye-petli/"
-            },
-            {
-              "label": "Мебельные замки (/catalog/mebelnaya-furnitura/mebelnye-zamki/)",
-              "value": "/catalog/mebelnaya-furnitura/mebelnye-zamki/"
-            },
-            {
-              "label": "Мебельные крючки (/catalog/mebelnaya-furnitura/kryuchki/)",
-              "value": "/catalog/mebelnaya-furnitura/kryuchki/"
-            },
-            {
-              "label": "Ремкомплекты и запчасти (/catalog/remkomplekty-i-zapchasti/)",
-              "value": "/catalog/remkomplekty-i-zapchasti/"
-            }
+          "widget": "relation",
+          "collection": "sections",
+          "value_field": "{{slug}}",
+          "search_fields": [
+            "title",
+            "h1",
+            "slug"
           ],
-          "required": true,
-          "hint": "Самый глубокий подходящий раздел"
+          "display_fields": [
+            "{{title}}"
+          ],
+          "required": false,
+          "hint": "Основной раздел: по нему строятся хлебные крошки. Новый раздел создаётся в «Разделы каталога»"
+        },
+        {
+          "name": "extraCategories",
+          "label": "Дополнительные разделы",
+          "widget": "relation",
+          "collection": "sections",
+          "value_field": "{{slug}}",
+          "search_fields": [
+            "title",
+            "h1",
+            "slug"
+          ],
+          "display_fields": [
+            "{{title}}"
+          ],
+          "required": false,
+          "multiple": true,
+          "hint": "Товар покажется и в этих разделах (например, в новой подборке)"
         },
         {
           "name": "article",
@@ -580,16 +197,16 @@
           "label": "Варианты покрытий",
           "label_singular": "Покрытие",
           "widget": "list",
-          "required": true,
+          "required": false,
           "collapsed": false,
           "summary": "{{fields.finish}} · {{fields.price}} ₽",
-          "hint": "Минимум один вариант с фото. Первый вариант с фото становится главным в карточке",
+          "hint": "Товар выводится на сайт, когда есть хотя бы один вариант с фото. Первый вариант с фото становится главным в карточке",
           "fields": [
             {
               "name": "finish",
               "label": "Покрытие (как на сайте)",
               "widget": "string",
-              "required": true,
+              "required": false,
               "hint": "например: матовый чёрный"
             },
             {
@@ -642,7 +259,7 @@
                   "value": "other"
                 }
               ],
-              "required": true,
+              "required": false,
               "default": "other"
             },
             {
@@ -676,13 +293,6 @@
               "public_folder": "/images/products",
               "choose_url": false,
               "hint": "JPG до 800 px по длинной стороне, фон белый, без водяных знаков чужих магазинов"
-            },
-            {
-              "name": "imageSrc",
-              "label": "Источник фото (ссылка)",
-              "widget": "string",
-              "required": false,
-              "hint": "Откуда взято фото. Фото без источника на сайт не выводится; фото с todoor.ru блокируются"
             }
           ]
         },
@@ -780,14 +390,14 @@
               "name": "k",
               "label": "Название",
               "widget": "string",
-              "required": true,
+              "required": false,
               "hint": "Квадрат, мм"
             },
             {
               "name": "v",
               "label": "Значение",
               "widget": "string",
-              "required": true,
+              "required": false,
               "hint": "8"
             }
           ],
@@ -832,7 +442,7 @@
                   "name": "md",
                   "label": "Текст",
                   "widget": "markdown",
-                  "required": true,
+                  "required": false,
                   "buttons": [
                     "bold",
                     "italic",
@@ -868,7 +478,7 @@
                       "name": "title",
                       "label": "Заголовок",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "text",
@@ -910,7 +520,8 @@
                       "required": false,
                       "default": "check"
                     }
-                  ]
+                  ],
+                  "required": false
                 }
               ]
             },
@@ -928,7 +539,7 @@
                   "name": "head",
                   "label": "Шапка таблицы",
                   "widget": "string",
-                  "required": true,
+                  "required": false,
                   "hint": "Колонки через вертикальную черту: Параметр | Значение"
                 },
                 {
@@ -942,7 +553,8 @@
                     "widget": "string",
                     "required": false,
                     "hint": "Ячейки через вертикальную черту: В пределах МКАД | 500 ₽"
-                  }
+                  },
+                  "required": false
                 },
                 {
                   "name": "note",
@@ -973,7 +585,7 @@
                       "name": "title",
                       "label": "Название шага",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "text",
@@ -981,7 +593,8 @@
                       "widget": "text",
                       "required": false
                     }
-                  ]
+                  ],
+                  "required": false
                 }
               ]
             },
@@ -1005,7 +618,8 @@
                     "label": "Пункт",
                     "widget": "string",
                     "required": false
-                  }
+                  },
+                  "required": false
                 }
               ]
             },
@@ -1040,7 +654,7 @@
                   "name": "text",
                   "label": "Текст",
                   "widget": "text",
-                  "required": true
+                  "required": false
                 }
               ]
             },
@@ -1065,15 +679,16 @@
                       "name": "value",
                       "label": "Значение",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "label",
                       "label": "Подпись",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     }
-                  ]
+                  ],
+                  "required": false
                 }
               ]
             },
@@ -1104,16 +719,17 @@
                       "name": "label",
                       "label": "Подпись",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "value",
                       "label": "Число",
                       "widget": "number",
                       "value_type": "float",
-                      "required": true
+                      "required": false
                     }
-                  ]
+                  ],
+                  "required": false
                 },
                 {
                   "name": "note",
@@ -1150,23 +766,24 @@
                       "name": "label",
                       "label": "Подпись",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "from",
                       "label": "От",
                       "widget": "number",
                       "value_type": "float",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "to",
                       "label": "До",
                       "widget": "number",
                       "value_type": "float",
-                      "required": true
+                      "required": false
                     }
-                  ]
+                  ],
+                  "required": false
                 },
                 {
                   "name": "note",
@@ -1191,40 +808,754 @@
               "name": "q",
               "label": "Вопрос",
               "widget": "string",
-              "required": true
+              "required": false
             },
             {
               "name": "a",
               "label": "Ответ",
               "widget": "text",
-              "required": true
+              "required": false
             }
           ]
         },
         {
-          "name": "sourceUrl",
-          "label": "Источник данных (ссылка)",
+          "name": "noindex",
+          "label": "Закрыть от индексации (noindex)",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Страница останется на сайте, но поисковики её не покажут"
+        },
+        {
+          "name": "canonical",
+          "label": "Canonical (адрес основной версии страницы)",
+          "widget": "string",
+          "required": false,
+          "hint": "Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…"
+        },
+        {
+          "name": "ogImage",
+          "label": "Картинка для соцсетей (og:image)",
+          "widget": "image",
+          "required": false,
+          "hint": "Если пусто, берётся фото товара или раздела"
+        }
+      ]
+    },
+    {
+      "name": "sections",
+      "label": "Разделы каталога",
+      "label_singular": "Раздел",
+      "folder": "src/cms/sections",
+      "create": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "title",
+      "slug": {
+        "template": "{{title}}",
+        "editable": true
+      },
+      "preview_path": "go/sections/{{slug}}/",
+      "summary": "{{title}}",
+      "sortable_fields": [
+        "order",
+        "title",
+        "parent"
+      ],
+      "view_groups": [
+        {
+          "label": "По родительскому разделу",
+          "field": "parent"
+        },
+        {
+          "label": "В меню",
+          "field": "inMenu"
+        }
+      ],
+      "description": "Разделы и подразделы каталога любой вложенности. Адрес страницы: адрес родителя + slug (например /catalog/dvernye-ruchki/na-rozetke/). Раздел появляется на сайте, когда в нём есть хотя бы один товар с фото; до этого он виден только в админке.",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title (заголовок вкладки и сниппета)",
+          "widget": "string",
+          "required": true,
+          "hint": "Обязательное поле. До 70 знаков. Название магазина « | Всё для дверей» дописывается автоматически, если итог не длиннее 70 знаков"
+        },
+        {
+          "name": "h1",
+          "label": "Заголовок H1",
+          "widget": "string",
+          "required": false,
+          "hint": "Если пусто, берётся Title"
+        },
+        {
+          "name": "description",
+          "label": "Description (описание для поиска)",
+          "widget": "text",
+          "required": false,
+          "hint": "120–160 знаков"
+        },
+        {
+          "name": "slug",
+          "label": "Адрес страницы (URL)",
+          "widget": "string",
+          "required": false,
+          "hint": "Часть адреса после родителя, например na-rozetke → /catalog/dvernye-ruchki/na-rozetke/. Если пусто, формируется из Title транслитом. Смена адреса опубликованного раздела ломает старые ссылки"
+        },
+        {
+          "name": "parent",
+          "label": "Родительский раздел",
+          "widget": "relation",
+          "collection": "sections",
+          "value_field": "{{slug}}",
+          "search_fields": [
+            "title",
+            "h1",
+            "slug"
+          ],
+          "display_fields": [
+            "{{title}}"
+          ],
+          "required": false,
+          "hint": "Пусто = раздел верхнего уровня в каталоге"
+        },
+        {
+          "name": "kind",
+          "label": "Тип",
+          "widget": "select",
+          "options": [
+            {
+              "label": "Раздел: товары назначаются полем «Раздел каталога» в карточке",
+              "value": "section"
+            },
+            {
+              "label": "Подборка-тег: товары отбираются автоматически по правилу (только для существующих)",
+              "value": "tag"
+            }
+          ],
+          "required": false,
+          "default": "section"
+        },
+        {
+          "name": "inMenu",
+          "label": "Показывать в левом меню каталога",
+          "widget": "boolean",
+          "default": false,
+          "required": false
+        },
+        {
+          "name": "menuName",
+          "label": "Короткое название для меню",
           "widget": "string",
           "required": false
+        },
+        {
+          "name": "icon",
+          "label": "Иконка",
+          "widget": "select",
+          "options": [
+            "handle",
+            "rosette",
+            "lock",
+            "padlock",
+            "cylinder",
+            "hinge",
+            "closer",
+            "slide",
+            "stop",
+            "bolt",
+            "eye",
+            "seal",
+            "glass",
+            "window",
+            "furniture",
+            "kit",
+            "truck",
+            "shield",
+            "store",
+            "check",
+            "box",
+            "percent",
+            "search",
+            "cart",
+            "chat"
+          ],
+          "required": false,
+          "default": "check"
+        },
+        {
+          "name": "order",
+          "label": "Порядок",
+          "widget": "number",
+          "value_type": "int",
+          "required": false,
+          "hint": "Меньше = выше среди соседей и в меню. У существующих разделов 1–150, новые без числа идут в конец"
+        },
+        {
+          "name": "lead",
+          "label": "Подзаголовок (лид)",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "name": "text",
+          "label": "Простой текст (если нет блоков)",
+          "widget": "markdown",
+          "required": false,
+          "buttons": [
+            "bold",
+            "italic",
+            "link",
+            "heading-two",
+            "heading-three",
+            "bulleted-list",
+            "numbered-list",
+            "quote"
+          ],
+          "editor_components": []
+        },
+        {
+          "name": "blocks",
+          "label": "Блоки контента",
+          "label_singular": "Блок",
+          "widget": "list",
+          "required": false,
+          "collapsed": true,
+          "typeKey": "type",
+          "summary": "{{fields.type}}: {{fields.title}}",
+          "hint": "Порядок блоков можно менять перетаскиванием. Ссылки внутри текста: [текст](/catalog/dvernye-ruchki/).",
+          "types": [
+            {
+              "name": "text",
+              "label": "Текст",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "md",
+                  "label": "Текст",
+                  "widget": "markdown",
+                  "required": false,
+                  "buttons": [
+                    "bold",
+                    "italic",
+                    "link",
+                    "heading-two",
+                    "heading-three",
+                    "bulleted-list",
+                    "numbered-list",
+                    "quote"
+                  ],
+                  "editor_components": []
+                }
+              ]
+            },
+            {
+              "name": "cards",
+              "label": "Карточки (преимущества, виды)",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "items",
+                  "label": "Карточки",
+                  "label_singular": "Карточка",
+                  "widget": "list",
+                  "summary": "{{fields.title}}",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Заголовок",
+                      "widget": "string",
+                      "required": false
+                    },
+                    {
+                      "name": "text",
+                      "label": "Текст",
+                      "widget": "text",
+                      "required": false
+                    },
+                    {
+                      "name": "icon",
+                      "label": "Иконка",
+                      "widget": "select",
+                      "options": [
+                        "handle",
+                        "rosette",
+                        "lock",
+                        "padlock",
+                        "cylinder",
+                        "hinge",
+                        "closer",
+                        "slide",
+                        "stop",
+                        "bolt",
+                        "eye",
+                        "seal",
+                        "glass",
+                        "window",
+                        "furniture",
+                        "kit",
+                        "truck",
+                        "shield",
+                        "store",
+                        "check",
+                        "box",
+                        "percent",
+                        "search",
+                        "cart",
+                        "chat"
+                      ],
+                      "required": false,
+                      "default": "check"
+                    }
+                  ],
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "table",
+              "label": "Таблица",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "head",
+                  "label": "Шапка таблицы",
+                  "widget": "string",
+                  "required": false,
+                  "hint": "Колонки через вертикальную черту: Параметр | Значение"
+                },
+                {
+                  "name": "rows",
+                  "label": "Строки",
+                  "label_singular": "Строка",
+                  "widget": "list",
+                  "field": {
+                    "name": "cell",
+                    "label": "Строка",
+                    "widget": "string",
+                    "required": false,
+                    "hint": "Ячейки через вертикальную черту: В пределах МКАД | 500 ₽"
+                  },
+                  "required": false
+                },
+                {
+                  "name": "note",
+                  "label": "Примечание под таблицей",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "steps",
+              "label": "Шаги (как выбрать, как установить)",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "items",
+                  "label": "Шаги",
+                  "label_singular": "Шаг",
+                  "widget": "list",
+                  "summary": "{{fields.title}}",
+                  "fields": [
+                    {
+                      "name": "title",
+                      "label": "Название шага",
+                      "widget": "string",
+                      "required": false
+                    },
+                    {
+                      "name": "text",
+                      "label": "Текст",
+                      "widget": "text",
+                      "required": false
+                    }
+                  ],
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "checklist",
+              "label": "Чек-лист",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "items",
+                  "label": "Пункты",
+                  "label_singular": "Пункт",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Пункт",
+                    "widget": "string",
+                    "required": false
+                  },
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "callout",
+              "label": "Плашка (совет или предупреждение)",
+              "fields": [
+                {
+                  "name": "kind",
+                  "label": "Вид",
+                  "widget": "select",
+                  "options": [
+                    {
+                      "label": "Совет",
+                      "value": "tip"
+                    },
+                    {
+                      "label": "Важно",
+                      "value": "warn"
+                    }
+                  ],
+                  "required": false,
+                  "default": "tip"
+                },
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "text",
+                  "label": "Текст",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "stats",
+              "label": "Цифры-факты",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "items",
+                  "label": "Цифры",
+                  "label_singular": "Цифра",
+                  "widget": "list",
+                  "summary": "{{fields.value}} {{fields.label}}",
+                  "fields": [
+                    {
+                      "name": "value",
+                      "label": "Значение",
+                      "widget": "string",
+                      "required": false
+                    },
+                    {
+                      "name": "label",
+                      "label": "Подпись",
+                      "widget": "string",
+                      "required": false
+                    }
+                  ],
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "bars",
+              "label": "Инфографика: столбцы",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "unit",
+                  "label": "Единица измерения",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "items",
+                  "label": "Значения",
+                  "label_singular": "Значение",
+                  "widget": "list",
+                  "summary": "{{fields.label}}: {{fields.value}}",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Подпись",
+                      "widget": "string",
+                      "required": false
+                    },
+                    {
+                      "name": "value",
+                      "label": "Число",
+                      "widget": "number",
+                      "value_type": "float",
+                      "required": false
+                    }
+                  ],
+                  "required": false
+                },
+                {
+                  "name": "note",
+                  "label": "Примечание",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "range",
+              "label": "Инфографика: диапазоны",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "Заголовок",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "unit",
+                  "label": "Единица измерения",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "items",
+                  "label": "Диапазоны",
+                  "label_singular": "Диапазон",
+                  "widget": "list",
+                  "summary": "{{fields.label}}: {{fields.from}}–{{fields.to}}",
+                  "fields": [
+                    {
+                      "name": "label",
+                      "label": "Подпись",
+                      "widget": "string",
+                      "required": false
+                    },
+                    {
+                      "name": "from",
+                      "label": "От",
+                      "widget": "number",
+                      "value_type": "float",
+                      "required": false
+                    },
+                    {
+                      "name": "to",
+                      "label": "До",
+                      "widget": "number",
+                      "value_type": "float",
+                      "required": false
+                    }
+                  ],
+                  "required": false
+                },
+                {
+                  "name": "note",
+                  "label": "Примечание",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "faq",
+          "label": "Вопросы и ответы (FAQ)",
+          "label_singular": "Вопрос",
+          "widget": "list",
+          "required": false,
+          "collapsed": true,
+          "summary": "{{fields.q}}",
+          "fields": [
+            {
+              "name": "q",
+              "label": "Вопрос",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "name": "a",
+              "label": "Ответ",
+              "widget": "text",
+              "required": false
+            }
+          ]
+        },
+        {
+          "name": "noindex",
+          "label": "Закрыть от индексации (noindex)",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Страница останется на сайте, но поисковики её не покажут"
+        },
+        {
+          "name": "canonical",
+          "label": "Canonical (адрес основной версии страницы)",
+          "widget": "string",
+          "required": false,
+          "hint": "Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…"
+        },
+        {
+          "name": "ogImage",
+          "label": "Картинка для соцсетей (og:image)",
+          "widget": "image",
+          "required": false,
+          "hint": "Если пусто, берётся фото товара или раздела"
+        }
+      ]
+    },
+    {
+      "name": "blog-hubs",
+      "label": "Рубрики блога",
+      "label_singular": "Рубрика",
+      "folder": "src/cms/blog-hubs",
+      "create": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "title",
+      "slug": {
+        "template": "{{title}}",
+        "editable": true
+      },
+      "preview_path": "go/blog-hubs/{{slug}}/",
+      "summary": "{{title}}",
+      "sortable_fields": [
+        "order",
+        "title"
+      ],
+      "description": "Рубрики раздела «Инструкции и советы» (/blog/<slug>/). Статья привязывается к рубрике в своей карточке.",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "widget": "string",
+          "required": true
+        },
+        {
+          "name": "h1",
+          "label": "Заголовок H1",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "name": "slug",
+          "label": "Адрес страницы (URL)",
+          "widget": "string",
+          "required": false,
+          "hint": "Адрес рубрики: /blog/<адрес>/. Если пусто, формируется из Title"
+        },
+        {
+          "name": "lead",
+          "label": "Подзаголовок",
+          "widget": "text",
+          "required": false
+        },
+        {
+          "name": "text",
+          "label": "Текст рубрики",
+          "widget": "markdown",
+          "required": false,
+          "buttons": [
+            "bold",
+            "italic",
+            "link",
+            "heading-two",
+            "heading-three",
+            "bulleted-list",
+            "numbered-list",
+            "quote"
+          ],
+          "editor_components": []
+        },
+        {
+          "name": "order",
+          "label": "Порядок",
+          "widget": "number",
+          "value_type": "int",
+          "required": false
+        },
+        {
+          "name": "noindex",
+          "label": "Закрыть от индексации (noindex)",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Страница останется на сайте, но поисковики её не покажут"
+        },
+        {
+          "name": "canonical",
+          "label": "Canonical (адрес основной версии страницы)",
+          "widget": "string",
+          "required": false,
+          "hint": "Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…"
+        },
+        {
+          "name": "ogImage",
+          "label": "Картинка для соцсетей (og:image)",
+          "widget": "image",
+          "required": false,
+          "hint": "Если пусто, берётся фото товара или раздела"
         }
       ]
     },
     {
       "name": "pages",
-      "label": "Разделы каталога: тексты",
-      "label_singular": "Текст раздела",
+      "label": "Тексты остальных страниц",
+      "label_singular": "Текст страницы",
       "folder": "src/cms/pages",
       "create": true,
       "format": "json",
       "extension": "json",
       "identifier_field": "h1",
       "slug": "{{fields.url}}",
+      "preview_path": "go/pages/{{slug}}/",
       "summary": "{{h1}} · {{url}}",
       "sortable_fields": [
         "url",
         "h1"
       ],
-      "description": "SEO-тексты страниц каталога, главной, подборок «по типу двери» и списка брендов. Сами разделы (адреса, вложенность) заданы структурой сайта и здесь не создаются.",
+      "description": "SEO-тексты главной, корня каталога, подборок «по типу двери», списка брендов, страниц брендов и серий. Разделы каталога и рубрики блога правятся в своих коллекциях.",
       "fields": [
         {
           "name": "url",
@@ -1340,504 +1671,8 @@
               "value": "/account/"
             },
             {
-              "label": "Каталог дверной фурнитуры (/catalog/)",
-              "value": "/catalog/"
-            },
-            {
-              "label": "Дверные ручки (/catalog/dvernye-ruchki/)",
-              "value": "/catalog/dvernye-ruchki/"
-            },
-            {
-              "label": "Дверные ручки на розетке (/catalog/dvernye-ruchki/na-rozetke/)",
-              "value": "/catalog/dvernye-ruchki/na-rozetke/"
-            },
-            {
-              "label": "Ручки на круглой розетке (/catalog/dvernye-ruchki/na-rozetke/kruglaya-rozetka/)",
-              "value": "/catalog/dvernye-ruchki/na-rozetke/kruglaya-rozetka/"
-            },
-            {
-              "label": "Ручки на квадратной розетке (/catalog/dvernye-ruchki/na-rozetke/kvadratnaya-rozetka/)",
-              "value": "/catalog/dvernye-ruchki/na-rozetke/kvadratnaya-rozetka/"
-            },
-            {
-              "label": "Дверные ручки на планке (/catalog/dvernye-ruchki/na-planke/)",
-              "value": "/catalog/dvernye-ruchki/na-planke/"
-            },
-            {
-              "label": "Ручки-кнобы (поворотные) (/catalog/dvernye-ruchki/knoby/)",
-              "value": "/catalog/dvernye-ruchki/knoby/"
-            },
-            {
-              "label": "Ручки-скобы для дверей (/catalog/dvernye-ruchki/skoby/)",
-              "value": "/catalog/dvernye-ruchki/skoby/"
-            },
-            {
-              "label": "Ручки для раздвижных дверей и дверей-купе (/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
-            },
-            {
-              "label": "Ручки для входных дверей (/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
-            },
-            {
-              "label": "Ручки для стеклянных дверей (/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/"
-            },
-            {
-              "label": "Ручки для алюминиевых и профильных дверей (/catalog/dvernye-ruchki/dlya-profilnyh-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/"
-            },
-            {
-              "label": "Ручки антипаника и противопожарные (/catalog/dvernye-ruchki/antipanika/)",
-              "value": "/catalog/dvernye-ruchki/antipanika/"
-            },
-            {
-              "label": "Дверные ручки с замком (/catalog/dvernye-ruchki/s-zamkom/)",
-              "value": "/catalog/dvernye-ruchki/s-zamkom/"
-            },
-            {
-              "label": "Ручки с фиксатором (для ванной и туалета) (/catalog/dvernye-ruchki/s-fiksatorom/)",
-              "value": "/catalog/dvernye-ruchki/s-fiksatorom/"
-            },
-            {
-              "label": "Чёрные дверные ручки (/catalog/dvernye-ruchki/chernye/)",
-              "value": "/catalog/dvernye-ruchki/chernye/"
-            },
-            {
-              "label": "Белые дверные ручки (/catalog/dvernye-ruchki/belye/)",
-              "value": "/catalog/dvernye-ruchki/belye/"
-            },
-            {
-              "label": "Дверные ручки золото (/catalog/dvernye-ruchki/zoloto/)",
-              "value": "/catalog/dvernye-ruchki/zoloto/"
-            },
-            {
-              "label": "Дверные ручки хром (/catalog/dvernye-ruchki/hrom/)",
-              "value": "/catalog/dvernye-ruchki/hrom/"
-            },
-            {
-              "label": "Дверные ручки бронза (/catalog/dvernye-ruchki/bronza/)",
-              "value": "/catalog/dvernye-ruchki/bronza/"
-            },
-            {
-              "label": "Дверные ручки никель (/catalog/dvernye-ruchki/nikel/)",
-              "value": "/catalog/dvernye-ruchki/nikel/"
-            },
-            {
-              "label": "Дверные ручки латунь (/catalog/dvernye-ruchki/latun/)",
-              "value": "/catalog/dvernye-ruchki/latun/"
-            },
-            {
-              "label": "Дверные ручки графит (/catalog/dvernye-ruchki/grafit/)",
-              "value": "/catalog/dvernye-ruchki/grafit/"
-            },
-            {
-              "label": "Дверные ручки медь (/catalog/dvernye-ruchki/med/)",
-              "value": "/catalog/dvernye-ruchki/med/"
-            },
-            {
-              "label": "Итальянские дверные ручки (/catalog/dvernye-ruchki/italyanskie/)",
-              "value": "/catalog/dvernye-ruchki/italyanskie/"
-            },
-            {
-              "label": "Дверные ручки в классическом стиле (/catalog/dvernye-ruchki/klassika/)",
-              "value": "/catalog/dvernye-ruchki/klassika/"
-            },
-            {
-              "label": "Дверные ручки в современном стиле (модерн, минимализм) (/catalog/dvernye-ruchki/sovremennye/)",
-              "value": "/catalog/dvernye-ruchki/sovremennye/"
-            },
-            {
-              "label": "Дверные ручки лофт (/catalog/dvernye-ruchki/loft/)",
-              "value": "/catalog/dvernye-ruchki/loft/"
-            },
-            {
-              "label": "Магнитные дверные ручки (/catalog/dvernye-ruchki/magnitnye/)",
-              "value": "/catalog/dvernye-ruchki/magnitnye/"
-            },
-            {
-              "label": "Ручки для финских дверей (/catalog/dvernye-ruchki/dlya-finskih-dverej/)",
-              "value": "/catalog/dvernye-ruchki/dlya-finskih-dverej/"
-            },
-            {
-              "label": "WC-завертки и накладки (/catalog/zavertki-i-nakladki/)",
-              "value": "/catalog/zavertki-i-nakladki/"
-            },
-            {
-              "label": "Сантехнические завертки WC (/catalog/zavertki-i-nakladki/wc-zavertki/)",
-              "value": "/catalog/zavertki-i-nakladki/wc-zavertki/"
-            },
-            {
-              "label": "Накладки под цилиндр и ключ (/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/)",
-              "value": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
-            },
-            {
-              "label": "Декоративные накладки и розетки (/catalog/zavertki-i-nakladki/dekorativnye-nakladki/)",
-              "value": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/"
-            },
-            {
-              "label": "Накладки для входных дверей (/catalog/zavertki-i-nakladki/nakladki-dlya-vhodnyh-dverej/)",
-              "value": "/catalog/zavertki-i-nakladki/nakladki-dlya-vhodnyh-dverej/"
-            },
-            {
-              "label": "Замки и защёлки для межкомнатных дверей (/catalog/mezhkomnatnye-zamki/)",
-              "value": "/catalog/mezhkomnatnye-zamki/"
-            },
-            {
-              "label": "Магнитные замки и защёлки (/catalog/mezhkomnatnye-zamki/magnitnye/)",
-              "value": "/catalog/mezhkomnatnye-zamki/magnitnye/"
-            },
-            {
-              "label": "Замки с пластиковым язычком (/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/)",
-              "value": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
-            },
-            {
-              "label": "Замки с металлическим язычком (/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/)",
-              "value": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/"
-            },
-            {
-              "label": "Межкомнатные замки под цилиндр (/catalog/mezhkomnatnye-zamki/pod-cilindr/)",
-              "value": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
-            },
-            {
-              "label": "Замки с фиксатором (сантехнические) (/catalog/mezhkomnatnye-zamki/s-fiksatorom/)",
-              "value": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/"
-            },
-            {
-              "label": "Межкомнатные замки под ключ (/catalog/mezhkomnatnye-zamki/pod-klyuch/)",
-              "value": "/catalog/mezhkomnatnye-zamki/pod-klyuch/"
-            },
-            {
-              "label": "Замки и защёлки для раздвижных дверей (/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/)",
-              "value": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
-            },
-            {
-              "label": "Ответные планки (/catalog/mezhkomnatnye-zamki/otvetnye-planki/)",
-              "value": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/"
-            },
-            {
-              "label": "Бесшумные замки для межкомнатных дверей (/catalog/mezhkomnatnye-zamki/besshumnye/)",
-              "value": "/catalog/mezhkomnatnye-zamki/besshumnye/"
-            },
-            {
-              "label": "Чёрные замки и защёлки (/catalog/mezhkomnatnye-zamki/chernye/)",
-              "value": "/catalog/mezhkomnatnye-zamki/chernye/"
-            },
-            {
-              "label": "Замки для входных дверей (/catalog/zamki-dlya-vhodnyh-dverej/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/"
-            },
-            {
-              "label": "Врезные замки (/catalog/zamki-dlya-vhodnyh-dverej/vreznye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
-            },
-            {
-              "label": "Врезные цилиндровые замки (/catalog/zamki-dlya-vhodnyh-dverej/vreznye/cilindrovye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/cilindrovye/"
-            },
-            {
-              "label": "Сувальдные замки (/catalog/zamki-dlya-vhodnyh-dverej/vreznye/suvaldnye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/suvaldnye/"
-            },
-            {
-              "label": "Накладные замки (/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/"
-            },
-            {
-              "label": "Электромеханические и электронные замки (/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
-            },
-            {
-              "label": "Навесные замки (/catalog/zamki-dlya-vhodnyh-dverej/navesnye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
-            },
-            {
-              "label": "Замки для калитки и ворот (/catalog/zamki-dlya-vhodnyh-dverej/dlya-kalitki/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/dlya-kalitki/"
-            },
-            {
-              "label": "Замки для противопожарных дверей (/catalog/zamki-dlya-vhodnyh-dverej/protivopozharnye/)",
-              "value": "/catalog/zamki-dlya-vhodnyh-dverej/protivopozharnye/"
-            },
-            {
-              "label": "Цилиндровые механизмы (личинки) (/catalog/cilindry/)",
-              "value": "/catalog/cilindry/"
-            },
-            {
-              "label": "Цилиндры ключ-ключ (/catalog/cilindry/klyuch-klyuch/)",
-              "value": "/catalog/cilindry/klyuch-klyuch/"
-            },
-            {
-              "label": "Цилиндры ключ-вертушка (/catalog/cilindry/klyuch-vertushka/)",
-              "value": "/catalog/cilindry/klyuch-vertushka/"
-            },
-            {
-              "label": "Цилиндры с перекодировкой (/catalog/cilindry/s-perekodirovkoj/)",
-              "value": "/catalog/cilindry/s-perekodirovkoj/"
-            },
-            {
-              "label": "Броненакладки на цилиндр (/catalog/cilindry/bronenakladki/)",
-              "value": "/catalog/cilindry/bronenakladki/"
-            },
-            {
-              "label": "Поворотники (вертушки) для цилиндров (/catalog/cilindry/povorotniki/)",
-              "value": "/catalog/cilindry/povorotniki/"
-            },
-            {
-              "label": "Дверные петли (/catalog/dvernye-petli/)",
-              "value": "/catalog/dvernye-petli/"
-            },
-            {
-              "label": "Универсальные дверные петли (/catalog/dvernye-petli/universalnye/)",
-              "value": "/catalog/dvernye-petli/universalnye/"
-            },
-            {
-              "label": "Скрытые петли (/catalog/dvernye-petli/skrytye/)",
-              "value": "/catalog/dvernye-petli/skrytye/"
-            },
-            {
-              "label": "Ввертные петли и колпачки (/catalog/dvernye-petli/vvertnye/)",
-              "value": "/catalog/dvernye-petli/vvertnye/"
-            },
-            {
-              "label": "Петли-бабочки (/catalog/dvernye-petli/babochki/)",
-              "value": "/catalog/dvernye-petli/babochki/"
-            },
-            {
-              "label": "Разъёмные петли (левые и правые) (/catalog/dvernye-petli/razemnye/)",
-              "value": "/catalog/dvernye-petli/razemnye/"
-            },
-            {
-              "label": "Пружинные и маятниковые (барные) петли (/catalog/dvernye-petli/pruzhinnye/)",
-              "value": "/catalog/dvernye-petli/pruzhinnye/"
-            },
-            {
-              "label": "Петли для входных и металлических дверей (/catalog/dvernye-petli/dlya-vhodnyh-dverej/)",
-              "value": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/"
-            },
-            {
-              "label": "Петли с доводчиком (/catalog/dvernye-petli/s-dovodchikom/)",
-              "value": "/catalog/dvernye-petli/s-dovodchikom/"
-            },
-            {
-              "label": "Чёрные дверные петли (/catalog/dvernye-petli/chernye/)",
-              "value": "/catalog/dvernye-petli/chernye/"
-            },
-            {
-              "label": "Белые дверные петли (/catalog/dvernye-petli/belye/)",
-              "value": "/catalog/dvernye-petli/belye/"
-            },
-            {
-              "label": "Шаблоны и фрезы для врезки петель и замков (/catalog/dvernye-petli/shablony-i-frezy/)",
-              "value": "/catalog/dvernye-petli/shablony-i-frezy/"
-            },
-            {
-              "label": "Дверные доводчики (/catalog/dovodchiki/)",
-              "value": "/catalog/dovodchiki/"
-            },
-            {
-              "label": "Накладные (верхние) доводчики (/catalog/dovodchiki/nakladnye/)",
-              "value": "/catalog/dovodchiki/nakladnye/"
-            },
-            {
-              "label": "Скрытые доводчики (/catalog/dovodchiki/skrytye/)",
-              "value": "/catalog/dovodchiki/skrytye/"
-            },
-            {
-              "label": "Напольные доводчики (/catalog/dovodchiki/napolnye/)",
-              "value": "/catalog/dovodchiki/napolnye/"
-            },
-            {
-              "label": "Пружинные доводчики (/catalog/dovodchiki/pruzhinnye/)",
-              "value": "/catalog/dovodchiki/pruzhinnye/"
-            },
-            {
-              "label": "Доводчики для стеклянных дверей (/catalog/dovodchiki/dlya-steklyannyh-dverej/)",
-              "value": "/catalog/dovodchiki/dlya-steklyannyh-dverej/"
-            },
-            {
-              "label": "Доводчики с фиксацией открытого положения (/catalog/dovodchiki/s-fiksaciej/)",
-              "value": "/catalog/dovodchiki/s-fiksaciej/"
-            },
-            {
-              "label": "Уличные морозостойкие доводчики (/catalog/dovodchiki/ulichnye/)",
-              "value": "/catalog/dovodchiki/ulichnye/"
-            },
-            {
-              "label": "Раздвижные и складные системы для дверей (/catalog/razdvizhnye-sistemy/)",
-              "value": "/catalog/razdvizhnye-sistemy/"
-            },
-            {
-              "label": "Раздвижные системы для межкомнатных дверей (/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/)",
-              "value": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/"
-            },
-            {
-              "label": "Скрытые раздвижные системы (/catalog/razdvizhnye-sistemy/skrytye/)",
-              "value": "/catalog/razdvizhnye-sistemy/skrytye/"
-            },
-            {
-              "label": "Рото-системы (поворотно-сдвижные) (/catalog/razdvizhnye-sistemy/roto/)",
-              "value": "/catalog/razdvizhnye-sistemy/roto/"
-            },
-            {
-              "label": "Складные системы (дверь-книжка) (/catalog/razdvizhnye-sistemy/knizhka/)",
-              "value": "/catalog/razdvizhnye-sistemy/knizhka/"
-            },
-            {
-              "label": "Пеналы (кассеты) для раздвижных дверей (/catalog/razdvizhnye-sistemy/penaly/)",
-              "value": "/catalog/razdvizhnye-sistemy/penaly/"
-            },
-            {
-              "label": "Раздвижные системы для стеклянных дверей (/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/)",
-              "value": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/"
-            },
-            {
-              "label": "Комплектующие: ролики, направляющие, щётки (/catalog/razdvizhnye-sistemy/komplektuyushchie/)",
-              "value": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
-            },
-            {
-              "label": "Раздвижные системы для тяжёлых дверей (/catalog/razdvizhnye-sistemy/dlya-tyazhelyh-dverej/)",
-              "value": "/catalog/razdvizhnye-sistemy/dlya-tyazhelyh-dverej/"
-            },
-            {
-              "label": "Дверные упоры и ограничители (/catalog/upory-i-ogranichiteli/)",
-              "value": "/catalog/upory-i-ogranichiteli/"
-            },
-            {
-              "label": "Напольные упоры (/catalog/upory-i-ogranichiteli/napolnye/)",
-              "value": "/catalog/upory-i-ogranichiteli/napolnye/"
-            },
-            {
-              "label": "Настенные упоры (/catalog/upory-i-ogranichiteli/nastennye/)",
-              "value": "/catalog/upory-i-ogranichiteli/nastennye/"
-            },
-            {
-              "label": "Магнитные упоры и стопоры (/catalog/upory-i-ogranichiteli/magnitnye/)",
-              "value": "/catalog/upory-i-ogranichiteli/magnitnye/"
-            },
-            {
-              "label": "Скрытые упоры (/catalog/upory-i-ogranichiteli/skrytye/)",
-              "value": "/catalog/upory-i-ogranichiteli/skrytye/"
-            },
-            {
-              "label": "Торцевые упоры (ригели) (/catalog/upory-i-ogranichiteli/torcevye/)",
-              "value": "/catalog/upory-i-ogranichiteli/torcevye/"
-            },
-            {
-              "label": "Чёрные дверные упоры (/catalog/upory-i-ogranichiteli/chernye/)",
-              "value": "/catalog/upory-i-ogranichiteli/chernye/"
-            },
-            {
-              "label": "Задвижки, шпингалеты и засовы (/catalog/zadvizhki-i-shpingalety/)",
-              "value": "/catalog/zadvizhki-i-shpingalety/"
-            },
-            {
-              "label": "Торцевые задвижки (/catalog/zadvizhki-i-shpingalety/torcevye/)",
-              "value": "/catalog/zadvizhki-i-shpingalety/torcevye/"
-            },
-            {
-              "label": "Накладные задвижки и шпингалеты (/catalog/zadvizhki-i-shpingalety/nakladnye/)",
-              "value": "/catalog/zadvizhki-i-shpingalety/nakladnye/"
-            },
-            {
-              "label": "Ночные задвижки (/catalog/zadvizhki-i-shpingalety/nochnye/)",
-              "value": "/catalog/zadvizhki-i-shpingalety/nochnye/"
-            },
-            {
-              "label": "Дверные глазки, цепочки и аксессуары (/catalog/glazki-i-aksessuary/)",
-              "value": "/catalog/glazki-i-aksessuary/"
-            },
-            {
-              "label": "Дверные глазки (/catalog/glazki-i-aksessuary/glazki/)",
-              "value": "/catalog/glazki-i-aksessuary/glazki/"
-            },
-            {
-              "label": "Дверные цепочки (/catalog/glazki-i-aksessuary/cepochki/)",
-              "value": "/catalog/glazki-i-aksessuary/cepochki/"
-            },
-            {
-              "label": "Дверные стучалки (молотки) (/catalog/glazki-i-aksessuary/stuchalki/)",
-              "value": "/catalog/glazki-i-aksessuary/stuchalki/"
-            },
-            {
-              "label": "Автопороги и уплотнители (/catalog/avtoporogi-i-uplotniteli/)",
-              "value": "/catalog/avtoporogi-i-uplotniteli/"
-            },
-            {
-              "label": "Автопороги (умные пороги) (/catalog/avtoporogi-i-uplotniteli/avtoporogi/)",
-              "value": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
-            },
-            {
-              "label": "Уплотнители для дверей (/catalog/avtoporogi-i-uplotniteli/uplotniteli/)",
-              "value": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/"
-            },
-            {
-              "label": "Шумоизоляционные щётки (/catalog/avtoporogi-i-uplotniteli/shchetki/)",
-              "value": "/catalog/avtoporogi-i-uplotniteli/shchetki/"
-            },
-            {
-              "label": "Фурнитура для стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/"
-            },
-            {
-              "label": "Петли для стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/petli/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/"
-            },
-            {
-              "label": "Замки и защёлки для стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/zamki/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/"
-            },
-            {
-              "label": "Комплекты фурнитуры для распашных стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/"
-            },
-            {
-              "label": "Ответные части и фиксаторы для стекла (/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/)",
-              "value": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/"
-            },
-            {
-              "label": "Оконная фурнитура (/catalog/okonnaya-furnitura/)",
-              "value": "/catalog/okonnaya-furnitura/"
-            },
-            {
-              "label": "Оконные ручки (/catalog/okonnaya-furnitura/okonnye-ruchki/)",
-              "value": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
-            },
-            {
-              "label": "Оконные ручки с ключом (/catalog/okonnaya-furnitura/okonnye-ruchki/s-klyuchom/)",
-              "value": "/catalog/okonnaya-furnitura/okonnye-ruchki/s-klyuchom/"
-            },
-            {
-              "label": "Балконные ручки (/catalog/okonnaya-furnitura/balkonnye-ruchki/)",
-              "value": "/catalog/okonnaya-furnitura/balkonnye-ruchki/"
-            },
-            {
-              "label": "Мебельная фурнитура (/catalog/mebelnaya-furnitura/)",
-              "value": "/catalog/mebelnaya-furnitura/"
-            },
-            {
-              "label": "Мебельные ручки (/catalog/mebelnaya-furnitura/mebelnye-ruchki/)",
-              "value": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
-            },
-            {
-              "label": "Мебельные петли (/catalog/mebelnaya-furnitura/mebelnye-petli/)",
-              "value": "/catalog/mebelnaya-furnitura/mebelnye-petli/"
-            },
-            {
-              "label": "Мебельные замки (/catalog/mebelnaya-furnitura/mebelnye-zamki/)",
-              "value": "/catalog/mebelnaya-furnitura/mebelnye-zamki/"
-            },
-            {
-              "label": "Мебельные крючки (/catalog/mebelnaya-furnitura/kryuchki/)",
-              "value": "/catalog/mebelnaya-furnitura/kryuchki/"
-            },
-            {
               "label": "Комплекты фурнитуры на дверь (/catalog/komplekty-furnitury/)",
               "value": "/catalog/komplekty-furnitury/"
-            },
-            {
-              "label": "Ремкомплекты и запчасти (/catalog/remkomplekty-i-zapchasti/)",
-              "value": "/catalog/remkomplekty-i-zapchasti/"
             },
             {
               "label": "Дверная фурнитура Morelli (/brands/morelli/)",
@@ -2234,6 +2069,10 @@
             {
               "label": "Фурнитура для дверей ванной и туалета (/furnitura-dlya-vannoy-i-tualeta/)",
               "value": "/furnitura-dlya-vannoy-i-tualeta/"
+            },
+            {
+              "label": "Каталог: корневая страница (/catalog/)",
+              "value": "/catalog/"
             }
           ],
           "required": true,
@@ -2243,8 +2082,8 @@
           "name": "title",
           "label": "Title (заголовок вкладки и сниппета)",
           "widget": "string",
-          "required": false,
-          "hint": "До 70 знаков. Если пусто, подставится заголовок из реестра"
+          "required": true,
+          "hint": "Обязательное поле. До 70 знаков. Название магазина « | Всё для дверей» дописывается автоматически, если итог не длиннее 70 знаков"
         },
         {
           "name": "description",
@@ -2308,7 +2147,7 @@
                   "name": "md",
                   "label": "Текст",
                   "widget": "markdown",
-                  "required": true,
+                  "required": false,
                   "buttons": [
                     "bold",
                     "italic",
@@ -2344,7 +2183,7 @@
                       "name": "title",
                       "label": "Заголовок",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "text",
@@ -2386,7 +2225,8 @@
                       "required": false,
                       "default": "check"
                     }
-                  ]
+                  ],
+                  "required": false
                 }
               ]
             },
@@ -2404,7 +2244,7 @@
                   "name": "head",
                   "label": "Шапка таблицы",
                   "widget": "string",
-                  "required": true,
+                  "required": false,
                   "hint": "Колонки через вертикальную черту: Параметр | Значение"
                 },
                 {
@@ -2418,7 +2258,8 @@
                     "widget": "string",
                     "required": false,
                     "hint": "Ячейки через вертикальную черту: В пределах МКАД | 500 ₽"
-                  }
+                  },
+                  "required": false
                 },
                 {
                   "name": "note",
@@ -2449,7 +2290,7 @@
                       "name": "title",
                       "label": "Название шага",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "text",
@@ -2457,7 +2298,8 @@
                       "widget": "text",
                       "required": false
                     }
-                  ]
+                  ],
+                  "required": false
                 }
               ]
             },
@@ -2481,7 +2323,8 @@
                     "label": "Пункт",
                     "widget": "string",
                     "required": false
-                  }
+                  },
+                  "required": false
                 }
               ]
             },
@@ -2516,7 +2359,7 @@
                   "name": "text",
                   "label": "Текст",
                   "widget": "text",
-                  "required": true
+                  "required": false
                 }
               ]
             },
@@ -2541,15 +2384,16 @@
                       "name": "value",
                       "label": "Значение",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "label",
                       "label": "Подпись",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     }
-                  ]
+                  ],
+                  "required": false
                 }
               ]
             },
@@ -2580,16 +2424,17 @@
                       "name": "label",
                       "label": "Подпись",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "value",
                       "label": "Число",
                       "widget": "number",
                       "value_type": "float",
-                      "required": true
+                      "required": false
                     }
-                  ]
+                  ],
+                  "required": false
                 },
                 {
                   "name": "note",
@@ -2626,23 +2471,24 @@
                       "name": "label",
                       "label": "Подпись",
                       "widget": "string",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "from",
                       "label": "От",
                       "widget": "number",
                       "value_type": "float",
-                      "required": true
+                      "required": false
                     },
                     {
                       "name": "to",
                       "label": "До",
                       "widget": "number",
                       "value_type": "float",
-                      "required": true
+                      "required": false
                     }
-                  ]
+                  ],
+                  "required": false
                 },
                 {
                   "name": "note",
@@ -2667,15 +2513,37 @@
               "name": "q",
               "label": "Вопрос",
               "widget": "string",
-              "required": true
+              "required": false
             },
             {
               "name": "a",
               "label": "Ответ",
               "widget": "text",
-              "required": true
+              "required": false
             }
           ]
+        },
+        {
+          "name": "noindex",
+          "label": "Закрыть от индексации (noindex)",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Страница останется на сайте, но поисковики её не покажут"
+        },
+        {
+          "name": "canonical",
+          "label": "Canonical (адрес основной версии страницы)",
+          "widget": "string",
+          "required": false,
+          "hint": "Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…"
+        },
+        {
+          "name": "ogImage",
+          "label": "Картинка для соцсетей (og:image)",
+          "widget": "image",
+          "required": false,
+          "hint": "Если пусто, берётся фото товара или раздела"
         }
       ]
     },
@@ -2688,20 +2556,15 @@
       "format": "json",
       "extension": "json",
       "identifier_field": "name",
-      "slug": "{{fields.slug}}",
+      "slug": {
+        "template": "{{name}}",
+        "editable": true,
+        "hint": "Адрес страницы бренда /brands/<адрес>/. У существующих брендов не менять: на него ссылаются товары"
+      },
+      "preview_path": "go/brands/{{slug}}/",
       "summary": "{{name}}",
-      "description": "Страница бренда: справка, текст, серии, подразделы «бренд × категория». Чтобы бренд появился в меню и фильтрах, добавьте его также в «Настройки → Каталог и бренды».",
+      "description": "Страница бренда: справка, текст, серии, подразделы «бренд × категория». Чтобы новый бренд появился в фильтрах и на главной, добавьте его также в «Настройки → Каталог и бренды».",
       "fields": [
-        {
-          "name": "slug",
-          "label": "Адрес (slug)",
-          "widget": "string",
-          "required": true,
-          "pattern": [
-            "^[a-z0-9]+(-[a-z0-9]+)*$",
-            "Только латиница, цифры и дефисы"
-          ]
-        },
         {
           "name": "name",
           "label": "Название",
@@ -2735,10 +2598,10 @@
         },
         {
           "name": "title",
-          "label": "Title (заголовок вкладки и сниппета)",
+          "label": "Title (заголовок вкладки)",
           "widget": "string",
           "required": false,
-          "hint": "До 70 знаков. Если пусто, подставится заголовок из реестра"
+          "hint": "Если пусто, собирается из названия"
         },
         {
           "name": "description",
@@ -2843,14 +2706,14 @@
                   "value": "zavertki-i-nakladki"
                 }
               ],
-              "required": true
+              "required": false
             },
             {
               "name": "title",
-              "label": "Title (заголовок вкладки и сниппета)",
+              "label": "Title (заголовок вкладки)",
               "widget": "string",
               "required": false,
-              "hint": "До 70 знаков. Если пусто, подставится заголовок из реестра"
+              "hint": "Если пусто, собирается из названия"
             },
             {
               "name": "description",
@@ -2883,6 +2746,28 @@
               "editor_components": []
             }
           ]
+        },
+        {
+          "name": "noindex",
+          "label": "Закрыть от индексации (noindex)",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Страница останется на сайте, но поисковики её не покажут"
+        },
+        {
+          "name": "canonical",
+          "label": "Canonical (адрес основной версии страницы)",
+          "widget": "string",
+          "required": false,
+          "hint": "Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…"
+        },
+        {
+          "name": "ogImage",
+          "label": "Картинка для соцсетей (og:image)",
+          "widget": "image",
+          "required": false,
+          "hint": "Если пусто, берётся фото товара или раздела"
         }
       ]
     },
@@ -2895,16 +2780,14 @@
       "format": "json",
       "extension": "json",
       "identifier_field": "name",
-      "slug": "{{fields.slug}}",
+      "slug": {
+        "template": "{{name}}",
+        "editable": true
+      },
+      "preview_path": "go/series/{{slug}}/",
       "summary": "{{name}}",
-      "description": "Тексты страниц серий (/series/…). Какие товары попадают в серию, определяется правилом по названию модели; новые серии нужно согласовать с разработчиком.",
+      "description": "Тексты страниц серий (/series/…). Какие товары попадают в серию, определяется правилом по названию модели; для новой серии напишите нам, добавим правило.",
       "fields": [
-        {
-          "name": "slug",
-          "label": "Адрес (slug)",
-          "widget": "string",
-          "required": true
-        },
         {
           "name": "name",
           "label": "Название",
@@ -2914,105 +2797,23 @@
         {
           "name": "brand",
           "label": "Бренд",
-          "widget": "select",
-          "options": [
-            {
-              "label": "Colombo Design",
-              "value": "colombo-design"
-            },
-            {
-              "label": "TUPAI",
-              "value": "tupai"
-            },
-            {
-              "label": "Morelli",
-              "value": "morelli"
-            },
-            {
-              "label": "FUARO",
-              "value": "fuaro"
-            },
-            {
-              "label": "PUNTO",
-              "value": "punto"
-            },
-            {
-              "label": "Armadillo",
-              "value": "armadillo"
-            },
-            {
-              "label": "AGB",
-              "value": "agb"
-            },
-            {
-              "label": "Krona Koblenz",
-              "value": "krona-koblenz"
-            },
-            {
-              "label": "Fratelli Cattini",
-              "value": "fratelli-cattini"
-            },
-            {
-              "label": "FANTOM",
-              "value": "fantom"
-            },
-            {
-              "label": "Verum",
-              "value": "verum"
-            },
-            {
-              "label": "AJAX",
-              "value": "ajax"
-            },
-            {
-              "label": "CLASS",
-              "value": "class"
-            },
-            {
-              "label": "Extreza",
-              "value": "extreza"
-            },
-            {
-              "label": "Otlav",
-              "value": "otlav"
-            },
-            {
-              "label": "LockStyle",
-              "value": "lockstyle"
-            },
-            {
-              "label": "VENEZIA",
-              "value": "venezia"
-            },
-            {
-              "label": "FORME",
-              "value": "forme"
-            },
-            {
-              "label": "Pamar",
-              "value": "pamar"
-            },
-            {
-              "label": "MELODIA",
-              "value": "melodia"
-            },
-            {
-              "label": "Comaglio",
-              "value": "comaglio"
-            },
-            {
-              "label": "Porta di Parma",
-              "value": "porta-di-parma"
-            }
+          "widget": "relation",
+          "collection": "brands",
+          "value_field": "{{slug}}",
+          "search_fields": [
+            "name"
           ],
-          "required": true
+          "display_fields": [
+            "{{name}}"
+          ],
+          "required": false
         },
         {
           "name": "title",
-          "label": "Title (заголовок вкладки и сниппета)",
+          "label": "Title (заголовок вкладки)",
           "widget": "string",
           "required": false,
-          "hint": "До 70 знаков. Если пусто, подставится заголовок из реестра"
+          "hint": "Если пусто, собирается из названия"
         },
         {
           "name": "description",
@@ -3037,6 +2838,28 @@
             "quote"
           ],
           "editor_components": []
+        },
+        {
+          "name": "noindex",
+          "label": "Закрыть от индексации (noindex)",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Страница останется на сайте, но поисковики её не покажут"
+        },
+        {
+          "name": "canonical",
+          "label": "Canonical (адрес основной версии страницы)",
+          "widget": "string",
+          "required": false,
+          "hint": "Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…"
+        },
+        {
+          "name": "ogImage",
+          "label": "Картинка для соцсетей (og:image)",
+          "widget": "image",
+          "required": false,
+          "hint": "Если пусто, берётся фото товара или раздела"
         }
       ]
     },
@@ -3048,25 +2871,47 @@
       "create": true,
       "format": "json",
       "extension": "json",
-      "identifier_field": "h1",
-      "slug": "{{fields.slug}}",
-      "summary": "{{h1}}",
+      "identifier_field": "title",
+      "slug": {
+        "template": "{{title}}",
+        "editable": true
+      },
+      "preview_path": "go/articles/{{slug}}/",
+      "summary": "{{title}}",
       "sortable_fields": [
         "order",
         "date",
-        "h1"
+        "title"
       ],
       "description": "Статьи блога. Адрес статьи /blog/<slug>/. Новая статья появляется в списке и на главной сразу после публикации.",
       "fields": [
         {
-          "name": "slug",
-          "label": "Адрес (slug)",
+          "name": "title",
+          "label": "Title (заголовок вкладки и сниппета)",
           "widget": "string",
           "required": true,
-          "pattern": [
-            "^[a-z0-9]+(-[a-z0-9]+)*$",
-            "Только латиница, цифры и дефисы"
-          ]
+          "hint": "Обязательное поле. До 70 знаков. Название магазина « | Всё для дверей» дописывается автоматически, если итог не длиннее 70 знаков"
+        },
+        {
+          "name": "description",
+          "label": "Description (описание для поиска)",
+          "widget": "text",
+          "required": false,
+          "hint": "120–160 знаков"
+        },
+        {
+          "name": "h1",
+          "label": "Заголовок H1",
+          "widget": "string",
+          "required": false,
+          "hint": "Если пусто, берётся Title"
+        },
+        {
+          "name": "slug",
+          "label": "Адрес страницы (URL)",
+          "widget": "string",
+          "required": false,
+          "hint": "Адрес статьи: /blog/<адрес>/. Если пусто, формируется из Title транслитом"
         },
         {
           "name": "order",
@@ -3079,54 +2924,18 @@
         {
           "name": "hub",
           "label": "Рубрика",
-          "widget": "select",
-          "options": [
-            {
-              "label": "Ручки",
-              "value": "ruchki"
-            },
-            {
-              "label": "Замки",
-              "value": "zamki"
-            },
-            {
-              "label": "Петли",
-              "value": "petli"
-            },
-            {
-              "label": "Доводчики",
-              "value": "dovodchiki"
-            },
-            {
-              "label": "Раздвижные системы",
-              "value": "razdvizhnye-sistemy"
-            },
-            {
-              "label": "Окна",
-              "value": "okna"
-            }
+          "widget": "relation",
+          "collection": "blog-hubs",
+          "value_field": "{{slug}}",
+          "search_fields": [
+            "title",
+            "h1"
           ],
-          "required": true
-        },
-        {
-          "name": "title",
-          "label": "Title (заголовок вкладки и сниппета)",
-          "widget": "string",
+          "display_fields": [
+            "{{title}}"
+          ],
           "required": false,
-          "hint": "До 70 знаков. Если пусто, подставится заголовок из реестра"
-        },
-        {
-          "name": "description",
-          "label": "Description (описание для поиска)",
-          "widget": "text",
-          "required": false,
-          "hint": "120–160 знаков"
-        },
-        {
-          "name": "h1",
-          "label": "Заголовок",
-          "widget": "string",
-          "required": true
+          "hint": "Новая рубрика создаётся в «Рубрики блога»"
         },
         {
           "name": "date",
@@ -3155,7 +2964,7 @@
           "name": "body",
           "label": "Текст статьи",
           "widget": "markdown",
-          "required": true,
+          "required": false,
           "buttons": [
             "bold",
             "italic",
@@ -3182,13 +2991,13 @@
               "name": "q",
               "label": "Вопрос",
               "widget": "string",
-              "required": true
+              "required": false
             },
             {
               "name": "a",
               "label": "Ответ",
               "widget": "text",
-              "required": true
+              "required": false
             }
           ]
         },
@@ -3937,6 +3746,28 @@
           "required": false,
           "multiple": true,
           "hint": "Статья будет предлагаться в карточках товаров этих разделов"
+        },
+        {
+          "name": "noindex",
+          "label": "Закрыть от индексации (noindex)",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Страница останется на сайте, но поисковики её не покажут"
+        },
+        {
+          "name": "canonical",
+          "label": "Canonical (адрес основной версии страницы)",
+          "widget": "string",
+          "required": false,
+          "hint": "Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…"
+        },
+        {
+          "name": "ogImage",
+          "label": "Картинка для соцсетей (og:image)",
+          "widget": "image",
+          "required": false,
+          "hint": "Если пусто, берётся фото товара или раздела"
         }
       ]
     },
@@ -3950,6 +3781,7 @@
       "extension": "json",
       "identifier_field": "h1",
       "slug": "{{fields.url}}",
+      "preview_path": "go/service/{{slug}}/",
       "summary": "{{h1}} · {{url}}",
       "description": "Доставка, оплата, гарантия, шоурум, вопросы и ответы. Страницы «Оптовикам», «Дизайнерам», «Производителям дверей» сейчас отключены и не публикуются, тексты сохранены на будущее.",
       "fields": [
@@ -4009,8 +3841,8 @@
           "name": "title",
           "label": "Title (заголовок вкладки и сниппета)",
           "widget": "string",
-          "required": false,
-          "hint": "До 70 знаков. Если пусто, подставится заголовок из реестра"
+          "required": true,
+          "hint": "Обязательное поле. До 70 знаков. Название магазина « | Всё для дверей» дописывается автоматически, если итог не длиннее 70 знаков"
         },
         {
           "name": "description",
@@ -4021,15 +3853,15 @@
         },
         {
           "name": "h1",
-          "label": "Заголовок",
+          "label": "Заголовок H1",
           "widget": "string",
-          "required": true
+          "required": false
         },
         {
           "name": "body",
           "label": "Текст",
           "widget": "markdown",
-          "required": true,
+          "required": false,
           "buttons": [
             "bold",
             "italic",
@@ -4056,15 +3888,37 @@
               "name": "q",
               "label": "Вопрос",
               "widget": "string",
-              "required": true
+              "required": false
             },
             {
               "name": "a",
               "label": "Ответ",
               "widget": "text",
-              "required": true
+              "required": false
             }
           ]
+        },
+        {
+          "name": "noindex",
+          "label": "Закрыть от индексации (noindex)",
+          "widget": "boolean",
+          "default": false,
+          "required": false,
+          "hint": "Страница останется на сайте, но поисковики её не покажут"
+        },
+        {
+          "name": "canonical",
+          "label": "Canonical (адрес основной версии страницы)",
+          "widget": "string",
+          "required": false,
+          "hint": "Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…"
+        },
+        {
+          "name": "ogImage",
+          "label": "Картинка для соцсетей (og:image)",
+          "widget": "image",
+          "required": false,
+          "hint": "Если пусто, берётся фото товара или раздела"
         }
       ]
     },
@@ -4097,7 +3951,7 @@
                   "name": "name",
                   "label": "Имя",
                   "widget": "string",
-                  "required": true
+                  "required": false
                 },
                 {
                   "name": "city",
@@ -4119,7 +3973,7 @@
                   "label": "Оценка (1–5)",
                   "widget": "number",
                   "value_type": "int",
-                  "required": true,
+                  "required": false,
                   "min": 1,
                   "max": 5
                 },
@@ -4140,7 +3994,7 @@
                   "name": "text",
                   "label": "Текст отзыва",
                   "widget": "text",
-                  "required": true
+                  "required": false
                 }
               ]
             }
@@ -4162,19 +4016,19 @@
               "name": "brand",
               "label": "Название магазина",
               "widget": "string",
-              "required": true
+              "required": false
             },
             {
               "name": "domain",
               "label": "Домен",
               "widget": "string",
-              "required": true
+              "required": false
             },
             {
               "name": "legalName",
               "label": "Юридическое лицо",
               "widget": "string",
-              "required": true
+              "required": false
             },
             {
               "name": "inn",
@@ -4204,7 +4058,7 @@
               "name": "phoneMain",
               "label": "Телефон",
               "widget": "string",
-              "required": true
+              "required": false
             },
             {
               "name": "phoneMainNote",
@@ -4231,7 +4085,7 @@
                   "name": "name",
                   "label": "Название",
                   "widget": "string",
-                  "required": true
+                  "required": false
                 },
                 {
                   "name": "url",
@@ -4287,15 +4141,18 @@
                   "name": "lat",
                   "label": "Широта",
                   "widget": "number",
-                  "value_type": "float"
+                  "value_type": "float",
+                  "required": false
                 },
                 {
                   "name": "lon",
                   "label": "Долгота",
                   "widget": "number",
-                  "value_type": "float"
+                  "value_type": "float",
+                  "required": false
                 }
-              ]
+              ],
+              "required": false
             },
             {
               "name": "showroomBrands",
@@ -4405,14 +4262,14 @@
                   "name": "d",
                   "label": "Дни",
                   "widget": "string",
-                  "required": true,
+                  "required": false,
                   "hint": "Пн–Пт"
                 },
                 {
                   "name": "t",
                   "label": "Часы",
                   "widget": "string",
-                  "required": true,
+                  "required": false,
                   "hint": "10:00–19:00 или «выходной»"
                 }
               ],
@@ -4447,7 +4304,8 @@
                   "widget": "string",
                   "required": false
                 }
-              ]
+              ],
+              "required": false
             },
             {
               "name": "delivery",
@@ -4490,7 +4348,8 @@
                   "required": false
                 }
               ],
-              "hint": "Текст страницы «Доставка» правится отдельно в «Информационных страницах»"
+              "hint": "Текст страницы «Доставка» правится отдельно в «Информационных страницах»",
+              "required": false
             },
             {
               "name": "prepayOnOrder",
@@ -4595,7 +4454,7 @@
                   "name": "title",
                   "label": "Заголовок",
                   "widget": "string",
-                  "required": true
+                  "required": false
                 },
                 {
                   "name": "text",
@@ -5366,7 +5225,8 @@
                   "required": false,
                   "hint": "/catalog/dvernye-petli/skrytye/ или слово showroom"
                 }
-              ]
+              ],
+              "required": false
             },
             {
               "name": "promo",
@@ -5413,7 +5273,7 @@
                   "name": "title",
                   "label": "Заголовок",
                   "widget": "string",
-                  "required": true
+                  "required": false
                 },
                 {
                   "name": "text",
@@ -6165,7 +6025,8 @@
                   ],
                   "required": false
                 }
-              ]
+              ],
+              "required": false
             },
             {
               "name": "services",
@@ -6212,7 +6073,7 @@
                   "name": "title",
                   "label": "Заголовок",
                   "widget": "string",
-                  "required": true
+                  "required": false
                 },
                 {
                   "name": "text",
@@ -6220,7 +6081,8 @@
                   "widget": "string",
                   "required": false
                 }
-              ]
+              ],
+              "required": false
             },
             {
               "name": "showroom",
@@ -6245,7 +6107,8 @@
                   "widget": "string",
                   "required": false
                 }
-              ]
+              ],
+              "required": false
             },
             {
               "name": "lead",
@@ -6270,7 +6133,8 @@
                   "widget": "string",
                   "required": false
                 }
-              ]
+              ],
+              "required": false
             },
             {
               "name": "aside",
@@ -7039,145 +6903,17 @@
                   ],
                   "required": false
                 }
-              ]
+              ],
+              "required": false
             }
           ]
         },
         {
           "name": "catalog",
-          "label": "Каталог и бренды (меню, порядок)",
+          "label": "Бренды (список, порядок, уровень)",
           "file": "src/cms/settings/catalog.json",
           "format": "json",
           "fields": [
-            {
-              "name": "categories",
-              "label": "Разделы в левом меню",
-              "label_singular": "Раздел",
-              "widget": "list",
-              "summary": "{{fields.name}}",
-              "fields": [
-                {
-                  "name": "url",
-                  "label": "Раздел",
-                  "widget": "select",
-                  "options": [
-                    {
-                      "label": "Каталог дверной фурнитуры (/catalog/)",
-                      "value": "/catalog/"
-                    },
-                    {
-                      "label": "Дверные ручки (/catalog/dvernye-ruchki/)",
-                      "value": "/catalog/dvernye-ruchki/"
-                    },
-                    {
-                      "label": "WC-завертки и накладки (/catalog/zavertki-i-nakladki/)",
-                      "value": "/catalog/zavertki-i-nakladki/"
-                    },
-                    {
-                      "label": "Замки и защёлки для межкомнатных дверей (/catalog/mezhkomnatnye-zamki/)",
-                      "value": "/catalog/mezhkomnatnye-zamki/"
-                    },
-                    {
-                      "label": "Замки для входных дверей (/catalog/zamki-dlya-vhodnyh-dverej/)",
-                      "value": "/catalog/zamki-dlya-vhodnyh-dverej/"
-                    },
-                    {
-                      "label": "Цилиндровые механизмы (личинки) (/catalog/cilindry/)",
-                      "value": "/catalog/cilindry/"
-                    },
-                    {
-                      "label": "Дверные петли (/catalog/dvernye-petli/)",
-                      "value": "/catalog/dvernye-petli/"
-                    },
-                    {
-                      "label": "Дверные доводчики (/catalog/dovodchiki/)",
-                      "value": "/catalog/dovodchiki/"
-                    },
-                    {
-                      "label": "Раздвижные и складные системы для дверей (/catalog/razdvizhnye-sistemy/)",
-                      "value": "/catalog/razdvizhnye-sistemy/"
-                    },
-                    {
-                      "label": "Дверные упоры и ограничители (/catalog/upory-i-ogranichiteli/)",
-                      "value": "/catalog/upory-i-ogranichiteli/"
-                    },
-                    {
-                      "label": "Задвижки, шпингалеты и засовы (/catalog/zadvizhki-i-shpingalety/)",
-                      "value": "/catalog/zadvizhki-i-shpingalety/"
-                    },
-                    {
-                      "label": "Дверные глазки, цепочки и аксессуары (/catalog/glazki-i-aksessuary/)",
-                      "value": "/catalog/glazki-i-aksessuary/"
-                    },
-                    {
-                      "label": "Автопороги и уплотнители (/catalog/avtoporogi-i-uplotniteli/)",
-                      "value": "/catalog/avtoporogi-i-uplotniteli/"
-                    },
-                    {
-                      "label": "Фурнитура для стеклянных дверей (/catalog/furnitura-dlya-steklyannyh-dverej/)",
-                      "value": "/catalog/furnitura-dlya-steklyannyh-dverej/"
-                    },
-                    {
-                      "label": "Оконная фурнитура (/catalog/okonnaya-furnitura/)",
-                      "value": "/catalog/okonnaya-furnitura/"
-                    },
-                    {
-                      "label": "Мебельная фурнитура (/catalog/mebelnaya-furnitura/)",
-                      "value": "/catalog/mebelnaya-furnitura/"
-                    },
-                    {
-                      "label": "Комплекты фурнитуры на дверь (/catalog/komplekty-furnitury/)",
-                      "value": "/catalog/komplekty-furnitury/"
-                    },
-                    {
-                      "label": "Ремкомплекты и запчасти (/catalog/remkomplekty-i-zapchasti/)",
-                      "value": "/catalog/remkomplekty-i-zapchasti/"
-                    }
-                  ],
-                  "required": true
-                },
-                {
-                  "name": "name",
-                  "label": "Название в меню",
-                  "widget": "string",
-                  "required": true
-                },
-                {
-                  "name": "icon",
-                  "label": "Иконка",
-                  "widget": "select",
-                  "options": [
-                    "handle",
-                    "rosette",
-                    "lock",
-                    "padlock",
-                    "cylinder",
-                    "hinge",
-                    "closer",
-                    "slide",
-                    "stop",
-                    "bolt",
-                    "eye",
-                    "seal",
-                    "glass",
-                    "window",
-                    "furniture",
-                    "kit",
-                    "truck",
-                    "shield",
-                    "store",
-                    "check",
-                    "box",
-                    "percent",
-                    "search",
-                    "cart",
-                    "chat"
-                  ],
-                  "required": false,
-                  "default": "check"
-                }
-              ]
-            },
             {
               "name": "brands",
               "label": "Бренды (порядок и уровень)",
@@ -7189,14 +6925,14 @@
                   "name": "slug",
                   "label": "Slug бренда",
                   "widget": "string",
-                  "required": true,
+                  "required": false,
                   "hint": "Совпадает с адресом страницы бренда"
                 },
                 {
                   "name": "name",
                   "label": "Название",
                   "widget": "string",
-                  "required": true
+                  "required": false
                 },
                 {
                   "name": "tier",
@@ -7219,7 +6955,8 @@
                   "required": false,
                   "default": "B"
                 }
-              ]
+              ],
+              "required": false
             },
             {
               "name": "launchBrands",

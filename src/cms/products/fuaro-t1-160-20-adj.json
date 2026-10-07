@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "T1",
   "order": 92,
-  "category": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-petli--dlya-vhodnyh-dverej",
   "article": "T1/160-20 ADJ",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Подойдёт ли для калитки?",
       "a": "Да, модель заявлена для металлических входных дверей и калиток."
     }
-  ],
-  "sourceUrl": "https://magazin-krepost.ru/dvernaya-furnitura/petlya-privarnaya-t1160-20-adj-s-podshipnikom-reguliruemaya"
+  ]
 }

@@ -24,7 +24,7 @@ const fallback = legal
   : `Раздел в подготовке. Телефон: ${PHONE}.`;
 ---
 {type === 'door-type' ? <SectionPage url={url} /> : (
-  <Base title={s?.title || `${h1} | ${SITE_NAME}`} description={s?.description || h1} path={url} crumbs={crumbs} noindex={legal}>
+  <Base title={s?.title || `${h1} | ${SITE_NAME}`} description={s?.description || h1} path={url} crumbs={crumbs} noindex={legal || !!(s as any)?.noindex} canonicalUrl={(s as any)?.canonical} image={(s as any)?.ogImage}>
     <div class="wrap">
       <div class="page-head"><h1>{s?.h1 || h1}</h1></div>
       <section class="section" style="padding-top:0"><Prose md={s?.body || fallback} /></section>

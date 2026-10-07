@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Spinoff Basic",
   "order": 66,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "KM 003",
   "hidden": false,
   "hiddenNote": "",
@@ -144,6 +144,5 @@
       "q": "Чем Basic отличается от Evolution и Pro?",
       "a": "Basic со стандартным ходом ручки и штульпом на видимых саморезах. Evolution добавляет плавный микролифт ручки, Pro прячет крепёж под магнитной накладкой."
     }
-  ],
-  "sourceUrl": "https://kronakoblenz.ru/produkt/spinoff-basic-zamok-dlya-vannoy"
+  ]
 }

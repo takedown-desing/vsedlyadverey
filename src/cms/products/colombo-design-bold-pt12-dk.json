@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Bold",
   "order": 496,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "PT12 DK/SM",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Как ухаживать за хромом?",
       "a": "Протирайте мягкой влажной тканью, известковый налёт снимайте слабым раствором уксуса и сразу вытирайте насухо. Абразивы оставляют царапины, особенно на глянце."
     }
-  ],
-  "sourceUrl": "https://alfasantehnika.ru/catalog/accessories6723/31024/"
+  ]
 }

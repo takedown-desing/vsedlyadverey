@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "SOHO",
   "order": 260,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "R.URS52.SOHO",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Какие покрытия у SOHO?",
       "a": "Медь, чёрный, флорентийское золото и итальянский тиснёный."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-razdelnaya-r-urs52-soho-ac-9-med/"
+  ]
 }

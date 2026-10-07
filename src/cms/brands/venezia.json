@@ -1,5 +1,4 @@
 {
-  "slug": "venezia",
   "name": "VENEZIA",
   "country": "Италия",
   "founded": "1965",
@@ -26,5 +25,8 @@
       "lead": "VENEZIA - одна из самых узнаваемых марок латунной классики на российском рынке.",
       "text": "Классические ручки VENEZIA отливают из латуни: Carnevale, Vivaldi, Lucrecia, Colosseo, Monte Cristo, Castello, Olimpo и Opera выпускаются на розетке и на планке, к ним есть скобы и молотки. Линия Venezia Unique предлагает современные формы: Slim на розетке 10 мм, Stone и Biblo Ceramica со вставками, Fly Cristalli с кристаллами.\n\nПокрытия: полированная латунь, хром, бронзы, серебро, французское золото, чёрный soft, белый. К ручкам в тон подбираются завертки, накладки, петли и ручки-купе VENEZIA."
     }
-  ]
+  ],
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

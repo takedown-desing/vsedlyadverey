@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "BELLA",
   "order": 263,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "R.CL55.BELLA CL2",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Сколько весит ручка в сборе?",
       "a": "1277 г."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-r-cl55-bella-bella-cl2-2/"
+  ]
 }

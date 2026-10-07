@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Polaris Wave",
   "order": 73,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "B06132.50",
   "hidden": false,
   "hiddenNote": "",
@@ -141,6 +141,5 @@
       "q": "Какую ручку и фиксатор взять к замку?",
       "a": "Ручку с квадратом 8 мм и WC-фиксатор с квадратом 6 мм, рассчитанные на межосевое 96 мм."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zashchelki_/bez_ruchek_v_komplekte_/polaris_wave/b06132_50/b06132_50_34_zamok_mezhk_wc_mat_khrom_tekh_up_bez_otv_pl_polaris_wave/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "V10",
   "order": 118,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--vreznye",
   "article": "MDV812/S-60.00.3R14 4key",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Нужно ли менять сторону?",
       "a": "Замок универсален, переставлять не требуется."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/vreznye-zamki/zamok-vreznoy-suvaldnyy-mdv812-s-60-00-3r14-4key/"
+  ]
 }

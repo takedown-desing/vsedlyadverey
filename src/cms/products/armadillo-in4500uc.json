@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Urban",
   "order": 315,
-  "category": "/catalog/dvernye-petli/universalnye/",
+  "category": "catalog--dvernye-petli--universalnye",
   "article": "IN4500UC-BL",
   "hidden": false,
   "hiddenNote": "",
@@ -162,6 +162,5 @@
       "q": "Петля универсальная?",
       "a": "Да, она ставится на левые и правые двери."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-armadillo-armadillo-universalnaya-in4500uc-bl-cp-100x75x3-inox304-hrom-blister.html"
+  ]
 }

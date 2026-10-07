@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "ANTI-PANIC",
   "order": 245,
-  "category": "/catalog/dvernye-ruchki/antipanika/",
+  "category": "catalog--dvernye-ruchki--antipanika",
   "article": "1700A",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Какой цвет у штанги?",
       "a": "Серебристый."
     }
-  ],
-  "sourceUrl": "https://www.moyzamok.ru/item11740"
+  ]
 }

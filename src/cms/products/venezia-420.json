@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 372,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "420",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Чем 420 отличается от Venezia 1712?",
       "a": "У 420 ход до 13 мм, шумоизоляция 34 дБ и одна регулировка. 1712 опускает уплотнитель на 18 мм, глушит до 44 дБ и компенсирует перекос пола."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/avtomaticheskij-porog-vreznoj-venezia-420-930-730-mm-34-db-regulirovka-1-uroven/"
+  ]
 }

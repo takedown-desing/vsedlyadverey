@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 284,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "MN 295 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Какая гарантия?",
       "a": "Производитель даёт гарантию 1 год."
     }
-  ],
-  "sourceUrl": "https://www.mirar-group.ru/product/ruchka-dlya-razdvizhnykh-dverei-pamar-mn-295-z/"
+  ]
 }

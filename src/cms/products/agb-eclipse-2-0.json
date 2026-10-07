@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Eclipse",
   "order": 305,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "E30200.03",
   "hidden": false,
   "hiddenNote": "",
@@ -155,6 +155,5 @@
       "q": "Видны ли винты после установки?",
       "a": "Нет, их закрывают декоративные накладки из комплекта."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/e30200-03-06-nikel-petlya-eclipse-2-0-4-nakladki-v-komplekte/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "Plastic",
   "order": 412,
-  "category": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-fiksatorom",
   "article": "P72-50",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Нужно ли смазывать пластиковый язычок?",
       "a": "Нет, пластик работает без смазки. Масло наоборот собирает пыль."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy_zamok_fuaro_p72_50_plastic_santekhnicheskiy_sn_matovyy_nikel/"
+  ]
 }

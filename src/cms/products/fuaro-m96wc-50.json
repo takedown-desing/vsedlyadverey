@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 387,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "M96WC-50",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Есть ли вариант под ключ?",
       "a": "Да, Fuaro M85C-50 с межосевым 85 мм под евроцилиндр, тоже совместимый по врезке с Polaris."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/vreznoy-zamok-fuaro-m96wc-50-ac-santekhnicheskiy-med-s-magnitnoy-zashchelkoy/"
+  ]
 }

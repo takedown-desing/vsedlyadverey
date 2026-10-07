@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "VIGNOLE",
   "order": 242,
-  "category": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-profilnyh-dverej",
   "article": "VIGNOLE EP",
   "hidden": false,
   "hiddenNote": "",
@@ -140,6 +140,5 @@
       "q": "Какая гарантия?",
       "a": "5 лет."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-vignole-ep-matovaja-bronza/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 321,
-  "category": "/catalog/dvernye-petli/babochki/",
+  "category": "catalog--dvernye-petli--babochki",
   "article": "IN4500W (500-2BB)",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Что делать, если петля заскрипела?",
       "a": "Обычно хватает капли силиконовой смазки на ось. Густые смазки собирают пыль, поэтому их лучше не использовать."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/petlya-universalnaya-bez-vrezki-in4500w-wab-500-2bb-100x2-5-mat-bronza/"
+  ]
 }

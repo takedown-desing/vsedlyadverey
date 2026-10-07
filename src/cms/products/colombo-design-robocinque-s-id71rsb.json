@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Robocinque",
   "order": 199,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "ID71RSB",
   "hidden": false,
   "hiddenNote": "",
@@ -137,6 +137,5 @@
       "q": "Есть ли в серии накладки в тон?",
       "a": "Квадратные накладки и завёртки обычно подбирают в том же покрытии. Перед заказом уточните наличие нужного цвета."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kvadratnom-osnovanii-colombo-robocinque-s-id71rsb-nm-chernyj/"
+  ]
 }

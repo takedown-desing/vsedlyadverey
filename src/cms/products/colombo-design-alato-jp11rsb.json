@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Alatò",
   "order": 202,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "JP11RSB",
   "hidden": false,
   "hiddenNote": "",
@@ -146,6 +146,5 @@
       "q": "Подходит ли ручка для офиса?",
       "a": "Да, латунный корпус и PVD-покрытия рассчитаны на частое использование, поэтому модель уместна в переговорных и кабинетах."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-colombo-alato-jp11rsb-cm-matovyj-hrom/"
+  ]
 }

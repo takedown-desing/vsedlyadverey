@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "500",
   "order": 464,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-mezhkomnatnyh-dverej",
   "article": "500/60/ABS",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Что выбрать, если дверь весит 70 кг?",
       "a": "Этот комплект держит до 60 кг. Для более тяжёлого полотна у Koblenz есть система 570/20/ABS на 80 кг."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/komplekt-dlja-razdvizhnoj-dveri-do-60kg-plavnoe-otkryvanie-i-zakryvanie-ot-600-mmtrek-2m50060abs/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Comfort-PRO",
   "order": 477,
-  "category": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/",
+  "category": "catalog--razdvizhnye-sistemy--dlya-steklyannyh-dverej",
   "article": "SLD.Comfort-PRO.SET2.PROF soft close/80",
   "hidden": false,
   "hiddenNote": "",
@@ -114,6 +114,5 @@
       "q": "Подойдёт ли для стеклянной двери без рамы?",
       "a": "Нет, каретки рассчитаны на крепление к алюминиевому профилю. Для цельного стекла нужны зажимные каретки."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-dlya-razdvizhnyh-profilnyh-dverej-sld-comfort-pro-set2-prof-soft-close-80/"
+  ]
 }

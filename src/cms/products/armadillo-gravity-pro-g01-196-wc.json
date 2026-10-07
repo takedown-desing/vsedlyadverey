@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Gravity.Pro",
   "order": 383,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "G01.196.50.96",
   "hidden": false,
   "hiddenNote": "",
@@ -171,6 +171,5 @@
       "q": "Подойдёт ли защёлка для детской или спальни?",
       "a": "Модель задумана для санузла с заверткой. Если нужна комната на ключ, смотрите Gravity.Pro G02.196 под цилиндр."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/magnitnaya-armadillo-armadillo-zashhelka-wc-s-otvetnoj-plankoj-gravity-pro-g01-196-50-96-ab-bronza/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "DCSLIDER",
   "order": 341,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "DCSLIDER45 (DCS-45)",
   "hidden": false,
   "hiddenNote": "",
@@ -154,6 +154,5 @@
       "q": "Подойдёт ли DCSLIDER45 на входную дверь квартиры?",
       "a": "Только если полотно весит до 45 кг. Большинство стальных входных дверей тяжелее, для них нужна другая модель."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/dovodchik-dvernoy-so-skolzyaschey-tyagoy-dcslider45-dcs-45-al-alyuminiy/"
+  ]
 }

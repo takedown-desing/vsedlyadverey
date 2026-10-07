@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "Magnum",
   "order": 76,
-  "category": "/catalog/upory-i-ogranichiteli/skrytye/",
+  "category": "catalog--upory-i-ogranichiteli--skrytye",
   "article": "M-71",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Нужно ли что-то делать руками, чтобы дверь зафиксировалась?",
       "a": "Нет, штифт выходит автоматически, когда полотно доходит до основания."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/magnitnyy-avtomaticheskiy-skrytyy-upor-extreza-m-71-magnum-nikel-f28/"
+  ]
 }

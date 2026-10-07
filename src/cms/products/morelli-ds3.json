@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 347,
-  "category": "/catalog/upory-i-ogranichiteli/napolnye/",
+  "category": "catalog--upory-i-ogranichiteli--napolnye",
   "article": "DS3",
   "hidden": false,
   "hiddenNote": "",
@@ -175,6 +175,5 @@
       "q": "Чем DS3 отличается от DS1?",
       "a": "DS3 выше и имеет цилиндрическую форму, DS1 выполнен как низкая шайба и почти незаметен на полу."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/1991"
+  ]
 }

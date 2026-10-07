@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Gravity",
   "order": 382,
-  "category": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+  "category": "catalog--mezhkomnatnye-zamki--magnitnye",
   "article": "G01.190.50.96",
   "hidden": false,
   "hiddenNote": "",
@@ -144,6 +144,5 @@
       "q": "Какую ручку взять к защёлке?",
       "a": "Любую межкомнатную на розетке под квадрат 8 мм или ручку на планке с межосевым 96 мм. Удобнее брать ручку и завертку Armadillo в одном покрытии."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-g01-190-50-96-bl-wc/"
+  ]
 }

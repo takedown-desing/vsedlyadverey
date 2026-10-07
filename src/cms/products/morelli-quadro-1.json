@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Innovation",
   "order": 323,
-  "category": "/catalog/dvernye-petli/babochki/",
+  "category": "catalog--dvernye-petli--babochki",
   "article": "QUADRO-1",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Нужна ли врезка?",
       "a": "Нет, это карточная петля без врезки: её прикручивают к торцу полотна и коробки, гнёзда под крылья не выбирают."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/petli/all/3890"
+  ]
 }

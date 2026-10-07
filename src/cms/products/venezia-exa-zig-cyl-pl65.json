@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "EXA ZIG",
   "order": 286,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "EXA ZIG CYL PL65",
   "hidden": false,
   "hiddenNote": "",
@@ -142,6 +142,5 @@
       "q": "Какая гарантия?",
       "a": "5 лет."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-venezia-exa-zig-cyl-na-planke-pl65-matovyj-chernyj/"
+  ]
 }

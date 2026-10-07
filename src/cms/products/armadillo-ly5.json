@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "LY",
   "order": 53,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "LY5000 (LY5)",
   "hidden": false,
   "hiddenNote": "",
@@ -136,6 +136,5 @@
       "q": "Нужно ли выбирать правое или левое исполнение?",
       "a": "Нет, один доводчик ставится и на левые, и на правые двери."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-ly5000/"
+  ]
 }

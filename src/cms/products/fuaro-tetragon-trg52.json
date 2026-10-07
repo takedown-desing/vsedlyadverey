@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "TETRAGON",
   "order": 267,
-  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-vhodnyh-dverej",
   "article": "K.TRG52.TETRAGON",
   "hidden": false,
   "hiddenNote": "",
@@ -107,6 +107,5 @@
       "q": "В каком цвете выпускается?",
       "a": "В сатинированном хроме."
     }
-  ],
-  "sourceUrl": "https://xn---23-eddjhv7d.xn--p1ai/furnitura/furnitura-dlya-megkomnatnyh-dverej/ruchki/ruchka-razdelnaia-ktrg52tetragon-ssc-16-satyn-khrom-8kh140-mm/"
+  ]
 }

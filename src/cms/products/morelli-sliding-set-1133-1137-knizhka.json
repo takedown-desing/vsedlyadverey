@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Sliding",
   "order": 473,
-  "category": "/catalog/razdvizhnye-sistemy/knizhka/",
+  "category": "catalog--razdvizhnye-sistemy--knizhka",
   "article": "SLIDING SET 1133-1137",
   "hidden": false,
   "hiddenNote": "",
@@ -104,6 +104,5 @@
       "q": "Выдержит ли комплект дверь из массива?",
       "a": "Только если полотно весит до 30 кг. Большинство дверей из массива тяжелее, для них нужен более мощный механизм."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/razdvizhnye-sistemy/all/732"
+  ]
 }

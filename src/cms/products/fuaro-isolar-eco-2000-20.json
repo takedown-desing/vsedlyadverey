@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "Isolar",
   "order": 379,
-  "category": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/",
+  "category": "catalog--avtoporogi-i-uplotniteli--uplotniteli",
   "article": "ISOLAR ECO 2000-20/B",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Куда ещё ставят Isolar Eco?",
       "a": "Кроме противопожарных дверей ленту применяют в противодымных клапанах и воздуховодах, где при пожаре нужно перекрыть канал."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/termorasshiryayuschiysya-uplotnitel-isolar-eco-2000-20-b-tolsch-2-mm-shir-20-mm-dlina-10-m-chernyy/"
+  ]
 }

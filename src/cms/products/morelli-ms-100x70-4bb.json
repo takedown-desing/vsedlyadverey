@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 311,
-  "category": "/catalog/dvernye-petli/universalnye/",
+  "category": "catalog--dvernye-petli--universalnye",
   "article": "MS 100X70X2.5-4BB",
   "hidden": false,
   "hiddenNote": "",
@@ -170,6 +170,5 @@
       "q": "Можно ли поставить эти петли без врезки?",
       "a": "Нет, карточные петли врезают. Для установки без выборки паза есть петли-бабочки."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/petli/all/404"
+  ]
 }

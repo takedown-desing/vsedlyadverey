@@ -4,7 +4,7 @@
   "brand": "otlav",
   "series": "Invisacta",
   "order": 39,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "IN230",
   "hidden": false,
   "hiddenNote": "",
@@ -156,6 +156,5 @@
       "q": "Как регулировать петлю?",
       "a": "Шестигранным ключом по трём осям: высота ±2 мм, горизонталь ±1 мм и прижим ±1 мм."
     }
-  ],
-  "sourceUrl": "https://fellini-handles.ru/katalog/petli/petlya-skrytoj-ustanovki-otlav-in-230-3d-60-kg.html"
+  ]
 }

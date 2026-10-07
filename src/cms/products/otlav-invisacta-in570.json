@@ -4,7 +4,7 @@
   "brand": "otlav",
   "series": "Invisacta",
   "order": 40,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "IN570",
   "hidden": false,
   "hiddenNote": "",
@@ -156,6 +156,5 @@
       "q": "Допускается ли установка на противопожарные двери?",
       "a": "Да, по данным производителя модель подходит для противопожарных дверей."
     }
-  ],
-  "sourceUrl": "https://fellini-handles.ru/katalog/petli/petlya-skrytoj-ustanovki-otlav-in-570-3d-60-kg.html"
+  ]
 }

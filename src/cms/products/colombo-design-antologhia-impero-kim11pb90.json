@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Antologhia",
   "order": 34,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "KIM11PB90",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Требует ли латунь особого ухода?",
       "a": "Достаточно протирать сухой мягкой тканью. Пасту для латуни используют, только если хочется вернуть блеск."
     }
-  ],
-  "sourceUrl": "https://alfasantehnika.ru/catalog/accessories6723/31093/"
+  ]
 }

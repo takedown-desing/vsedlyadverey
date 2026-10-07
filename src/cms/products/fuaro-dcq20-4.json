@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 342,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "DCQ20-4",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Можно ли поставить DCQ20-4 на уличную дверь?",
       "a": "Да, морозостойкость до -45 °С позволяет ставить его на входы в холодном климате. От прямого дождя корпус лучше прикрыть козырьком."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/dovodchik-dvernoy-dcq20-4-40-80-kg-al-w-o-arm-do-80-kg-alyuminiy-bez-tyag-v-komplekte/"
+  ]
 }

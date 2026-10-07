@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Nordic",
   "order": 155,
-  "category": "/catalog/mebelnaya-furnitura/kryuchki/",
+  "category": "catalog--mebelnaya-furnitura--kryuchki",
   "article": "EB17",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Чем EB17 отличается от Over GM17?",
       "a": "EB17 латунный, хромированный и выступает на 55 мм. GM17 из нержавеющей стали, клеится на ленту и выступает на 25 мм."
     }
-  ],
-  "sourceUrl": "https://colombo.pro/product/COLOMBO-DESIGN-NORDIC-EB17/"
+  ]
 }

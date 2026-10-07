@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "3-D",
   "order": 324,
-  "category": "/catalog/dvernye-petli/vvertnye/",
+  "category": "catalog--dvernye-petli--vvertnye",
   "article": "E01150.14.15",
   "hidden": false,
   "hiddenNote": "",
@@ -120,6 +120,5 @@
       "q": "Нужно ли смазывать петлю?",
       "a": "Втулка самосмазывающаяся, регулярная смазка не требуется. Раз в год достаточно проверить регулировку и посадку штифтов."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/e01150-14-15-petlya-vvertnaya-3-d-seriya-bihrom-zamenyaet-e01150-14-04/"
+  ]
 }

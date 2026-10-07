@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 353,
-  "category": "/catalog/upory-i-ogranichiteli/nastennye/",
+  "category": "catalog--upory-i-ogranichiteli--nastennye",
   "article": "DS PW-80",
   "hidden": false,
   "hiddenNote": "",
@@ -149,6 +149,5 @@
       "q": "Можно ли поставить PW-80 выше?",
       "a": "Можно, но рекомендация производителя дана для нижней зоны. При установке на высоте ручки лучше взять упор другой формы."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/upor-dvernoj-punto--punto-ds-pw-80-cp-8-khrom.html"
+  ]
 }

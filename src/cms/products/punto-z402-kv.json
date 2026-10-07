@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "Z400",
   "order": 448,
-  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "category": "catalog--cilindry--klyuch-vertushka",
   "article": "Z402",
   "hidden": false,
   "hiddenNote": "",
@@ -104,6 +104,5 @@
       "q": "Какую длину брать для межкомнатной двери?",
       "a": "Обычно хватает 60-70 мм. Измерьте толщину полотна с накладками и оставьте выступ 1-3 мм."
     }
-  ],
-  "sourceUrl": "https://magazin-krepost.ru/cilindri-zamkov/cilindrovyy-mehanizm-s-vertushkoy-punto-z40270-mm-301030-pb-latun"
+  ]
 }

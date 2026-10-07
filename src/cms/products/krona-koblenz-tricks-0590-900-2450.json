@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Tricks",
   "order": 465,
-  "category": "/catalog/razdvizhnye-sistemy/skrytye/",
+  "category": "catalog--razdvizhnye-sistemy--skrytye",
   "article": "0590/900/2450/M",
   "hidden": false,
   "hiddenNote": "",
@@ -119,6 +119,5 @@
       "q": "Какой максимальный размер полотна?",
       "a": "По паспорту до 1118 мм в ширину и до 2500 мм в высоту."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/razdvizhnaja-sistema-nevidimaja-koblenz-tricks-do-1118-mm-shirinoj-05909002450m/"
+  ]
 }

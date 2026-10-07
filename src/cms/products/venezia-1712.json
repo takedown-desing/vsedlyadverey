@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 373,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "1712",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Можно ли поставить порог в санузел?",
       "a": "Да, он перекрывает щель под дверью от запахов и шума. Если в помещении нет другого притока воздуха, продумайте вентиляцию, ведь щель под дверью часто работает как её часть."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/avtomaticheskij-porog-vreznoj-venezia-1712-900-800-mm-44-db-regulirovka-2-urovnya/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "comaglio",
   "series": "Comax",
   "order": 87,
-  "category": "/catalog/avtoporogi-i-uplotniteli/shchetki/",
+  "category": "catalog--avtoporogi-i-uplotniteli--shchetki",
   "article": "125 SP",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Подойдёт ли для межкомнатной деревянной двери?",
       "a": "Модель заявлена для металлических и алюминиевых дверей. Для деревянных полотен в каталоге есть накладной 1255 Comax."
     }
-  ],
-  "sourceUrl": "https://www.comaglio.it/en/drop-down-seals/draught-excluder-comax-125-sp/"
+  ]
 }

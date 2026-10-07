@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "PL-INOX FORCE",
   "order": 108,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--navesnye",
   "article": "PL-INOX FORCE IF-50 4 key",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Сколько ключей в комплекте?",
       "a": "Четыре дисковых ключа."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/navesnye-zamki/zamok-navesnoy-pl-inox-force-if-50-4-key-diskovyy-klyuch/"
+  ]
 }

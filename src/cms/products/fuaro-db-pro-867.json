@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DB",
   "order": 81,
-  "category": "/catalog/zadvizhki-i-shpingalety/",
+  "category": "catalog--zadvizhki-i-shpingalety",
   "article": "DB-PRO.867",
   "hidden": false,
   "hiddenNote": "",
@@ -112,6 +112,5 @@
       "q": "Откроют ли задвижку снаружи?",
       "a": "Нет, снаружи к механизму доступа нет."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/zadvizhka-vreznaya-db-pro-867-db-867-cp-hrom-67mm/"
+  ]
 }

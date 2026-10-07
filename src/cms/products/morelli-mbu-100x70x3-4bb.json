@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 312,
-  "category": "/catalog/dvernye-petli/universalnye/",
+  "category": "catalog--dvernye-petli--universalnye",
   "article": "MBU 100X70X3-4BB",
   "hidden": false,
   "hiddenNote": "",
@@ -153,6 +153,5 @@
       "q": "Можно ли повесить дверь на две такие петли?",
       "a": "Для лёгкого полотна можно, но паспортная нагрузка указана для трёх петель, поэтому на тяжёлую дверь берите три."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/petli/all/379"
+  ]
 }

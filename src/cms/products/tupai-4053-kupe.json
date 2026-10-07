@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 259,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "4053",
   "hidden": false,
   "hiddenNote": "",
@@ -133,6 +133,5 @@
       "q": "Нужен ли замок к ручке?",
       "a": "Ручка не запирает дверь. Если раздвижное полотно нужно закрывать, подберите отдельный замок-крючок."
     }
-  ],
-  "sourceUrl": "https://tupai-store.ru/katalog/ruchki-dlya-razdvizhnyix-dverej/tupai-4053/ruchka-tupai-4053-96/"
+  ]
 }

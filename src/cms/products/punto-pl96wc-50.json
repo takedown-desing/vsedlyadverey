@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 20,
-  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-plastikovym-yazychkom",
   "article": "PL96WC-50",
   "hidden": false,
   "hiddenNote": "",
@@ -148,6 +148,5 @@
       "q": "Подойдут ли ручки на розетке?",
       "a": "Да, при бэксете 50 мм и квадрате, совместимом с защёлкой. WC-завертку ставят отдельно под фиксатор."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/zaschelka-vreznaya-pl96wc-50-cp-hrom.html"
+  ]
 }

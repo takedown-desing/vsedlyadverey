@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Mediana Evolution",
   "order": 414,
-  "category": "/catalog/mezhkomnatnye-zamki/pod-klyuch/",
+  "category": "catalog--mezhkomnatnye-zamki--pod-klyuch",
   "article": "B01101.50",
   "hidden": false,
   "hiddenNote": "",
@@ -156,6 +156,5 @@
       "q": "Можно ли поменять на этот замок старый под ключ?",
       "a": "Если у старого замка межосевое 90 мм и бэксет 50 мм, отверстия совпадут. Длину торцевой планки проверьте отдельно."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/mediana-evolution-cliuch/"
+  ]
 }

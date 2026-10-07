@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "CompactTwin",
   "order": 470,
-  "category": "/catalog/razdvizhnye-sistemy/knizhka/",
+  "category": "catalog--razdvizhnye-sistemy--knizhka",
   "article": "800B90DX",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Как понять, правое или левое открывание нужно?",
       "a": "Встаньте со стороны, куда дверь будет складываться: если створки уходят к правому косяку, нужна эта правая версия."
     }
-  ],
-  "sourceUrl": "https://fratelli-cattini.com/shop/sistema-compacttwin-800b90dx-novyj-pravaya-180-reguliruemyj-stopor/"
+  ]
 }

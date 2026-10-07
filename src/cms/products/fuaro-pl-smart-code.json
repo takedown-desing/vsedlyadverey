@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "PL-SMART",
   "order": 107,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--navesnye",
   "article": "PL-SMART-CODE",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Выдержит ли дождь?",
       "a": "Да, защита IP67 рассчитана на пыль и воду."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/navesnye-zamki/zamok-navesnoy-umnyy-kodovyy-pl-smart-code-podves/"
+  ]
 }

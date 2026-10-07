@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": null,
   "order": 334,
-  "category": "/catalog/dvernye-petli/shablony-i-frezy/",
+  "category": "catalog--dvernye-petli--shablony-i-frezy",
   "article": "E00139.16.04",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Подойдёт ли шаблон для петель других марок?",
       "a": "Он сделан под ввертные петли AGB. У других производителей расстояния могут отличаться, поэтому гарантированно шаблон работает с AGB."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/shablon-vvertnyh-petel-2/"
+  ]
 }

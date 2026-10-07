@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "UNA X",
   "order": 204,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "UNA X 7FS",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Есть ли у модели пара для раздвижной двери?",
       "a": "В серии есть исполнение на узкой планке PL08. Для раздвижных дверей подбирают отдельную врезную ручку-купе в том же цвете."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-fratelli-cattini-una-x-7fs-nm-matovyj-chernyj/"
+  ]
 }

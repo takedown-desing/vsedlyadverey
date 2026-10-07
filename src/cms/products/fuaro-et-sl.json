@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 435,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "ET SL",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Нужна ли накладка, если на двери ручка на планке?",
       "a": "Нет, отверстие под цилиндр уже предусмотрено в планке ручки."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/nakladka-pod-cilindr-et-k-sl52-et-sl-ssg-39-satinirovannoe-zoloto/"
+  ]
 }

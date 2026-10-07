@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Pivot",
   "order": 58,
-  "category": "/catalog/dvernye-petli/pruzhinnye/",
+  "category": "catalog--dvernye-petli--pruzhinnye",
   "article": "Pivot.100",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Чем Pivot.100 отличается от Pivot.150.FIX?",
       "a": "Pivot.150.FIX держит до 150 кг, подходит для створок до 2250 × 4000 мм, имеет доводчик и фиксацию в 90° и 0°. Pivot.100 проще: до 100 кг, до 1500 × 2800 мм, без довода."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-armadillo-armadillo-dlya-mayatnikovyh-dverej-pivot-100/"
+  ]
 }

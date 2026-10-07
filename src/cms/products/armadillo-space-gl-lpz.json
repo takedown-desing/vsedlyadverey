@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Space",
   "order": 487,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--zamki",
   "article": "Space.GL.LPZ",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Зачем ответная планка?",
       "a": "Она крепится на коробку или соседнее стекло и принимает ригель, без неё замок не удержит дверь."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-zamok-ruchka-armadillo-armadillo-dlya-steklyannoj-dveri-space-gl-lpz-bl-chernyj/"
+  ]
 }

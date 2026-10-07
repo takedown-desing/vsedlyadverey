@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "IRON",
   "order": 290,
-  "category": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-vhodnyh-dverej",
   "article": "IRON UCS",
   "hidden": false,
   "hiddenNote": "",
@@ -139,6 +139,5 @@
       "q": "Какой вес у модели?",
       "a": "1155 г."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-iron-ucs-bpvd-77/"
+  ]
 }

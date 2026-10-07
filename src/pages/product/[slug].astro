@@ -24,6 +24,7 @@ const v0 = p.variants.find((v) => v.image) || p.variants[0];
 const bname = brandName(p.brand);
 const price = minPrice(p);
 const withFinish = `${p.name}${v0.finish ? ', ' + v0.finish : ''}`;
+const h1 = (p as any).h1 || p.name;
 const title = withFinish.length <= 55 ? `${withFinish}: купить, цена` : p.name.length <= 60 ? `${p.name}: купить` : p.name;
 const description = `${p.name} (${bname}${p.article ? ', арт. ' + p.article : ''}). ${p.variants.length > 1 ? p.variants.length + ' покрытий. ' : ''}${price ? 'Цена от ' + new Intl.NumberFormat('ru-RU').format(price) + ' ₽. ' : ''}Доставка по Москве и России.`;
 const topCat = CATEGORY_NAV.find((c) => p.category.startsWith(c.url))?.url || '';
@@ -51,7 +52,7 @@ const myReviews = REVIEWS.filter((r) => r.product === p.slug);
 if (pt?.faq?.length) schema.push({ '@type': 'FAQPage', mainEntity: pt.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) } as any);
 const specs = Object.entries({ Производитель: bname, ...(p.series ? { Серия: p.series } : {}), ...(p.article ? { Артикул: p.article } : {}), ...(p.material ? { Материал: p.material } : {}), ...(p.specs || {}) });
 ---
-<Base title={title} description={description} path={url} crumbs={crumbs} schema={schema} activeCat={topCat} image={v0.image}>
+<Base title={(p as any).title || title} description={(p as any).metaDescription || description} path={url} crumbs={crumbs} schema={schema} activeCat={topCat} image={(p as any).ogImage || v0.image} noindex={!!(p as any).noindex} canonicalUrl={(p as any).canonical}>
   <div class="wrap">
     <div class="product" data-product>
       <div>
@@ -65,8 +66,8 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
         )}
       </div>
       <div>
-        <div class="p-brand"><a href={u(`/brands/${p.brand}/`)}>{bname}</a>{p.series && seriesUrl && <> · <a href={u(seriesUrl)}>серия {p.series}</a></>}</div>
-        <h1 class="p-title">{p.name}</h1>
+        <div class="p-brand">{p.brand && <a href={u(`/brands/${p.brand}/`)}>{bname}</a>}{p.series && seriesUrl && <> · <a href={u(seriesUrl)}>серия {p.series}</a></>}</div>
+        <h1 class="p-title">{h1}</h1>
         <div class="p-meta">{p.article && <span>Артикул: <b id="p-art">{v0.article || p.article}</b></span>}<span id="p-stock" data-yes={STOCK_LABEL.yes} data-no={STOCK_LABEL.no} style={`color:${v0.inStock === false ? 'var(--c-muted)' : 'var(--c-ok)'}`}>{v0.inStock === false ? STOCK_LABEL.no : STOCK_LABEL.yes}</span></div>
         <div class="p-price" id="p-price">{rub(v0.price)}</div>
         {SITE.priceNote && <div class="p-note">{SITE.priceNote}</div>}
@@ -106,7 +107,7 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
         <h3>Полезно</h3>
         <ul>
           {catReg && <li><a href={u(p.category)}>Все: {catReg.h1}</a></li>}
-          <li><a href={u(`/brands/${p.brand}/`)}>Вся фурнитура {bname}</a></li>
+          {p.brand && <li><a href={u(`/brands/${p.brand}/`)}>Вся фурнитура {bname}</a></li>}
           {guide && <li><a href={u(`/blog/${guide.slug}/`)}>{guide.h1}</a></li>}
           <li><a href={u('/dostavka/')}>Доставка и оплата</a></li>
         </ul>

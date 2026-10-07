@@ -14,9 +14,9 @@ const SITE_URL = 'https://takedown-desing.github.io/maniglia-shop/';
 
 const byType = (types) => registry.filter((p) => types.includes(p.type) && p.priority !== 'OFF');
 const opt = (p) => ({ label: `${p.h1} (${p.url})`, value: p.url });
-const categoryOptions = byType(['category', 'subcategory']).filter((p) => p.url !== '/catalog/komplekty-furnitury/').map(opt);
+// разделы каталога и рубрики блога живут в своих коллекциях (relation), в реестре остаются остальные типы
 const linkTargets = byType(['home', 'category', 'subcategory', 'tag', 'door-type', 'kit', 'brand', 'brand-hub', 'blog-hub', 'utility']).map(opt);
-const textPageOptions = byType(['home', 'category', 'subcategory', 'tag', 'door-type', 'kit', 'brand-hub', 'blog-hub', 'utility', 'brand', 'brand-category', 'series']).map(opt);
+const textPageOptions = byType(['home', 'door-type', 'kit', 'brand-hub', 'blog-hub', 'utility', 'brand', 'brand-category', 'series']).filter((p) => p.url !== '/blog/' || true).map(opt).concat([{ label: 'Каталог: корневая страница (/catalog/)', value: '/catalog/' }]);
 const brandOptions = catalog.brands.map((b) => ({ label: b.name, value: b.slug }));
 const brandCatOptions = [...new Set(byType(['brand-category']).map((p) => p.url.split('/')[3]))].sort().map((c) => ({ label: c, value: c }));
 
@@ -37,6 +37,14 @@ const num = (name, label, extra = {}) => ({ name, label, widget: 'number', value
 const bool = (name, label, def = false, extra = {}) => ({ name, label, widget: 'boolean', default: def, required: false, ...extra });
 const sel = (name, label, options, extra = {}) => ({ name, label, widget: 'select', options, required: false, ...extra });
 const icon = () => sel('icon', 'Иконка', ICONS, { default: 'check' });
+const go = (col) => `go/${col}/{{slug}}/`; // кнопка «Открыть на сайте» → src/pages/go/[col]/[id].astro
+const urlField = (hint) => str('slug', 'Адрес страницы (URL)', { pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Только латиница в нижнем регистре, цифры и дефисы'], hint });
+const rel = (name, label, collection, extra = {}) => ({ name, label, widget: 'relation', collection, value_field: '{{slug}}', search_fields: ['title', 'h1', 'slug'], display_fields: ['{{title}}'], required: false, ...extra });
+const seoExtra = [
+  bool('noindex', 'Закрыть от индексации (noindex)', false, { hint: 'Страница останется на сайте, но поисковики её не покажут' }),
+  str('canonical', 'Canonical (адрес основной версии страницы)', { hint: 'Заполняйте только если страница дублирует другую: /catalog/dvernye-ruchki/ или полный https://…' }),
+  { name: 'ogImage', label: 'Картинка для соцсетей (og:image)', widget: 'image', required: false, hint: 'Если пусто, берётся фото товара или раздела' },
+];
 
 const faq = { name: 'faq', label: 'Вопросы и ответы (FAQ)', label_singular: 'Вопрос', widget: 'list', required: false, collapsed: true, summary: '{{fields.q}}',
   fields: [str('q', 'Вопрос', { required: true }), txt('a', 'Ответ', { required: true })] };
@@ -57,9 +65,11 @@ const blocks = { name: 'blocks', label: 'Блоки контента', label_sin
   ] };
 
 const seo = [
-  str('title', 'Title (заголовок вкладки и сниппета)', { hint: 'До 70 знаков. Если пусто, подставится заголовок из реестра' }),
+  str('title', 'Title (заголовок вкладки и сниппета)', { required: true, hint: 'Обязательное поле. До 70 знаков. Название магазина « | Всё для дверей» дописывается автоматически, если итог не длиннее 70 знаков' }),
   txt('description', 'Description (описание для поиска)', { hint: '120–160 знаков' }),
 ];
+// для брендов и серий title не обязателен: если пусто, собирается из названия
+const seoOpt = [str('title', 'Title (заголовок вкладки)', { hint: 'Если пусто, собирается из названия' }), txt('description', 'Description (описание для поиска)', { hint: '120–160 знаков' })];
 
 const config = {
   backend: {
@@ -71,35 +81,39 @@ const config = {
   },
   site_url: SITE_URL, display_url: SITE_URL, logo: { src: SITE_URL + 'favicon.svg' },
   media_folder: 'public/images/uploads', public_folder: '/images/uploads',
-  slug: { encoding: 'ascii', clean_accents: true },
+  // имена файлов новых записей сохраняют кириллицу; адрес на сайте строится транслитерацией (src/lib/data.ts → translit)
+  slug: { encoding: 'unicode', clean_accents: false, sanitize_replacement: '-' },
   collections: [
     {
       name: 'products', label: 'Товары', label_singular: 'Товар', folder: 'src/cms/products', create: true, format: 'json', extension: 'json',
-      identifier_field: 'name', slug: '{{fields.slug}}', summary: '{{name}}', sortable_fields: ['name', 'brand', 'order', 'category'],
+      identifier_field: 'name', slug: { template: '{{name}}', editable: true }, preview_path: go('products'), summary: '{{name}}', sortable_fields: ['name', 'brand', 'order', 'category'],
       view_groups: [{ label: 'По бренду', field: 'brand' }, { label: 'По разделу', field: 'category' }, { label: 'Скрытые', field: 'hidden' }],
       view_filters: [{ label: 'Скрытые с сайта', field: 'hidden', pattern: true }, { label: 'Стартовые бренды (Colombo, TUPAI)', field: 'brand', pattern: '^(colombo-design|tupai)$' }],
-      description: 'Карточка товара: название, бренд, раздел, варианты покрытий с фото и ценой, характеристики, описание и блоки текста. Товар без фото на сайт не выводится.',
+      description: 'Карточка товара. Обязательно только название; адрес, если не задан, сформируется из названия. Товар появится на сайте, когда у него будет хотя бы одно фото.',
       fields: [
-        str('slug', 'Адрес карточки (slug)', { required: true, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Только латиница, цифры и дефисы: бренд-серия-артикул'], hint: 'Страница товара будет /product/<slug>/. После публикации не менять' }),
         str('name', 'Название', { required: true, hint: 'Без покрытия: «Дверная ручка Colombo Design Robot CD41RSB на круглой розетке»' }),
-        sel('brand', 'Бренд', brandOptions, { required: true }),
+        urlField('Страница товара: /product/<адрес>/. Если пусто, адрес сформируется из названия транслитом. Смена адреса опубликованного товара ломает старые ссылки на него'),
+        str('h1', 'Заголовок H1 (если отличается от названия)'),
+        str('title', 'Title (заголовок вкладки)', { hint: 'Если пусто, собирается автоматически: «Название, покрытие: купить, цена»' }),
+        txt('metaDescription', 'Description (описание для поиска)', { hint: 'Если пусто, собирается автоматически из названия, бренда и цены' }),
+        rel('brand', 'Бренд', 'brands', { search_fields: ['name'], display_fields: ['{{name}}'] }),
         str('series', 'Серия / коллекция'),
-        sel('category', 'Раздел каталога', categoryOptions, { required: true, hint: 'Самый глубокий подходящий раздел' }),
+        rel('category', 'Раздел каталога', 'sections', { hint: 'Основной раздел: по нему строятся хлебные крошки. Новый раздел создаётся в «Разделы каталога»' }),
+        rel('extraCategories', 'Дополнительные разделы', 'sections', { multiple: true, hint: 'Товар покажется и в этих разделах (например, в новой подборке)' }),
         str('article', 'Артикул модели'),
         num('order', 'Порядок в листинге', { hint: 'Меньше = выше. У существующих товаров 1–515, новые по умолчанию в конце' }),
         bool('hidden', 'Скрыть с сайта', false, { hint: 'Товар остаётся в админке, но не публикуется' }),
         str('hiddenNote', 'Почему скрыт'),
         {
-          name: 'variants', label: 'Варианты покрытий', label_singular: 'Покрытие', widget: 'list', required: true, collapsed: false, summary: '{{fields.finish}} · {{fields.price}} ₽',
-          hint: 'Минимум один вариант с фото. Первый вариант с фото становится главным в карточке',
+          name: 'variants', label: 'Варианты покрытий', label_singular: 'Покрытие', widget: 'list', required: false, collapsed: false, summary: '{{fields.finish}} · {{fields.price}} ₽',
+          hint: 'Товар выводится на сайт, когда есть хотя бы один вариант с фото. Первый вариант с фото становится главным в карточке',
           fields: [
-            str('finish', 'Покрытие (как на сайте)', { required: true, hint: 'например: матовый чёрный' }),
-            sel('color', 'Группа цвета (для фильтра)', COLORS, { required: true, default: 'other' }),
+            str('finish', 'Покрытие (как на сайте)', { hint: 'например: матовый чёрный' }),
+            sel('color', 'Группа цвета (для фильтра)', COLORS, { default: 'other' }),
             str('article', 'Артикул варианта'),
             num('price', 'Цена, ₽', { hint: 'Пусто = «Цена по запросу»' }),
             bool('inStock', 'На складе поставщика', true, { hint: 'Снять галочку = «Под заказ»' }),
             { name: 'image', label: 'Фото', widget: 'image', required: false, media_folder: '/public/images/products', public_folder: '/images/products', choose_url: false, hint: 'JPG до 800 px по длинной стороне, фон белый, без водяных знаков чужих магазинов' },
-            str('imageSrc', 'Источник фото (ссылка)', { hint: 'Откуда взято фото. Фото без источника на сайт не выводится; фото с todoor.ru блокируются' }),
           ],
         },
         str('material', 'Материал', { hint: 'латунь, цинковый сплав (ЦАМ), нержавеющая сталь' }),
@@ -110,13 +124,36 @@ const config = {
         txt('intro', 'Вводный абзац карточки', { hint: 'Показывается под кнопкой «В корзину»' }),
         blocks,
         faq,
-        str('sourceUrl', 'Источник данных (ссылка)'),
+        ...seoExtra,
       ],
     },
     {
-      name: 'pages', label: 'Разделы каталога: тексты', label_singular: 'Текст раздела', folder: 'src/cms/pages', create: true, format: 'json', extension: 'json',
-      identifier_field: 'h1', slug: '{{fields.url}}', summary: '{{h1}} · {{url}}', sortable_fields: ['url', 'h1'],
-      description: 'SEO-тексты страниц каталога, главной, подборок «по типу двери» и списка брендов. Сами разделы (адреса, вложенность) заданы структурой сайта и здесь не создаются.',
+      name: 'sections', label: 'Разделы каталога', label_singular: 'Раздел', folder: 'src/cms/sections', create: true, format: 'json', extension: 'json',
+      identifier_field: 'title', slug: { template: '{{title}}', editable: true }, preview_path: go('sections'), summary: '{{title}}', sortable_fields: ['order', 'title', 'parent'],
+      view_groups: [{ label: 'По родительскому разделу', field: 'parent' }, { label: 'В меню', field: 'inMenu' }],
+      description: 'Разделы и подразделы каталога любой вложенности. Адрес страницы: адрес родителя + slug (например /catalog/dvernye-ruchki/na-rozetke/). Раздел появляется на сайте, когда в нём есть хотя бы один товар с фото; до этого он виден только в админке.',
+      fields: [
+        str('title', 'Title (заголовок вкладки и сниппета)', { required: true, hint: 'Обязательное поле. До 70 знаков. Название магазина « | Всё для дверей» дописывается автоматически, если итог не длиннее 70 знаков' }),
+        str('h1', 'Заголовок H1', { hint: 'Если пусто, берётся Title' }),
+        txt('description', 'Description (описание для поиска)', { hint: '120–160 знаков' }),
+        urlField('Часть адреса после родителя, например na-rozetke → /catalog/dvernye-ruchki/na-rozetke/. Если пусто, формируется из Title транслитом. Смена адреса опубликованного раздела ломает старые ссылки'),
+        rel('parent', 'Родительский раздел', 'sections', { hint: 'Пусто = раздел верхнего уровня в каталоге' }),
+        sel('kind', 'Тип', [{ label: 'Раздел: товары назначаются полем «Раздел каталога» в карточке', value: 'section' }, { label: 'Подборка-тег: товары отбираются автоматически по правилу (только для существующих)', value: 'tag' }], { default: 'section' }),
+        bool('inMenu', 'Показывать в левом меню каталога', false), str('menuName', 'Короткое название для меню'), icon(),
+        num('order', 'Порядок', { hint: 'Меньше = выше среди соседей и в меню. У существующих разделов 1–150, новые без числа идут в конец' }),
+        txt('lead', 'Подзаголовок (лид)'), md('text', 'Простой текст (если нет блоков)'), blocks, faq, ...seoExtra,
+      ],
+    },
+    {
+      name: 'blog-hubs', label: 'Рубрики блога', label_singular: 'Рубрика', folder: 'src/cms/blog-hubs', create: true, format: 'json', extension: 'json',
+      identifier_field: 'title', slug: { template: '{{title}}', editable: true }, preview_path: go('blog-hubs'), summary: '{{title}}', sortable_fields: ['order', 'title'],
+      description: 'Рубрики раздела «Инструкции и советы» (/blog/<slug>/). Статья привязывается к рубрике в своей карточке.',
+      fields: [str('title', 'Title', { required: true }), str('h1', 'Заголовок H1'), txt('description', 'Description'), urlField('Адрес рубрики: /blog/<адрес>/. Если пусто, формируется из Title'), txt('lead', 'Подзаголовок'), md('text', 'Текст рубрики'), num('order', 'Порядок'), ...seoExtra],
+    },
+    {
+      name: 'pages', label: 'Тексты остальных страниц', label_singular: 'Текст страницы', folder: 'src/cms/pages', create: true, format: 'json', extension: 'json',
+      identifier_field: 'h1', slug: '{{fields.url}}', preview_path: go('pages'), summary: '{{h1}} · {{url}}', sortable_fields: ['url', 'h1'],
+      description: 'SEO-тексты главной, корня каталога, подборок «по типу двери», списка брендов, страниц брендов и серий. Разделы каталога и рубрики блога правятся в своих коллекциях.',
       fields: [
         sel('url', 'Страница', textPageOptions, { required: true, hint: 'Адрес страницы, для которой этот текст. Один текст на страницу' }),
         ...seo,
@@ -125,50 +162,53 @@ const config = {
         md('text', 'Простой текст (если нет блоков)'),
         blocks,
         faq,
+        ...seoExtra,
       ],
     },
     {
       name: 'brands', label: 'Бренды', label_singular: 'Бренд', folder: 'src/cms/brands', create: true, format: 'json', extension: 'json',
-      identifier_field: 'name', slug: '{{fields.slug}}', summary: '{{name}}',
-      description: 'Страница бренда: справка, текст, серии, подразделы «бренд × категория». Чтобы бренд появился в меню и фильтрах, добавьте его также в «Настройки → Каталог и бренды».',
+      identifier_field: 'name', slug: { template: '{{name}}', editable: true, hint: 'Адрес страницы бренда /brands/<адрес>/. У существующих брендов не менять: на него ссылаются товары' }, preview_path: go('brands'), summary: '{{name}}',
+      description: 'Страница бренда: справка, текст, серии, подразделы «бренд × категория». Чтобы новый бренд появился в фильтрах и на главной, добавьте его также в «Настройки → Каталог и бренды».',
       fields: [
-        str('slug', 'Адрес (slug)', { required: true, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Только латиница, цифры и дефисы'] }),
-        str('name', 'Название', { required: true }), str('country', 'Страна'), str('founded', 'Год основания'), str('segment', 'Сегмент', { hint: 'эконом / средний / премиум' }),
-        str('tagline', 'Короткая характеристика'), ...seo, md('text', 'Текст о бренде'),
+        str('name', 'Название', { required: true }),
+        str('country', 'Страна'), str('founded', 'Год основания'), str('segment', 'Сегмент', { hint: 'эконом / средний / премиум' }),
+        str('tagline', 'Короткая характеристика'), ...seoOpt, md('text', 'Текст о бренде'),
         { name: 'series', label: 'Серии (названия)', widget: 'list', required: false, field: str('s', 'Серия') },
         { name: 'categories', label: 'Подразделы бренда (бренд × категория)', label_singular: 'Подраздел', widget: 'list', required: false, collapsed: true, summary: '{{fields.slug}}: {{fields.title}}',
-          fields: [sel('slug', 'Категория', brandCatOptions, { required: true }), ...seo, txt('lead', 'Лид'), md('text', 'Текст')] },
+          fields: [sel('slug', 'Категория', brandCatOptions, { required: true }), ...seoOpt, txt('lead', 'Лид'), md('text', 'Текст')] },
+        ...seoExtra,
       ],
     },
     {
       name: 'series', label: 'Серии брендов', label_singular: 'Серия', folder: 'src/cms/series', create: true, format: 'json', extension: 'json',
-      identifier_field: 'name', slug: '{{fields.slug}}', summary: '{{name}}',
-      description: 'Тексты страниц серий (/series/…). Какие товары попадают в серию, определяется правилом по названию модели; новые серии нужно согласовать с разработчиком.',
-      fields: [str('slug', 'Адрес (slug)', { required: true }), str('name', 'Название', { required: true }), sel('brand', 'Бренд', brandOptions, { required: true }), ...seo, md('text', 'Текст')],
+      identifier_field: 'name', slug: { template: '{{name}}', editable: true }, preview_path: go('series'), summary: '{{name}}',
+      description: 'Тексты страниц серий (/series/…). Какие товары попадают в серию, определяется правилом по названию модели; для новой серии напишите нам, добавим правило.',
+      fields: [str('name', 'Название', { required: true }), rel('brand', 'Бренд', 'brands', { search_fields: ['name'], display_fields: ['{{name}}'] }), ...seoOpt, md('text', 'Текст'), ...seoExtra],
     },
     {
       name: 'articles', label: 'Статьи («Инструкции и советы»)', label_singular: 'Статья', folder: 'src/cms/articles', create: true, format: 'json', extension: 'json',
-      identifier_field: 'h1', slug: '{{fields.slug}}', summary: '{{h1}}', sortable_fields: ['order', 'date', 'h1'],
+      identifier_field: 'title', slug: { template: '{{title}}', editable: true }, preview_path: go('articles'), summary: '{{title}}', sortable_fields: ['order', 'date', 'title'],
       description: 'Статьи блога. Адрес статьи /blog/<slug>/. Новая статья появляется в списке и на главной сразу после публикации.',
       fields: [
-        str('slug', 'Адрес (slug)', { required: true, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Только латиница, цифры и дефисы'] }),
+        ...seo, str('h1', 'Заголовок H1', { hint: 'Если пусто, берётся Title' }),
+        urlField('Адрес статьи: /blog/<адрес>/. Если пусто, формируется из Title транслитом'),
         num('order', 'Порядок в списке', { hint: 'Меньше = выше' }),
-        sel('hub', 'Рубрика', [['ruchki', 'Ручки'], ['zamki', 'Замки'], ['petli', 'Петли'], ['dovodchiki', 'Доводчики'], ['razdvizhnye-sistemy', 'Раздвижные системы'], ['okna', 'Окна']].map(([value, label]) => ({ label, value })), { required: true }),
-        ...seo, str('h1', 'Заголовок', { required: true }),
+        rel('hub', 'Рубрика', 'blog-hubs', { search_fields: ['title', 'h1'], hint: 'Новая рубрика создаётся в «Рубрики блога»' }),
         { name: 'date', label: 'Дата', widget: 'datetime', format: 'YYYY-MM-DD', date_format: 'DD.MM.YYYY', time_format: false, required: false },
         str('author', 'Автор', { default: 'Редакция «Всё для дверей»' }), num('readingMinutes', 'Время чтения, мин'),
-        md('body', 'Текст статьи', { required: true, hint: 'Заголовки разделов делайте «Заголовок 2»' }),
+        md('body', 'Текст статьи', { hint: 'Заголовки разделов делайте «Заголовок 2»' }),
         faq,
         sel('related', 'Связанные разделы каталога', linkTargets, { multiple: true, hint: 'Статья будет предлагаться в карточках товаров этих разделов' }),
+        ...seoExtra,
       ],
     },
     {
       name: 'service', label: 'Информационные страницы', label_singular: 'Страница', folder: 'src/cms/service', create: true, format: 'json', extension: 'json',
-      identifier_field: 'h1', slug: '{{fields.url}}', summary: '{{h1}} · {{url}}',
+      identifier_field: 'h1', slug: '{{fields.url}}', preview_path: go('service'), summary: '{{h1}} · {{url}}',
       description: 'Доставка, оплата, гарантия, шоурум, вопросы и ответы. Страницы «Оптовикам», «Дизайнерам», «Производителям дверей» сейчас отключены и не публикуются, тексты сохранены на будущее.',
       fields: [
         sel('url', 'Адрес страницы', byType(['utility', 'b2b']).filter((p) => !['/search/', '/cart/', '/compare/', '/account/', '/sitemap/', '/new/', '/sale/', '/o-kompanii/', '/kontakty/', '/otzyvy/'].includes(p.url)).map(opt).concat(registry.filter((p) => p.type === 'b2b').map(opt)), { required: true }),
-        ...seo, str('h1', 'Заголовок', { required: true }), md('body', 'Текст', { required: true, hint: 'Таблицы можно вставлять в формате Markdown: | Куда | Стоимость |' }), faq,
+        ...seo, str('h1', 'Заголовок H1'), md('body', 'Текст', { hint: 'Таблицы можно вставлять в формате Markdown: | Куда | Стоимость |' }), faq, ...seoExtra,
       ],
     },
     {
@@ -223,9 +263,8 @@ const config = {
           ],
         },
         {
-          name: 'catalog', label: 'Каталог и бренды (меню, порядок)', file: 'src/cms/settings/catalog.json', format: 'json',
+          name: 'catalog', label: 'Бренды (список, порядок, уровень)', file: 'src/cms/settings/catalog.json', format: 'json',
           fields: [
-            { name: 'categories', label: 'Разделы в левом меню', label_singular: 'Раздел', widget: 'list', summary: '{{fields.name}}', fields: [sel('url', 'Раздел', byType(['category', 'kit']).map(opt), { required: true }), str('name', 'Название в меню', { required: true }), icon()] },
             { name: 'brands', label: 'Бренды (порядок и уровень)', label_singular: 'Бренд', widget: 'list', summary: '{{fields.name}} ({{fields.tier}})', fields: [str('slug', 'Slug бренда', { required: true, hint: 'Совпадает с адресом страницы бренда' }), str('name', 'Название', { required: true }), sel('tier', 'Уровень', [{ label: 'A: ключевые (на главной)', value: 'A' }, { label: 'B: бренды ассортимента', value: 'B' }, { label: 'C: нишевые', value: 'C' }], { default: 'B' })] },
             sel('launchBrands', 'Стартовые бренды', brandOptions, { multiple: true, hint: 'Используется сборкой LAUNCH_ONLY=1' }),
           ],
@@ -235,6 +274,22 @@ const config = {
   ],
 };
 
+// Без ограничений для редактора: обязательны только заголовок записи (Title / Название) и выбор страницы для текстов.
+const KEEP_REQUIRED = { products: ['name'], sections: ['title'], 'blog-hubs': ['title'], pages: ['url', 'title'], brands: ['name'], series: ['name'], articles: ['title'], service: ['url', 'title'] };
+const relax = (fields, keep = []) => {
+  for (const f of fields || []) {
+    f.required = keep.includes(f.name);
+    if (f.fields) relax(f.fields);
+    if (f.field) f.field.required = false;
+    for (const t of f.types || []) relax(t.fields);
+    delete f.pattern; // формат адреса проверяется и исправляется при сборке (транслитерация)
+  }
+};
+for (const c of config.collections) {
+  if (c.fields) relax(c.fields, KEEP_REQUIRED[c.name] || []);
+  for (const f of c.files || []) relax(f.fields);
+}
+
 fs.mkdirSync(path.dirname(out), { recursive: true });
 fs.writeFileSync(out, '# Сгенерировано scripts/gen-cms-config.mjs, не править вручную (JSON = валидный YAML)\n' + JSON.stringify(config, null, 2) + '\n');
-console.log('[gen-cms-config] collections:', config.collections.length, 'category options:', categoryOptions.length, 'text pages:', textPageOptions.length);
+console.log('[gen-cms-config] collections:', config.collections.length, 'text pages:', textPageOptions.length);

@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "A200",
   "order": 442,
-  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "category": "catalog--cilindry--klyuch-klyuch",
   "article": "A200",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Можно ли сделать дубликат ключа?",
       "a": "Английский ключ копируется на обычном станке в мастерской."
     }
-  ],
-  "sourceUrl": "https://magazin-krepost.ru/cilindri-zamkov/cilindrovyy-mehanizm-punto-a20070-mm-301030-sn-mat-nikel"
+  ]
 }

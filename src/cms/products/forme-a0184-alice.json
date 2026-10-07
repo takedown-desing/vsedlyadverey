@@ -4,7 +4,7 @@
   "brand": "forme",
   "series": "Alice",
   "order": 498,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "A0184",
   "hidden": false,
   "hiddenNote": "",
@@ -122,6 +122,5 @@
       "q": "Можно ли поставить Alice на окно в ванной или на кухне?",
       "a": "Да, латунь с хромовым покрытием нормально переносит влажность и пар. Периодически протирайте ручку от жира и известкового налёта."
     }
-  ],
-  "sourceUrl": "https://www.mirar-group.ru/product/okonnaya-ruchka-forme-a0184-alice/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "DAS SS",
   "order": 54,
-  "category": "/catalog/dvernye-petli/pruzhinnye/",
+  "category": "catalog--dvernye-petli--pruzhinnye",
   "article": "BH470SS",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Чем BH470SS отличается от BH586SS?",
       "a": "BH470SS меньшего типоразмера 4DSS и весит 355 г. BH586SS крупнее (5DSS, 593 г) и предназначена для более тяжёлых и толстых маятниковых дверей."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-bh470ss-sn/"
+  ]
 }

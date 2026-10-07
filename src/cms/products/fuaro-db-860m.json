@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DB",
   "order": 83,
-  "category": "/catalog/zadvizhki-i-shpingalety/",
+  "category": "catalog--zadvizhki-i-shpingalety",
   "article": "DB 860M",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Можно ли поставить задвижку на деревянную дверь?",
       "a": "Модель рассчитана на металлические входные двери; для деревянных полотен подбирают другие задвижки."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/zadvizhka-vreznaya-db-860m-cp-usovershenstvovannaya-hrom-60mm/"
+  ]
 }

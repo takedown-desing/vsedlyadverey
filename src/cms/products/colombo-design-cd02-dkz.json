@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": null,
   "order": 180,
-  "category": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+  "category": "catalog--okonnaya-furnitura--okonnye-ruchki",
   "article": "CD02 DKZ",
   "hidden": false,
   "hiddenNote": "",
@@ -107,6 +107,5 @@
       "q": "Какие покрытия бывают у CD02 DKZ?",
       "a": "По каталогу Oroplus, Oromat, Zirconium SS HPS, Cromo, Cromat, Nikelmat и Bronzo. В наличии полированный хром Cromo."
     }
-  ],
-  "sourceUrl": "https://www.manigliedesign.com/meccanismi-cremonesi-martelline-finestre/4003-dispositivo-con-sistema-di-bloccaggio-a-pulsante-cd02-dkz-colombo-design.html"
+  ]
 }

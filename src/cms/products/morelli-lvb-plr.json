@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "LVB",
   "order": 251,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "LVB PLR",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Подходит ли ручка для узкой двери?",
       "a": "Да, узкая планка удобна для полотен с узкой стойкой."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/4874"
+  ]
 }

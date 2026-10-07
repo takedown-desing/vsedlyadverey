@@ -4,7 +4,7 @@
   "brand": "verum",
   "series": "Nuda",
   "order": 280,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "Nuda Pure",
   "hidden": false,
   "hiddenNote": "",
@@ -111,6 +111,5 @@
       "q": "Хватит ли одного комплекта на дверь?",
       "a": "Да, в комплекте две ручки, на обе стороны полотна."
     }
-  ],
-  "sourceUrl": "https://verumhandle.ru/product/ruchka-verum-nuda-pure/"
+  ]
 }

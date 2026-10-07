@@ -4,7 +4,7 @@
   "brand": "verum",
   "series": "Stoppino",
   "order": 75,
-  "category": "/catalog/upory-i-ogranichiteli/magnitnye/",
+  "category": "catalog--upory-i-ogranichiteli--magnitnye",
   "article": "Stoppino X",
   "hidden": false,
   "hiddenNote": "",
@@ -136,6 +136,5 @@
       "q": "Какой способ крепления надёжнее?",
       "a": "Скрытые винты держат прочнее, клей удобнее, если полотно не хочется сверлить."
     }
-  ],
-  "sourceUrl": "https://www.verumitaly.com/en/stoppino/stoppino-x/"
+  ]
 }

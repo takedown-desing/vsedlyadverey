@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "COSMO",
   "order": 220,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "COSMO CYL PL65",
   "hidden": false,
   "hiddenNote": "",
@@ -119,6 +119,5 @@
       "q": "Какие покрытия доступны?",
       "a": "Матовая латунь и матовая бронза."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-planke-fratelli-cattini-cosmo-cyl-pl65-bs-matovaja-latun/"
+  ]
 }

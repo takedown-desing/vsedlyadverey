@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DCH2",
   "order": 344,
-  "category": "/catalog/dovodchiki/skrytye/",
+  "category": "catalog--dovodchiki--skrytye",
   "article": "DCH2-06",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Можно ли поставить его на лёгкую дверь в 30 кг?",
       "a": "Да, нижняя граница диапазона 25 кг. После монтажа убавьте скорость, чтобы дверь не закрывалась слишком резко."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dovodchik-dvernoj-fuaro-fuaro-skrytoj-ustanovki-dch2-06-25-120-kg-al-do-120-kg-alyuminij.html"
+  ]
 }

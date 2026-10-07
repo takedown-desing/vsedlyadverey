@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 358,
-  "category": "/catalog/upory-i-ogranichiteli/magnitnye/",
+  "category": "catalog--upory-i-ogranichiteli--magnitnye",
   "article": "MDS-1",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Чем MDS-1 отличается от MDS-3?",
       "a": "Задача и покрытия у них одинаковые, различается форма корпуса. Выбирайте по тому, какая лучше сочетается с ручками и полом."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/582"
+  ]
 }

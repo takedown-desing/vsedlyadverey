@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Space",
   "order": 183,
-  "category": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/",
+  "category": "catalog--furnitura-dlya-steklyannyh-dverej--otvetnye-chasti",
   "article": "Space.GL.GK",
   "hidden": false,
   "hiddenNote": "",
@@ -127,6 +127,5 @@
       "q": "Какие цвета есть?",
       "a": "Серебристый алюминий (57931) и чёрный (57933)."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/otvetnaya-armadillo-armadillo-chast-zamka-na-steklo-space-gl-gk-al-alyuminij/"
+  ]
 }

@@ -28,5 +28,8 @@
     "/catalog/zavertki-i-nakladki/",
     "/catalog/upory-i-ogranichiteli/"
   ],
-  "order": 10
+  "order": 10,
+  "noindex": false,
+  "canonical": "",
+  "ogImage": ""
 }

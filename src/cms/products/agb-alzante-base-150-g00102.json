@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Classic",
   "order": 165,
-  "category": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+  "category": "catalog--razdvizhnye-sistemy--komplektuyushchie",
   "article": "G00102.00.00",
   "hidden": false,
   "hiddenNote": "",
@@ -118,6 +118,5 @@
       "q": "Можно ли поставить каретки на межкомнатную дверь-купе?",
       "a": "Нет, это узел подъёмно-раздвижной системы, где створка поднимается и опускается ручкой. Для межкомнатных купе используют другие механизмы."
     }
-  ],
-  "sourceUrl": "https://www.tuttoferramenta.it/prodotto/confezione-base-alzante-kg-150/AL011743"
+  ]
 }

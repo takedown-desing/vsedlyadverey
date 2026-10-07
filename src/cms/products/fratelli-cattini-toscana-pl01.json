@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "TOSCANA",
   "order": 285,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "TOSCANA PL01",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Комплект рассчитан на одну дверь?",
       "a": "Да, в нём две ручки, по одной на сторону."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-planke-fratelli-cattini-toscana-pl01-olv-polirovannaja-latun/"
+  ]
 }

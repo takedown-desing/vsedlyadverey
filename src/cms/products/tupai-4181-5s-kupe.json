@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": null,
   "order": 258,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "4181 5S",
   "hidden": false,
   "hiddenNote": "",
@@ -133,6 +133,5 @@
       "q": "Можно ли поставить ручку на складную дверь?",
       "a": "Ручка рассчитана на раздвижные двери и пеналы. Для складной двери проверьте, чтобы ручка не попадала на линию сгиба створок."
     }
-  ],
-  "sourceUrl": "https://tupai-store.ru/katalog/ruchki-dlya-razdvizhnyix-dverej/tupai-4181/ruchka-tupai-4181-5s-96/"
+  ]
 }

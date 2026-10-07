@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica Hybrid",
   "order": 300,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "K2760 DXSX",
   "hidden": false,
   "hiddenNote": "",
@@ -177,6 +177,5 @@
       "q": "В каких направлениях регулируется петля?",
       "a": "По вертикали, по горизонтали и по прижиму, то есть в трёх плоскостях."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/koblenz-kubica-hybrid-k2760-cs-petlya-skrytaya-universalnaya-matovyy-hrom/"
+  ]
 }

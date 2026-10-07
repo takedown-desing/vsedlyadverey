@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DEF",
   "order": 453,
-  "category": "/catalog/cilindry/bronenakladki/",
+  "category": "catalog--cilindry--bronenakladki",
   "article": "DEF 4825",
   "hidden": false,
   "hiddenNote": "",
@@ -116,6 +116,5 @@
       "q": "Подойдёт ли к любому цилиндру?",
       "a": "К стандартному евроцилиндру подходящей длины. Цилиндр должен выступать из накладки минимально."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/bronenakladka_fuaro_def_4825_ab_zelyenaya_bronza/"
+  ]
 }

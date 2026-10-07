@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 328,
-  "category": "/catalog/dvernye-petli/razemnye/",
+  "category": "catalog--dvernye-petli--razemnye",
   "article": "413-4",
   "hidden": false,
   "hiddenNote": "",
@@ -158,6 +158,5 @@
       "q": "Какую гарантию даёт производитель?",
       "a": "Fuaro заявляет 5 лет. Чтобы петля отработала этот срок, не превышайте нагрузку и следите, чтобы она стояла без перекоса."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/petlya-semnaya-fuaro--fuaro-413-4-100x75x25-cp-left-khrom-levaya.html"
+  ]
 }

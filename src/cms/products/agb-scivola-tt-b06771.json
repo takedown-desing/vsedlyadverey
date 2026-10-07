@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Scivola TT",
   "order": 162,
-  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej",
   "article": "B06771.50",
   "hidden": false,
   "hiddenNote": "",
@@ -140,6 +140,5 @@
       "q": "Подойдёт ли TT для санузла?",
       "a": "Этот замок управляется ключом. Для санузла удобнее комплект Scivola TT с ручкой-фиксатором, где механизм тот же."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/scivola-tt/"
+  ]
 }

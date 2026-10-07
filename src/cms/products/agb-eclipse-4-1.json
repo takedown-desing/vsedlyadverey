@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Eclipse",
   "order": 72,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "E30200.64",
   "hidden": false,
   "hiddenNote": "",
@@ -144,6 +144,5 @@
       "q": "Что входит в комплект?",
       "a": "Петля и четыре декоративные накладки на крепёж."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/e30200-64-34-agb-eclipse-4-1-4/"
+  ]
 }

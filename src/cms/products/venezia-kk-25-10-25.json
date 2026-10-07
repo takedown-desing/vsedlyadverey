@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 444,
-  "category": "/catalog/cilindry/klyuch-klyuch/",
+  "category": "catalog--cilindry--klyuch-klyuch",
   "article": "25/10/25",
   "hidden": false,
   "hiddenNote": "",
@@ -142,6 +142,5 @@
       "q": "Есть ли версия с вертушкой?",
       "a": "Да, Venezia ключ/вертушка 25/10/25 той же длины и в классических отделках."
     }
-  ],
-  "sourceUrl": "https://sdf-handle.ru/katalog/cilindry/zamki-i-cilindry-venezia/tsilindr-klyuch-klyuch-25-10-25-venezia-VNZ2032/"
+  ]
 }

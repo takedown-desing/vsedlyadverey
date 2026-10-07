@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 405,
-  "category": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-metallicheskim-yazychkom",
   "article": "F12-45-25",
   "hidden": false,
   "hiddenNote": "",
@@ -107,6 +107,5 @@
       "q": "Можно ли покрасить планку в цвет двери?",
       "a": "Планка уже белая. Перекраска возможна, но краска на торце истирается от язычка ответной части."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/zashchelka_mezhkomnatnaya_fuaro_f12_45_25_wh_belyy/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": null,
   "order": 16,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "A5513",
   "hidden": false,
   "hiddenNote": "",
@@ -112,6 +112,5 @@
       "q": "Можно ли установить накладку без сквозного сверления?",
       "a": "Нет, лицевая и ответная части стягиваются через полотно, поэтому отверстия под винты сквозные."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/nakladka-a5513-ab-bronza-teh-upakovka-vint-m5x90.html"
+  ]
 }

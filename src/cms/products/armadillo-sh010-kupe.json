@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": null,
   "order": 237,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "SH010",
   "hidden": false,
   "hiddenNote": "",
@@ -137,6 +137,5 @@
       "q": "Чем отличаются золото и матовое золото?",
       "a": "Золото имеет глянцевый блеск, матовое выглядит спокойнее и меньше показывает отпечатки."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-dlya-razdvizhnyh-dverej-sh-ld152-010-sh010-sg-1-matovoe-zoloto/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Pivot",
   "order": 59,
-  "category": "/catalog/dvernye-petli/pruzhinnye/",
+  "category": "catalog--dvernye-petli--pruzhinnye",
   "article": "Pivot.150.FIX",
   "hidden": false,
   "hiddenNote": "",
@@ -136,6 +136,5 @@
       "q": "Где разместить ось?",
       "a": "У края полотна, если нужен привычный проход, или по центру, если дверь работает как поворотная перегородка в большом проёме."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/komplekt-armadillo-armadillo-dlya-mayatnikovyh-dverej-pivot-150-fix/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Tricks",
   "order": 69,
-  "category": "/catalog/razdvizhnye-sistemy/skrytye/",
+  "category": "catalog--razdvizhnye-sistemy--skrytye",
   "article": "0590 1 + 0590 1200 2450",
   "hidden": false,
   "hiddenNote": "",
@@ -137,6 +137,5 @@
       "q": "Чем эта версия отличается от Tricks F.M.?",
       "a": "Механизм и параметры одинаковые. Здесь алюминиевые профили режут по месту под проём, а в F.M. приходит готовый комплект без подрезки."
     }
-  ],
-  "sourceUrl": "https://format24.ru/skrytyy-razdvizhnoy-mehanizm-dlya-dverey-kupe-krona-koblenz-tricks-0590-1200-2450.html"
+  ]
 }

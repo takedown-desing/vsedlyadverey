@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Mach",
   "order": 200,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "CD81RSB",
   "hidden": false,
   "hiddenNote": "",
@@ -147,6 +147,5 @@
       "q": "Входят ли в комплект розетки?",
       "a": "Да, комплект рассчитан на одну дверь: две ручки на круглых розетках и крепёж. Защёлка и накладки приобретаются отдельно."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-kruglom-osnovanii-colombo-mach-cd-81-rsb-matovyj-hrom/"
+  ]
 }

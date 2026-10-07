@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "CB-S",
   "order": 123,
-  "category": "/catalog/cilindry/povorotniki/",
+  "category": "catalog--cilindry--povorotniki",
   "article": "CB-S",
   "hidden": false,
   "hiddenNote": "",
@@ -123,6 +123,5 @@
       "q": "Подходит ли к межкомнатной двери?",
       "a": "Да, если межкомнатный замок оснащён цилиндром со штоком."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/povorotniki/cb/cb_s/vertushka_na_tsilindr_cb_s_cp_8_khrom/"
+  ]
 }

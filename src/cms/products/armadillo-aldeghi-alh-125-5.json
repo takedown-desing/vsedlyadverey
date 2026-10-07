@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Aldeghi 125",
   "order": 57,
-  "category": "/catalog/dvernye-petli/pruzhinnye/",
+  "category": "catalog--dvernye-petli--pruzhinnye",
   "article": "ALH.125.5",
   "hidden": false,
   "hiddenNote": "",
@@ -145,6 +145,5 @@
       "q": "Держит ли петля дверь закрытой?",
       "a": "Да, пружины возвращают полотно в створ и удерживают его в центральном положении."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-aldeghi-alh-125-5-sc/"
+  ]
 }

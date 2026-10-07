@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": null,
   "order": 90,
-  "category": "/catalog/dovodchiki/pruzhinnye/",
+  "category": "catalog--dovodchiki--pruzhinnye",
   "article": "114D",
   "hidden": false,
   "hiddenNote": "",
@@ -155,6 +155,5 @@
       "q": "Чем 114D отличается от Punto SDC1040?",
       "a": "114D держит двери до 60 кг, крепится на наличник и работает роликом. SDC1040 рассчитан на 40 кг, ставится со стороны петель с тягой на раму и работает на морозе до -35 °C."
     }
-  ],
-  "sourceUrl": "https://made-italy.ru/shop/114zn170d-dovodchik-dvernoj-pruzhinnyj-do-60kg-aldeghi-gerkules-170x39mm-chernyj/"
+  ]
 }

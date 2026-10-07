@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 359,
-  "category": "/catalog/upory-i-ogranichiteli/magnitnye/",
+  "category": "catalog--upory-i-ogranichiteli--magnitnye",
   "article": "MDS-3",
   "hidden": false,
   "hiddenNote": "",
@@ -130,6 +130,5 @@
       "q": "Будет ли магнит притягивать мусор?",
       "a": "Мелкие металлические частицы могут собираться на магните. Протирайте упор при уборке, это не влияет на его работу."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/590"
+  ]
 }

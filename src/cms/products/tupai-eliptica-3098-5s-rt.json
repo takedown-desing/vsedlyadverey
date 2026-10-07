@@ -4,7 +4,7 @@
   "brand": "tupai",
   "series": "Eliptica",
   "order": 255,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "3098 5S RT",
   "hidden": false,
   "hiddenNote": "",
@@ -138,6 +138,5 @@
       "q": "Где производится ручка?",
       "a": "В Португалии."
     }
-  ],
-  "sourceUrl": "https://tupai-store.ru/katalog/eliptica-5s/ruchka-tupai-eliptica-3098-5s-rt-96/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "Plastic",
   "order": 403,
-  "category": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-plastikovym-yazychkom",
   "article": "P12-45-25",
   "hidden": false,
   "hiddenNote": "",
@@ -111,6 +111,5 @@
       "q": "Подойдёт ли ручка на розетке любой марки?",
       "a": "Подойдёт межкомнатная ручка под квадрат 8 мм, если радиус розетки меньше расстояния от центра квадрата до кромки."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/zashchelka_mezhkomnatnaya_fuaro_p12_45_25_plastic_gr_grafit/"
+  ]
 }

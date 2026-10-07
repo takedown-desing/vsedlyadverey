@@ -4,7 +4,7 @@
   "brand": "lockstyle",
   "series": "AXEL-T",
   "order": 28,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "AXEL-T ZR",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Можно ли сочетать с квадратными накладками?",
       "a": "Лучше выбирать круглые накладки и завертки, чтобы форма розеток на двери совпадала."
     }
-  ],
-  "sourceUrl": "https://furnitura96.ru/dvernaya-ruchka-lockstyle-axel-t-zr-al6-chernyj/"
+  ]
 }

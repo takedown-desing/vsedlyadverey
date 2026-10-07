@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Kubica",
   "order": 345,
-  "category": "/catalog/dovodchiki/skrytye/",
+  "category": "catalog--dovodchiki--skrytye",
   "article": "0870 2000 CS",
   "hidden": false,
   "hiddenNote": "",
@@ -119,6 +119,5 @@
       "q": "Какой зазор нужен между дверью и коробкой?",
       "a": "Точный зазор зависит от толщины полотна и указан в монтажной инструкции. Вылет петли 21 мм, его учитывают при разметке."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/kubica-kiker-0870-2000-cs-petlya-dovodchik-skrytaya-matovyy-hrom/"
+  ]
 }

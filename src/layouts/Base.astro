@@ -17,9 +17,10 @@ interface Props {
   activeCat?: string;
   prev?: string;
   next?: string;
+  canonicalUrl?: string;        // SEO-поле «canonical» из админки, если задано
 }
-const { title, description = '', path, noindex = false, schema = [], crumbs = [], image = null, activeCat = '', prev, next } = Astro.props;
-const canonical = abs(Astro.site, path);
+const { title, description = '', path, noindex = false, schema = [], crumbs = [], image = null, activeCat = '', prev, next, canonicalUrl } = Astro.props;
+const canonical = canonicalUrl && /^https?:\/\//.test(canonicalUrl) ? canonicalUrl : canonicalUrl ? abs(Astro.site, canonicalUrl) : abs(Astro.site, path);
 const fullTitle = title.includes(SITE_NAME) || title.length + SITE_NAME.length + 3 > 70 ? title : `${title} | ${SITE_NAME}`;
 const org = { '@type': 'Organization', '@id': abs(Astro.site, '/') + '#org', name: SITE_NAME, legalName: COMPANY.legalName, taxID: COMPANY.inn, url: abs(Astro.site, '/'), telephone: PHONE, ...(EMAIL ? { email: EMAIL } : {}), address: { '@type': 'PostalAddress', streetAddress: COMPANY.street, addressLocality: COMPANY.city, postalCode: COMPANY.postalCode, addressCountry: 'RU' } };
 const graph: Record<string, unknown>[] = [org, ...schema];

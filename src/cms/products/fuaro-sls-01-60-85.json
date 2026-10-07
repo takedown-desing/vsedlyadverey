@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "SLS",
   "order": 105,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--elektromehanicheskie",
   "article": "SLS-01.60.85 S/A TTL",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Подходит ли для межкомнатной двери?",
       "a": "Да, производитель указывает входные и межкомнатные двери."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/elektronnye-zamki/ruchka-poluavtomat-dlya-zamka-vreznogo-poluatomaticheskogo-sls-01-60-85-s-a-ttl-chernaya/"
+  ]
 }

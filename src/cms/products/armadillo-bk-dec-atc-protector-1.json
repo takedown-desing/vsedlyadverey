@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "ATC Protector",
   "order": 10,
-  "category": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+  "category": "catalog--zavertki-i-nakladki--dekorativnye-nakladki",
   "article": "BK-DEC",
   "hidden": false,
   "hiddenNote": "",
@@ -173,6 +173,5 @@
       "q": "Какую вертушку подобрать?",
       "a": "Подойдёт поворотник под шток 8 мм, например из серий Armadillo T.Knob в том же покрытии."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-nakladka-armadillo--armadillo-na-czilindr-so-shtokom-bk-dec-atc-protector-1-cp-8-khrom.html"
+  ]
 }

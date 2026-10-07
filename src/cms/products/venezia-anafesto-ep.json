@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "ANAFESTO",
   "order": 243,
-  "category": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-profilnyh-dverej",
   "article": "ANAFESTO EP",
   "hidden": false,
   "hiddenNote": "",
@@ -144,6 +144,5 @@
       "q": "Нужно ли докупать вторую ручку?",
       "a": "Нет, в комплекте две ручки на обе стороны двери."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-dlja-profilnyh-dverej-venezia-anafesto-ep-polirovannaja-latun/"
+  ]
 }

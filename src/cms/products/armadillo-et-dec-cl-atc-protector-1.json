@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "ATC Protector Classic",
   "order": 9,
-  "category": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+  "category": "catalog--zavertki-i-nakladki--dekorativnye-nakladki",
   "article": "ET-DEC CL",
   "hidden": false,
   "hiddenNote": "",
@@ -156,6 +156,5 @@
       "q": "Какой инструмент нужен для установки?",
       "a": "Отвёртка или шуруповёрт для саморезов и шестигранный ключ, который идёт в комплекте."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-nakladka-armadillo--armadillo-na-czilindr-et-dec-cl-atc-protector-1-abl-18-temnaya-med.html"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": null,
   "order": 437,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "CYL-1 D1",
   "hidden": false,
   "hiddenNote": "",
@@ -159,6 +159,5 @@
       "q": "Сколько штук в упаковке?",
       "a": "Две, по одной на каждую сторону двери."
     }
-  ],
-  "sourceUrl": "https://sdf-handle.ru/katalog/komplektuyuschie/nakladki-pod-cilindr/nakladki-pod-tsilindr-venezia/nakladka-pod-tsilindr-cyl-1-d1-venezia-VNZ1305/"
+  ]
 }

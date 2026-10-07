@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "RIM",
   "order": 94,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--nakladnye",
   "article": "RIM-1-1",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Сколько ключей в комплекте?",
       "a": "Три."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zamki_nakladnye/dlya_legkikh_dverey/rim/zamok_nakladnoy_rim_1_1_ab_bronza/"
+  ]
 }

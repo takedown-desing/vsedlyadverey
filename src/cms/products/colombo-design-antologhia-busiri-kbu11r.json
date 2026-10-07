@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Antologhia",
   "order": 33,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "KBU11R",
   "hidden": false,
   "hiddenNote": "",
@@ -128,6 +128,5 @@
       "q": "Какой диапазон толщины двери?",
       "a": "От 40 до 53 мм, это шире, чем у Bellagio."
     }
-  ],
-  "sourceUrl": "https://alfasantehnika.ru/catalog/accessories6723/31089/"
+  ]
 }

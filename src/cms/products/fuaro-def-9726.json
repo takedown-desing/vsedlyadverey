@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "DEF",
   "order": 454,
-  "category": "/catalog/cilindry/bronenakladki/",
+  "category": "catalog--cilindry--bronenakladki",
   "article": "DEF 9726",
   "hidden": false,
   "hiddenNote": "",
@@ -106,6 +106,5 @@
       "q": "Подходит ли к врезным замкам Fuaro?",
       "a": "Да, к цилиндровым замкам входных дверей, например Fuaro V10/C и V25/C."
     }
-  ],
-  "sourceUrl": "https://zamkitut.com/catalog/product/bronenakladka_fuaro_def_9726_cp_8_khrom/"
+  ]
 }

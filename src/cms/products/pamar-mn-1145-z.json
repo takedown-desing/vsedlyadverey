@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 502,
-  "category": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/",
+  "category": "catalog--mebelnaya-furnitura--mebelnye-ruchki",
   "article": "MN 1145 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -110,6 +110,5 @@
       "q": "Где ставить скобу на кухонной дверце?",
       "a": "На верхних шкафах ручку обычно размещают у нижнего края дверцы, на нижних у верхнего, на ящиках по центру. Скоба 96 мм уместна и вертикально, и горизонтально."
     }
-  ],
-  "sourceUrl": "https://www.itkt.ru/category/skoby_v_stile_modern/ruchka_mebelnaya_pamar_mn_1145_z/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "venezia",
   "series": "Unique Miami",
   "order": 35,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "VNZ2026",
   "hidden": false,
   "hiddenNote": "",
@@ -146,6 +146,5 @@
       "q": "Чем Miami отличается от Sydney?",
       "a": "Формой рычага: у Miami каплевидный, сужающийся к краю, у Sydney прямой с лёгким изгибом на конце. Розетка у обеих одинаковая."
     }
-  ],
-  "sourceUrl": "https://nasp.ru/product/vnz2026-100801/"
+  ]
 }

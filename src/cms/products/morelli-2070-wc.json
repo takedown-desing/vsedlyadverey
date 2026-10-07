@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 410,
-  "category": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-fiksatorom",
   "article": "2070",
   "hidden": false,
   "hiddenNote": "",
@@ -108,6 +108,5 @@
       "q": "Есть ли такая же защёлка с пластиковым язычком?",
       "a": "У Morelli есть 1895P с пластиковым язычком, у Fuaro модель P72-50 с тем же межосевым 70 мм."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/449"
+  ]
 }

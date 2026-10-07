@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 366,
-  "category": "/catalog/zadvizhki-i-shpingalety/torcevye/",
+  "category": "catalog--zadvizhki-i-shpingalety--torcevye",
   "article": "OL160",
   "hidden": false,
   "hiddenNote": "",
@@ -136,6 +136,5 @@
       "q": "Почему выбрать OL160, а не L160?",
       "a": "Если врезка будет фрезером, OL160 удобнее. Если нужен белый или хромовый цвет, придётся брать L160."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/skobyanye-izdeliya/all/499"
+  ]
 }

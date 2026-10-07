@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": null,
   "order": 406,
-  "category": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-metallicheskim-yazychkom",
   "article": "L6-45",
   "hidden": false,
   "hiddenNote": "",
@@ -97,6 +97,5 @@
       "q": "Есть ли такая же защёлка с бэксетом 50 мм?",
       "a": "У других брендов в каталоге есть, например Armadillo LH 25-50. Бэксет выбирают по уже просверленному отверстию под ручку."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/zamki-i-zashchelki/all/172"
+  ]
 }

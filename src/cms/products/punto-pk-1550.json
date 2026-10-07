@@ -4,7 +4,7 @@
   "brand": "punto",
   "series": "PK-15",
   "order": 113,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--navesnye",
   "article": "PK-1550",
   "hidden": false,
   "hiddenNote": "",
@@ -120,6 +120,5 @@
       "q": "Как ухаживать за замком на улице?",
       "a": "Перед зимой капните в скважину смазку для замков и несколько раз проверните ключ. Густое масло не используйте, на морозе оно затвердевает."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/zamki_navesnye/vsepogodnye/pk_15/pk_1550_/zamok_navesnoy_pk_1550_3_key_disk_klyuch/"
+  ]
 }

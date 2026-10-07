@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "NAPOLI",
   "order": 219,
-  "category": "/catalog/dvernye-ruchki/na-planke/",
+  "category": "catalog--dvernye-ruchki--na-planke",
   "article": "NAPOLI PL01",
   "hidden": false,
   "hiddenNote": "",
@@ -139,6 +139,5 @@
       "q": "Можно ли чистить ручку пастой для латуни?",
       "a": "Нет, паста снимет патину. Используйте только сухую или слегка влажную мягкую ткань."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/dvernaja-ruchka-na-planke-fratelli-cattini-napoli-pl01-ba-antichnaja-bronza/"
+  ]
 }

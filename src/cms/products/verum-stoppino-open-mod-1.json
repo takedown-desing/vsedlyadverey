@@ -4,7 +4,7 @@
   "brand": "verum",
   "series": "Stoppino",
   "order": 74,
-  "category": "/catalog/upory-i-ogranichiteli/skrytye/",
+  "category": "catalog--upory-i-ogranichiteli--skrytye",
   "article": "Stoppino Open mod. 1",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Будет ли основание мешать ходить?",
       "a": "Нет, площадка небольшая и плоская, по ней можно наступать."
     }
-  ],
-  "sourceUrl": "https://protect-system.pro/category/ogranichiteli-dvernye/verum/"
+  ]
 }

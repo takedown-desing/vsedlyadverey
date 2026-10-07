@@ -4,7 +4,7 @@
   "brand": "class",
   "series": "Sapphire",
   "order": 274,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "1045",
   "hidden": false,
   "hiddenNote": "",
@@ -103,6 +103,5 @@
       "q": "Для каких дверей подходит Sapphire?",
       "a": "Для массивных классических полотен в интерьерах с лепниной и деревянными панелями."
     }
-  ],
-  "sourceUrl": "https://zamkitut.ru/catalog/product/dvernaya-ruchka-class-mod-sapphire-1045-na-rozetke-60mm-starinnaya-latun-korichnevyy/"
+  ]
 }

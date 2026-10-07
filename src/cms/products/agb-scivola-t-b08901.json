@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Scivola T",
   "order": 161,
-  "category": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej",
   "article": "B08901.50",
   "hidden": false,
   "hiddenNote": "",
@@ -152,6 +152,5 @@
       "q": "Какую лицевую планку выбрать?",
       "a": "Замок выпускается с планкой 16 или 18 мм. Ориентируйтесь на ширину торца полотна: планка должна лечь в паз целиком."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/scivola-t/"
+  ]
 }

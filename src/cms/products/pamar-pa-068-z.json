@@ -4,7 +4,7 @@
   "brand": "pamar",
   "series": null,
   "order": 152,
-  "category": "/catalog/mebelnaya-furnitura/kryuchki/",
+  "category": "catalog--mebelnaya-furnitura--kryuchki",
   "article": "PA 068 Z",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Чем PA 068 Z отличается от других крючков Pamar?",
       "a": "Он самый узкий и простой: одна планка шириной 15 мм, тогда как PA 055 Z трёхрожковый, а PA 062 Z на круглом основании."
     }
-  ],
-  "sourceUrl": "https://www.pamarworld.com/hook/pa-068-z"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Penal",
   "order": 474,
-  "category": "/catalog/razdvizhnye-sistemy/penaly/",
+  "category": "catalog--razdvizhnye-sistemy--penaly",
   "article": "SLD.Comfort-PENAL caseta 900/2300",
   "hidden": false,
   "hiddenNote": "",
@@ -124,6 +124,5 @@
       "q": "Какой вес двери выдержит пенал?",
       "a": "До 80 кг при толщине полотна 30-60 мм."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/penal-dlya-skrytoj-razdvizhnoj-armadillo-armadillo-sistemy-sld-comfort-penal-caseta-900-2300/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "Simple",
   "order": 481,
-  "category": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+  "category": "catalog--razdvizhnye-sistemy--komplektuyushchie",
   "article": "SET 4",
   "hidden": false,
   "hiddenNote": "",
@@ -113,6 +113,5 @@
       "q": "Что делать, если дверь тяжелее 40 кг?",
       "a": "Выбирать систему с большей допустимой нагрузкой. Перегруз быстрее изнашивает колёса и подшипники."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/razdvizhnye-sistemy/all/450"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "ajax",
   "series": "TDR",
   "order": 339,
-  "category": "/catalog/dovodchiki/nakladnye/",
+  "category": "catalog--dovodchiki--nakladnye",
   "article": "DCTR50-100",
   "hidden": false,
   "hiddenNote": "",
@@ -137,6 +137,5 @@
       "q": "Сколько циклов прослужит доводчик?",
       "a": "Производитель заявляет ресурс более 200 000 циклов. Для очень проходных входов с тысячами открываний в день стоит взять модель с большим ресурсом."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dovodchik-ajax-ayaks-dvernoj-dctr50-100-tdr-100-50-100kg-al-alyuminij.html"
+  ]
 }

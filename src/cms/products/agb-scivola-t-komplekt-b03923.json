@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Scivola T",
   "order": 163,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "B03923.50",
   "hidden": false,
   "hiddenNote": "",
@@ -150,6 +150,5 @@
       "q": "Подойдёт ли набор для кабинета, который закрывают снаружи?",
       "a": "Для запирания снаружи на ключ удобнее отдельный замок Scivola T B08901, а этот комплект рассчитан на закрывание изнутри."
     }
-  ],
-  "sourceUrl": "https://agb.spb.ru/product/komplekt-scivola-t/"
+  ]
 }

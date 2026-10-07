@@ -4,7 +4,7 @@
   "brand": "fratelli-cattini",
   "series": "CompactTwin",
   "order": 136,
-  "category": "/catalog/razdvizhnye-sistemy/knizhka/",
+  "category": "catalog--razdvizhnye-sistemy--knizhka",
   "article": "800B100DX",
   "hidden": false,
   "hiddenNote": "",
@@ -126,6 +126,5 @@
       "q": "Можно ли поставить дверь высотой 2400 мм?",
       "a": "Да, это предельная высота створки по паспорту. При такой высоте особенно важно уложиться в 50 кг на две створки."
     }
-  ],
-  "sourceUrl": "https://www.lock-door.ru/goods/sistema-compacttwin-800b100dx-novyiy-pravaya-180-reguliruemyiy-stopor"
+  ]
 }

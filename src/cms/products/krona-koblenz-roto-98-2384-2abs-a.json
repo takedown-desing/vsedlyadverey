@@ -4,7 +4,7 @@
   "brand": "krona-koblenz",
   "series": "Swinglife",
   "order": 469,
-  "category": "/catalog/razdvizhnye-sistemy/roto/",
+  "category": "catalog--razdvizhnye-sistemy--roto",
   "article": "98/2384/2ABS/A",
   "hidden": false,
   "hiddenNote": "",
@@ -117,6 +117,5 @@
       "q": "Куда открывается рото-дверь?",
       "a": "Полотно поворачивается и встаёт по центру проёма, проходить можно с обеих сторон."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/roto-mehanizm-na-polotno-715-965h2384-mm-s-abs-seryj-9823842absa/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "extreza",
   "series": "Magnum",
   "order": 77,
-  "category": "/catalog/upory-i-ogranichiteli/skrytye/",
+  "category": "catalog--upory-i-ogranichiteli--skrytye",
   "article": "M-72",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Будет ли дверь стучать о стену?",
       "a": "Нет, полотно останавливается на основании и не доходит до стены."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/upor-dvernoy-magnitnyy-skrytoy-ustanovki-extreza-m-72-magnum-chernyy-f22/"
+  ]
 }

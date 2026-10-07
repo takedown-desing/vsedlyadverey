@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": null,
   "order": 404,
-  "category": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/",
+  "category": "catalog--mezhkomnatnye-zamki--s-metallicheskim-yazychkom",
   "article": "METLH25-50",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Можно ли добавить запирание позже?",
       "a": "Нет, в корпусе нет механизма фиксатора. Для запирания замок придётся поменять на модель WC или под цилиндр."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/korpus-vreznogo-zamka-c-zashhyolkoj-metlh25-50-box-lh-25-50-ab-bronza/"
+  ]
 }

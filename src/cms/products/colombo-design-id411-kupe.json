@@ -4,7 +4,7 @@
   "brand": "colombo-design",
   "series": "Roboquattro",
   "order": 234,
-  "category": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+  "category": "catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej",
   "article": "ID411",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Насколько массивна модель?",
       "a": "Ручка весит 130 г, это компактное и лёгкое изделие."
     }
-  ],
-  "sourceUrl": "https://todoor.ru/shop/ruchka-dlja-razdvizhnoj-dveri-colombo-id411-nm-chernyj-1sht/"
+  ]
 }

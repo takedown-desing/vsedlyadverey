@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": null,
   "order": 11,
-  "category": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+  "category": "catalog--zavertki-i-nakladki--nakladki-pod-cilindr",
   "article": "ESC 476",
   "hidden": false,
   "hiddenNote": "",
@@ -155,6 +155,5 @@
       "q": "Подходит ли накладка к замкам других марок?",
       "a": "Да, если скважина стандартная для сувальдного ключа и по размеру помещается под накладку."
     }
-  ],
-  "sourceUrl": "https://goldenzamok.ru/dekorativnaya-nakladka-fuaro--fuaro-esc-476-sp-khrom-na-suvaldnyj-zamok-s-shtorkoj.html"
+  ]
 }

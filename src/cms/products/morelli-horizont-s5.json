@@ -4,7 +4,7 @@
   "brand": "morelli",
   "series": "HORIZONT",
   "order": 248,
-  "category": "/catalog/dvernye-ruchki/na-rozetke/",
+  "category": "catalog--dvernye-ruchki--na-rozetke",
   "article": "HORIZONT S5",
   "hidden": false,
   "hiddenNote": "",
@@ -134,6 +134,5 @@
       "q": "Есть ли белая версия?",
       "a": "Да, модель выпускается в белом, чёрном, матовом хроме и матовом золоте."
     }
-  ],
-  "sourceUrl": "https://morelli.ru/catalog/ruchki/all/832"
+  ]
 }

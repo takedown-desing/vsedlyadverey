@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": "Eclipse",
   "order": 71,
-  "category": "/catalog/dvernye-petli/skrytye/",
+  "category": "catalog--dvernye-petli--skrytye",
   "article": "E30200.85",
   "hidden": false,
   "hiddenNote": "",
@@ -153,6 +153,5 @@
       "q": "Подойдёт ли Eclipse 2.2 для правой двери?",
       "a": "Да, сторона универсальная, одна петля ставится и на левые, и на правые двери."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/e30200-85-34-agb-agb-mat-hrom-petlya-eclipse-2-2-4-nakladki-v-komplekte/"
+  ]
 }

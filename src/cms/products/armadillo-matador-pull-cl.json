@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Matador",
   "order": 231,
-  "category": "/catalog/dvernye-ruchki/skoby/",
+  "category": "catalog--dvernye-ruchki--skoby",
   "article": "PULL.CL250.MATADOR",
   "hidden": false,
   "hiddenNote": "",
@@ -143,6 +143,5 @@
       "q": "Сколько весит скоба?",
       "a": "1350 г."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/ruchka-skoba-pull-cl250-matador-matador-pull-cl-as-9-antichnoe-serebro/"
+  ]
 }

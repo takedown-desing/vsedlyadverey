@@ -4,7 +4,7 @@
   "brand": "agb",
   "series": null,
   "order": 422,
-  "category": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/",
+  "category": "catalog--mezhkomnatnye-zamki--otvetnye-planki",
   "article": "B01000.13",
   "hidden": false,
   "hiddenNote": "",
@@ -129,6 +129,5 @@
       "q": "Зачем менять старую планку?",
       "a": "Со временем края отверстия стираются, появляется люфт и дверь дребезжит. Новая планка возвращает плотное закрывание."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/b01000-13-03-576-otvetnaya-planka-latun/"
+  ]
 }

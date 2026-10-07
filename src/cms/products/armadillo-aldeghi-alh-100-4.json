@@ -4,7 +4,7 @@
   "brand": "armadillo",
   "series": "Aldeghi 100",
   "order": 56,
-  "category": "/catalog/dvernye-petli/pruzhinnye/",
+  "category": "catalog--dvernye-petli--pruzhinnye",
   "article": "ALH.100.4",
   "hidden": false,
   "hiddenNote": "",
@@ -149,6 +149,5 @@
       "q": "Есть ли глянцевый хром?",
       "a": "Да, ALH.100.4 выпускается в хроме (CP), а также в матовом хроме, чёрном и матовом золоте. У старшей ALH.125.5 глянцевого хрома нет."
     }
-  ],
-  "sourceUrl": "https://armadillo-msk.ru/shop/armadillo-aldeghi-alh-100-4-sc/"
+  ]
 }

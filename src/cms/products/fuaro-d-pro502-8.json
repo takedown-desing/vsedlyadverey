@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "D-PRO",
   "order": 127,
-  "category": "/catalog/cilindry/klyuch-vertushka/",
+  "category": "catalog--cilindry--klyuch-vertushka",
   "article": "D-PRO5002-8Knob",
   "hidden": false,
   "hiddenNote": "",
@@ -125,6 +125,5 @@
       "q": "Какие длины есть?",
       "a": "80 и 90 мм."
     }
-  ],
-  "sourceUrl": "https://www.tlock.ru/catalog/tsilindrovye_mekhanizmy/s_individualnym_klyuchom/d_pro/d_pro/tsilindrovyy_mekhanizm_d_pro502_8_90_mm_40_10_40_cp_khrom_5_1_kl_perekodiruemyy_s_vertushkoy/"
+  ]
 }

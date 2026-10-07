@@ -4,7 +4,7 @@
   "brand": "comaglio",
   "series": "Pressure",
   "order": 42,
-  "category": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+  "category": "catalog--avtoporogi-i-uplotniteli--avtoporogi",
   "article": "1712",
   "hidden": false,
   "hiddenNote": "",
@@ -131,6 +131,5 @@
       "q": "Подходит ли 1712 для пластиковых дверей?",
       "a": "Да, производитель допускает установку в деревянные, ПВХ, алюминиевые и металлические полотна при возможности выполнить паз."
     }
-  ],
-  "sourceUrl": "https://fellini-handles.ru/katalog/avtomaticheskie-porogi/avtomaticheskij-porog-comaglio-1712.html"
+  ]
 }

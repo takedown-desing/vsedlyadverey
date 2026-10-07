@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "ML",
   "order": 101,
-  "category": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/",
+  "category": "catalog--zamki-dlya-vhodnyh-dverej--elektromehanicheskie",
   "article": "ML-500",
   "hidden": false,
   "hiddenNote": "",
@@ -121,6 +121,5 @@
       "q": "Можно ли поставить на деревянную дверь?",
       "a": "Да, если конструкция позволяет закрепить якорную пластину и корпус магнита."
     }
-  ],
-  "sourceUrl": "https://fuaro.ru/catalog/zamki-i-furnitura-dlya-metallicheskikh-dverey/zamki-elektromagnitnye/elektromagnitnyy-zamok-ml-500-s-siloy-uderzhaniya-na-otryv-500-kg-serebro/"
+  ]
 }

@@ -4,7 +4,7 @@
   "brand": "fuaro",
   "series": "Viewer 3",
   "order": 368,
-  "category": "/catalog/glazki-i-aksessuary/glazki/",
+  "category": "catalog--glazki-i-aksessuary--glazki",
   "article": "DV 3/90-50/Z",
   "hidden": false,
   "hiddenNote": "",
@@ -154,6 +154,5 @@
       "q": "Можно ли заменить старый глазок без переделки двери?",
       "a": "Если старое отверстие тоже 16 мм, новый глазок вкручивается на его место без сверления."
     }
-  ],
-  "sourceUrl": "https://kromus.ru/glazok-dvernoy-optika-plastik-dv-3-90-50-z-viewer-3-dvz-cp-hrom/"
+  ]
 }
