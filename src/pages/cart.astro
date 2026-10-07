@@ -13,7 +13,7 @@ import { u } from '../lib/url';
     const fmt = (n) => new Intl.NumberFormat('ru-RU').format(n) + ' ₽';
     const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     const render = () => {
-      const m = window.maniglia; const items = m.read();
+      const m = window.shopCart; const items = m.read();
       if (!items.length) { box.innerHTML = `<div class="empty">Корзина пуста. <a href="${base}catalog/">Перейти в каталог</a></div>`; return; }
       const total = items.reduce((s, i) => s + (i.price || 0) * i.qty, 0);
       box.innerHTML = `<table class="cart-table"><thead><tr><th></th><th>Товар</th><th>Кол-во</th><th>Сумма</th><th></th></tr></thead><tbody>${items.map((i, k) => `<tr><td>${i.img ? `<img src="${base}${i.img.replace(/^\//, '')}" alt="">` : ''}</td><td><a href="${base}${i.url.replace(/^\//, '')}">${esc(i.name)}</a><br><small>${esc(i.finish)}</small></td><td><input type="number" min="1" value="${i.qty}" data-k="${k}" style="width:64px;height:36px;padding:0 8px" aria-label="Количество"></td><td>${i.price ? fmt(i.price * i.qty) : 'по запросу'}</td><td><button class="btn btn-ghost btn-sm" data-del="${k}">Удалить</button></td></tr>`).join('')}</tbody></table>

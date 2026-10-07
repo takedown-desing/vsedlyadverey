@@ -1,5 +1,5 @@
 {
-  "name": "maniglia-shop",
+  "name": "vsedlyadverey",
   "type": "module",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@
     "predev": "node scripts/prepare-data.mjs && node scripts/gen-cms-config.mjs",
     "dev": "astro dev",
     "build": "astro build",
+    "postbuild": "node scripts/save-cms-state.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

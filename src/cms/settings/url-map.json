@@ -1,0 +1,2794 @@
+{
+  "products/agb-alzante-base-150-g00102": {
+    "url": "/product/agb-alzante-base-150-g00102/",
+    "fallback": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
+  },
+  "products/agb-b00502-15-01-perekhodnik-6-8": {
+    "url": "/product/agb-b00502-15-01-perekhodnik-6-8/",
+    "fallback": "/catalog/remkomplekty-i-zapchasti/"
+  },
+  "products/agb-b01000-13": {
+    "url": "/product/agb-b01000-13/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/"
+  },
+  "products/agb-centro-cyl-b01025": {
+    "url": "/product/agb-centro-cyl-b01025/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/"
+  },
+  "products/agb-centro-wc-b01013": {
+    "url": "/product/agb-centro-wc-b01013/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/"
+  },
+  "products/agb-d00320-15": {
+    "url": "/product/agb-d00320-15/",
+    "fallback": "/catalog/upory-i-ogranichiteli/torcevye/"
+  },
+  "products/agb-e00133-16-04": {
+    "url": "/product/agb-e00133-16-04/",
+    "fallback": "/catalog/dvernye-petli/shablony-i-frezy/"
+  },
+  "products/agb-e00139-16-04": {
+    "url": "/product/agb-e00139-16-04/",
+    "fallback": "/catalog/dvernye-petli/shablony-i-frezy/"
+  },
+  "products/agb-e01150-14": {
+    "url": "/product/agb-e01150-14/",
+    "fallback": "/catalog/dvernye-petli/vvertnye/"
+  },
+  "products/agb-e01150-16": {
+    "url": "/product/agb-e01150-16/",
+    "fallback": "/catalog/dvernye-petli/vvertnye/"
+  },
+  "products/agb-e50100-00-01": {
+    "url": "/product/agb-e50100-00-01/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/"
+  },
+  "products/agb-eclipse-2-0": {
+    "url": "/product/agb-eclipse-2-0/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/agb-eclipse-2-2": {
+    "url": "/product/agb-eclipse-2-2/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/agb-eclipse-3-0": {
+    "url": "/product/agb-eclipse-3-0/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/agb-eclipse-4-1": {
+    "url": "/product/agb-eclipse-4-1/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/agb-eclipse-self-3-2": {
+    "url": "/product/agb-eclipse-self-3-2/",
+    "fallback": "/catalog/dovodchiki/skrytye/"
+  },
+  "products/agb-grand-key-b00597": {
+    "url": "/product/agb-grand-key-b00597/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-klyuch/"
+  },
+  "products/agb-grand-wc-b00598": {
+    "url": "/product/agb-grand-wc-b00598/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/"
+  },
+  "products/agb-mediana-evolution-cyl-b01103": {
+    "url": "/product/agb-mediana-evolution-cyl-b01103/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
+  },
+  "products/agb-mediana-evolution-key-b01101": {
+    "url": "/product/agb-mediana-evolution-key-b01101/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-klyuch/"
+  },
+  "products/agb-mediana-evolution-wc-b01102": {
+    "url": "/product/agb-mediana-evolution-wc-b01102/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
+  },
+  "products/agb-mediana-polaris-cyl-b06103": {
+    "url": "/product/agb-mediana-polaris-cyl-b06103/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
+  },
+  "products/agb-mediana-polaris-key-b06101": {
+    "url": "/product/agb-mediana-polaris-key-b06101/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-klyuch/"
+  },
+  "products/agb-mediana-polaris-wc-b06102": {
+    "url": "/product/agb-mediana-polaris-wc-b06102/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/agb-minimal-b02402-05": {
+    "url": "/product/agb-minimal-b02402-05/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/"
+  },
+  "products/agb-polaris-wave-wc-b06132": {
+    "url": "/product/agb-polaris-wave-wc-b06132/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/agb-scivola-t-b08901": {
+    "url": "/product/agb-scivola-t-b08901/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/agb-scivola-t-komplekt-b03923": {
+    "url": "/product/agb-scivola-t-komplekt-b03923/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/agb-scivola-tre-class-cyl-b08982": {
+    "url": "/product/agb-scivola-tre-class-cyl-b08982/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/agb-scivola-tre-class-wc-b08981": {
+    "url": "/product/agb-scivola-tre-class-wc-b08981/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/agb-scivola-tt-b06771": {
+    "url": "/product/agb-scivola-tt-b06771/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/agb-scivola-tt-komplekt-b02923": {
+    "url": "/product/agb-scivola-tt-komplekt-b02923/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/agb-sicurezza-cyl-18": {
+    "url": "/product/agb-sicurezza-cyl-18/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/agb-sicurezza-cyl-22": {
+    "url": "/product/agb-sicurezza-cyl-22/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/agb-touch-b01120-30": {
+    "url": "/product/agb-touch-b01120-30/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/agb-xc-karetki-g04104": {
+    "url": "/product/agb-xc-karetki-g04104/",
+    "fallback": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
+  },
+  "products/agb-xc-s-line-karetki-g04115": {
+    "url": "/product/agb-xc-s-line-karetki-g04115/",
+    "fallback": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
+  },
+  "products/ajax-ax100-kk": {
+    "url": "/product/ajax-ax100-kk/",
+    "fallback": "/catalog/cilindry/klyuch-klyuch/"
+  },
+  "products/ajax-az100-kk": {
+    "url": "/product/ajax-az100-kk/",
+    "fallback": "/catalog/cilindry/klyuch-klyuch/"
+  },
+  "products/ajax-az200-202": {
+    "url": "/product/ajax-az200-202/",
+    "fallback": "/catalog/cilindry/klyuch-vertushka/"
+  },
+  "products/ajax-ch-01-105": {
+    "url": "/product/ajax-ch-01-105/",
+    "fallback": "/catalog/glazki-i-aksessuary/"
+  },
+  "products/ajax-dctr50-100": {
+    "url": "/product/ajax-dctr50-100/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/ajax-evo-jk": {
+    "url": "/product/ajax-evo-jk/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/ajax-in4000w": {
+    "url": "/product/ajax-in4000w/",
+    "fallback": "/catalog/dvernye-petli/babochki/"
+  },
+  "products/ajax-optima-jk": {
+    "url": "/product/ajax-optima-jk/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/ajax-pd-0150": {
+    "url": "/product/ajax-pd-0150/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
+  },
+  "products/ajax-pd-4050": {
+    "url": "/product/ajax-pd-4050/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
+  },
+  "products/ajax-polo-jk": {
+    "url": "/product/ajax-polo-jk/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/ajax-rim-1-1": {
+    "url": "/product/ajax-rim-1-1/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/"
+  },
+  "products/ajax-rim-1-3-1": {
+    "url": "/product/ajax-rim-1-3-1/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/"
+  },
+  "products/ajax-rim-1-3": {
+    "url": "/product/ajax-rim-1-3/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/"
+  },
+  "products/ajax-rim-200-code": {
+    "url": "/product/ajax-rim-200-code/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/"
+  },
+  "products/ajax-sigma-jr": {
+    "url": "/product/ajax-sigma-jr/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/armadillo-aldeghi-alh-100-4": {
+    "url": "/product/armadillo-aldeghi-alh-100-4/",
+    "fallback": "/catalog/dvernye-petli/pruzhinnye/"
+  },
+  "products/armadillo-aldeghi-alh-125-5": {
+    "url": "/product/armadillo-aldeghi-alh-125-5/",
+    "fallback": "/catalog/dvernye-petli/pruzhinnye/"
+  },
+  "products/armadillo-architect-11160un3d": {
+    "url": "/product/armadillo-architect-11160un3d/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/armadillo-bella-cl2": {
+    "url": "/product/armadillo-bella-cl2/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/armadillo-bh470ss": {
+    "url": "/product/armadillo-bh470ss/",
+    "fallback": "/catalog/dvernye-petli/pruzhinnye/"
+  },
+  "products/armadillo-bh586ss": {
+    "url": "/product/armadillo-bh586ss/",
+    "fallback": "/catalog/dvernye-petli/pruzhinnye/"
+  },
+  "products/armadillo-bk-dec-atc-protector-1": {
+    "url": "/product/armadillo-bk-dec-atc-protector-1/",
+    "fallback": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/"
+  },
+  "products/armadillo-brick-ucs": {
+    "url": "/product/armadillo-brick-ucs/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
+  },
+  "products/armadillo-comfort-nizhniy-rolik": {
+    "url": "/product/armadillo-comfort-nizhniy-rolik/",
+    "fallback": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
+  },
+  "products/armadillo-comfort-pro-kit-2000-track-dec": {
+    "url": "/product/armadillo-comfort-pro-kit-2000-track-dec/",
+    "fallback": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
+  },
+  "products/armadillo-compact-180-50-80-inox": {
+    "url": "/product/armadillo-compact-180-50-80-inox/",
+    "fallback": "/catalog/razdvizhnye-sistemy/knizhka/"
+  },
+  "products/armadillo-cube-urb3": {
+    "url": "/product/armadillo-cube-urb3/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/armadillo-dcslider45": {
+    "url": "/product/armadillo-dcslider45/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/armadillo-def-uss-k25": {
+    "url": "/product/armadillo-def-uss-k25/",
+    "fallback": "/catalog/cilindry/bronenakladki/"
+  },
+  "products/armadillo-dh033za": {
+    "url": "/product/armadillo-dh033za/",
+    "fallback": "/catalog/upory-i-ogranichiteli/nastennye/"
+  },
+  "products/armadillo-dv-pro-3": {
+    "url": "/product/armadillo-dv-pro-3/",
+    "fallback": "/catalog/glazki-i-aksessuary/glazki/"
+  },
+  "products/armadillo-easy-block-f": {
+    "url": "/product/armadillo-easy-block-f/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/armadillo-et-dec-atc-protector-1": {
+    "url": "/product/armadillo-et-dec-atc-protector-1/",
+    "fallback": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/"
+  },
+  "products/armadillo-et-dec-cl-atc-protector-1": {
+    "url": "/product/armadillo-et-dec-cl-atc-protector-1/",
+    "fallback": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/"
+  },
+  "products/armadillo-et-dec-sq-atc-protector-1": {
+    "url": "/product/armadillo-et-dec-sq-atc-protector-1/",
+    "fallback": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/"
+  },
+  "products/armadillo-et-urb": {
+    "url": "/product/armadillo-et-urb/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/armadillo-excalibur-urb4": {
+    "url": "/product/armadillo-excalibur-urb4/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
+  },
+  "products/armadillo-fb-5-1-2": {
+    "url": "/product/armadillo-fb-5-1-2/",
+    "fallback": "/catalog/upory-i-ogranichiteli/torcevye/"
+  },
+  "products/armadillo-gravity-g01-190-wc": {
+    "url": "/product/armadillo-gravity-g01-190-wc/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/armadillo-gravity-g02-196-cyl": {
+    "url": "/product/armadillo-gravity-g02-196-cyl/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
+  },
+  "products/armadillo-gravity-pro-g01-196-wc": {
+    "url": "/product/armadillo-gravity-pro-g01-196-wc/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/armadillo-gravity-pro-g02-196-cyl": {
+    "url": "/product/armadillo-gravity-pro-g02-196-cyl/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
+  },
+  "products/armadillo-gravity-push-g01-196-22": {
+    "url": "/product/armadillo-gravity-push-g01-196-22/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/armadillo-hidden-80-s-profilem": {
+    "url": "/product/armadillo-hidden-80-s-profilem/",
+    "fallback": "/catalog/razdvizhnye-sistemy/skrytye/"
+  },
+  "products/armadillo-in4500uc": {
+    "url": "/product/armadillo-in4500uc/",
+    "fallback": "/catalog/dvernye-petli/universalnye/"
+  },
+  "products/armadillo-iron-ucs": {
+    "url": "/product/armadillo-iron-ucs/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
+  },
+  "products/armadillo-kvadrat-spindle-6x80": {
+    "url": "/product/armadillo-kvadrat-spindle-6x80/",
+    "fallback": "/catalog/remkomplekty-i-zapchasti/"
+  },
+  "products/armadillo-kvadrat-spindle-8x120": {
+    "url": "/product/armadillo-kvadrat-spindle-8x120/",
+    "fallback": "/catalog/remkomplekty-i-zapchasti/"
+  },
+  "products/armadillo-lh-25-50": {
+    "url": "/product/armadillo-lh-25-50/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/"
+  },
+  "products/armadillo-ly3": {
+    "url": "/product/armadillo-ly3/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/armadillo-ly4": {
+    "url": "/product/armadillo-ly4/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/armadillo-ly5": {
+    "url": "/product/armadillo-ly5/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/armadillo-matador-pull-cl": {
+    "url": "/product/armadillo-matador-pull-cl/",
+    "fallback": "/catalog/dvernye-ruchki/skoby/"
+  },
+  "products/armadillo-max-inox": {
+    "url": "/product/armadillo-max-inox/",
+    "fallback": "/catalog/upory-i-ogranichiteli/skrytye/"
+  },
+  "products/armadillo-mirage-uss": {
+    "url": "/product/armadillo-mirage-uss/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/armadillo-pivot-100": {
+    "url": "/product/armadillo-pivot-100/",
+    "fallback": "/catalog/dvernye-petli/pruzhinnye/"
+  },
+  "products/armadillo-pivot-150-fix": {
+    "url": "/product/armadillo-pivot-150-fix/",
+    "fallback": "/catalog/dvernye-petli/pruzhinnye/"
+  },
+  "products/armadillo-ps-dec-ct-atc-protector-1": {
+    "url": "/product/armadillo-ps-dec-ct-atc-protector-1/",
+    "fallback": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/"
+  },
+  "products/armadillo-range-gl-h10": {
+    "url": "/product/armadillo-range-gl-h10/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/"
+  },
+  "products/armadillo-range-gl-l10": {
+    "url": "/product/armadillo-range-gl-l10/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/"
+  },
+  "products/armadillo-rotator-el-rt01-01": {
+    "url": "/product/armadillo-rotator-el-rt01-01/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
+  },
+  "products/armadillo-sh-urb153-010-kupe": {
+    "url": "/product/armadillo-sh-urb153-010-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/armadillo-sh010-kupe": {
+    "url": "/product/armadillo-sh010-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/armadillo-sh011-urb-kit": {
+    "url": "/product/armadillo-sh011-urb-kit/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/armadillo-sld-comfort-penal-caseta-900-2300": {
+    "url": "/product/armadillo-sld-comfort-penal-caseta-900-2300/",
+    "fallback": "/catalog/razdvizhnye-sistemy/penaly/"
+  },
+  "products/armadillo-sld-comfort-penal-caseta-900-2600": {
+    "url": "/product/armadillo-sld-comfort-penal-caseta-900-2600/",
+    "fallback": "/catalog/razdvizhnye-sistemy/penaly/"
+  },
+  "products/armadillo-sld-comfort-penal-caseta-900-2900": {
+    "url": "/product/armadillo-sld-comfort-penal-caseta-900-2900/",
+    "fallback": "/catalog/razdvizhnye-sistemy/penaly/"
+  },
+  "products/armadillo-sld-comfort-pro-set2-prof-soft-close-80": {
+    "url": "/product/armadillo-sld-comfort-pro-set2-prof-soft-close-80/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/"
+  },
+  "products/armadillo-sld-comfort-pro-set2-soft-close-80": {
+    "url": "/product/armadillo-sld-comfort-pro-set2-soft-close-80/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/"
+  },
+  "products/armadillo-sld-scope-set3-soft-close-80": {
+    "url": "/product/armadillo-sld-scope-set3-soft-close-80/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/"
+  },
+  "products/armadillo-soho-urs52": {
+    "url": "/product/armadillo-soho-urs52/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/armadillo-space-gl-gk": {
+    "url": "/product/armadillo-space-gl-gk/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/"
+  },
+  "products/armadillo-space-gl-h01": {
+    "url": "/product/armadillo-space-gl-h01/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/"
+  },
+  "products/armadillo-space-gl-lpz": {
+    "url": "/product/armadillo-space-gl-lpz/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/"
+  },
+  "products/armadillo-space-gl-luv": {
+    "url": "/product/armadillo-space-gl-luv/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/"
+  },
+  "products/armadillo-space-gl-lwc": {
+    "url": "/product/armadillo-space-gl-lwc/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/"
+  },
+  "products/armadillo-space-glass": {
+    "url": "/product/armadillo-space-glass/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/"
+  },
+  "products/armadillo-stels-tr": {
+    "url": "/product/armadillo-stels-tr/",
+    "fallback": "/catalog/upory-i-ogranichiteli/skrytye/"
+  },
+  "products/armadillo-t-knob-s": {
+    "url": "/product/armadillo-t-knob-s/",
+    "fallback": "/catalog/cilindry/povorotniki/"
+  },
+  "products/armadillo-t-knob-slim": {
+    "url": "/product/armadillo-t-knob-slim/",
+    "fallback": "/catalog/cilindry/povorotniki/"
+  },
+  "products/armadillo-u3d3000-vpg": {
+    "url": "/product/armadillo-u3d3000-vpg/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/armadillo-wc-bolt-bk6-uss": {
+    "url": "/product/armadillo-wc-bolt-bk6-uss/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/class-narooma-1085": {
+    "url": "/product/class-narooma-1085/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/class-rubin-1030-wc": {
+    "url": "/product/class-rubin-1030-wc/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/class-sapphire-1045": {
+    "url": "/product/class-sapphire-1045/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/class-shamira-1065": {
+    "url": "/product/class-shamira-1065/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-cd49bzg6g": {
+    "url": "/product/colombo-cd49bzg6g/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/colombo-cd63gb": {
+    "url": "/product/colombo-cd63gb/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/colombo-design-alato-jp11rsb": {
+    "url": "/product/colombo-design-alato-jp11rsb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-antologhia-accademia-kac11rbsb": {
+    "url": "/product/colombo-design-antologhia-accademia-kac11rbsb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-antologhia-bellagio-kbe11rb": {
+    "url": "/product/colombo-design-antologhia-bellagio-kbe11rb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-antologhia-busiri-kbu11r": {
+    "url": "/product/colombo-design-antologhia-busiri-kbu11r/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-antologhia-impero-kim11pb90": {
+    "url": "/product/colombo-design-antologhia-impero-kim11pb90/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/colombo-design-bold-pt12-dk": {
+    "url": "/product/colombo-design-bold-pt12-dk/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/colombo-design-cd02-dk-lock": {
+    "url": "/product/colombo-design-cd02-dk-lock/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/colombo-design-cd02-dkz": {
+    "url": "/product/colombo-design-cd02-dkz/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/colombo-design-cd211-kupe": {
+    "url": "/product/colombo-design-cd211-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/colombo-design-electra-ms12-dk": {
+    "url": "/product/colombo-design-electra-ms12-dk/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/colombo-design-hook-1-am17": {
+    "url": "/product/colombo-design-hook-1-am17/",
+    "fallback": "/catalog/mebelnaya-furnitura/kryuchki/"
+  },
+  "products/colombo-design-id411-kupe": {
+    "url": "/product/colombo-design-id411-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/colombo-design-mach-cd81rsb": {
+    "url": "/product/colombo-design-mach-cd81rsb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-mapo-rm15rsb": {
+    "url": "/product/colombo-design-mapo-rm15rsb/",
+    "fallback": "/catalog/dvernye-ruchki/knoby/"
+  },
+  "products/colombo-design-nordic-eb17": {
+    "url": "/product/colombo-design-nordic-eb17/",
+    "fallback": "/catalog/mebelnaya-furnitura/kryuchki/"
+  },
+  "products/colombo-design-one-cc11rsb": {
+    "url": "/product/colombo-design-one-cc11rsb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-oneq-cc29bzg": {
+    "url": "/product/colombo-design-oneq-cc29bzg/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/colombo-design-over-gm17": {
+    "url": "/product/colombo-design-over-gm17/",
+    "fallback": "/catalog/mebelnaya-furnitura/kryuchki/"
+  },
+  "products/colombo-design-peter-id12-dk-dx": {
+    "url": "/product/colombo-design-peter-id12-dk-dx/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/colombo-design-pt13": {
+    "url": "/product/colombo-design-pt13/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/colombo-design-robocinque-s-id71rsb": {
+    "url": "/product/colombo-design-robocinque-s-id71rsb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-roboquattro-id41rsb": {
+    "url": "/product/colombo-design-roboquattro-id41rsb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-robot-cd41rsb": {
+    "url": "/product/colombo-design-robot-cd41rsb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/colombo-design-tool-md11rsb": {
+    "url": "/product/colombo-design-tool-md11rsb/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/comaglio-125-sp-comax": {
+    "url": "/product/comaglio-125-sp-comax/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/shchetki/"
+  },
+  "products/comaglio-1255-comax": {
+    "url": "/product/comaglio-1255-comax/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/shchetki/"
+  },
+  "products/comaglio-126-sp-comax": {
+    "url": "/product/comaglio-126-sp-comax/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/shchetki/"
+  },
+  "products/comaglio-1450-comax": {
+    "url": "/product/comaglio-1450-comax/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/comaglio-1712": {
+    "url": "/product/comaglio-1712/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/comaglio-1760gd": {
+    "url": "/product/comaglio-1760gd/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/comaglio-2020": {
+    "url": "/product/comaglio-2020/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/comaglio-422": {
+    "url": "/product/comaglio-422/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/extreza-agata-310-pl01-wc": {
+    "url": "/product/extreza-agata-310-pl01-wc/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/extreza-aldo-331-r01": {
+    "url": "/product/extreza-aldo-331-r01/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/extreza-aura-134-r15": {
+    "url": "/product/extreza-aura-134-r15/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/extreza-cascata-140-hw": {
+    "url": "/product/extreza-cascata-140-hw/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/extreza-leo": {
+    "url": "/product/extreza-leo/",
+    "fallback": "/catalog/glazki-i-aksessuary/stuchalki/"
+  },
+  "products/extreza-m-71-magnum": {
+    "url": "/product/extreza-m-71-magnum/",
+    "fallback": "/catalog/upory-i-ogranichiteli/skrytye/"
+  },
+  "products/extreza-m-72-magnum": {
+    "url": "/product/extreza-m-72-magnum/",
+    "fallback": "/catalog/upory-i-ogranichiteli/skrytye/"
+  },
+  "products/extreza-petra-304-r01": {
+    "url": "/product/extreza-petra-304-r01/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/extreza-stem-135-hw": {
+    "url": "/product/extreza-stem-135-hw/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/fantom-fire-hgt003": {
+    "url": "/product/fantom-fire-hgt003/",
+    "fallback": "/catalog/upory-i-ogranichiteli/magnitnye/"
+  },
+  "products/fantom-premium-pivot": {
+    "url": "/product/fantom-premium-pivot/",
+    "fallback": "/catalog/upory-i-ogranichiteli/skrytye/"
+  },
+  "products/fantom-premium": {
+    "url": "/product/fantom-premium/",
+    "fallback": "/catalog/upory-i-ogranichiteli/magnitnye/"
+  },
+  "products/fantom-standart-fnt0020": {
+    "url": "/product/fantom-standart-fnt0020/",
+    "fallback": "/catalog/upory-i-ogranichiteli/magnitnye/"
+  },
+  "products/forme-a0184-alice": {
+    "url": "/product/forme-a0184-alice/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/forme-a0335-city": {
+    "url": "/product/forme-a0335-city/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/forme-antares-218k": {
+    "url": "/product/forme-antares-218k/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/forme-artemida-213k": {
+    "url": "/product/forme-artemida-213k/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/forme-atlas-159-p-rat": {
+    "url": "/product/forme-atlas-159-p-rat/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/forme-naxos-215k": {
+    "url": "/product/forme-naxos-215k/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fratelli-cattini-114d": {
+    "url": "/product/fratelli-cattini-114d/",
+    "fallback": "/catalog/dovodchiki/pruzhinnye/"
+  },
+  "products/fratelli-cattini-143q": {
+    "url": "/product/fratelli-cattini-143q/",
+    "fallback": "/catalog/dvernye-petli/babochki/"
+  },
+  "products/fratelli-cattini-143t": {
+    "url": "/product/fratelli-cattini-143t/",
+    "fallback": "/catalog/dvernye-petli/babochki/"
+  },
+  "products/fratelli-cattini-barnaya-100-30": {
+    "url": "/product/fratelli-cattini-barnaya-100-30/",
+    "fallback": "/catalog/dvernye-petli/pruzhinnye/"
+  },
+  "products/fratelli-cattini-boom-8fs": {
+    "url": "/product/fratelli-cattini-boom-8fs/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fratelli-cattini-brescia-p34": {
+    "url": "/product/fratelli-cattini-brescia-p34/",
+    "fallback": "/catalog/dvernye-ruchki/knoby/"
+  },
+  "products/fratelli-cattini-cinque-7fs": {
+    "url": "/product/fratelli-cattini-cinque-7fs/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fratelli-cattini-code-87-155-40": {
+    "url": "/product/fratelli-cattini-code-87-155-40/",
+    "fallback": "/catalog/dvernye-petli/pruzhinnye/"
+  },
+  "products/fratelli-cattini-compacttwin-800a80dx": {
+    "url": "/product/fratelli-cattini-compacttwin-800a80dx/",
+    "fallback": "/catalog/razdvizhnye-sistemy/knizhka/"
+  },
+  "products/fratelli-cattini-compacttwin-800b100dx": {
+    "url": "/product/fratelli-cattini-compacttwin-800b100dx/",
+    "fallback": "/catalog/razdvizhnye-sistemy/knizhka/"
+  },
+  "products/fratelli-cattini-compacttwin-800b90dx": {
+    "url": "/product/fratelli-cattini-compacttwin-800b90dx/",
+    "fallback": "/catalog/razdvizhnye-sistemy/knizhka/"
+  },
+  "products/fratelli-cattini-compacttwin-800f70dx": {
+    "url": "/product/fratelli-cattini-compacttwin-800f70dx/",
+    "fallback": "/catalog/razdvizhnye-sistemy/knizhka/"
+  },
+  "products/fratelli-cattini-cosmo-cyl-pl65": {
+    "url": "/product/fratelli-cattini-cosmo-cyl-pl65/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/fratelli-cattini-cr102": {
+    "url": "/product/fratelli-cattini-cr102/",
+    "fallback": "/catalog/dvernye-petli/universalnye/"
+  },
+  "products/fratelli-cattini-cyl-7": {
+    "url": "/product/fratelli-cattini-cyl-7/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/fratelli-cattini-emma-d1": {
+    "url": "/product/fratelli-cattini-emma-d1/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fratelli-cattini-emma-fw-7": {
+    "url": "/product/fratelli-cattini-emma-fw-7/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/fratelli-cattini-f3": {
+    "url": "/product/fratelli-cattini-f3/",
+    "fallback": "/catalog/upory-i-ogranichiteli/napolnye/"
+  },
+  "products/fratelli-cattini-f5": {
+    "url": "/product/fratelli-cattini-f5/",
+    "fallback": "/catalog/upory-i-ogranichiteli/napolnye/"
+  },
+  "products/fratelli-cattini-felice-p35": {
+    "url": "/product/fratelli-cattini-felice-p35/",
+    "fallback": "/catalog/dvernye-ruchki/knoby/"
+  },
+  "products/fratelli-cattini-frachini-skoba": {
+    "url": "/product/fratelli-cattini-frachini-skoba/",
+    "fallback": "/catalog/dvernye-ruchki/skoby/"
+  },
+  "products/fratelli-cattini-ghost-6212-80": {
+    "url": "/product/fratelli-cattini-ghost-6212-80/",
+    "fallback": "/catalog/razdvizhnye-sistemy/skrytye/"
+  },
+  "products/fratelli-cattini-izumi-4fs": {
+    "url": "/product/fratelli-cattini-izumi-4fs/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fratelli-cattini-luccia-pl01": {
+    "url": "/product/fratelli-cattini-luccia-pl01/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/fratelli-cattini-mag-mini-a": {
+    "url": "/product/fratelli-cattini-mag-mini-a/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/fratelli-cattini-mag-mini-w": {
+    "url": "/product/fratelli-cattini-mag-mini-w/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/fratelli-cattini-napoli-pl01": {
+    "url": "/product/fratelli-cattini-napoli-pl01/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/fratelli-cattini-nevada-7fs": {
+    "url": "/product/fratelli-cattini-nevada-7fs/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fratelli-cattini-releone": {
+    "url": "/product/fratelli-cattini-releone/",
+    "fallback": "/catalog/glazki-i-aksessuary/stuchalki/"
+  },
+  "products/fratelli-cattini-rocca": {
+    "url": "/product/fratelli-cattini-rocca/",
+    "fallback": "/catalog/glazki-i-aksessuary/stuchalki/"
+  },
+  "products/fratelli-cattini-simply-skoba": {
+    "url": "/product/fratelli-cattini-simply-skoba/",
+    "fallback": "/catalog/dvernye-ruchki/skoby/"
+  },
+  "products/fratelli-cattini-toscana-pl01": {
+    "url": "/product/fratelli-cattini-toscana-pl01/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/fratelli-cattini-una-fw-7": {
+    "url": "/product/fratelli-cattini-una-fw-7/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/fratelli-cattini-una-x-7fs": {
+    "url": "/product/fratelli-cattini-una-x-7fs/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fratelli-cattini-una-x-fw-7": {
+    "url": "/product/fratelli-cattini-una-x-fw-7/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/fratelli-cattini-una-x-pl08": {
+    "url": "/product/fratelli-cattini-una-x-pl08/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/fratelli-cattini-wc-2-7-7": {
+    "url": "/product/fratelli-cattini-wc-2-7-7/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/fratelli-cattini-wc-8-8fs": {
+    "url": "/product/fratelli-cattini-wc-8-8fs/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/fratelli-cattini-woo-8fs": {
+    "url": "/product/fratelli-cattini-woo-8fs/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fuaro-100-za": {
+    "url": "/product/fuaro-100-za/",
+    "fallback": "/catalog/cilindry/klyuch-klyuch/"
+  },
+  "products/fuaro-200-zm": {
+    "url": "/product/fuaro-200-zm/",
+    "fallback": "/catalog/cilindry/klyuch-vertushka/"
+  },
+  "products/fuaro-2014-wc-s-fin": {
+    "url": "/product/fuaro-2014-wc-s-fin/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/"
+  },
+  "products/fuaro-2018-c-fin": {
+    "url": "/product/fuaro-2018-c-fin/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
+  },
+  "products/fuaro-2369-inox": {
+    "url": "/product/fuaro-2369-inox/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
+  },
+  "products/fuaro-413-4": {
+    "url": "/product/fuaro-413-4/",
+    "fallback": "/catalog/dvernye-petli/razemnye/"
+  },
+  "products/fuaro-adh-d-12x10": {
+    "url": "/product/fuaro-adh-d-12x10/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/"
+  },
+  "products/fuaro-adh-d-14-2x12-7-127": {
+    "url": "/product/fuaro-adh-d-14-2x12-7-127/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/"
+  },
+  "products/fuaro-adh-d-14-5x13-5-031": {
+    "url": "/product/fuaro-adh-d-14-5x13-5-031/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/"
+  },
+  "products/fuaro-antipanic-1300a": {
+    "url": "/product/fuaro-antipanic-1300a/",
+    "fallback": "/catalog/dvernye-ruchki/antipanika/"
+  },
+  "products/fuaro-antipanic-1700a": {
+    "url": "/product/fuaro-antipanic-1700a/",
+    "fallback": "/catalog/dvernye-ruchki/antipanika/"
+  },
+  "products/fuaro-antipanic-1700c": {
+    "url": "/product/fuaro-antipanic-1700c/",
+    "fallback": "/catalog/dvernye-ruchki/antipanika/"
+  },
+  "products/fuaro-at-el500a-2": {
+    "url": "/product/fuaro-at-el500a-2/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
+  },
+  "products/fuaro-bk6-slr52": {
+    "url": "/product/fuaro-bk6-slr52/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/fuaro-bk6-sm": {
+    "url": "/product/fuaro-bk6-sm/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/fuaro-d-pro500-502": {
+    "url": "/product/fuaro-d-pro500-502/",
+    "fallback": "/catalog/cilindry/klyuch-vertushka/"
+  },
+  "products/fuaro-d-pro502-8": {
+    "url": "/product/fuaro-d-pro502-8/",
+    "fallback": "/catalog/cilindry/klyuch-vertushka/"
+  },
+  "products/fuaro-d-pro507-8": {
+    "url": "/product/fuaro-d-pro507-8/",
+    "fallback": "/catalog/cilindry/klyuch-vertushka/"
+  },
+  "products/fuaro-db-860m": {
+    "url": "/product/fuaro-db-860m/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/"
+  },
+  "products/fuaro-db-eco-860": {
+    "url": "/product/fuaro-db-eco-860/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/"
+  },
+  "products/fuaro-db-pro-860": {
+    "url": "/product/fuaro-db-pro-860/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/"
+  },
+  "products/fuaro-db-pro-867": {
+    "url": "/product/fuaro-db-pro-867/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/"
+  },
+  "products/fuaro-dc20-4": {
+    "url": "/product/fuaro-dc20-4/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/fuaro-dch2-03-29": {
+    "url": "/product/fuaro-dch2-03-29/",
+    "fallback": "/catalog/dovodchiki/skrytye/"
+  },
+  "products/fuaro-dch2-06-hold-open": {
+    "url": "/product/fuaro-dch2-06-hold-open/",
+    "fallback": "/catalog/dovodchiki/skrytye/"
+  },
+  "products/fuaro-dcq20-4": {
+    "url": "/product/fuaro-dcq20-4/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/fuaro-dd-inox-c-55-72-r": {
+    "url": "/product/fuaro-dd-inox-c-55-72-r/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-def-4286-rl": {
+    "url": "/product/fuaro-def-4286-rl/",
+    "fallback": "/catalog/cilindry/bronenakladki/"
+  },
+  "products/fuaro-def-4825": {
+    "url": "/product/fuaro-def-4825/",
+    "fallback": "/catalog/cilindry/bronenakladki/"
+  },
+  "products/fuaro-def-9726": {
+    "url": "/product/fuaro-def-9726/",
+    "fallback": "/catalog/cilindry/bronenakladki/"
+  },
+  "products/fuaro-dh-0433-ne": {
+    "url": "/product/fuaro-dh-0433-ne/",
+    "fallback": "/catalog/dvernye-ruchki/antipanika/"
+  },
+  "products/fuaro-ds-15": {
+    "url": "/product/fuaro-ds-15/",
+    "fallback": "/catalog/upory-i-ogranichiteli/nastennye/"
+  },
+  "products/fuaro-dv-3-90-50-z": {
+    "url": "/product/fuaro-dv-3-90-50-z/",
+    "fallback": "/catalog/glazki-i-aksessuary/glazki/"
+  },
+  "products/fuaro-dv-4-130-70-z": {
+    "url": "/product/fuaro-dv-4-130-70-z/",
+    "fallback": "/catalog/glazki-i-aksessuary/glazki/"
+  },
+  "products/fuaro-eml-500a": {
+    "url": "/product/fuaro-eml-500a/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
+  },
+  "products/fuaro-esc-476": {
+    "url": "/product/fuaro-esc-476/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/fuaro-esc-486-s-auto-rl": {
+    "url": "/product/fuaro-esc-486-s-auto-rl/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/fuaro-et-r-slr52": {
+    "url": "/product/fuaro-et-r-slr52/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/fuaro-et-sl": {
+    "url": "/product/fuaro-et-sl/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/fuaro-f12-45-25": {
+    "url": "/product/fuaro-f12-45-25/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/"
+  },
+  "products/fuaro-f72-50-wc": {
+    "url": "/product/fuaro-f72-50-wc/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/"
+  },
+  "products/fuaro-fb-140-16": {
+    "url": "/product/fuaro-fb-140-16/",
+    "fallback": "/catalog/upory-i-ogranichiteli/torcevye/"
+  },
+  "products/fuaro-fl-0432": {
+    "url": "/product/fuaro-fl-0432/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-fl-0433-anti-panic": {
+    "url": "/product/fuaro-fl-0433-anti-panic/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-fl-0434": {
+    "url": "/product/fuaro-fl-0434/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-h-0661-fin": {
+    "url": "/product/fuaro-h-0661-fin/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/fuaro-heavy-in4400u": {
+    "url": "/product/fuaro-heavy-in4400u/",
+    "fallback": "/catalog/dvernye-petli/universalnye/"
+  },
+  "products/fuaro-in4300w": {
+    "url": "/product/fuaro-in4300w/",
+    "fallback": "/catalog/dvernye-petli/babochki/"
+  },
+  "products/fuaro-in4500w": {
+    "url": "/product/fuaro-in4500w/",
+    "fallback": "/catalog/dvernye-petli/babochki/"
+  },
+  "products/fuaro-isolar-eco-2000-20": {
+    "url": "/product/fuaro-isolar-eco-2000-20/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/"
+  },
+  "products/fuaro-m85c-50": {
+    "url": "/product/fuaro-m85c-50/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
+  },
+  "products/fuaro-m96wc-50": {
+    "url": "/product/fuaro-m96wc-50/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/fuaro-mdv812-s-60-00-3r14": {
+    "url": "/product/fuaro-mdv812-s-60-00-3r14/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-ml-200": {
+    "url": "/product/fuaro-ml-200/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
+  },
+  "products/fuaro-ml-500": {
+    "url": "/product/fuaro-ml-500/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
+  },
+  "products/fuaro-mosaic-msc62": {
+    "url": "/product/fuaro-mosaic-msc62/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
+  },
+  "products/fuaro-p12-45-25-plastic": {
+    "url": "/product/fuaro-p12-45-25-plastic/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
+  },
+  "products/fuaro-p72-50-wc": {
+    "url": "/product/fuaro-p72-50-wc/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/"
+  },
+  "products/fuaro-p85c-50": {
+    "url": "/product/fuaro-p85c-50/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
+  },
+  "products/fuaro-p96wc-50": {
+    "url": "/product/fuaro-p96wc-50/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
+  },
+  "products/fuaro-palazzo-pull-sm": {
+    "url": "/product/fuaro-palazzo-pull-sm/",
+    "fallback": "/catalog/dvernye-ruchki/skoby/"
+  },
+  "products/fuaro-pl-inox-force-if-50": {
+    "url": "/product/fuaro-pl-inox-force-if-50/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
+  },
+  "products/fuaro-pl-protec-3050": {
+    "url": "/product/fuaro-pl-protec-3050/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
+  },
+  "products/fuaro-pl-smart-code": {
+    "url": "/product/fuaro-pl-smart-code/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
+  },
+  "products/fuaro-pl-weather-3650": {
+    "url": "/product/fuaro-pl-weather-3650/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
+  },
+  "products/fuaro-pull-ph25-300-21": {
+    "url": "/product/fuaro-pull-ph25-300-21/",
+    "fallback": "/catalog/dvernye-ruchki/skoby/"
+  },
+  "products/fuaro-red-line-rl52": {
+    "url": "/product/fuaro-red-line-rl52/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
+  },
+  "products/fuaro-sla-02-60-85": {
+    "url": "/product/fuaro-sla-02-60-85/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
+  },
+  "products/fuaro-sls-01-60-85": {
+    "url": "/product/fuaro-sls-01-60-85/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/"
+  },
+  "products/fuaro-t-knob-d-pro": {
+    "url": "/product/fuaro-t-knob-d-pro/",
+    "fallback": "/catalog/cilindry/povorotniki/"
+  },
+  "products/fuaro-t-knob-rl": {
+    "url": "/product/fuaro-t-knob-rl/",
+    "fallback": "/catalog/cilindry/povorotniki/"
+  },
+  "products/fuaro-t1-141-20": {
+    "url": "/product/fuaro-t1-141-20/",
+    "fallback": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/"
+  },
+  "products/fuaro-t1-160-20-adj": {
+    "url": "/product/fuaro-t1-160-20-adj/",
+    "fallback": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/"
+  },
+  "products/fuaro-t1254-140": {
+    "url": "/product/fuaro-t1254-140/",
+    "fallback": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/"
+  },
+  "products/fuaro-t2-150-22": {
+    "url": "/product/fuaro-t2-150-22/",
+    "fallback": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/"
+  },
+  "products/fuaro-termo-mdv25-s-60-00-3r16": {
+    "url": "/product/fuaro-termo-mdv25-s-60-00-3r16/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-tetragon-trg52": {
+    "url": "/product/fuaro-tetragon-trg52/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
+  },
+  "products/fuaro-toroid-trd62": {
+    "url": "/product/fuaro-toroid-trd62/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/"
+  },
+  "products/fuaro-v10-c-60-85": {
+    "url": "/product/fuaro-v10-c-60-85/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-v10-s-60-00": {
+    "url": "/product/fuaro-v10-s-60-00/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-v25-c-60-85": {
+    "url": "/product/fuaro-v25-c-60-85/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/fuaro-v25-s-60-00": {
+    "url": "/product/fuaro-v25-s-60-00/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "products/krona-koblenz-1700-2": {
+    "url": "/product/krona-koblenz-1700-2/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/"
+  },
+  "products/krona-koblenz-1750-2": {
+    "url": "/product/krona-koblenz-1750-2/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/"
+  },
+  "products/krona-koblenz-500-60-abs-trek-2m": {
+    "url": "/product/krona-koblenz-500-60-abs-trek-2m/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/"
+  },
+  "products/krona-koblenz-570-20-abs-trek-2m": {
+    "url": "/product/krona-koblenz-570-20-abs-trek-2m/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/"
+  },
+  "products/krona-koblenz-atomika-karakter-k8080": {
+    "url": "/product/krona-koblenz-atomika-karakter-k8080/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-atomika-karakter-k8120": {
+    "url": "/product/krona-koblenz-atomika-karakter-k8120/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-k-dima": {
+    "url": "/product/krona-koblenz-k-dima/",
+    "fallback": "/catalog/dvernye-petli/shablony-i-frezy/"
+  },
+  "products/krona-koblenz-k2o-1-cl": {
+    "url": "/product/krona-koblenz-k2o-1-cl/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/"
+  },
+  "products/krona-koblenz-kiker": {
+    "url": "/product/krona-koblenz-kiker/",
+    "fallback": "/catalog/dovodchiki/skrytye/"
+  },
+  "products/krona-koblenz-kit-futura-5001-100": {
+    "url": "/product/krona-koblenz-kit-futura-5001-100/",
+    "fallback": "/catalog/razdvizhnye-sistemy/penaly/"
+  },
+  "products/krona-koblenz-knizhka-200-trek-2m": {
+    "url": "/product/krona-koblenz-knizhka-200-trek-2m/",
+    "fallback": "/catalog/razdvizhnye-sistemy/knizhka/"
+  },
+  "products/krona-koblenz-kubica-atomika-k8000": {
+    "url": "/product/krona-koblenz-kubica-atomika-k8000/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-atomika-slim-k8060": {
+    "url": "/product/krona-koblenz-kubica-atomika-slim-k8060/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-hybrid-k2760": {
+    "url": "/product/krona-koblenz-kubica-hybrid-k2760/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-hybrid-k6360-45": {
+    "url": "/product/krona-koblenz-kubica-hybrid-k6360-45/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-k2000-twist": {
+    "url": "/product/krona-koblenz-kubica-k2000-twist/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-k2700": {
+    "url": "/product/krona-koblenz-kubica-k2700/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-k6200": {
+    "url": "/product/krona-koblenz-kubica-k6200/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-k6700": {
+    "url": "/product/krona-koblenz-kubica-k6700/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-k7080": {
+    "url": "/product/krona-koblenz-kubica-k7080/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/krona-koblenz-kubica-kubicenter-k6400": {
+    "url": "/product/krona-koblenz-kubica-kubicenter-k6400/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-petli/"
+  },
+  "products/krona-koblenz-kubikina-k6100": {
+    "url": "/product/krona-koblenz-kubikina-k6100/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-petli/"
+  },
+  "products/krona-koblenz-mekkit-3d-8000-it": {
+    "url": "/product/krona-koblenz-mekkit-3d-8000-it/",
+    "fallback": "/catalog/razdvizhnye-sistemy/penaly/"
+  },
+  "products/krona-koblenz-roto-98-2034-0abs-a": {
+    "url": "/product/krona-koblenz-roto-98-2034-0abs-a/",
+    "fallback": "/catalog/razdvizhnye-sistemy/roto/"
+  },
+  "products/krona-koblenz-roto-98-2034-2abs-a": {
+    "url": "/product/krona-koblenz-roto-98-2034-2abs-a/",
+    "fallback": "/catalog/razdvizhnye-sistemy/roto/"
+  },
+  "products/krona-koblenz-roto-98-2384-0abs-a": {
+    "url": "/product/krona-koblenz-roto-98-2384-0abs-a/",
+    "fallback": "/catalog/razdvizhnye-sistemy/roto/"
+  },
+  "products/krona-koblenz-roto-98-2384-2abs-a": {
+    "url": "/product/krona-koblenz-roto-98-2384-2abs-a/",
+    "fallback": "/catalog/razdvizhnye-sistemy/roto/"
+  },
+  "products/krona-koblenz-spinoff-basic-wc-km-003": {
+    "url": "/product/krona-koblenz-spinoff-basic-wc-km-003/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/krona-koblenz-spinoff-evolution-wc-km-003-a": {
+    "url": "/product/krona-koblenz-spinoff-evolution-wc-km-003-a/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/krona-koblenz-spinoff-pro-wc-km-003-cm": {
+    "url": "/product/krona-koblenz-spinoff-pro-wc-km-003-cm/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/krona-koblenz-spinoff-wc96": {
+    "url": "/product/krona-koblenz-spinoff-wc96/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/krona-koblenz-spinoff-y85": {
+    "url": "/product/krona-koblenz-spinoff-y85/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
+  },
+  "products/krona-koblenz-tricks-0590-1200-2450-fm": {
+    "url": "/product/krona-koblenz-tricks-0590-1200-2450-fm/",
+    "fallback": "/catalog/razdvizhnye-sistemy/skrytye/"
+  },
+  "products/krona-koblenz-tricks-0590-1200-2450": {
+    "url": "/product/krona-koblenz-tricks-0590-1200-2450/",
+    "fallback": "/catalog/razdvizhnye-sistemy/skrytye/"
+  },
+  "products/krona-koblenz-tricks-0590-900-2450": {
+    "url": "/product/krona-koblenz-tricks-0590-900-2450/",
+    "fallback": "/catalog/razdvizhnye-sistemy/skrytye/"
+  },
+  "products/krona-koblenz-ugolok-kart-8": {
+    "url": "/product/krona-koblenz-ugolok-kart-8/",
+    "fallback": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
+  },
+  "products/lockstyle-akik-mov": {
+    "url": "/product/lockstyle-akik-mov/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/lockstyle-axel-t-zr": {
+    "url": "/product/lockstyle-axel-t-zr/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/lockstyle-cube-zn": {
+    "url": "/product/lockstyle-cube-zn/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/lockstyle-gigi-zr": {
+    "url": "/product/lockstyle-gigi-zr/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/melodia-0102-veronica": {
+    "url": "/product/melodia-0102-veronica/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/melodia-803-ball-30": {
+    "url": "/product/melodia-803-ball-30/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
+  },
+  "products/melodia-890-ranja-128": {
+    "url": "/product/melodia-890-ranja-128/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
+  },
+  "products/melodia-cagliari-225": {
+    "url": "/product/melodia-cagliari-225/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/melodia-denver-424": {
+    "url": "/product/melodia-denver-424/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-1895p": {
+    "url": "/product/morelli-1895p/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
+  },
+  "products/morelli-2070-wc": {
+    "url": "/product/morelli-2070-wc/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/"
+  },
+  "products/morelli-art-sr1-wc": {
+    "url": "/product/morelli-art-sr1-wc/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/morelli-art-sr2-key": {
+    "url": "/product/morelli-art-sr2-key/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/morelli-azrieli-mh-57-r6t-komplekt-magnit": {
+    "url": "/product/morelli-azrieli-mh-57-r6t-komplekt-magnit/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-ds1": {
+    "url": "/product/morelli-ds1/",
+    "fallback": "/catalog/upory-i-ogranichiteli/napolnye/"
+  },
+  "products/morelli-ds2": {
+    "url": "/product/morelli-ds2/",
+    "fallback": "/catalog/upory-i-ogranichiteli/nastennye/"
+  },
+  "products/morelli-ds3": {
+    "url": "/product/morelli-ds3/",
+    "fallback": "/catalog/upory-i-ogranichiteli/napolnye/"
+  },
+  "products/morelli-fukoku-mh-28-s-komplekt-magnit": {
+    "url": "/product/morelli-fukoku-mh-28-s-komplekt-magnit/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-hh-18": {
+    "url": "/product/morelli-hh-18/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/morelli-horizont-s5": {
+    "url": "/product/morelli-horizont-s5/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-hs-60c": {
+    "url": "/product/morelli-hs-60c/",
+    "fallback": "/catalog/cilindry/klyuch-klyuch/"
+  },
+  "products/morelli-hs-60ck": {
+    "url": "/product/morelli-hs-60ck/",
+    "fallback": "/catalog/cilindry/klyuch-vertushka/"
+  },
+  "products/morelli-im-l-cyl": {
+    "url": "/product/morelli-im-l-cyl/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/pod-cilindr/"
+  },
+  "products/morelli-im-wc": {
+    "url": "/product/morelli-im-wc/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/morelli-knob-mhr-1": {
+    "url": "/product/morelli-knob-mhr-1/",
+    "fallback": "/catalog/dvernye-ruchki/knoby/"
+  },
+  "products/morelli-kolonna-mh-03-komplekt-magnit": {
+    "url": "/product/morelli-kolonna-mh-03-komplekt-magnit/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-l160": {
+    "url": "/product/morelli-l160/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/torcevye/"
+  },
+  "products/morelli-l6-45": {
+    "url": "/product/morelli-l6-45/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/"
+  },
+  "products/morelli-luxury-cometa-r5": {
+    "url": "/product/morelli-luxury-cometa-r5/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-luxury-fiord-s5": {
+    "url": "/product/morelli-luxury-fiord-s5/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-luxury-sputnik-s5": {
+    "url": "/product/morelli-luxury-sputnik-s5/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-lvb-ph": {
+    "url": "/product/morelli-lvb-ph/",
+    "fallback": "/catalog/dvernye-ruchki/skoby/"
+  },
+  "products/morelli-lvb-plr": {
+    "url": "/product/morelli-lvb-plr/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/morelli-m1895-wc": {
+    "url": "/product/morelli-m1895-wc/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/morelli-mb-120x80x3-5": {
+    "url": "/product/morelli-mb-120x80x3-5/",
+    "fallback": "/catalog/dvernye-petli/razemnye/"
+  },
+  "products/morelli-mbu-100x70x3-4bb": {
+    "url": "/product/morelli-mbu-100x70x3-4bb/",
+    "fallback": "/catalog/dvernye-petli/universalnye/"
+  },
+  "products/morelli-mds-1": {
+    "url": "/product/morelli-mds-1/",
+    "fallback": "/catalog/upory-i-ogranichiteli/magnitnye/"
+  },
+  "products/morelli-mds-3": {
+    "url": "/product/morelli-mds-3/",
+    "fallback": "/catalog/upory-i-ogranichiteli/magnitnye/"
+  },
+  "products/morelli-mercury-mh-53-s6-komplekt-magnit": {
+    "url": "/product/morelli-mercury-mh-53-s6-komplekt-magnit/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-mh-65-r6-sempione": {
+    "url": "/product/morelli-mh-65-r6-sempione/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-mh-kh-round": {
+    "url": "/product/morelli-mh-kh-round/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/morelli-mh-wc-round": {
+    "url": "/product/morelli-mh-wc-round/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/morelli-mh-wc-s6": {
+    "url": "/product/morelli-mh-wc-s6/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/morelli-mhs-1-kupe": {
+    "url": "/product/morelli-mhs-1-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/morelli-mhs150-kupe": {
+    "url": "/product/morelli-mhs150-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/morelli-ms-100x70-4bb": {
+    "url": "/product/morelli-ms-100x70-4bb/",
+    "fallback": "/catalog/dvernye-petli/universalnye/"
+  },
+  "products/morelli-msd-100x70": {
+    "url": "/product/morelli-msd-100x70/",
+    "fallback": "/catalog/dvernye-petli/razemnye/"
+  },
+  "products/morelli-msp-1": {
+    "url": "/product/morelli-msp-1/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/"
+  },
+  "products/morelli-ol160": {
+    "url": "/product/morelli-ol160/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/torcevye/"
+  },
+  "products/morelli-plateau-mh-51-s6-komplekt-magnit": {
+    "url": "/product/morelli-plateau-mh-51-s6-komplekt-magnit/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-quadro-1": {
+    "url": "/product/morelli-quadro-1/",
+    "fallback": "/catalog/dvernye-petli/babochki/"
+  },
+  "products/morelli-set-4-roliki-40": {
+    "url": "/product/morelli-set-4-roliki-40/",
+    "fallback": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
+  },
+  "products/morelli-sliding-set-1-40-potolok": {
+    "url": "/product/morelli-sliding-set-1-40-potolok/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/"
+  },
+  "products/morelli-sliding-set-1133-1137-knizhka": {
+    "url": "/product/morelli-sliding-set-1133-1137-knizhka/",
+    "fallback": "/catalog/razdvizhnye-sistemy/knizhka/"
+  },
+  "products/morelli-sliding-set-telescop-2-60": {
+    "url": "/product/morelli-sliding-set-telescop-2-60/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/"
+  },
+  "products/morelli-stable-set-v-3": {
+    "url": "/product/morelli-stable-set-v-3/",
+    "fallback": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/"
+  },
+  "products/morelli-the-bus-station-pls": {
+    "url": "/product/morelli-the-bus-station-pls/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/morelli-the-force-r5": {
+    "url": "/product/morelli-the-force-r5/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/morelli-track-2m": {
+    "url": "/product/morelli-track-2m/",
+    "fallback": "/catalog/razdvizhnye-sistemy/komplektuyushchie/"
+  },
+  "products/otlav-530-d9": {
+    "url": "/product/otlav-530-d9/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-petli/"
+  },
+  "products/otlav-605-d9": {
+    "url": "/product/otlav-605-d9/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-petli/"
+  },
+  "products/otlav-exacta-cg495140h": {
+    "url": "/product/otlav-exacta-cg495140h/",
+    "fallback": "/catalog/dvernye-petli/vvertnye/"
+  },
+  "products/otlav-invisacta-in230": {
+    "url": "/product/otlav-invisacta-in230/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/otlav-invisacta-in300": {
+    "url": "/product/otlav-invisacta-in300/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/otlav-invisacta-in303": {
+    "url": "/product/otlav-invisacta-in303/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/otlav-invisacta-in570": {
+    "url": "/product/otlav-invisacta-in570/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/otlav-ursus-ci4951808h02": {
+    "url": "/product/otlav-ursus-ci4951808h02/",
+    "fallback": "/catalog/dvernye-petli/vvertnye/"
+  },
+  "products/pamar-mn-1032-z": {
+    "url": "/product/pamar-mn-1032-z/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/pamar-mn-1145-z": {
+    "url": "/product/pamar-mn-1145-z/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
+  },
+  "products/pamar-mn-295-z": {
+    "url": "/product/pamar-mn-295-z/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/pamar-mn-778-z": {
+    "url": "/product/pamar-mn-778-z/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
+  },
+  "products/pamar-mn-800-z": {
+    "url": "/product/pamar-mn-800-z/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
+  },
+  "products/pamar-pa-055-z": {
+    "url": "/product/pamar-pa-055-z/",
+    "fallback": "/catalog/mebelnaya-furnitura/kryuchki/"
+  },
+  "products/pamar-pa-059-z": {
+    "url": "/product/pamar-pa-059-z/",
+    "fallback": "/catalog/mebelnaya-furnitura/kryuchki/"
+  },
+  "products/pamar-pa-062-z": {
+    "url": "/product/pamar-pa-062-z/",
+    "fallback": "/catalog/mebelnaya-furnitura/kryuchki/"
+  },
+  "products/pamar-pa-068-z": {
+    "url": "/product/pamar-pa-068-z/",
+    "fallback": "/catalog/mebelnaya-furnitura/kryuchki/"
+  },
+  "products/pamar-po-464-z": {
+    "url": "/product/pamar-po-464-z/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
+  },
+  "products/porta-di-parma-arcadia-2718-wc": {
+    "url": "/product/porta-di-parma-arcadia-2718-wc/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/porta-di-parma-fb-140": {
+    "url": "/product/porta-di-parma-fb-140/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/torcevye/"
+  },
+  "products/porta-di-parma-origami-205": {
+    "url": "/product/porta-di-parma-origami-205/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/porta-di-parma-p-1712": {
+    "url": "/product/porta-di-parma-p-1712/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/punto-200-2b-100x25": {
+    "url": "/product/punto-200-2b-100x25/",
+    "fallback": "/catalog/dvernye-petli/babochki/"
+  },
+  "products/punto-a200-kk": {
+    "url": "/product/punto-a200-kk/",
+    "fallback": "/catalog/cilindry/klyuch-klyuch/"
+  },
+  "products/punto-a5513": {
+    "url": "/product/punto-a5513/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/punto-bk6-tl": {
+    "url": "/product/punto-bk6-tl/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/punto-blade-ql": {
+    "url": "/product/punto-blade-ql/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/punto-ds-pw-80": {
+    "url": "/product/punto-ds-pw-80/",
+    "fallback": "/catalog/upory-i-ogranichiteli/nastennye/"
+  },
+  "products/punto-et-tl": {
+    "url": "/product/punto-et-tl/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/punto-in4100u": {
+    "url": "/product/punto-in4100u/",
+    "fallback": "/catalog/dvernye-petli/universalnye/"
+  },
+  "products/punto-l72-50": {
+    "url": "/product/punto-l72-50/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/"
+  },
+  "products/punto-logica-tl": {
+    "url": "/product/punto-logica-tl/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/punto-lotus-arc-q52": {
+    "url": "/product/punto-lotus-arc-q52/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/punto-ml96wc-50": {
+    "url": "/product/punto-ml96wc-50/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/magnitnye/"
+  },
+  "products/punto-p90-8518-crona": {
+    "url": "/product/punto-p90-8518-crona/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/punto-pk-1480": {
+    "url": "/product/punto-pk-1480/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
+  },
+  "products/punto-pk-1550": {
+    "url": "/product/punto-pk-1550/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/"
+  },
+  "products/punto-pl96wc-50": {
+    "url": "/product/punto-pl96wc-50/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/"
+  },
+  "products/punto-sd-2030": {
+    "url": "/product/punto-sd-2030/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/punto-sd-2040": {
+    "url": "/product/punto-sd-2040/",
+    "fallback": "/catalog/dovodchiki/nakladnye/"
+  },
+  "products/punto-sdc1040": {
+    "url": "/product/punto-sdc1040/",
+    "fallback": "/catalog/dovodchiki/pruzhinnye/"
+  },
+  "products/punto-t-knob-z": {
+    "url": "/product/punto-t-knob-z/",
+    "fallback": "/catalog/cilindry/povorotniki/"
+  },
+  "products/punto-union-2-0": {
+    "url": "/product/punto-union-2-0/",
+    "fallback": "/catalog/dvernye-petli/skrytye/"
+  },
+  "products/punto-z400-kk": {
+    "url": "/product/punto-z400-kk/",
+    "fallback": "/catalog/cilindry/klyuch-klyuch/"
+  },
+  "products/punto-z402-kv": {
+    "url": "/product/punto-z402-kv/",
+    "fallback": "/catalog/cilindry/klyuch-vertushka/"
+  },
+  "products/punto-z5513": {
+    "url": "/product/punto-z5513/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/tupai-2653": {
+    "url": "/product/tupai-2653/",
+    "fallback": "/catalog/okonnaya-furnitura/balkonnye-ruchki/"
+  },
+  "products/tupai-2654": {
+    "url": "/product/tupai-2654/",
+    "fallback": "/catalog/okonnaya-furnitura/balkonnye-ruchki/"
+  },
+  "products/tupai-2690": {
+    "url": "/product/tupai-2690/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/"
+  },
+  "products/tupai-2691": {
+    "url": "/product/tupai-2691/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/"
+  },
+  "products/tupai-2692": {
+    "url": "/product/tupai-2692/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/"
+  },
+  "products/tupai-2842": {
+    "url": "/product/tupai-2842/",
+    "fallback": "/catalog/okonnaya-furnitura/balkonnye-ruchki/"
+  },
+  "products/tupai-3991-2002": {
+    "url": "/product/tupai-3991-2002/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/tupai-3992-4002": {
+    "url": "/product/tupai-3992-4002/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/tupai-3992-4009": {
+    "url": "/product/tupai-3992-4009/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/tupai-4012": {
+    "url": "/product/tupai-4012/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/"
+  },
+  "products/tupai-4013": {
+    "url": "/product/tupai-4013/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/"
+  },
+  "products/tupai-4015": {
+    "url": "/product/tupai-4015/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/"
+  },
+  "products/tupai-4016": {
+    "url": "/product/tupai-4016/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/"
+  },
+  "products/tupai-4017": {
+    "url": "/product/tupai-4017/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/"
+  },
+  "products/tupai-4018": {
+    "url": "/product/tupai-4018/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/"
+  },
+  "products/tupai-4019": {
+    "url": "/product/tupai-4019/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/"
+  },
+  "products/tupai-4026": {
+    "url": "/product/tupai-4026/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/"
+  },
+  "products/tupai-4028": {
+    "url": "/product/tupai-4028/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/"
+  },
+  "products/tupai-4053-kupe": {
+    "url": "/product/tupai-4053-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/tupai-4158-5s": {
+    "url": "/product/tupai-4158-5s/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/tupai-4181-5s-kupe": {
+    "url": "/product/tupai-4181-5s-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/tupai-4213-5s": {
+    "url": "/product/tupai-4213-5s/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/tupai-52": {
+    "url": "/product/tupai-52/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/tupai-81": {
+    "url": "/product/tupai-81/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/tupai-eliptica-3098-5s-rt": {
+    "url": "/product/tupai-eliptica-3098-5s-rt/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/tupai-ref-15": {
+    "url": "/product/tupai-ref-15/",
+    "fallback": "/catalog/mebelnaya-furnitura/kryuchki/"
+  },
+  "products/tupai-square-2275-5s-q": {
+    "url": "/product/tupai-square-2275-5s-q/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/venezia-1450": {
+    "url": "/product/venezia-1450/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/venezia-1712": {
+    "url": "/product/venezia-1712/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/venezia-420": {
+    "url": "/product/venezia-420/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
+  },
+  "products/venezia-6012-glass-kupe": {
+    "url": "/product/venezia-6012-glass-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/"
+  },
+  "products/venezia-anafesto-ep": {
+    "url": "/product/venezia-anafesto-ep/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/"
+  },
+  "products/venezia-callisto-fw": {
+    "url": "/product/venezia-callisto-fw/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/venezia-classic-d1": {
+    "url": "/product/venezia-classic-d1/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/venezia-classic-pl02": {
+    "url": "/product/venezia-classic-pl02/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/venezia-colosseo-d1": {
+    "url": "/product/venezia-colosseo-d1/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/venezia-crs010": {
+    "url": "/product/venezia-crs010/",
+    "fallback": "/catalog/dvernye-petli/universalnye/"
+  },
+  "products/venezia-cyl-1-d1": {
+    "url": "/product/venezia-cyl-1-d1/",
+    "fallback": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/"
+  },
+  "products/venezia-exa-cyl-pl65": {
+    "url": "/product/venezia-exa-cyl-pl65/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/venezia-exa-d1": {
+    "url": "/product/venezia-exa-d1/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/venezia-exa-fw": {
+    "url": "/product/venezia-exa-fw/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "products/venezia-exa-tube-skoba-310": {
+    "url": "/product/venezia-exa-tube-skoba-310/",
+    "fallback": "/catalog/dvernye-ruchki/skoby/"
+  },
+  "products/venezia-exa-zig-cyl-pl65": {
+    "url": "/product/venezia-exa-zig-cyl-pl65/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/venezia-exa-zig-skoba-128": {
+    "url": "/product/venezia-exa-zig-skoba-128/",
+    "fallback": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/"
+  },
+  "products/venezia-kk-25-10-25": {
+    "url": "/product/venezia-kk-25-10-25/",
+    "fallback": "/catalog/cilindry/klyuch-klyuch/"
+  },
+  "products/venezia-knob-p20": {
+    "url": "/product/venezia-knob-p20/",
+    "fallback": "/catalog/dvernye-ruchki/knoby/"
+  },
+  "products/venezia-kv-25-10-25": {
+    "url": "/product/venezia-kv-25-10-25/",
+    "fallback": "/catalog/cilindry/klyuch-vertushka/"
+  },
+  "products/venezia-leone": {
+    "url": "/product/venezia-leone/",
+    "fallback": "/catalog/glazki-i-aksessuary/stuchalki/"
+  },
+  "products/venezia-monte-cristo-ep": {
+    "url": "/product/venezia-monte-cristo-ep/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/"
+  },
+  "products/venezia-ottavia": {
+    "url": "/product/venezia-ottavia/",
+    "fallback": "/catalog/glazki-i-aksessuary/stuchalki/"
+  },
+  "products/venezia-srr201": {
+    "url": "/product/venezia-srr201/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/venezia-u122-kupe": {
+    "url": "/product/venezia-u122-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/venezia-u199-kupe": {
+    "url": "/product/venezia-u199-kupe/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/"
+  },
+  "products/venezia-unique-biblo": {
+    "url": "/product/venezia-unique-biblo/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/venezia-unique-miami": {
+    "url": "/product/venezia-unique-miami/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/venezia-unique-philip": {
+    "url": "/product/venezia-unique-philip/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/venezia-unique-sydney": {
+    "url": "/product/venezia-unique-sydney/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/venezia-vignole-ep": {
+    "url": "/product/venezia-vignole-ep/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/"
+  },
+  "products/venezia-vignole-skoba-d1": {
+    "url": "/product/venezia-vignole-skoba-d1/",
+    "fallback": "/catalog/dvernye-ruchki/skoby/"
+  },
+  "products/venezia-vivaldi-ep": {
+    "url": "/product/venezia-vivaldi-ep/",
+    "fallback": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/"
+  },
+  "products/venezia-vivaldi-pl02": {
+    "url": "/product/venezia-vivaldi-pl02/",
+    "fallback": "/catalog/dvernye-ruchki/na-planke/"
+  },
+  "products/venezia-wc-2-d1": {
+    "url": "/product/venezia-wc-2-d1/",
+    "fallback": "/catalog/zavertki-i-nakladki/wc-zavertki/"
+  },
+  "products/verum-nuda-atlanta": {
+    "url": "/product/verum-nuda-atlanta/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/verum-nuda-lui-knob": {
+    "url": "/product/verum-nuda-lui-knob/",
+    "fallback": "/catalog/dvernye-ruchki/knoby/"
+  },
+  "products/verum-nuda-pure": {
+    "url": "/product/verum-nuda-pure/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "products/verum-nuda-window-pure": {
+    "url": "/product/verum-nuda-window-pure/",
+    "fallback": "/catalog/okonnaya-furnitura/balkonnye-ruchki/"
+  },
+  "products/verum-stoppino-mod-2": {
+    "url": "/product/verum-stoppino-mod-2/",
+    "fallback": "/catalog/upory-i-ogranichiteli/skrytye/"
+  },
+  "products/verum-stoppino-open-mod-1": {
+    "url": "/product/verum-stoppino-open-mod-1/",
+    "fallback": "/catalog/upory-i-ogranichiteli/skrytye/"
+  },
+  "products/verum-stoppino-x": {
+    "url": "/product/verum-stoppino-x/",
+    "fallback": "/catalog/upory-i-ogranichiteli/magnitnye/"
+  },
+  "articles/kak-snyat-dvernuyu-ruchku": {
+    "url": "/blog/kak-snyat-dvernuyu-ruchku/",
+    "fallback": "/blog/ruchki/"
+  },
+  "articles/kak-vybrat-dvernye-ruchki": {
+    "url": "/blog/kak-vybrat-dvernye-ruchki/",
+    "fallback": "/blog/ruchki/"
+  },
+  "articles/kak-vybrat-zamok-dlya-mezhkomnatnoj-dveri": {
+    "url": "/blog/kak-vybrat-zamok-dlya-mezhkomnatnoj-dveri/",
+    "fallback": "/blog/zamki/"
+  },
+  "articles/magnitnyj-zamok-plyusy-i-minusy": {
+    "url": "/blog/magnitnyj-zamok-plyusy-i-minusy/",
+    "fallback": "/blog/zamki/"
+  },
+  "articles/kak-zamenit-lichinku-zamka": {
+    "url": "/blog/kak-zamenit-lichinku-zamka/",
+    "fallback": "/blog/zamki/"
+  },
+  "articles/kak-otregulirovat-skrytye-petli": {
+    "url": "/blog/kak-otregulirovat-skrytye-petli/",
+    "fallback": "/blog/petli/"
+  },
+  "articles/kak-vybrat-dvernye-petli": {
+    "url": "/blog/kak-vybrat-dvernye-petli/",
+    "fallback": "/blog/petli/"
+  },
+  "articles/kak-ustanovit-dovodchik": {
+    "url": "/blog/kak-ustanovit-dovodchik/",
+    "fallback": "/blog/dovodchiki/"
+  },
+  "articles/kak-vybrat-razdvizhnuyu-sistemu": {
+    "url": "/blog/kak-vybrat-razdvizhnuyu-sistemu/",
+    "fallback": "/blog/razdvizhnye-sistemy/"
+  },
+  "articles/pokrytiya-dvernoj-furnitury": {
+    "url": "/blog/pokrytiya-dvernoj-furnitury/",
+    "fallback": "/blog/ruchki/"
+  },
+  "brands/agb": {
+    "url": "/brands/agb/",
+    "fallback": "/brands/"
+  },
+  "brands/ajax": {
+    "url": "/brands/ajax/",
+    "fallback": "/brands/"
+  },
+  "brands/armadillo": {
+    "url": "/brands/armadillo/",
+    "fallback": "/brands/"
+  },
+  "brands/class": {
+    "url": "/brands/class/",
+    "fallback": "/brands/"
+  },
+  "brands/colombo-design": {
+    "url": "/brands/colombo-design/",
+    "fallback": "/brands/"
+  },
+  "brands/comaglio": {
+    "url": "/brands/comaglio/",
+    "fallback": "/brands/"
+  },
+  "brands/extreza": {
+    "url": "/brands/extreza/",
+    "fallback": "/brands/"
+  },
+  "brands/fantom": {
+    "url": "/brands/fantom/",
+    "fallback": "/brands/"
+  },
+  "brands/forme": {
+    "url": "/brands/forme/",
+    "fallback": "/brands/"
+  },
+  "brands/fratelli-cattini": {
+    "url": "/brands/fratelli-cattini/",
+    "fallback": "/brands/"
+  },
+  "brands/fuaro": {
+    "url": "/brands/fuaro/",
+    "fallback": "/brands/"
+  },
+  "brands/krona-koblenz": {
+    "url": "/brands/krona-koblenz/",
+    "fallback": "/brands/"
+  },
+  "brands/lockstyle": {
+    "url": "/brands/lockstyle/",
+    "fallback": "/brands/"
+  },
+  "brands/melodia": {
+    "url": "/brands/melodia/",
+    "fallback": "/brands/"
+  },
+  "brands/morelli": {
+    "url": "/brands/morelli/",
+    "fallback": "/brands/"
+  },
+  "brands/otlav": {
+    "url": "/brands/otlav/",
+    "fallback": "/brands/"
+  },
+  "brands/pamar": {
+    "url": "/brands/pamar/",
+    "fallback": "/brands/"
+  },
+  "brands/porta-di-parma": {
+    "url": "/brands/porta-di-parma/",
+    "fallback": "/brands/"
+  },
+  "brands/punto": {
+    "url": "/brands/punto/",
+    "fallback": "/brands/"
+  },
+  "brands/tupai": {
+    "url": "/brands/tupai/",
+    "fallback": "/brands/"
+  },
+  "brands/venezia": {
+    "url": "/brands/venezia/",
+    "fallback": "/brands/"
+  },
+  "brands/verum": {
+    "url": "/brands/verum/",
+    "fallback": "/brands/"
+  },
+  "series/agb-eclipse": {
+    "url": "/series/agb-eclipse/",
+    "fallback": "/brands/"
+  },
+  "series/agb-mediana": {
+    "url": "/series/agb-mediana/",
+    "fallback": "/brands/"
+  },
+  "series/agb-polaris": {
+    "url": "/series/agb-polaris/",
+    "fallback": "/brands/"
+  },
+  "series/agb-scivola": {
+    "url": "/series/agb-scivola/",
+    "fallback": "/brands/"
+  },
+  "series/armadillo-urban": {
+    "url": "/series/armadillo-urban/",
+    "fallback": "/brands/"
+  },
+  "series/colombo-design-antologhia": {
+    "url": "/series/colombo-design-antologhia/",
+    "fallback": "/brands/"
+  },
+  "series/colombo-design-robot": {
+    "url": "/series/colombo-design-robot/",
+    "fallback": "/brands/"
+  },
+  "series/fratelli-cattini-compacttwin": {
+    "url": "/series/fratelli-cattini-compacttwin/",
+    "fallback": "/brands/"
+  },
+  "series/krona-koblenz-atomika": {
+    "url": "/series/krona-koblenz-atomika/",
+    "fallback": "/brands/"
+  },
+  "series/krona-koblenz-kubica": {
+    "url": "/series/krona-koblenz-kubica/",
+    "fallback": "/brands/"
+  },
+  "series/krona-koblenz-spinoff": {
+    "url": "/series/krona-koblenz-spinoff/",
+    "fallback": "/brands/"
+  },
+  "series/krona-koblenz-tricks": {
+    "url": "/series/krona-koblenz-tricks/",
+    "fallback": "/brands/"
+  },
+  "series/morelli-luxury": {
+    "url": "/series/morelli-luxury/",
+    "fallback": "/brands/"
+  },
+  "series/tupai-5s": {
+    "url": "/series/tupai-5s/",
+    "fallback": "/brands/"
+  },
+  "series/venezia-unique": {
+    "url": "/series/venezia-unique/",
+    "fallback": "/brands/"
+  },
+  "pages/brands": {
+    "url": "/brands/",
+    "fallback": "/"
+  },
+  "pages/catalog--komplekty-furnitury": {
+    "url": "/catalog/komplekty-furnitury/",
+    "fallback": "/"
+  },
+  "pages/catalog": {
+    "url": "/catalog/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-alyuminievyh-dverej": {
+    "url": "/furnitura-dlya-alyuminievyh-dverej/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-finskih-dverej": {
+    "url": "/furnitura-dlya-finskih-dverej/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-kalitok-i-vorot": {
+    "url": "/furnitura-dlya-kalitok-i-vorot/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-mezhkomnatnyh-dverej": {
+    "url": "/furnitura-dlya-mezhkomnatnyh-dverej/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-protivopozharnyh-dverej": {
+    "url": "/furnitura-dlya-protivopozharnyh-dverej/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-pvh-dverej": {
+    "url": "/furnitura-dlya-pvh-dverej/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-razdvizhnyh-dverej": {
+    "url": "/furnitura-dlya-razdvizhnyh-dverej/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-steklyannyh-dverej": {
+    "url": "/furnitura-dlya-steklyannyh-dverej/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-vannoy-i-tualeta": {
+    "url": "/furnitura-dlya-vannoy-i-tualeta/",
+    "fallback": "/"
+  },
+  "pages/furnitura-dlya-vhodnyh-dverej": {
+    "url": "/furnitura-dlya-vhodnyh-dverej/",
+    "fallback": "/"
+  },
+  "pages/home": {
+    "url": "/",
+    "fallback": "/"
+  },
+  "service/dostavka": {
+    "url": "/dostavka/",
+    "fallback": "/"
+  },
+  "service/faq": {
+    "url": "/faq/",
+    "fallback": "/"
+  },
+  "service/garantiya-i-vozvrat": {
+    "url": "/garantiya-i-vozvrat/",
+    "fallback": "/"
+  },
+  "service/oplata": {
+    "url": "/oplata/",
+    "fallback": "/"
+  },
+  "service/showroom": {
+    "url": "/showroom/",
+    "fallback": "/"
+  },
+  "sections/catalog--dvernye-ruchki": {
+    "url": "/catalog/dvernye-ruchki/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--dvernye-ruchki--na-rozetke": {
+    "url": "/catalog/dvernye-ruchki/na-rozetke/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--na-rozetke--kruglaya-rozetka": {
+    "url": "/catalog/dvernye-ruchki/na-rozetke/kruglaya-rozetka/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "sections/catalog--dvernye-ruchki--na-rozetke--kvadratnaya-rozetka": {
+    "url": "/catalog/dvernye-ruchki/na-rozetke/kvadratnaya-rozetka/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
+  "sections/catalog--dvernye-ruchki--na-planke": {
+    "url": "/catalog/dvernye-ruchki/na-planke/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--knoby": {
+    "url": "/catalog/dvernye-ruchki/knoby/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--skoby": {
+    "url": "/catalog/dvernye-ruchki/skoby/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--dlya-razdvizhnyh-dverej": {
+    "url": "/catalog/dvernye-ruchki/dlya-razdvizhnyh-dverej/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--dlya-vhodnyh-dverej": {
+    "url": "/catalog/dvernye-ruchki/dlya-vhodnyh-dverej/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--dlya-steklyannyh-dverej": {
+    "url": "/catalog/dvernye-ruchki/dlya-steklyannyh-dverej/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--dlya-profilnyh-dverej": {
+    "url": "/catalog/dvernye-ruchki/dlya-profilnyh-dverej/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--antipanika": {
+    "url": "/catalog/dvernye-ruchki/antipanika/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--s-zamkom": {
+    "url": "/catalog/dvernye-ruchki/s-zamkom/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--s-fiksatorom": {
+    "url": "/catalog/dvernye-ruchki/s-fiksatorom/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--chernye": {
+    "url": "/catalog/dvernye-ruchki/chernye/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--belye": {
+    "url": "/catalog/dvernye-ruchki/belye/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--zoloto": {
+    "url": "/catalog/dvernye-ruchki/zoloto/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--hrom": {
+    "url": "/catalog/dvernye-ruchki/hrom/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--bronza": {
+    "url": "/catalog/dvernye-ruchki/bronza/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--nikel": {
+    "url": "/catalog/dvernye-ruchki/nikel/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--latun": {
+    "url": "/catalog/dvernye-ruchki/latun/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--grafit": {
+    "url": "/catalog/dvernye-ruchki/grafit/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--med": {
+    "url": "/catalog/dvernye-ruchki/med/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--italyanskie": {
+    "url": "/catalog/dvernye-ruchki/italyanskie/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--klassika": {
+    "url": "/catalog/dvernye-ruchki/klassika/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--sovremennye": {
+    "url": "/catalog/dvernye-ruchki/sovremennye/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--loft": {
+    "url": "/catalog/dvernye-ruchki/loft/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--magnitnye": {
+    "url": "/catalog/dvernye-ruchki/magnitnye/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--dvernye-ruchki--dlya-finskih-dverej": {
+    "url": "/catalog/dvernye-ruchki/dlya-finskih-dverej/",
+    "fallback": "/catalog/dvernye-ruchki/"
+  },
+  "sections/catalog--zavertki-i-nakladki": {
+    "url": "/catalog/zavertki-i-nakladki/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--zavertki-i-nakladki--wc-zavertki": {
+    "url": "/catalog/zavertki-i-nakladki/wc-zavertki/",
+    "fallback": "/catalog/zavertki-i-nakladki/"
+  },
+  "sections/catalog--zavertki-i-nakladki--nakladki-pod-cilindr": {
+    "url": "/catalog/zavertki-i-nakladki/nakladki-pod-cilindr/",
+    "fallback": "/catalog/zavertki-i-nakladki/"
+  },
+  "sections/catalog--zavertki-i-nakladki--dekorativnye-nakladki": {
+    "url": "/catalog/zavertki-i-nakladki/dekorativnye-nakladki/",
+    "fallback": "/catalog/zavertki-i-nakladki/"
+  },
+  "sections/catalog--zavertki-i-nakladki--nakladki-dlya-vhodnyh-dverej": {
+    "url": "/catalog/zavertki-i-nakladki/nakladki-dlya-vhodnyh-dverej/",
+    "fallback": "/catalog/zavertki-i-nakladki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki": {
+    "url": "/catalog/mezhkomnatnye-zamki/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--magnitnye": {
+    "url": "/catalog/mezhkomnatnye-zamki/magnitnye/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--s-plastikovym-yazychkom": {
+    "url": "/catalog/mezhkomnatnye-zamki/s-plastikovym-yazychkom/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--s-metallicheskim-yazychkom": {
+    "url": "/catalog/mezhkomnatnye-zamki/s-metallicheskim-yazychkom/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--pod-cilindr": {
+    "url": "/catalog/mezhkomnatnye-zamki/pod-cilindr/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--s-fiksatorom": {
+    "url": "/catalog/mezhkomnatnye-zamki/s-fiksatorom/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--pod-klyuch": {
+    "url": "/catalog/mezhkomnatnye-zamki/pod-klyuch/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--dlya-razdvizhnyh-dverej": {
+    "url": "/catalog/mezhkomnatnye-zamki/dlya-razdvizhnyh-dverej/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--otvetnye-planki": {
+    "url": "/catalog/mezhkomnatnye-zamki/otvetnye-planki/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--besshumnye": {
+    "url": "/catalog/mezhkomnatnye-zamki/besshumnye/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--mezhkomnatnye-zamki--chernye": {
+    "url": "/catalog/mezhkomnatnye-zamki/chernye/",
+    "fallback": "/catalog/mezhkomnatnye-zamki/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej--vreznye": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej--vreznye--cilindrovye": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/cilindrovye/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej--vreznye--suvaldnye": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/suvaldnye/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/vreznye/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej--nakladnye": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/nakladnye/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej--elektromehanicheskie": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/elektromehanicheskie/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej--navesnye": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/navesnye/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej--dlya-kalitki": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/dlya-kalitki/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/"
+  },
+  "sections/catalog--zamki-dlya-vhodnyh-dverej--protivopozharnye": {
+    "url": "/catalog/zamki-dlya-vhodnyh-dverej/protivopozharnye/",
+    "fallback": "/catalog/zamki-dlya-vhodnyh-dverej/"
+  },
+  "sections/catalog--cilindry": {
+    "url": "/catalog/cilindry/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--cilindry--klyuch-klyuch": {
+    "url": "/catalog/cilindry/klyuch-klyuch/",
+    "fallback": "/catalog/cilindry/"
+  },
+  "sections/catalog--cilindry--klyuch-vertushka": {
+    "url": "/catalog/cilindry/klyuch-vertushka/",
+    "fallback": "/catalog/cilindry/"
+  },
+  "sections/catalog--cilindry--s-perekodirovkoj": {
+    "url": "/catalog/cilindry/s-perekodirovkoj/",
+    "fallback": "/catalog/cilindry/"
+  },
+  "sections/catalog--cilindry--bronenakladki": {
+    "url": "/catalog/cilindry/bronenakladki/",
+    "fallback": "/catalog/cilindry/"
+  },
+  "sections/catalog--cilindry--povorotniki": {
+    "url": "/catalog/cilindry/povorotniki/",
+    "fallback": "/catalog/cilindry/"
+  },
+  "sections/catalog--dvernye-petli": {
+    "url": "/catalog/dvernye-petli/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--dvernye-petli--universalnye": {
+    "url": "/catalog/dvernye-petli/universalnye/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--skrytye": {
+    "url": "/catalog/dvernye-petli/skrytye/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--vvertnye": {
+    "url": "/catalog/dvernye-petli/vvertnye/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--babochki": {
+    "url": "/catalog/dvernye-petli/babochki/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--razemnye": {
+    "url": "/catalog/dvernye-petli/razemnye/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--pruzhinnye": {
+    "url": "/catalog/dvernye-petli/pruzhinnye/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--dlya-vhodnyh-dverej": {
+    "url": "/catalog/dvernye-petli/dlya-vhodnyh-dverej/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--s-dovodchikom": {
+    "url": "/catalog/dvernye-petli/s-dovodchikom/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--chernye": {
+    "url": "/catalog/dvernye-petli/chernye/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--belye": {
+    "url": "/catalog/dvernye-petli/belye/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dvernye-petli--shablony-i-frezy": {
+    "url": "/catalog/dvernye-petli/shablony-i-frezy/",
+    "fallback": "/catalog/dvernye-petli/"
+  },
+  "sections/catalog--dovodchiki": {
+    "url": "/catalog/dovodchiki/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--dovodchiki--nakladnye": {
+    "url": "/catalog/dovodchiki/nakladnye/",
+    "fallback": "/catalog/dovodchiki/"
+  },
+  "sections/catalog--dovodchiki--skrytye": {
+    "url": "/catalog/dovodchiki/skrytye/",
+    "fallback": "/catalog/dovodchiki/"
+  },
+  "sections/catalog--dovodchiki--pruzhinnye": {
+    "url": "/catalog/dovodchiki/pruzhinnye/",
+    "fallback": "/catalog/dovodchiki/"
+  },
+  "sections/catalog--dovodchiki--s-fiksaciej": {
+    "url": "/catalog/dovodchiki/s-fiksaciej/",
+    "fallback": "/catalog/dovodchiki/"
+  },
+  "sections/catalog--dovodchiki--ulichnye": {
+    "url": "/catalog/dovodchiki/ulichnye/",
+    "fallback": "/catalog/dovodchiki/"
+  },
+  "sections/catalog--razdvizhnye-sistemy": {
+    "url": "/catalog/razdvizhnye-sistemy/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--razdvizhnye-sistemy--dlya-mezhkomnatnyh-dverej": {
+    "url": "/catalog/razdvizhnye-sistemy/dlya-mezhkomnatnyh-dverej/",
+    "fallback": "/catalog/razdvizhnye-sistemy/"
+  },
+  "sections/catalog--razdvizhnye-sistemy--skrytye": {
+    "url": "/catalog/razdvizhnye-sistemy/skrytye/",
+    "fallback": "/catalog/razdvizhnye-sistemy/"
+  },
+  "sections/catalog--razdvizhnye-sistemy--roto": {
+    "url": "/catalog/razdvizhnye-sistemy/roto/",
+    "fallback": "/catalog/razdvizhnye-sistemy/"
+  },
+  "sections/catalog--razdvizhnye-sistemy--knizhka": {
+    "url": "/catalog/razdvizhnye-sistemy/knizhka/",
+    "fallback": "/catalog/razdvizhnye-sistemy/"
+  },
+  "sections/catalog--razdvizhnye-sistemy--penaly": {
+    "url": "/catalog/razdvizhnye-sistemy/penaly/",
+    "fallback": "/catalog/razdvizhnye-sistemy/"
+  },
+  "sections/catalog--razdvizhnye-sistemy--dlya-steklyannyh-dverej": {
+    "url": "/catalog/razdvizhnye-sistemy/dlya-steklyannyh-dverej/",
+    "fallback": "/catalog/razdvizhnye-sistemy/"
+  },
+  "sections/catalog--razdvizhnye-sistemy--komplektuyushchie": {
+    "url": "/catalog/razdvizhnye-sistemy/komplektuyushchie/",
+    "fallback": "/catalog/razdvizhnye-sistemy/"
+  },
+  "sections/catalog--razdvizhnye-sistemy--dlya-tyazhelyh-dverej": {
+    "url": "/catalog/razdvizhnye-sistemy/dlya-tyazhelyh-dverej/",
+    "fallback": "/catalog/razdvizhnye-sistemy/"
+  },
+  "sections/catalog--upory-i-ogranichiteli": {
+    "url": "/catalog/upory-i-ogranichiteli/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--upory-i-ogranichiteli--napolnye": {
+    "url": "/catalog/upory-i-ogranichiteli/napolnye/",
+    "fallback": "/catalog/upory-i-ogranichiteli/"
+  },
+  "sections/catalog--upory-i-ogranichiteli--nastennye": {
+    "url": "/catalog/upory-i-ogranichiteli/nastennye/",
+    "fallback": "/catalog/upory-i-ogranichiteli/"
+  },
+  "sections/catalog--upory-i-ogranichiteli--magnitnye": {
+    "url": "/catalog/upory-i-ogranichiteli/magnitnye/",
+    "fallback": "/catalog/upory-i-ogranichiteli/"
+  },
+  "sections/catalog--upory-i-ogranichiteli--skrytye": {
+    "url": "/catalog/upory-i-ogranichiteli/skrytye/",
+    "fallback": "/catalog/upory-i-ogranichiteli/"
+  },
+  "sections/catalog--upory-i-ogranichiteli--torcevye": {
+    "url": "/catalog/upory-i-ogranichiteli/torcevye/",
+    "fallback": "/catalog/upory-i-ogranichiteli/"
+  },
+  "sections/catalog--upory-i-ogranichiteli--chernye": {
+    "url": "/catalog/upory-i-ogranichiteli/chernye/",
+    "fallback": "/catalog/upory-i-ogranichiteli/"
+  },
+  "sections/catalog--zadvizhki-i-shpingalety": {
+    "url": "/catalog/zadvizhki-i-shpingalety/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--zadvizhki-i-shpingalety--torcevye": {
+    "url": "/catalog/zadvizhki-i-shpingalety/torcevye/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/"
+  },
+  "sections/catalog--zadvizhki-i-shpingalety--nochnye": {
+    "url": "/catalog/zadvizhki-i-shpingalety/nochnye/",
+    "fallback": "/catalog/zadvizhki-i-shpingalety/"
+  },
+  "sections/catalog--glazki-i-aksessuary": {
+    "url": "/catalog/glazki-i-aksessuary/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--glazki-i-aksessuary--glazki": {
+    "url": "/catalog/glazki-i-aksessuary/glazki/",
+    "fallback": "/catalog/glazki-i-aksessuary/"
+  },
+  "sections/catalog--glazki-i-aksessuary--stuchalki": {
+    "url": "/catalog/glazki-i-aksessuary/stuchalki/",
+    "fallback": "/catalog/glazki-i-aksessuary/"
+  },
+  "sections/catalog--avtoporogi-i-uplotniteli": {
+    "url": "/catalog/avtoporogi-i-uplotniteli/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--avtoporogi-i-uplotniteli--avtoporogi": {
+    "url": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/"
+  },
+  "sections/catalog--avtoporogi-i-uplotniteli--uplotniteli": {
+    "url": "/catalog/avtoporogi-i-uplotniteli/uplotniteli/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/"
+  },
+  "sections/catalog--avtoporogi-i-uplotniteli--shchetki": {
+    "url": "/catalog/avtoporogi-i-uplotniteli/shchetki/",
+    "fallback": "/catalog/avtoporogi-i-uplotniteli/"
+  },
+  "sections/catalog--furnitura-dlya-steklyannyh-dverej": {
+    "url": "/catalog/furnitura-dlya-steklyannyh-dverej/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--furnitura-dlya-steklyannyh-dverej--petli": {
+    "url": "/catalog/furnitura-dlya-steklyannyh-dverej/petli/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/"
+  },
+  "sections/catalog--furnitura-dlya-steklyannyh-dverej--zamki": {
+    "url": "/catalog/furnitura-dlya-steklyannyh-dverej/zamki/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/"
+  },
+  "sections/catalog--furnitura-dlya-steklyannyh-dverej--komplekty": {
+    "url": "/catalog/furnitura-dlya-steklyannyh-dverej/komplekty/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/"
+  },
+  "sections/catalog--furnitura-dlya-steklyannyh-dverej--otvetnye-chasti": {
+    "url": "/catalog/furnitura-dlya-steklyannyh-dverej/otvetnye-chasti/",
+    "fallback": "/catalog/furnitura-dlya-steklyannyh-dverej/"
+  },
+  "sections/catalog--okonnaya-furnitura": {
+    "url": "/catalog/okonnaya-furnitura/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--okonnaya-furnitura--okonnye-ruchki": {
+    "url": "/catalog/okonnaya-furnitura/okonnye-ruchki/",
+    "fallback": "/catalog/okonnaya-furnitura/"
+  },
+  "sections/catalog--okonnaya-furnitura--okonnye-ruchki--s-klyuchom": {
+    "url": "/catalog/okonnaya-furnitura/okonnye-ruchki/s-klyuchom/",
+    "fallback": "/catalog/okonnaya-furnitura/okonnye-ruchki/"
+  },
+  "sections/catalog--okonnaya-furnitura--balkonnye-ruchki": {
+    "url": "/catalog/okonnaya-furnitura/balkonnye-ruchki/",
+    "fallback": "/catalog/okonnaya-furnitura/"
+  },
+  "sections/catalog--mebelnaya-furnitura": {
+    "url": "/catalog/mebelnaya-furnitura/",
+    "fallback": "/catalog/"
+  },
+  "sections/catalog--mebelnaya-furnitura--mebelnye-ruchki": {
+    "url": "/catalog/mebelnaya-furnitura/mebelnye-ruchki/",
+    "fallback": "/catalog/mebelnaya-furnitura/"
+  },
+  "sections/catalog--mebelnaya-furnitura--mebelnye-petli": {
+    "url": "/catalog/mebelnaya-furnitura/mebelnye-petli/",
+    "fallback": "/catalog/mebelnaya-furnitura/"
+  },
+  "sections/catalog--mebelnaya-furnitura--kryuchki": {
+    "url": "/catalog/mebelnaya-furnitura/kryuchki/",
+    "fallback": "/catalog/mebelnaya-furnitura/"
+  },
+  "sections/catalog--remkomplekty-i-zapchasti": {
+    "url": "/catalog/remkomplekty-i-zapchasti/",
+    "fallback": "/catalog/"
+  },
+  "blog-hubs/ruchki": {
+    "url": "/blog/ruchki/",
+    "fallback": "/blog/"
+  },
+  "blog-hubs/zamki": {
+    "url": "/blog/zamki/",
+    "fallback": "/blog/"
+  },
+  "blog-hubs/petli": {
+    "url": "/blog/petli/",
+    "fallback": "/blog/"
+  },
+  "blog-hubs/dovodchiki": {
+    "url": "/blog/dovodchiki/",
+    "fallback": "/blog/"
+  },
+  "blog-hubs/razdvizhnye-sistemy": {
+    "url": "/blog/razdvizhnye-sistemy/",
+    "fallback": "/blog/"
+  },
+  "blog-hubs/okna": {
+    "url": "/blog/okna/",
+    "fallback": "/blog/"
+  }
+}

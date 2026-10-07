@@ -14,7 +14,7 @@
 
 ```bash
 npm ci
-npm run dev        # http://localhost:4321/maniglia-shop/
+npm run dev        # http://localhost:4321/vsedlyadverey/
 npm run build      # сборка в dist/
 ```
 

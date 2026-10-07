@@ -175,11 +175,11 @@ const topBrands = BRANDS.filter((b) => b.tier === 'A');
     document.addEventListener('click', (e) => { if (rail?.classList.contains('open') && !rail.contains(e.target as Node)) rail.classList.remove('open'); });
     // --- корзина (демо, localStorage)
     type Item = { slug: string; name: string; finish: string; price: number | null; img: string; qty: number; url: string };
-    const KEY = 'maniglia-cart';
+    const KEY = 'vdd-cart';
     const read = (): Item[] => { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; } };
     const write = (a: Item[]) => { try { localStorage.setItem(KEY, JSON.stringify(a)); } catch {} renderCount(); };
     const renderCount = () => { const n = read().reduce((s, i) => s + i.qty, 0); const el = document.getElementById('cart-count'); if (el) { el.textContent = String(n); el.hidden = n === 0; } };
-    (window as any).maniglia = { read, write };
+    (window as any).shopCart = { read, write };
     renderCount();
     const toast = (t: string) => { const el = document.getElementById('toast')!; el.textContent = t; el.classList.add('on'); setTimeout(() => el.classList.remove('on'), 2200); };
     // +/- количества в карточках листинга

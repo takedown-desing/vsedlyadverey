@@ -1,10 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
 import Tiles from '../components/Tiles.astro';
-import { CATEGORY_NAV, SITE_NAME, productsFor, firstImage } from '../lib/data';
+import { CATEGORY_NAV, SITE_NAME, productsFor, firstImage, REDIRECTS } from '../lib/data';
+const base = u('/');
 import { u } from '../lib/url';
 ---
 <Base title={`Страница не найдена | ${SITE_NAME}`} path="/404/" noindex>
+  <script is:inline define:vars={{ redirects: REDIRECTS, base }}>
+    // Подстраховка к статическим переадресациям: пагинация старого раздела (/old/page-2/) и адреса без слэша на конце.
+    (function () {
+      var p = decodeURIComponent(location.pathname);
+      if (p.indexOf(base) === 0) p = '/' + p.slice(base.length);
+      if (!/\/$/.test(p) && !/\.[a-z0-9]+$/i.test(p)) p += '/';
+      var tries = [p, p.replace(/page-\d+\/$/, '')];
+      for (var i = 0; i < tries.length; i++) {
+        var to = redirects[tries[i]];
+        if (to) { location.replace(/^https?:/.test(to) ? to : base + to.replace(/^\//, '')); return; }
+      }
+      if (tries[1] !== p) location.replace(base + tries[1].replace(/^\//, ''));
+    })();
+  </script>
   <div class="wrap" style="padding-top:40px">
     <h1>Страница не найдена</h1>
     <p class="lead">Возможно, товар снят с продажи или адрес изменился. Воспользуйтесь <a href={u('/search/')} style="border-bottom:1px solid">поиском</a> или выберите раздел каталога.</p>

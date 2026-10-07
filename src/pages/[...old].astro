@@ -1,0 +1,24 @@
+---
+// Переадресации со старых адресов (src/lib/data.ts → REDIRECTS): смена URL в админке или удаление записи не даёт 404.
+// GitHub Pages не умеет серверный 301, поэтому мгновенная переадресация meta refresh + canonical (поисковики склеивают).
+import { REDIRECTS } from '../lib/data';
+import { u, abs } from '../lib/url';
+export function getStaticPaths() {
+  return Object.entries(REDIRECTS).map(([from, to]) => ({ params: { old: from.replace(/^\/+|\/+$/g, '') || undefined }, props: { to } }));
+}
+const { to } = Astro.props as { to: string };
+const href = /^https?:/.test(to) ? to : u(to);
+const canonical = /^https?:/.test(to) ? to : abs(Astro.site, to);
+---
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex, follow" />
+  <meta http-equiv="refresh" content={`0; url=${href}`} />
+  <link rel="canonical" href={canonical} />
+  <title>Страница переехала</title>
+  <script is:inline define:vars={{ href }}>location.replace(href + location.search + location.hash);</script>
+</head>
+<body><p>Страница переехала: <a href={href}>{href}</a></p></body>
+</html>

@@ -9,8 +9,8 @@ const registry = JSON.parse(fs.readFileSync(path.resolve('src/data/registry.json
 const catalog = JSON.parse(fs.readFileSync(path.resolve('src/cms/settings/catalog.json'), 'utf8'));
 const out = path.resolve('public/admin/config.yml');
 
-const REPO = 'takedown-desing/maniglia-shop';
-const SITE_URL = 'https://takedown-desing.github.io/maniglia-shop/';
+const REPO = 'takedown-desing/vsedlyadverey';
+const SITE_URL = 'https://takedown-desing.github.io/vsedlyadverey/';
 
 const byType = (types) => registry.filter((p) => types.includes(p.type) && p.priority !== 'OFF');
 const opt = (p) => ({ label: `${p.h1} (${p.url})`, value: p.url });
@@ -38,8 +38,8 @@ const bool = (name, label, def = false, extra = {}) => ({ name, label, widget: '
 const sel = (name, label, options, extra = {}) => ({ name, label, widget: 'select', options, required: false, ...extra });
 const icon = () => sel('icon', 'Иконка', ICONS, { default: 'check' });
 // Кнопка «View on Live Site» → src/pages/go/[col]/[id].astro. Sveltia берёт от site_url только домен (new URL(site_url).origin),
-// поэтому путь GitHub Pages (/maniglia-shop) вписываем в preview_path сами; после переезда на домен BASE_PATH=/ и префикс пропадёт.
-const BASE = (process.env.BASE_PATH ?? '/maniglia-shop').replace(/^\/+|\/+$/g, '');
+// поэтому путь GitHub Pages (/vsedlyadverey) вписываем в preview_path сами; после переезда на домен BASE_PATH=/ и префикс пропадёт.
+const BASE = (process.env.BASE_PATH ?? '/vsedlyadverey').replace(/^\/+|\/+$/g, '');
 const go = (col) => `${BASE ? BASE + '/' : ''}go/${col}/{{slug}}/`;
 const urlField = (hint) => str('slug', 'Адрес страницы (URL)', { pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Только латиница в нижнем регистре, цифры и дефисы'], hint });
 const rel = (name, label, collection, extra = {}) => ({ name, label, widget: 'relation', collection, value_field: '{{slug}}', search_fields: ['title', 'h1', 'slug'], display_fields: ['{{title}}'], required: false, ...extra });
@@ -264,6 +264,12 @@ const config = {
             { name: 'lead', label: 'Форма «Перезвоните мне»', widget: 'object', fields: [str('title', 'Заголовок'), txt('text', 'Текст'), str('button', 'Кнопка')] },
             { name: 'aside', label: 'Врезка внизу главной', widget: 'object', fields: [str('title', 'Заголовок'), txt('text', 'Текст'), str('button', 'Кнопка'), sel('url', 'Ссылка', linkTargets)] },
           ],
+        },
+        {
+          name: 'redirects', label: 'Редиректы (переадресации)', file: 'src/cms/settings/redirects.json', format: 'json',
+          description: 'Ручные переадресации. При смене адреса записи, удалении или скрытии страницы переадресация ставится автоматически, сюда добавлять нужно только особые случаи (например, адреса старого сайта). Автоматический список лежит в src/cms/settings/redirects-auto.json и ведётся сам.',
+          fields: [{ name: 'redirects', label: 'Переадресации', label_singular: 'Переадресация', widget: 'list', required: false, summary: '{{fields.from}} → {{fields.to}}',
+            fields: [str('from', 'Старый адрес', { hint: 'Путь от корня сайта: /akcii/ или /catalog/staryj-razdel/' }), str('to', 'Куда вести', { hint: 'Путь на сайте (/sale/) или полный адрес https://…' })] }],
         },
         {
           name: 'catalog', label: 'Бренды (список, порядок, уровень)', file: 'src/cms/settings/catalog.json', format: 'json',

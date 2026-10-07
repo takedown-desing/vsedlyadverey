@@ -2,7 +2,7 @@
 {
   "backend": {
     "name": "github",
-    "repo": "takedown-desing/maniglia-shop",
+    "repo": "takedown-desing/vsedlyadverey",
     "branch": "main",
     "skip_ci": true,
     "commit_messages": {
@@ -13,10 +13,10 @@
       "deleteMedia": "Админка: удалён файл {{path}}"
     }
   },
-  "site_url": "https://takedown-desing.github.io/maniglia-shop/",
-  "display_url": "https://takedown-desing.github.io/maniglia-shop/",
+  "site_url": "https://takedown-desing.github.io/vsedlyadverey/",
+  "display_url": "https://takedown-desing.github.io/vsedlyadverey/",
   "logo": {
-    "src": "https://takedown-desing.github.io/maniglia-shop/favicon.svg"
+    "src": "https://takedown-desing.github.io/vsedlyadverey/favicon.svg"
   },
   "media_folder": "public/images/uploads",
   "public_folder": "/images/uploads",
@@ -39,7 +39,7 @@
         "template": "{{name}}",
         "editable": true
       },
-      "preview_path": "maniglia-shop/go/products/{{slug}}/",
+      "preview_path": "vsedlyadverey/go/products/{{slug}}/",
       "summary": "{{name}}",
       "sortable_fields": [
         "name",
@@ -855,7 +855,7 @@
         "template": "{{title}}",
         "editable": true
       },
-      "preview_path": "maniglia-shop/go/sections/{{slug}}/",
+      "preview_path": "vsedlyadverey/go/sections/{{slug}}/",
       "summary": "{{title}}",
       "sortable_fields": [
         "order",
@@ -1452,7 +1452,7 @@
         "template": "{{title}}",
         "editable": true
       },
-      "preview_path": "maniglia-shop/go/blog-hubs/{{slug}}/",
+      "preview_path": "vsedlyadverey/go/blog-hubs/{{slug}}/",
       "summary": "{{title}}",
       "sortable_fields": [
         "order",
@@ -1549,7 +1549,7 @@
       "extension": "json",
       "identifier_field": "h1",
       "slug": "{{fields.url}}",
-      "preview_path": "maniglia-shop/go/pages/{{slug}}/",
+      "preview_path": "vsedlyadverey/go/pages/{{slug}}/",
       "summary": "{{h1}} · {{url}}",
       "sortable_fields": [
         "url",
@@ -2561,7 +2561,7 @@
         "editable": true,
         "hint": "Адрес страницы бренда /brands/<адрес>/. У существующих брендов не менять: на него ссылаются товары"
       },
-      "preview_path": "maniglia-shop/go/brands/{{slug}}/",
+      "preview_path": "vsedlyadverey/go/brands/{{slug}}/",
       "summary": "{{name}}",
       "description": "Страница бренда: справка, текст, серии, подразделы «бренд × категория». Чтобы новый бренд появился в фильтрах и на главной, добавьте его также в «Настройки → Каталог и бренды».",
       "fields": [
@@ -2784,7 +2784,7 @@
         "template": "{{name}}",
         "editable": true
       },
-      "preview_path": "maniglia-shop/go/series/{{slug}}/",
+      "preview_path": "vsedlyadverey/go/series/{{slug}}/",
       "summary": "{{name}}",
       "description": "Тексты страниц серий (/series/…). Какие товары попадают в серию, определяется правилом по названию модели; для новой серии напишите нам, добавим правило.",
       "fields": [
@@ -2876,7 +2876,7 @@
         "template": "{{title}}",
         "editable": true
       },
-      "preview_path": "maniglia-shop/go/articles/{{slug}}/",
+      "preview_path": "vsedlyadverey/go/articles/{{slug}}/",
       "summary": "{{title}}",
       "sortable_fields": [
         "order",
@@ -3781,7 +3781,7 @@
       "extension": "json",
       "identifier_field": "h1",
       "slug": "{{fields.url}}",
-      "preview_path": "maniglia-shop/go/service/{{slug}}/",
+      "preview_path": "vsedlyadverey/go/service/{{slug}}/",
       "summary": "{{h1}} · {{url}}",
       "description": "Доставка, оплата, гарантия, шоурум, вопросы и ответы. Страницы «Оптовикам», «Дизайнерам», «Производителям дверей» сейчас отключены и не публикуются, тексты сохранены на будущее.",
       "fields": [
@@ -6905,6 +6905,39 @@
                 }
               ],
               "required": false
+            }
+          ]
+        },
+        {
+          "name": "redirects",
+          "label": "Редиректы (переадресации)",
+          "file": "src/cms/settings/redirects.json",
+          "format": "json",
+          "description": "Ручные переадресации. При смене адреса записи, удалении или скрытии страницы переадресация ставится автоматически, сюда добавлять нужно только особые случаи (например, адреса старого сайта). Автоматический список лежит в src/cms/settings/redirects-auto.json и ведётся сам.",
+          "fields": [
+            {
+              "name": "redirects",
+              "label": "Переадресации",
+              "label_singular": "Переадресация",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.from}} → {{fields.to}}",
+              "fields": [
+                {
+                  "name": "from",
+                  "label": "Старый адрес",
+                  "widget": "string",
+                  "required": false,
+                  "hint": "Путь от корня сайта: /akcii/ или /catalog/staryj-razdel/"
+                },
+                {
+                  "name": "to",
+                  "label": "Куда вести",
+                  "widget": "string",
+                  "required": false,
+                  "hint": "Путь на сайте (/sale/) или полный адрес https://…"
+                }
+              ]
             }
           ]
         },

@@ -4,6 +4,9 @@ import registryRaw from '../data/registry.json';
 import catalogSettings from '../cms/settings/catalog.json';
 import siteSettings from '../cms/settings/site.json';
 import homeSettings from '../cms/settings/home.json';
+import prevUrlMap from '../cms/settings/url-map.json';
+import prevAutoRedirects from '../cms/settings/redirects-auto.json';
+import manualRedirects from '../cms/settings/redirects.json';
 
 export type RegPage = { url: string; h1: string; type: string; priority: string; primaryKw: string; ws: number; parent: string; note: string };
 export type Variant = { finish: string; color: string; article?: string; price: number | null; inStock?: boolean; image: string | null; imageSrc?: string };
@@ -458,3 +461,41 @@ export const cmsTargets: { col: string; file: string; url: string }[] = [
   ...pageUrlOf(pagesMods).map((p) => ({ col: 'pages', ...p })),
   ...pageUrlOf(serviceMods).map((p) => ({ col: 'service', ...p })),
 ].filter((t) => t.file);
+
+// ---------- редиректы: старый адрес никогда не отдаёт 404
+// url-map.json хранит адреса записей с прошлой сборки (ключ «коллекция/файл»). Если адрес записи сменился, со старого
+// адреса ставится переадресация на новый; если запись удалена, скрыта или раздел опустел, на родительскую страницу.
+// Накопленные переадресации лежат в redirects-auto.json, ручные в redirects.json (админка → «Настройки → Редиректы»).
+// Оба файла и карта адресов обновляются после сборки (scripts/save-cms-state.mjs) и коммитятся деплой-workflow.
+type UrlEntry = { url: string; fallback: string };
+const norm = (p: string) => { const s = String(p || '').trim(); if (!s) return ''; if (/^https?:\/\//.test(s)) return s; const x = ('/' + s.replace(/^\/+/, '')).split('#')[0].split('?')[0]; return /\.[a-z0-9]+$/i.test(x) ? x : x.replace(/\/?$/, '/'); };
+const liveUrl = (u: string) => u === '/' || isLive(u);
+const rawProducts = loadWithFile<Product>(productMods);
+const fallbackOf: Record<string, (file: string, url: string) => string> = {
+  products: (f) => resolveCategory(rawProducts.find((p) => p.file === f)?.category),
+  sections: (f) => { const s = sectionByFile.get(f); return s?.parent && sectionByFile.has(s.parent) ? sectionUrl(s.parent) : '/catalog/'; },
+  articles: (f) => { const a = articles.find((x) => (x as any).file === f); return a?.hub ? `/blog/${a.hub}/` : '/blog/'; },
+  'blog-hubs': () => '/blog/', brands: () => '/brands/', series: () => '/brands/', pages: () => '/', service: () => '/',
+};
+const currentMap: Record<string, UrlEntry> = {};
+for (const t of [...cmsTargets, ...sectionFiles.map((f) => ({ col: 'sections', file: f, url: sectionUrl(f) })), ...[...hubSlug].map(([f, s]) => ({ col: 'blog-hubs', file: f, url: `/blog/${s}/` }))]) {
+  if (liveUrl(t.url)) currentMap[`${t.col}/${t.file}`] = { url: t.url, fallback: (fallbackOf[t.col] || (() => '/'))(t.file, t.url) };
+}
+const firstLive = (...c: string[]) => c.find((x) => x && liveUrl(x)) || '/';
+const auto: Record<string, string> = { ...(prevAutoRedirects as Record<string, string>) };
+for (const [key, prev] of Object.entries(prevUrlMap as Record<string, UrlEntry>)) {
+  const now = currentMap[key];
+  if (now && now.url === prev.url) continue;
+  auto[prev.url] = now ? now.url : firstLive(prev.fallback, prev.url.startsWith('/catalog/') || prev.url.startsWith('/product/') ? '/catalog/' : '', prev.url.startsWith('/blog/') ? '/blog/' : '');
+}
+const manual: Record<string, string> = {};
+for (const r of ((manualRedirects as any).redirects || []) as { from?: string; to?: string }[]) { const f = norm(r.from || ''); const to = norm(r.to || ''); if (f && to && f !== to) manual[f] = to; }
+// цепочки (a→b→c) схлопываем до живой страницы; переадресацию с живой страницы не ставим
+const resolveTo = (to: string, all: Record<string, string>) => { let x = to; for (let i = 0; i < 10 && !/^https?:/.test(x) && !liveUrl(x) && all[x]; i++) x = all[x]; return /^https?:/.test(x) || liveUrl(x) ? x : firstLive(x.startsWith('/blog/') ? '/blog/' : '/catalog/'); };
+const merged: Record<string, string> = { ...auto, ...manual };
+export const REDIRECTS: Record<string, string> = {};
+for (const [from, to] of Object.entries(merged)) { if (liveUrl(from) || !from.startsWith('/')) continue; const r = resolveTo(to, merged); if (r !== from) REDIRECTS[from] = r; }
+export const CMS_STATE = {
+  urlMap: currentMap,
+  redirectsAuto: Object.fromEntries(Object.entries(auto).filter(([f]) => !liveUrl(f)).map(([f, to]) => [f, resolveTo(to, merged)]).sort(([a], [b]) => a.localeCompare(b))),
+};
