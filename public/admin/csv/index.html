@@ -38,12 +38,25 @@
       <br /><a class="btn" href="../export/sections.csv" download>Скачать sections.csv</a></div>
   </div>
 
+  <h2>Последняя загрузка</h2>
+  <div class="card" id="last-import"><span class="muted">Загружаю отчёт…</span></div>
+  <script>
+    fetch('../export/import-report.json?' + Date.now()).then(function (r) { return r.json(); }).then(function (d) {
+      var box = document.getElementById('last-import');
+      if (!d.date) { box.innerHTML = '<span class="muted">Загрузок ещё не было.</span>'; return; }
+      var when = new Date(d.date.replace(' ', 'T') + 'Z').toLocaleString('ru-RU');
+      box.innerHTML = '<b>' + when + '</b><div class="muted"></div><pre style="white-space:pre-wrap;margin:10px 0 0;font:13px/1.5 ui-monospace,Menlo,monospace"></pre>';
+      box.querySelector('.muted').textContent = d.file.replace(/^\/import\//, '');
+      box.querySelector('pre').textContent = d.report;
+    }).catch(function () { document.getElementById('last-import').innerHTML = '<span class="muted">Отчёт появится после первой публикации.</span>'; });
+  </script>
+
   <h2>Как загрузить изменения</h2>
   <ol>
     <li>Откройте скачанный файл в Excel или Google Таблицах, внесите правки. Лишние колонки можно удалить: загружаются только те, что остались.</li>
     <li>Сохраните как CSV: в Excel «Файл → Сохранить как → CSV (разделители — точка с запятой)» или «CSV UTF-8».</li>
     <li>В админке: <b>Настройки сайта → Импорт из CSV</b> → прикрепите файл → «Сохранить».</li>
-    <li>Меню аккаунта (кружок вверху справа) → <b>Publish Changes</b>. Через 2–3 минуты изменения будут на сайте, а результат в <b>Настройки сайта → Отчёт об импорте</b>.</li>
+    <li>Меню аккаунта (кружок вверху справа) → <b>Publish Changes</b>. Через 2–3 минуты изменения будут на сайте, а результат здесь, в блоке «Последняя загрузка» (обновите страницу). В админке он тоже есть: <b>Настройки сайта → Отчёт об импорте</b>, но чтобы его увидеть, обновите страницу админки.</li>
   </ol>
   <p>Хотите сначала проверить файл? Поставьте галочку «Только проверить, ничего не менять»: отчёт покажет ошибки, сайт не изменится.</p>
   <p><a class="btn ghost" href="../#/collections/settings/entries/import">Открыть «Импорт из CSV» в админке</a></p>
