@@ -167,8 +167,10 @@ function makeResolvers(report, dry) {
 }
 
 export async function importCsv(file, kind, { dry = false } = {}) {
+  if (kind !== 'products' && kind !== 'sections') kind = undefined; // любое другое значение = определить по колонкам
   const { head, rows } = parseCsv(fs.readFileSync(file));
-  if (!kind) kind = head.includes('Родитель') && !head.includes('Покрытие') ? 'sections' : 'products';
+  // разделы: есть «Родитель» или «Title» без «Названия» и без колонок покрытий; иначе товары
+  if (!kind) kind = !head.includes('Название') && !head.includes('Покрытие') && (head.includes('Родитель') || head.includes('Title')) ? 'sections' : 'products';
   const report = { file: path.basename(file), kind, rows: rows.length, updated: 0, created: { products: [], sections: [], brands: [] }, deleted: [], errors: [], warnings: [] };
   const has = (c) => head.includes(c);
   const unknown = head.filter((h) => !(kind === 'products' ? PRODUCT_COLS : SECTION_COLS).includes(h) && !(kind === 'products' && h.startsWith(SPEC)));
@@ -296,14 +298,16 @@ export function reportText(r) {
   return L.join('\n');
 }
 
-const [, , cmd, a1, a2] = process.argv;
+const argv = process.argv.slice(2);
+const flags = new Set(argv.filter((x) => x.startsWith('--')));
+const [cmd, a1, a2] = argv.filter((x) => !x.startsWith('--'));
 if (cmd === 'export') {
   // адрес сайта для колонки «Ссылка на сайте»: те же переменные, что у astro.config.mjs
   const site = (process.env.SITE_URL || 'https://takedown-desing.github.io').replace(/\/$/, '') + (process.env.BASE_PATH ?? '/vsedlyadverey').replace(/\/$/, '');
   const r = exportCatalog(path.resolve(a1 || P('dist/admin/export')), a2 ?? site);
   console.log(`[catalog-csv] export: ${r.products} товаров (${r.rows} строк, ${r.specs} характеристик), ${r.sections} разделов`);
 } else if (cmd === 'import') {
-  const r = await importCsv(path.resolve(a1), a2, { dry: process.argv.includes('--dry') });
+  const r = await importCsv(path.resolve(a1), a2, { dry: flags.has('--dry') });
   console.log(reportText(r));
 } else if (cmd === 'import-pending') {
   // файл, загруженный в админке (Настройки → Импорт из CSV); вызывается в CI перед сборкой

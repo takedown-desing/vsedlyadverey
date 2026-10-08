@@ -42,7 +42,8 @@ const iconFor = (u2: string) => (ICON_BY_SLUG.find(([re]) => re.test(u2))?.[1]) 
 const COLOR_TAG: Record<string, string> = { chernye: 'black', belye: 'white', zoloto: 'gold', hrom: 'chrome', bronza: 'bronze', nikel: 'nickel', latun: 'brass', grafit: 'graphite', med: 'copper' };
 
 // подразделы и подборки — одинаковые плитки
-const kids = [...children(url, ['subcategory', 'kit']), ...children(url, ['tag'])];
+// на /catalog/ это разделы верхнего уровня (в т.ч. созданные в админке без пункта меню), ниже подразделы
+const kids = [...children(url, ['category']), ...children(url, ['subcategory', 'kit']), ...children(url, ['tag'])];
 const tiles = kids.map((s) => {
   const ps = productsFor(s.url);
   const col = COLOR_TAG[s.url.split('/').filter(Boolean).pop() || ''];
