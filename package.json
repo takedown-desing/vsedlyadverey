@@ -8,7 +8,7 @@
     "predev": "node scripts/prepare-data.mjs && node scripts/gen-cms-config.mjs",
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "node scripts/save-cms-state.mjs",
+    "postbuild": "node scripts/save-cms-state.mjs && node scripts/catalog-csv.mjs export dist/admin/export",
     "preview": "astro preview"
   },
   "dependencies": {

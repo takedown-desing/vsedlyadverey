@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Выгрузка и загрузка CSV · Всё для дверей</title>
+  <style>
+    :root { --fg: #1d1d1f; --muted: #5f6368; --line: #dfe3ea; --accent: #e8711c; --bg: #fff; --soft: #f5f7fa; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #eceff3; --muted: #a3a9b3; --line: #343a44; --bg: #16181c; --soft: #1f232a; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; }
+    h1 { font-size: 28px; margin: 0 0 6px; } h2 { font-size: 20px; margin: 32px 0 10px; }
+    p, li { color: var(--fg); } .muted { color: var(--muted); font-size: 14px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 18px; }
+    .card { border: 1px solid var(--line); border-radius: 10px; padding: 18px; background: var(--soft); }
+    .card b { display: block; font-size: 17px; margin-bottom: 4px; }
+    .btn { display: inline-block; margin-top: 12px; padding: 10px 16px; border-radius: 8px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+    .btn.ghost { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 10px 0; }
+    th, td { border: 1px solid var(--line); padding: 7px 9px; text-align: left; vertical-align: top; }
+    th { background: var(--soft); }
+    code { background: var(--soft); padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+    .table-wrap { overflow-x: auto; }
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="../">← Вернуться в админку</a></p>
+  <h1>Выгрузка и загрузка CSV</h1>
+  <p class="muted">Файлы собираются при каждой публикации сайта и показывают каталог на момент последней публикации.</p>
+
+  <div class="cards">
+    <div class="card"><b>Товары</b>Все товары с вариантами покрытий, ценами, наличием, фото, разделами, характеристиками и SEO-полями. Одна строка = один вариант покрытия.
+      <br /><a class="btn" href="../export/products.csv" download>Скачать products.csv</a></div>
+    <div class="card"><b>Разделы каталога</b>Все разделы и подразделы: адрес, родитель, Title, H1, Description, меню, порядок, noindex.
+      <br /><a class="btn" href="../export/sections.csv" download>Скачать sections.csv</a></div>
+  </div>
+
+  <h2>Как загрузить изменения</h2>
+  <ol>
+    <li>Откройте скачанный файл в Excel или Google Таблицах, внесите правки. Лишние колонки можно удалить: загружаются только те, что остались.</li>
+    <li>Сохраните как CSV: в Excel «Файл → Сохранить как → CSV (разделители — точка с запятой)» или «CSV UTF-8».</li>
+    <li>В админке: <b>Настройки сайта → Импорт из CSV</b> → прикрепите файл → «Сохранить».</li>
+    <li>Меню аккаунта (кружок вверху справа) → <b>Publish Changes</b>. Через 2–3 минуты изменения будут на сайте, а результат в <b>Настройки сайта → Отчёт об импорте</b>.</li>
+  </ol>
+  <p>Хотите сначала проверить файл? Поставьте галочку «Только проверить, ничего не менять»: отчёт покажет ошибки, сайт не изменится.</p>
+  <p><a class="btn ghost" href="../#/collections/settings/entries/import">Открыть «Импорт из CSV» в админке</a></p>
+
+  <h2>Правила</h2>
+  <div class="table-wrap"><table>
+    <tr><th>Что сделать</th><th>Как</th></tr>
+    <tr><td>Изменить поле</td><td>Впишите новое значение</td></tr>
+    <tr><td>Оставить поле как есть</td><td>Пустая ячейка или удалённая колонка</td></tr>
+    <tr><td>Очистить поле</td><td>Прочерк <code>-</code> (цена «-» = «Цена по запросу», характеристика «-» = убрать у товара)</td></tr>
+    <tr><td>Добавить товар</td><td>Строка с пустым ID и заполненным «Названием». Ещё одно покрытие: следующая строка с тем же названием</td></tr>
+    <tr><td>Добавить покрытие к товару</td><td>Новая строка с ID товара и новым «Покрытием» или «Артикулом варианта»</td></tr>
+    <tr><td>Удалить товар или раздел</td><td>«Удалить» = <code>товар</code> (или <code>да</code>); старый адрес будет вести в его раздел</td></tr>
+    <tr><td>Удалить покрытие</td><td>«Удалить» = <code>вариант</code> в строке этого покрытия</td></tr>
+    <tr><td>Раздел товара</td><td>Адрес <code>/catalog/dvernye-ruchki/na-rozetke/</code> или названия <code>Мебельная фурнитура &gt; Ручки для шкафов</code>; несуществующий раздел создаётся</td></tr>
+    <tr><td>Бренд</td><td>Название; новый бренд создаётся сам</td></tr>
+    <tr><td>Фото</td><td>Путь <code>/images/products/…jpg</code> из выгрузки или ссылка <code>https://…</code>: картинка скачается на сайт</td></tr>
+    <tr><td>Характеристики</td><td>Колонки «Х: Название характеристики». Новая колонка «Х: …» добавляет характеристику</td></tr>
+    <tr><td>Цена</td><td>Число: <code>5500</code>, <code>5 500</code>, <code>5500 руб.</code></td></tr>
+    <tr><td>Да / нет</td><td><code>да</code>, <code>нет</code> (также 1/0)</td></tr>
+  </table></div>
+  <p class="muted">Поля товара (название, SEO, раздел, характеристики) берутся из первой строки с этим ID, строки ниже меняют только покрытия. Тексты-блоки и вопросы-ответы в CSV не входят и при загрузке не меняются.</p>
+</main>
+</body>
+</html>

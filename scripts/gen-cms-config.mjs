@@ -266,9 +266,21 @@ const config = {
           ],
         },
         {
+          name: 'import', label: 'Импорт из CSV (загрузка товаров и разделов)', file: 'src/cms/settings/import.json', format: 'json',
+          fields: [
+            { name: 'file', label: 'Файл CSV', widget: 'file', required: false, media_folder: '/import', public_folder: '/import', choose_url: false,
+              hint: `Скачать текущий каталог и правила: ${SITE_URL}admin/csv/ (или оранжевая кнопка «CSV» внизу слева). Прикрепите CSV из Excel, сохраните и нажмите «Publish Changes» в меню аккаунта: файл применится при публикации, результат будет в «Отчёт об импорте». После загрузки поле очищается` },
+            sel('kind', 'Что загружаем', [{ label: 'Определить автоматически', value: 'auto' }, { label: 'Товары', value: 'products' }, { label: 'Разделы каталога', value: 'sections' }], { default: 'auto' }),
+            bool('dryRun', 'Только проверить, ничего не менять', false, { hint: 'Отчёт покажет, что изменится и какие есть ошибки; сайт останется как был' }),
+          ],
+        },
+        {
+          name: 'import-report', label: 'Отчёт об импорте', file: 'src/cms/settings/import-report.json', format: 'json',
+          fields: [str('date', 'Дата (UTC)', { hint: 'Заполняется автоматически после публикации с загруженным CSV. Обновите админку через 2–3 минуты после публикации' }), str('file', 'Файл'), txt('report', 'Результат')],
+        },
+        {
           name: 'redirects', label: 'Редиректы (переадресации)', file: 'src/cms/settings/redirects.json', format: 'json',
-          description: 'Ручные переадресации. При смене адреса записи, удалении или скрытии страницы переадресация ставится автоматически, сюда добавлять нужно только особые случаи (например, адреса старого сайта). Автоматический список лежит в src/cms/settings/redirects-auto.json и ведётся сам.',
-          fields: [{ name: 'redirects', label: 'Переадресации', label_singular: 'Переадресация', widget: 'list', required: false, summary: '{{fields.from}} → {{fields.to}}',
+          fields: [{ name: 'redirects', label: 'Переадресации', label_singular: 'Переадресация', widget: 'list', required: false, summary: '{{fields.from}} → {{fields.to}}', hint: 'Ручные переадресации. При смене адреса записи, удалении или скрытии страницы переадресация ставится автоматически, сюда добавлять нужно только особые случаи (например, адреса старого сайта). Автоматический список лежит в src/cms/settings/redirects-auto.json и ведётся сам.',
             fields: [str('from', 'Старый адрес', { hint: 'Путь от корня сайта: /akcii/ или /catalog/staryj-razdel/' }), str('to', 'Куда вести', { hint: 'Путь на сайте (/sale/) или полный адрес https://…' })] }],
         },
         {

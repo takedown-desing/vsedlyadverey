@@ -6909,11 +6909,84 @@
           ]
         },
         {
+          "name": "import",
+          "label": "Импорт из CSV (загрузка товаров и разделов)",
+          "file": "src/cms/settings/import.json",
+          "format": "json",
+          "fields": [
+            {
+              "name": "file",
+              "label": "Файл CSV",
+              "widget": "file",
+              "required": false,
+              "media_folder": "/import",
+              "public_folder": "/import",
+              "choose_url": false,
+              "hint": "Скачать текущий каталог и правила: https://takedown-desing.github.io/vsedlyadverey/admin/csv/ (или оранжевая кнопка «CSV» внизу слева). Прикрепите CSV из Excel, сохраните и нажмите «Publish Changes» в меню аккаунта: файл применится при публикации, результат будет в «Отчёт об импорте». После загрузки поле очищается"
+            },
+            {
+              "name": "kind",
+              "label": "Что загружаем",
+              "widget": "select",
+              "options": [
+                {
+                  "label": "Определить автоматически",
+                  "value": "auto"
+                },
+                {
+                  "label": "Товары",
+                  "value": "products"
+                },
+                {
+                  "label": "Разделы каталога",
+                  "value": "sections"
+                }
+              ],
+              "required": false,
+              "default": "auto"
+            },
+            {
+              "name": "dryRun",
+              "label": "Только проверить, ничего не менять",
+              "widget": "boolean",
+              "default": false,
+              "required": false,
+              "hint": "Отчёт покажет, что изменится и какие есть ошибки; сайт останется как был"
+            }
+          ]
+        },
+        {
+          "name": "import-report",
+          "label": "Отчёт об импорте",
+          "file": "src/cms/settings/import-report.json",
+          "format": "json",
+          "fields": [
+            {
+              "name": "date",
+              "label": "Дата (UTC)",
+              "widget": "string",
+              "required": false,
+              "hint": "Заполняется автоматически после публикации с загруженным CSV. Обновите админку через 2–3 минуты после публикации"
+            },
+            {
+              "name": "file",
+              "label": "Файл",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "name": "report",
+              "label": "Результат",
+              "widget": "text",
+              "required": false
+            }
+          ]
+        },
+        {
           "name": "redirects",
           "label": "Редиректы (переадресации)",
           "file": "src/cms/settings/redirects.json",
           "format": "json",
-          "description": "Ручные переадресации. При смене адреса записи, удалении или скрытии страницы переадресация ставится автоматически, сюда добавлять нужно только особые случаи (например, адреса старого сайта). Автоматический список лежит в src/cms/settings/redirects-auto.json и ведётся сам.",
           "fields": [
             {
               "name": "redirects",
@@ -6922,6 +6995,7 @@
               "widget": "list",
               "required": false,
               "summary": "{{fields.from}} → {{fields.to}}",
+              "hint": "Ручные переадресации. При смене адреса записи, удалении или скрытии страницы переадресация ставится автоматически, сюда добавлять нужно только особые случаи (например, адреса старого сайта). Автоматический список лежит в src/cms/settings/redirects-auto.json и ведётся сам.",
               "fields": [
                 {
                   "name": "from",
