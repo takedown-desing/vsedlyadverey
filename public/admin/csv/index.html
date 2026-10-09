@@ -23,6 +23,12 @@
     th { background: var(--soft); }
     code { background: var(--soft); padding: 1px 5px; border-radius: 4px; font-size: 13px; }
     .table-wrap { overflow-x: auto; }
+    .links h3, .links summary { font-size: 15px; margin: 16px 0 6px; font-weight: 700; cursor: default; }
+    .links summary { cursor: pointer; }
+    .links { margin-bottom: 14px; }
+    .links ul { margin: 0; padding-left: 20px; font-size: 14px; }
+    .links li { margin: 3px 0; word-break: break-word; }
+    .links a { color: #c2410c; }
   </style>
 </head>
 <body>
@@ -47,7 +53,29 @@
       var when = new Date(d.date.replace(' ', 'T') + 'Z').toLocaleString('ru-RU');
       box.innerHTML = '<b>' + when + '</b><div class="muted"></div><pre style="white-space:pre-wrap;margin:10px 0 0;font:13px/1.5 ui-monospace,Menlo,monospace"></pre>';
       box.querySelector('.muted').textContent = d.file.replace(/^\/import\//, '');
-      box.querySelector('pre').textContent = d.report;
+      box.querySelector('pre').textContent = d.summary || d.report;
+      // ссылки на загруженные товары и разделы (адреса относительно сайта: ../../product/…/)
+      var links = d.links || []; if (!links.length) return;
+      var TITLES = { new: 'Новые', upd: 'Изменённые', del: 'Удалённые (старый адрес ведёт в раздел)' };
+      var wrap = document.createElement('div'); wrap.className = 'links';
+      ['new', 'upd', 'del'].forEach(function (a) {
+        var list = links.filter(function (x) { return x.a === a; }); if (!list.length) return;
+        var sec = document.createElement(list.length > 15 ? 'details' : 'div'); if (a === 'new' || list.length <= 15) sec.open = true;
+        var h = document.createElement(list.length > 15 ? 'summary' : 'h3'); h.textContent = TITLES[a] + ': ' + list.length; sec.appendChild(h);
+        var ul = document.createElement('ul');
+        list.forEach(function (x) {
+          var li = document.createElement('li'); var full = new URL('../..' + x.url, location.href);
+          var name = document.createElement('span'); name.textContent = (x.type === 'section' ? 'Раздел «' + x.name + '»' : x.name) + ' — ';
+          li.appendChild(name);
+          if (x.empty) { var e = document.createElement('span'); e.className = 'muted'; e.textContent = full.pathname + ' (страница появится, когда в разделе будут товары)'; li.appendChild(e); }
+          else if (d.dryRun) { var c = document.createElement('code'); c.textContent = full.pathname; li.appendChild(c); }
+          else { var l = document.createElement('a'); l.href = full.href; l.target = '_blank'; l.rel = 'noopener'; l.textContent = full.pathname; li.appendChild(l); }
+          ul.appendChild(li);
+        });
+        sec.appendChild(ul); wrap.appendChild(sec);
+      });
+      if (d.dryRun) { var n = document.createElement('p'); n.className = 'muted'; n.textContent = 'Это была проверка: страницы по этим адресам не созданы.'; wrap.appendChild(n); }
+      box.insertBefore(wrap, box.querySelector('pre'));
     }).catch(function () { document.getElementById('last-import').innerHTML = '<span class="muted">Отчёт появится после первой публикации.</span>'; });
   </script>
 
@@ -71,6 +99,7 @@
     <tr><td>Бренд, покрытие, характеристики, описание</td><td>Не показываются; покрытие считается «стандартным»</td></tr>
     <tr><td>Наличие</td><td>«На складе поставщика»</td></tr>
   </table></div>
+  <p>Адрес страницы товара сайт придумает сам из названия, латинскими буквами. Ссылки на все новые и изменённые товары появятся в блоке «Последняя загрузка».</p>
   <p>Отчёт после загрузки перечислит, чего не хватает у каждого нового товара. Дозаполнить можно позже тем же способом или в карточке товара в админке.</p>
   <p>Названия колонок можно писать по-своему: «Наименование», «Категория», «Производитель», «Стоимость», «Наличие», «Цвет», «Изображение» тоже понимаются.</p>
 
@@ -85,6 +114,7 @@
     <tr><td>Удалить товар или раздел</td><td>«Удалить» = <code>товар</code> (или <code>да</code>); старый адрес будет вести в его раздел</td></tr>
     <tr><td>Удалить покрытие</td><td>«Удалить» = <code>вариант</code> в строке этого покрытия</td></tr>
     <tr><td>Раздел товара</td><td>Адрес <code>/catalog/dvernye-ruchki/na-rozetke/</code> или названия <code>Мебельная фурнитура &gt; Ручки для шкафов</code>; несуществующий раздел создаётся</td></tr>
+    <tr><td>Адрес товара (URL)</td><td>Создаётся сам из названия латиницей: «Ручка Дельта на розетке» → <code>/product/ruchka-delta-na-rozetke/</code>. Занят: добавится <code>-2</code>. При смене названия адрес не меняется (чтобы не ломать ссылки); свой адрес можно задать колонкой «Адрес (URL)»</td></tr>
     <tr><td>Бренд</td><td>Название; новый бренд создаётся сам</td></tr>
     <tr><td>Фото</td><td>Путь <code>/images/products/…jpg</code> из выгрузки или ссылка <code>https://…</code>: картинка скачается на сайт</td></tr>
     <tr><td>Характеристики</td><td>Колонки «Х: Название характеристики». Новая колонка «Х: …» добавляет характеристику</td></tr>

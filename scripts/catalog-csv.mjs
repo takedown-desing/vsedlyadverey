@@ -31,6 +31,8 @@ const DIR = { products: P('src/cms/products'), sections: P('src/cms/sections'), 
 // ---------------------------------------------------------------- общие утилиты
 const TR = { а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ё: 'e', ж: 'zh', з: 'z', и: 'i', й: 'j', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r', с: 's', т: 't', у: 'u', ф: 'f', х: 'h', ц: 'c', ч: 'ch', ш: 'sh', щ: 'shch', ъ: '', ы: 'y', ь: '', э: 'e', ю: 'yu', я: 'ya' };
 export const translit = (s) => String(s || '').toLowerCase().replace(/[а-яё]/g, (c) => TR[c] ?? c).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+// адрес новой записи из названия: латиница, слова через дефис, не длиннее 80 символов (обрезка по границе слова)
+export const nameSlug = (name) => { const t = translit(name); if (t.length <= 80) return t; const c = t.slice(0, 81); return (c.lastIndexOf('-') > 40 ? c.slice(0, c.lastIndexOf('-')) : t.slice(0, 80)).replace(/-+$/, ''); };
 const urlPart = (custom, file) => translit(String(custom || '').trim().replace(/^\/+|\/+$/g, '').split('/').pop() || '') || translit(file);
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 const writeJson = (f, o) => { fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, JSON.stringify(o, null, 2) + '\n'); };
@@ -164,7 +166,8 @@ function sectionIndex() {
     const u = parent + urlPart(d.slug, id) + '/'; cache.set(id, u); return u;
   };
   const byUrl = new Map(list.map((x) => [url(x.id), x.id]));
-  return { list, byId, url, byUrl };
+  const urlFresh = (id) => { cache.clear(); return url(id); }; // после правок родителя или адреса
+  return { list, byId, url, urlFresh, byUrl };
 }
 
 // ---------------------------------------------------------------- выгрузка
@@ -235,7 +238,7 @@ function makeResolvers(report, dry) {
     const d = { title, h1: title, slug: slug || translit(title), parent: parentId || '', kind: 'section', inMenu: false };
     if (!dry) writeJson(path.join(DIR.sections, id + '.json'), d);
     sec.list.push({ id, data: d }); sec.byId.set(id, d); sec.byUrl.set(sec.url(id), id);
-    report.created.sections.push(sec.url(id)); return id;
+    report.created.sections.push(sec.url(id)); report.links.push({ a: 'new', type: 'section', name: title, url: sec.url(id) }); return id;
   };
   const section = (v) => {
     const t = String(v || '').trim(); if (!t) return '';
@@ -254,16 +257,27 @@ function makeResolvers(report, dry) {
   return { sec, brand, section };
 }
 
-export async function importCsv(file, kind, { dry = false } = {}) {
+export async function importCsv(file, kind, opts = {}) {
+  const r = await importTable(file, kind, opts);
+  // пустой раздел на сайте не публикуется (нет пустых страниц): в отчёте вместо ссылки пометка
+  const secLinks = (r.links || []).filter((x) => x.type === 'section' && x.a !== 'del');
+  if (secLinks.length && !opts.dry) {
+    const sec = sectionIndex(); const used = new Set();
+    for (const { data } of loadDir(DIR.products)) if (!data.hidden) [data.category, ...(data.extraCategories || [])].filter(Boolean).forEach((c) => { let id = String(c).startsWith('/') ? sec.byUrl.get(c) : c; while (id && !used.has(id)) { used.add(id); id = sec.byId.get(id)?.parent; } });
+    for (const x of secLinks) { const id = sec.byUrl.get(x.url); if (id && !used.has(id)) x.empty = true; }
+  }
+  return r;
+}
+async function importTable(file, kind, { dry = false } = {}) {
   if (kind !== 'products' && kind !== 'sections') kind = undefined; // любое другое значение = определить по колонкам
   let table;
-  try { table = await readTable(file); } catch (e) { return { file: path.basename(file), kind: kind || 'products', rows: 0, updated: 0, created: { products: [], sections: [], brands: [] }, deleted: [], errors: [`Файл не прочитан: ${e.message}`], warnings: [] }; }
+  try { table = await readTable(file); } catch (e) { return { file: path.basename(file), kind: kind || 'products', rows: 0, updated: 0, created: { products: [], sections: [], brands: [] }, deleted: [], links: [], errors: [`Файл не прочитан: ${e.message}`], warnings: [] }; }
   const rawHead = table.head;
   const head = canonHead(rawHead, [...PRODUCT_COLS, ...SECTION_COLS]);
   const rows = table.rows.map((r) => Object.fromEntries(rawHead.map((h, i) => [head[i], r[h] ?? ''])));
   // разделы: есть «Родитель» или «Title» без «Названия» и без колонок покрытий; иначе товары
   if (!kind) kind = !head.includes('Название') && !head.includes('Покрытие') && (head.includes('Родитель') || head.includes('Title')) ? 'sections' : 'products';
-  const report = { file: path.basename(file), kind, rows: rows.length, updated: 0, created: { products: [], sections: [], brands: [] }, deleted: [], errors: [], warnings: [] };
+  const report = { file: path.basename(file), kind, rows: rows.length, updated: 0, created: { products: [], sections: [], brands: [] }, deleted: [], links: [], errors: [], warnings: [] };
   const has = (c) => head.includes(c);
   const unknown = head.filter((h) => !(kind === 'products' ? PRODUCT_COLS : SECTION_COLS).includes(h) && !(kind === 'products' && h.startsWith(SPEC)));
   if (unknown.length) report.warnings.push('Колонки не распознаны и пропущены: ' + unknown.join(', '));
@@ -288,7 +302,7 @@ export async function importCsv(file, kind, { dry = false } = {}) {
     rows.forEach((row, i) => {
       const line = table.lines?.[i] ?? i + 2; let id = row['ID'];
       if (yes(row['Удалить']) || /товар|раздел/i.test(row['Удалить'] || '')) {
-        if (id && fs.existsSync(path.join(DIR.sections, id + '.json'))) { if (!dry) fs.rmSync(path.join(DIR.sections, id + '.json')); report.deleted.push(id); }
+        if (id && fs.existsSync(path.join(DIR.sections, id + '.json'))) { report.links.push({ a: 'del', type: 'section', name: R.sec.byId.get(id)?.title || id, url: R.sec.url(id) }); if (!dry) fs.rmSync(path.join(DIR.sections, id + '.json')); report.deleted.push(id); }
         return;
       }
       const isNew = !id || !fs.existsSync(path.join(DIR.sections, id + '.json'));
@@ -300,10 +314,13 @@ export async function importCsv(file, kind, { dry = false } = {}) {
       if (has('Родитель') && row['Родитель'] !== '') { const p = CLEAR.test(row['Родитель']) ? '' : R.section(row['Родитель']); if (p !== null) d.parent = p; }
       if (has('Тип') && row['Тип']) d.kind = /подбор|tag/i.test(row['Тип']) ? 'tag' : 'section';
       if (has('В меню') && row['В меню']) d.inMenu = yes(row['В меню']);
-      if (has('noindex') && row['noindex']) d.noindex = yes(row['noindex']);
+      if (has('noindex') && row['noindex'] && (yes(row['noindex']) || 'noindex' in d)) d.noindex = yes(row['noindex']);
       set(d, 'order', 'Порядок', row, (x) => { const n = Number(String(x).replace(',', '.')); if (Number.isNaN(n)) { report.errors.push(`Строка ${line}: «Порядок» не число`); return null; } return n; });
-      if (isNew) { id = uniqueId(DIR.sections, id ? translit(id) : (d.parent ? d.parent + '--' : 'catalog--') + (d.slug || translit(d.title))); report.created.sections.push(id); }
+      if (isNew && !d.slug) d.slug = nameSlug(d.title); // адрес нового раздела из названия, латиницей
+      if (isNew) { id = uniqueId(DIR.sections, id ? translit(id) : (d.parent ? d.parent + '--' : 'catalog--') + d.slug); report.created.sections.push(id); }
       else report.updated++;
+      R.sec.byId.set(id, d); if (!R.sec.list.some((x) => x.id === id)) R.sec.list.push({ id, data: d });
+      report.links.push({ a: isNew ? 'new' : 'upd', type: 'section', name: d.title, url: R.sec.urlFresh(id) });
       if (!dry) writeJson(path.join(DIR.sections, id + '.json'), d);
     });
     return report;
@@ -319,8 +336,9 @@ export async function importCsv(file, kind, { dry = false } = {}) {
   const specCols = head.filter((h) => h.startsWith(SPEC));
   const variantCols = ['Покрытие', 'Группа цвета', 'Артикул варианта', 'Цена', 'На складе', 'Фото'];
   // строка без ID с названием существующего товара обновляет его (повторная загрузка того же прайса не плодит дубли)
-  const byName = new Map();
-  for (const { id: pid, data } of loadDir(DIR.products)) { const k = norm(data.name); byName.set(k, byName.has(k) ? null : pid); }
+  const byName = new Map(); const usedSlugs = new Set();
+  for (const { id: pid, data } of loadDir(DIR.products)) { const k = norm(data.name); byName.set(k, byName.has(k) ? null : pid); usedSlugs.add(urlPart(data.slug, pid)); }
+  const productUrl = (pid, d) => `/product/${urlPart(d.slug, pid)}/`;
   for (const g of groups) {
     const { row: first, line } = g.rows[0];
     let id = g.id;
@@ -328,6 +346,7 @@ export async function importCsv(file, kind, { dry = false } = {}) {
     const f = id ? path.join(DIR.products, id + '.json') : null;
     if (/^(да|товар)$/i.test(first['Удалить'] || '')) {
       if (f && fs.existsSync(f)) {
+        { const old = readJson(f); report.links.push({ a: 'del', type: 'product', name: old.name || id, url: productUrl(id, old) }); }
         if (!dry) {
           // фото удаляемого товара убираем, если их не использует другой товар
           const imgs = (readJson(f).variants || []).map((v) => v?.image).filter((x) => x && x.startsWith('/images/products/'));
@@ -394,20 +413,36 @@ export async function importCsv(file, kind, { dry = false } = {}) {
     if (!p.category) miss.push('не указан раздел (товар виден в общем каталоге и в поиске)');
     if (!p.variants.some((v) => typeof v.price === 'number')) miss.push('нет цены (на сайте «Цена по запросу»)');
     if (isNew && miss.length) report.warnings.push(`«${p.name}»: ${miss.join('; ')}`);
-    if (isNew) { id = uniqueId(DIR.products, id ? translit(id) : translit(p.name)); report.created.products.push(id); } else report.updated++;
+    if (isNew) {
+      // адрес нового товара всегда из названия латиницей; занят — добавляется -2, -3…
+      const base = nameSlug(p.name) || 'tovar'; let slug = base; let n = 2;
+      while (usedSlugs.has(slug) || (!id && fs.existsSync(path.join(DIR.products, slug + '.json')))) slug = `${base}-${n++}`;
+      if (id) { id = uniqueId(DIR.products, translit(id)); if (!p.slug && slug !== id) p.slug = slug; } else id = slug;
+      usedSlugs.add(urlPart(p.slug, id));
+      report.created.products.push(id);
+    } else report.updated++;
+    report.links.push({ a: isNew ? 'new' : 'upd', type: 'product', name: p.name, url: productUrl(id, p) });
     if (!dry) writeJson(path.join(DIR.products, id + '.json'), p);
   }
   return report;
 }
 
 // ---------------------------------------------------------------- отчёт и запуск
-export function reportText(r) {
+// адрес сайта для ссылок: те же переменные, что у astro.config.mjs
+const SITE_BASE = (process.env.SITE_URL || 'https://takedown-desing.github.io').replace(/\/$/, '') + (process.env.BASE_PATH ?? '/vsedlyadverey').replace(/\/$/, '');
+const LINK_TITLE = { new: 'Новые', upd: 'Изменены', del: 'Удалены (старый адрес ведёт в раздел)' };
+export function reportText(r, { links = true } = {}) {
   const L = [`Файл: ${r.file} (${r.kind === 'products' ? 'товары' : 'разделы'}), строк: ${r.rows}`,
     `Обновлено: ${r.updated}; создано товаров: ${r.created.products.length}, разделов: ${r.created.sections.length}, брендов: ${r.created.brands.length}; удалено: ${r.deleted.length}`];
   if (r.matchedByName) L.push(`Найдено по названию (строки без ID): ${r.matchedByName}, эти товары обновлены, а не созданы заново`);
-  if (r.created.sections.length) L.push('Новые разделы: ' + r.created.sections.join(', '));
   if (r.created.brands.length) L.push('Новые бренды: ' + r.created.brands.join(', '));
-  if (r.deleted.length) L.push('Удалены: ' + r.deleted.join(', '));
+  // адреса на сайте: новые все, изменённые первые 30 (полный список на странице «Excel / CSV»)
+  for (const a of links ? ['new', 'upd', 'del'] : []) {
+    const list = (r.links || []).filter((x) => x.a === a); if (!list.length) continue;
+    const show = a === 'upd' ? list.slice(0, 30) : list;
+    L.push('', `${LINK_TITLE[a]} (${list.length}):`, ...show.map((x) => `${x.type === 'section' ? 'раздел ' : ''}${x.name} — ${SITE_BASE}${x.url}${x.empty ? ' (страница появится, когда в разделе будут товары)' : ''}`));
+    if (show.length < list.length) L.push(`…и ещё ${list.length - show.length}, полный список на странице «Excel / CSV»`);
+  }
   if (r.errors.length) {
     const applied = r.updated + r.created.products.length + r.created.sections.length + r.deleted.length;
     L.push('', applied ? `Ошибки (${r.errors.length}). Неверное значение пропущено, остальные поля загружены:` : `Ошибки (${r.errors.length}). Ничего не загружено:`, ...r.errors.slice(0, 200));
@@ -421,7 +456,7 @@ const flags = new Set(argv.filter((x) => x.startsWith('--')));
 const [cmd, a1, a2] = argv.filter((x) => !x.startsWith('--'));
 if (cmd === 'export') {
   // адрес сайта для колонки «Ссылка на сайте»: те же переменные, что у astro.config.mjs
-  const site = (process.env.SITE_URL || 'https://takedown-desing.github.io').replace(/\/$/, '') + (process.env.BASE_PATH ?? '/vsedlyadverey').replace(/\/$/, '');
+  const site = SITE_BASE;
   const r = await exportCatalog(path.resolve(a1 || P('dist/admin/export')), a2 ?? site);
   console.log(`[catalog-csv] export: ${r.products} товаров (${r.rows} строк, ${r.specs} характеристик), ${r.sections} разделов`);
 } else if (cmd === 'import') {
@@ -434,16 +469,17 @@ if (cmd === 'export') {
   if (!cfg.file) { console.log('[catalog-csv] нет файла для загрузки'); process.exit(0); }
   const src = P(cfg.file.replace(/^\/+/, ''));
   const date = new Date().toISOString().slice(0, 16).replace('T', ' ');
-  let text;
+  let text; let links = []; let summary;
   if (!fs.existsSync(src)) text = `Файл ${cfg.file} не найден в хранилище. Загрузите его заново.`;
   else {
     const kind = cfg.kind === 'sections' ? 'sections' : cfg.kind === 'products' ? 'products' : undefined;
     const r = await importCsv(src, kind, { dry: !!cfg.dryRun });
     text = (cfg.dryRun ? 'ПРОВЕРКА без изменений сайта\n' : '') + reportText(r);
-    if (!cfg.dryRun) { fs.mkdirSync(P('import/done'), { recursive: true }); fs.renameSync(src, P('import/done', date.replace(/[: ]/g, '-') + '-' + path.basename(src))); }
+    links = r.links || []; summary = (cfg.dryRun ? 'ПРОВЕРКА без изменений сайта\n' : '') + reportText(r, { links: false });
+    if (!cfg.dryRun) { fs.mkdirSync(P('import/done'), { recursive: true }); fs.renameSync(src, P('import/done', date.replace(/[: ]/g, '-') + '-' + path.basename(src).replace(/^(\d{4}-\d\d-\d\d-\d\d-\d\d-)+/, ''))); }
   }
   writeJson(cfgFile, { ...cfg, file: '', dryRun: false });
-  writeJson(P('src/cms/settings/import-report.json'), { date, file: cfg.file, report: text });
+  writeJson(P('src/cms/settings/import-report.json'), { date, file: cfg.file, report: text, summary: summary || text, dryRun: !!cfg.dryRun, links });
   console.log(text);
 } else if (cmd) {
   console.error('Команды: export <папка> | import <файл.csv|.xlsx> [products|sections] [--dry] | import-pending');
