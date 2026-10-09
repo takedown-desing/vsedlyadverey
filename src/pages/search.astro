@@ -20,7 +20,7 @@ import { u } from '../lib/url';
       if (!terms.length) { res.innerHTML = ''; info.textContent = ''; return; }
       const hits = data.filter((d) => terms.every((t) => d.s.includes(t))).slice(0, 60);
       info.textContent = hits.length ? `Найдено: ${hits.length}` : 'Ничего не найдено. Попробуйте другое слово или откройте каталог.';
-      res.innerHTML = hits.map((h) => `<article class="card"><a class="card-img" href="${base}${h.u}">${h.i ? `<img src="${base}${h.i}" alt="${esc(h.n)}" loading="lazy">` : ''}</a><div class="card-brand">${esc(h.b)}</div><a class="card-name" href="${base}${h.u}">${esc(h.n)}</a><div class="card-price">${h.p ? new Intl.NumberFormat('ru-RU').format(h.p) + ' ₽' : '<small>Цена по запросу</small>'}</div></article>`).join('');
+      res.innerHTML = hits.map((h) => `<article class="card"><a class="card-img" href="${base}${h.u}"><img src="${base}${h.i || 'images/no-photo.svg'}" alt="${esc(h.n)}" loading="lazy"></a><div class="card-brand">${esc(h.b)}</div><a class="card-name" href="${base}${h.u}">${esc(h.n)}</a><div class="card-price">${h.p ? new Intl.NumberFormat('ru-RU').format(h.p) + ' ₽' : '<small>Цена по запросу</small>'}</div></article>`).join('');
     };
     const params = new URLSearchParams(location.search); if (params.get('q')) { q.value = params.get('q'); run(); }
     document.getElementById('go').addEventListener('click', run); q.addEventListener('input', () => { clearTimeout(window.__t); window.__t = setTimeout(run, 250); });

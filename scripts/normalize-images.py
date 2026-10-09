@@ -1,7 +1,6 @@
 """Приводит фото товаров к стандарту: 800x800, белый фон, товар по центру с полями ~7%.
 Обрезает белые/почти белые поля исходника, вписывает в 744x744 и центрирует.
-Повторный запуск безопасен (уже нормализованные файлы пропускаются по маркеру в EXIF-комментарии не нужен:
-проверяем размер 800x800 и белые углы)."""
+Повторный запуск безопасен: файлы 800x800 пропускаются (их не пережимаем)."""
 import sys, os
 from PIL import Image, ImageChops, ImageOps
 DIR = "public/images/products"
@@ -12,6 +11,7 @@ for fn in sorted(os.listdir(DIR)):
     p = os.path.join(DIR, fn)
     try:
         im = Image.open(p)
+        if im.size == (S, S): continue  # уже приведено к стандарту: не пережимаем повторно
         im = ImageOps.exif_transpose(im)
         if im.mode in ("RGBA", "LA", "P"):
             im = im.convert("RGBA"); bg = Image.new("RGBA", im.size, (255, 255, 255, 255)); bg.alpha_composite(im); im = bg

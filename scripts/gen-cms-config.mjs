@@ -92,7 +92,7 @@ const config = {
       identifier_field: 'name', slug: { template: '{{name}}', editable: true }, preview_path: go('products'), summary: '{{name}}', sortable_fields: ['name', 'brand', 'order', 'category'],
       view_groups: [{ label: 'По бренду', field: 'brand' }, { label: 'По разделу', field: 'category' }, { label: 'Скрытые', field: 'hidden' }],
       view_filters: [{ label: 'Скрытые с сайта', field: 'hidden', pattern: true }, { label: 'Стартовые бренды (Colombo, TUPAI)', field: 'brand', pattern: '^(colombo-design|tupai)$' }],
-      description: 'Карточка товара. Обязательно только название; адрес, если не задан, сформируется из названия. Товар появится на сайте, когда у него будет хотя бы одно фото.',
+      description: 'Карточка товара. Обязательно только название; адрес, если не задан, сформируется из названия. Пока нет фото, на сайте показывается заглушка «Фото скоро появится»; без цены пишется «Цена по запросу».',
       fields: [
         str('name', 'Название', { required: true, hint: 'Без покрытия: «Дверная ручка Colombo Design Robot CD41RSB на круглой розетке»' }),
         urlField('Страница товара: /product/<адрес>/. Если пусто, адрес сформируется из названия транслитом. Смена адреса опубликованного товара ломает старые ссылки на него'),
@@ -266,16 +266,16 @@ const config = {
           ],
         },
         {
-          name: 'import', label: 'Импорт из CSV (загрузка товаров и разделов)', file: 'src/cms/settings/import.json', format: 'json',
+          name: 'import', label: 'Импорт из Excel или CSV (загрузка товаров и разделов)', file: 'src/cms/settings/import.json', format: 'json',
           fields: [
-            { name: 'file', label: 'Файл CSV', widget: 'file', required: false, media_folder: '/import', public_folder: '/import', choose_url: false,
-              hint: `Скачать текущий каталог и правила: ${SITE_URL}admin/csv/ (или оранжевая кнопка «CSV» внизу слева). Прикрепите CSV из Excel, сохраните и нажмите «Publish Changes» в меню аккаунта: файл применится при публикации, результат будет в «Отчёт об импорте» и на странице «CSV ⇅». Товары это или разделы, определяется по колонкам файла. После загрузки поле очищается (обновите админку)` },
+            { name: 'file', label: 'Файл Excel (.xlsx) или CSV', widget: 'file', required: false, media_folder: '/import', public_folder: '/import', choose_url: false,
+              hint: `Скачать текущий каталог и правила: ${SITE_URL}admin/csv/ (или оранжевая кнопка «Excel / CSV» внизу слева). Прикрепите файл Excel (.xlsx) или CSV. Обязательна только колонка «Название» (или «Наименование»), остальные можно не заполнять. Сохраните и нажмите «Publish Changes» в меню аккаунта: файл применится при публикации, результат будет в «Отчёт об импорте» и на странице «Excel / CSV». Товары это или разделы, определяется по колонкам файла. После загрузки поле очищается (обновите админку)` },
             bool('dryRun', 'Только проверить, ничего не менять', false, { hint: 'Отчёт покажет, что изменится и какие есть ошибки; сайт останется как был' }),
           ],
         },
         {
           name: 'import-report', label: 'Отчёт об импорте', file: 'src/cms/settings/import-report.json', format: 'json',
-          fields: [str('date', 'Дата (UTC)', { hint: 'Заполняется автоматически после публикации с загруженным CSV. Обновите админку через 2–3 минуты после публикации' }), str('file', 'Файл'), txt('report', 'Результат', { hint: 'Если здесь старые данные, обновите страницу админки (Ctrl+F5 или Cmd+Shift+R): админка показывает данные на момент входа. Результат последней загрузки есть и на странице «CSV ⇅»' })],
+          fields: [str('date', 'Дата (UTC)', { hint: 'Заполняется автоматически после публикации с загруженным файлом. Обновите админку через 2–3 минуты после публикации' }), str('file', 'Файл'), txt('report', 'Результат', { hint: 'Если здесь старые данные, обновите страницу админки (Ctrl+F5 или Cmd+Shift+R): админка показывает данные на момент входа. Результат последней загрузки есть и на странице «Excel / CSV»' })],
         },
         {
           name: 'redirects', label: 'Редиректы (переадресации)', file: 'src/cms/settings/redirects.json', format: 'json',

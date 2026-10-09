@@ -183,7 +183,7 @@ main { flex: 1; }
 .card:hover .card-img img { transform: scale(1.04); }
 .card-img .noimg { width: 60%; opacity: .25; }
 .badge { position: absolute; left: 0; top: 0; width: 46px; height: 46px; border-radius: 50%; border: 1px solid #333; background: #fff; display: grid; place-items: center; font-size: 8.5px; text-transform: uppercase; line-height: 1.1; text-align: center; letter-spacing: .03em; }
-.card-brand { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--c-muted); }
+.card-brand { min-height: 1.5em; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--c-muted); }
 .card-name { font-size: 15px; line-height: 1.4; margin: 2px 0 8px; min-height: 42px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .card-sw { display: flex; gap: 5px; margin-bottom: 8px; }
 .sw { width: 14px; height: 14px; border-radius: 50%; border: 1px solid rgba(0,0,0,.18); }

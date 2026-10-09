@@ -1,11 +1,14 @@
 // Обмен каталогом через CSV: выгрузка и загрузка товаров и разделов (src/cms/products, src/cms/sections).
 //
-//   node scripts/catalog-csv.mjs export <папка>                 → <папка>/products.csv, <папка>/sections.csv
-//   node scripts/catalog-csv.mjs import <файл.csv> [products|sections]
+//   node scripts/catalog-csv.mjs export <папка>                 → products.csv/.xlsx и sections.csv/.xlsx в <папке>
+//   node scripts/catalog-csv.mjs import <файл.csv|.xlsx> [products|sections]
 //   node scripts/catalog-csv.mjs import-pending                 → файл из админки (src/cms/settings/import.json), для CI
 //
 // Формат: разделитель «;», UTF-8 с BOM (Excel открывает без настройки). При загрузке понимает «;», «,» и табуляцию,
 // UTF-8 и Windows-1251. Товар = несколько строк с одинаковым ID (по строке на вариант покрытия).
+// Excel (.xlsx): берётся первый лист, первая строка = заголовки. Обязательна только колонка «Название» (или «Наименование»):
+// товар из одной ячейки с названием загружается, остальное заполняется по умолчанию (покрытие «стандарт», цена по запросу,
+// раздел = общий каталог, без фото = заглушка на сайте).
 // Правила загрузки (их же описывает инструкция для редактора):
 //   • ID пустой → новый товар/раздел; ID есть, но файла нет → создаётся с этим ID.
 //   • Пустая ячейка или отсутствующая колонка → поле не меняется. Прочерк «-» в ячейке → поле очищается
@@ -19,6 +22,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import ExcelJS from 'exceljs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const P = (...a) => path.join(ROOT, ...a);
@@ -36,6 +40,9 @@ const boolCell = (b) => (b ? 'да' : 'нет');
 const s = (v) => (v === null || v === undefined ? '' : String(v));
 
 const COLORS = { black: 'чёрный', chrome: 'хром', gold: 'золото', bronze: 'бронза', nickel: 'никель', brass: 'латунь', white: 'белый', graphite: 'графит', copper: 'медь', silver: 'серебро', other: 'другое' };
+// группа цвета по названию покрытия, если колонка «Группа цвета» не заполнена
+const COLOR_WORDS = [[/графит/, 'graphite'], [/ч[её]рн|black/, 'black'], [/хром|chrome/, 'chrome'], [/никел|nickel/, 'nickel'], [/латун|brass/, 'brass'], [/бронз|bronze/, 'bronze'], [/мед[ьн]|copper/, 'copper'], [/золот|gold/, 'gold'], [/серебр|silver/, 'silver'], [/бел[ыо]|white/, 'white']];
+const guessColor = (fin) => COLOR_WORDS.find(([re]) => re.test(String(fin || '').toLowerCase()))?.[1] || 'other';
 const STYLES = { modern: 'современный', classic: 'классика', minimal: 'минимализм', loft: 'лофт' };
 const DOORS = { interior: 'межкомнатные', entrance: 'входные', sliding: 'раздвижные', glass: 'стеклянные', pvc: 'ПВХ', aluminium: 'алюминиевые', fire: 'противопожарные', finnish: 'финские', gate: 'калитки и ворота', bathroom: 'ванная и туалет' };
 const back = (map) => (v) => { const x = String(v || '').trim().toLowerCase().replace(/ё/g, 'е'); if (!x) return ''; for (const [k, l] of Object.entries(map)) if (k === x || l.toLowerCase().replace(/ё/g, 'е') === x) return k; return null; };
@@ -48,8 +55,9 @@ export function parseCsv(buf) {
   let text;
   try { text = new TextDecoder('utf-8', { fatal: true }).decode(buf); } catch { text = new TextDecoder('windows-1251').decode(buf); }
   text = text.replace(/^﻿/, '');
-  const first = text.split(/\r?\n/, 1)[0];
-  const d = [';', '\t', ','].sort((a, b) => first.split(b).length - first.split(a).length)[0];
+  // разделитель: тот, что чаще встречается в первых строках (над шапкой может быть строка-заголовок прайса)
+  const sample = text.split(/\r?\n/, 10).join('\n');
+  const d = [';', '\t', ','].sort((a, b) => sample.split(b).length - sample.split(a).length)[0];
   const rows = []; let row = [], cell = '', q = false;
   for (let i = 0; i < text.length; i++) {
     const c = text[i];
@@ -60,9 +68,87 @@ export function parseCsv(buf) {
     else cell += c;
   }
   if (cell !== '' || row.length) { row.push(cell); rows.push(row); }
-  const nonEmpty = rows.filter((r) => r.some((x) => String(x).trim() !== ''));
-  const head = (nonEmpty.shift() || []).map((h) => h.trim());
-  return { head, rows: nonEmpty.map((r) => Object.fromEntries(head.map((h, i) => [h, (r[i] ?? '').trim()]))) };
+  return toTable(rows.map((cells, i) => ({ cells, line: i + 1 })));
+}
+
+// Сетка → { head, rows, lines }. Шапка = первая строка, где есть «Название»/«Наименование», «ID» или «Title»
+// (строки над ней, например «Прайс-лист на октябрь», пропускаются); иначе первая непустая строка.
+// lines[i] = номер строки в файле, чтобы отчёт указывал на ту строку, которую видит редактор.
+function toTable(grid) {
+  const nonEmpty = grid.filter((g) => g.cells.some((x) => x !== undefined && String(x).trim() !== ''));
+  const known = ['Название', 'ID', 'Title'];
+  let h = nonEmpty.slice(0, 15).findIndex((g) => canonHead(g.cells.map((x) => String(x ?? '').trim()), [...PRODUCT_COLS, ...SECTION_COLS]).some((x) => known.includes(x)));
+  if (h < 0) h = 0;
+  const head = (nonEmpty[h]?.cells || []).map((x) => String(x ?? '').trim());
+  const body = nonEmpty.slice(h + 1);
+  return { head, rows: body.map((g) => Object.fromEntries(head.map((c, i) => [c, String(g.cells[i] ?? '').trim()]))), lines: body.map((g) => g.line), skipped: h, headLine: nonEmpty[h]?.line };
+}
+
+// ---------------------------------------------------------------- Excel и синонимы колонок
+// Распространённые названия колонок из чужих таблиц → колонки сайта (сравнение без учёта регистра, пробелов и «ё»).
+const ALIASES = {
+  'Название': ['наименование', 'наименование товара', 'название товара', 'товар', 'name', 'title товара'],
+  'Раздел': ['категория', 'категория товара', 'раздел каталога', 'category'],
+  'Бренд': ['производитель', 'марка', 'brand'],
+  'Цена': ['цена, руб', 'цена, руб.', 'цена (руб)', 'цена ₽', 'стоимость', 'розничная цена', 'ррц', 'price'],
+  'Фото': ['изображение', 'картинка', 'фото товара', 'ссылка на фото', 'image', 'photo'],
+  'Краткое описание': ['описание', 'описание товара', 'description товара'],
+  'Артикул': ['артикул модели', 'код товара', 'sku'],
+  'На складе': ['наличие', 'в наличии', 'остаток'],
+  'Покрытие': ['цвет', 'отделка', 'цвет/покрытие', 'цвет покрытия'],
+};
+const norm = (h) => String(h || '').replace(/\s+/g, ' ').trim().toLowerCase().replace(/ё/g, 'е');
+function canonHead(head, known) {
+  const exact = new Map(known.map((k) => [norm(k), k]));
+  const alias = new Map(Object.entries(ALIASES).flatMap(([k, list]) => list.map((a) => [norm(a), k])));
+  const used = new Set();
+  return head.map((h) => {
+    const t = String(h || '').trim();
+    if (t.startsWith(SPEC) || /^х:\s/i.test(t)) return SPEC + t.replace(/^х:\s*/i, '');
+    const k = exact.get(norm(t)) || alias.get(norm(t));
+    if (k && !used.has(k)) { used.add(k); return k; }
+    return t;
+  });
+}
+// значение ячейки Excel → строка (числа без пробелов, даты ДД.ММ.ГГГГ, формулы → результат, ссылки → адрес)
+function cellText(v) {
+  if (v === null || v === undefined) return '';
+  if (v instanceof Date) return v.toISOString().slice(0, 10).split('-').reverse().join('.');
+  if (typeof v === 'number') return String(Math.round(v * 1e6) / 1e6);
+  if (typeof v === 'boolean') return v ? 'да' : 'нет';
+  if (typeof v === 'object') {
+    if ('result' in v) return cellText(v.result);
+    if ('hyperlink' in v) return String(v.hyperlink || v.text || '');
+    if (Array.isArray(v.richText)) return v.richText.map((x) => x.text).join('');
+    if ('text' in v) return String(v.text);
+    if ('error' in v) return '';
+  }
+  return String(v);
+}
+async function parseXlsx(buf) {
+  const wb = new ExcelJS.Workbook();
+  await wb.xlsx.load(buf);
+  const ws = wb.worksheets.find((w) => w.actualRowCount > 0) || wb.worksheets[0];
+  if (!ws) return { head: [], rows: [] };
+  const grid = [];
+  ws.eachRow({ includeEmpty: false }, (row, n) => { const r = []; row.eachCell({ includeEmpty: true }, (c, i) => { r[i - 1] = cellText(c.value).trim(); }); grid.push({ cells: r, line: n }); });
+  return toTable(grid);
+}
+const isXlsx = (file, buf) => /\.xlsx$/i.test(file) || (buf[0] === 0x50 && buf[1] === 0x4b);
+export async function readTable(file) {
+  const buf = fs.readFileSync(file);
+  if (/\.xls$/i.test(file) || (buf[0] === 0xd0 && buf[1] === 0xcf)) throw new Error('старый формат Excel .xls не поддерживается: сохраните файл как .xlsx («Книга Excel») или CSV');
+  return isXlsx(file, buf) ? parseXlsx(buf) : parseCsv(buf);
+}
+async function writeXlsx(file, head, rows, sheet) {
+  const wb = new ExcelJS.Workbook();
+  const ws = wb.addWorksheet(sheet, { views: [{ state: 'frozen', ySplit: 1 }] });
+  ws.addRow(head);
+  for (const r of rows) ws.addRow(r.map((x) => s(x)));
+  ws.getRow(1).font = { bold: true }; ws.getRow(1).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF3EEDD' } };
+  ws.autoFilter = { from: { row: 1, column: 1 }, to: { row: 1, column: head.length } };
+  ws.columns.forEach((c, i) => { const len = Math.max(String(head[i] || '').length, ...rows.slice(0, 200).map((r) => s(r[i]).length)); c.width = Math.min(48, Math.max(10, len + 2)); });
+  await wb.xlsx.writeFile(file);
 }
 
 // ---------------------------------------------------------------- разделы: адреса
@@ -88,7 +174,7 @@ export const PRODUCT_COLS = ['ID', 'Ссылка на сайте (не загр�
 export const SECTION_COLS = ['ID', 'Адрес на сайте (не загружается)', 'Title', 'H1', 'Description', 'Адрес (URL)', 'Родитель', 'Тип', 'В меню', 'Название в меню', 'Иконка', 'Порядок', 'Лид', 'noindex', 'Canonical', 'Удалить'];
 const SPEC = 'Х: ';
 
-export function exportCatalog(outDir, siteBase = '') {
+export async function exportCatalog(outDir, siteBase = '') {
   const sec = sectionIndex();
   const brands = new Map(loadDir(DIR.brands).map((b) => [b.id, b.data.name || b.id]));
   const products = loadDir(DIR.products);
@@ -108,6 +194,8 @@ export function exportCatalog(outDir, siteBase = '') {
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, 'products.csv'), toCsv(head, rows));
   fs.writeFileSync(path.join(outDir, 'sections.csv'), toCsv(SECTION_COLS, srows));
+  await writeXlsx(path.join(outDir, 'products.xlsx'), head, rows, 'Товары');
+  await writeXlsx(path.join(outDir, 'sections.xlsx'), SECTION_COLS, srows, 'Разделы');
   return { products: products.length, rows: rows.length, sections: sec.list.length, specs: specKeys.length };
 }
 
@@ -168,14 +256,20 @@ function makeResolvers(report, dry) {
 
 export async function importCsv(file, kind, { dry = false } = {}) {
   if (kind !== 'products' && kind !== 'sections') kind = undefined; // любое другое значение = определить по колонкам
-  const { head, rows } = parseCsv(fs.readFileSync(file));
+  let table;
+  try { table = await readTable(file); } catch (e) { return { file: path.basename(file), kind: kind || 'products', rows: 0, updated: 0, created: { products: [], sections: [], brands: [] }, deleted: [], errors: [`Файл не прочитан: ${e.message}`], warnings: [] }; }
+  const rawHead = table.head;
+  const head = canonHead(rawHead, [...PRODUCT_COLS, ...SECTION_COLS]);
+  const rows = table.rows.map((r) => Object.fromEntries(rawHead.map((h, i) => [head[i], r[h] ?? ''])));
   // разделы: есть «Родитель» или «Title» без «Названия» и без колонок покрытий; иначе товары
   if (!kind) kind = !head.includes('Название') && !head.includes('Покрытие') && (head.includes('Родитель') || head.includes('Title')) ? 'sections' : 'products';
   const report = { file: path.basename(file), kind, rows: rows.length, updated: 0, created: { products: [], sections: [], brands: [] }, deleted: [], errors: [], warnings: [] };
   const has = (c) => head.includes(c);
   const unknown = head.filter((h) => !(kind === 'products' ? PRODUCT_COLS : SECTION_COLS).includes(h) && !(kind === 'products' && h.startsWith(SPEC)));
   if (unknown.length) report.warnings.push('Колонки не распознаны и пропущены: ' + unknown.join(', '));
-  if (!has('ID') && !has(kind === 'products' ? 'Название' : 'Title')) { report.errors.push(`Нет колонки «ID» или «${kind === 'products' ? 'Название' : 'Title'}»: файл не загружен`); return report; }
+  if (table.skipped) report.warnings.push(`Шапка таблицы найдена в строке ${table.headLine}; строки над ней пропущены`);
+  if (!rows.length) { report.errors.push('В файле нет строк с данными (нужна строка заголовков и хотя бы одна строка товара)'); return report; }
+  if (!has('ID') && !has(kind === 'products' ? 'Название' : 'Title')) { report.errors.push(`Нет колонки «${kind === 'products' ? 'Название' : 'Title'}» (или «ID» для существующих записей): файл не загружен. Найденные колонки: ${head.join(', ') || 'нет'}`); return report; }
   const R = makeResolvers(report, dry);
   const CLEAR = /^[-–—]$/;
   const set = (obj, key, col, row, fn = (x) => x, keepIfEmpty = false) => {
@@ -192,7 +286,7 @@ export async function importCsv(file, kind, { dry = false } = {}) {
 
   if (kind === 'sections') {
     rows.forEach((row, i) => {
-      const line = i + 2; let id = row['ID'];
+      const line = table.lines?.[i] ?? i + 2; let id = row['ID'];
       if (yes(row['Удалить']) || /товар|раздел/i.test(row['Удалить'] || '')) {
         if (id && fs.existsSync(path.join(DIR.sections, id + '.json'))) { if (!dry) fs.rmSync(path.join(DIR.sections, id + '.json')); report.deleted.push(id); }
         return;
@@ -220,13 +314,18 @@ export async function importCsv(file, kind, { dry = false } = {}) {
   rows.forEach((row, i) => {
     const key = row['ID'] || (row['Название'] ? 'new:' + row['Название'] : cur?.key);
     if (!cur || cur.key !== key) { cur = { key, id: row['ID'], rows: [] }; groups.push(cur); }
-    cur.rows.push({ row, line: i + 2 });
+    cur.rows.push({ row, line: table.lines?.[i] ?? i + 2 });
   });
   const specCols = head.filter((h) => h.startsWith(SPEC));
   const variantCols = ['Покрытие', 'Группа цвета', 'Артикул варианта', 'Цена', 'На складе', 'Фото'];
+  // строка без ID с названием существующего товара обновляет его (повторная загрузка того же прайса не плодит дубли)
+  const byName = new Map();
+  for (const { id: pid, data } of loadDir(DIR.products)) { const k = norm(data.name); byName.set(k, byName.has(k) ? null : pid); }
   for (const g of groups) {
     const { row: first, line } = g.rows[0];
-    let id = g.id; const f = id ? path.join(DIR.products, id + '.json') : null;
+    let id = g.id;
+    if (!id && first['Название'] && byName.get(norm(first['Название']))) { id = byName.get(norm(first['Название'])); report.matchedByName = (report.matchedByName || 0) + 1; }
+    const f = id ? path.join(DIR.products, id + '.json') : null;
     if (/^(да|товар)$/i.test(first['Удалить'] || '')) {
       if (f && fs.existsSync(f)) { if (!dry) fs.rmSync(f); report.deleted.push(id); } else report.warnings.push(`Строка ${line}: товара ${id || first['Название']} нет, удалять нечего`);
       continue;
@@ -267,19 +366,26 @@ export async function importCsv(file, kind, { dry = false } = {}) {
           || (art && one(p.variants.filter((x) => x.article === art))) || (fin && one(p.variants.filter((x) => String(x.finish || '').toLowerCase() === fin)));
         if (/вариант/i.test(row['Удалить'] || '')) { if (v) p.variants = p.variants.filter((x) => x !== v); else report.warnings.push(`Строка ${ln}: вариант для удаления не найден`); continue; }
         if (!v) { v = { finish: '', color: 'other', article: '', price: null, inStock: true, image: null }; p.variants.push(v); }
-        set(v, 'finish', 'Покрытие', row); set(v, 'article', 'Артикул варианта', row);
+        set(v, 'finish', 'Покрытие', row); set(v, 'article', 'Артикул варианта', row); if (!v.finish) v.finish = 'стандарт';
         set(v, 'color', 'Группа цвета', row, (x) => { const c = colorOf(x); if (c === null) { report.errors.push(`Строка ${ln}: цвет «${x}» неизвестен (${Object.values(COLORS).join(', ')})`); } return c; });
-        if (has('Цена') && row['Цена'] !== '') { const raw = String(row['Цена']).replace(/[\s ₽руб.]/g, '').replace(',', '.'); if (raw === '' || CLEAR.test(row['Цена'].trim())) v.price = null; else if (Number.isNaN(Number(raw))) report.errors.push(`Строка ${ln}: цена «${row['Цена']}» не число`); else v.price = Math.round(Number(raw)); }
+        if ((!v.color || v.color === 'other') && !row['Группа цвета']) v.color = guessColor(v.finish);
+        if (has('Цена') && row['Цена'] !== '') { const raw = String(row['Цена']).replace(/руб\.?|р\.|₽|[\s\u00a0]/gi, '').replace(',', '.'); if (raw === '' || CLEAR.test(row['Цена'].trim())) v.price = null; else if (Number.isNaN(Number(raw))) report.errors.push(`Строка ${ln}: цена «${row['Цена']}» не число`); else v.price = Math.round(Number(raw)); }
         if (has('На складе') && row['На складе'] !== '') v.inStock = yes(row['На складе']);
         if (has('Фото') && row['Фото']) {
           const ph = row['Фото'].trim();
-          if (/^https?:\/\//.test(ph)) { const loc = dry ? ph : await fetchImage(ph, (id || translit(p.name)) + '-' + translit(v.finish || 'foto'), report); if (loc) { v.image = loc; v.imageSrc = ph; } }
+          if (/^https?:\/\//.test(ph) && v.imageSrc === ph && v.image && fs.existsSync(P('public', v.image.replace(/^\/+/, '')))) { /* то же фото уже скачано */ }
+          else if (/^https?:\/\//.test(ph)) { const loc = dry ? ph : await fetchImage(ph, (id || translit(p.name)) + '-' + translit(v.finish || 'foto'), report); if (loc) { v.image = loc; v.imageSrc = ph; } }
           else if (fs.existsSync(P('public', ph.replace(/^\/+/, '')))) { v.image = '/' + ph.replace(/^\/+/, ''); }
           else report.errors.push(`Строка ${ln}: фото ${ph} не найдено на сайте`);
         }
       }
     }
-    if (!p.variants?.some((v) => v.image)) report.warnings.push(`${p.name}: нет ни одного фото, на сайте товар не покажется`);
+    if (!p.variants?.length) p.variants = [{ finish: 'стандарт', color: 'other', article: '', price: null, inStock: true, image: null }];
+    const miss = [];
+    if (!p.variants.some((v) => v.image)) miss.push('нет фото (на сайте будет заглушка «Фото скоро появится»)');
+    if (!p.category) miss.push('не указан раздел (товар виден в общем каталоге и в поиске)');
+    if (!p.variants.some((v) => typeof v.price === 'number')) miss.push('нет цены (на сайте «Цена по запросу»)');
+    if (isNew && miss.length) report.warnings.push(`«${p.name}»: ${miss.join('; ')}`);
     if (isNew) { id = uniqueId(DIR.products, id ? translit(id) : translit(p.name)); report.created.products.push(id); } else report.updated++;
     if (!dry) writeJson(path.join(DIR.products, id + '.json'), p);
   }
@@ -290,10 +396,14 @@ export async function importCsv(file, kind, { dry = false } = {}) {
 export function reportText(r) {
   const L = [`Файл: ${r.file} (${r.kind === 'products' ? 'товары' : 'разделы'}), строк: ${r.rows}`,
     `Обновлено: ${r.updated}; создано товаров: ${r.created.products.length}, разделов: ${r.created.sections.length}, брендов: ${r.created.brands.length}; удалено: ${r.deleted.length}`];
+  if (r.matchedByName) L.push(`Найдено по названию (строки без ID): ${r.matchedByName}, эти товары обновлены, а не созданы заново`);
   if (r.created.sections.length) L.push('Новые разделы: ' + r.created.sections.join(', '));
   if (r.created.brands.length) L.push('Новые бренды: ' + r.created.brands.join(', '));
   if (r.deleted.length) L.push('Удалены: ' + r.deleted.join(', '));
-  if (r.errors.length) L.push('', `Ошибки (${r.errors.length}):`, ...r.errors.slice(0, 200));
+  if (r.errors.length) {
+    const applied = r.updated + r.created.products.length + r.created.sections.length + r.deleted.length;
+    L.push('', applied ? `Ошибки (${r.errors.length}). Неверное значение пропущено, остальные поля загружены:` : `Ошибки (${r.errors.length}). Ничего не загружено:`, ...r.errors.slice(0, 200));
+  }
   if (r.warnings.length) L.push('', `Предупреждения (${r.warnings.length}):`, ...r.warnings.slice(0, 200));
   return L.join('\n');
 }
@@ -304,7 +414,7 @@ const [cmd, a1, a2] = argv.filter((x) => !x.startsWith('--'));
 if (cmd === 'export') {
   // адрес сайта для колонки «Ссылка на сайте»: те же переменные, что у astro.config.mjs
   const site = (process.env.SITE_URL || 'https://takedown-desing.github.io').replace(/\/$/, '') + (process.env.BASE_PATH ?? '/vsedlyadverey').replace(/\/$/, '');
-  const r = exportCatalog(path.resolve(a1 || P('dist/admin/export')), a2 ?? site);
+  const r = await exportCatalog(path.resolve(a1 || P('dist/admin/export')), a2 ?? site);
   console.log(`[catalog-csv] export: ${r.products} товаров (${r.rows} строк, ${r.specs} характеристик), ${r.sections} разделов`);
 } else if (cmd === 'import') {
   const r = await importCsv(path.resolve(a1), a2, { dry: flags.has('--dry') });
@@ -328,6 +438,6 @@ if (cmd === 'export') {
   writeJson(P('src/cms/settings/import-report.json'), { date, file: cfg.file, report: text });
   console.log(text);
 } else if (cmd) {
-  console.error('Команды: export <папка> | import <файл.csv> [products|sections] [--dry] | import-pending');
+  console.error('Команды: export <папка> | import <файл.csv|.xlsx> [products|sections] [--dry] | import-pending');
   process.exit(1);
 }

@@ -143,9 +143,9 @@ function cleanProduct(p: Product): Product | null {
   // Фото показываем только с подтверждённым источником и не с сайтов конкурентов (водяные знаки).
   const BLOCKED = /todoor\.ru/i;
   const variants = (p.variants || []).filter(Boolean).map((v) => ({ ...v, finish: v.finish || COLOR_NAMES[v.color] || 'стандарт', color: v.color || 'other', image: v.image && !BLOCKED.test(v.imageSrc || '') ? v.image : null }));
-  if (!variants.length) return null;
-  // товар без единого фото на сайт не выводится (все карточки должны быть с картинкой)
-  if (!variants.some((v) => v.image)) return null;
+  // товар без покрытий (например, загружен из файла только с названием) получает одно стандартное покрытие
+  if (!variants.length) variants.push({ finish: 'стандарт', color: 'other', price: null, inStock: true, image: null } as any);
+  // товар без фото показывается с заглушкой NO_PHOTO (поле image остаётся пустым: плитки, главная и комплекты берут только настоящие фото)
   const cat = p.category.endsWith('/') ? p.category : p.category + '/';
   return { ...p, category: cat, variants, doorTypes: p.doorTypes || [], specs: specsRecord(p.specs), blocks: normBlocks(p.blocks), faq: (p.faq || []).filter((f) => f && f.q) };
 }
@@ -285,6 +285,8 @@ export const minPrice = (p: Product) => {
 };
 export const rub = (n: number | null | undefined) => (n ? new Intl.NumberFormat('ru-RU').format(n) + ' ₽' : 'Цена по запросу');
 export const firstImage = (p: Product | undefined | null) => p?.variants.find((v) => v.image)?.image ?? null;
+export const NO_PHOTO = '/images/no-photo.svg';
+export const cardImage = (p: Product) => firstImage(p) || NO_PHOTO;
 export const children = (url: string, types?: string[]) => registry.filter((p) => p.parent === url && p.url !== url && (!types || types.includes(p.type)) && !isEmptyPage(p.url));
 export const INDEX_THRESHOLD: Record<string, number> = { tag: 3, 'brand-category': 2, subcategory: 1, series: 1, category: 1 };
 export function isIndexable(url: string): boolean {
@@ -321,7 +323,8 @@ export const STYLE_NAMES: Record<string, string> = { modern: 'Современн
 const SPEC_SKIP = /^(цена.*|ед.*измерения|единица.*|кол-во.*|количество.*|артикул|производитель|бренд|серия|модель|описание|комплектация|вес|цвет|покрытие|материал|страна|страна производства|гарантия.*|примечание|упаковка|в комплекте.*)$/i;
 const normVal = (v: unknown) => String(v ?? '').replace(/\s+/g, ' ').trim();
 export function productFacetValues(p: Product): Record<string, string | string[]> {
-  const f: Record<string, string | string[]> = { brand: p.brand, color: [...new Set(p.variants.map((v) => v.color))] };
+  const f: Record<string, string | string[]> = { color: [...new Set(p.variants.map((v) => v.color))] };
+  if (p.brand) f.brand = p.brand;
   if (p.style) f.style = p.style;
   if (p.material) f.material = normVal(p.material).toLowerCase();
   const country = normVal(p.specs?.['Страна производства'] || p.specs?.['Страна'] || brandTexts.get(p.brand)?.country || '');

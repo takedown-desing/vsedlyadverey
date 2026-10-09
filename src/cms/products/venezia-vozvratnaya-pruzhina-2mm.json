@@ -6,8 +6,8 @@
   "order": 513,
   "category": "catalog--remkomplekty-i-zapchasti",
   "article": "VNZ2322",
-  "hidden": false,
-  "hiddenNote": "",
+  "hidden": true,
+  "hiddenNote": "Скрыт до появления фото (в демо-каталоге все карточки с фото). Добавьте фото и снимите галочку",
   "variants": [
     {
       "finish": "сталь",

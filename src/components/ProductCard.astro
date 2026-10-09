@@ -1,10 +1,10 @@
 ---
 import type { Product } from '../lib/data';
-import { brandName, minPrice, rub, firstImage, COLOR_HEX, COLOR_NAMES, pluralRu, STOCK_LABEL } from '../lib/data';
+import { brandName, minPrice, rub, cardImage, COLOR_HEX, COLOR_NAMES, pluralRu, STOCK_LABEL } from '../lib/data';
 import { u } from '../lib/url';
 const { p, eager = false } = Astro.props as { p: Product; eager?: boolean };
 const price = minPrice(p);
-const img = firstImage(p);
+const img = cardImage(p);
 const v0 = p.variants.find((v) => v.image) || p.variants[0];
 const colors = [...new Set(p.variants.map((v) => v.color))];
 const inStock = p.variants.some((v) => v.inStock !== false);

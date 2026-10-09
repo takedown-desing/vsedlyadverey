@@ -26,6 +26,9 @@ jobs:
       # CSV, загруженный в админке (Настройки → Импорт из CSV), применяется до сборки
       - name: Import CSV from admin
         run: node scripts/catalog-csv.mjs import-pending
+      # фото, скачанные при импорте или загруженные в админке: 800×800, белый фон (готовые файлы пропускаются)
+      - name: Normalize product photos
+        run: python3 -m pip install --quiet pillow && python3 scripts/normalize-images.py
       - run: npm run build
       # результат импорта CSV, карта адресов и автоматические редиректы: следующая сборка сравнит адреса
       - name: Save import results, URL map and redirects

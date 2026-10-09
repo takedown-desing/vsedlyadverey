@@ -8,7 +8,7 @@ import { REVIEWS, REVIEWS_NOTE } from '../../lib/reviews';
 import Icon from '../../components/Icon.astro';
 import {
   products, regByUrl, breadcrumbs, brandName, rub, COLOR_HEX, COLOR_NAMES, CATEGORY_NAV, articles, SERIES_RULES, registry, SITE_NAME, minPrice,
-  productTexts, colorSlug, STOCK_LABEL, inShowroom, SITE,
+  productTexts, colorSlug, STOCK_LABEL, inShowroom, SITE, NO_PHOTO,
 } from '../../lib/data';
 import { COMPANY } from '../../lib/company';
 import type { Product } from '../../lib/data';
@@ -23,7 +23,9 @@ const crumbs = [...(catReg ? breadcrumbs(p.category) : [{ url: '/', name: 'Гл�
 const v0 = p.variants.find((v) => v.image) || p.variants[0];
 const bname = brandName(p.brand);
 const price = minPrice(p);
-const withFinish = `${p.name}${v0.finish ? ', ' + v0.finish : ''}`;
+// покрытие «стандарт» (товар загружен без покрытий) не пишем в Title и не показываем выбором из одного пункта
+const realFinish = (f?: string) => !!f && !/^стандарт$/i.test(f);
+const withFinish = `${p.name}${realFinish(v0.finish) ? ', ' + v0.finish : ''}`;
 const h1 = (p as any).h1 || p.name;
 const title = withFinish.length <= 55 ? `${withFinish}: купить, цена` : p.name.length <= 60 ? `${p.name}: купить` : p.name;
 const description = `${p.name} (${bname}${p.article ? ', арт. ' + p.article : ''}). ${p.variants.length > 1 ? p.variants.length + ' покрытий. ' : ''}${price ? 'Цена от ' + new Intl.NumberFormat('ru-RU').format(price) + ' ₽. ' : ''}Доставка по Москве и России.`;
@@ -57,7 +59,7 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
     <div class="product" data-product>
       <div>
         <div class="gallery-main">
-          {v0.image ? <img id="main-img" src={u(v0.image)} alt={`${p.name}, ${v0.finish}`} width="800" height="800" fetchpriority="high" /> : <Icon name="box" size={120} />}
+          {v0.image ? <img id="main-img" src={u(v0.image)} alt={`${p.name}, ${v0.finish}`} width="800" height="800" fetchpriority="high" /> : <img id="main-img" src={u(NO_PHOTO)} alt="Фото товара скоро появится" width="800" height="800" />}
         </div>
         {p.variants.filter((v) => v.image).length > 1 && (
           <div class="thumbs">
@@ -71,7 +73,7 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
         <div class="p-meta">{p.article && <span>Артикул: <b id="p-art">{v0.article || p.article}</b></span>}<span id="p-stock" data-yes={STOCK_LABEL.yes} data-no={STOCK_LABEL.no} style={`color:${v0.inStock === false ? 'var(--c-muted)' : 'var(--c-ok)'}`}>{v0.inStock === false ? STOCK_LABEL.no : STOCK_LABEL.yes}</span></div>
         <div class="p-price" id="p-price">{rub(v0.price)}</div>
         {SITE.priceNote && <div class="p-note">{SITE.priceNote}</div>}
-        {p.variants.length > 0 && (
+        {(p.variants.length > 1 || realFinish(v0.finish)) && (
           <>
             <div style="font-size:14.5px">Покрытие: <b id="p-finish">{v0.finish}</b></div>
             <div class="finishes" role="radiogroup" aria-label="Покрытие">
