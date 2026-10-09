@@ -1,0 +1,17 @@
+{
+  "name": "Проба: ручка Альфа",
+  "brand": "",
+  "category": "",
+  "variants": [
+    {
+      "finish": "стандарт",
+      "color": "other",
+      "article": "",
+      "price": null,
+      "inStock": true,
+      "image": null
+    }
+  ],
+  "specs": [],
+  "hidden": false
+}
