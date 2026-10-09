@@ -1,12 +1,24 @@
 {
-  "date": "2026-10-09 12:25",
-  "file": "/import/Проба 2 — полный товар.xlsx",
-  "report": "Файл: Проба 2 — полный товар.xlsx (товары), строк: 2\nОбновлено: 0; создано товаров: 1, разделов: 0, брендов: 0; удалено: 0\n\nНовые (1):\nПроба: ручка Дельта — https://takedown-desing.github.io/vsedlyadverey/product/proba-ruchka-delta/",
-  "summary": "Файл: Проба 2 — полный товар.xlsx (товары), строк: 2\nОбновлено: 0; создано товаров: 1, разделов: 0, брендов: 0; удалено: 0",
+  "date": "2026-10-09 12:27",
+  "file": "/import/Проба 3 — откат.xlsx",
+  "report": "Файл: Проба 3 — откат.xlsx (товары), строк: 3\nОбновлено: 0; создано товаров: 0, разделов: 0, брендов: 0; удалено: 3\n\nУдалены (старый адрес ведёт в раздел) (3):\nПроба: ручка Альфа — https://takedown-desing.github.io/vsedlyadverey/product/proba-ruchka-alfa/\nПроба: упор Бета — https://takedown-desing.github.io/vsedlyadverey/product/proba-upor-beta/\nПроба: ручка Дельта — https://takedown-desing.github.io/vsedlyadverey/product/proba-ruchka-delta/",
+  "summary": "Файл: Проба 3 — откат.xlsx (товары), строк: 3\nОбновлено: 0; создано товаров: 0, разделов: 0, брендов: 0; удалено: 3",
   "dryRun": false,
   "links": [
     {
-      "a": "new",
+      "a": "del",
+      "type": "product",
+      "name": "Проба: ручка Альфа",
+      "url": "/product/proba-ruchka-alfa/"
+    },
+    {
+      "a": "del",
+      "type": "product",
+      "name": "Проба: упор Бета",
+      "url": "/product/proba-upor-beta/"
+    },
+    {
+      "a": "del",
       "type": "product",
       "name": "Проба: ручка Дельта",
       "url": "/product/proba-ruchka-delta/"

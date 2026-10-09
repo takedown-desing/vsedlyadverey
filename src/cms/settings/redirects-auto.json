@@ -1,3 +1,6 @@
 {
-  "/product/proba-ruchka-gamma/": "/catalog/dvernye-ruchki/na-rozetke/"
+  "/product/proba-ruchka-alfa/": "/catalog/",
+  "/product/proba-ruchka-delta/": "/catalog/dvernye-ruchki/na-rozetke/",
+  "/product/proba-ruchka-gamma/": "/catalog/dvernye-ruchki/na-rozetke/",
+  "/product/proba-upor-beta/": "/catalog/"
 }
