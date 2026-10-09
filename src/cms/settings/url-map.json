@@ -1659,6 +1659,10 @@
     "url": "/product/porta-di-parma-p-1712/",
     "fallback": "/catalog/avtoporogi-i-uplotniteli/avtoporogi/"
   },
+  "products/proba-ruchka-delta": {
+    "url": "/product/proba-ruchka-delta/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
   "products/punto-200-2b-100x25": {
     "url": "/product/punto-200-2b-100x25/",
     "fallback": "/catalog/dvernye-petli/babochki/"
