@@ -327,7 +327,15 @@ export async function importCsv(file, kind, { dry = false } = {}) {
     if (!id && first['Название'] && byName.get(norm(first['Название']))) { id = byName.get(norm(first['Название'])); report.matchedByName = (report.matchedByName || 0) + 1; }
     const f = id ? path.join(DIR.products, id + '.json') : null;
     if (/^(да|товар)$/i.test(first['Удалить'] || '')) {
-      if (f && fs.existsSync(f)) { if (!dry) fs.rmSync(f); report.deleted.push(id); } else report.warnings.push(`Строка ${line}: товара ${id || first['Название']} нет, удалять нечего`);
+      if (f && fs.existsSync(f)) {
+        if (!dry) {
+          // фото удаляемого товара убираем, если их не использует другой товар
+          const imgs = (readJson(f).variants || []).map((v) => v?.image).filter((x) => x && x.startsWith('/images/products/'));
+          fs.rmSync(f);
+          if (imgs.length) { const used = new Set(loadDir(DIR.products).flatMap((x) => (x.data.variants || []).map((v) => v?.image))); for (const im of imgs) if (!used.has(im)) fs.rmSync(P('public', im.slice(1)), { force: true }); }
+        }
+        report.deleted.push(id);
+      } else report.warnings.push(`Строка ${line}: товара ${id || first['Название']} нет, удалять нечего`);
       continue;
     }
     const isNew = !f || !fs.existsSync(f);
