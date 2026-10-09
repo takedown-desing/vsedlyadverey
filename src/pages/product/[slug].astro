@@ -30,7 +30,8 @@ const h1 = (p as any).h1 || p.name;
 const title = withFinish.length <= 55 ? `${withFinish}: купить, цена` : p.name.length <= 60 ? `${p.name}: купить` : p.name;
 const description = `${p.name} (${bname}${p.article ? ', арт. ' + p.article : ''}). ${p.variants.length > 1 ? p.variants.length + ' покрытий. ' : ''}${price ? 'Цена от ' + new Intl.NumberFormat('ru-RU').format(price) + ' ₽. ' : ''}Доставка по Москве и России.`;
 const topCat = CATEGORY_NAV.find((c) => p.category.startsWith(c.url))?.url || '';
-const similar = products.filter((x) => x.slug !== p.slug && x.category === p.category).slice(0, 4);
+// у товара без раздела «похожих» нет (иначе туда попадут случайные товары без раздела)
+const similar = p.category.startsWith('/catalog/') && p.category !== '/catalog/' ? products.filter((x) => x.slug !== p.slug && x.category === p.category).slice(0, 4) : [];
 const sameSeries = p.series ? products.filter((x) => x.slug !== p.slug && x.brand === p.brand && x.series === p.series).slice(0, 4) : [];
 const compatCats: Record<string, string[]> = {
   'dvernye-ruchki': ['/catalog/zavertki-i-nakladki/', '/catalog/mezhkomnatnye-zamki/', '/catalog/dvernye-petli/skrytye/'],
@@ -52,7 +53,7 @@ const schema: any[] = [{
 const pt = productTexts.get(p.slug);
 const myReviews = REVIEWS.filter((r) => r.product === p.slug);
 if (pt?.faq?.length) schema.push({ '@type': 'FAQPage', mainEntity: pt.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) } as any);
-const specs = Object.entries({ Производитель: bname, ...(p.series ? { Серия: p.series } : {}), ...(p.article ? { Артикул: p.article } : {}), ...(p.material ? { Материал: p.material } : {}), ...(p.specs || {}) });
+const specs = Object.entries({ ...(p.brand ? { Производитель: bname } : {}), ...(p.series ? { Серия: p.series } : {}), ...(p.article ? { Артикул: p.article } : {}), ...(p.material ? { Материал: p.material } : {}), ...(p.specs || {}) });
 ---
 <Base title={(p as any).title || title} description={(p as any).metaDescription || description} path={url} crumbs={crumbs} schema={schema} activeCat={topCat} image={(p as any).ogImage || v0.image} noindex={!!(p as any).noindex} canonicalUrl={(p as any).canonical}>
   <div class="wrap">
@@ -104,7 +105,7 @@ const specs = Object.entries({ Производитель: bname, ...(p.series ?
     {pt?.blocks?.length ? <section id="about" class="section" style="padding-top:0"><h2>Описание модели</h2>{p.description && pt.intro && <p class="lead-block" style="margin-bottom:26px">{p.description}</p>}<Blocks blocks={pt.blocks} level={3} /></section> : null}
     <h2 id="specs-h">Характеристики</h2>
     <section id="specs" class="two-col">
-      <table class="specs"><tbody>{specs.map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}</tbody></table>
+      {specs.length ? <table class="specs"><tbody>{specs.map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}</tbody></table> : <p style="color:var(--c-text-2)">Характеристики уточняются. Размеры, материал и совместимость с вашей дверью подскажет менеджер: {COMPANY.phoneMain}.</p>}
       <aside class="aside-box">
         <h3>Полезно</h3>
         <ul>
