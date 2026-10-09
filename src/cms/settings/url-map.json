@@ -1663,6 +1663,10 @@
     "url": "/product/proba-ruchka-alfa/",
     "fallback": "/catalog/"
   },
+  "products/proba-ruchka-delta": {
+    "url": "/product/proba-ruchka-delta/",
+    "fallback": "/catalog/dvernye-ruchki/na-rozetke/"
+  },
   "products/proba-upor-beta": {
     "url": "/product/proba-upor-beta/",
     "fallback": "/catalog/"
