@@ -16,9 +16,13 @@ import { u } from '../lib/url';
     const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     const run = async () => {
       if (!data) data = await (await fetch(idx)).json();
-      const terms = q.value.toLowerCase().replace(/ё/g, 'е').split(/\s+/).filter((t) => t.length > 1).map((t) => t.slice(0, Math.max(3, t.length - 2)));
+      // основа слова: без двух последних букв, но не короче 4 (иначе «проба» → «про» находит всё подряд)
+      const words = q.value.toLowerCase().replace(/ё/g, 'е').split(/[\s,.:;]+/).filter((t) => t.length > 1);
+      const terms = words.map((t) => (t.length <= 4 ? t : t.slice(0, Math.max(4, t.length - 2))));
       if (!terms.length) { res.innerHTML = ''; info.textContent = ''; return; }
-      const hits = data.filter((d) => terms.every((t) => d.s.includes(t))).slice(0, 60);
+      // выше те, где слова есть в названии, и целиком, а не основой
+      const score = (d) => { const n = d.n.toLowerCase().replace(/ё/g, 'е'); return terms.reduce((sum, t, i) => sum + (n.includes(words[i]) ? 3 : n.includes(t) ? 2 : 0), 0); };
+      const hits = data.filter((d) => terms.every((t) => d.s.includes(t))).map((d) => [score(d), d]).sort((a, b) => b[0] - a[0]).map((x) => x[1]).slice(0, 60);
       info.textContent = hits.length ? `Найдено: ${hits.length}` : 'Ничего не найдено. Попробуйте другое слово или откройте каталог.';
       res.innerHTML = hits.map((h) => `<article class="card"><a class="card-img" href="${base}${h.u}"><img src="${base}${h.i || 'images/no-photo.svg'}" alt="${esc(h.n)}" loading="lazy"></a><div class="card-brand">${esc(h.b)}</div><a class="card-name" href="${base}${h.u}">${esc(h.n)}</a><div class="card-price">${h.p ? new Intl.NumberFormat('ru-RU').format(h.p) + ' ₽' : '<small>Цена по запросу</small>'}</div></article>`).join('');
     };
