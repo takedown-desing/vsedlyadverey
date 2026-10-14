@@ -10,7 +10,8 @@ const catalog = JSON.parse(fs.readFileSync(path.resolve('src/cms/settings/catalo
 const out = path.resolve('public/admin/config.yml');
 
 const REPO = 'takedown-desing/vsedlyadverey';
-const SITE_URL = 'https://takedown-desing.github.io/vsedlyadverey/';
+// адрес сайта: те же переменные, что у astro.config.mjs (при переезде на домен SITE_URL=https://домен BASE_PATH=/)
+const SITE_URL = (process.env.SITE_URL || 'https://takedown-desing.github.io').replace(/\/$/, '') + (process.env.BASE_PATH ?? '/vsedlyadverey').replace(/\/$/, '') + '/';
 
 const byType = (types) => registry.filter((p) => types.includes(p.type) && p.priority !== 'OFF');
 const opt = (p) => ({ label: `${p.h1} (${p.url})`, value: p.url });
