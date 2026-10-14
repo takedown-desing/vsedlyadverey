@@ -196,7 +196,7 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
     <section class="section">
       <div class="lead-banner">
         <div><h2>{lead.title || 'Поможем подобрать фурнитуру'}</h2><p>{lead.text}</p></div>
-        <form class="lead-form" data-demo-form><label class="sr-only" for="lf">Телефон</label><input id="lf" name="contact" type="tel" placeholder="Телефон" required /><button class="btn btn-accent" type="submit">{lead.button || 'Перезвоните мне'}</button></form>
+        <form class="lead-form" data-form="lead"><label class="sr-only" for="lf">Телефон</label><input id="lf" name="contact" type="tel" placeholder="Телефон" required /><button class="btn btn-accent" type="submit">{lead.button || 'Перезвоните мне'}</button></form>
       </div>
     </section>
 
@@ -227,6 +227,5 @@ const schema = [{ '@type': 'WebSite', name: SITE_NAME, url: abs(Astro.site, '/')
         root.querySelectorAll<HTMLElement>('[data-panel]').forEach((p) => { p.hidden = p.dataset.panel !== b.dataset.tab; });
       }));
     });
-    document.querySelectorAll<HTMLFormElement>('[data-demo-form]').forEach((f) => f.addEventListener('submit', (e) => { e.preventDefault(); f.innerHTML = '<p>Спасибо! Сайт в тестовом режиме: заявка пока не отправляется, позвоните нам по телефону.</p>'; }));
   </script>
 </Base>

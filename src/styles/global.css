@@ -44,6 +44,8 @@ p { margin: 0 0 1em; }
 
 /* ---------- демо-лента */
 .demo-bar { background: var(--c-sand-l); border-bottom: 1px solid var(--c-sand); font-size: 13px; text-align: center; padding: 6px 16px; color: #5b5134; }
+.form-done { font-weight: 500; color: var(--c-ok); }
+.form-err { font-size: 13px; color: #b42318; margin: 8px 0 0; }
 .demo-bar a { color: inherit; font-weight: 500; white-space: nowrap; }
 
 /* ---------- левая панель категорий */

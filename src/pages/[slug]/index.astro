@@ -20,7 +20,7 @@ const sale = url === '/sale/' ? products.filter((p) => p.variants.length >= 3).s
 const crumbs = [{ url: '/', name: 'Главная' }, { url, name: s?.h1 || h1 }];
 const fallback = legal
   ? `Документ готовится. Оператор персональных данных и продавец: ${COMPANY.legalName}, ИНН ${COMPANY.inn}, ОГРН ${COMPANY.ogrn}, ${COMPANY.legalAddress}.\n\nПо вопросам обработки персональных данных и условий продажи: ${PHONE}.`
-  : url === '/sale/' ? 'Подборка моделей с выбором покрытий. Сайт работает в тестовом режиме, скидки пока не рассчитываются: актуальные акции уточняйте у менеджера.'
+  : url === '/sale/' ? 'Подборка моделей с выбором покрытий. Актуальные акции и скидки уточняйте у менеджера.'
   : `Раздел в подготовке. Телефон: ${PHONE}.`;
 ---
 {type === 'door-type' ? <SectionPage url={url} /> : (
@@ -32,7 +32,7 @@ const fallback = legal
       {type === 'b2b' && (
         <section class="section">
           <h2>Оставить заявку</h2>
-          <form class="form" data-demo-form>
+          <form class="form" data-form="b2b">
             <label class="sr-only" for="n">Имя</label><input id="n" name="name" placeholder="Имя" required />
             <label class="sr-only" for="ph">Телефон</label><input id="ph" name="phone" placeholder="Телефон" type="tel" required />
             <label class="sr-only" for="m">Сообщение</label><textarea id="m" name="msg" placeholder="Что нужно подобрать?"></textarea>
@@ -44,6 +44,3 @@ const fallback = legal
     </div>
   </Base>
 )}
-<script>
-  document.querySelectorAll<HTMLFormElement>('[data-demo-form]').forEach((f) => f.addEventListener('submit', (e) => { e.preventDefault(); f.innerHTML = '<p>Спасибо! В рабочей версии заявка уйдёт менеджеру.</p>'; }));
-</script>

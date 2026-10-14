@@ -168,6 +168,23 @@ const topBrands = BRANDS.filter((b) => b.tier === 'A');
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+  <script define:vars={{ apiBase: u('/api/'), phone: PHONE }}>
+    // --- формы: заявка уходит на сервер (server/api.mjs). Ответа нет (сервер не поднят, нет сети): показываем телефон, данные не теряем
+    // перехват на document: форма корзины создаётся скриптом после загрузки страницы
+    document.addEventListener('submit', async (e) => {
+      const f = e.target.closest('form[data-form]'); if (!f) return;
+      e.preventDefault();
+      const btn = f.querySelector('button[type=submit], button:not([type])'); if (btn) { btn.disabled = true; btn.textContent = 'Отправляем…'; }
+      const data = Object.fromEntries(new FormData(f).entries());
+      const body = { kind: f.dataset.form, page: location.href, ...data, ...(f.dataset.payload ? JSON.parse(f.dataset.payload) : {}) };
+      let ok = false;
+      try { const r = await fetch(apiBase + (f.dataset.form === 'order' ? 'order' : 'lead'), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }); ok = r.ok; } catch {}
+      if (ok) { f.dispatchEvent(new Event('form:sent')); f.innerHTML = '<p class="form-done">Спасибо! Заявка отправлена, менеджер свяжется с вами в рабочее время.</p>'; return; }
+      if (btn) { btn.disabled = false; btn.textContent = f.dataset.form === 'order' ? 'Оформить заказ' : 'Отправить'; }
+      let err = f.querySelector('.form-err'); if (!err) { err = document.createElement('p'); err.className = 'form-err'; f.appendChild(err); }
+      err.textContent = 'Не удалось отправить заявку. Позвоните нам: ' + phone + ', или попробуйте ещё раз через минуту.';
+    });
+  </script>
   <script>
     // --- мобильная панель
     const rail = document.getElementById('rail'); const burger = document.getElementById('burger');
